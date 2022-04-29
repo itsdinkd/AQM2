@@ -1,0 +1,8 @@
+merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson", "Dinkds Wares", "DaddyDanked Mart", "Jini Sales", "SebaHut"]
+feedingTroughRange = 8
+feedingTroughMaxAnimals = 10
+chickenNestRange = 8
+fertilizerBonusCropChance = 1.2
+fertilizerBonusGrowthChance = 1.2
+fertilizerRegressionChance = 0.1
+showRegistryWarnings = false

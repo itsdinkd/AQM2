@@ -1,0 +1,10 @@
+{
+    "hidden": true,
+    "condition": {
+        "inverted": true,
+        "type": "origins:on_block"
+    },
+    "type": "origins:exhaust",
+    "interval": 50,
+    "exhaustion": 1
+}

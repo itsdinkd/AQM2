@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "grounded_origins:beach_crab/home",
+        "grounded_origins:beach_crab/rave",
+        "grounded_origins:beach_crab/krusty",
+        "grounded_origins:beach_crab/legs_n_chelipeds",
+        "grounded_origins:beach_crab/crawler",
+        "grounded_origins:beach_crab/pincers",
+        "grounded_origins:beach_crab/shell",
+        "grounded_origins:beach_crab/crustacean_gills",
+        "origins:aqua_affinity",
+        "grounded_origins:beach_crab/seagrass_appetite",
+        "origins:no_shield",
+        "grounded_origins:beach_crab/crab_skin"
+    ],
+    "icon": "grounded_origins:beach_crab_icon",
+    "order": 0,
+    "impact": 2,
+    "loading_priority": 100
+}

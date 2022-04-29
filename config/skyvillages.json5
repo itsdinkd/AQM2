@@ -1,0 +1,26 @@
+{
+	/* 
+	   
+	    [Sky Village Spawning Settings]
+	    Basic configuration options for this structure
+	    'Spacing' and 'Separation' values are useful if you want to tweak
+	    the amount of structures that generate.
+	    Keep in mind that spacing has to be higher than separation.
+	    I.e.: skyVillageSpacing = 1, skyVillageSeparation = 0 will generate structures on every chunk."
+	*/
+	"skyVillageGenerates": true,
+	// Base distance between Sky Villages (in chunks). Must be higher than separation.
+	"skyVillageSpacing": 74,
+	// Base distance between Sky Villages (in chunks)
+	"skyVillageSeparation": 32,
+	// Number of Jigsaw iterations when generating a structure.
+	"skyVillageSize": 10,
+	// The height at which Sky Villages will generate.
+	"skyVillageHeight": 50,
+	/* 
+	   If true, the structure will generate based on (surface height + skyVillageHeight).
+	   This may cause issues if the skyVillageHeight number is too high.
+	   Change to 'false' if you want the Sky Village to always spawn at a fixed Y coordinate (skyVillageHeight)."
+	*/
+	"skyVillageHeightSurface": true
+}

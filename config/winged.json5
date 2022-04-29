@@ -1,0 +1,112 @@
+{
+	"removeWingsDamage": 12.0,
+	"keepWingsAfterDeath": true,
+	"wingRemovalBrokenCore": true,
+	"lootTables": {
+		"abandonedMineshaft": {
+			"core": {
+				"generate": true,
+				"broken": true,
+				"chance": 0.06000000238418579
+			},
+			"shard": {
+				"generate": true,
+				"chance": 0.20000000298023224
+			}
+		},
+		"buriedTreasure": {
+			"core": {
+				"generate": true,
+				"broken": true,
+				"chance": 0.09000000357627869
+			},
+			"shard": {
+				"generate": true,
+				"chance": 0.20000000298023224
+			}
+		},
+		"simpleDungeon": {
+			"core": {
+				"generate": true,
+				"broken": true,
+				"chance": 0.07000000029802322
+			},
+			"shard": {
+				"generate": true,
+				"chance": 0.20000000298023224
+			}
+		},
+		"woodlandMansion": {
+			"core": {
+				"generate": true,
+				"broken": true,
+				"chance": 0.07999999821186066
+			},
+			"shard": {
+				"generate": true,
+				"chance": 0.20000000298023224
+			}
+		},
+		"endCityTreasure": {
+			"core": {
+				"generate": true,
+				"broken": false,
+				"chance": 0.10000000149011612
+			},
+			"shard": {
+				"generate": true,
+				"chance": 0.30000001192092896
+			}
+		},
+		"blackFeather": {
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.012999999336898327,
+			"lootingMultiplier": 0.010999999940395355
+		},
+		"friedChicken": {
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.019999999552965164,
+			"lootingMultiplier": 0.012000000104308128
+		},
+		"demonicFlesh": {
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.02199999988079071,
+			"lootingMultiplier": 0.0139999995008111
+		},
+		"endermanIrrealityCrystal": {
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.04999999701976776,
+			"lootingMultiplier": 0.02199999988079071
+		},
+		"endermiteIrrealityCrystal": {
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.20000001788139343,
+			"lootingMultiplier": 0.12999999523162842
+		},
+		"batWing": {
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.029999999329447746,
+			"lootingMultiplier": 0.009999999776482582
+		},
+		"vexEssence": {
+			"drop": true,
+			"requirePlayer": true,
+			"chance": 0.07000000029802322,
+			"lootingMultiplier": 0.02499999850988388
+		},
+		"holidayDrops": {
+			"drop": false,
+			"requirePlayer": true,
+			"standardChance": 1.9997764866275247E-6,
+			"creativeFlightChance": 0.0,
+			"lootingMultiplier": 0.004999999888241291
+		},
+		"enderdragonDropsHeartOfTheSky": false
+	}
+}

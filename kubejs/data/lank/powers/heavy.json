@@ -1,0 +1,23 @@
+{
+    "name": "Heavy",
+    "description": "Due to being made out of metal, you are to heavy to swim and will sink in water",
+    "type": "origins:multiple",
+    "o___0": {
+        "type": "origins:ignore_water"
+    },
+    "o___1": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "addition",
+            "value": -0.075
+        },
+        "tick_rate": 20,
+        "update_health": false
+    }
+}

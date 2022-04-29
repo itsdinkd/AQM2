@@ -1,0 +1,8 @@
+{
+    "name": "Croparia Guide",
+    "landing_text": "WELCOME IN CROPARIA ! YOU WILL LEARN HOW TO CRAFT SOME CROPS, ARMORS, TOOLS AND SO MUCH MORE !",
+    "version": 1,
+    "book_texture": "patchouli:textures/gui/book_purple.png",	
+    "model": "croparia:book",
+    "creative_tab": "croparia.main"
+}

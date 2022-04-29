@@ -1,0 +1,14 @@
+{
+    "name": "Accelerating",
+    "icon": "croparia:accelerator",
+    "category": "croparia:new_craft_category",
+    "pages": [       
+        {
+            "type": "patchouli:spotlight",
+            "item": "croparia:accelerator",
+            "title" : "Accelerator",
+            "text": "Place up to 5 of them under crops to make them grow faster."
+        }
+    ],
+    "sortnum": 5
+}

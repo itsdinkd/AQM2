@@ -1,0 +1,25 @@
+{
+  "modId": "sandwichable",
+  "group": {
+    "name": "Sandwichable Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:diamond"
+    },
+    "defaultCategory": "sandwichable:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "sandwichable:lettuce_seeds"
+    },
+    {
+      "output": "sandwichable:onion_seeds"
+    },
+    {
+      "output": "sandwichable:tomato_seeds"
+    },
+    {
+      "output": "sandwichable:cucumber_seeds"
+    }
+  ]
+}

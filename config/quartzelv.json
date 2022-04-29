@@ -1,0 +1,7 @@
+{
+  "quartzElevatorDistance": 16,
+  "smoothQuartzElevatorDistance": 96,
+  "mixTypes": false,
+  "isPlayerOnly": false,
+  "displayParticles": true
+}

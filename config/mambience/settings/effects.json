@@ -1,0 +1,122 @@
+[
+	{
+		"type": "fire_jet",
+		"parameters": [],
+		"block": "minecraft:lava",
+		"blockAbove": "minecraft:air",
+		"blockBelow": "",
+		"chance": 0.05,
+		"conditions": [],
+		"restrictions": []
+	},
+	{
+		"type": "fireflies",
+		"parameters": [],
+		"block": "minecraft:grass",
+		"blockAbove": "",
+		"blockBelow": "",
+		"chance": 1,
+		"conditions": [
+			{
+                "condition": "TIME_NIGHT"
+            }
+		],
+		"restrictions": [
+			{
+                "condition": "BIOME_GROUP",
+                "stringValue": "desert",
+                "floatValue": 0.3f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "savanna",
+                "floatValue": 0.3f
+            }
+		]
+	},
+	{
+		"type": "dust_wind",
+		"parameters": ["minecraft:sand"],
+		"block": "minecraft:sand",
+		"blockAbove": "minecraft:air",
+		"blockBelow": "",
+		"chance": 1,
+		"conditions": [
+			{
+                "condition": "BIOME_GROUP",
+                "stringValue": "desert",
+                "floatValue": 0.3f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+		],
+		"restrictions": [
+			{
+                "condition": "UNDERGROUND"
+            }
+		]
+	},
+	{
+		"type": "falling_leaves",
+		"parameters": ["minecraft:oak_leaves"],
+		"block": "minecraft:oak_leaves",
+		"blockAbove": "",
+		"blockBelow": "minecraft:air",
+		"chance": 1,
+		"conditions": [],
+		"restrictions": []
+	},
+	{
+		"type": "falling_leaves",
+		"parameters": ["minecraft:spruce_leaves"],
+		"block": "minecraft:spruce_leaves",
+		"blockAbove": "",
+		"blockBelow": "minecraft:air",
+		"chance": 1,
+		"conditions": [],
+		"restrictions": []
+	},
+	{
+		"type": "falling_leaves",
+		"parameters": ["minecraft:birch_leaves"],
+		"block": "minecraft:birch_leaves",
+		"blockAbove": "",
+		"blockBelow": "minecraft:air",
+		"chance": 1,
+		"conditions": [],
+		"restrictions": []
+	},
+	{
+		"type": "falling_leaves",
+		"parameters": ["minecraft:jungle_leaves"],
+		"block": "minecraft:jungle_leaves",
+		"blockAbove": "",
+		"blockBelow": "minecraft:air",
+		"chance": 1,
+		"conditions": [],
+		"restrictions": []
+	},
+	{
+		"type": "falling_leaves",
+		"parameters": ["minecraft:acacia_leaves"],
+		"block": "minecraft:acacia_leaves",
+		"blockAbove": "",
+		"blockBelow": "minecraft:air",
+		"chance": 1,
+		"conditions": [],
+		"restrictions": []
+	},
+	{
+		"type": "falling_leaves",
+		"parameters": ["minecraft:dark_oak_leaves"],
+		"block": "minecraft:dark_oak_leaves",
+		"blockAbove": "",
+		"blockBelow": "minecraft:air",
+		"chance": 1,
+		"conditions": [],
+		"restrictions": []
+	}
+]

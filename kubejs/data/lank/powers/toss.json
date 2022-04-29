@@ -1,0 +1,52 @@
+{
+    "name": "Toss",
+    "description": "Use your strong arms to toss enemies in front of you into the air",
+    "condition": {
+        "inverted": false,
+        "type": "origins:power_active",
+        "power": "lank:toss_toggle"
+    },
+    "type": "origins:target_action_on_hit",
+    "damage_condition": {
+        "inverted": true,
+        "type": "origins:projectile"
+    },
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "radius": 4,
+        "include_target": true,
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:living"
+                    },
+                    {
+                        "inverted": true,
+                        "type": "origins:power",
+                        "power": "lank:toss"
+                    }
+                ]
+            }
+        },
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:add_velocity",
+                "y": 1,
+                "space": "world",
+                "client": true,
+                "server": true,
+                "set": true
+            }
+        }
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 16
+    }
+}

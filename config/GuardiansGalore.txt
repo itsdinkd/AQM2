@@ -1,0 +1,134 @@
+Config MOB properties here
+
+Important! Do not modify the value of the config version in this file or the mod may overwrite custom settings.
+[Global] Config Version: 3
+
+Particles: turns guardians' ambient particle effect on/off
+
+Glow: used to adjust how bright a guardian appears (the strength of the glow effect)
+
+Loudness: sets the volume of guardians' ambient noises
+
+Health: sets the max health the the guardian
+
+Speed: sets the max speed at which guardians travel
+
+Attack: sets the amount of damage for guardian's melee attacks
+
+Diet: sets the kinds of food the guardian will eat
+
+-------------------------------------------------------------
+
+[Global] Enable Respawn for Tamed Guardians: off
+
+Bear Particles: on
+Bear Glow: 200
+Bear Loudness: 40
+Bear Health: 48
+Bear Speed: 0.39000001192092896
+Bear Attack: 12
+Bear Diet: omnivore
+
+Boar Particles: on
+Boar Glow: 200
+Boar Loudness: 30
+Boar Health: 36
+Boar Speed: 0.38000001192092896
+Boar Attack: 10
+Boar Diet: herbivore
+
+Chicken Particles: on
+Chicken Glow: 200
+Chicken Loudness: 40
+Chicken Health: 24
+Chicken Speed: 0.38000001192092896
+Chicken Attack: 7
+Chicken Diet: herbivore
+
+Cricket Particles: on
+Cricket Glow: 200
+Cricket Loudness: 30
+Cricket Health: 10
+Cricket Speed: 0.50000001192092896
+Cricket Attack: 7
+Cricket Diet: herbivore
+
+Deer Particles: on
+Deer Glow: 200
+Deer Loudness: 40
+Deer Health: 38
+Deer Speed: 0.40000001192092896
+Deer Attack: 8
+Deer Diet: herbivore
+
+Dove Particles: on
+Dove Glow: 200
+Dove Loudness: 40
+Dove Health: 16
+Dove Speed: 0.30000001192092896
+Dove Attack: 4
+Dove Diet: herbivore
+
+Dragon Particles: on
+Dragon Glow: 200
+Dragon Loudness: 40
+Dragon Health: 50
+Dragon Speed: 0.43000001192092896
+Dragon Attack: 14
+Dragon Diet: omnivore
+
+Fox Particles: on
+Fox Glow: 200
+Fox Loudness: 35
+Fox Health: 30
+Fox Speed: 0.40000001192092896
+Fox Attack: 6
+Fox Diet: omnivore
+
+Liondog Particles: on
+Liondog Glow: 200
+Liondog Loudness: 35
+Liondog Health: 34
+Liondog Speed: 0.36000001192092896
+Liondog Attack: 8
+Liondog Diet: omnivore
+
+Rabbit Particles: on
+Rabbit Glow: 200
+Rabbit Loudness: 40
+Rabbit Health: 15
+Rabbit Speed: 0.50000001192092896
+Rabbit Attack: 4
+Rabbit Diet: herbivore
+
+Raven Particles: on
+Raven Glow: 200
+Raven Loudness: 30
+Raven Health: 35
+Raven Speed: 0.33000001192092896
+Raven Attack: 5
+Raven Diet: omnivore
+
+Toad Particles: on
+Toad Glow: 200
+Toad Loudness: 35
+Toad Health: 22
+Toad Speed: 0.45000001192092896
+Toad Attack: 4
+Toad Diet: omnivore
+
+Tortoise Particles: on
+Tortoise Glow: 200
+Tortoise Loudness: 30
+Tortoise Health: 30
+Tortoise Speed: 0.25000001192092896
+Tortoise Attack: 7
+Tortoise Diet: herbivore
+
+Wolf Particles: on
+Wolf Glow: 200
+Wolf Loudness: 40
+Wolf Health: 30
+Wolf Speed: 0.32000001192092896
+Wolf Attack: 9
+Wolf Diet: omnivore

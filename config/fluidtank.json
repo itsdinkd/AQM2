@@ -1,0 +1,18 @@
+{
+  "capacity": {
+    "wood": 4,
+    "stone": 16,
+    "iron": 256,
+    "gold": 4096,
+    "diamond": 16384,
+    "emerald": 65536,
+    "star": 1048576,
+    "copper": 32,
+    "tin": 64,
+    "bronze": 512,
+    "lead": 256,
+    "silver": 1024
+  },
+  "enableUpdateRecipe": true,
+  "enableAE2Integration": true
+}

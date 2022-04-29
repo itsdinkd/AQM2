@@ -1,0 +1,83 @@
+type = hud
+
+customization-meta {
+  autoscale_baseheight = 1080
+  renderorder = foreground
+  autoscale_basewidth = 1920
+  scale = 3
+  backgroundcolor = 000000
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  x = 1
+  action = editprogressbar
+  y = -158
+  barcolor = ffffff
+}
+
+customization {
+  path = bg/load-wave-purple.png
+  orientation = bottom-centered
+  x = 0
+  width = 860
+  action = addtexture
+  actionid = 62961f5b-162b-43b1-9a05-d4d054140eaf1635990710654
+  y = 1
+  height = 194
+}
+
+customization {
+  path = config/fancymenu/assets/bhamlogo.png
+  orientation = top-centered
+  x = 0
+  width = 203
+  action = addtexture
+  actionid = 3cc9fdb2-c3f2-4a01-b3bd-a40399aaf5f41635990748923
+  y = 14
+  height = 100
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 4
+  textcolor = #ffffff
+  action = addtext
+  actionid = 745e90e5-95f0-4d47-8189-1ec2b7d95d511635992053260
+  y = -2
+  scale = 1.0
+  alignment = left
+  value = %totalmods% Mods Loaded
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 4
+  textcolor = #ffffff
+  action = addtext
+  actionid = e66f6e34-e756-4144-923c-8c7df5e278051635992370515
+  y = 7
+  scale = 1.0
+  alignment = left
+  value = %fps%
+}
+
+customization {
+  orientation = bottom-right
+  shadow = true
+  x = -3
+  textcolor = #ffffff
+  action = addtext
+  actionid = d6eb9cb9-debd-49f1-9ea7-4292e99827101635992610415
+  y = -2
+  scale = 1.0
+  alignment = left
+  value = %usedram%mb / %maxram%mb (%percentram%)
+}
+

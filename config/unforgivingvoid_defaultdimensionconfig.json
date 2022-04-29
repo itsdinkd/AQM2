@@ -1,0 +1,10 @@
+{
+  "isEnabled": true,
+  "triggerDistance": 32,
+  "dropObsidian": true,
+  "fireResistanceSeconds": 30,
+  "slowFallingSeconds": 5,
+  "horizontalDistanceOffset": 128,
+  "targetDimension": "the_nether",
+  "transferPositionMode": "SIMILAR"
+}

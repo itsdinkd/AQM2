@@ -1,0 +1,28 @@
+{
+    "pools": [
+    {
+        "name": "main",
+        "rolls": 1,
+        "entries": [
+        {
+            "type": "item",
+            "weight": 1,
+            "name": "doom:inmortalsphere"
+        },
+        {
+            "type": "item",
+            "weight": 1,
+            "name": "doom:invisiblesphere"
+        },
+        {
+            "type": "item",
+            "weight": 1,
+            "name": "doom:megasphere"
+        },
+        {
+            "type": "item",
+            "weight": 1,
+            "name": "doom:powersphere"
+        }]
+    }]
+}

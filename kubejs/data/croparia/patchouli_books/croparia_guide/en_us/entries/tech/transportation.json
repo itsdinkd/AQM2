@@ -1,0 +1,39 @@
+{
+    "name": "Batteries and Wires",
+    "icon": "croparia:insulated_wire",
+    "category": "croparia:tech_category",
+    "pages": [
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:battery",
+            "text": "Simple way to stock created energy. Orange port are outputs, and Blue ports are inputs",
+        	"title": "Battery"
+       	},
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:wire",
+            "text": "Simple wire. Be carefull, touching wires is dangerous !",
+        	"title": "Wires"
+       	},
+       	{
+        	"type": "patchouli:smelting",
+        	"recipe": "croparia:rubber",
+            "text": "It will be usefull to make Insulated Wires.",
+        	"title": "Rubber"
+       	},
+        {
+            "type": "patchouli:spotlight",
+            "item": "croparia:insulated_wire",
+            "title" : "Insulated Wire",
+            "text": "Insulated Wire; Use rubber on it to protect yourself"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "croparia:rf_meter",
+            "title" : "RF Meter",
+            "text": "See your RF Metrics"
+        }
+        
+    ],
+    "sortnum": 1
+}

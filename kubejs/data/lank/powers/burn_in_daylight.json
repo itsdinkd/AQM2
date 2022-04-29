@@ -1,0 +1,24 @@
+{
+    "name": "Photoallergic",
+    "description": "Being in daylight causes you to burn\n\"Should have brought my sunscreen\"",
+    "condition": {
+        "inverted": false,
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": false,
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "inverted": false,
+                "type": "origins:resource",
+                "resource": "lank:bat_bool",
+                "comparison": "!=",
+                "compare_to": 1
+            }
+        ]
+    },
+    "type": "origins:burn",
+    "interval": 20,
+    "burn_duration": 6
+}

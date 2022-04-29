@@ -1,0 +1,10 @@
+{
+    "values": {
+        "botania:doppleganger": {
+            "minecraft:generic.max_health": 1150.0,
+            "minecraft:generic.attack_damage": 35.0,
+            "minecraft:generic.armor": 13.0,
+            "minecraft:generic.armor_toughness": 6.0
+        }
+    }
+}

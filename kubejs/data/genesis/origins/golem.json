@@ -1,0 +1,11 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:iron_block",
+  "order": 10,
+  "impact": 3,
+  "name":"Golemborn",
+  "description": "Golemborn are few and far. Goliaths, like unto their forefathers, they retain some of their strength but only some of their size.",
+  "unchoosable": true,
+  "loading_priority": 100
+}

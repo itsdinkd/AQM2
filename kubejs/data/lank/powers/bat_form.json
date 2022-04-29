@@ -1,0 +1,68 @@
+{
+    "name": "Bat form(secondary)",
+    "description": "Transform into a bat, costing 2 blood per second. In bat form, you can fly and are do not burn in the sun, but only have 2 hearts and cannot use tools or weapons.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:if_else_list",
+                "actions": [
+                    {
+                        "condition": {
+                            "inverted": false,
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "inverted": false,
+                                    "type": "origins:resource",
+                                    "resource": "lank:bat_bool",
+                                    "comparison": "!=",
+                                    "compare_to": 1
+                                },
+                                {
+                                    "inverted": false,
+                                    "type": "origins:resource",
+                                    "resource": "lank:blood_meter",
+                                    "comparison": ">",
+                                    "compare_to": 2
+                                }
+                            ]
+                        },
+                        "action": {
+                            "type": "origins:change_resource",
+                            "resource": "lank:bat_bool",
+                            "change": 1,
+                            "operation": "add"
+                        }
+                    },
+                    {
+                        "condition": {
+                            "inverted": false,
+                            "type": "origins:resource",
+                            "resource": "lank:bat_bool",
+                            "comparison": "!=",
+                            "compare_to": 0
+                        },
+                        "action": {
+                            "type": "origins:change_resource",
+                            "resource": "lank:bat_bool",
+                            "change": -1,
+                            "operation": "add"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": false,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 16
+    },
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    }
+}

@@ -1,0 +1,38 @@
+{
+	/* Filter priorities:
+	   !isTome > whiteID > unstackable > !blackMod > whiteName
+	*/
+	"hi": "Erase to reset",
+	// Put a tome in a tome? Like folders?..
+	"allowAkashicTome": true,
+	// Whitelisted id's (regex)
+	"whitelistedItems": [
+		"item.minecraft.written_book"
+	],
+	// Only allow unstackable
+	"requireUnstackable": false,
+	// Mods to exclude
+	"blacklistedMods": [],
+	// Whitelisted names (regex) (lowerCase)
+	"whitelistedNames": [
+		"book.*",
+		".*tome.*",
+		".*lexicon",
+		".*nomicon",
+		".*manual.*",
+		".*knowledge.*",
+		".*pedia",
+		".*compendium.*",
+		".*guide.*",
+		".*codex.*",
+		".*journal.*"
+	],
+	// Enable all items
+	"bypassWhitelist": true,
+	// Use bundle-style tooltip instead
+	"bundleTooltip": true,
+	// Blacklisted id's (Use method) (regex)
+	"blacklistedUseItems": [
+		"item.minecraft.I fixed them for you"
+	]
+}

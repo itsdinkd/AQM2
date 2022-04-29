@@ -1,0 +1,19 @@
+{
+  "type": "magicfungi:glyph_recipe",
+
+  "inputA" : {
+    "item": "bosses_of_mass_destruction:obsidian_heart"
+  },
+  "inputB" : {
+    "item": "bewitchment:heaven_extract"
+  },
+  "inputC" : {
+    "item": "magicfungi:utilis_pickaxe"
+  },
+  "inputD" : {
+    "item": "mythicmetals:metallurgium_sword"
+  },
+
+  "outputItem": "magicfungi:impetus_sword",
+  "outputAmount": "1"
+}

@@ -1,0 +1,24 @@
+{
+  "replace":"false",
+    "values": [
+      "minecraft:axolotl",
+      "minecraft:creeper",
+      "elementalcreepers:air_creeper",
+      "elementalcreepers:cookie_creeper",
+      "elementalcreepers:dark_creeper",
+      "elementalcreepers:earth_creeper",
+      "elementalcreepers:electric_creeper",
+      "elementalcreepers:air_creeper",
+      "elementalcreepers:fire_creeper",
+      "elementalcreepers:firework_creeper",
+      "elementalcreepers:hydrogen_creeper",
+      "elementalcreepers:ice_creeper",
+      "elementalcreepers:illusion_creeper",
+      "elementalcreepers:light_creeper",
+      "elementalcreepers:magma_creeper",
+      "elementalcreepers:miner_creeper",
+      "elementalcreepers:rainbow_creeper",
+      "elementalcreepers:reverse_creeper",
+      "elementalcreepers:water_creeper"
+    ]
+}

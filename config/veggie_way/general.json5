@@ -1,0 +1,79 @@
+{
+	/* ***********************
+	   Food Settings
+	   ***********************
+	*/
+	"fresh_tofu_hunger": 3,
+	"fresh_tofu_saturation": 0.30000001192092896,
+	"cooked_tofu_hunger": 4,
+	"cooked_tofu_saturation": 0.4000000059604645,
+	"cooked_carrot_hunger": 4,
+	"cooked_carrot_saturation": 0.800000011920929,
+	"cooked_beetroot_hunger": 2,
+	"cooked_beetroot_saturation": 0.800000011920929,
+	"corn_hunger": 3,
+	"corn_saturation": 0.20000000298023224,
+	"quinoa_hunger": 3,
+	"quinoa_saturation": 0.20000000298023224,
+	"soybean_hunger": 3,
+	"soybean_saturation": 0.20000000298023224,
+	"lentil_hunger": 3,
+	"lentil_saturation": 0.20000000298023224,
+	"melon_chunk_hunger": 2,
+	"melon_chunk_saturation": 0.10000000149011612,
+	"pumpkin_chunk_hunger": 2,
+	"pumpkin_chunk_saturation": 0.10000000149011612,
+	"cactus_chunk_hunger": 2,
+	"cactus_chunk_saturation": 0.10000000149011612,
+	"apple_pie_hunger": 6,
+	"apple_pie_saturation": 0.20000000298023224,
+	"melon_pie_hunger": 6,
+	"melon_pie_saturation": 0.20000000298023224,
+	"berry_pie_hunger": 6,
+	"berry_pie_saturation": 0.20000000298023224,
+	"cactus_pie_hunger": 6,
+	"cactus_pie_saturation": 0.20000000298023224,
+	"pumpkin_soup_hunger": 6,
+	"pumpkin_soup_saturation": 0.30000001192092896,
+	"cactus_soup_hunger": 6,
+	"cactus_soup_saturation": 0.30000001192092896,
+	"melon_soup_hunger": 6,
+	"melon_soup_saturation": 0.30000001192092896,
+	"carrot_soup_hunger": 6,
+	"carrot_soup_saturation": 0.30000001192092896,
+	"lentil_soup_hunger": 6,
+	"lentil_soup_saturation": 0.30000001192092896,
+	"super_petals_hunger": 6,
+	"super_petals_saturation": 0.800000011920929,
+	"energy_drink_hunger": 9,
+	"energy_drink_saturation": 0.20000000298023224,
+	"shake_hunger": 10,
+	"shake_saturation": 0.30000001192092896,
+	"smoothie_hunger": 10,
+	"smoothie_saturation": 0.30000001192092896,
+	"energyBar_hunger": 10,
+	"energyBar_saturation": 0.4000000059604645,
+	"superFoodBar_hunger": 12,
+	"superFoodBar_saturation": 0.6500000357627869,
+	"chocolate_bar_hunger": 4,
+	"chocolate_bar_saturation": 0.20000000298023224,
+	"fried_egg_hunger": 3,
+	"fried_egg_saturation": 0.20000000298023224,
+	/* ***********************
+	   Drying Agent
+	   ranges from 0.0 - 1.0
+	   ***********************
+	*/
+	"chanceSandOnTorch": 0.4000000059604645,
+	"dryingAgentDropFromSandEasy": true,
+	"seedsFromGrassEasy": true,
+	/* ***********************
+	   Item Max Uses
+	   ***********************
+	*/
+	"knifeMaxUses": 120,
+	"handScrapperMaxUses": 120,
+	"soyBucketMaxUses": 16,
+	"millMaxUses": 256,
+	"wateringCanMaxUses": 10
+}

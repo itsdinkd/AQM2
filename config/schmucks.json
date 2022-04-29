@@ -1,0 +1,18 @@
+{
+  "chaosMode": false,
+  "shortTemperChance": 5,
+  "leatherHelmetChance": 10,
+  "jobRange": 12,
+  "wandIndexEntity": 0,
+  "wandIndexRange": 0,
+  "wandRange": 32,
+  "wandRenderDistance": 2048,
+  "jobInterval": {
+    "min": 200,
+    "max": 400
+  },
+  "toolInterval": {
+    "min": 40,
+    "max": 40
+  }
+}

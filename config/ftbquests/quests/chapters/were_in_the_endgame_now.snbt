@@ -1,0 +1,170 @@
+{
+	id: "08E933695057E910"
+	group: "529B8499DEC935D4"
+	order_index: 0
+	filename: "were_in_the_endgame_now"
+	title: "We're in the Endgame now"
+	icon: {
+		id: "kibe:angel_ring"
+		Count: 1b
+		tag: { }
+	}
+	subtitle: ["Is there really anything else to call it?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "You have won"
+			description: ["Congrats you have made the hardest item in the game."]
+			dependencies: ["6912B0F3A6A06069"]
+			id: "641B13F19713CF5F"
+			tasks: [{
+				id: "4DBFD52D29222381"
+				type: "item"
+				item: "techreborn:quantum_chestplate"
+			}]
+			rewards: [{
+				id: "2073F5928A88220B"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			subtitle: "Under water breathing"
+			id: "0FE2BFCCBAAC9C29"
+			tasks: [{
+				id: "22170D95778B1719"
+				type: "item"
+				item: "techreborn:quantum_helmet"
+			}]
+			rewards: [{
+				id: "5807473B11FF2996"
+				type: "item"
+				item: "minecraft:firework_rocket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Run Fast"
+			id: "7DAA6E68A1184E08"
+			tasks: [{
+				id: "0A4D72B4940E60DF"
+				type: "item"
+				item: "techreborn:quantum_leggings"
+			}]
+			rewards: [{
+				id: "4D7A3CDE3272550B"
+				type: "item"
+				item: "techreborn:industrial_solar_panel"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			subtitle: "Jump High"
+			id: "1B7C883BBC2962E3"
+			tasks: [{
+				id: "5087D37572FBB21C"
+				type: "item"
+				item: "techreborn:quantum_boots"
+			}]
+			rewards: [{
+				id: "3C452C0F5E43F1B5"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Good luck"
+			description: ["Creative Flight"]
+			dependencies: [
+				"54356D1908BAB423"
+				"5DCBAD24802E5735"
+				"13426EC067660B5B"
+			]
+			id: "6912B0F3A6A06069"
+			tasks: [{
+				id: "554BA9EC7E9B5F7A"
+				type: "item"
+				item: {
+					id: "kibe:angel_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2FD44064BA1F78AB"
+				type: "toast"
+				icon: "minecraft:cookie"
+				auto: "enabled"
+				description: "Do you want a cookie?"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			subtitle: "Spooky"
+			description: ["Use an Assembler with some UU Matter to craft the Cursed Gem."]
+			dependencies: [
+				"13426EC067660B5B"
+				"5DCBAD24802E5735"
+				"54356D1908BAB423"
+			]
+			id: "01804CA59BAD3478"
+			tasks: [{
+				id: "68ECA269A4570723"
+				type: "item"
+				item: "kubejs:cursed_gem"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: ["Kill the Arch Makyr to obtain a Corupted Emerald."]
+			dependencies: ["4FDF85B3FD6D691B"]
+			id: "5DCBAD24802E5735"
+			tasks: [{
+				id: "4FBDD2D101709C3D"
+				type: "item"
+				item: "kubejs:corrupted_emerald"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			description: ["Kill the Mother Of Demon to obtain a Demon Pearl."]
+			dependencies: ["5C3324C5094EA33B"]
+			id: "13426EC067660B5B"
+			tasks: [{
+				id: "378C30CAED064F38"
+				type: "item"
+				item: "kubejs:demon_pearl"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			description: ["Get a Star Of Icon by killing the Icon of Sin."]
+			dependencies: ["075E9ED31928FCFA"]
+			id: "54356D1908BAB423"
+			tasks: [{
+				id: "54CF1CFE643B05AA"
+				type: "item"
+				item: "kubejs:star_of_icon"
+			}]
+		}
+	]
+}

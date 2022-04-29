@@ -1,0 +1,9 @@
+{
+    "name": "Undead ally",
+    "description": "Undead mobs are neutral towards you",
+    "type": "moborigins:remove_mob_hostility",
+    "entity_condition": {
+        "type": "origins:entity_group",
+        "group": "undead"
+    }
+}

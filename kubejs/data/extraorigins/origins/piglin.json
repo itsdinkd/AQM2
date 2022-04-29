@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "golden_sword",
+  "order": 1,
+  "impact": 3,
+  "loading_priority": 100,
+  "unchoosable": true
+}

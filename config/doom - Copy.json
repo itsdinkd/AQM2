@@ -1,0 +1,376 @@
+{
+  "misc": {
+    "enable_all_villager_trades": false,
+    "enable_weaponsmith_trades": true,
+    "enable_toolsmith_trades": false,
+    "enable_mason_trades": true
+  },
+  "weapons": {
+    "crucible_marauder_max_damage": 5,
+    "enable_block_breaking": false,
+    "enable_noncenter": false,
+    "argent_bolt_damage": 12.5,
+    "bfgball_damage": 80.0,
+    "bfgball_damage_dragon": 30.0,
+    "bfgball_damage_aoe": 5.0,
+    "bullet_damage": 3.3,
+    "chaingun_bullet_damage": 2.9,
+    "energycell_damage": 1.2,
+    "rocket_damage": 15.0,
+    "shotgun_damage": 12.9,
+    "unmaykr_damage": 1.6
+  },
+  "spawn": {
+    "imp_biomes": [
+      "#nether"
+    ],
+    "imp_spawn_weight": 15,
+    "imp_min_group": 2,
+    "imp_max_group": 4,
+    "pinky_biomes": [
+      "#nether"
+    ],
+    "pinky_spawn_weight": 10,
+    "pinky_min_group": 1,
+    "pinky_max_group": 4,
+    "spectre_biomes": [
+      "#nether"
+    ],
+    "spectre_spawn_weight": 12,
+    "spectre_min_group": 2,
+    "spectre_max_group": 4,
+    "lost_soul_biomes": [
+      "#nether"
+    ],
+    "lost_soul_spawn_weight": 25,
+    "lost_soul_min_group": 1,
+    "lost_soul_max_group": 3,
+    "cacodemon_biomes": [
+      "#nether"
+    ],
+    "cacodemon_spawn_weight": 5,
+    "cacodemon_min_group": 1,
+    "cacodemon_max_group": 2,
+    "archvile_biomes": [
+      "#nether"
+    ],
+    "archvile_spawn_weight": 6,
+    "archvile_min_group": 1,
+    "archvile_max_group": 2,
+    "baron_biomes": [
+      "#nether"
+    ],
+    "baron_spawn_weight": 3,
+    "baron_min_group": 1,
+    "baron_max_group": 1,
+    "mancubus_biomes": [
+      "#nether"
+    ],
+    "mancubus_spawn_weight": 6,
+    "mancubus_min_group": 1,
+    "mancubus_max_group": 1,
+    "revenant_biomes": [
+      "#nether"
+    ],
+    "revenant_spawn_weight": 8,
+    "revenant_min_group": 1,
+    "revenant_max_group": 3,
+    "zombieman_biomes": [
+      "#nether"
+    ],
+    "zombieman_spawn_weight": 15,
+    "zombieman_min_group": 1,
+    "zombieman_max_group": 4,
+    "arachnotron_biomes": [
+      "#nether"
+    ],
+    "arachnotron_spawn_weight": 15,
+    "arachnotron_min_group": 1,
+    "arachnotron_max_group": 3,
+    "imp2016_biomes": [
+      "#nether"
+    ],
+    "imp2016_spawn_weight": 15,
+    "imp2016_min_group": 2,
+    "imp2016_max_group": 4,
+    "gargoyle_biomes": [
+      "#nether"
+    ],
+    "gargoyle_spawn_weight": 13,
+    "gargoyle_min_group": 1,
+    "gargoyle_max_group": 3,
+    "nightmare_biomes": [
+      "#nether"
+    ],
+    "nightmare_imp_spawn_weight": 10,
+    "nightmare_min_group": 1,
+    "nightmare_max_group": 4,
+    "chaingunner_biomes": [
+      "#nether"
+    ],
+    "chaingunner_spawn_weight": 14,
+    "chaingunner_min_group": 1,
+    "chaingunner_max_group": 4,
+    "shotgunguy_biomes": [
+      "#nether"
+    ],
+    "shotgunguy_spawn_weight": 15,
+    "shotgunguy_min_group": 1,
+    "shotgunguy_max_group": 4,
+    "marauder_biomes": [
+      "#nether"
+    ],
+    "marauder_spawn_weight": 2,
+    "marauder_min_group": 1,
+    "marauder_max_group": 1,
+    "pain_biomes": [
+      "#nether"
+    ],
+    "pain_spawn_weight": 4,
+    "pain_min_group": 1,
+    "pain_max_group": 2,
+    "hellknight_biomes": [
+      "#nether"
+    ],
+    "hellknight_spawn_weight": 4,
+    "hellknight_min_group": 1,
+    "hellknight_max_group": 2,
+    "hellknight2016_biomes": [
+      "#nether"
+    ],
+    "hellknight2016_spawn_weight": 3,
+    "hellknight2016_min_group": 1,
+    "hellknight2016_max_group": 1,
+    "cyberdemon_biomes": [
+      "#nether"
+    ],
+    "cyberdemon_spawn_weight": 3,
+    "cyberdemon_min_group": 1,
+    "cyberdemon_max_group": 1,
+    "unwilling_biomes": [
+      "#nether"
+    ],
+    "unwilling_spawn_weight": 15,
+    "unwilling_min_group": 1,
+    "unwilling_max_group": 3,
+    "possessed_scientist_biomes": [
+      "#nether"
+    ],
+    "possessed_scientist_spawn_weight": 15,
+    "possessed_scientist_min_group": 1,
+    "possessed_scientist_max_group": 3,
+    "possessed_soldier_biomes": [
+      "#nether"
+    ],
+    "possessed_soldier_spawn_weight": 13,
+    "possessed_soldier_min_group": 1,
+    "possessed_soldier_max_group": 3,
+    "mechazombie_biomes": [
+      "#nether"
+    ],
+    "mechazombie_spawn_weight": 12,
+    "mechazombie_min_group": 1,
+    "mechazombie_max_group": 3,
+    "cueball_biomes": [
+      "#nether"
+    ],
+    "cueball_spawn_weight": 15,
+    "cueball_min_group": 1,
+    "cueball_max_group": 2,
+    "prowler_biomes": [
+      "#nether"
+    ],
+    "prowler_spawn_weight": 15,
+    "prowler_min_group": 1,
+    "prowler_max_group": 3,
+    "impstone_biomes": [
+      "#nether"
+    ],
+    "impstone_spawn_weight": 15,
+    "impstone_min_group": 1,
+    "impstone_max_group": 2,
+    "gorenest_biomes": [
+      "#nether"
+    ],
+    "gorenest_spawn_weight": 5,
+    "gorenest_min_group": 1,
+    "gorenest_max_group": 1,
+    "tentacle_biomes": [
+      "#nether"
+    ],
+    "tentacle_spawn_weight": 6,
+    "tentacle_min_group": 1,
+    "tentacle_max_group": 2,
+    "cyberdemon2016_biomes": [
+      "#nether"
+    ],
+    "cyberdemon2016_spawn_weight": 3,
+    "cyberdemon2016_min_group": 1,
+    "cyberdemon2016_max_group": 1,
+    "tyrant_biomes": [
+      "#nether"
+    ],
+    "tyrant_spawn_weight": 3,
+    "tyrant_min_group": 1,
+    "tyrant_max_group": 1,
+    "spider_mastermind_biomes": [
+      "#nether"
+    ],
+    "spider_mastermind_spawn_weight": 5,
+    "spider_mastermind_min_group": 1,
+    "spider_mastermind_max_group": 1,
+    "whiplash_biomes": [
+      "#nether"
+    ],
+    "whiplash_spawn_weight": 4,
+    "whiplash_min_group": 1,
+    "whiplash_max_group": 1,
+    "doomhunter_biomes": [
+      "#nether"
+    ],
+    "doomhunter_spawn_weight": 4,
+    "doomhunter_min_group": 1,
+    "doomhunter_max_group": 1,
+    "possessed_worker_biomes": [
+      "#nether"
+    ],
+    "possessed_worker_spawn_weight": 15,
+    "possessed_worker_min_group": 1,
+    "possessed_worker_max_group": 3,
+    "armoredbaron_biomes": [
+      "#nether"
+    ],
+    "armoredbaron_spawn_weight": 3,
+    "armoredbaron_min_group": 1,
+    "armoredbaron_max_group": 1,
+    "summoner_biomes": [
+      "#nether"
+    ],
+    "summoner_spawn_weight": 4,
+    "summoner_min_group": 1,
+    "summoner_max_group": 2,
+    "motherdemon_biomes": [
+      ""
+    ],
+    "motherdemon_spawn_weight": 1,
+    "motherdemon_min_group": 1,
+    "motherdemon_max_group": 1,
+    "maykrdrone_biomes": [
+      ""
+    ],
+    "maykrdrone_spawn_weight": 12,
+    "maykrdrone_min_group": 1,
+    "maykrdrone_max_group": 2,
+    "bloodmaykr_biomes": [
+      ""
+    ],
+    "bloodmaykr_spawn_weight": 6,
+    "bloodmaykr_min_group": 1,
+    "bloodmaykr_max_group": 2,
+    "archmaykr_biomes": [
+      ""
+    ],
+    "archmaykr_spawn_weight": 1,
+    "archmaykr_min_group": 1,
+    "archmaykr_max_group": 1,
+    "gladiator_biomes": [
+      "#nether"
+    ],
+    "gladiator_spawn_weight": 1,
+    "gladiator_min_group": 1,
+    "gladiator_max_group": 1
+  },
+  "stats": {
+    "motherdemon_health": 1100.0,
+    "motherdemon_ranged_damage": 44.0,
+    "cueball_health": 6.0,
+    "tentacle_health": 70.0,
+    "tentacle_melee_damage": 13.0,
+    "turret_health": 6.0,
+    "turret_ranged_damage": 7.1,
+    "icon_health": 1337.0,
+    "icon_melee_damage": 38.9,
+    "imp_health": 20.0,
+    "imp_ranged_damage": 6.4,
+    "pinky_health": 60.0,
+    "pinky_melee_damage": 11.6,
+    "spectre_health": 75.0,
+    "spectre_melee_damage": 11.6,
+    "lost_soul_health": 10.0,
+    "lost_soul_melee_damage": 8.0,
+    "cacodemon_health": 90.0,
+    "cacodemon_ranged_damage": 13.2,
+    "archvile_health": 80.0,
+    "archvile_ranged_damage": 10.3,
+    "summoner_health": 140.0,
+    "summoner_ranged_damage": 15.0,
+    "prowler_health": 16.0,
+    "prowler_ranged_damage": 6.9,
+    "prowler_melee_damage": 6.2,
+    "maykrdrone_health": 20.0,
+    "maykrdrone_ranged_damage": 7.2,
+    "bloodmaykr_health": 75.0,
+    "bloodmaykr_ranged_damage": 12.3,
+    "archmaykr_health": 1200.0,
+    "archmaykr_ranged_damage": 38.6,
+    "baron_health": 310.0,
+    "baron_ranged_damage": 24.2,
+    "baron_melee_damage": 25.0,
+    "gladiator_health": 1240.0,
+    "gladiator_ranged_damage": 33.0,
+    "gladiator_melee_damage": 36.0,
+    "mancubus_health": 140.0,
+    "mancubus_melee_damage": 18.5,
+    "mancubus_ranged_damage": 15.0,
+    "revenant_health": 60.0,
+    "revenant_ranged_damage": 12.1,
+    "spider_mastermind_health": 160.0,
+    "spider_mastermind_ranged_damage": 15.3,
+    "spider_mastermind_melee_damage": 18.7,
+    "zombieman_health": 14.0,
+    "arachnotron_health": 50.0,
+    "arachnotron_ranged_damage": 8.2,
+    "imp2016_health": 20.0,
+    "imp2016_ranged_damage": 6.4,
+    "impstone_health": 26.0,
+    "impstone_melee_damage": 6.8,
+    "gargoyle_health": 24.0,
+    "gargoyle_ranged_damage": 6.6,
+    "gargoyle_melee_damage": 7.9,
+    "nightmare_imp_health": 34.0,
+    "nightmare_ranged_damage": 7.4,
+    "chaingunner_health": 14.0,
+    "shotgunguy_health": 16.0,
+    "marauder_health": 950.0,
+    "marauder_axe_damage": 30.0,
+    "marauder_ssgdamage": 34.5,
+    "pain_health": 130.0,
+    "hellknight_health": 120.0,
+    "hellknight_ranged_damage": 14.0,
+    "hellknight_melee_damage": 16.0,
+    "hellknight2016_health": 130.0,
+    "hellknight2016_melee_damage": 16.0,
+    "cyberdemon_health": 300.0,
+    "cyberdemon_ranged_damage": 23.0,
+    "cyberdemon_melee_damage": 24.0,
+    "doomhunter_health": 220.0,
+    "doomhunter_ranged_damage": 18.5,
+    "doomhunter_melee_damage": 21.5,
+    "whiplash_health": 200.0,
+    "whiplash_melee_damage": 17.0,
+    "armoredbaron_health": 330.0,
+    "armoredbaron_melee_damage": 20.3,
+    "unwilling_health": 22.0,
+    "unwilling_melee_damage": 7.3,
+    "possessed_scientist_health": 16.0,
+    "possessed_scientist_melee_damage": 7.8,
+    "possessed_soldier_health": 16.0,
+    "possessed_soldier_ranged_damage": 6.7,
+    "mechazombie_health": 20.0,
+    "mechazombie_ranged_damage": 7.0,
+    "gorenest_health": 150.0,
+    "cyberdemon2016_health": 325.0,
+    "cyberdemon2016_ranged_damage": 20.0,
+    "cyberdemon2016_melee_damage": 27.0
+  }
+}

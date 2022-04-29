@@ -1,0 +1,9 @@
+{
+  "bannerRadius": 36,
+  "necessaryKills": 100,
+  "damageMultiplier": 1.4,
+  "defenseMultiplier": 0.75,
+  "shouldBroadcastWhenGivenBanner": true,
+  "shouldBroadcastToEveryone": true,
+  "blacklistedEntities": ["minecraft:wither","minecraft:wither_skeleton"]
+}

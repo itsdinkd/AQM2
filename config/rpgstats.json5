@@ -1,0 +1,91 @@
+{
+	// Level scaling formula inputs
+	"scaling": {
+		// Default 2.05
+		"power": 2.05,
+		// Default 0.5
+		"scale": 0.5,
+		// Default 80
+		"base": 80,
+		// If the required amount should be the requirements from previous levels combined + new one instead of just solving once
+		"isCumulative": true,
+		"maxLevel": 50
+	},
+	// If players should lose all stats on death
+	"hardcoreMode": false,
+	// Toggles for level effects
+	"toggles": {
+		"magic": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"melee": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"fishing": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"ranged": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"defense": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"mining": {
+			// At what Y level does the lv50 effect trigger?
+			"effectLevelTrigger": 40,
+			"enableLv50Buff": true,
+			"enableLv25Buff": true
+		},
+		"farming": {
+			"enableLv50Buff": true,
+			"enableLv25Buff": false
+		}
+	},
+	// Config for how HP scaling works with defense
+	"defenseHP": {
+		// Will only grant HP every X levels
+		"everyXLevels": 3,
+		// How much HP to grant on trigger
+		"addAmount": 1,
+		// Minimum level before you start getting HP (Exclusive)
+		"afterLevel": 10
+	},
+	// If these damage types should grant defense XP when blocked
+	"damageBlacklist": {
+		"inFire": true,
+		"lightning": false,
+		"onFire": true,
+		"lava": false,
+		"hotFloor": false,
+		"inWall": true,
+		"cramming": true,
+		"drown": true,
+		"starve": true,
+		"cactus": false,
+		"fall": true,
+		"flyIntoWall": true,
+		"outOfWorld": true,
+		"magic": true,
+		"generic": true,
+		"wither": true,
+		"anvil": false,
+		"fallingBlock": false,
+		"dryOut": true,
+		"berryBush": true,
+		"freeze": true,
+		"stalactite": false,
+		"fallingStalactite": true
+	},
+	// Debug options
+	"debug": {
+		"logXpGain": false,
+		"logBrokenBlocks": false,
+		"logRawOps": false,
+		"logRawWrite": false
+	}
+}

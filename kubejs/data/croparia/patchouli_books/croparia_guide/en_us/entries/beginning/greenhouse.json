@@ -1,0 +1,20 @@
+{
+    "name": "Greenhouses",
+    "icon": "croparia:greenhouse_white",
+    "category": "croparia:main_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "croparia:greenhouse_white",
+            "title" : "Greenhouses",
+            "text": "Greenhouse allows you to automate once it has been placed over a crop. It has a container, and emit a little source of light."
+        },
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:greenhouse",
+            "text": "You can craft Greenhouses of every color by using $(bold)Stained Glass Pane/$.",
+        	"title": "Greenhouse"
+       	}
+    ],
+    "sortnum": 4
+}

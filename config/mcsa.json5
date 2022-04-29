@@ -1,0 +1,244 @@
+{
+	"armorStats": {
+		"ADAMANTIUM": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.30000001192092896
+		},
+		"CHAMPION_PETRA": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.20000000298023224
+		},
+		"DRAGONSBANE": {
+			"protection": {
+				"FEET": 6,
+				"LEGS": 7,
+				"CHEST": 10,
+				"HEAD": 6
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.5
+		},
+		"ELLEGAARD": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"ENDER_DEFENDER": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 6
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.20000000298023224
+		},
+		"ENDERMAN_SOREN": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 0.0,
+			"knockbackRes": 0.0
+		},
+		"GABRIEL": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"GOLDEN_GOLIATH": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"GOLDEN_GOLIATH_CIRCUITRY": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"HARPERS_HEADSET": {
+			"protection": {
+				"FEET": 4,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 4
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"IVOR": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"LUKAS": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"MAGNUS": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"NINJA_IVOR_ARMOUR": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 1.0,
+			"knockbackRes": 0.0
+		},
+		"OLIVIA": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"PETRA": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"PRISMARINE": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"REDSTONE_RIOT": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 6
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.20000000298023224
+		},
+		"SHIELD_OF_INFINITY": {
+			"protection": {
+				"FEET": 5,
+				"LEGS": 8,
+				"CHEST": 10,
+				"HEAD": 5
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.20000000298023224
+		},
+		"SOREN": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		},
+		"STAR_SHIELD": {
+			"protection": {
+				"FEET": 6,
+				"LEGS": 7,
+				"CHEST": 9,
+				"HEAD": 5
+			},
+			"toughness": 3.0,
+			"knockbackRes": 0.20000000298023224
+		},
+		"SWORDBREAKER": {
+			"protection": {
+				"FEET": 6,
+				"LEGS": 7,
+				"CHEST": 11,
+				"HEAD": 5
+			},
+			"toughness": 2.200000047683716,
+			"knockbackRes": 0.5
+		},
+		"TIMS_ARMOUR": {
+			"protection": {
+				"FEET": 3,
+				"LEGS": 6,
+				"CHEST": 8,
+				"HEAD": 3
+			},
+			"toughness": 2.0,
+			"knockbackRes": 0.0
+		}
+	},
+	// Character Armour Spawn Rate (Percentage where 1.0 = 100%)
+	"characterArmourSpawnRate": 0.12000000476837158,
+	// Stronghold Armour Spawn Rate (Percentage where 1.0 = 100%)
+	"strongholdArmourSpawnRate": 0.10000000149011612,
+	// Temple Armour Spawn Rate (Percentage where 1.0 = 100%)
+	"templeArmourSpawnRate": 0.10000000149011612,
+	// Armourer Hero of the Village Gift Rate (Percentage where 1.0 = 100%)
+	"hovArmourSpawnRate": 0.15000000596046448,
+	// Enable Villager Armour Trades
+	"enableVillagerArmourTrades": false
+}

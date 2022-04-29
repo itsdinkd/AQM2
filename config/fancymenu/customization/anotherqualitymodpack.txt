@@ -1,0 +1,331 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  biggerthanwidth = 2559
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/bhambackground2.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 4
+}
+
+customization {
+  baseheight = 1421
+  action = autoscale
+  basewidth = 3440
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-left
+  x = 60
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=400310%
+  width = 246
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400310%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400310%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bhammultiplayerhover.png
+  backgroundnormal = config\fancymenu\assets\bhammultiplayer.png
+}
+
+customization {
+  identifier = %id=400310%
+  seconds = 0.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = mid-left
+  x = 60
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=400358%
+  width = 246
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400358%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400358%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bhammodshover.png
+  backgroundnormal = config\fancymenu\assets\bhammods.png
+}
+
+customization {
+  identifier = %id=400358%
+  seconds = 0.7
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=604394%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-left
+  x = 60
+  action = movebutton
+  y = -55
+}
+
+customization {
+  identifier = %id=400286%
+  width = 246
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400286%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400286%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bhamsingleplayerhover.png
+  backgroundnormal = config\fancymenu\assets\bhamsingleplayer.png
+}
+
+customization {
+  identifier = %id=400286%
+  seconds = 0.3
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-left
+  x = 60
+  action = movebutton
+  y = 29
+}
+
+customization {
+  identifier = %id=400394%
+  width = 246
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=400394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bhamoptionshover.png
+  backgroundnormal = config\fancymenu\assets\bhamoptions.png
+}
+
+customization {
+  identifier = %id=400394%
+  seconds = 0.9
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-left
+  x = 60
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=502394%
+  width = 246
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=502394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bhamquitgamehover.png
+  backgroundnormal = config\fancymenu\assets\bhamquitgame.png
+}
+
+customization {
+  identifier = %id=502394%
+  seconds = 1.1
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376394%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-left
+  delayappearanceseconds = 0.1
+  path = config/fancymenu/assets/bhamlogo.png
+  fadein = true
+  fadeinspeed = 0.8
+  x = 53
+  width = 261
+  action = addtexture
+  actionid = 3867f88a-041b-404f-843e-57b8a67f1dbf1635366552124
+  y = -166
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 108
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bhamdiscordhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 18
+  width = 89
+  actionid = 09d6594c-3df4-46d8-8989-b2cadad8ea401635367614229
+  action = addbutton
+  y = -35
+  backgroundnormal = config\fancymenu\assets\bhamdiscord.png
+  value = https://discord.gg/y6Sby9BGVe
+  height = 21
+}
+
+customization {
+  path = config/fancymenu/assets/bhamseperator.png
+  orientation = bottom-left
+  x = 112
+  width = 5
+  action = addtexture
+  actionid = d3fcf6f6-29c8-4a98-aa0a-9ade8148dcf01635367663353
+  y = -35
+  height = 19
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bhamrentaserverhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 225
+  width = 89
+  actionid = 09d6594c-3df4-46d8-8989-b2cadad8ea401635367614229
+  action = addbutton
+  y = -35
+  backgroundnormal = config\fancymenu\assets\bhamrentaserver.png
+  value = https://www.bisecthosting.com/clients/aff.php?aff=3817
+  height = 21
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  backgroundhovered = config\fancymenu\assets\bhamofficialserverhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 122
+  width = 89
+  actionid = 09d6594c-3df4-46d8-8989-b2cadad8ea401635367614229
+  action = addbutton
+  y = -35
+  backgroundnormal = config\fancymenu\assets\bhamofficialserver.png
+  value = 23.185.16.45:25565
+  height = 21
+}
+
+customization {
+  path = config/fancymenu/assets/bhamseperator.png
+  orientation = bottom-left
+  x = 214
+  width = 5
+  action = addtexture
+  actionid = 71a60e40-ac37-47ae-9ea3-2bc88a668aa01635971810295
+  y = -33
+  height = 17
+}
+

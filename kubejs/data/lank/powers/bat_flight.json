@@ -1,0 +1,146 @@
+{
+    "name": "Bat wings",
+    "description": "You have little wings to fly",
+    "hidden": true,
+    "type": "origins:multiple",
+    "climb_up": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:collided_horizontally"
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:resource",
+                    "resource": "lank:bat_bool",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:climbing",
+        "allow_holding": false
+    },
+    "hover": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:resource",
+                    "resource": "lank:bat_bool",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:levitation",
+                "duration": 10,
+                "amplifier": -1,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+        }
+    },
+    "hover_down": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": false,
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "inverted": false,
+                            "type": "origins:sneaking"
+                        },
+                        {
+                            "inverted": false,
+                            "type": "origins:resource",
+                            "resource": "lank:bat_bool",
+                            "comparison": "!=",
+                            "compare_to": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slow_falling",
+                "duration": 10,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+        }
+    },
+    "elytra_fix": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": false,
+                    "type": "origins:sprinting"
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "chest",
+                    "item_condition": {
+                        "inverted": false,
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "elytra"
+                        }
+                    }
+                }
+            ]
+        },
+        "type": "origins:elytra_flight",
+        "render_elytra": true
+    },
+    "reset_fall": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:resource",
+            "resource": "lank:bat_bool",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:set_fall_distance",
+            "fall_distance": 0
+        }
+    }
+}

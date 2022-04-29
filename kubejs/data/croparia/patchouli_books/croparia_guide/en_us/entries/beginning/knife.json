@@ -1,0 +1,20 @@
+{
+    "name": "Knives",
+    "icon": "croparia:wood_knife",
+    "category": "croparia:main_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "croparia:wood_knife",
+            "title" : "Knives",
+            "text": "With the knives, you may never break your crops again. The wood knife will harvest a crop and reduce its state of $(bold)age/$. Use the wooden knife on a crop when its at age 7, ready for harvest stage."
+        },
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:wood_knife",
+            "text": "After harvesting the crop with this knife, its age will reset to 0",
+        	"title": "Wooden Knife"
+       	}
+    ],
+    "sortnum": 3
+}

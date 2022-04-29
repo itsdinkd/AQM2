@@ -1,0 +1,94 @@
+{
+	/* 
+	   
+	   ***********************
+	   Portals
+	   ***********************
+	*/
+	"enableMiningPortal": true,
+	"enableHuntingPortal": true,
+	"enableCavingPortal": true,
+	"enableNetheringPortal": false,
+	"enableClimbingPortal": true,
+	/* 
+	   
+	   ***********************
+	   Portable Teleporters
+	   ***********************
+	*/
+	"enableMiningTeleporter": false,
+	"enableHuntingTeleporter": false,
+	"enableCavingTeleporter": false,
+	"enableNetheringTeleporter": false,
+	"enableClimbingTeleporter": false,
+	"enableReturningEnchantment": false,
+	/* 
+	   
+	   ***********************
+	   Teleporters
+	    * disable check and place player
+	    possibly in middle of an ocean on
+	    a stone block.
+	    * be sure to be carrying a boat!
+	   ***********************
+	*/
+	"enableOceanCheck": true,
+	/* 
+	   
+	   ***********************
+	   Extra Overworld Deepslate Ores
+	    (Also affects the Mining, Climbing, & Caving Dims)
+	   ***********************
+	*/
+	"enableExtraDiamond": false,
+	"extraDiamondDeepslateVeinSize": 1,
+	"extraDiamondDeepslateVeinsPerChunk": 2,
+	"extraDiamondDeepslateMaxHeight": -50,
+	/* 
+	   
+	   ***********************
+	   Extra Nether Ores
+	    (Also affects the Nethering Dim)
+	   ***********************
+	*/
+	"enableExtraAncientDebris": false,
+	"extraAncientDebrisVeinSize": 3,
+	"extraAncientDebrisVeinsPerChunk": 8,
+	"extraAncientDebrisMaxHeight": 40,
+	/* 
+	   
+	   ***********************
+	   Hunting Dim Mobs
+	    - settings for mob attributes
+	   ***********************
+	*/
+	"zombieMaxHealth": 50.0,
+	"zombieAttackDamageBonus": 12.0,
+	"zombieArmorBonus": 10.0,
+	"zombieMovementBonus": 0.06,
+	"piglinMaxHealth": 60.0,
+	"piglinAttackDamageBonus": 26.0,
+	"piglinArmorBonus": 20.0,
+	"piglinMovementBonus": 0.05,
+	"piglinBruteMaxHealth": 80.0,
+	"piglinBruteAttackDamageBonus": 29.0,
+	"piglinBruteArmorBonus": 20.0,
+	"piglinBruteMovementBonus": 0.075,
+	"witherSkeletonMaxHealth": 100.0,
+	"witherSkeletonDamageBonus": 34.0,
+	"witherSkeletonArmorBonus": 20.0,
+	"witherSkeletonMovementBonus": 0.085,
+	/* 
+	   
+	   ***********************
+	   Hunting Dim Mobs
+	    - settings for armor/weapon
+	   ***********************
+	*/
+	"enableZombieGear": true,
+	"enablePiglinGear": true,
+	"enablePiglinBruteGear": true,
+	"enableWitherSkeletonGear": true,
+	"enableVexGear": true,
+	"gearDropChannce": 0.1
+}

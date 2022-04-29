@@ -1,0 +1,15 @@
+{
+    "name": "Zombified",
+    "description": "A zombified human, like regular zombies they come in many forms",
+    "powers": [
+        "lank:undead",
+        "lank:undead_ally",
+        "lank:burn_in_daylight",
+        "lank:drown",
+        "lank:natural_armor"
+    ],
+    "icon": {
+        "item": "minecraft:rotten_flesh"
+    },
+    "impact": 3
+}

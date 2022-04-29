@@ -1,0 +1,14 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "o___0": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:regeneration",
+            "minecraft:instant_health"
+        ]
+    },
+    "o___1": {
+        "type": "origins:disable_regen"
+    }
+}

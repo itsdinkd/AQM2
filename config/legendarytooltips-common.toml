@@ -1,0 +1,118 @@
+
+# Legendary Tooltips Configuration Instructions
+#
+# *** READ THIS FIRST ***
+#
+# By default, this mod does not apply special borders to most items.  It was designed to work well with mod packs
+# where the available selection of items can vary widely, so it is up to the user or mod pack designer to customize as needed.
+# There are many options available for setting up which custom borders (also called frames) apply to which items.  Follow these steps:
+#   1. Decide which items you want to have custom borders, and which borders.  Note that each custom border has a number associated with it (starting at 0).
+#   2. For each custom border you want to use, fill out the associated list in the "definitions" section.  This will be filled out with a list of "selectors",
+#      each of which tell the mod what items have that border.  Please read the information above the definitions section for specifics.
+#   3. Selectors for borders are checked in the order provided in the "priorities" section.  Once a match is found, that border is displayed.
+#      For example, if border 0 had the selector "%Diamond" and border 1 had the selector "diamond_sword", they would both match for diamond swords.
+#      In this case, whichever border number came first in the priority list would be the border that would get drawn in-game.
+#   4. Optionally, border colors associated with custom borders can be set in the "colors" section.  The start color is the color at the top of the tooltip,
+#      and the end color is the bottom, with a smooth transition between.  Please read the information above the color section for specifics.
+[client]
+
+	[client.visual_options]
+		# Whether item names in tooltips should have a line under them separating them from the rest of the tooltip.
+		name_separator = true
+		# If enabled, tooltip border colors will match item rarity colors (except for custom borders).
+		borders_match_rarity = true
+		# If enabled, tooltips will display a drop shadow.
+		tooltip_shadow = true
+		# If enabled, items showing a custom border will have a special shine effect when hovered over.
+		shine_effect = true
+		# If enabled, tooltip titles will be drawn centered.
+		centered_title = false
+		# If enabled, tooltips with custom borders will always be at least wide enough to display all border decorations.
+		enforce_minimum_width = false
+
+	# Entry types:
+	#    Item name - Use item name for vanilla items or include mod name for modded items.  Examples: "minecraft:stick", "iron_ore"
+	#    Tag - $ followed by tag name.  Examples: "$forge:stone", "$planks"
+	#    Mod name - @ followed by mod identifier.  Examples: "@spoiledeggs"
+	#    Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: "!uncommon", "!rare", "!epic"
+	#    Item name color - # followed by color hex code, the hex code must match exactly.  Examples: "#23F632"
+	#    Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: "%Netherite", "%[Uncommon]"
+	#    Tooltip text - Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
+	#    NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&map!=128", "&Enchantments"
+	[client.definitions]
+		level0_entries = ["spectrum:bedrock_pickaxe", "spectrum:bedrock_sword", "spectrum:bedrock_anvil", "spectrum:bedrock_hoe", "gobber2:dragon_star", "gobber2:dragon_elytra", "%Gobber End", "gobber2:gobber2_sword_end", "magicfungi:impetus_sword", "mythicmetals:palladium_sword", "$tooltiprareness:legendary_item", "@bosses_of_mass_destruction", "netherite_sword", "netherite_shovel", "netherite_pickaxe", "netherite_axe", "netherite_hoe", "netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots", "techreborn:quantum_helmet", "techreborn:quantum_chestplate", "techreborn:quantum_leggings", "techreborn:quantum_boots"]
+		level1_entries = ["$tooltiprareness:epic_item", "c:very_rare_loot", "magicfungi:morbus_scythe", "experience_bottle", "golden_carrot", "golden_apple", "enchanted_golden_apple", "diamond_sword", "diamond_shovel", "diamond_pickaxe", "diamond_axe", "diamond_hoe", "diamond_helmet", "diamond_chestplate", "diamond_leggings", "diamond_boots", "enchanted_book", "turtle_helmet", "tipped_arrow", "spectral_arrow", "!epic"]
+		level2_entries = ["!rare", "iron_sword", "iron_shovel", "iron_pickaxe", "iron_axe", "iron_hoe", "iron_helmet", "iron_chestplate", "iron_leggings", "iron_boots", "golden_sword", "golden_shovel", "golden_pickaxe", "golden_axe", "golden_hoe", "golden_helmet", "golden_chestplate", "golden_leggings", "golden_boots", "%Chainmail", "compass", "clock", "spyglass", "shears", "%Bucket", "lead", "name_tag", "flint_and_steel", "bow", "crossbow", "trident", "shield"]
+		level3_entries = ["%Nether B", "%Nether Q", "%Nether G", "netherrack", "%Nylium", "crimson_fungus", "warped_fungus", "campfire", "fire_charge", "%Firework", "%Lava"]
+		level4_entries = ["%gofish", "%Sea", "%Breathing", "sea_lantern", "heart_of_the_sea", "%Prismarine", "conduit", "nautilus_shell"]
+		level5_entries = ["$minecraft:small_flowers", "$minecraft:flowers", "$minecraft:leaves", "$minecraft:saplings", "$minecraft:tall_flowers", "%Azalea", "%Dripleaf", "%Vines", "bamboo", "%Utilis", "%Morbus", "%Vivifica", "%Clypeus", "%Impetus"]
+		level6_entries = ["%Dragon", "%Skull", "wither_rose", "%Obsidian", "respawn_anchor", "%Soul"]
+		level7_entries = ["iron_door", "iron_trapdoor", "iron_block", "%Anvil", "%Minecart", "%Rail", "hopper", "observer", "dispenser", "dropper", "%Piston", "$c:iron_ingots", "$ae2:metal_ingots"]
+		level8_entries = ["%End", "%Purpur", "%Chorus", "%Shulker", "%End Anchor"]
+		level9_entries = ["kibe:angel_ring", "@winged", "%Elytra", "elytra", "%Glow", "totem_of_undying"]
+		level10_entries = ["kubejs:cursed_gem", "kubejs:demon_pearl", "kubejs:star_of_sin", "kubejs:corrupted_emerald"]
+		level11_entries = []
+		level12_entries = []
+		level13_entries = []
+		level14_entries = []
+		level15_entries = []
+		# Enter blacklist selectors here using the same format as above. Any items that match these selectors will NOT show a border.
+		blacklist = []
+
+	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.  Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, don't worry about it.
+	[client.priorities]
+		priorities = [10, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 13, 14, 15]
+
+	# The start and end border colors and background colors of each level.
+	# Note that they can be entered as any one of: a decimal or hex color code in the format 0xAARRGGBB or 0xRRGGBB, OR a string color name or color code.
+	# Examples: 0xFFFF00, 0xFF73D984, 4290445567, "red", "#FFCC00" are all valid.
+	[client.colors]
+		level0_start_color = "#996922"
+		level0_end_color = "#5B3B1D"
+		level0_bg_color = 4027976192
+		level1_start_color = "#697C8C"
+		level1_end_color = "#3A4C61"
+		level1_bg_color = 4027976192
+		level2_start_color = "#70453D"
+		level2_end_color = "#542323"
+		level2_bg_color = 4027976192
+		level3_start_color = "#912307"
+		level3_end_color = "#818385"
+		level3_bg_color = 4027976192
+		level4_start_color = "#008FCC"
+		level4_end_color = "#044B8A"
+		level4_bg_color = 4027976192
+		level5_start_color = "#5C4C2D"
+		level5_end_color = "#5C4C2D"
+		level5_bg_color = 4027976192
+		level6_start_color = "#705A87"
+		level6_end_color = "#393556"
+		level6_bg_color = 4027976192
+		level7_start_color = "#7D8A91"
+		level7_end_color = "#7D8A91"
+		level7_bg_color = 4027976192
+		level8_start_color = "#A591B6"
+		level8_end_color = "#A591B6"
+		level8_bg_color = 4027976192
+		level9_start_color = "#FFFADB"
+		level9_end_color = "#FFDFAD"
+		level9_bg_color = 4027976192
+		level10_start_color = "#5726a9"
+		level10_end_color = "#1d0742"
+		level10_bg_color = 4027976192
+		level11_start_color = 4288244002
+		level11_end_color = 4284103197
+		level11_bg_color = 4027976192
+		level12_start_color = 4288244002
+		level12_end_color = 4284103197
+		level12_bg_color = 4027976192
+		level13_start_color = 4288244002
+		level13_end_color = 4284103197
+		level13_bg_color = 4027976192
+		level14_start_color = 4288244002
+		level14_end_color = 4284103197
+		level14_bg_color = 4027976192
+		level15_start_color = 4288244002
+		level15_end_color = 4284103197
+		level15_bg_color = 4027976192
+

@@ -1,0 +1,9 @@
+{
+  "sound": "minecraft:entity.experience_orb.pickup",
+  "pitch": 1.4,
+  "playWhenWorldLoaded": true,
+  "playWhenWorldOptimized": false,
+  "playWhenResourcesReloaded": true,
+  "requireUnfocused": false,
+  "requestWindowAttention": true
+}

@@ -1,0 +1,11 @@
+{
+	id: "40B3D9E6E8E5914F"
+	group: "50115579257378EC"
+	order_index: 1
+	filename: "monster_and_sprites"
+	title: "Monster and Sprites"
+	icon: "minecraft:zombie_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,16 @@
+{
+    "values": {
+        "minecraft:wither": {
+            "minecraft:generic.max_health": 500.0,
+            "minecraft:generic.attack_damage": 21.0,
+            "minecraft:generic.armor": 9.0,
+            "minecraft:generic.armor_toughness": 9.0
+        },
+        "minecraft:ender_dragon": {
+            "minecraft:generic.max_health": 450.0,
+            "minecraft:generic.attack_damage": 24.0,
+            "minecraft:generic.armor": 12.0,
+            "minecraft:generic.armor_toughness": 12.0
+        }
+    }
+}

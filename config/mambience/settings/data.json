@@ -1,0 +1,40 @@
+{
+    "biomeGroups": [
+        {
+            "name": "jungle",
+            "biomes": [ "jungle", "sparse_jungle", "bamboo_jungle" ]
+        },
+        {
+            "name": "conifer",
+            "biomes": [ "old_growth_pine_taiga", "old_growth_spruce_taiga", "taiga", "snowy_taiga", "grove" ]
+        },
+        {
+            "name": "savanna",
+            "biomes": [ "savanna", "savanna_plateau", "windswept_savanna", "badlands", "eroded_badlands", "wooded_badlands" ]
+        },
+        {
+            "name": "desert",
+            "biomes": [ "desert", "badlands", "eroded_badlands", "wooded_badlands" ]
+        },
+        {
+            "name": "swamp",
+            "biomes": [ "swamp" ]
+        },
+        {
+            "name": "ocean",
+            "biomes": [ "beach", "snowy_beach", "stony_shore", "warm_ocean", "lukewarm_ocean", "deep_lukewarm_ocean", "ocean", "deep_ocean", "cold_ocean", "deep_cold_ocean", "frozen_ocean", "deep_frozen_ocean" ]
+        },
+        {
+            "name": "nether",
+            "biomes": [ "nether_wastes", "warped_forest", "crimson_forest", "soul_sand_valley", "basalt_deltas" ]
+        },
+        {
+            "name": "end",
+            "biomes": [ "the_end", "end_highlands", "end_midlands", "small_end_islands", "end_barrens" ]
+        },
+        {
+            "name": "cold",
+            "biomes": [ "snowy_plains", "ice_spikes", "snowy_taiga", "grove", "snowy_slopes", "frozen_peaks", "frozen_river", "snowy_beach" ]
+        }
+    ]
+}

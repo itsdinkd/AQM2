@@ -1,0 +1,244 @@
+{
+  "weaponsEnabledInLootTables": {
+    "ENABLE_WEAPONS_IN_LOOTTABLES": true
+  },
+  "commonLootTables": {
+    "COMMON_LOOT_TABLES": [
+      "minecraft:chests/abandoned_mineshaft",
+      "minecraft:chests/shipwreck_supply",
+      "minecraft:chests/shipwreck_treasure",
+      "minecraft:chests/desert_pyramid",
+      "minecraft:chests/village/village_weaponsmith",
+      "minecraft:chests/underwater_ruin_small",
+      "minecraft:chests/underwater_ruin_big",
+      "minecraft:chests/ruined_portal",
+      "minecraft:chests/simple_dungeon",
+      "minecraft:chests/igloo_chest",
+      "minecraft:chests/pillager_outpost"
+    ]
+  },
+  "uncommonLootTables": {
+    "UNCOMMON_LOOT_TABLES": [
+      "minecraft:chests/jungle_temple",
+      "minecraft:chests/nether_bridge",
+      "minecraft:chests/bastion_bridge",
+      "minecraft:chests/bastion_other",
+      "minecraft:chests/bastion_treasure",
+      "minecraft:chests/stronghold_corridor",
+      "minecraft:chests/stronghold_crossing",
+      "minecraft:chests/stronghold_library",
+      "minecraft:chests/end_city_treasure"
+    ]
+  },
+  "rareLootTables": {
+    "RARE_LOOT_TABLES": [
+      "minecraft:chests/underwater_ruin_small",
+      "minecraft:chests/underwater_ruin_big",
+      "minecraft:chests/ruined_portal",
+      "minecraft:chests/simple_dungeon",
+      "minecraft:chests/igloo_chest",
+      "minecraft:chests/pillager_outpost",
+      "minecraft:chests/jungle_temple",
+      "minecraft:chests/nether_bridge",
+      "minecraft:chests/bastion_bridge",
+      "minecraft:chests/bastion_other",
+      "minecraft:chests/bastion_treasure"
+    ]
+  },
+  "epicLootTables": {
+    "EPIC_LOOT_TABLES": [
+      "minecraft:chests/stronghold_corridor",
+      "minecraft:chests/stronghold_crossing",
+      "minecraft:chests/stronghold_library",
+      "minecraft:chests/end_city_treasure"
+    ]
+  },
+  "axeSpawnRates": {
+    "AXE_HIGHLAND": 0.025,
+    "AXE_FIREBRAND": 0.025,
+    "AXE": 0.075,
+    "AXE_ENCRUSTED_ANCHOR": 0.025,
+    "AXE_ANCHOR": 0.075
+  },
+  "daggerSpawnRates": {
+    "DAGGER_THE_END": 0.025,
+    "DAGGER_THE_BEGINNING": 0.025,
+    "DAGGER_FANGS_OF_FROST": 0.025,
+    "DAGGER_BACKSTABBER": 0.075,
+    "DAGGER_MOON": 0.025,
+    "DAGGER_SHEAR_DAGGER": 0.075,
+    "DAGGER_TEMPEST_KNIFE": 0.075,
+    "DAGGER_VOID_TOUCHED_BLADE": 0.075,
+    "DAGGER_DAGGER": 0.075,
+    "DAGGER_CHILL_GALE_KNIFE": 0.025,
+    "DAGGER_RESOLUTE_TEMPEST_KNIFE": 0.025,
+    "DAGGER_SWIFT_STRIKER": 0.025
+  },
+  "doubleAxeSpawnRates": {
+    "AXE_WHIRLWIND": 0.025,
+    "AXE_CURSED": 0.025,
+    "AXE_DOUBLE": 0.075
+  },
+  "gauntletSpawnRates": {
+    "GAUNTLET_GAUNTLET": 0.075,
+    "GAUNTLET_SOUL_FISTS": 0.025,
+    "GAUNTLET_MAULERS": 0.025
+  },
+  "glaiveSpawnRates": {
+    "SPEAR_GRAVE_BANE": 0.025,
+    "SPEAR_VENOM_GLAIVE": 0.025,
+    "SPEAR_CACKLING_BROOM": 0.025,
+    "SPEAR_GLAIVE": 0.075
+  },
+  "hammerSpawnRates": {
+    "HAMMER_FLAIL": 0.025,
+    "HAMMER_GREAT": 0.075,
+    "HAMMER_BONECLUB": 0.075,
+    "HAMMER_GRAVITY": 0.025,
+    "HAMMER_BONE_CUDGEL": 0.025,
+    "HAMMER_MACE": 0.075,
+    "HAMMER_SUNS_GRACE": 1.0E-4,
+    "HAMMER_STORMLANDER": 0.025
+  },
+  "pickSpawnRates": {
+    "PICK_HOWLING_PICK": 0.075,
+    "PICK_MOUNTAINEER_PICK": 0.075,
+    "PICK_HAILING_PINNACLE": 0.075,
+    "PICK_DIAMOND_PICKAXE_VAR": 0.075
+  },
+  "scytheSpawnRates": {
+    "SICKLE_SKULL_SCYTHE": 0.025,
+    "SICKLE_FROST_SCYTHE": 0.025,
+    "SICKLE_JAILORS_SCYTHE": 0.075,
+    "SICKLE_SOUL_SCYTHE": 0.025
+  },
+  "sickleSpawnRates": {
+    "SICKLE_SICKLE": 0.075,
+    "SICKLE_LAST_LAUGH_GOLD": 0.025,
+    "SICKLE_LAST_LAUGH_SILVER": 0.025,
+    "SICKLE_NIGHTMARES_BITE": 0.025
+  },
+  "soulDaggerSpawnRates": {
+    "DAGGER_SOUL_KNIFE": 0.075,
+    "DAGGER_ETERNAL_KNIFE": 0.025,
+    "SWORD_TRUTHSEEKER": 0.025
+  },
+  "spearSpawnRates": {
+    "SPEAR_SPEAR": 0.075,
+    "SPEAR_WHISPERING_SPEAR": 0.025,
+    "SPEAR_FORTUNE": 0.025
+  },
+  "staffSpawnRates": {
+    "STAFF_BATTLESTAFF_OF_TERROR": 0.025,
+    "STAFF_BATTLESTAFF": 0.075,
+    "STAFF_GROWING_STAFF": 0.025
+  },
+  "swordSpawnRates": {
+    "SWORD_CORAL_BLADE": 0.075,
+    "SWORD_KATANA": 0.075,
+    "SWORD_FREEZING_FOIL": 0.025,
+    "SWORD_SINISTER": 0.01,
+    "SWORD_SPONGE_STRIKER": 0.025,
+    "SWORD_DARK_KATANA": 0.025,
+    "SWORD_DIAMOND_SWORD_VAR": 0.075,
+    "SWORD_GREAT_AXEBLADE": 0.025,
+    "SWORD_THE_STARLESS_NIGHT": 1.0E-5,
+    "SWORD_BROADSWORD": 0.075,
+    "SWORD_OBSIDIAN_CLAYMORE": 0.025,
+    "SWORD_FROST_SLAYER": 0.025,
+    "SWORD_IRON_SWORD_VAR": 0.075,
+    "SWORD_RAPIER": 0.075,
+    "SWORD_HEARTSTEALER": 0.025,
+    "SWORD_NAMELESS_BLADE": 0.025,
+    "SWORD_MECHANIZED_SAWBLADE": 0.01,
+    "SWORD_MASTERS_KATANA": 0.025,
+    "SWORD_DANCERS_SWORD": 0.025,
+    "SWORD_HAWKBRAND": 0.025,
+    "SWORD_BROKEN_SAWBLADE": 0.025,
+    "SWORD_BEESTINGER": 0.025,
+    "SWORD_CUTLASS": 0.075,
+    "SWORD_CLAYMORE": 0.025
+  },
+  "whipSpawnRates": {
+    "WHIP_WHIP": 0.075,
+    "WHIP_VINE_WHIP": 0.025
+  },
+  "bowSpawnRates": {
+    "BOW_HUNTING_BOW": 0.075,
+    "BOW_SOUL_BOW": 0.075,
+    "BOW_SNOW_BOW": 0.075,
+    "BOW_POWER_BOW": 0.075,
+    "BOW_SHIVERING_BOW": 0.025,
+    "BOW_ANCIENT_BOW": 0.0,
+    "BOW_HAUNTED_BOW": 0.025,
+    "BOW_WIND_BOW": 0.075,
+    "BOW_GREEN_MENACE": 0.025,
+    "BOW_PHANTOM_BOW": 0.075,
+    "BOW_TWIN_BOW": 0.025,
+    "BOW_HUNTERS_PROMISE": 0.025,
+    "BOW_TWISTING_VINE_BOW": 0.075,
+    "BOW_BUBBLE_BOW": 0.075,
+    "BOW_NOCTURNAL_BOW": 0.025,
+    "BOW_PINK_SCOUNDREL": 0.025,
+    "BOW_TRICKBOW": 0.075,
+    "BOW_CALL_OF_THE_VOID": 0.025,
+    "BOW_BURST_GALE_BOW": 0.025,
+    "BOW_WEB_BOW": 0.075,
+    "BOW_VOID_BOW": 0.075,
+    "BOW_MASTERS_BOW": 0.025,
+    "BOW_BUBBLE_BURSTER": 0.025,
+    "BOW_WINTERS_TOUCH": 0.025,
+    "BOW_SABREWING": 0.025,
+    "BOW_WEEPING_VINE_BOW": 0.075,
+    "BOW_LOST_SOULS": 0.025,
+    "BOW_BONEBOW": 0.025,
+    "BOW_ECHO_OF_THE_VALLEY": 0.025,
+    "BOW_ELITE_POWER_BOW": 0.025
+  },
+  "longBowSpawnRates": {
+    "BOW_GUARDIAN_BOW": 0.025,
+    "BOW_RED_SNAKE": 0.025,
+    "BOW_LONGBOW": 0.075
+  },
+  "shortBowSpawnRates": {
+    "BOW_SHORTBOW": 0.075,
+    "BOW_LOVE_SPELL_BOW": 0.025,
+    "BOW_MECHANICAL_SHORTBOW": 0.025,
+    "BOW_PURPLE_STORM": 0.025
+  },
+  "crossbowSpawnRates": {
+    "CROSSBOW_COG_CROSSBOW": 0.025,
+    "CROSSBOW_FERAL_SOUL_CROSSBOW": 0.025,
+    "CROSSBOW_EXPLODING_CROSSBOW": 0.025,
+    "CROSSBOW_SCATTER_CROSSBOW": 0.025,
+    "CROSSBOW_SLAYER_CROSSBOW": 0.025,
+    "CROSSBOW_PRIDE_OF_THE_PIGLINS": 0.025,
+    "CROSSBOW_VOIDCALLER_CROSSBOW": 0.025,
+    "CROSSBOW_HEAVY_CROSSBOW": 0.025,
+    "CROSSBOW_LIGHTNING_HARP_CROSSBOW": 0.025,
+    "CROSSBOW_IMPLODING_CROSSBOW": 0.025,
+    "CROSSBOW_VEILED_CROSSBOW": 0.025,
+    "CROSSBOW_SOUL_CROSSBOW": 0.025,
+    "CROSSBOW_SPELLBOUND_CROSSBOW": 0.025,
+    "CROSSBOW_DOOM_CROSSBOW": 0.025,
+    "CROSSBOW_AZURE_SEEKER": 0.025,
+    "CROSSBOW_BURST_CROSSBOW": 0.025,
+    "CROSSBOW_CORRUPTED_CROSSBOW": 0.025,
+    "CROSSBOW_SOUL_HUNTER_CROSSBOW": 0.025,
+    "CROSSBOW_NAUTICAL_CROSSBOW": 0.025,
+    "CROSSBOW_HARP_CROSSBOW": 0.025,
+    "CROSSBOW_BUTTERFLY_CROSSBOW": 0.025,
+    "CROSSBOW_DUAL_CROSSBOW": 0.025,
+    "CROSSBOW_FIREBOLT_THROWER": 0.025,
+    "CROSSBOW_HARPOON_CROSSBOW": 0.025,
+    "CROSSBOW_THE_SLICER": 0.025,
+    "CROSSBOW_SHADOW_CROSSBOW": 0.025,
+    "CROSSBOW_RAPID_CROSSBOW": 0.025,
+    "CROSSBOW_BABY_CROSSBOW": 0.025,
+    "CROSSBOW_AUTO_CROSSBOW": 0.025
+  },
+  "shieldSpawnRates": {
+    "SHIELD_ROYAL_GUARD": 0.025,
+    "SHIELD_VANGUARD": 0.025
+  }
+}

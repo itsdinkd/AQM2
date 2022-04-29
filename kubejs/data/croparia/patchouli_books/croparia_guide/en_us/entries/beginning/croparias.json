@@ -1,0 +1,49 @@
+{
+    "name": "Croparias",
+    "icon": "croparia:croparia",
+    "category": "croparia:main_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "croparia:croparia",
+            "title" : "Croparias",
+            "text": "$(bold)Croparias/$ are the main items of the mod. You will need a lot of $(bold)Elematilius/$. A better tier will grant you access to a better crop type. $(br)The next pages will show you how to craft them."
+        },
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:croparia",
+        	"title": "Croparia Tier 1"
+       	},
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:croparia2",
+        	"title": "Croparia Tier 2"
+       	},
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:croparia3",
+        	"title": "Croparia Tier 3"
+       	},
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:croparia4",
+        	"title": "Croparia Tier 4"
+       	},
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:croparia5",
+        	"title": "Croparia Tier 5"
+       	},
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:croparia6",
+        	"title": "Croparia Tier 6"
+       	},
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:croparia7",
+        	"title": "Croparia Tier 7"
+       	}
+    ],
+    "sortnum": 1
+}

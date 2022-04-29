@@ -1,0 +1,1432 @@
+{
+	id: "7DC1981128ED9837"
+	group: "332CF3EA95B49108"
+	order_index: 1
+	filename: "technical_paradise"
+	title: "Technical Paradise"
+	icon: "ae2:controller"
+	subtitle: ["Who doesn't like Tech Mods?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mine Certus Ore"
+			icon: "ae2:quartz_ore"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "You need Certus Quartz for Applied Energistics 2... a lot of it.."
+			description: ["Head to around Y Level 8 for the highest Ore Spawns."]
+			id: "417915745B47F7AB"
+			tasks: [{
+				id: "5FCBD19356DCF510"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+			}]
+			rewards: [{
+				id: "630E411B5DDC34E0"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+				count: 16
+			}]
+		}
+		{
+			title: "Smelt For Silicon"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Smelt Certus Dust into Silicon so you can make some presses next."
+			description: ["Make sure you have completed the first four Botania quests from \"What Sorcery is This\" to unlock the next quest."]
+			dependencies: ["417915745B47F7AB"]
+			id: "5612740453389204"
+			tasks: [{
+				id: "453DF3180905D1F9"
+				type: "item"
+				item: "ae2:silicon"
+			}]
+			rewards: [{
+				id: "5D57A4DC4BE25D25"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+				count: 8
+			}]
+		}
+		{
+			title: "Get Magitekal"
+			x: 25.0d
+			y: 0.5d
+			shape: "circle"
+			subtitle: "First things first.... You need this core to even make the mech run."
+			description: [
+				"We have three Mechs, The Proto, Tunnel, and Magitek."
+				""
+				"Magitek shoots laser beams and attacks with its arms, and Proto does the same. The Tunnel mech is a miner, which mines 3x3 areas."
+				""
+				"Magitek and Tunnel are powered by fuel, Proto is required by energy."
+			]
+			optional: true
+			id: "665C302804F82839"
+			tasks: [{
+				id: "2995E1AE2FF6C59C"
+				type: "item"
+				item: "mtmechs:magicite_item"
+			}]
+		}
+		{
+			title: "Magitek Mech"
+			icon: "mtmechs:ma_whole_item"
+			x: 23.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"Craft the parts."
+				""
+				"To run this mech, it needs fuel in the fuel slot. Shift + Rightclick the mech when its placed in the world. The core in the second slot to the left, and then a blaze rod (for fire beam) or snow ball (ice beam) in the last slot."
+				""
+				"Make sure you check keybindings!"
+			]
+			dependencies: ["665C302804F82839"]
+			optional: true
+			id: "3FBEF45541CE33CE"
+			tasks: [
+				{
+					id: "7E48D9F2573A2124"
+					type: "item"
+					item: "mtmechs:ma_leg_item"
+				}
+				{
+					id: "1DD92490341A3C1B"
+					type: "item"
+					item: "mtmechs:ma_arm_item"
+				}
+				{
+					id: "29BE9384F25325EA"
+					type: "item"
+					item: "mtmechs:ma_chassis_item"
+				}
+				{
+					id: "5E7CAB0E7DA41525"
+					type: "item"
+					item: "mtmechs:ma_whole_item"
+				}
+			]
+			rewards: [{
+				id: "63969204FAE4C1EC"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+				count: 3
+			}]
+		}
+		{
+			title: "Tunnel Mech"
+			icon: "mtmechs:ta_whole_item"
+			x: 25.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"Craft the Tunnel Mech and dig some holes."
+				""
+				"This mech is fairly simple to use, Shift + Right click to input all the required items, which are its core, and fuel. It has an inventory as well!"
+			]
+			dependencies: ["665C302804F82839"]
+			optional: true
+			id: "2A2008C87CF9239C"
+			tasks: [
+				{
+					id: "67F58B72E97552D5"
+					type: "item"
+					item: "mtmechs:ta_wheel_item"
+				}
+				{
+					id: "60A46BF122906B91"
+					type: "item"
+					item: "mtmechs:ta_arm_item"
+				}
+				{
+					id: "76A533C168F43412"
+					type: "item"
+					item: "mtmechs:ta_chassis_item"
+				}
+				{
+					id: "07F43326B8C6075F"
+					type: "item"
+					item: "mtmechs:ta_stack_item"
+				}
+				{
+					id: "4117DB79BB56C629"
+					type: "item"
+					item: "mtmechs:ta_whole_item"
+				}
+			]
+			rewards: [{
+				id: "34877C7271A50B1F"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+				count: 3
+			}]
+		}
+		{
+			title: "Proto Mech"
+			icon: "mtmechs:pa_whole_item"
+			x: 27.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"This mech is pretty much the same as the Magitek Mech, however, it requires a charged item, such as a battery to power it. "
+				""
+				"Once the mech is crafted, place it in the world. Shift + Right click to open its storage to where you put the parts. "
+				""
+				"You need to put the Core on the second slot from the left, and the charged item on the far left. The far right slot is either going to be a Blaze Rod (for fire beam), or Snow Ball (for ice beam). "
+			]
+			dependencies: ["665C302804F82839"]
+			optional: true
+			id: "2A4BA9D513C799D6"
+			tasks: [
+				{
+					id: "48368D3C49C62D09"
+					type: "item"
+					item: "mtmechs:pa_chassis_item"
+				}
+				{
+					id: "7F53EE6FCE5A7B97"
+					type: "item"
+					item: "mtmechs:pa_leg_item"
+				}
+				{
+					id: "327CB29D194B5E25"
+					type: "item"
+					item: "mtmechs:pa_whole_item"
+				}
+			]
+			rewards: [{
+				id: "515C0EDA3201F9F2"
+				type: "choice"
+				table_id: 6198591403997276360L
+			}]
+		}
+		{
+			title: "Grow Crystals"
+			icon: "ae2:fluix_crystal"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Just add water...And wait for the POP"
+			description: [
+				"Crystals are grown from Crystal seeds. Craft a piece of sand with Certus Quartz dust or Fluix Dust. Throw in water and wait for it to grow. "
+				""
+				"This takes a while (20 mins), we can speed it up later on."
+			]
+			dependencies: ["06E70622D9F330EC"]
+			id: "47FBE6421F89965A"
+			tasks: [
+				{
+					id: "51E6EDC63711B6FD"
+					type: "item"
+					item: "ae2:certus_crystal_seed"
+				}
+				{
+					id: "3C609F2384B9F88D"
+					type: "item"
+					item: "ae2:fluix_crystal_seed"
+				}
+				{
+					id: "0A1A13660643AD11"
+					type: "item"
+					item: "ae2:certus_quartz_crystal"
+				}
+				{
+					id: "414E7F8949BA27E8"
+					type: "item"
+					item: "ae2:fluix_crystal"
+				}
+			]
+		}
+		{
+			title: "Fluix Dust"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Throw it in water?"
+			description: ["Throw Charged Certus Quartz, Redstone, and Nether Quartz into water and it will create Fluix Dust."]
+			dependencies: ["34A45EEBE143A514"]
+			id: "06E70622D9F330EC"
+			tasks: [{
+				id: "63F7F17E6D43B015"
+				type: "item"
+				item: "ae2:fluix_dust"
+			}]
+			rewards: [{
+				id: "68D8FB24BE2EB265"
+				type: "item"
+				item: "ae2:fluix_dust"
+				count: 8
+			}]
+		}
+		{
+			title: "Charged Certus Quartz"
+			x: 0.0d
+			y: 2.0d
+			description: ["Right click on the charger with a Certus Quartz Crystal to begin charging it. After a moment it will turn into a Charged Certus Quartz Crystal."]
+			dependencies: [
+				"417915745B47F7AB"
+				"3EE872A3E563FBD8"
+			]
+			id: "34A45EEBE143A514"
+			tasks: [{
+				id: "6DF894D19440A251"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "177C420EB35AF73C"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+				count: 8
+			}]
+		}
+		{
+			title: "Charger"
+			x: 0.0d
+			y: 4.0d
+			description: ["Power your charger by connecting it to your Tech Reborn or Modern Industrialization power source."]
+			id: "3EE872A3E563FBD8"
+			tasks: [{
+				id: "59B3FAEC2CBEC1CF"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "5A346E51E41BCEA9"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+				count: 4
+			}]
+		}
+		{
+			title: "Craft Presses"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Using Botania, Complete the AE2 press quest in \"What Sorcery is This\""
+			description: ["Presses are used in an Inscriber to make the various Circuits"]
+			dependencies: [
+				"523C60C22F277DBE"
+				"5612740453389204"
+				"47FBE6421F89965A"
+			]
+			id: "737F2F2D5BB68057"
+			tasks: [
+				{
+					id: "7797789C53599165"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "781DE56CCBBD19E7"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "0E7A7B3445F4B03E"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "1AA47B80FA6DCEC7"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+		}
+		{
+			title: "Craft AE2 Sky Stone"
+			x: 8.0d
+			y: 2.0d
+			subtitle: "Using Botania complete the Sky Stone quest in \"What Sorcery Is this\""
+			dependencies: ["523C60C22F277DBE"]
+			hide: true
+			id: "3C7C63336CC5D065"
+			tasks: [{
+				id: "54CC070CB36C3210"
+				type: "item"
+				item: "ae2:sky_stone_block"
+			}]
+		}
+		{
+			icon: "ae2:inscriber"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Time to make some processors"
+			description: [
+				"Craft an inscriber and then put silicon in to make Printed Silicon."
+				""
+				"Next use either gold, certus quartz or diamond with a press to make the coresponding Printed Circuit."
+				"Finally combine the Printed Silicon with Redstone and the Printed Circuit you need for the Processor you want."
+			]
+			dependencies: ["737F2F2D5BB68057"]
+			id: "5B9904D13E22D795"
+			tasks: [
+				{
+					id: "58DDEAEADB128065"
+					type: "item"
+					item: "ae2:inscriber"
+				}
+				{
+					id: "25F0B0B38F1B18F8"
+					type: "item"
+					item: "ae2:logic_processor"
+				}
+				{
+					id: "2987144D8D0D7250"
+					type: "item"
+					item: "ae2:calculation_processor"
+				}
+				{
+					id: "688E702F62858FDE"
+					type: "item"
+					item: "ae2:engineering_processor"
+				}
+			]
+			rewards: [{
+				id: "2313771DCE9AD3D8"
+				type: "item"
+				item: "ae2:printed_silicon"
+				count: 8
+			}]
+		}
+		{
+			title: "The Brains"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Not those kind of brains"
+			description: [
+				"Every AE2 system must have only one centeralized ME Controller multi-block."
+				""
+				"Each face of a controller can support up to 32 channels."
+				""
+				"All Controller Blocks Must be connected to one another."
+				""
+				"They all must be within a 7X7X7."
+				""
+				"Each block can touch a maximum of 2 other controller blocks."
+				""
+				"*you will likley start out with just one controller."
+			]
+			dependencies: [
+				"3C7C63336CC5D065"
+				"5B9904D13E22D795"
+			]
+			dependency_requirement: "all_started"
+			id: "49ABC4DF0D766549"
+			tasks: [{
+				id: "49D458549635A1B9"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [{
+				id: "5CEECC614EB741EC"
+				type: "item"
+				item: "ae2:engineering_processor"
+				count: 2
+			}]
+		}
+		{
+			title: "Cables!"
+			icon: "ae2:fluix_glass_cable"
+			x: 4.0d
+			y: 4.0d
+			description: [
+				"Quartz Fiber Cables can transfer AE2 power only."
+				""
+				"Glass Fluix Cables and Smart Cables can each carry 8 Channels. The smart Cable will display how many channels are in use."
+				""
+				"Dense Smart Cable can carry 32 channels and display how many are in use."
+				""
+				"A cable has a specific number of channels, each device on a cable uses one channel. When a cable is full of channels a new device can not be connected."
+			]
+			dependencies: ["47FBE6421F89965A"]
+			id: "3924F8E793EADD9B"
+			tasks: [
+				{
+					id: "286F6516747C8432"
+					type: "item"
+					item: "ae2:quartz_fiber"
+				}
+				{
+					id: "3EF2A831C9191495"
+					type: "item"
+					item: "ae2:fluix_glass_cable"
+				}
+				{
+					id: "4090B30DDD8A4946"
+					type: "item"
+					item: "ae2:fluix_smart_cable"
+				}
+				{
+					id: "77C1128398F92DAA"
+					type: "item"
+					item: "ae2:fluix_smart_dense_cable"
+				}
+			]
+			rewards: [{
+				id: "73B30377CD53834C"
+				type: "item"
+				item: "ae2:fluix_smart_dense_cable"
+				count: 4
+			}]
+		}
+		{
+			title: "Storage For Your Storage"
+			x: 10.0d
+			y: 4.0d
+			subtitle: "You need to store your storage somewhere..."
+			description: ["ME Drives can hold 10 drives."]
+			dependencies: ["49ABC4DF0D766549"]
+			id: "2778D36732C866C5"
+			tasks: [{
+				id: "240797342C6EF3B6"
+				type: "item"
+				item: "ae2:drive"
+			}]
+			rewards: [{
+				id: "13EBF57DC73A777E"
+				type: "item"
+				item: "ae2:logic_processor"
+				count: 2
+			}]
+		}
+		{
+			title: "Digital Chest"
+			x: 8.0d
+			y: 6.0d
+			description: [
+				"Storage drives store your items digitally."
+				""
+				"No matter the size of your ME drive it can at most hold 63 different types of items."
+				""
+				"In a 1k Drive each new type of item consumes 8 bytes of data and each count of an item uses 1 byte."
+				""
+				"Ex. 2 cobble uses 9 bytes 8+1"
+				"3 cobble would use 10 bytes 8+1+1"
+				"2 cobble and 1 stone would use 17 bytes 8+1+8."
+			]
+			dependencies: ["2778D36732C866C5"]
+			id: "7F3F93B6D72DD605"
+			tasks: [{
+				id: "76B34C8B1002F56D"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "343C89D37301C7AF"
+				type: "item"
+				item: "ae2:item_cell_housing"
+				count: 2
+			}]
+		}
+		{
+			title: "Digital Bucket"
+			x: 10.0d
+			y: 6.0d
+			description: ["Fluid Storage cells can store up to 5 different types of liquids."]
+			dependencies: ["2778D36732C866C5"]
+			id: "36EB6E38C860D5F3"
+			tasks: [{
+				id: "7B0B51646B109A6D"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "473E124FE03BD1FA"
+				type: "item"
+				item: "ae2:fluid_cell_housing"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			description: ["Use an ME IO port to empty cells into your system or pull items from your system into the cell."]
+			dependencies: ["2778D36732C866C5"]
+			dependency_requirement: "one_completed"
+			id: "797936FC5ECDAB83"
+			tasks: [{
+				id: "2C0DD950E2303169"
+				type: "item"
+				item: "ae2:io_port"
+			}]
+			rewards: [{
+				id: "569EFC992780F724"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			title: "Access your Digital network"
+			x: 14.0d
+			y: 0.0d
+			description: ["Place down the ME Terminal to be able to view and access the items inside of the Systems. "]
+			dependencies: ["49ABC4DF0D766549"]
+			id: "1FDE492726991561"
+			tasks: [{
+				id: "6921A81116D47081"
+				type: "item"
+				item: "ae2:terminal"
+			}]
+			rewards: [{
+				id: "37C53063EF55ACB5"
+				type: "item"
+				item: "ae2:semi_dark_monitor"
+			}]
+		}
+		{
+			title: "Are we There Yet"
+			x: 6.0d
+			y: 2.0d
+			subtitle: "Crystal Growth Accelerators speed up the growth of crystals"
+			description: [
+				"Using energy you can speed up the growth of your cystals . The more you have the faster they will grow."
+				""
+				"1 = 2 min"
+				"2 = 1 min"
+				"3 = 40 sec"
+				"4 = 30 sec"
+				"5 = 24 sec"
+			]
+			dependencies: ["47FBE6421F89965A"]
+			id: "17FCC308019B1F2E"
+			tasks: [{
+				id: "35603272BF65799D"
+				type: "item"
+				item: "ae2:quartz_growth_accelerator"
+			}]
+			rewards: [{
+				id: "47775B51C467E881"
+				type: "item"
+				item: "ae2:fluix_crystal"
+				count: 8
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.0d
+			description: ["When using a Crafting pattern it will need to be placed in a pattern provider next to a molecular assembler."]
+			dependencies: ["5A098D5D785A0336"]
+			id: "6AF1EA37D5A9D256"
+			tasks: [{
+				id: "3332DD3D0406F5D7"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+			rewards: [{
+				id: "0F840014ECB057FC"
+				type: "item"
+				item: "ae2:blank_pattern"
+				count: 8
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			description: ["Place your patterns in a pattern provider and it will supply the auto-crafting resources to the connected inventories."]
+			dependencies: ["542F60F81CA4E9D7"]
+			id: "5A098D5D785A0336"
+			tasks: [{
+				id: "23BD2BA1F92926EB"
+				type: "item"
+				item: "ae2:pattern_provider"
+			}]
+			rewards: [{
+				id: "71AADFC3FA040C63"
+				type: "item"
+				item: "ae2:blank_pattern"
+				count: 8
+			}]
+		}
+		{
+			title: "Road to Autocrafting"
+			icon: "ae2:blank_pattern"
+			x: 14.0d
+			y: 4.0d
+			description: [
+				""
+				"Patterns are used to store recipes for auto crafting."
+				""
+				"Patterns can be set to two modes, Crafting and Processing."
+			]
+			dependencies: [
+				"1FDE492726991561"
+				"2778D36732C866C5"
+			]
+			id: "542F60F81CA4E9D7"
+			tasks: [
+				{
+					id: "58E0381C0D686A48"
+					type: "item"
+					item: "ae2:blank_pattern"
+				}
+				{
+					id: "1E2241B705839BA1"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "7EEDDFE440B06E43"
+					type: "item"
+					item: "ae2:blank_pattern"
+					count: 8
+				}
+				{
+					id: "5B826B9997781DF2"
+					type: "item"
+					item: "ae2:semi_dark_monitor"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			description: ["Upgrade your ME Terminal to have a crafting table."]
+			dependencies: ["1FDE492726991561"]
+			id: "0B3B2C940F00A020"
+			tasks: [{
+				id: "6601E8547F425AB7"
+				type: "item"
+				item: "ae2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "110D9882021F5C82"
+				type: "item"
+				item: "ae2:semi_dark_monitor"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "Zoom"
+			description: ["Use acceleration cards to speed up your Buses, interfaces, and inscribers."]
+			dependencies: ["7F3543CAAA237869"]
+			id: "71A1B2042C2096C1"
+			tasks: [{
+				id: "44A8B8BBE383808D"
+				type: "item"
+				item: "ae2:speed_card"
+			}]
+			rewards: [{
+				id: "586FD1B22B9684E7"
+				type: "item"
+				item: "ae2:advanced_card"
+				count: 2
+			}]
+		}
+		{
+			title: "Powwa"
+			x: 10.0d
+			y: -2.0d
+			description: ["Your going to need to power your system somehow. This will convert other mods energy into AE2 Energy"]
+			dependencies: ["49ABC4DF0D766549"]
+			id: "7EF3EEE918C70377"
+			tasks: [{
+				id: "5BE76F60AC111A8B"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+			rewards: [
+				{
+					id: "37434AEE9717F514"
+					type: "item"
+					item: "ae2:fluix_crystal"
+					count: 4
+				}
+				{
+					id: "4795E7BEC51D0467"
+					type: "item"
+					item: "ae2:certus_quartz_crystal"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Powwa Storage"
+			x: 10.0d
+			y: -4.0d
+			description: ["Use energy cells in your sytem to hold power. Moving a large amount of items into your system at once uses a alot of power, so you may need these."]
+			dependencies: ["7EF3EEE918C70377"]
+			id: "7DA27B4F2ECBB91D"
+			tasks: [{
+				id: "29171E5ED16C6F68"
+				type: "item"
+				item: {
+					id: "ae2:energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "636FEAEC610C3675"
+					type: "item"
+					item: "ae2:fluix_crystal"
+					count: 4
+				}
+				{
+					id: "3F1E31E3C2A15715"
+					type: "item"
+					item: "ae2:certus_quartz_crystal"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Moar Powwa Storage"
+			x: 10.0d
+			y: -6.0d
+			description: ["Need bigger power reserves? Craft a Dense Energy Cell to hold more energy."]
+			dependencies: ["7DA27B4F2ECBB91D"]
+			id: "67F17A72A072BFAD"
+			tasks: [{
+				id: "568572E6372AAE66"
+				type: "item"
+				item: {
+					id: "ae2:dense_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0670AF9EDAAE7D9D"
+					type: "item"
+					item: "ae2:fluix_crystal"
+					count: 4
+				}
+				{
+					id: "562DE90E295A79CB"
+					type: "item"
+					item: "ae2:certus_quartz_crystal"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 6.0d
+			description: [
+				"Auto crafting requires temporary storage for the materials it is working with. "
+				""
+				"Crafting storages can be placed in a rectangular multiblock structure."
+			]
+			dependencies: ["542F60F81CA4E9D7"]
+			id: "65CC9F873C944D4F"
+			tasks: [{
+				id: "7BAC844C545E0137"
+				type: "item"
+				item: "ae2:1k_crafting_storage"
+			}]
+			rewards: [{
+				id: "4FDF036297843AAF"
+				type: "item"
+				item: "ae2:blank_pattern"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.0d
+			description: ["In a 4k drive Each new item type take 32 bytes of space."]
+			dependencies: ["7F3F93B6D72DD605"]
+			id: "5278E22683D87BBF"
+			tasks: [{
+				id: "362570DE7002464D"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7DFF97CE676FE8A6"
+				type: "item"
+				item: "ae2:item_cell_housing"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.0d
+			description: ["In a 16k drive Each new item type take 128 bytes of space."]
+			dependencies: ["5278E22683D87BBF"]
+			id: "3CA36BD99AD2B0CC"
+			tasks: [{
+				id: "630FD354D58BA53B"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6FBDB19D7A7287A2"
+				type: "item"
+				item: "ae2:item_cell_housing"
+				count: 2
+			}]
+		}
+		{
+			title: "For All Your Cobble"
+			x: 8.0d
+			y: 9.0d
+			description: ["In a 64k drive Each new item type take 512 bytes of space."]
+			dependencies: ["3CA36BD99AD2B0CC"]
+			id: "670400718F8AEB50"
+			tasks: [{
+				id: "218984C96439C20F"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "318A8F7D6D07191F"
+				type: "item"
+				item: "ae2:item_cell_housing"
+				count: 2
+			}]
+		}
+		{
+			title: "What are you going to do with this much fluid"
+			x: 10.0d
+			y: 7.0d
+			shape: "circle"
+			description: ["Are you storing the ocean?"]
+			dependencies: ["36EB6E38C860D5F3"]
+			optional: true
+			id: "1938AF274C8A119D"
+			tasks: [{
+				id: "1222E9E385FA10D8"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "57A40BF2D19FDC3D"
+				type: "item"
+				item: "ae2:fluid_cell_housing"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			shape: "circle"
+			description: ["(WIP)"]
+			dependencies: ["797936FC5ECDAB83"]
+			hide: true
+			optional: true
+			id: "619B1BEEE8FA52A9"
+			tasks: [{
+				id: "516F5A3A60B71BDE"
+				type: "item"
+				item: "ae2:spatial_io_port"
+			}]
+		}
+		{
+			title: "End Game Crafting"
+			x: 14.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["If you are autocrafting super complex and expensive recipies you may need this much crafting storage."]
+			dependencies: ["65CC9F873C944D4F"]
+			optional: true
+			id: "4A28F9A12CECAE35"
+			tasks: [{
+				id: "33796E9D0F5208D3"
+				type: "item"
+				item: "ae2:64k_crafting_storage"
+			}]
+			rewards: [{
+				id: "716029A332B020BD"
+				type: "item"
+				item: "ae2:blank_pattern"
+				count: 8
+			}]
+		}
+		{
+			title: "Multi-Tasking"
+			x: 16.0d
+			y: 6.0d
+			description: ["Add Co-Crafting Units to be able to process more than one part of a recipe at a time."]
+			dependencies: ["65CC9F873C944D4F"]
+			id: "6BF072B7BEE0DE34"
+			tasks: [{
+				id: "1AD5CD32AC0532DC"
+				type: "item"
+				item: "ae2:crafting_accelerator"
+			}]
+			rewards: [{
+				id: "52830DFF4D311D8B"
+				type: "item"
+				item: "ae2:blank_pattern"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: ["Craft an advanced card"]
+			dependencies: ["5B9904D13E22D795"]
+			id: "7F3543CAAA237869"
+			tasks: [{
+				id: "767454F558136BA1"
+				type: "item"
+				item: "ae2:advanced_card"
+			}]
+			rewards: [{
+				id: "153A8020F2EE67E0"
+				type: "item"
+				item: "ae2:advanced_card"
+				count: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			description: ["Use a network tool to view channels and power usage."]
+			dependencies: ["49ABC4DF0D766549"]
+			id: "01D31B7FE59F4DAE"
+			tasks: [{
+				id: "294F113AA49AFB61"
+				type: "item"
+				item: "ae2:network_tool"
+			}]
+			rewards: [{
+				id: "7463B56CDC5CA995"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+				count: 8
+			}]
+		}
+		{
+			title: "Storage Access from anyhwhere"
+			x: 8.0d
+			y: 15.0d
+			shape: "circle"
+			description: ["(WIP)"]
+			dependencies: ["46297D1ED3F77482"]
+			hide: true
+			optional: true
+			id: "1C9F5E5FE89E8C63"
+			tasks: [
+				{
+					id: "0D04EB2723E29B32"
+					type: "item"
+					item: "ae2:quantum_ring"
+				}
+				{
+					id: "1E56B13025CD50A3"
+					type: "item"
+					item: "ae2:quantum_link"
+				}
+			]
+		}
+		{
+			icon: "ae2:wireless_terminal"
+			x: 14.0d
+			y: -4.0d
+			description: ["Access your system remotly with a wireless terminal. To link it to your system place it in the security terminal."]
+			dependencies: ["0BB3693761D1C488"]
+			id: "464435E041196D6B"
+			tasks: [
+				{
+					id: "247997DDA437C2D8"
+					type: "item"
+					item: "ae2:wireless_access_point"
+				}
+				{
+					id: "64F86025C9F057DB"
+					type: "item"
+					item: "ae2:wireless_terminal"
+				}
+			]
+			rewards: [{
+				id: "7FF6BC255309D61A"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+		}
+		{
+			icon: "ae2:security_station"
+			x: 14.0d
+			y: -2.0d
+			description: ["Restrict access to your network by adding a security terminal."]
+			dependencies: ["1FDE492726991561"]
+			id: "0BB3693761D1C488"
+			tasks: [
+				{
+					id: "38A89CB61738FDA6"
+					type: "item"
+					item: "ae2:security_station"
+				}
+				{
+					id: "6E8024A5C7DEA9FF"
+					type: "item"
+					item: "ae2:biometric_card"
+				}
+			]
+			rewards: [{
+				id: "75F978E047C43D27"
+				type: "item"
+				item: "ae2:biometric_card"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			description: ["Place a cell into a Cell Workbench to adjust what items you allow it to store."]
+			dependencies: ["2778D36732C866C5"]
+			id: "7405BEC5E81F585F"
+			tasks: [{
+				id: "163746143FFD39B2"
+				type: "item"
+				item: "ae2:cell_workbench"
+			}]
+			rewards: [{
+				id: "551008AE52DD7DC5"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 11.0d
+			shape: "circle"
+			description: ["(WIP)"]
+			dependencies: ["670400718F8AEB50"]
+			hide: true
+			optional: true
+			id: "25819C016AEE03E2"
+			tasks: [{
+				id: "6BE7FE6D409F445D"
+				type: "item"
+				item: "ae2:condenser"
+			}]
+		}
+		{
+			icon: "ae2:quantum_entangled_singularity"
+			x: 8.0d
+			y: 13.0d
+			shape: "circle"
+			description: ["(WIP)"]
+			dependencies: ["25819C016AEE03E2"]
+			hide: true
+			dependency_requirement: "one_completed"
+			hide_text_until_complete: false
+			optional: true
+			id: "46297D1ED3F77482"
+			tasks: [
+				{
+					id: "3F38423E21A2B3DF"
+					type: "item"
+					item: "ae2:quantum_entangled_singularity"
+				}
+				{
+					id: "5DA5907026969CF4"
+					type: "item"
+					item: "ae2:tiny_tnt"
+				}
+			]
+		}
+		{
+			title: "That looks better"
+			x: 4.0d
+			y: 6.0d
+			subtitle: "Hide yo cables..."
+			description: [
+				"Place 4 cable anchors around a block to create cable facades. You can use these facades to hide your cabling and keep your base nice and neat!"
+				""
+				"Use these cable facades to hide your cabling for AE2."
+			]
+			dependencies: ["3924F8E793EADD9B"]
+			id: "78F605D8331AC6B6"
+			tasks: [{
+				id: "59572645E8FB98CC"
+				type: "item"
+				item: "ae2:cable_anchor"
+			}]
+			rewards: [{
+				id: "38972406B9FB0CD5"
+				type: "item"
+				item: "ae2:cable_anchor"
+				count: 64
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			description: [
+				"Import buses will bring items from an external inventory into your system's drives."
+				""
+				"Export Buses will take items in your system and put them in the connected blocks inventory."
+				""
+				"Right click on the bus to tell it what items you would like to import or export. "
+			]
+			dependencies: ["49ABC4DF0D766549"]
+			id: "607D2C3300D73F51"
+			tasks: [
+				{
+					id: "79B47F6D795EACE1"
+					type: "item"
+					item: "ae2:import_bus"
+				}
+				{
+					id: "1CF9D043D99E5A82"
+					type: "item"
+					item: "ae2:export_bus"
+				}
+			]
+			rewards: [{
+				id: "7F89B5F5AB102330"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			description: ["Craft a basic card."]
+			dependencies: ["5B9904D13E22D795"]
+			id: "2439D15FB5BC5E87"
+			tasks: [{
+				id: "3AA34F0CB186DCF5"
+				type: "item"
+				item: "ae2:basic_card"
+			}]
+			rewards: [{
+				id: "19719E5A2C3D227A"
+				type: "item"
+				item: "ae2:basic_card"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			description: ["Allows interfaces, level emitters, and export buses to use autocrafting."]
+			dependencies: ["2439D15FB5BC5E87"]
+			id: "1557BAA6C3B8EB2D"
+			tasks: [{
+				id: "7CDE5ADB890A273F"
+				type: "item"
+				item: "ae2:crafting_card"
+			}]
+			rewards: [{
+				id: "26F4AD98C9C69423"
+				type: "item"
+				item: "ae2:basic_card"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			description: ["Control your blocks with redstone"]
+			dependencies: ["2439D15FB5BC5E87"]
+			id: "6F8E601ED55CAEC9"
+			tasks: [{
+				id: "2232D0C7D8F93693"
+				type: "item"
+				item: "ae2:redstone_card"
+			}]
+			rewards: [{
+				id: "09CDA02E9BCAD385"
+				type: "item"
+				item: "ae2:basic_card"
+				count: 2
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			description: ["Allow your busses to filter more types of items."]
+			dependencies: ["2439D15FB5BC5E87"]
+			id: "3F654E95D85DBBFF"
+			tasks: [{
+				id: "5DA7C273A1DEB4FB"
+				type: "item"
+				item: "ae2:capacity_card"
+			}]
+			rewards: [{
+				id: "61F8ABC6BF28CAD8"
+				type: "item"
+				item: "ae2:basic_card"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: ["Fuzzy Cards can be used to filter the damage of an item inside of a device. "]
+			dependencies: ["7F3543CAAA237869"]
+			id: "30864119DADA28F8"
+			tasks: [{
+				id: "49EBAC6F1942304D"
+				type: "item"
+				item: "ae2:fuzzy_card"
+			}]
+			rewards: [{
+				id: "5CC26BF05005F1AB"
+				type: "item"
+				item: "ae2:advanced_card"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["Increase the energy storage of your wireless devices with an energy card."]
+			dependencies: ["7F3543CAAA237869"]
+			id: "16AB80CCFA7E4D64"
+			tasks: [{
+				id: "25C93E98D93FF1EA"
+				type: "item"
+				item: "ae2:energy_card"
+			}]
+			rewards: [{
+				id: "5D5470C7CDF98A17"
+				type: "item"
+				item: "ae2:advanced_card"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["Changes the filtered items from Whitelist to Blacklist."]
+			dependencies: ["7F3543CAAA237869"]
+			id: "7938D7424D3895A3"
+			tasks: [{
+				id: "74B7497245C7C102"
+				type: "item"
+				item: "ae2:inverter_card"
+			}]
+			rewards: [{
+				id: "757007E32B49A518"
+				type: "item"
+				item: "ae2:advanced_card"
+				count: 2
+			}]
+		}
+		{
+			title: "Digital World"
+			x: 6.0d
+			y: 6.0d
+			shape: "circle"
+			description: ["(WIP)"]
+			dependencies: ["619B1BEEE8FA52A9"]
+			hide: true
+			optional: true
+			id: "5A8DA159E2B9DC6F"
+			tasks: [{
+				id: "786F40A8FB790EB6"
+				type: "item"
+				item: "ae2:spatial_storage_cell_2"
+			}]
+			rewards: [{
+				id: "0C1C2B1BDD72D20B"
+				type: "item"
+				item: "ae2:item_cell_housing"
+			}]
+		}
+		{
+			title: "Digital Galaxy"
+			x: 6.0d
+			y: 7.0d
+			shape: "circle"
+			description: ["(WIP)"]
+			dependencies: ["5A8DA159E2B9DC6F"]
+			hide: true
+			optional: true
+			id: "7BA93CD590238676"
+			tasks: [{
+				id: "157A48677EF7B9AF"
+				type: "item"
+				item: "ae2:spatial_storage_cell_16"
+			}]
+			rewards: [{
+				id: "5F2AFBC728BEB88C"
+				type: "item"
+				item: "ae2:item_cell_housing"
+			}]
+		}
+		{
+			title: "Digital Universe"
+			x: 6.0d
+			y: 8.0d
+			shape: "circle"
+			description: ["(WIP)"]
+			dependencies: ["7BA93CD590238676"]
+			hide: true
+			optional: true
+			id: "6EAB1AB571CF2921"
+			tasks: [{
+				id: "6B7C3EBD425B3983"
+				type: "item"
+				item: "ae2:spatial_storage_cell_128"
+			}]
+			rewards: [{
+				id: "6C532D65E5CCB94B"
+				type: "item"
+				item: "ae2:item_cell_housing"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 8.0d
+			subtitle: "What am I crafting?"
+			description: ["Add a crafting monitor to your Crafting multiblock to see what you are crafting at a glance."]
+			dependencies: ["65CC9F873C944D4F"]
+			id: "2CDFC7596AE920BF"
+			tasks: [{
+				id: "1744B5BB12F51C34"
+				type: "item"
+				item: "ae2:crafting_monitor"
+			}]
+			rewards: [{
+				id: "2714D3BC8245770A"
+				type: "item"
+				item: "ae2:blank_pattern"
+				count: 8
+			}]
+		}
+		{
+			x: 14.0d
+			y: -6.0d
+			description: ["Increase the range of your access points with wireless booster cards."]
+			dependencies: ["464435E041196D6B"]
+			id: "21AB03483EE3EC43"
+			tasks: [{
+				id: "6948AD5E1719E464"
+				type: "item"
+				item: "ae2:wireless_booster"
+			}]
+			rewards: [{
+				id: "7C800AA001365BD2"
+				type: "item"
+				item: "ae2:wireless_booster"
+			}]
+		}
+	]
+}

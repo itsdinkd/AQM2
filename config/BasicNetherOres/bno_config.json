@@ -1,0 +1,379 @@
+{
+  "diamondOre": {
+    "diamondMinHeight": {
+      "comment": "Set Diamond Min Spawn Height (Default: 90)",
+      "value": 90
+    },
+    "diamondVeinSize": {
+      "comment": "Set Max Diamond Vein Size (Default: 8)",
+      "value": 12
+    },
+    "diamondPerChunk": {
+      "comment": "Set Diamond Spawn Chance (Default: 3)",
+      "value": 2
+    },
+    "diamondGeneration": {
+      "comment": "Generate Diamond Ore",
+      "value": true
+    },
+    "diamondMaxHeight": {
+      "comment": "Set Diamond Max Spawn Height (Default: 125)",
+      "value": 125
+    }
+  },
+  "leadOre": {
+    "leadGeneration": {
+      "comment": "Generate Lead Ore",
+      "value": true
+    },
+    "leadMinHeight": {
+      "comment": "Set Lead Min Spawn Height (Default: 40)",
+      "value": 40
+    },
+    "leadVeinSize": {
+      "comment": "Set Max Lead Vein Size (Default: 8)",
+      "value": 4
+    },
+    "leadMaxHeight": {
+      "comment": "Set Lead Max Spawn Height (Default: 110)",
+      "value": 110
+    },
+    "leadPerChunk": {
+      "comment": "Set Lead Spawn Chance (Default: 8)",
+      "value": 6
+    }
+  },
+  "coalOre": {
+    "coalGeneration": {
+      "comment": "Generate Coal Ore",
+      "value": true
+    },
+    "coalPerChunk": {
+      "comment": "Set Coal Spawn Chance (Default: 20)",
+      "value": 15
+    },
+    "coalVeinSize": {
+      "comment": "Set Max Coal Vein Size (Default: 17)",
+      "value": 17
+    },
+    "coalMaxHeight": {
+      "comment": "Set Coal Max Spawn Height (Default: 115)",
+      "value": 115
+    },
+    "coalMinHeight": {
+      "comment": "Set Coal Min Spawn Height (Default: 25)",
+      "value": 25
+    }
+  },
+  "copperOre": {
+    "copperPerChunk": {
+      "comment": "Set Copper Spawn Chance (Default: 20)",
+      "value": 8
+    },
+    "copperMaxHeight": {
+      "comment": "Set Copper Max Spawn Height (Default: 75)",
+      "value": 75
+    },
+    "copperMinHeight": {
+      "comment": "Set Copper Min Spawn Height (Default: 35)",
+      "value": 35
+    },
+    "copperVeinSize": {
+      "comment": "Set Max Copper Vein Size (Default: 8)",
+      "value": 8
+    },
+    "copperGeneration": {
+      "comment": "Generate Copper Ore",
+      "value": true
+    }
+  },
+  "aluminumOre": {
+    "aluminumMaxHeight": {
+      "comment": "Set Aluminum Max Spawn Height (Default: 110)",
+      "value": 110
+    },
+    "aluminumVeinSize": {
+      "comment": "Set Max Aluminum Vein Size (Default: 8)",
+      "value": 3
+    },
+    "aluminumGeneration": {
+      "comment": "Generate Aluminum Ore",
+      "value": true
+    },
+    "aluminumMinHeight": {
+      "comment": "Set Aluminum Min Spawn Height (Default: 75)",
+      "value": 75
+    },
+    "aluminumPerChunk": {
+      "comment": "Set Aluminum Spawn Chance (Default: 10)",
+      "value": 5
+    }
+  },
+  "lapisOre": {
+    "lapisGeneration": {
+      "comment": "Generate Lapis Ore",
+      "value": true
+    },
+    "lapisPerChunk": {
+      "comment": "Set Lapis Spawn Chance (Default: 2)",
+      "value": 2
+    },
+    "lapisMinHeight": {
+      "comment": "Set Lapis Min Spawn Height (Default: 30)",
+      "value": 30
+    },
+    "lapisVeinSize": {
+      "comment": "Set Max Lapis Vein Size (Default: 7)",
+      "value": 4
+    },
+    "lapisMaxHeight": {
+      "comment": "Set Lapis Max Spawn Height (Default: 60)",
+      "value": 60
+    }
+  },
+  "tinOre": {
+    "tinVeinSize": {
+      "comment": "Set Max Tin Vein Size (Default: 8)",
+      "value": 8
+    },
+    "tinPerChunk": {
+      "comment": "Set Tin Spawn Chance (Default: 20)",
+      "value": 10
+    },
+    "tinMinHeight": {
+      "comment": "Set Tin Min Spawn Height (Default: 40)",
+      "value": 40
+    },
+    "tinMaxHeight": {
+      "comment": "Set Tin Max Spawn Height (Default: 110)",
+      "value": 110
+    },
+    "tinGeneration": {
+      "comment": "Generate Tin Ore",
+      "value": false
+    }
+  },
+  "osmiumOre": {
+    "osmiumVeinSize": {
+      "comment": "Set Max Osmium Vein Size (Default: 8)",
+      "value": 8
+    },
+    "osmiumGeneration": {
+      "comment": "Generate Osmium Ore",
+      "value": false
+    },
+    "osmiumPerChunk": {
+      "comment": "Set Osmium Spawn Chance (Default: 8)",
+      "value": 8
+    },
+    "osmiumMaxHeight": {
+      "comment": "Set Osmium Max Spawn Height (Default: 75)",
+      "value": 75
+    },
+    "osmiumMinHeight": {
+      "comment": "Set Osmium Min Spawn Height (Default: 30)",
+      "value": 30
+    }
+  },
+  "silverOre": {
+    "silverVeinSize": {
+      "comment": "Set Max Silver Vein Size (Default: 9)",
+      "value": 9
+    },
+    "silverGeneration": {
+      "comment": "Generate Silver Ore",
+      "value": false
+    },
+    "silverPerChunk": {
+      "comment": "Set Silver Spawn Chance (Default: 4)",
+      "value": 4
+    },
+    "silverMaxHeight": {
+      "comment": "Set Silver Max Spawn Height (Default: 60)",
+      "value": 60
+    },
+    "silverMinHeight": {
+      "comment": "Set Silver Min Spawn Height (Default: 30)",
+      "value": 30
+    }
+  },
+  "nickelOre": {
+    "nickelPerChunk": {
+      "comment": "Set Nickel Spawn Chance (Default: 8)",
+      "value": 4
+    },
+    "nickelGeneration": {
+      "comment": "Generate Nickel Ore",
+      "value": false
+    },
+    "nickelMaxHeight": {
+      "comment": "Set Nickel Max Spawn Height (Default: 50)",
+      "value": 50
+    },
+    "nickelMinHeight": {
+      "comment": "Set Nickel Min Spawn Height (Default: 30)",
+      "value": 30
+    },
+    "nickelVeinSize": {
+      "comment": "Set Max Nickel Vein Size (Default: 4)",
+      "value": 4
+    }
+  },
+  "emeraldOre": {
+    "emeraldVeinSize": {
+      "comment": "Set Max Emerald Vein Size (Default: 4)",
+      "value": 4
+    },
+    "emeraldPerChunk": {
+      "comment": "Set Emerald Spawn Chance (Default: 2)",
+      "value": 2
+    },
+    "emeraldMaxHeight": {
+      "comment": "Set Emerald Max Spawn Height (Default: 55)",
+      "value": 55
+    },
+    "emeraldGeneration": {
+      "comment": "Generate Emerald Ore",
+      "value": true
+    },
+    "emeraldMinHeight": {
+      "comment": "Set Emerald Min Spawn Height (Default: 25)",
+      "value": 25
+    }
+  },
+  "redstoneOre": {
+    "redstoneGeneration": {
+      "comment": "Generate Redstone Ore",
+      "value": true
+    },
+    "redstoneVeinSize": {
+      "comment": "Set Max Redstone Vein Size (Default: 8)",
+      "value": 9
+    },
+    "redstoneMinHeight": {
+      "comment": "Set Redstone Min Spawn Height (Default: 80)",
+      "value": 60
+    },
+    "redstonePerChunk": {
+      "comment": "Set Redstone Spawn Chance (Default: 8)",
+      "value": 8
+    },
+    "redstoneMaxHeight": {
+      "comment": "Set Redstone Max Spawn Height (Default: 115)",
+      "value": 115
+    }
+  },
+  "uraniumOre": {
+    "uraniumPerChunk": {
+      "comment": "Set Uranium Spawn Chance (Default: 6)",
+      "value": 6
+    },
+    "uraniumVeinSize": {
+      "comment": "Set Max Uranium Vein Size (Default: 4)",
+      "value": 4
+    },
+    "uraniumMaxHeight": {
+      "comment": "Set Uranium Max Spawn Height (Default: 125)",
+      "value": 125
+    },
+    "uraniumMinHeight": {
+      "comment": "Set Uranium Min Spawn Height (Default: 90)",
+      "value": 90
+    },
+    "uraniumGeneration": {
+      "comment": "Generate Uranium Ore",
+      "value": false
+    }
+  },
+  "ironOre": {
+    "ironMaxHeight": {
+      "comment": "Set Iron Max Spawn Height (Default: 110)",
+      "value": 110
+    },
+    "ironVeinSize": {
+      "comment": "Set Max Iron Vein Size (Default: 8)",
+      "value": 8
+    },
+    "ironGeneration": {
+      "comment": "Generate Iron Ore",
+      "value": true
+    },
+    "ironPerChunk": {
+      "comment": "Set Iron Spawn Chance (Default: 20)",
+      "value": 10
+    },
+    "ironMinHeight": {
+      "comment": "Set Iron Min Spawn Height (Default: 40)",
+      "value": 40
+    }
+  },
+  "oreProtection": {
+    "piglinGuard": {
+      "comment": "If set to true Piglins will protect Nether Ores (Default: true)",
+      "value": true
+    },
+    "protectionRange": {
+      "comment": "Set range that Piglins will aggro when mining ores(Default: 16)",
+      "value": 16
+    },
+    "protectedBlocks": {
+      "comment": "***This is dealt with in the vanilla MC Tags ***Add Blocks to be protected by Piglins (Example: minecraft:glowstone, bno:netheremerald_ore, ect. )",
+      "value": [
+        "bno:netheremerald_ore",
+        "bno:netherdiamond_ore",
+        "bno:netherlapis_ore",
+        "bno:netherredstone_ore",
+        "minecraft:nether_gold_ore",
+        "bno:nethersilver_ore",
+        "bno:netheriron_ore",
+        "bno:netherlead_ore",
+        "bno:nethernickel_ore",
+        "bno:nethercoal_ore",
+        "bno:nethercopper_ore",
+        "bno:netheraluminum_ore",
+        "bno:nethertin_ore",
+        "bno:netherosmium_ore",
+        "bno:netheruranium_ore",
+        "betternether:nether_ruby_ore",
+        "betternether:cincinnasite_ore",
+        "techreborn:pyrite_ore",
+        "techreborn:cinnabar_ore",
+        "techreborn:sphalerite_ore",
+        "gobber2:gobber2_ore_nether",
+        "valley:nether_salt",
+        "lightestlamp:lanthanum_ore",
+        "mythicmetals:palladium_ore",
+        "mythicmetals:stormyx_ore",
+        "spectrum:scarlet_ore",
+        "minecraft:glowstone",
+        "minecraft:nether_quartz_ore"
+      ]
+    },
+    "silkEffect": {
+      "comment": "Set to false if you want the Piglins to attack when using Silk Touch Tools (Default: true)",
+      "value": false
+    }
+  },
+  "zincOre": {
+    "zincMinHeight": {
+      "comment": "Set Zinc Min Spawn Height (Default: 55)",
+      "value": 55
+    },
+    "zincVeinSize": {
+      "comment": "Set Max Zinc Vein Size (Default: 12)",
+      "value": 12
+    },
+    "zincPerChunk": {
+      "comment": "Set Zinc Spawn Chance (Default: 8)",
+      "value": 8
+    },
+    "zincMaxHeight": {
+      "comment": "Set Zinc Max Spawn Height (Default: 100)",
+      "value": 100
+    },
+    "zincGeneration": {
+      "comment": "Generate Zinc Ore",
+      "value": false
+    }
+  }
+}

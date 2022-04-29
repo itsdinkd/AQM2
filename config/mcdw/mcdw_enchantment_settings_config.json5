@@ -1,0 +1,13 @@
+{
+	"enableEnchantmentSettings": {
+		"AREA_OF_EFFECT_ENCHANTS_DONT_AFFECT_PLAYERS": true,
+		"ENABLE_OP_ENCHANTMENT_MIXING": false,
+		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false,
+		"EXTRA_XP_HEALING": false,
+		"ENABLE_INNATE_ENCHANTMENTS": true
+	},
+	// VOID_STRIKE_DIVISOR -> Higher number = lower damage
+	"enchantmentStatsSettings": {
+		"VOID_STRIKE_DIVISOR": 3.25
+	}
+}

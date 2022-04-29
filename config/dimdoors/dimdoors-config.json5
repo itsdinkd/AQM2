@@ -1,0 +1,60 @@
+{
+	"general": {
+		"teleportOffset": 0.0,
+		"riftBoundingBoxInCreative": false,
+		"riftCloseSpeed": 0.01,
+		"riftGrowthSpeed": 1.0,
+		"depthSpreadFactor": 20,
+		"endermanSpawnChance": 5.0E-5,
+		"endermanAggressiveChance": 0.5
+	},
+	"pockets": {
+		"pocketGridSize": 32,
+		"maxPocketSize": 15,
+		"privatePocketSize": 2,
+		"publicPocketSize": 1,
+		"defaultWeightEquation": "5",
+		"fallbackWeight": 5,
+		"classicPocketsResourcePackActivationType": "DEFAULT_ENABLED",
+		"defaultPocketsResourcePackActivationType": "DEFAULT_ENABLED",
+		"asyncWorldEditPocketLoading": true,
+		"canUseRiftSignatureInPrivatePockets": true
+	},
+	"world": {
+		"clusterGenChance": 20000.0,
+		"gatewayGenChance": 100,
+		"clusterDimBlacklist": [
+			"the_aether:the_aether"
+		],
+		"gatewayDimBlacklist": [
+			"the_aether:the_aether"
+		]
+	},
+	"dungeons": {
+		"maxDungeonDepth": 50
+	},
+	"monoliths": {
+		"dangerousLimboMonoliths": false,
+		"monolithTeleportation": true
+	},
+	"limbo": {
+		"universalLimbo": false,
+		"hardcoreLimbo": true,
+		"decaySpreadChance": 1.0,
+		"limboBlocksCorruptingOverworldAmount": 5.0
+	},
+	"graphics": {
+		"showRiftCore": false,
+		"highlightRiftCoreFor": 15000,
+		"riftSize": 1.0,
+		"riftJitter": 1.0
+	},
+	"doors": {
+		"closeDoorBehind": true,
+		"doorList": {
+			"mode": "DISABLE",
+			"doors": []
+		},
+		"placeRiftsInCreativeMode": true
+	}
+}

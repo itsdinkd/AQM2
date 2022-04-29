@@ -1,0 +1,197 @@
+{
+    "name": "Forager",
+    "description": "Living around nature your entire life, you have the knowledge to harvest crops more efficiently",
+    "type": "origins:multiple",
+    "wheat": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:choice",
+                "actions": [
+                    {
+                        "weight": 3,
+                        "element": {
+                            "type": "origins:execute_command",
+                            "command": "give @s minecraft:wheat"
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "element": {
+                            "type": "origins:execute_command",
+                            "command": "give @s minecraft:wheat 2"
+                        }
+                    }
+                ]
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:wheat"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "age",
+                    "comparison": ">=",
+                    "compare_to": 7
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+    "beetroots": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:choice",
+                "actions": [
+                    {
+                        "weight": 3,
+                        "element": {
+                            "type": "origins:execute_command",
+                            "command": "give @s minecraft:beetroot"
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "element": {
+                            "type": "origins:execute_command",
+                            "command": "give @s minecraft:beetroot 2"
+                        }
+                    }
+                ]
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:beetroots"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "age",
+                    "comparison": ">=",
+                    "compare_to": 3
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+    "carrots": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:carrot"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:carrots"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "age",
+                    "comparison": ">=",
+                    "compare_to": 7
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+    "potato": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:potato"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:potatoes"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "age",
+                    "comparison": ">=",
+                    "compare_to": 7
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+    "beans": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:cocoa_beans"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:cocoa"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "age",
+                    "comparison": ">=",
+                    "compare_to": 2
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+    "berries": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:sweet_berries"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:sweet_berry_bush"
+                },
+                {
+                    "type": "origins:block_state",
+                    "property": "age",
+                    "comparison": ">=",
+                    "compare_to": 2
+                }
+            ]
+        },
+        "only_when_harvested": true
+    }
+}

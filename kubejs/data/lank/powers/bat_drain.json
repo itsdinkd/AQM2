@@ -1,0 +1,35 @@
+{
+    "description": "Had to put this separatly because the entirety of the java language is held together by a single piece of sticky tape",
+    "hidden": true,
+    "condition": {
+        "inverted": false,
+        "type": "origins:resource",
+        "resource": "lank:bat_bool",
+        "comparison": "!=",
+        "compare_to": 0
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "inverted": false,
+            "type": "origins:resource",
+            "resource": "lank:blood_meter",
+            "comparison": ">",
+            "compare_to": 2
+        },
+        "if_action": {
+            "type": "origins:change_resource",
+            "resource": "lank:blood_meter",
+            "change": -2,
+            "operation": "add"
+        },
+        "else_action": {
+            "type": "origins:change_resource",
+            "resource": "lank:bat_bool",
+            "change": -1,
+            "operation": "add"
+        }
+    }
+}

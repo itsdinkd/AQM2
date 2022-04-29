@@ -1,0 +1,11 @@
+{
+	id: "288567FC1BCFB6D1"
+	order_index: 0
+	title: "Loot all artifacts"
+	loot_size: 1
+	rewards: [
+		{ item: "givemehats:santa_hat" }
+		{ item: "givemehats:cowboy_hat" }
+		{ item: "givemehats:cat_ears" }
+	]
+}

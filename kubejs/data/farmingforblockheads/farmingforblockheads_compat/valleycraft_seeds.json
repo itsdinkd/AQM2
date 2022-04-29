@@ -1,0 +1,34 @@
+{
+  "modId": "valleycraft",
+  "group": {
+    "name": "Valley Craft Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:diamond"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "valleycraft:cooked_pumpkin_seeds"
+    },
+    {
+      "output": "valleycraft:puff_seeds"
+    },
+    {
+      "output": "valleycraft:green_bean_seeds"
+    },
+    {
+      "output": "valleycraft:mandrake_seeds"
+    },
+    {
+      "output": "valleycraft:onion_seeds"
+    },
+    {
+      "output": "valleycraft:pepper_seeds"
+    },
+    {
+      "output": "valleycraft:eggplant_seeds"
+    }
+  ]
+}

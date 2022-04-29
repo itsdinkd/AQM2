@@ -1,0 +1,26 @@
+{
+    "name": "Vampire",
+    "description": "Creatures of the night, they feast of the blood of their prey.",
+    "powers": [
+        "lank:no_regen",
+        "lank:vampirism",
+        "lank:undead",
+        "lank:drown",
+        "lank:burn_in_daylight",
+        "origins:cat_vision",
+        "moborigins:pillager_aligned",
+        "lank:blood_meter",
+        "lank:blood_reset",
+        "lank:strenght",
+        "lank:bat_form",
+        "lank:bat_bool",
+        "lank:bat_drain",
+        "lank:bat_flight",
+        "lank:bat_power"
+    ],
+    "icon": {
+        "item": "minecraft:redstone"
+    },
+    "unchoosable": false,
+    "impact": 3
+}

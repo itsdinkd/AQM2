@@ -1,0 +1,8 @@
+{
+	// Here you can change your preferred input methods.
+	input: {
+		// Sets whether mouse inputs should be pitch and yaw, or pitch and roll
+		// default: false
+		ship_roll_priority: false
+	}
+}

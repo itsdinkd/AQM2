@@ -1,0 +1,2365 @@
+{
+	"blocks": {
+		"minecraft:air": "",
+		"minecraft:stone": "stone",
+		"minecraft:granite": "stone",
+		"minecraft:polished_granite": "stone",
+		"minecraft:diorite": "stone",
+		"minecraft:polished_diorite": "stone",
+		"minecraft:andesite": "stone",
+		"minecraft:polished_andesite": "stone",
+		"minecraft:grass_block": "grass",
+		"minecraft:dirt": "dirt",
+		"minecraft:coarse_dirt": "dirt,gravel",
+		"minecraft:podzol": "dirt",
+		"minecraft:cobblestone": "stone",
+		"minecraft:oak_planks": "planks",
+		"minecraft:spruce_planks": "planks",
+		"minecraft:birch_planks": "planks",
+		"minecraft:jungle_planks": "planks",
+		"minecraft:acacia_planks": "planks",
+		"minecraft:dark_oak_planks": "planks",
+		"minecraft:oak_sapling": "grass",
+		"minecraft:spruce_sapling": "grass",
+		"minecraft:birch_sapling": "grass",
+		"minecraft:jungle_sapling": "grass",
+		"minecraft:acacia_sapling": "grass",
+		"minecraft:dark_oak_sapling": "grass",
+		"minecraft:bedrock": "stone",
+		"minecraft:water": "",
+		"minecraft:lava": "",
+		"minecraft:sand": "sand",
+		"minecraft:red_sand": "sand",
+		"minecraft:gravel": "gravel",
+		"minecraft:gold_ore": "ore",
+		"minecraft:iron_ore": "ore",
+		"minecraft:coal_ore": "ore",
+		"minecraft:nether_gold_ore": "netherrack,ore",
+		"minecraft:oak_log": "log",
+		"minecraft:spruce_log": "log",
+		"minecraft:birch_log": "log",
+		"minecraft:jungle_log": "log",
+		"minecraft:acacia_log": "log",
+		"minecraft:dark_oak_log": "log",
+		"minecraft:stripped_spruce_log": "log",
+		"minecraft:stripped_birch_log": "log",
+		"minecraft:stripped_jungle_log": "log",
+		"minecraft:stripped_acacia_log": "log",
+		"minecraft:stripped_dark_oak_log": "log",
+		"minecraft:stripped_oak_log": "log",
+		"minecraft:oak_wood": "log",
+		"minecraft:spruce_wood": "log",
+		"minecraft:birch_wood": "log",
+		"minecraft:jungle_wood": "log",
+		"minecraft:acacia_wood": "log",
+		"minecraft:dark_oak_wood": "log",
+		"minecraft:stripped_oak_wood": "log",
+		"minecraft:stripped_spruce_wood": "log",
+		"minecraft:stripped_birch_wood": "log",
+		"minecraft:stripped_jungle_wood": "log",
+		"minecraft:stripped_acacia_wood": "log",
+		"minecraft:stripped_dark_oak_wood": "log",
+		"minecraft:oak_leaves": "leaves",
+		"minecraft:spruce_leaves": "leaves",
+		"minecraft:birch_leaves": "leaves",
+		"minecraft:jungle_leaves": "leaves",
+		"minecraft:acacia_leaves": "leaves",
+		"minecraft:dark_oak_leaves": "leaves",
+		"minecraft:sponge": "organic_dry",
+		"minecraft:wet_sponge": "mud",
+		"minecraft:glass": "glass",
+		"minecraft:lapis_ore": "ore",
+		"minecraft:lapis_block": "composite",
+		"minecraft:dispenser": "stonemachine",
+		"minecraft:sandstone": "sandstone",
+		"minecraft:chiseled_sandstone": "sandstone",
+		"minecraft:cut_sandstone": "sandstone",
+		"minecraft:note_block": "woodutility",
+		"minecraft:white_bed": "rug,planks",
+		"minecraft:orange_bed": "rug,planks",
+		"minecraft:magenta_bed": "rug,planks",
+		"minecraft:light_blue_bed": "rug,planks",
+		"minecraft:yellow_bed": "rug,planks",
+		"minecraft:lime_bed": "rug,planks",
+		"minecraft:pink_bed": "rug,planks",
+		"minecraft:gray_bed": "rug,planks",
+		"minecraft:light_gray_bed": "rug,planks",
+		"minecraft:cyan_bed": "rug,planks",
+		"minecraft:purple_bed": "rug,planks",
+		"minecraft:blue_bed": "rug,planks",
+		"minecraft:brown_bed": "rug,planks",
+		"minecraft:green_bed": "rug,planks",
+		"minecraft:red_bed": "rug,planks",
+		"minecraft:black_bed": "rug,planks",
+		"minecraft:powered_rail": "rails",
+		"minecraft:detector_rail": "rails",
+		"minecraft:sticky_piston": "stonemachine",
+		"minecraft:cobweb": "",
+		"minecraft:grass": "brush",
+		"minecraft:fern": "brush",
+		"minecraft:dead_bush": "straw",
+		"minecraft:seagrass": "organic",
+		"minecraft:tall_seagrass": "organic",
+		"minecraft:piston": "stonemachine",
+		"minecraft:piston_head": "stonemachine",
+		"minecraft:white_wool": "rug",
+		"minecraft:orange_wool": "rug",
+		"minecraft:magenta_wool": "rug",
+		"minecraft:light_blue_wool": "rug",
+		"minecraft:yellow_wool": "rug",
+		"minecraft:lime_wool": "rug",
+		"minecraft:pink_wool": "rug",
+		"minecraft:gray_wool": "rug",
+		"minecraft:light_gray_wool": "rug",
+		"minecraft:cyan_wool": "rug",
+		"minecraft:purple_wool": "rug",
+		"minecraft:blue_wool": "rug",
+		"minecraft:brown_wool": "rug",
+		"minecraft:green_wool": "rug",
+		"minecraft:red_wool": "rug",
+		"minecraft:black_wool": "rug",
+		"minecraft:moving_piston": "",
+		"minecraft:dandelion": "grass",
+		"minecraft:poppy": "grass",
+		"minecraft:blue_orchid": "grass",
+		"minecraft:allium": "grass",
+		"minecraft:azure_bluet": "grass",
+		"minecraft:red_tulip": "grass",
+		"minecraft:orange_tulip": "grass",
+		"minecraft:white_tulip": "grass",
+		"minecraft:pink_tulip": "grass",
+		"minecraft:oxeye_daisy": "grass",
+		"minecraft:cornflower": "grass",
+		"minecraft:wither_rose": "grass",
+		"minecraft:lily_of_the_valley": "grass",
+		"minecraft:brown_mushroom": "grass",
+		"minecraft:red_mushroom": "grass",
+		"minecraft:gold_block": "hardmetal",
+		"minecraft:iron_block": "hardmetal",
+		"minecraft:bricks": "brickstone",
+		"minecraft:tnt": "equipment",
+		"minecraft:bookshelf": "planks",
+		"minecraft:mossy_cobblestone": "stone",
+		"minecraft:obsidian": "obsidian",
+		"minecraft:torch": "planks",
+		"minecraft:wall_torch": "planks",
+		"minecraft:fire": "fire",
+		"minecraft:soul_fire": "fire",
+		"minecraft:spawner": "hardmetal",
+		"minecraft:oak_stairs": "planks",
+		"minecraft:chest": "squeakywood",
+		"minecraft:redstone_wire": "",
+		"minecraft:diamond_ore": "ore",
+		"minecraft:diamond_block": "composite",
+		"minecraft:crafting_table": "wood",
+		"minecraft:wheat": "straw",
+		"minecraft:farmland": "dirt,mud",
+		"minecraft:furnace": "stonemachine",
+		"minecraft:oak_sign": "",
+		"minecraft:spruce_sign": "",
+		"minecraft:birch_sign": "",
+		"minecraft:acacia_sign": "",
+		"minecraft:jungle_sign": "",
+		"minecraft:dark_oak_sign": "",
+		"minecraft:oak_door": "planks",
+		"minecraft:ladder": "ladder",
+		"minecraft:rail": "rails",
+		"minecraft:cobblestone_stairs": "stone",
+		"minecraft:oak_wall_sign": "",
+		"minecraft:spruce_wall_sign": "",
+		"minecraft:birch_wall_sign": "",
+		"minecraft:acacia_wall_sign": "",
+		"minecraft:jungle_wall_sign": "",
+		"minecraft:dark_oak_wall_sign": "",
+		"minecraft:lever": "",
+		"minecraft:stone_pressure_plate": "stone",
+		"minecraft:iron_door": "hardmetal",
+		"minecraft:oak_pressure_plate": "",
+		"minecraft:spruce_pressure_plate": "",
+		"minecraft:birch_pressure_plate": "",
+		"minecraft:jungle_pressure_plate": "",
+		"minecraft:acacia_pressure_plate": "",
+		"minecraft:dark_oak_pressure_plate": "",
+		"minecraft:redstone_ore": "ore",
+		"minecraft:redstone_torch": "",
+		"minecraft:redstone_wall_torch": "",
+		"minecraft:stone_button": "",
+		"minecraft:snow": "snow",
+		"minecraft:ice": "ice",
+		"minecraft:snow_block": "snow",
+		"minecraft:cactus": "grass",
+		"minecraft:clay": "dirt",
+		"minecraft:sugar_cane": "grass",
+		"minecraft:jukebox": "squeakywood",
+		"minecraft:oak_fence": "planks",
+		"minecraft:pumpkin": "organic_dry",
+		"minecraft:netherrack": "netherrack",
+		"minecraft:soul_sand": "soulsand",
+		"minecraft:soul_soil": "soulsoil",
+		"minecraft:basalt": "basalt",
+		"minecraft:polished_basalt": "basalt",
+		"minecraft:soul_torch": "",
+		"minecraft:soul_wall_torch": "",
+		"minecraft:glowstone": "glowstone",
+		"minecraft:nether_portal": "",
+		"minecraft:carved_pumpkin": "organic_dry",
+		"minecraft:jack_o_lantern": "organic_dry",
+		"minecraft:cake": "",
+		"minecraft:repeater": "stoneutility",
+		"minecraft:white_stained_glass": "glass",
+		"minecraft:orange_stained_glass": "glass",
+		"minecraft:magenta_stained_glass": "glass",
+		"minecraft:light_blue_stained_glass": "glass",
+		"minecraft:yellow_stained_glass": "glass",
+		"minecraft:lime_stained_glass": "glass",
+		"minecraft:pink_stained_glass": "glass",
+		"minecraft:gray_stained_glass": "glass",
+		"minecraft:light_gray_stained_glass": "glass",
+		"minecraft:cyan_stained_glass": "glass",
+		"minecraft:purple_stained_glass": "glass",
+		"minecraft:blue_stained_glass": "glass",
+		"minecraft:brown_stained_glass": "glass",
+		"minecraft:green_stained_glass": "glass",
+		"minecraft:red_stained_glass": "glass",
+		"minecraft:black_stained_glass": "glass",
+		"minecraft:oak_trapdoor": "planks",
+		"minecraft:spruce_trapdoor": "planks",
+		"minecraft:birch_trapdoor": "planks",
+		"minecraft:jungle_trapdoor": "planks",
+		"minecraft:acacia_trapdoor": "planks",
+		"minecraft:dark_oak_trapdoor": "planks",
+		"minecraft:stone_bricks": "brickstone",
+		"minecraft:mossy_stone_bricks": "brickstone",
+		"minecraft:cracked_stone_bricks": "brickstone",
+		"minecraft:chiseled_stone_bricks": "brickstone",
+		"minecraft:infested_stone": "stone",
+		"minecraft:infested_cobblestone": "stone",
+		"minecraft:infested_stone_bricks": "brickstone",
+		"minecraft:infested_mossy_stone_bricks": "brickstone",
+		"minecraft:infested_cracked_stone_bricks": "brickstone",
+		"minecraft:infested_chiseled_stone_bricks": "brickstone",
+		"minecraft:brown_mushroom_block": "organic_dry",
+		"minecraft:red_mushroom_block": "organic_dry",
+		"minecraft:mushroom_stem": "organic_dry",
+		"minecraft:iron_bars": "metalbar",
+		"minecraft:chain": "metalbar",
+		"minecraft:glass_pane": "glass",
+		"minecraft:melon": "organic_dry",
+		"minecraft:attached_pumpkin_stem": "",
+		"minecraft:attached_melon_stem": "",
+		"minecraft:pumpkin_stem": "",
+		"minecraft:melon_stem": "",
+		"minecraft:vine": "straw",
+		"minecraft:oak_fence_gate": "planks",
+		"minecraft:brick_stairs": "brickstone",
+		"minecraft:stone_brick_stairs": "brickstone",
+		"minecraft:mycelium": "grass",
+		"minecraft:lily_pad": "grass",
+		"minecraft:nether_bricks": "netherbrick",
+		"minecraft:nether_brick_fence": "netherbrick",
+		"minecraft:nether_brick_stairs": "netherbrick",
+		"minecraft:nether_wart": "organic",
+		"minecraft:enchanting_table": "stone",
+		"minecraft:brewing_stand": "stone",
+		"minecraft:cauldron": "hardmetal",
+		"minecraft:end_portal": "",
+		"minecraft:end_portal_frame": "stone,glass",
+		"minecraft:end_stone": "stone",
+		"minecraft:dragon_egg": "stone",
+		"minecraft:redstone_lamp": "glass",
+		"minecraft:cocoa": "organic_dry",
+		"minecraft:sandstone_stairs": "sandstone",
+		"minecraft:emerald_ore": "ore",
+		"minecraft:ender_chest": "obsidian",
+		"minecraft:tripwire_hook": "",
+		"minecraft:tripwire": "",
+		"minecraft:emerald_block": "composite",
+		"minecraft:spruce_stairs": "planks",
+		"minecraft:birch_stairs": "planks",
+		"minecraft:jungle_stairs": "planks",
+		"minecraft:command_block": "stonemachine",
+		"minecraft:beacon": "glass",
+		"minecraft:cobblestone_wall": "stone",
+		"minecraft:mossy_cobblestone_wall": "stone",
+		"minecraft:flower_pot": "brickstone",
+		"minecraft:potted_oak_sapling": "grass,brickstone",
+		"minecraft:potted_spruce_sapling": "grass,brickstone",
+		"minecraft:potted_birch_sapling": "grass,brickstone",
+		"minecraft:potted_jungle_sapling": "grass,brickstone",
+		"minecraft:potted_acacia_sapling": "grass,brickstone",
+		"minecraft:potted_dark_oak_sapling": "grass,brickstone",
+		"minecraft:potted_fern": "grass,brickstone",
+		"minecraft:potted_dandelion": "grass,brickstone",
+		"minecraft:potted_poppy": "grass,brickstone",
+		"minecraft:potted_blue_orchid": "grass,brickstone",
+		"minecraft:potted_allium": "grass,brickstone",
+		"minecraft:potted_azure_bluet": "grass,brickstone",
+		"minecraft:potted_red_tulip": "grass,brickstone",
+		"minecraft:potted_orange_tulip": "grass,brickstone",
+		"minecraft:potted_white_tulip": "grass,brickstone",
+		"minecraft:potted_pink_tulip": "grass,brickstone",
+		"minecraft:potted_oxeye_daisy": "grass,brickstone",
+		"minecraft:potted_cornflower": "grass,brickstone",
+		"minecraft:potted_lily_of_the_valley": "grass,brickstone",
+		"minecraft:potted_wither_rose": "grass,brickstone",
+		"minecraft:potted_red_mushroom": "grass,brickstone",
+		"minecraft:potted_brown_mushroom": "grass,brickstone",
+		"minecraft:potted_dead_bush": "grass,brickstone",
+		"minecraft:potted_cactus": "grass,brickstone",
+		"minecraft:potted_azalea_bush": "grass,brickstone",
+		"minecraft:potted_flowering_azalea_bush": "grass,brickstone",
+		"minecraft:carrots": "grass",
+		"minecraft:potatoes": "grass",
+		"minecraft:oak_button": "",
+		"minecraft:spruce_button": "",
+		"minecraft:birch_button": "",
+		"minecraft:jungle_button": "",
+		"minecraft:acacia_button": "",
+		"minecraft:dark_oak_button": "",
+		"minecraft:skeleton_skull": "organic",
+		"minecraft:skeleton_wall_skull": "organic",
+		"minecraft:wither_skeleton_skull": "organic",
+		"minecraft:wither_skeleton_wall_skull": "organic",
+		"minecraft:zombie_head": "organic",
+		"minecraft:zombie_wall_head": "organic",
+		"minecraft:player_head": "organic",
+		"minecraft:player_wall_head": "organic",
+		"minecraft:creeper_head": "organic",
+		"minecraft:creeper_wall_head": "organic",
+		"minecraft:dragon_head": "organic_dry",
+		"minecraft:dragon_wall_head": "organic_dry",
+		"minecraft:anvil": "metalcompressed,hardmetal",
+		"minecraft:chipped_anvil": "metalcompressed,hardmetal",
+		"minecraft:damaged_anvil": "metalcompressed,hardmetal",
+		"minecraft:trapped_chest": "squeakywood",
+		"minecraft:light_weighted_pressure_plate": "",
+		"minecraft:heavy_weighted_pressure_plate": "",
+		"minecraft:comparator": "stonemachine",
+		"minecraft:daylight_detector": "stoneutility,glass",
+		"minecraft:redstone_block": "composite",
+		"minecraft:nether_quartz_ore": "ore",
+		"minecraft:hopper": "hardmetal",
+		"minecraft:quartz_block": "marble",
+		"minecraft:chiseled_quartz_block": "marble",
+		"minecraft:quartz_pillar": "marble",
+		"minecraft:quartz_stairs": "marble",
+		"minecraft:activator_rail": "rails",
+		"minecraft:dropper": "hardmetal",
+		"minecraft:white_terracotta": "sandstone",
+		"minecraft:orange_terracotta": "sandstone",
+		"minecraft:magenta_terracotta": "sandstone",
+		"minecraft:light_blue_terracotta": "sandstone",
+		"minecraft:yellow_terracotta": "sandstone",
+		"minecraft:lime_terracotta": "sandstone",
+		"minecraft:pink_terracotta": "sandstone",
+		"minecraft:gray_terracotta": "sandstone",
+		"minecraft:light_gray_terracotta": "sandstone",
+		"minecraft:cyan_terracotta": "sandstone",
+		"minecraft:purple_terracotta": "sandstone",
+		"minecraft:blue_terracotta": "sandstone",
+		"minecraft:brown_terracotta": "sandstone",
+		"minecraft:green_terracotta": "sandstone",
+		"minecraft:red_terracotta": "sandstone",
+		"minecraft:black_terracotta": "sandstone",
+		"minecraft:white_stained_glass_pane": "glass",
+		"minecraft:orange_stained_glass_pane": "glass",
+		"minecraft:magenta_stained_glass_pane": "glass",
+		"minecraft:light_blue_stained_glass_pane": "glass",
+		"minecraft:yellow_stained_glass_pane": "glass",
+		"minecraft:lime_stained_glass_pane": "glass",
+		"minecraft:pink_stained_glass_pane": "glass",
+		"minecraft:gray_stained_glass_pane": "glass",
+		"minecraft:light_gray_stained_glass_pane": "glass",
+		"minecraft:cyan_stained_glass_pane": "glass",
+		"minecraft:purple_stained_glass_pane": "glass",
+		"minecraft:blue_stained_glass_pane": "glass",
+		"minecraft:brown_stained_glass_pane": "glass",
+		"minecraft:green_stained_glass_pane": "glass",
+		"minecraft:red_stained_glass_pane": "glass",
+		"minecraft:black_stained_glass_pane": "glass",
+		"minecraft:acacia_stairs": "planks",
+		"minecraft:dark_oak_stairs": "planks",
+		"minecraft:slime_block": "mud",
+		"minecraft:barrier": "",
+		"minecraft:iron_trapdoor": "metalbar",
+		"minecraft:prismarine": "stone",
+		"minecraft:prismarine_bricks": "stone",
+		"minecraft:dark_prismarine": "stone",
+		"minecraft:prismarine_stairs": "stone",
+		"minecraft:prismarine_brick_stairs": "stone",
+		"minecraft:dark_prismarine_stairs": "stone",
+		"minecraft:prismarine_slab": "stone",
+		"minecraft:prismarine_brick_slab": "stone",
+		"minecraft:dark_prismarine_slab": "stone",
+		"minecraft:sea_lantern": "glass",
+		"minecraft:hay_block": "straw",
+		"minecraft:white_carpet": "rug",
+		"minecraft:orange_carpet": "rug",
+		"minecraft:magenta_carpet": "rug",
+		"minecraft:light_blue_carpet": "rug",
+		"minecraft:yellow_carpet": "rug",
+		"minecraft:lime_carpet": "rug",
+		"minecraft:pink_carpet": "rug",
+		"minecraft:gray_carpet": "rug",
+		"minecraft:light_gray_carpet": "rug",
+		"minecraft:cyan_carpet": "rug",
+		"minecraft:purple_carpet": "rug",
+		"minecraft:blue_carpet": "rug",
+		"minecraft:brown_carpet": "rug",
+		"minecraft:green_carpet": "rug",
+		"minecraft:red_carpet": "rug",
+		"minecraft:black_carpet": "rug",
+		"minecraft:terracotta": "sandstone",
+		"minecraft:coal_block": "stone",
+		"minecraft:packed_ice": "ice",
+		"minecraft:sunflower": "brush_straw_transition",
+		"minecraft:lilac": "brush_straw_transition",
+		"minecraft:rose_bush": "brush_straw_transition",
+		"minecraft:peony": "brush_straw_transition",
+		"minecraft:tall_grass": "brush_straw_transition",
+		"minecraft:large_fern": "brush_straw_transition",
+		"minecraft:white_banner": "rug,straw,squeakywood",
+		"minecraft:orange_banner": "rug,straw,squeakywood",
+		"minecraft:magenta_banner": "rug,straw,squeakywood",
+		"minecraft:light_blue_banner": "rug,straw,squeakywood",
+		"minecraft:yellow_banner": "rug,straw,squeakywood",
+		"minecraft:lime_banner": "rug,straw,squeakywood",
+		"minecraft:pink_banner": "rug,straw,squeakywood",
+		"minecraft:gray_banner": "rug,straw,squeakywood",
+		"minecraft:light_gray_banner": "rug,straw,squeakywood",
+		"minecraft:cyan_banner": "rug,straw,squeakywood",
+		"minecraft:purple_banner": "rug,straw,squeakywood",
+		"minecraft:blue_banner": "rug,straw,squeakywood",
+		"minecraft:brown_banner": "rug,straw,squeakywood",
+		"minecraft:green_banner": "rug,straw,squeakywood",
+		"minecraft:red_banner": "rug,straw,squeakywood",
+		"minecraft:black_banner": "rug,straw,squeakywood",
+		"minecraft:white_wall_banner": "rug,straw,squeakywood",
+		"minecraft:orange_wall_banner": "rug,straw,squeakywood",
+		"minecraft:magenta_wall_banner": "rug,straw,squeakywood",
+		"minecraft:light_blue_wall_banner": "rug,straw,squeakywood",
+		"minecraft:yellow_wall_banner": "rug,straw,squeakywood",
+		"minecraft:lime_wall_banner": "rug,straw,squeakywood",
+		"minecraft:pink_wall_banner": "rug,straw,squeakywood",
+		"minecraft:gray_wall_banner": "rug,straw,squeakywood",
+		"minecraft:light_gray_wall_banner": "rug,straw,squeakywood",
+		"minecraft:cyan_wall_banner": "rug,straw,squeakywood",
+		"minecraft:purple_wall_banner": "rug,straw,squeakywood",
+		"minecraft:blue_wall_banner": "rug,straw,squeakywood",
+		"minecraft:brown_wall_banner": "rug,straw,squeakywood",
+		"minecraft:green_wall_banner": "rug,straw,squeakywood",
+		"minecraft:red_wall_banner": "rug,straw,squeakywood",
+		"minecraft:black_wall_banner": "rug,straw,squeakywood",
+		"minecraft:red_sandstone": "sandstone",
+		"minecraft:chiseled_red_sandstone": "sandstone",
+		"minecraft:cut_red_sandstone": "sandstone",
+		"minecraft:red_sandstone_stairs": "sandstone",
+		"minecraft:oak_slab": "planks",
+		"minecraft:spruce_slab": "planks",
+		"minecraft:birch_slab": "planks",
+		"minecraft:jungle_slab": "planks",
+		"minecraft:acacia_slab": "planks",
+		"minecraft:dark_oak_slab": "planks",
+		"minecraft:stone_slab": "stone",
+		"minecraft:smooth_stone_slab": "stone",
+		"minecraft:sandstone_slab": "sandstone",
+		"minecraft:cut_sandstone_slab": "stone",
+		"minecraft:petrified_oak_slab": "stone",
+		"minecraft:cobblestone_slab": "stone",
+		"minecraft:brick_slab": "brickstone",
+		"minecraft:stone_brick_slab": "brickstone",
+		"minecraft:nether_brick_slab": "netherbrick",
+		"minecraft:quartz_slab": "marble",
+		"minecraft:red_sandstone_slab": "sandstone",
+		"minecraft:cut_red_sandstone_slab": "sandstone",
+		"minecraft:purpur_slab": "brickstone",
+		"minecraft:smooth_stone": "stone",
+		"minecraft:smooth_sandstone": "sandstone",
+		"minecraft:smooth_quartz": "marble",
+		"minecraft:smooth_red_sandstone": "sandstone",
+		"minecraft:spruce_fence_gate": "planks",
+		"minecraft:birch_fence_gate": "planks",
+		"minecraft:jungle_fence_gate": "planks",
+		"minecraft:acacia_fence_gate": "planks",
+		"minecraft:dark_oak_fence_gate": "planks",
+		"minecraft:spruce_fence": "planks",
+		"minecraft:birch_fence": "planks",
+		"minecraft:jungle_fence": "planks",
+		"minecraft:acacia_fence": "planks",
+		"minecraft:dark_oak_fence": "planks",
+		"minecraft:spruce_door": "planks",
+		"minecraft:birch_door": "planks",
+		"minecraft:jungle_door": "planks",
+		"minecraft:acacia_door": "planks",
+		"minecraft:dark_oak_door": "planks",
+		"minecraft:end_rod": "glass",
+		"minecraft:chorus_plant": "leaves",
+		"minecraft:chorus_flower": "leaves",
+		"minecraft:purpur_block": "brickstone",
+		"minecraft:purpur_pillar": "brickstone",
+		"minecraft:purpur_stairs": "brickstone",
+		"minecraft:end_stone_bricks": "brickstone",
+		"minecraft:beetroots": "grass",
+		"minecraft:dirt_path": "grass",
+		"minecraft:end_gateway": "",
+		"minecraft:repeating_command_block": "stone",
+		"minecraft:chain_command_block": "stone",
+		"minecraft:frosted_ice": "ice",
+		"minecraft:magma_block": "sandstone",
+		"minecraft:nether_wart_block": "organic",
+		"minecraft:red_nether_bricks": "netherbrick",
+		"minecraft:bone_block": "bone",
+		"minecraft:structure_void": "",
+		"minecraft:observer": "stonemachine",
+		"minecraft:shulker_box": "marble",
+		"minecraft:white_shulker_box": "marble",
+		"minecraft:orange_shulker_box": "marble",
+		"minecraft:magenta_shulker_box": "marble",
+		"minecraft:light_blue_shulker_box": "marble",
+		"minecraft:yellow_shulker_box": "marble",
+		"minecraft:lime_shulker_box": "marble",
+		"minecraft:pink_shulker_box": "marble",
+		"minecraft:gray_shulker_box": "marble",
+		"minecraft:light_gray_shulker_box": "marble",
+		"minecraft:cyan_shulker_box": "marble",
+		"minecraft:purple_shulker_box": "marble",
+		"minecraft:blue_shulker_box": "marble",
+		"minecraft:brown_shulker_box": "marble",
+		"minecraft:green_shulker_box": "marble",
+		"minecraft:red_shulker_box": "marble",
+		"minecraft:black_shulker_box": "marble",
+		"minecraft:white_glazed_terracotta": "stone",
+		"minecraft:orange_glazed_terracotta": "stone",
+		"minecraft:magenta_glazed_terracotta": "stone",
+		"minecraft:light_blue_glazed_terracotta": "stone",
+		"minecraft:yellow_glazed_terracotta": "stone",
+		"minecraft:lime_glazed_terracotta": "stone",
+		"minecraft:pink_glazed_terracotta": "stone",
+		"minecraft:gray_glazed_terracotta": "stone",
+		"minecraft:light_gray_glazed_terracotta": "stone",
+		"minecraft:cyan_glazed_terracotta": "stone",
+		"minecraft:purple_glazed_terracotta": "stone",
+		"minecraft:blue_glazed_terracotta": "stone",
+		"minecraft:brown_glazed_terracotta": "stone",
+		"minecraft:green_glazed_terracotta": "stone",
+		"minecraft:red_glazed_terracotta": "stone",
+		"minecraft:black_glazed_terracotta": "stone",
+		"minecraft:white_concrete": "stone",
+		"minecraft:orange_concrete": "stone",
+		"minecraft:magenta_concrete": "stone",
+		"minecraft:light_blue_concrete": "stone",
+		"minecraft:yellow_concrete": "stone",
+		"minecraft:lime_concrete": "stone",
+		"minecraft:pink_concrete": "stone",
+		"minecraft:gray_concrete": "stone",
+		"minecraft:light_gray_concrete": "stone",
+		"minecraft:cyan_concrete": "stone",
+		"minecraft:purple_concrete": "stone",
+		"minecraft:blue_concrete": "stone",
+		"minecraft:brown_concrete": "stone",
+		"minecraft:green_concrete": "stone",
+		"minecraft:red_concrete": "stone",
+		"minecraft:black_concrete": "stone",
+		"minecraft:white_concrete_powder": "sand",
+		"minecraft:orange_concrete_powder": "sand",
+		"minecraft:magenta_concrete_powder": "sand",
+		"minecraft:light_blue_concrete_powder": "sand",
+		"minecraft:yellow_concrete_powder": "sand",
+		"minecraft:lime_concrete_powder": "sand",
+		"minecraft:pink_concrete_powder": "sand",
+		"minecraft:gray_concrete_powder": "sand",
+		"minecraft:light_gray_concrete_powder": "sand",
+		"minecraft:cyan_concrete_powder": "sand",
+		"minecraft:purple_concrete_powder": "sand",
+		"minecraft:blue_concrete_powder": "sand",
+		"minecraft:brown_concrete_powder": "sand",
+		"minecraft:green_concrete_powder": "sand",
+		"minecraft:red_concrete_powder": "sand",
+		"minecraft:black_concrete_powder": "sand",
+		"minecraft:kelp": "organic",
+		"minecraft:kelp_plant": "organic",
+		"minecraft:dried_kelp_block": "straw",
+		"minecraft:turtle_egg": "",
+		"minecraft:dead_tube_coral_block": "stone",
+		"minecraft:dead_brain_coral_block": "stone",
+		"minecraft:dead_bubble_coral_block": "stone",
+		"minecraft:dead_fire_coral_block": "stone",
+		"minecraft:dead_horn_coral_block": "stone",
+		"minecraft:tube_coral_block": "organic",
+		"minecraft:brain_coral_block": "organic",
+		"minecraft:bubble_coral_block": "organic",
+		"minecraft:fire_coral_block": "organic",
+		"minecraft:horn_coral_block": "organic",
+		"minecraft:dead_tube_coral": "stone",
+		"minecraft:dead_brain_coral": "stone",
+		"minecraft:dead_bubble_coral": "stone",
+		"minecraft:dead_fire_coral": "stone",
+		"minecraft:dead_horn_coral": "stone",
+		"minecraft:tube_coral": "organic",
+		"minecraft:brain_coral": "organic",
+		"minecraft:bubble_coral": "organic",
+		"minecraft:fire_coral": "organic",
+		"minecraft:horn_coral": "organic",
+		"minecraft:dead_tube_coral_fan": "stone",
+		"minecraft:dead_brain_coral_fan": "stone",
+		"minecraft:dead_bubble_coral_fan": "stone",
+		"minecraft:dead_fire_coral_fan": "stone",
+		"minecraft:dead_horn_coral_fan": "stone",
+		"minecraft:tube_coral_fan": "organic",
+		"minecraft:brain_coral_fan": "organic",
+		"minecraft:bubble_coral_fan": "organic",
+		"minecraft:fire_coral_fan": "organic",
+		"minecraft:horn_coral_fan": "organic",
+		"minecraft:dead_tube_coral_wall_fan": "stone",
+		"minecraft:dead_brain_coral_wall_fan": "stone",
+		"minecraft:dead_bubble_coral_wall_fan": "stone",
+		"minecraft:dead_fire_coral_wall_fan": "stone",
+		"minecraft:dead_horn_coral_wall_fan": "stone",
+		"minecraft:tube_coral_wall_fan": "organic",
+		"minecraft:brain_coral_wall_fan": "organic",
+		"minecraft:bubble_coral_wall_fan": "organic",
+		"minecraft:fire_coral_wall_fan": "organic",
+		"minecraft:horn_coral_wall_fan": "organic",
+		"minecraft:sea_pickle": "mud",
+		"minecraft:blue_ice": "ice",
+		"minecraft:conduit": "stone",
+		"minecraft:bamboo_sapling": "grass",
+		"minecraft:bamboo": "log",
+		"minecraft:potted_bamboo": "grass,brickstone",
+		"minecraft:void_air": "",
+		"minecraft:cave_air": "",
+		"minecraft:bubble_column": "",
+		"minecraft:polished_granite_stairs": "stone",
+		"minecraft:smooth_red_sandstone_stairs": "sandstone",
+		"minecraft:mossy_stone_brick_stairs": "brickstone",
+		"minecraft:polished_diorite_stairs": "stone",
+		"minecraft:mossy_cobblestone_stairs": "stone",
+		"minecraft:end_stone_brick_stairs": "brickstone",
+		"minecraft:stone_stairs": "stone",
+		"minecraft:smooth_sandstone_stairs": "sandstone",
+		"minecraft:smooth_quartz_stairs": "marble",
+		"minecraft:granite_stairs": "stone",
+		"minecraft:andesite_stairs": "stone",
+		"minecraft:red_nether_brick_stairs": "netherbrick",
+		"minecraft:polished_andesite_stairs": "stone",
+		"minecraft:diorite_stairs": "stone",
+		"minecraft:polished_granite_slab": "stone",
+		"minecraft:smooth_red_sandstone_slab": "sandstone",
+		"minecraft:mossy_stone_brick_slab": "brickstone",
+		"minecraft:polished_diorite_slab": "stone",
+		"minecraft:mossy_cobblestone_slab": "stone",
+		"minecraft:end_stone_brick_slab": "brickstone",
+		"minecraft:smooth_sandstone_slab": "sandstone",
+		"minecraft:smooth_quartz_slab": "marble",
+		"minecraft:granite_slab": "stone",
+		"minecraft:andesite_slab": "stone",
+		"minecraft:red_nether_brick_slab": "netherbrick",
+		"minecraft:polished_andesite_slab": "stone",
+		"minecraft:diorite_slab": "stone",
+		"minecraft:brick_wall": "brickstone",
+		"minecraft:prismarine_wall": "stone",
+		"minecraft:red_sandstone_wall": "sandstone",
+		"minecraft:mossy_stone_brick_wall": "brickstone",
+		"minecraft:granite_wall": "stone",
+		"minecraft:stone_brick_wall": "brickstone",
+		"minecraft:nether_brick_wall": "netherbrick",
+		"minecraft:andesite_wall": "stone",
+		"minecraft:red_nether_brick_wall": "netherbrick",
+		"minecraft:sandstone_wall": "sandstone",
+		"minecraft:end_stone_brick_wall": "brickstone",
+		"minecraft:diorite_wall": "stone",
+		"minecraft:scaffolding": "squeakywood",
+		"minecraft:loom": "squeakywood",
+		"minecraft:barrel": "planks",
+		"minecraft:smoker": "stonemachine",
+		"minecraft:blast_furnace": "stonemachine",
+		"minecraft:cartography_table": "squeakywood",
+		"minecraft:fletching_table": "squeakywood",
+		"minecraft:grindstone": "stone",
+		"minecraft:lectern": "squeakywood",
+		"minecraft:smithing_table": "stonemachine",
+		"minecraft:stonecutter": "stonemachine",
+		"minecraft:bell": "metalcompressed,hardmetal",
+		"minecraft:lantern": "metalbar",
+		"minecraft:soul_lantern": "metalbar",
+		"minecraft:campfire": "log",
+		"minecraft:soul_campfire": "log",
+		"minecraft:sweet_berry_bush": "grass",
+		"minecraft:warped_stem": "log",
+		"minecraft:stripped_warped_stem": "log",
+		"minecraft:warped_hyphae": "log",
+		"minecraft:stripped_warped_hyphae": "log",
+		"minecraft:warped_nylium": "grass,organic",
+		"minecraft:warped_fungus": "organic_dry",
+		"minecraft:warped_wart_block": "organic",
+		"minecraft:warped_roots": "straw",
+		"minecraft:nether_sprouts": "grass",
+		"minecraft:crimson_stem": "log",
+		"minecraft:stripped_crimson_stem": "log",
+		"minecraft:crimson_hyphae": "log",
+		"minecraft:stripped_crimson_hyphae": "log",
+		"minecraft:crimson_nylium": "grass,organic",
+		"minecraft:crimson_fungus": "organic_dry",
+		"minecraft:shroomlight": "shroomlight",
+		"minecraft:weeping_vines": "grass,organic",
+		"minecraft:weeping_vines_plant": "grass,organic",
+		"minecraft:twisting_vines": "grass,organic",
+		"minecraft:twisting_vines_plant": "grass,organic",
+		"minecraft:crimson_roots": "straw",
+		"minecraft:crimson_planks": "planks",
+		"minecraft:warped_planks": "planks",
+		"minecraft:crimson_slab": "planks",
+		"minecraft:warped_slab": "planks",
+		"minecraft:crimson_pressure_plate": "planks",
+		"minecraft:warped_pressure_plate": "planks",
+		"minecraft:crimson_fence": "planks",
+		"minecraft:warped_fence": "planks",
+		"minecraft:crimson_trapdoor": "planks",
+		"minecraft:warped_trapdoor": "planks",
+		"minecraft:crimson_fence_gate": "planks",
+		"minecraft:warped_fence_gate": "planks",
+		"minecraft:crimson_stairs": "planks",
+		"minecraft:warped_stairs": "planks",
+		"minecraft:crimson_button": "",
+		"minecraft:warped_button": "",
+		"minecraft:crimson_door": "planks",
+		"minecraft:warped_door": "planks",
+		"minecraft:crimson_sign": "",
+		"minecraft:warped_sign": "",
+		"minecraft:crimson_wall_sign": "",
+		"minecraft:warped_wall_sign": "",
+		"minecraft:structure_block": "",
+		"minecraft:jigsaw": "",
+		"minecraft:composter": "squeakywood",
+		"minecraft:target": "straw",
+		"minecraft:bee_nest": "organic_dry",
+		"minecraft:beehive": "organic_dry",
+		"minecraft:honey_block": "mud",
+		"minecraft:honeycomb_block": "mud",
+		"minecraft:netherite_block": "hardmetal",
+		"minecraft:ancient_debris": "hardmetal",
+		"minecraft:crying_obsidian": "obsidian",
+		"minecraft:respawn_anchor": "obsidian",
+		"minecraft:potted_crimson_fungus": "grass,brickstone",
+		"minecraft:potted_warped_fungus": "grass,brickstone",
+		"minecraft:potted_crimson_roots": "grass,brickstone",
+		"minecraft:potted_warped_roots": "grass,brickstone",
+		"minecraft:lodestone": "stonemachine",
+		"minecraft:blackstone": "stone",
+		"minecraft:blackstone_stairs": "stone",
+		"minecraft:blackstone_wall": "stone",
+		"minecraft:blackstone_slab": "stone",
+		"minecraft:polished_blackstone": "stone",
+		"minecraft:polished_blackstone_bricks": "brickstone",
+		"minecraft:cracked_polished_blackstone_bricks": "brickstone",
+		"minecraft:chiseled_polished_blackstone": "brickstone",
+		"minecraft:polished_blackstone_brick_slab": "brickstone",
+		"minecraft:polished_blackstone_brick_stairs": "brickstone",
+		"minecraft:polished_blackstone_brick_wall": "brickstone",
+		"minecraft:gilded_blackstone": "stone",
+		"minecraft:polished_blackstone_stairs": "stone",
+		"minecraft:polished_blackstone_slab": "stone",
+		"minecraft:polished_blackstone_pressure_plate": "stone",
+		"minecraft:polished_blackstone_button": "",
+		"minecraft:polished_blackstone_wall": "stone",
+		"minecraft:chiseled_nether_bricks": "netherbrick",
+		"minecraft:cracked_nether_bricks": "netherbrick",
+		"minecraft:quartz_bricks": "marble",
+		"minecraft:smooth_basalt": "basalt",
+		"minecraft:candle": "",
+		"minecraft:white_candle": "",
+		"minecraft:orange_candle": "",
+		"minecraft:magenta_candle": "",
+		"minecraft:light_blue_candle": "",
+		"minecraft:yellow_candle": "",
+		"minecraft:lime_candle": "",
+		"minecraft:pink_candle": "",
+		"minecraft:gray_candle": "",
+		"minecraft:light_gray_candle": "",
+		"minecraft:cyan_candle": "",
+		"minecraft:purple_candle": "",
+		"minecraft:blue_candle": "",
+		"minecraft:brown_candle": "",
+		"minecraft:green_candle": "",
+		"minecraft:red_candle": "",
+		"minecraft:black_candle": "",
+		"minecraft:candle_cake": "",
+		"minecraft:white_candle_cake": "",
+		"minecraft:orange_candle_cake": "",
+		"minecraft:magenta_candle_cake": "",
+		"minecraft:light_blue_candle_cake": "",
+		"minecraft:yellow_candle_cake": "",
+		"minecraft:lime_candle_cake": "",
+		"minecraft:pink_candle_cake": "",
+		"minecraft:gray_candle_cake": "",
+		"minecraft:light_gray_candle_cake": "",
+		"minecraft:cyan_candle_cake": "",
+		"minecraft:purple_candle_cake": "",
+		"minecraft:blue_candle_cake": "",
+		"minecraft:brown_candle_cake": "",
+		"minecraft:green_candle_cake": "",
+		"minecraft:red_candle_cake": "",
+		"minecraft:black_candle_cake": "",
+		"minecraft:water_cauldron": "hardmetal",
+		"minecraft:lava_cauldron": "hardmetal",
+		"minecraft:powder_snow_cauldron": "hardmetal",
+		"minecraft:tinted_glass": "glass",
+        "minecraft:light": "",
+		"minecraft:copper_ore": "ore",
+		"minecraft:oxidized_copper": "hardmetal",
+		"minecraft:weathered_copper": "hardmetal",
+		"minecraft:exposed_copper": "hardmetal",
+		"minecraft:copper_block": "hardmetal",
+		"minecraft:oxidized_cut_copper": "hardmetal",
+		"minecraft:weathered_cut_copper": "hardmetal",
+		"minecraft:exposed_cut_copper": "hardmetal",
+		"minecraft:cut_copper": "hardmetal",
+		"minecraft:oxidized_cut_copper_stairs": "hardmetal",
+		"minecraft:weathered_cut_copper_stairs": "hardmetal",
+		"minecraft:exposed_cut_copper_stairs": "hardmetal",
+		"minecraft:cut_copper_stairs": "hardmetal",
+		"minecraft:oxidized_cut_copper_slab": "hardmetal",
+		"minecraft:weathered_cut_copper_slab": "hardmetal",
+		"minecraft:exposed_cut_copper_slab": "hardmetal",
+		"minecraft:cut_copper_slab": "hardmetal",
+		"minecraft:waxed_copper_block": "hardmetal",
+		"minecraft:waxed_weathered_copper": "hardmetal",
+		"minecraft:waxed_exposed_copper": "hardmetal",
+		"minecraft:waxed_oxidized_copper": "hardmetal",
+		"minecraft:waxed_oxidized_cut_copper": "hardmetal",
+		"minecraft:waxed_weathered_cut_copper": "hardmetal",
+		"minecraft:waxed_exposed_cut_copper": "hardmetal",
+		"minecraft:waxed_cut_copper": "hardmetal",
+		"minecraft:waxed_oxidized_cut_copper_stairs": "hardmetal",
+		"minecraft:waxed_weathered_cut_copper_stairs": "hardmetal",
+		"minecraft:waxed_exposed_cut_copper_stairs": "hardmetal",
+		"minecraft:waxed_cut_copper_stairs": "hardmetal",
+		"minecraft:waxed_oxidized_cut_copper_slab": "hardmetal",
+		"minecraft:waxed_weathered_cut_copper_slab": "hardmetal",
+		"minecraft:waxed_exposed_cut_copper_slab": "hardmetal",
+		"minecraft:waxed_cut_copper_slab": "hardmetal",
+		"minecraft:lightning_rod": "hardmetal",
+		"minecraft:deepslate": "deepslate",
+		"minecraft:cobbled_deepslate": "deepslate",
+		"minecraft:cobbled_deepslate_stairs": "deepslate",
+		"minecraft:cobbled_deepslate_slab": "deepslate",
+		"minecraft:cobbled_deepslate_wall": "deepslate",
+		"minecraft:polished_deepslate": "deepslate",
+		"minecraft:polished_deepslate_stairs": "deepslate",
+		"minecraft:polished_deepslate_slab": "deepslate",
+		"minecraft:polished_deepslate_wall": "deepslate",
+		"minecraft:deepslate_tiles": "deepslate,brickstone",
+		"minecraft:deepslate_tile_stairs": "deepslate,brickstone",
+		"minecraft:deepslate_tile_slab": "deepslate,brickstone",
+		"minecraft:deepslate_tile_wall": "deepslate,brickstone",
+		"minecraft:deepslate_bricks": "deepslate,brickstone",
+		"minecraft:deepslate_brick_stairs": "deepslate,brickstone",
+		"minecraft:deepslate_brick_slab": "deepslate,brickstone",
+		"minecraft:deepslate_brick_wall": "deepslate,brickstone",
+		"minecraft:chiseled_deepslate": "deepslate,brickstone",
+		"minecraft:cracked_deepslate_bricks": "deepslate,brickstone",
+		"minecraft:cracked_deepslate_tiles": "deepslate,brickstone",
+		"minecraft:infested_deepslate": "deepslate",
+		"minecraft:deepslate_gold_ore": "deepslate,ore",
+		"minecraft:deepslate_iron_ore": "deepslate,ore",
+		"minecraft:deepslate_coal_ore": "deepslate,ore",
+		"minecraft:deepslate_lapis_ore": "deepslate,ore",
+		"minecraft:deepslate_diamond_ore": "deepslate,ore",
+		"minecraft:deepslate_redstone_ore": "deepslate,ore",
+		"minecraft:deepslate_emerald_ore": "deepslate,ore",
+		"minecraft:deepslate_copper_ore": "deepslate,ore",
+		"minecraft:tuff": "stone",
+		"minecraft:calcite": "stone",
+		"minecraft:powder_snow": "snow",
+		"minecraft:azalea_leaves": "leaves",
+		"minecraft:flowering_azalea_leaves": "leaves",
+		"minecraft:azalea": "leaves",
+		"minecraft:flowering_azalea": "leaves",
+		"minecraft:glow_lichen": "",
+		"minecraft:hanging_roots": "",
+		"minecraft:cave_vines": "grass,organic",
+		"minecraft:cave_vines_plant": "grass,organic",
+		"minecraft:big_dripleaf": "grass,organic",
+		"minecraft:big_dripleaf_stem": "grass,organic",
+		"minecraft:small_dripleaf": "grass,organic",
+		"minecraft:moss_carpet": "moss",
+		"minecraft:moss_block": "moss",
+		"minecraft:rooted_dirt": "dirt,log",
+		"minecraft:spore_blossom": "brush_straw_transition,organic",
+		"minecraft:pointed_dripstone": "stone",
+		"minecraft:dripstone_block": "stone",
+		"minecraft:raw_iron_block": "stone,hardmetal",
+		"minecraft:raw_copper_block": "stone,hardmetal",
+		"minecraft:raw_gold_block": "stone,hardmetal",
+		"minecraft:sculk_sensor": "sculk",
+		"minecraft:amethyst_block": "amethyst",
+		"minecraft:budding_amethyst": "amethyst",
+		"minecraft:amethyst_cluster": "amethyst",
+		"minecraft:large_amethyst_bud": "amethyst",
+		"minecraft:medium_amethyst_bud": "amethyst",
+		"minecraft:small_amethyst_bud": "amethyst"
+	},
+	"armor": {
+		"minecraft:leather_boots": "armor_light",
+	    "minecraft:leather_leggings": "armor_light",
+	    "minecraft:leather_chestplate": "armor_light",
+	    "minecraft:leather_helmet": "armor_light",
+	    
+	    "minecraft:chainmail_boots": "medium_foot",
+	    "minecraft:chainmail_leggings": "armor_medium",
+	    "minecraft:chainmail_chestplate": "armor_medium",
+	    "minecraft:chainmail_helmet": "armor_medium",
+	    
+	    "minecraft:iron_boots": "heavy_foot",
+	    "minecraft:iron_leggings": "armor_heavy",
+	    "minecraft:iron_chestplate": "armor_heavy",
+	    "minecraft:iron_helmet": "armor_heavy",
+	    "minecraft:golden_boots": "heavy_foot",
+	    "minecraft:golden_leggings": "armor_heavy",
+	    "minecraft:golden_chestplate": "armor_heavy",
+	    "minecraft:golden_helmet": "armor_heavy",
+	    
+	    "minecraft:diamond_boots": "crystal_foot",
+	    "minecraft:diamond_leggings": "armor_crystal",
+	    "minecraft:diamond_chestplate": "armor_crystal",
+	    "minecraft:diamond_helmet": "armor_crystal",
+	    
+	    "minecraft:netherite_boots": "crystal_foot,heavy_foot",
+	    "minecraft:netherite_leggings": "armor_crystal,armor_heavy",
+	    "minecraft:netherite_chestplate": "armor_crystal,armor_heavy",
+	    "minecraft:netherite_helmet": "armor_crystal,armor_heavy"
+	},
+	"materials": {
+		"none": {
+		},
+		"armor_light": {
+			"walk": {
+				"name": "armor.light_walk",
+				"pitchMin": 80,
+				"pitchMax": 100
+			},
+			"jump": {
+				"name": "armor.light_walk",
+				"pitchMin": 80,
+				"pitchMax": 100
+			},
+			"run": {
+				"name": "armor.light_run",
+				"pitchMin": 100,
+				"pitchMax": 105
+			},
+			"wander": {
+				"name": "armor.light_walk",
+				"pitchMin": 80,
+				"pitchMax": 100
+			},
+			"land": "armor.light_walk"
+		},
+		"armor_medium": {
+			"walk": {
+				"name": "armor.medium_walk",
+				"pitchMin": 80,
+				"pitchMax": 100
+			},
+			"jump": "armor.medium_walk",
+			"run": {
+				"name": "armor.medium_run",
+				"pitchMin": 90,
+				"pitchMax": 110
+			},
+			"wander": "armor.medium_walk",
+			"land": [
+				"armor.medium_walk",
+				{
+					"name": "armor.medium_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "armor.medium_run"
+				}
+			]
+		},
+		"medium_foot": {
+			"walk": "armor.medium_foot",
+			"jump": "armor.medium_foot",
+			"run": "armor.medium_foot",
+			"wander": "armor.medium_foot",
+			"land": [
+				"armor.medium_foot",
+				{
+					"name": "armor.medium_foot",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "armor.medium_foot"
+				}
+			]
+		},
+		"armor_crystal": {
+			"walk": "armor.crystal_walk",
+			"run": "armor.crystal_run",
+			"wander": "armor.crystal_walk",
+			"jump": "armor.crystal_walk",
+			"land": [
+				"armor.crystal_walk",
+				{
+					"name": "armor.crystal_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "armor.crystal_run"
+				}
+			]
+		},
+		"crystal_foot": {
+			"walk": {
+				"name": "armor.crystal_foot",
+				"pitchMin": 80,
+				"pitchMax": 100
+			},
+			"jump": "armor.crystal_foot",
+			"run": "armor.crystal_foot",
+			"wander": "armor.crystal_foot",
+			"land": [
+				"armor.crystal_foot",
+				{
+					"name": "armor.crystal_foot",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "armor.crystal_foot"
+				}
+			]
+		},
+		"armor_heavy": {
+			"walk": "armor.heavy_walk",
+			"jump": "armor.heavy_walk",
+			"run": "armor.heavy_run",
+			"wander": "armor.heavy_walk",
+			"land": [
+				"armor.heavy_walk",
+				{
+					"name": "armor.heavy_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "armor.heavy_run"
+				}
+			]
+		},
+		"heavy_foot": {
+			"walk": "armor.heavy_foot",
+			"jump": "armor.heavy_foot",
+			"run": "armor.heavy_foot",
+			"wander": "armor.heavy_foot",
+			"land": [
+				"armor.heavy_foot",
+				{
+					"name": "armor.heavy_foot",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "armor.heavy_foot"
+				}
+			]
+		},
+		"armor_slimey": {
+			"walk": "armor.slimey_walk",
+			"jump": "armor.slimey_walk",
+			"run": "armor.slimey_run",
+			"wander": "armor.slimey_walk",
+			"land": [
+				"armor.slimey_walk",
+				{
+					"name": "armor.slimey_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "armor.slimey_run"
+				}
+			]
+		},
+		"straw": {
+			"walk": "leaves.leaves_through",
+			"jump": "leaves.leaves_through",
+			"land": "leaves.leaves_through"
+		},
+		"brush_straw_transition": {
+			"walk": [
+				{
+					"name": "leaves.leaves_through",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"name": "brush.brush_through",
+					"volumeMin": 30,
+					"volumeMax": 30
+				}
+			],
+			"jump": [
+				{
+					"name": "leaves.leaves_through",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"name": "brush.brush_through",
+					"volumeMin": 30,
+					"volumeMax": 30
+				}
+			],
+			"land": [
+				{
+					"name": "leaves.leaves_through",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"name": "brush.brush_through",
+					"volumeMin": 30,
+					"volumeMax": 30
+				}
+			]
+		},
+		"brush": {
+			"walk": {
+				"name": "brush.brush_through",
+				"volumeMin": 65,
+				"volumeMax": 65
+			},
+			"jump": {
+				"name": "brush.brush_through",
+				"volumeMin": 65,
+				"volumeMax": 65
+			},
+			"land": {
+				"name": "brush.brush_through",
+				"volumeMin": 65,
+				"volumeMax": 65
+			}
+		},
+		"fire": {
+			"walk": {
+				"name": "brush.brush_through",
+				"pitchMin": 70,
+				"pitchMax": 80
+			},
+			"jump": {
+				"name": "brush.brush_through",
+				"pitchMin": 70,
+				"pitchMax": 80
+			},
+			"land": {
+				"name": "brush.brush_through",
+				"pitchMin": 70,
+				"pitchMax": 80
+			}
+		},
+		"rails": {
+			"walk": {
+				"name": "metalbar.metalbar_run",
+				"volumeMin": 20,
+				"volumeMax": 20
+			},
+			"jump": {
+				"name": "metalbar.metalbar_run",
+				"volumeMin": 20,
+				"volumeMax": 20
+			},
+			"land": {
+				"name": "metalbar.metalbar_run",
+				"volumeMin": 20,
+				"volumeMax": 20
+			}
+		},
+		"grass": {
+			"walk": [
+				{
+					"name": "grass.grass_walk",
+					"volumeMin": 60,
+					"volumeMax": 60
+				},
+				{
+					"name": "brush.brush_through",
+					"volumeMin": 20,
+					"volumeMax": 20
+				}
+			],
+			"run": [
+				{
+					"name": "grass.grass_run",
+					"volumeMin": 60,
+					"volumeMax": 60
+				},
+				{
+					"name": "brush.brush_through",
+					"volumeMin": 20,
+					"volumeMax": 20
+				}
+			],
+			"wander": "grass.grass_wander",
+			"land": [
+				"grass.grass_run",
+				{
+					"delay": 50,
+					"name": "grass.grass_run"
+				}
+			]
+		},
+		"organic_solid": {
+			"walk": [
+				"grass.grass_run",
+				"mud.mud_walk"
+			],
+			"run": [
+				"grass.grass_run",
+				"mud.mud_walk"
+			],
+			"wander": "dirt.dirt_wander",
+			"jump": [
+				"grass.grass_run",
+				"mud.mud_wander"
+			],
+			"land": [
+				"grass.grass_run",
+				"mud.mud_walk",
+				{
+					"delay": 50,
+					"name": "mud.mud_wander"
+				}
+			]
+		},
+		"organic_dry": {
+			"walk": "grass.grass_run",
+			"run": "grass.grass_run",
+			"wander": "dirt.dirt_wander",
+			"jump": "grass.grass_run",
+			"land": [
+				"grass.grass_run",
+				{
+					"delay": 50,
+					"name": "grass.grass_run"
+				}
+			]
+		},
+		"dirt": {
+			"walk": "dirt.dirt_walk",
+			"run": "dirt.dirt_run",
+			"wander": "dirt.dirt_wander",
+			"land": [
+				"dirt.dirt_land",
+				{
+					"name": "dirt.dirt_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "dirt.dirt_run"
+				}
+			]
+		},
+		"stone": {
+			"run": {
+				"name": "stone.stone_run",
+				"pitchMin": 65,
+				"pitchMax": 70
+			},
+			"walk": {
+				"name": "stone.stone_walk",
+				"pitchMin": 65,
+				"pitchMax": 70
+			},
+			"wander": "stone.stone_wander",
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "stone.stone_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "stone.stone_run"
+				}
+			]
+		},
+		"wood": {
+			"walk": "wood.wood_walk",
+			"wander": "dirt.dirt_wander",
+			"land": [
+				"wood.wood_walk",
+				{
+					"delay": 30,
+					"name": "wood.wood_walk"
+				}
+			]
+		},
+		"planks": {
+			"walk": [
+				"wood.wood_walk",
+				{
+					"name": "wood.floorsqueak",
+					"probability": 0.1
+				}
+			],
+			"wander": "dirt.dirt_wander",
+			"land": [
+				"wood.wood_walk",
+				{
+					"delay": 30,
+					"name": "wood.wood_walk"
+				}
+			]
+		},
+		"log": {
+			"walk": {
+				"name": "wood.wood_walk",
+				"pitchMin": 55,
+				"pitchMax": 60
+			},
+			"wander": "dirt.dirt_wander",
+			"land": [
+				"wood.wood_walk",
+				{
+					"delay": 30,
+					"name": "wood.wood_walk",
+					"pitchMin": 55,
+					"pitchMax": 60
+				}
+			]
+		},
+		"bedrock": {
+			"run": {
+				"name": "stone.stone_run",
+				"pitchMin": 55,
+				"pitchMax": 60
+			},
+			"walk": {
+				"name": "stone.stone_walk",
+				"pitchMin": 55,
+				"pitchMax": 60
+			},
+			"wander": "stone.stone_wander",
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "stone.stone_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "stone.stone_run"
+				}
+			]
+		},
+		"sand": {
+			"walk": {
+				"name": "sand.sand_walk",
+				"volumeMin": 60,
+				"volumeMax": 60
+			},
+			"run": {
+				"name": "sand.sand_run",
+				"volumeMin": 60,
+				"volumeMax": 60
+			},
+			"wander": "dirt.dirt_wander",
+			"land": [
+				{
+					"name": "sand.sand_run",
+					"volumeMin": 60,
+					"volumeMax": 60
+				},
+				{
+					"name": "sand.sand_walk",
+					"volumeMin": 60,
+					"volumeMax": 60
+				},
+				{
+					"delay": 50,
+					"name": "sand.sand_run",
+					"volumeMin": 60,
+					"volumeMax": 60
+				}
+			]
+		},
+		"gravel": {
+			"walk": "gravel.gravel_walk",
+			"run": "gravel.gravel_run",
+			"wander": "gravel.gravel_wander",
+			"land": [
+				"gravel.gravel_run",
+				"gravel.gravel_land",
+				{
+					"name": "gravel.gravel_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "gravel.gravel_run"
+				}
+			]
+		},
+		"ore": {
+			"walk": "stone.stone_walk",
+			"run": "stone.stone_run",
+			"wander": "stone.stone_wander",
+			"land": [
+				"stone.stone_run",
+				{
+					"name": "stone.stone_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "stone.stone_run"
+				}
+			]
+		},
+		"leaves": {
+			"walk": [
+				"dirt.dirt_walk",
+				"leaves.leaves_through"
+			],
+			"run": [
+				"dirt.dirt_run",
+				"leaves.leaves_through"
+			],
+			"wander": "dirt.dirt_wander",
+			"jump": [
+				"dirt.dirt_wander",
+				"leaves.leaves_through"
+			],
+			"land": [
+				"dirt.dirt_land",
+				"leaves.leaves_through",
+				{
+					"name": "dirt.dirt_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "dirt.dirt_run"
+				}
+			]
+		},
+		"mud": {
+			"walk": "mud.mud_walk",
+			"wander": "mud.mud_wander",
+			"land": [
+				"mud.mud_walk",
+				{
+					"delay": 50,
+					"name": "mud.mud_walk"
+				}
+			]
+		},
+		"glass": {
+			"walk": [
+				"wood.wood_walk",
+				{
+					"name": "glass.glass_hit",
+					"pitchMin": 95,
+					"pitchMax": 105
+				}
+			],
+			"wander": "dirt.dirt_wander",
+			"land": [
+				"wood.wood_walk",
+				{
+					"name": "glass.glass_hard",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 30,
+					"name": "wood.wood_walk"
+				},
+				{
+					"delay": 30,
+					"name": "glass.glass_hit"
+				}
+			]
+		},
+		"glowstone": {
+			"walk": [
+				"concrete.concrete_walk",
+				{
+					"name": "weakice.weakice_walk",
+					"volumeMin": 10,
+					"volumeMax": 20,
+					"pitchMin": 130,
+					"pitchMax": 130
+				}
+			],
+			"wander": "dirt.dirt_wander",
+			"land": [
+				"concrete.concrete_walk",
+				{
+					"delay": 30,
+					"name": "concrete.concrete_walk"
+				},
+				{
+					"name": "weakice.weakice_walk",
+					"volumeMin": 40,
+					"volumeMax": 60,
+					"pitchMin": 130,
+					"pitchMax": 130
+				}
+			]
+		},
+		"composite": {
+			"walk": "lino.lino_walk",
+			"run": "lino.lino_run",
+			"wander": "marble.marble_wander",
+			"land": [
+				"lino.lino_run",
+				{
+					"delay": 50,
+					"name": "lino.lino_run"
+				}
+			]
+		},
+		"stonemachine": {
+			"walk": {
+				"name": "concrete.concrete_walk",
+				"pitchMin": 110,
+				"pitchMax": 120
+			},
+			"run": {
+				"name": "concrete.concrete_run",
+				"pitchMin": 110,
+				"pitchMax": 120
+			},
+			"wander": "concrete.concrete_wander",
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "concrete.concrete_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "concrete.concrete_run"
+				}
+			]
+		},
+		"sandstone": {
+			"walk": [
+				"concrete.concrete_walk",
+				{
+					"name": "sand.sand_walk",
+					"volumeMin": 10,
+					"volumeMax": 10
+				}
+			],
+			"run": [
+				"concrete.concrete_run",
+				{
+					"name": "sand.sand_run",
+					"volumeMin": 20,
+					"volumeMax": 20
+				}
+			],
+			"wander": "concrete.concrete_wander",
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "concrete.concrete_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "concrete.concrete_run"
+				}
+			]
+		},
+		"woodutility": {
+			"walk": [
+				"bluntwood.bluntwood_walk",
+				{
+					"name": "lino.lino_walk",
+					"pitchMin": 75,
+					"pitchMax": 85
+				}
+			],
+			"run": [
+				"bluntwood.bluntwood_walk",
+				{
+					"name": "lino.lino_run",
+					"pitchMin": 75,
+					"pitchMax": 85
+				}
+			],
+			"wander": [
+				"bluntwood.bluntwood_wander",
+				"marble.marble_wander"
+			],
+			"land": [
+				"bluntwood.bluntwood_walk",
+				{
+					"delay": 50,
+					"name": "bluntwood.bluntwood_walk"
+				}
+			]
+		},
+		"rug": {
+			"walk": {
+				"name": "rug.rug_walk",
+				"volumeMin": 70,
+				"volumeMax": 70
+			},
+			"wander": "rug.rug_walk",
+			"land": [
+				"rug.rug_walk",
+				{
+					"delay": 50,
+					"name": "rug.rug_walk"
+				}
+			]
+		},
+		"wood_sticky": {
+			"walk": [
+				"wood.wood_walk",
+				{
+					"name": "mud.mud_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				}
+			],
+			"wander": [
+				"dirt.dirt_wander",
+				{
+					"name": "mud.mud_wander",
+					"volumeMin": 50,
+					"volumeMax": 50
+				}
+			],
+			"land": [
+				"wood.wood_walk",
+				{
+					"name": "mud.mud_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 30,
+					"name": "wood.wood_walk"
+				}
+			]
+		},
+		"hardmetal": {
+			"walk": "metalbox.metalbox_walk",
+			"run": "metalbox.metalbox_run",
+			"wander": [
+				"marble.marble_wander",
+				{
+					"name": "metalbox.metalbox_wander",
+					"probability": 0.25,
+					"volumeMin": 10,
+					"volumeMax": 50
+				}
+			],
+			"land": [
+				"metalbox.metalbox_run",
+				{
+					"name": "metalbox.metalbox_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "metalbox.metalbox_run"
+				}
+			]
+		},
+		"brickstone": {
+			"walk": "concrete.concrete_walk",
+			"run": "concrete.concrete_run",
+			"wander": "concrete.concrete_wander",
+			"jump": "concrete.concrete_wander",
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "concrete.concrete_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "concrete.concrete_run"
+				}
+			]
+		},
+		"marble": {
+			"walk": "marble.marble_walk",
+			"run": "marble.marble_run",
+			"wander": "marble.marble_wander",
+			"land": [
+				"marble.marble_run",
+				{
+					"delay": 50,
+					"name": "marble.marble_run"
+				}
+			]
+		},
+		"equipment": {
+			"walk": [
+				{
+					"name": "dirt.dirt_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"name": "lino.lino_walk",
+					"pitchMin": 75,
+					"pitchMax": 85
+				}
+			],
+			"run": [
+				{
+					"name": "dirt.dirt_run",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"name": "lino.lino_run",
+					"pitchMin": 75,
+					"pitchMax": 85
+				}
+			],
+			"wander": [
+				"dirt.dirt_wander",
+				"marble.marble_wander"
+			],
+			"land": [
+				"dirt.dirt_land",
+				{
+					"name": "dirt.dirt_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "lino.lino_run"
+				}
+			]
+		},
+		"obsidian": {
+			"walk": [
+				{
+					"name": "stone.stone_walk",
+					"volumeMin": 80,
+					"volumeMax": 80,
+					"pitchMin": 65,
+					"pitchMax": 70
+				},
+				{
+					"name": "lino.lino_walk",
+					"pitchMin": 75,
+					"pitchMax": 85
+				}
+			],
+			"run": [
+				{
+					"name": "stone.stone_run",
+					"volumeMin": 80,
+					"volumeMax": 80,
+					"pitchMin": 65,
+					"pitchMax": 70
+				},
+				{
+					"name": "lino.lino_run",
+					"pitchMin": 75,
+					"pitchMax": 85
+				}
+			],
+			"wander": [
+				"stone.stone_wander",
+				"marble.marble_wander"
+			],
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "stone.stone_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "stone.stone_run"
+				}
+			]
+		},
+		"metalbar": {
+			"walk": "metalbar.metalbar_walk",
+			"wander": [
+				"marble.marble_wander",
+				{
+					"name": "metalbar.metalbar_wander",
+					"probability": 0.25,
+					"volumeMin": 10,
+					"volumeMax": 50
+				}
+			],
+			"run": "metalbar.metalbar_run",
+			"jump": "metalbar.metalbar_wander",
+			"land": [
+				"metalbar.metalbar_walk",
+				{
+					"delay": 30,
+					"name": "metalbar.metalbar_walk"
+				}
+			]
+		},
+		"squeakywood": {
+			"walk": "squeakywood.squeakywood_walk",
+			"wander": "squeakywood.squeakywood_wander",
+			"land": [
+				"squeakywood.squeakywood_walk",
+				{
+					"delay": 50,
+					"name": "wood.wood_walk"
+				}
+			]
+		},
+		"bluntwood": {
+			"walk": "bluntwood.bluntwood_walk",
+			"wander": "bluntwood.bluntwood_wander",
+			"land": [
+				"bluntwood.bluntwood_walk",
+				{
+					"delay": 50,
+					"name": "bluntwood.bluntwood_walk"
+				}
+			]
+		},
+		"ladder": {
+			"walk": {
+				"name": "bluntwood.bluntwood_walk",
+				"pitchMin": 130,
+				"pitchMax": 140,
+				"volumeMin": 50,
+				"volumeMax": 50
+			},
+			"wander": "bluntwood.bluntwood_wander",
+			"land": [
+				{
+					"name": "bluntwood.bluntwood_walk",
+					"pitchMin": 170,
+					"pitchMax": 180
+				},
+				{
+					"delay": 50,
+					"name": "bluntwood.bluntwood_walk",
+					"pitchMin": 170,
+					"pitchMax": 180
+				}
+			]
+		},
+		"snow": {
+			"walk": "snow.snow_walk",
+			"run": "snow.snow_run",
+			"wander": "snow.snow_wander",
+			"jump": "snow.snow_wander",
+			"land": [
+				"snow.snow_run",
+				{
+					"name": "snow.snow_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "snow.snow_run"
+				}
+			]
+		},
+		"ice": {
+			"walk": [
+				{
+					"name": "stone.stone_walk",
+					"pitchMin": 65,
+					"pitchMax": 70
+				},
+				{
+					"name": "muffledice.muffledice_walk",
+					"volumeMin": 40,
+					"volumeMax": 50
+				},
+				{
+					"name": "weakice.weakice_walk",
+					"volumeMin": 0,
+					"volumeMax": 10
+				}
+			],
+			"run": [
+				{
+					"name": "stone.stone_run",
+					"pitchMin": 65,
+					"pitchMax": 70
+				},
+				{
+					"name": "muffledice.muffledice_walk",
+					"volumeMin": 60,
+					"volumeMax": 70
+				},
+				{
+					"name": "weakice.weakice_walk",
+					"volumeMin": 0,
+					"volumeMax": 20
+				}
+			],
+			"wander": "stone.stone_wander",
+			"jump": "stone.stone_wander",
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "stone.stone_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "stone.stone_run"
+				},
+				{
+					"name": "muffledice.muffledice_walk",
+					"volumeMin": 80,
+					"volumeMax": 100
+				},
+				{
+					"name": "weakice.weakice_walk",
+					"volumeMin": 50,
+					"volumeMax": 70
+				}
+			]
+		},
+		"organic": {
+			"walk": [
+				"dirt.dirt_walk",
+				"mud.mud_walk"
+			],
+			"run": [
+				"dirt.dirt_run",
+				"mud.mud_walk"
+			],
+			"wander": "dirt.dirt_wander",
+			"jump": [
+				"dirt.dirt_wander",
+				"mud.mud_wander"
+			],
+			"land": [
+				"dirt.dirt_land",
+				"mud.mud_walk",
+				{
+					"delay": 50,
+					"name": "mud.mud_wander"
+				}
+			]
+		},
+		"quicksand": {
+			"walk": "quicksand.quicksand_walk",
+			"wander": "dirt.dirt_wander",
+			"land": [
+				"sand.sand_run",
+				{
+					"name": "quicksand.quicksand_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "quicksand.quicksand_walk"
+				}
+			]
+		},
+		"waterfine": {
+			"walk": [
+				"water.water_through",
+				"water_stereofix.water_through"
+			],
+			"wander": [
+				"water.water_wander",
+				"water_stereofix.water_wander"
+			],
+			"land": [
+				"water.water_through",
+				"water_stereofix.water_through"
+			]
+		},
+		"stoneutility": {
+			"walk": [
+				{
+					"name": "concrete.concrete_walk",
+					"pitchMin": 110,
+					"pitchMax": 120
+				},
+				{
+					"name": "lino.lino_walk",
+					"pitchMin": 75,
+					"pitchMax": 85
+				}
+			],
+			"run": [
+				{
+					"name": "concrete.concrete_run",
+					"pitchMin": 110,
+					"pitchMax": 120
+				},
+				{
+					"name": "lino.lino_run",
+					"pitchMin": 75,
+					"pitchMax": 85
+				}
+			],
+			"wander": [
+				"concrete.concrete_wander",
+				"marble.marble_wander"
+			],
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "concrete.concrete_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+					"name": "concrete.concrete_run"
+				}
+			]
+		},
+		"metalcompressed": {
+			"walk": {
+				"name": "metalbar.metalbar_walk",
+				"pitchMin": 80,
+				"pitchMax": 85
+			},
+			"wander": {
+				"name": "metalbar.metalbar_wander",
+				"pitchMin": 80,
+				"pitchMax": 85
+			},
+			"land": [
+				{
+					"name": "metalbar.metalbar_walk",
+					"pitchMin": 80,
+					"pitchMax": 85
+				},
+				{
+					"delay": 30,
+					"name": "metalbar.metalbar_walk",
+					"pitchMin": 80,
+					"pitchMax": 85
+				}
+			]
+		},
+		"metalsubparts": {
+			"walk": [
+				{
+					"name": "metalbar.metalbar_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"name": "metalbox.metalbox_walk",
+					"volumeMin": 50,
+					"volumeMax": 50
+				}
+			],
+			"wander": "marble.marble_wander",
+			"land": [
+				"metalbox.metalbox_run",
+				"metalbar.metalbar_walk",
+				{
+					"delay": 30,
+					"name": "metalbar.metalbar_walk"
+				},
+				{
+					"delay": 50,
+					"name": "metalbox.metalbox_run"
+				}
+			]
+		},
+		"soulsoil": {
+			"walk": {
+				"name": "minecraft:block.soul_soil.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"run": {
+				"name": "minecraft:block.soul_soil.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"wander": "dirt.dirt_wander",
+			"land": [
+				{
+					"name": "minecraft:block.soul_soil.step",
+					"volumeMin": 28,
+					"volumeMax": 32
+				},
+				{
+					"name": "sand.sand_run",
+					"delay": 1,
+					"volumeMin": 60,
+					"volumeMax": 60
+				}
+			]
+		},
+		"soulsand": {
+			"walk": {
+				"name": "minecraft:block.soul_sand.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"run": {
+				"name": "minecraft:block.soul_sand.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"wander": "dirt.dirt_wander",
+			"land": [
+				{
+					"name": "minecraft:block.soul_sand.step",
+					"volumeMin": 28,
+					"volumeMax": 32
+				},
+				{
+					"name": "sand.sand_run",
+					"delay": 1,
+					"volumeMin": 60,
+					"volumeMax": 60
+				}
+			]
+		},
+		"netherrack": {
+			"walk": {
+				"name": "minecraft:block.netherrack.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"run": {
+				"name": "minecraft:block.netherrack.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"wander": "dirt.dirt_wander",
+			"land": [
+				{
+					"name": "minecraft:block.netherrack.step",
+					"volumeMin": 28,
+					"volumeMax": 32
+				},
+				{
+					"name": "sand.sand_run",
+					"delay": 1,
+					"volumeMin": 60,
+					"volumeMax": 60
+				}
+			]
+		},
+		"bone": {
+			"run": {
+				"name": "minecraft:block.bone_block.step",
+				"volumeMin": 28,
+				"volumeMax": 32,
+				"pitchMin": 90,
+				"pitchMax": 110
+			},
+			"walk": {
+				"name": "minecraft:block.bone_block.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"wander": {
+				"name": "stone.stone_wander",
+				"volumeMin": 40,
+				"volumeMax": 50
+			},
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "minecraft:block.bone_block.step",
+					"volumeMin": 28,
+					"volumeMax": 32
+				},
+				{
+					"name": "stone.stone_run",
+					"delay": 1
+				}
+			]
+		},
+		"shroomlight": {
+			"run": {
+				"name": "minecraft:block.shroomlight.step",
+				"volumeMin": 28,
+				"volumeMax": 32,
+				"pitchMin": 90,
+				"pitchMax": 110
+			},
+			"walk": {
+				"name": "minecraft:block.shroomlight.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"wander": {
+				"name": "dirt.dirt_wander",
+				"volumeMin": 40,
+				"volumeMax": 50
+			},
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "minecraft:block.shroomlight.step",
+					"volumeMin": 28,
+					"volumeMax": 32
+				},
+				{
+					"name": "stone.stone_run",
+					"delay": 1
+				}
+			]
+		},
+		"basalt": {
+			"run": {
+				"name": "minecraft:block.basalt.step",
+				"volumeMin": 28,
+				"volumeMax": 32,
+				"pitchMin": 90,
+				"pitchMax": 110
+			},
+			"walk": {
+				"name": "minecraft:block.basalt.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"wander": {
+				"name": "stone.stone_wander",
+				"volumeMin": 40,
+				"volumeMax": 50
+			},
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "minecraft:block.basalt.step",
+					"volumeMin": 28,
+					"volumeMax": 32
+				},
+				{
+					"name": "stone.stone_run",
+					"delay": 1
+				}
+			]
+		},
+		"netherbrick": {
+			"run": {
+				"name": "minecraft:block.nether_bricks.step",
+				"volumeMin": 28,
+				"volumeMax": 32,
+				"pitchMin": 90,
+				"pitchMax": 110
+			},
+			"walk": {
+				"name": "minecraft:block.nether_bricks.step",
+				"volumeMin": 28,
+				"volumeMax": 32
+			},
+			"wander": "stone.stone_wander",
+			"land": [
+				"concrete.concrete_run",
+				{
+					"name": "minecraft:block.nether_bricks.step",
+					"volumeMin": 28,
+					"volumeMax": 32
+				},
+				{
+					"name": "stone.stone_run",
+					"delay": 1
+				}
+			]
+		},
+        "deepslate": {
+            "run": {
+				"name": "minecraft:block.deepslate.step"
+			},
+			"walk": {
+				"name": "minecraft:block.deepslate.step"
+			},
+			"wander": "stone.stone_wander",
+			"land": [
+				"concrete.concrete_run",
+				{
+                    "name": "minecraft:block.deepslate.fall",
+					"volumeMin": 50,
+					"volumeMax": 50
+				},
+				{
+					"delay": 50,
+                    "name": "minecraft:block.deepslate.fall"
+				}
+			]
+		},
+        "sculk": {
+			"walk": [
+                "minecraft:block.sculk_sensor.step",
+				"dirt.dirt_walk",
+				"mud.mud_walk"
+			],
+			"run": [
+                "minecraft:block.sculk_sensor.step",
+				"dirt.dirt_run",
+				"mud.mud_walk"
+			],
+			"wander": "dirt.dirt_wander",
+			"jump": [
+				"dirt.dirt_wander",
+				"mud.mud_wander"
+			],
+			"land": [
+                "minecraft:block.sculk_sensor.fall",
+				"dirt.dirt_land",
+				"mud.mud_walk",
+				{
+					"delay": 50,
+					"name": "mud.mud_wander"
+				}
+			]
+		},
+        "amethyst": {
+			"walk": "minecraft:block.amethyst_block.step",
+			"run": "minecraft:block.amethyst_block.step",
+			"wander": "stone.stone_wander",
+			"land": "minecraft:block.amethyst_block.fall"
+		},
+        "moss": {
+			"walk": "minecraft:block.moss.step",
+			"run": "minecraft:block.moss.step",
+			"wander": "grass.grass_wander",
+			"land": "minecraft:block.moss.fall"
+		}
+	}
+}

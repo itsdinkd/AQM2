@@ -1,0 +1,25 @@
+{
+    "name": "Iron body",
+    "description": "You get an additional half the normal amount of health, but normal sources of healing wont work, instead you have to repair yourself with iron.",
+    "type": "origins:multiple",
+    "o___1_": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 10
+        }
+    },
+    "o___1": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:heal",
+            "amount": 10
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_respawned": {
+            "type": "origins:heal",
+            "amount": 10
+        }
+    }
+}

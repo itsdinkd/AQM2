@@ -1,0 +1,74 @@
+{
+  //Controls behavior of dropped loot when a myLoot container is broken.  [default = PLAYER_INSTANCE]
+  //	- "PLAYER_INSTANCE" to drop player's instanced loot of player who broke the container.
+  //	- "ALL" to drop all instanced loot for all players.
+  "dropBehavior": "PLAYER_INSTANCE",
+  //Set to false to disable breaking of myLoot containers by players not in creative mode [default = true]
+  //	True will allow players to break myLoot containers by holding Sneak while breaking.
+  "allowNonCreativeBreak": false,
+  //Set to true if you want each myLoot container to generate random loot for each player [default = false]
+  //	The default behavior creates the same instanced loot across all players.
+  "enableRandomSeedLootPerPlayer": true,
+  //Controls what blocks are replaced by myLoot containers.  Blocks omitted from this list will not be replaced.
+  //This also supports regex for the map block value.
+  //Acceptable myLoot container types are CHEST, BARREL, SHULKER_BOX
+  //Note: these only control *blocks*.  Entities such as Chest Minecarts have a different mechanism and separate config.
+  //
+  //Default:
+  //"blockMapping": [
+  //		{
+  //			"myLootType": "BARREL",
+  //			"replaces": [
+  //				"minecraft:barrel"
+  //			]
+  //		},
+  //		{
+  //			"myLootType": "CHEST",
+  //			"replaces": [
+  //				".*chest"
+  //			]
+  //		},
+  //		{
+  //			"myLootType": "SHULKER_BOX",
+  //			"replaces": [
+  //				"minecraft:shulker_box"
+  //			]
+  //		}
+  //	]
+  "blockMapping": [
+    {
+      "myLootType": "BARREL",
+      "replaces": [
+        "minecraft:barrel"
+      ]
+    },
+    {
+      "myLootType": "CHEST",
+      "replaces": [
+        ".*chest"
+      ]
+    },
+    {
+      "myLootType": "SHULKER_BOX",
+      "replaces": [
+        "minecraft:shulker_box"
+      ]
+    }
+  ],
+  //True to enable replacing of Chest Minecarts with the myLoot variant.  False to disable. [default = true]
+  "enableChestMinecarts": true,
+  //Dimensions disable list.  Add dimensions to this list to disable container replacement
+  //Example: [ "minecraft:the_nether" ]
+  "disabledDimensions": [
+    "minecraft:the_nether",
+    "minecraft:the_end",
+    "mining_dims:caving_dim",
+    "mining_dims:climbing_dim",
+    "mining_dims:hunting_dim",
+    "mining_dims:mining_dim",
+    "mining_dims:nethering_dim"
+  ],
+  //Loot table disable list.  Add loot table IDs to this list to disable container replacement when the
+  //loot table matches one of these IDs.  Example: [ "minecraft:chests/simple_dungeon" ]
+  "disabledLootTables": []
+}

@@ -1,0 +1,52 @@
+{
+  "_comment_blacklistedEntities": "// Which entities shouldn't have a healthbar above their name.",
+  "blacklisted_entities": [
+    "taterzens:npc",
+    "specialmobs:mob_with_hidden_health",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:obsidilith",
+    "bosses_of_mass_destruction:void_blossom",
+    "adventurez:stone_golem",
+    "adventurez:summoner",
+    "adventurez:the_eye"
+  ],
+  "// When to activate the healthbar.": "",
+  "activationRange": 16.0,
+  "perms": {
+    "// Enabled only if LuckPerms is loaded.": "",
+    "healthcare_config": "healthcare.config",
+    "healthcare_config_edit": "healthcare.config.edit",
+    "healthcare_config_reload": "healthcare.config.reload",
+    "// Player permissions": "",
+    "healthbar_toggle": "healthcare.healthbar.toggle",
+    "healthbar_edit_style": "healthcare.healthbar.edit.style",
+    "healthbar_edit_showEntityType": "healthcare.healthbar.edit.show_entity_type",
+    "healthbar_edit_visibility": "healthcare.healthbar.edit.visibility",
+    "healthbar_edit_custom_length": "healthcare.healthbar.edit.custom.length",
+    "healthbar_edit_custom_symbols_full": "healthcare.healthbar.edit.symbol.full",
+    "healthbar_edit_custom_symbols_empty": "healthcare.healthbar.edit.symbol.empty"
+  },
+  "// Max length of healthbar a player can use.": "",
+  "maxHealthbarLength": 20,
+  "// Whether to show entity type next to health.": "",
+  "showType": true,
+  "// The default style of healthbar. The following are available": "[PERCENTAGE, HEARTS, NUMBER, LINES, SKYBLOCK, CUSTOM]",
+  "defaultStyle": "LINES",
+  "// Whether healthbar is enabled by default.": "",
+  "enabled_by_default": true,
+  "// Whether healthbar should always be visible (not just on entity hover) by default.": "",
+  "always_visible_by_default": false,
+  "lang": {
+    "configReloaded": "Config was reloaded successfully.",
+    "customLengthSet": "Length of healthbar was set to %s.",
+    "customSymbolSet": "%s healthbar symbol was set to %s.",
+    "visibilitySet": "Always-visible property of healthbar was set to: %s",
+    "styleSet": "Style of your healthbar has been set to %s.",
+    "useCustomStyle": "Make sure to use style CUSTOM to have your settings applied.",
+    "healthbarEnabled": "Healthbars are now enabled.",
+    "healthbarDisabled": "Healthbars are now disabled.",
+    "reloadRequired": "Changes will be visible after relogging or entity update(s).",
+    "toggledType": "Show-entity-types property was set to %s."
+  }
+}

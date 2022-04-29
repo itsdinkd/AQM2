@@ -1,0 +1,40 @@
+{
+    "ModSettings": {
+        "enable_updates_check": false,
+        "add_interval_between_clicks": true,
+        "interval_between_clicks_ms": 5,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": false,
+        "enable_inventory_buttons": false
+    },
+    "AutoRefillSettings": {
+        "refill_before_tool_break": false,
+        "tool_damage_threshold": 7,
+        "auto_refill_wait_tick": 15,
+        "type_visual_durability_notification": "CHAT",
+        "audio_durability_notification": false,
+        "number_of_notifications": 1,
+        "visual_replace_success_notification": false,
+        "visual_replace_failed_notification": false,
+        "audio_replace_failed_notification": false
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        },
+        "sort_inventory_in_columns": {
+            "main": {
+                "keys": "LEFT_CONTROL,BUTTON_3"
+            }
+        },
+        "sort_inventory_in_rows": {
+            "main": {
+                "keys": "LEFT_SHIFT,BUTTON_3"
+            }
+        }
+    }
+}

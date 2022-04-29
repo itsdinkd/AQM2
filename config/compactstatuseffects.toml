@@ -1,0 +1,27 @@
+module = "NO_NAME"
+
+[noName]
+uiOffset = 0
+margin = 13
+squash = true
+effectsPerColumn = 7
+showLevel = true
+levelInArabic = false
+
+[onlyName]
+uiOffset = 0
+margin = 10
+effectsPerColumn = 8
+squash = true
+permanentColour = 16777215
+wontExpireSoonColour = 45065
+soonToExpireColour = 13946112
+expiringColour = 13893632
+expiringBound = 20
+soonToExpireBound = 60
+
+[noSprite]
+uiOffset = 0
+margin = 10
+squash = false
+effectsPerColumn = 5

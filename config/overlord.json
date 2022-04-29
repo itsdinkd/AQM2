@@ -1,0 +1,7 @@
+{
+  "quarterMilkCount": 8,
+  "halfMilkCount": 32,
+  "threeQuartersMilkCount": 64,
+  "fullyGrownMilkCount": 128,
+  "localOrdersDistance": 32
+}

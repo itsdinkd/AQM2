@@ -1,0 +1,51 @@
+{
+    "name": "Vampire strength(primary)",
+    "description": "Use 20 blood from the blood meter to bulk up and gain strength en resistance for 30 seconds",
+    "condition": {
+        "inverted": false,
+        "type": "origins:resource",
+        "resource": "lank:blood_meter",
+        "comparison": ">=",
+        "compare_to": 20
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:strength",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    {
+                        "effect": "minecraft:resistance",
+                        "duration": 600,
+                        "amplifier": 0,
+                        "is_ambient": false,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                ]
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "lank:blood_meter",
+                "change": -20,
+                "operation": "add"
+            }
+        ]
+    },
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": false,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 16
+    },
+    "key": "primary"
+}

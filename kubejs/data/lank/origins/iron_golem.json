@@ -1,0 +1,21 @@
+{
+    "name": "Iron Golem",
+    "description": "Automatons made out of iron sworn to protect the villages",
+    "powers": [
+        "lank:more_health",
+        "lank:automaton",
+        "lank:no_regen",
+        "lank:toss",
+        "lank:toss_toggle",
+        "lank:village_affininty",
+        "lank:iron_healing",
+        "lank:sturdy_legs",
+        "origins:no_shield",
+        "lank:heavy"
+    ],
+    "icon": {
+        "item": "minecraft:iron_ingot"
+    },
+    "unchoosable": false,
+    "impact": 2
+}

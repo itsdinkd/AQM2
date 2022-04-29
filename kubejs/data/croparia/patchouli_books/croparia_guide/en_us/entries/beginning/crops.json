@@ -1,0 +1,20 @@
+{
+    "name": "Crops",
+    "icon": "croparia:seed_crop_diamond",
+    "category": "croparia:main_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "item": "croparia:croparia",
+            "title" : "Crops",
+            "text": "Now you should have at least one croparia.$(br)Congratulation ! You can craft your first seeds ! Once it is done, lets take a look at some ways to improve the efficiency."
+        },
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:seed_crop_coal",
+        	"title": "Coal Seed",
+            "text": "This is an exemple. Each seed will need 4 regular seeds, 4 'type' items and 1 croparia with a special tier."
+       	}
+    ],
+    "sortnum": 2
+}

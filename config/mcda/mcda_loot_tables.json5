@@ -1,0 +1,147 @@
+{
+	// Choose whether to use tiered loot system. Default = false
+	"enableTieredLootTables": {
+		"ENABLE_TIERED_LOOT_TABLES": true
+	},
+	// Default, non-tiered armour spawn rates.
+	"armorSpawnRates": {
+		"CAVE_CRAWLER": 0.008999999612569809,
+		"DARK": 0.030000003054738045,
+		"FOX": 0.04999999701976776,
+		"FULL_METAL": 0.009999999776482582,
+		"GHOSTLY": 0.030000001192092896,
+		"GHOST_KINDLER": 0.009999999776482582,
+		"GILDED": 0.007900001481175423,
+		"GRIM": 0.020000001415610313,
+		"HERO": 0.006000001449137926,
+		"MERCENARY": 0.05000000074505806,
+		"MYSTERY": 1.0000074689742178E-4,
+		"PLATE": 0.04500000178813934,
+		"REINFORCED": 0.042500000447034836,
+		"ROYAL": 0.0020000007934868336,
+		"SCALE": 0.030000001192092896,
+		"SNOW": 0.029999999329447746,
+		"SPELUNKER": 0.04500000178813934,
+		"STALWART": 0.008999999612569809,
+		"TELEPORTATION": 0.0,
+		"THIEF": 0.0650000050663948,
+		"TITAN": 0.005150000564754009,
+		"UNSTABLE": 0.00699999975040555,
+		"VANGUARD": 0.020000001415610313,
+		"WOLF": 0.03999999910593033
+	},
+	// Chests for tiered spawning.
+	"commonLootTables": {
+		"COMMON_LOOT_TABLES": [
+			"minecraft:chests/abandoned_mineshaft",
+			"minecraft:chests/shipwreck_supply",
+			"minecraft:chests/shipwreck_treasure",
+			"minecraft:chests/desert_pyramid",
+			"minecraft:chests/village/village_weaponsmith"
+		]
+	},
+	"uncommonLootTables": {
+		"UNCOMMON_LOOT_TABLES": [
+			"minecraft:chests/jungle_temple",
+			"minecraft:chests/nether_bridge",
+			"minecraft:chests/bastion_bridge",
+			"minecraft:chests/bastion_other",
+			"minecraft:chests/bastion_treasure",
+			"minecraft:chests/ruined_portal"
+		]
+	},
+	"rareLootTables": {
+		"RARE_LOOT_TABLES": [
+			"minecraft:chests/underwater_ruin_small",
+			"minecraft:chests/underwater_ruin_big",
+			"minecraft:chests/simple_dungeon",
+			"minecraft:chests/igloo_chest",
+			"minecraft:chests/pillager_outpost"
+		]
+	},
+	"epicLootTables": {
+		"EPIC_LOOT_TABLES": [
+			"minecraft:chests/stronghold_corridor",
+			"minecraft:chests/stronghold_crossing",
+			"minecraft:chests/stronghold_library",
+			"minecraft:chests/end_city_treasure"
+		]
+	},
+	// Tiered armour spawn rates.
+	"armorLootTableSpawnRates": {
+		"ARCHER": 0.0,
+		"HUNTER": 0.08500000089406967,
+		"OCELOT": 0.0989999994635582,
+		"SHADOW_WALKER": 0.0,
+		"SPELUNKER": 0.07000000029802322,
+		"CAVE_CRAWLER": 0.0,
+		"WOLF": 0.07990000396966934,
+		"BLACK_WOLF": 0.0,
+		"FOX": 0.0,
+		"ARCTIC_FOX": 0.0,
+		"CLIMBING_GEAR": 0.09000000357627869,
+		"RUGGED_CLIMBING_GEAR": 0.0,
+		"SQUID": 0.09000000357627869,
+		"GLOW_SQUID": 0.0,
+		"GOAT": 0.0650000050663948,
+		"BATTLE": 0.0949999988079071,
+		"SPLENDID": 0.0,
+		"EVOCATION": 0.03500000014901161,
+		"EMBER": 0.0,
+		"VERDANT": 0.0,
+		"THIEF": 0.07500000298023224,
+		"SPIDER": 0.0,
+		"SOUL_ROBE": 0.07500000298023224,
+		"SOULDANCER": 0.0,
+		"SPROUT": 0.054999999701976776,
+		"LIVING_VINES": 0.054999999701976776,
+		"PIGLIN": 0.07000000029802322,
+		"ENTERTAINER": 0.07999999821186066,
+		"TROUBADOUR": 0.0,
+		"TELEPORTATION": 0.0,
+		"UNSTABLE": 0.0,
+		"PHANTOM": 0.054999999701976776,
+		"FROST_BITE": 0.0,
+		"GRIM": 0.05000000074505806,
+		"WITHER": 0.0,
+		"TURTLE": 0.07500000298023224,
+		"NIMBLE_TURTLE": 0.0,
+		"SCALE_MAIL": 0.07500000298023224,
+		"HIGHLAND": 0.0,
+		"BEEHIVE": 0.0,
+		"BEENEST": 0.07000000029802322,
+		"GHOSTLY": 0.06850000470876694,
+		"GHOST_KINDLER": 0.0,
+		"GOLDEN_PIGLIN": 0.0,
+		"SWEET_TOOTH": 0.08990000188350677,
+		"VANGUARD": 0.08950000256299973,
+		"REINFORCED_MAIL": 0.07249999791383743,
+		"STALWART_MAIL": 0.0,
+		"GUARDS": 0.10000000149011612,
+		"CURIOUS": 0.0,
+		"SNOW": 0.0,
+		"FROST": 0.0,
+		"MERCENARY": 0.05999999865889549,
+		"RENEGADE": 0.0,
+		"HUNGRY_HORROR": 0.0,
+		"EMERALD": 0.022100001573562622,
+		"OPULENT": 0.0,
+		"DARK": 0.032999999821186066,
+		"TITAN": 0.0,
+		"ROYAL": 0.0,
+		"PLATE": 0.010000001639127731,
+		"FULL_METAL": 0.0,
+		"MYSTERY": 0.0010900000343099236,
+		"BLUE_MYSTERY": 0.0010900000343099236,
+		"GREEN_MYSTERY": 0.0010900000343099236,
+		"PURPLE_MYSTERY": 0.0010900000343099236,
+		"RED_MYSTERY": 0.0010900000343099236,
+		"CHAMPION": 0.02500000223517418,
+		"HERO": 0.0,
+		"GILDED": 0.0,
+		"SHULKER": 0.03790000081062317,
+		"STURDY_SHULKER": 0.0,
+		"CAULDRON": 0.0,
+		"GOURDIAN": 0.0
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Automaton",
+    "description": "Because you are a robot, you do not need to eat",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "addition",
+        "value": -20,
+        "name": "Remove exhaustion"
+    }
+}

@@ -1,0 +1,106 @@
+{
+	/* 
+	   
+	   ******************************
+	   ENABLE/DISABLE TOOLS
+	   ******************************
+	*/
+	"enableHookKnife": true,
+	"enableTreeTrimmer": true,
+	"enableHandPick": true,
+	"enableHandTiller": true,
+	"enableClamDigger": true,
+	"enableCrackHammer": true,
+	"enableGlassPlacer": true,
+	"enableTrashCan": true,
+	/* 
+	   
+	   ******************************
+	   SPRING BLOCKS
+	   ******************************
+	*/
+	"enableLavaSpring": true,
+	"enableWellSpring": true,
+	"laveSpringPowerFurnace": true,
+	/* 
+	   
+	   ******************************
+	   CRACK HAMMERS
+	   ******************************
+	*/
+	"copperHammerDurability": 125,
+	"ironHammerDurability": 129,
+	"diamondHammerDurability": 412,
+	/* 
+	   
+	   ******************************
+	   HAND PICK
+	   - drop chance value between 0.0-1.0
+	   ******************************
+	*/
+	"sandstoneDropChance": 0.2,
+	"netherrackDropChance": 0.2,
+	"magmaDropChance": 0.1,
+	"quartzDropChance": 0.1,
+	"blackstoneDropChance": 0.1,
+	"endstoneDropChance": 0.1,
+	"deepslateDropChance": 0.15,
+	/* 
+	   
+	   ******************************
+	   HAND TILLER
+	   - drop chance value between 0.0-1.0
+	   ******************************
+	*/
+	"clayDropChance": 0.2,
+	"gravelDropChance": 0.2,
+	/* 
+	   
+	   ******************************
+	   CLAM DIGGER
+	   - drop chance value between 0.0-1.0
+	   ******************************
+	*/
+	"clamDropChance": 0.6,
+	/* 
+	   
+	   ******************************
+	   TREE TRIMMER
+	   - drop chance value between 0.0-1.0
+	   ******************************
+	*/
+	"spruceDropChance": 0.2,
+	"birchDropChance": 0.2,
+	"oakDropChance": 0.2,
+	"acaciaDropChance": 0.1,
+	"jungleDropChance": 0.1,
+	"darkOakDropChance": 0.05,
+	"seagrassDropChance": 0.05,
+	"kelpDropChance": 0.05,
+	"eggDropChance": 0.35,
+	"phantomMembraneDropChance": 0.15,
+	/* 
+	   
+	   ******************************
+	   IRON TOOL MATERIAL
+	   - Handpick, Hand Tiller, & Hand Trimmer
+	   ******************************
+	*/
+	"ironDurability": 250,
+	"ironMiningSpeed": 1.399999976158142,
+	"ironAttackDamage": 1.399999976158142,
+	"ironMiningLevel": 2,
+	"ironEnchantability": 4,
+	/* 
+	   
+	   ******************************
+	   COPPER TOOL MATERIAL
+	   - Handpick, Hand Tiller, & Hand Trimmer
+	   ******************************
+	*/
+	"copperDurability": 125,
+	"copperMiningSpeed": 1.7000000476837158,
+	"copperAttackDamage": 1.600000023841858,
+	"copperMiningLevel": 2,
+	"copperEnchantability": 2
+}

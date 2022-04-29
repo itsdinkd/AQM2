@@ -1,0 +1,23 @@
+{
+  "tables": {
+    "end_game_crafting": { // the block identifier, used for recipes, block states, ...
+      "display_name": "End Game Table",
+      "width": 9,
+      "height": 9,
+      "block_entity": true, // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
+      "generate_assets": true, // Automatically generates assets for a table based on a default model.
+      "settings": {
+        "material": "redstone_lamp",
+        "non_opaque": true,
+        "hardness": 4.0,
+        "resistance": 3.0,
+        "material_color": "terracotta_purple",
+        "sounds": "weeping_vines_low_pitch"
+      },
+      "requires_tool": false,
+      "tags": [
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    }
+  }
+}

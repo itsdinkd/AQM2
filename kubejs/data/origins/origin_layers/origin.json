@@ -1,0 +1,8 @@
+{
+    "origins": [
+        "lank:iron_golem",
+        "lank:fairy",
+        "lank:vamp"
+    ],
+    "enabled": true
+}

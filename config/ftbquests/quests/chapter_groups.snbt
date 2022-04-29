@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "5D105B5F3CE9B0B7", title: "Starting Out" }
+		{ id: "2B2D8A5BD664DEFC", title: "Making Progress" }
+		{ id: "332CF3EA95B49108", title: "Magic and Tech" }
+		{ id: "7DDA60A5DB5F9F6C", title: "Farming and Adventure" }
+		{ id: "50115579257378EC", title: "Mobs and Stuff" }
+		{ id: "529B8499DEC935D4", title: "End Game" }
+	]
+}

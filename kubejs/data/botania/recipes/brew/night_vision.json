@@ -1,0 +1,15 @@
+{
+  "type": "botania:brew",
+  "brew": "botania:night_vision",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:air"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    }
+  ]
+}

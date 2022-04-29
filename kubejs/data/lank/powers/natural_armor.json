@@ -1,0 +1,11 @@
+{
+    "hidden": true,
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 2,
+        "name": "Natural Armor health bonus"
+    },
+    "update_health": false
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "minecraftVersion": "1.17.1",
+    "yarnVersion": "1.17.1+build.24"
+  },
+  {
+    "minecraftVersion": "1.18",
+    "yarnVersion": "1.18+build.1"
+  },
+  {
+    "minecraftVersion": "1.18.1",
+    "yarnVersion": "1.18.1+build.2"
+  }
+]

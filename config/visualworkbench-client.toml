@@ -1,0 +1,3 @@
+#Makes crafting table contents lay flat on the table instead of floating above.
+flat_rendering = false
+

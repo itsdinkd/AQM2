@@ -1,0 +1,76 @@
+{
+	id: "351023B042C700E9"
+	group: "7DDA60A5DB5F9F6C"
+	order_index: 0
+	filename: "i_spy_with_my_little_eye"
+	title: "I Spy with my Little Eye"
+	icon: "minecraft:spyglass"
+	subtitle: ["All about Exploring"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Travel to the Nether"
+			icon: "additionaladditions:mysterious_bundle"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Its time to visit Hell to progress further. Good luck, its hard as hell."
+			id: "051C81A88B70C303"
+			tasks: [{
+				id: "61D9C9F28ECD2FE2"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "41AF2426EA4C9350"
+				type: "item"
+				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+		{
+			title: "Find Killer Bunny Castle"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "Search the overworld for Killer Bunny's Castle"
+			description: ["Can you kill it?"]
+			id: "44397653A9E18B40"
+			tasks: [{
+				id: "42B3E7157994116D"
+				type: "structure"
+				icon: "companion_bats:bunny_ears"
+				structure: "mostructures:killer_bunny_castle"
+			}]
+			rewards: [{
+				id: "63D217DC2D1413A5"
+				type: "item"
+				item: "soaringstructures2:heavenly_tea"
+				count: 2
+			}]
+		}
+		{
+			title: "Visit The Better Stronghold"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "It's Better"
+			description: ["You can find lots here, including Arcanus spell books in the libraries"]
+			id: "21789090F6D9D027"
+			tasks: [{
+				id: "57420B926B45C780"
+				type: "structure"
+				icon: {
+					id: "mythicmetals:midas_gold_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "betterstrongholds:stronghold"
+			}]
+			rewards: [{
+				id: "5F5E6E269AEB71D6"
+				type: "item"
+				item: "gofish:golden_crate"
+			}]
+		}
+	]
+}

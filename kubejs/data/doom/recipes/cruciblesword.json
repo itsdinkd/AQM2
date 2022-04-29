@@ -1,0 +1,25 @@
+{
+	"type": "doom:gun_table",
+	"pattern": "abcd",
+	"key": {
+		"a": {
+			"item": "doom:argent_energy",
+			"count": 64
+		},
+		"b": {
+			"item": "dml-refabricated:glitch_ingot",
+			"count": 5
+		},
+		"c": {
+			"item": "gobber2:gobber2_links_end",
+			"count": 5
+		},
+		"d": {
+			"item": "doom:cruciblesword_closed",
+			"count": 1
+		}
+	},
+	"result": {
+		"item": "doom:cruciblesword"
+	}
+}

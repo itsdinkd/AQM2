@@ -1,0 +1,27 @@
+{
+  "type": "origins:multiple",
+  "berry_nice": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "grounded_origins:deer/berry_foods"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": 4
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": 0.4
+    }
+  },
+  "berry_not_nice": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "sweetBerryBush"
+    }
+  }
+}

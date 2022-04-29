@@ -1,0 +1,200 @@
+{
+	id: "00781057BAD827EA"
+	group: "2B2D8A5BD664DEFC"
+	order_index: 0
+	filename: "nether_things"
+	title: "Nether Things"
+	icon: "minecraft:obsidian"
+	subtitle: ["This will be Hell"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Doom Argent Block"
+			x: -2.5d
+			y: -2.5d
+			subtitle: "With 9 Argent Energies, you can craft a Argent Block"
+			description: [
+				"The main resource of Doom, Argent Energy. You can only get this by slaying doom mobs. Kill some, once you are prepared, and then craft 9 of them into a block."
+				""
+				"Beware! Doom enemies are strong and are not for early game."
+			]
+			dependencies: ["051C81A88B70C303"]
+			id: "34F995C13D2E8ECB"
+			tasks: [{
+				id: "5BF157B511F6044B"
+				type: "item"
+				item: "doom:argent_block"
+			}]
+			rewards: [{
+				id: "29CE194086FC2EF0"
+				type: "item"
+				item: "doom:argent_energy"
+			}]
+		}
+		{
+			title: "Craft A Gun Table"
+			x: -1.5d
+			y: -2.5d
+			subtitle: "Time to make some guns... If you can survive long enough to get the materials that is.."
+			description: ["Argent Energy drops from Doom mobs in the Nether. Kill some mobs, and craft this guy."]
+			dependencies: ["34F995C13D2E8ECB"]
+			id: "3A70BC43BE4E80A5"
+			tasks: [{
+				id: "050A6FF2C031C063"
+				type: "item"
+				item: "doom:gun_table"
+			}]
+			rewards: [{
+				id: "2C3559C2CE2DC164"
+				type: "item"
+				item: "doom:argent_energy"
+				count: 4
+			}]
+		}
+		{
+			title: "Craft Argent Ingot"
+			x: -1.0d
+			y: -1.5d
+			subtitle: "If you want the stronger weapons, you need better material."
+			description: [
+				"To craft Argent Ingots, you will need to progress a little through Tech Reborn."
+				""
+				"Smith Argent Ingot using Tungstensteel Plate, and 1 Argent Energy"
+			]
+			dependencies: ["3A70BC43BE4E80A5"]
+			id: "0DC219B06069DC0A"
+			tasks: [{
+				id: "21BE50541E67B592"
+				type: "item"
+				item: "doom:argent_plate"
+			}]
+			rewards: [{
+				id: "69BE89A2D4819269"
+				type: "item"
+				item: "doom:argent_energy"
+			}]
+		}
+		{
+			title: "Craft a Pistol"
+			x: -0.5d
+			y: -2.5d
+			subtitle: "This is the introduction into doom weapons, the pistol."
+			description: ["Press \"R\" To reload your weapon."]
+			dependencies: ["3A70BC43BE4E80A5"]
+			id: "1D5854BD95FF96B8"
+			tasks: [{
+				id: "06C06306130BD729"
+				type: "item"
+				item: {
+					id: "doom:pistol"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5751AD43A65AAD13"
+				type: "item"
+				item: "doom:bullets"
+				count: 10
+			}]
+		}
+		{
+			title: "Kill Mother Demon [END GAME]"
+			x: 2.9642857142857153d
+			y: 0.8214285714285765d
+			subtitle: "Bet you won't"
+			dependencies: ["4FDF85B3FD6D691B"]
+			hide: false
+			size: 1.75d
+			id: "5C3324C5094EA33B"
+			tasks: [{
+				id: "4026F62E588A5ED1"
+				type: "kill"
+				title: "Kill the Mother Demon"
+				entity: "doom:motherdemon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4645DBCAF93979C0"
+					type: "item"
+					item: "doom:jump_pad"
+				}
+				{
+					id: "6A4B13AB31CEAFB7"
+					type: "item"
+					item: {
+						id: "doom:shotgun"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "228B0D4B53CEEA56"
+					type: "item"
+					item: "doom:shotgun_shells"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Kill Icon Of Sin [END GAME]"
+			x: 4.86904761904762d
+			y: 0.1071428571428541d
+			subtitle: "The last Doom Boss... you cant do it!"
+			dependencies: ["5C3324C5094EA33B"]
+			hide: true
+			size: 2.5d
+			id: "075E9ED31928FCFA"
+			tasks: [{
+				id: "6CAA179F4E796CB6"
+				type: "kill"
+				title: "Kill Icon of Sin"
+				entity: "doom:iconofsin"
+				value: 1L
+			}]
+			rewards: [{
+				id: "48C474F348CED4F5"
+				type: "item"
+				item: "tacocraft:cheesy_taco"
+			}]
+		}
+		{
+			title: "Kill Arch Maykr"
+			x: 1.4880952380952337d
+			y: 1.392857142857146d
+			subtitle: "Clear out those evil doom mobs in the end"
+			description: ["Visit the End, Find the Arch Maykr, and Slay this special mini bosss. This will stop Doom Mobs from spawning in the End"]
+			hide_dependency_lines: true
+			dependencies: ["34F995C13D2E8ECB"]
+			hide: true
+			size: 1.25d
+			id: "4FDF85B3FD6D691B"
+			tasks: [{
+				id: "56B533D691636624"
+				type: "kill"
+				title: "Kill Arch Makyr"
+				entity: "doom:arch_maykr"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "055291452BBF348D"
+					type: "item"
+					item: "doom:argent_energy"
+					count: 16
+				}
+				{
+					id: "238F38632A4D07E0"
+					type: "item"
+					item: "doom:jump_pad"
+				}
+			]
+		}
+	]
+}

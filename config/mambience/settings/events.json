@@ -1,0 +1,3316 @@
+[
+    //#######################################################################
+    // Cave
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:cave.cave",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "UNDERGROUND"
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:cave.lava",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "lava",
+                "floatValue": 0.03f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 60
+    },
+    {
+        "sound": {
+        	"name": "mambience:cave.vent",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.3f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            }
+        ],
+        "cooldownMin": 20,
+        "cooldownMax": 120
+    },
+    {
+        "sound": {
+        	"name": "mambience:cave.wind",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.3f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 90
+    },
+    
+    //#######################################################################
+    // Desert
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:desert.cicada",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "desert",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 24,
+        "cooldownMax": 120
+    },
+    {
+        "sound": {
+        	"name": "mambience:desert.day",
+        	"volume": 50,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "desert",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 6,
+        "cooldownMax": 11
+    },
+    {
+        "sound": {
+        	"name": "mambience:desert.night",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "desert",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_MORNING"
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 60
+    },
+    
+    //#######################################################################
+    // End
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:end.loop",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.6f
+            }
+        ],
+        "restrictions": [
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 7
+    },
+    
+    //#######################################################################
+    // Forest
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:forest.morning",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_MORNING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 30
+    },
+    {
+        "sound": {
+        	"name": "mambience:forest.day",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 30
+    },
+    {
+        "sound": {
+        	"name": "mambience:forest.evening",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 30
+    },
+    {
+        "sound": {
+        	"name": "mambience:forest.night",
+        	"volume": 40
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 60
+    },
+    {
+        "sound": {
+        	"name": "mambience:forest.bird",
+        	"volume": 100,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 15,
+        "cooldownMax": 60
+    },
+    {
+        "sound": {
+        	"name": "mambience:forest.deepbird",
+        	"volume": 100,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.3f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 15,
+        "cooldownMax": 60
+    },
+    {
+        "sound": {
+        	"name": "mambience:forest.cuckoo",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 20,
+        "cooldownMax": 80
+    },
+    {
+        "sound": {
+        	"name": "mambience:forest.woodpecker",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:forest.wind",
+        	"volume": 30,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 180
+    },
+    
+    //#######################################################################
+    // Nether
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:hell.fx1",
+        	"volume": 80,
+			"pitchMin": 80,
+			"pitchMax": 120
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.6f
+            }
+        ],
+        "restrictions": [
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:hell.fx2",
+        	"volume": 80,
+			"pitchMin": 80,
+			"pitchMax": 120
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.6f
+            }
+        ],
+        "restrictions": [
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:hell.fx3",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.6f
+            }
+        ],
+        "restrictions": [
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:hell.wisper",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.6f
+            }
+        ],
+        "restrictions": [
+        ],
+        "cooldownMin": 80,
+        "cooldownMax": 140
+    },
+    {
+        "sound": {
+        	"name": "mambience:hell.explode",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.6f
+            }
+        ],
+        "restrictions": [
+        ],
+        "cooldownMin": 60,
+        "cooldownMax": 180
+    },
+    {
+        "sound": {
+        	"name": "mambience:hell.heartbeat",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.6f
+            }
+        ],
+        "restrictions": [
+        ],
+        "cooldownMin": 60,
+        "cooldownMax": 120
+    },
+    {
+        "sound": {
+        	"name": "mambience:hell.wind",
+        	"volume": 50,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.6f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 60,
+        "cooldownMax": 120
+    },
+    {
+        "sound": {
+        	"name": "mambience:hell.soulsand",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "soul_sand",
+                "floatValue": 0.0175f
+            }
+        ],
+        "restrictions": [
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 7
+    },
+    
+    //#######################################################################
+    // Jungle
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:jungle.day",
+        	"volume": 60
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 6,
+        "cooldownMax": 6
+    },
+    {
+        "sound": {
+        	"name": "mambience:jungle.night",
+        	"volume": 40
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_MORNING"
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 6,
+        "cooldownMax": 6
+    },
+    {
+        "sound": {
+        	"name": "mambience:jungle.fx1",
+        	"volume": 75
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:jungle.fx2",
+        	"volume": 75
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 15,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:jungle.gibbon",
+        	"volume": 100
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 120
+    },
+    {
+        "sound": {
+        	"name": "mambience:jungle.bird",
+        	"volume": 100,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 60
+    },
+    {
+        "sound": {
+        	"name": "mambience:jungle.fxnight",
+        	"volume": 75
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_MORNING"
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 60
+    },
+    
+    //#######################################################################
+    // Lava
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:lava.nearlava",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "lava",
+                "floatValue": 0.03f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "SUBMERGED"
+            }
+        ],
+        "cooldownMin": 3,
+        "cooldownMax": 3
+    },
+    {
+        "sound": {
+        	"name": "mambience:lava.plop",
+        	"volume": 60
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "lava",
+                "floatValue": 0.03f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "SUBMERGED"
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 40
+    },
+    
+    //#######################################################################
+    // Mountains
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:mountain.eagle",
+        	"volume": 100
+        },
+        "conditions": [
+            {
+                "condition": "HEIGHT",
+                "stringValue": "100",
+                "floatValue": 300f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.3f
+            },
+            {
+                "condition": "TIME_DAY"
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 180
+    },
+    {
+        "sound": {
+        	"name": "mambience:mountain.highaltitude",
+        	"volume": 20,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "HEIGHT",
+                "stringValue": "110",
+                "floatValue": 300f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.3f
+            },
+            {
+                "condition": "EXPOSED"
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 8,
+        "cooldownMax": 8
+    },
+    
+    //#######################################################################
+    // Plains
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:plains.day",
+        	"volume": 40
+        },
+        "conditions": [
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.06f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 8,
+        "cooldownMax": 60
+    },
+    {
+        "sound": {
+        	"name": "mambience:plains.night",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.06f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 60
+    },
+    {
+        "sound": {
+        	"name": "mambience:plains.evening",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.06f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 60
+    },
+    {
+        "sound": {
+        	"name": "mambience:plains.wind",
+        	"volume": 30,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.06f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 20,
+        "cooldownMax": 120
+    },
+    {
+        "sound": {
+        	"name": "mambience:plains.windinside",
+        	"volume": 30,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.06f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "conifer",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 20,
+        "cooldownMax": 120
+    },
+    
+    //#######################################################################
+    // Rain
+    //#######################################################################
+    //TODO: would need can rain check (to not play sounds in the desert)
+    {
+        "sound": {
+        	"name": "mambience:rain.distantthunder",
+        	"volume": 100
+        },
+        "conditions": [
+            {
+                "condition": "THUNDERING"
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            }
+        ],
+        "cooldownMin": 15,
+        "cooldownMax": 50
+    },
+    
+    //#######################################################################
+    // Savanna
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:savanna.bird",
+        	"volume": 100,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "savanna",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 90
+    },
+    
+    //#######################################################################
+    // Seaside
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:seaside.ocean",
+        	"volume": 50
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 30
+    },
+    {
+        "sound": {
+        	"name": "mambience:seaside.oceaninside",
+        	"volume": 40
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 9,
+        "cooldownMax": 30
+    },
+    {
+        "sound": {
+        	"name": "mambience:seaside.bird",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:seaside.whale",
+        	"volume": 100,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/watery",
+                "floatValue": 0.65f
+            },
+            {
+                "condition": "SUBMERGED"
+            }
+        ],
+        "restrictions": [
+        ],
+        "cooldownMin": 60,
+        "cooldownMax": 180
+    },
+    
+    //#######################################################################
+    // Snow
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:snow.forest",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 30
+    },
+    {
+        "sound": {
+        	"name": "mambience:snow.mountain",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "HEIGHT",
+                "stringValue": "100",
+                "floatValue": 300f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.3f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 30
+    },
+    {
+        "sound": {
+        	"name": "mambience:snow.plains",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 30
+    },
+    {
+        "sound": {
+        	"name": "mambience:snow.wind1",
+        	"volume": 40,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 15,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:snow.wind2",
+        	"volume": 40,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 15,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:snow.windnight",
+        	"volume": 40,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "TOGGLE",
+                "stringValue": "wind_disable"
+            }
+        ],
+        "cooldownMin": 15,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:snow.howl",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            }
+        ],
+        "cooldownMin": 20,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:snow.crows",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            }
+        ],
+        "cooldownMin": 20,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:snow.cracks",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/ice",
+                "floatValue": 0.02f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 5,
+        "cooldownMax": 25
+    },
+    
+    //#######################################################################
+    // Swamp
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:swamp.day",
+        	"volume": 40
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 7
+    },
+    {
+        "sound": {
+        	"name": "mambience:swamp.night",
+        	"volume": 20
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_MORNING"
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 7,
+        "cooldownMax": 7
+    },
+    {
+        "sound": {
+        	"name": "mambience:swamp.bird",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 15,
+        "cooldownMax": 80
+    },
+    {
+        "sound": {
+        	"name": "mambience:swamp.mosquito",
+        	"volume": 60
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 80
+    },
+    {
+        "sound": {
+        	"name": "mambience:swamp.duck",
+        	"volume": 70
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 20,
+        "cooldownMax": 80
+    },
+    {
+        "sound": {
+        	"name": "mambience:swamp.frog",
+        	"volume": 60
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 20,
+        "cooldownMax": 80
+    },
+    {
+        "sound": {
+        	"name": "mambience:swamp.toad",
+        	"volume": 70
+        },
+        "conditions": [
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "swamp",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    
+    //#######################################################################
+    // x Shared
+    //#######################################################################
+    {
+        "sound": {
+        	"name": "mambience:shared.owl",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 15,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:shared.grasshopper",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/shrubbery",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "savanna",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:shared.critter",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/shrubbery",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "savanna",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.6f
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:shared.starling",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "savanna",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:shared.sparrow",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "savanna",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:shared.bird",
+        	"volume": 80,
+			"pitchMin": 90,
+			"pitchMax": 110
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_EVENING"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "savanna",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            }
+        ],
+        "cooldownMin": 10,
+        "cooldownMax": 60
+    },
+    {
+        "sound": {
+        	"name": "mambience:shared.flies",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/trees",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "savanna",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:shared.flies",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "BLOCK",
+                "stringValue": "#andre111:mambience/shrubbery",
+                "floatValue": 0.03f
+            },
+            {
+                "condition": "EXPOSED"
+            },
+            {
+                "condition": "BLOCK",
+                "stringValue": "air",
+                "floatValue": 0.25f
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "TIME_DAY"
+            },
+            {
+                "condition": "TIME_NIGHT"
+            },
+            {
+                "condition": "UNDERGROUND"
+            },
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "ocean",
+                "floatValue": 0.1f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "jungle",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "cold",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "savanna",
+                "floatValue": 0.6f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "RAINING"
+            },
+            {
+                "condition": "THUNDERING"
+            }
+        ],
+        "cooldownMin": 30,
+        "cooldownMax": 90
+    },
+    {
+        "sound": {
+        	"name": "mambience:shared.bat",
+        	"volume": 80
+        },
+        "conditions": [
+            {
+                "condition": "UNDERGROUND"
+            }
+        ],
+        "restrictions": [
+            {
+                "condition": "SUBMERGED"
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "nether",
+                "floatValue": 0.4f
+            },
+            {
+                "condition": "BIOME_GROUP",
+                "stringValue": "end",
+                "floatValue": 0.4f
+            }
+        ],
+        "cooldownMin": 20,
+        "cooldownMax": 40
+    }
+]

@@ -1,0 +1,6 @@
+{
+  "always_snow": false,
+  "temperature_noise": true,
+  "dry_biomes": false,
+  "non_overworld_biomes": false
+}

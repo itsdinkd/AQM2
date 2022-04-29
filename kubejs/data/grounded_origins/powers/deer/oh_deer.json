@@ -1,0 +1,19 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 1,
+	"duration_per_stack": 10,
+	"effect": {
+		"effect": "minecraft:speed",
+		"duration": 10,
+		"amplifier": 1,
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true
+	},
+	"condition": {
+		"type": "origins:health",
+		"comparison": "<",
+		"compare_to": "3"
+	}
+}

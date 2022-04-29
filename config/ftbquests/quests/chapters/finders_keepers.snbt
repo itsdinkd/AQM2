@@ -1,0 +1,11 @@
+{
+	id: "2362B0F4C9709913"
+	group: "7DDA60A5DB5F9F6C"
+	order_index: 2
+	filename: "finders_keepers"
+	title: "Finders Keepers"
+	icon: "minecraft:filled_map"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

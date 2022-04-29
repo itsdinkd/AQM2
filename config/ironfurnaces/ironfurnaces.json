@@ -1,0 +1,70 @@
+{
+  "speeds": {
+    "iron_furnace_speed": {
+      "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 160",
+      "value": 160
+    },
+    "silver_furnace_speed": {
+      "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 140",
+      "value": 140
+    },
+    "crystal_furnace_speed": {
+      "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 40",
+      "value": 40
+    },
+    "emerald_furnace_speed": {
+      "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 40",
+      "value": 40
+    },
+    "obsidian_furnace_speed": {
+      "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 20",
+      "value": 20
+    },
+    "netherite_furnace_speed": {
+      "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 5",
+      "value": 10
+    },
+    "gold_furnace_speed": {
+      "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 120",
+      "value": 120
+    },
+    "diamond_furnace_speed": {
+      "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 80",
+      "value": 80
+    },
+    "copper_furnace_speed": {
+      "comment": " Number of ticks to complete one smelting operation.\n 200 ticks is what a regular furnace takes.\n Default: 180",
+      "value": 180
+    }
+  },
+  "furnaces": {
+    "furnaceXPDropValue": {
+      "comment": " This value indicates when the furnace should \u0027overload\u0027 and spit out the xp stored. \n Default: 10, Recipes",
+      "value": 10
+    },
+    "cache_capacity": {
+      "comment": " Size of recipe cache. \n Default: 10",
+      "value": 10
+    },
+    "furnaceXPDropValue2": {
+      "comment": " This value indicates when the furnace should \u0027overload\u0027 and spit out the xp stored. \n Default: 100000, Single recipe uses",
+      "value": 100000
+    }
+  },
+  "energy": {
+    "energy_usage": {
+      "comment": " This value determines how much energy used per smelted item in the wireless heater. \n Default: 250",
+      "value": 250
+    }
+  },
+  "rei": {
+    "enable_click_area": {
+      "comment": " Enables or disables the click area in the furance gui for REI.\n Default: true",
+      "value": true
+    },
+    "enable_catalysts": {
+      "comment": " Enables or disables the recpie catalysts in REI.\n Default: true",
+      "value": true
+    }
+  }
+}

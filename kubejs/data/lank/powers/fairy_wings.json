@@ -1,0 +1,166 @@
+{
+    "name": "Fairy wings",
+    "description": "You have little wings to fly, using them is very exhausting though. Having an armor level above 10 will be too heavy to fly with.(Flight can be toggeled with primary power key)",
+    "type": "origins:multiple",
+    "climb_up": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:food_level",
+                    "comparison": ">",
+                    "compare_to": 4
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:attribute",
+                    "attribute": "minecraft:generic.armor",
+                    "comparison": "<",
+                    "compare_to": 11
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:power_active",
+                    "power": "lank:flight_toggle"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:collided_horizontally"
+                }
+            ]
+        },
+        "type": "origins:climbing",
+        "allow_holding": false
+    },
+    "hover": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:sneaking"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:food_level",
+                    "comparison": ">",
+                    "compare_to": 4
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:attribute",
+                    "attribute": "minecraft:generic.armor",
+                    "comparison": "<",
+                    "compare_to": 11
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:power_active",
+                    "power": "lank:flight_toggle"
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:levitation",
+                "duration": 10,
+                "amplifier": -1,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+        }
+    },
+    "hover_down": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": false,
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "inverted": false,
+                            "type": "origins:food_level",
+                            "comparison": "<=",
+                            "compare_to": 4
+                        },
+                        {
+                            "inverted": false,
+                            "type": "origins:sneaking"
+                        },
+                        {
+                            "inverted": false,
+                            "type": "origins:attribute",
+                            "attribute": "minecraft:generic.armor",
+                            "comparison": ">=",
+                            "compare_to": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slow_falling",
+                "duration": 10,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+        }
+    },
+    "elytra_fix": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": false,
+                    "type": "origins:sprinting"
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "chest",
+                    "item_condition": {
+                        "inverted": false,
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "elytra"
+                        }
+                    }
+                }
+            ]
+        },
+        "type": "origins:elytra_flight",
+        "render_elytra": true
+    },
+    "reset_fall": {
+        "type": "origins:action_over_time",
+        "interval": 5,
+        "entity_action": {
+            "type": "origins:set_fall_distance",
+            "fall_distance": 0
+        }
+    }
+}

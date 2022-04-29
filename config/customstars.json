@@ -1,0 +1,21 @@
+{
+  "baseSize": 0.1,
+  "maxSizeMultiplier": 0.1,
+  "starCount": 2100,
+  "starNoise": true,
+  "starNoiseSeed": 108421235,
+  "starNoiseThreshold": 0.5,
+  "starNoisePercentage": 42,
+  "red": 255,
+  "green": 255,
+  "blue": 188,
+  "alpha": 1.0,
+  "skyRed": 0,
+  "skyGreen": 0,
+  "skyBlue": 0,
+  "endSize": 1.0,
+  "endRed": 40,
+  "endGreen": 40,
+  "endBlue": 40,
+  "endAlpha": 1.0
+}

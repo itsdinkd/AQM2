@@ -1,0 +1,11 @@
+{
+	id: "5605D20A570C28C8"
+	order_index: 1
+	title: "Proto Mech"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:snowball" }
+		{ item: "minecraft:blaze_rod" }
+		{ item: "gobber2:gobber2_foo" }
+	]
+}

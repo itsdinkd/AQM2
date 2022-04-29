@@ -1,0 +1,32 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "lose_air": {
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:gain_air",
+            "value": -20
+        }
+    },
+    "drown": {
+        "condition": {
+            "type": "origins:air",
+            "comparison": "<=",
+            "compare_to": 0
+        },
+        "type": "origins:damage_over_time",
+        "interval": 20,
+        "damage": 2,
+        "damage_source": {
+            "name": "drown",
+            "bypasses_armor": true,
+            "unblockable": true
+        },
+        "protection_effectiveness": 1
+    }
+}

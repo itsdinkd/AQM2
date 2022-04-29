@@ -1,0 +1,367 @@
+{
+	id: "131BA4C7CD773192"
+	group: "332CF3EA95B49108"
+	order_index: 0
+	filename: "what_sorcery_is_this"
+	title: "What Sorcery is this"
+	icon: {
+		id: "arcanus:adept_wand"
+		Count: 1b
+		tag: {
+			arcanus: { }
+		}
+	}
+	subtitle: ["You're a Wizzard, harry"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Craft a Bewitchment Book"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "Go down the bewitchment rabbit hole and craft the book of shadows."
+			description: ["Bewitchment is a magic mod based around curses, voodoo puppets, sacrifices, and demons. You can transform into a werewolf or a vampire, you can fight Lilith and other Demons, and even fly on brooms. "]
+			id: "224932A3EC03546B"
+			tasks: [{
+				id: "610E3BF8FDDE0E84"
+				type: "item"
+				item: "bewitchment:book_of_shadows"
+			}]
+			rewards: [{
+				id: "08C861D2FC089A48"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Craft Magic Fungi book"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Lastly, we have Magic Fungi. The mod revolving around Mushrooms."
+			description: ["This mod has one of the best swords in the game, though I wish you the best on getting it!"]
+			id: "66E5642D873A2B44"
+			tasks: [{
+				id: "220ABBEEBB17C2B8"
+				type: "item"
+				item: "magicfungi:guide_book"
+			}]
+			rewards: [{
+				id: "2F24FFD3995E83DF"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Craft Conjuring Book"
+			x: 8.5d
+			y: 0.0d
+			subtitle: "The Conjuring.... a magistic magic mod based around spawning vanilla mobs and getting crazy loot from it"
+			id: "24D3D980F32CF66A"
+			tasks: [{
+				id: "7107C12AF3001464"
+				type: "item"
+				item: {
+					id: "conjuring:enchiridion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4D96BDC165CA249B"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Craft the Lexica Botania"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Botania is a unique magic mod that relies heavily on flowers that you can find in the overworld."
+			description: [
+				"This book will get you started with Botania, and how to progress."
+				""
+				"Consider it a tech-magic mod. You can automate tons of things, cast spells, and so much more. "
+			]
+			id: "7F71244399B77329"
+			tasks: [{
+				id: "29F116A77C4FE77D"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+			rewards: [{
+				id: "7967B405A905F705"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Start Spectrum Questline"
+			x: 5.5d
+			y: 0.0d
+			subtitle: "Spectrum is a brand new, story driven, exploration-based magic mod focusing on the natural energies that flow in the world, represented in color."
+			description: ["Craft the Manual to learn how to play through this mod. It also relies heavily on advancements, so be sure to check the Spectrum Advancements if you're stuck (Press \"L\" in game)\""]
+			id: "0A11556EEB0EF212"
+			tasks: [{
+				id: "2F8B29D323C46A57"
+				type: "item"
+				item: "spectrum:manual"
+			}]
+			rewards: [{
+				id: "37439AE23078F5DC"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Starting Botania"
+			icon: "botania:apothecary_default"
+			x: 1.0d
+			y: 1.5d
+			subtitle: "Flowers are at the core of Botania."
+			description: [
+				"The Petal Apothecary is used to create Botania's flowers."
+				""
+				"To craft a pure daisy fill the Petal Apothecary with water, toss in 4 white petals, and a seed."
+				""
+				"Place logs on the ground around a pure daisy and wait for them to be transformed into livingwood. Repeat with stone to create livingrock."
+			]
+			dependencies: ["7F71244399B77329"]
+			id: "50356BEB66BF238B"
+			tasks: [
+				{
+					id: "1478362D83E217B0"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "57F274BF87D1A8A3"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+				{
+					id: "7A304A9A257B97D0"
+					type: "item"
+					item: "botania:livingwood"
+				}
+				{
+					id: "31CACE0D91C210B0"
+					type: "item"
+					item: "botania:livingrock"
+				}
+			]
+			rewards: [
+				{
+					id: "5EF2B7C7D959FC3C"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8
+				}
+				{
+					id: "50B6498CA86C436B"
+					type: "item"
+					item: "botania:livingrock"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "You're First Mana"
+			icon: "botania:mana_pool"
+			x: 2.0d
+			y: 1.5d
+			subtitle: "Mana is essential in Botania"
+			description: [
+				"Endoflames are the best way to get mana when you first start Botania. Simply throw some fuel on the ground near one and it will begin to create mana."
+				""
+				"Mana can be stored in a Mana pool. Mana pools are useful for infusing items into new items."
+				""
+				"Mana can be moved around with a mana spreader. Using a wand of the forest, shift click on the spreader and then on the mana pool to link them. The same can be done to link the Endoflames to the mana spreader."
+			]
+			dependencies: ["50356BEB66BF238B"]
+			id: "604D32742D49C830"
+			tasks: [
+				{
+					id: "235EB14E17AAE30F"
+					type: "item"
+					item: "botania:endoflame"
+				}
+				{
+					id: "4B2ED6FB2E473DAA"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "2EDB3DA017D7A7FE"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+				}
+				{
+					id: "0596C31D4ED7C619"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+			]
+			rewards: [
+				{
+					id: "411F9CF4FC99C63C"
+					type: "item"
+					item: "botania:endoflame"
+					count: 3
+				}
+				{
+					id: "290958D1A7206C19"
+					type: "item"
+					item: "minecraft:coal_block"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Infusion Catalysts"
+			icon: "botania:alchemy_catalyst"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Some infusions require a catalyst to be underneath the mana pool."
+			description: [
+				"You can get a Mana Pearl by throwing an Ender Pearl into a mana pool with mana."
+				""
+				""
+				"Some infusions require a catalyst. For these place the catalyst under the mana pool before thowing in the item."
+			]
+			dependencies: ["604D32742D49C830"]
+			id: "523C60C22F277DBE"
+			tasks: [
+				{
+					id: "7BA0FF9E508FF3FB"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+				{
+					id: "25161386E7DB9CDF"
+					type: "item"
+					item: "botania:alchemy_catalyst"
+				}
+			]
+		}
+		{
+			title: "Craft AE2 Sky Stone"
+			x: 4.0d
+			y: 1.0d
+			subtitle: "We're different. We require Sky Blocks to be crafted using Botania's Mana Pool."
+			description: [
+				"Setup your mana pool with your Alchemy Catalyst underneath."
+				""
+				"Throw Crying Obsidian into the mana pool to get Sky Stone."
+			]
+			dependencies: ["523C60C22F277DBE"]
+			id: "5B1021E19054DB13"
+			tasks: [{
+				id: "080CA87DF9CD05FC"
+				type: "item"
+				item: "ae2:sky_stone_block"
+			}]
+			rewards: [{
+				id: "4AFF327A59C40CB1"
+				type: "item"
+				item: "ae2:sky_stone_block"
+				count: 2
+			}]
+		}
+		{
+			title: "Craft Presses"
+			x: 4.0d
+			y: 2.0d
+			description: ["Use the same mana pool for all the AE2 required Presses. Find out the resources required using REI,"]
+			dependencies: ["523C60C22F277DBE"]
+			id: "03DC791EC5F5BEBA"
+			tasks: [
+				{
+					id: "236C9A882BCA1EC2"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "68C12E1D1FA840A6"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "495E807103DD3DCF"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+				{
+					id: "5B34949530C8FB7F"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+			]
+			rewards: [{
+				id: "4548069A15B70B61"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+		}
+		{
+			title: "Craft an Arcanus Wand"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "With this wand you can use spells."
+			description: [
+				"Search the world for lecterns or bookshelves in dungeons, villages, or strongholds and you might come across a spellbook that teaches you a new spell, which you use with your Arcanus Wand"
+				""
+				"You can type \"/spells list\" at any time to see all the spells, as well as their patterns, that you know."
+			]
+			id: "16FD41FA5777E8D2"
+			tasks: [{
+				id: "428B99B566B3A137"
+				type: "item"
+				item: {
+					id: "arcanus:initiate_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D4A18F21823E017"
+				type: "item"
+				item: {
+					id: "arcanus:mana_flask"
+					Count: 1b
+					tag: {
+						arcanus: {
+							Mana: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Start Dark Enchanting"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Pick out Enchantments, Pay with XP"
+			description: ["Use the Dark Enchanter Table to pick what enchantments you want. This will cost you XP, and most enchantments cost a lot."]
+			id: "3D146715B8B709EF"
+			tasks: [{
+				id: "50237CB72F66F83D"
+				type: "item"
+				item: "dark-enchanting:dark_enchanter"
+			}]
+			rewards: [{
+				id: "259EE9382A59FCBA"
+				type: "item"
+				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+	]
+}

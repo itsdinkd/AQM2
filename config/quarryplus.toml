@@ -1,0 +1,27 @@
+[common]
+debug = false
+netherTop = 127
+noEnergy = false
+convertDeepslateOres = true
+removesCommonMaterialAdvQuarry = true
+[power]
+rebornEnergyConversionCoefficient = 0.06
+creativeGeneratorGeneration = 1000
+[quarry]
+quarryEnergyCapacity = 10000.0
+quarryEnergyMakeFrame = 24.0
+quarryEnergyBreakBlock = 25.0
+quarryEnergyRemoveFluid = 60.0
+quarryEnergyMoveHead = 0.5
+[adv_pump]
+advPumpEnergyCapacity = 1000.0
+advPumpEnergyRemoveFluid = 30.0
+[adv_quarry]
+advQuarryEnergyCapacity = 12500.0
+advQuarryEnergyMakeFrame = 30.0
+advQuarryEnergyBreakBlock = 38.0
+advQuarryEnergyRemoveFluid = 80.0
+advQuarryEnergyMoveHead = 0.8
+[filler]
+fillerEnergyCapacity = 1000.0
+fillerEnergyBreakBlock = 10.0

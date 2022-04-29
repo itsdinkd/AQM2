@@ -1,0 +1,748 @@
+{
+  "config": {
+    "Apple Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Lime Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Ink Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Quartz Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "White Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Acacia Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Orange Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Bread Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Nautilus Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Ink Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Pufferfish Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Rabbit Hide Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Birch Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Fern Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Magenta Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Dead Bush Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Lead Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Elematilius Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Gunpowder Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Paper Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Scute Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Gold Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Tall Grass Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Blue Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Ghast Tear Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Lilypad Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Firework Star Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Slime Ball Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Salmon Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Scute Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Nautilus Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Spider Eye Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Sugar Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Prismarine Crystals Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Paper Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Nametag Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Glow Ink Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Netherite Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Nether Brick Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Raw Mutton Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Raw Chicken Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Redstone Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Quartz Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Lime Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Vine Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Rabbit Foot Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Bread Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Jungle Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Lead Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Rabbit Hide Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Raw Chicken Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Dark Oak Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Netherite Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Chorus Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Pink Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Dragon Head Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Prismarine Crystals Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Rotten Flesh Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Amethyst Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Blaze Rod Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Totem Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Raw Rabbit Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Prismarine Shard Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Red Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Spruce Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Raw Rabbit Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Pink Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Nether Brick Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Cookie Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Birch Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Leather Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Magma Cream Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Raw Porc Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Nether Star Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Light Gray Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Snowball Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Jungle Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Phantom Membrane Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Ender Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Feather Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Cookie Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Ender Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Dragon Head Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Cyan Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Glowstone Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Tall Grass Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Black Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Gunpowder Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Fern Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Oak Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Light Gray Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Bottle Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Sugar Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Purple Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Green Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Ghast Tear Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Bone Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Egg Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Lilypad Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Glowstone Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Bottle o\u0027Enchanting Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Acacia Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Grass Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Tropical Fish Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Wither Rose Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Vine Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Totem Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Large Fern Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Magenta Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "String Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Orange Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Brown Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Amethyst Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Bottle o\u0027Enchanting Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Apple Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Golden Apple Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Raw Mutton Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Raw Beef Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Oak Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Lapis Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Brown Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Green Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Phantom Membrane Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Shulker Shell Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Flint Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Flint Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Bone Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Red Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Cod Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "White Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Pufferfish Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Golden Apple Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Nether Star Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Black Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Charcoal Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Shulker Shell Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Coal Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Spruce Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Nametag Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Dark Oak Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Heart of the Sea Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Dead Bush Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Raw Beef Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Blue Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "String Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Cod Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Iron Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Glow Ink Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Purple Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Charcoal Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Snowball Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Blaze Rod Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Prismarine Shard Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Light Blue Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Yellow Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Bottle Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Heart of the Sea Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Clay Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Slime Ball Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Clay Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Gray Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Grass Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Rotten Flesh Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Copper Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Rabbit Foot Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Emerald Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Copper Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Tropical Fish Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Spider Eye Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Light Blue Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Firework Star Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Honeycomb Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Diamond Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Yellow Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Large Fern Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Egg Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Chorus Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Raw Porc Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Wither Rose Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Magma Cream Crop": {
+      "comment": "True to enable the crop, false to disable it.",
+      "value": true
+    },
+    "Honeycomb Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Cyan Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Leather Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Gray Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Feather Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    },
+    "Salmon Crop growth chance": {
+      "comment": "Percentage. Chance for the crop to grow. Default : 100%",
+      "value": 100
+    }
+  }
+}

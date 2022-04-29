@@ -1,0 +1,15 @@
+{
+    "name": "Machines",
+    "icon": "croparia:collector",
+    "category": "croparia:tech_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "croparia:collector",
+            "title" : "Auto Harvester",
+            "text": "Turn on the harvest by using redstone.$(br2)Harvests crops in a 6*6 area in front of it."
+        }
+        
+    ],
+    "sortnum": 2
+}

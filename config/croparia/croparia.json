@@ -1,0 +1,68 @@
+{
+  "config": {
+    "Elematilius Ore Vein Size": {
+      "comment": "Vein size. Default : 5",
+      "value": 0
+    },
+    "Greenhoue Light level": {
+      "comment": "The light level emitted by the Greenhouses. Default : 9",
+      "value": 9
+    },
+    "Battery Capacity": {
+      "comment": "The capacity of the battery. Default : 1 000 000",
+      "value": 500000
+    },
+    "Crop Generator : Production": {
+      "comment": "Amount of energy proudced by the Crop Generator. Default : 100 * Crop Tier",
+      "value": 32
+    },
+    "Battery Max Extract Amount": {
+      "comment": "Maximum amount of energy that can be extracted from the battery per tick. Default : 10 000",
+      "value": 4400
+    },
+    "Deepslates Elematilius Ore Veins": {
+      "comment": "Number of deepslate vein per chunk. Default : 2",
+      "value": 0
+    },
+    "Harvester Range": {
+      "comment": "The area will be range * range. Range need to be odd. Default : 5",
+      "value": 9
+    },
+    "Accelerator Stack Count": {
+      "comment": "How many working Accelerators you can place on top each over. Default : 5",
+      "value": 3
+    },
+    "Extra fruit drop": {
+      "comment": "Max amount of extra fruit dropped by a mature crop. Default : 0",
+      "value": 0
+    },
+    "Crop Generator : Mature Crop Multiplier": {
+      "comment": "Value of the multiplier when a mature crop is harvested. Default : *2",
+      "value": 2
+    },
+    "Deepslate Elematilius Ore Vein Size": {
+      "comment": "Deepslate Vein size. Default : 2",
+      "value": 0
+    },
+    "Elematilius Ore Veins": {
+      "comment": "Number of vein per chunk. Default : 5",
+      "value": 0
+    },
+    "Extra seed drop": {
+      "comment": "Max amount of extra fruit dropped by a mature crop. Default : 2",
+      "value": 1
+    },
+    "Patchouli Gudie Book": {
+      "comment": "Should give the book on first world join. Default : true",
+      "value": true
+    },
+    "Crop Generator : Range": {
+      "comment": "The area will be range * range. Range need to be odd. Default : 5",
+      "value": 7
+    },
+    "Crop growth chance": {
+      "comment": "Percentage. Chance for a crop to grow. The smaller value between this global parameter and the crop parameter will be chosen. Default : 100%",
+      "value": 100
+    }
+  }
+}

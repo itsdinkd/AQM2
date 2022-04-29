@@ -1,0 +1,13 @@
+{
+    "name": "Elematilius",
+    "icon": "croparia:elematilius",
+    "category": "croparia:main_category",
+    "pages": [
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:elematilius",
+            "text": "Craft the main Croparia component, Elematilius.",
+        	"title": "Elematilius"
+       	}
+    ]
+}

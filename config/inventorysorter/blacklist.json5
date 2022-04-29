@@ -1,0 +1,16 @@
+{
+	// Inventories that should not be sorted
+	"doNotSortList": [
+		"tfar.dankstorage.client.screens.DockScreen",
+		"tfar.dankstorage.client.screens.AbstractDankStorageScreen",
+		"tfar.dankstorage.client.screens.PortableDankStorageScreen",
+		"juuxel.adorn.client.gui.screen.TradingStationScreen"
+	],
+	// Inventories that should not display any sort buttons
+	"hideSortBtnsList": [
+		"tfar.dankstorage.client.screens.DockScreen",
+		"tfar.dankstorage.client.screens.AbstractDankStorageScreen",
+		"tfar.dankstorage.client.screens.PortableDankStorageScreen",
+		"juuxel.adorn.client.gui.screen.TradingStationScreen"
+	]
+}

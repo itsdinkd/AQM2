@@ -1,0 +1,87 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "modifier": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:resource",
+            "resource": "lank:bat_bool",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -16
+        },
+        "tick_rate": 20,
+        "update_health": true
+    },
+    "o___1": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": false,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "inverted": false,
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "lank:tools"
+                        }
+                    }
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:resource",
+                    "resource": "lank:bat_bool",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:prevent_block_selection",
+        "block_condition": {
+            "inverted": true,
+            "type": "origins:block",
+            "block": "minecraft:bedrock"
+        }
+    },
+    "o___2": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": false,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "inverted": false,
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "lank:tools"
+                        }
+                    }
+                },
+                {
+                    "inverted": false,
+                    "type": "origins:resource",
+                    "resource": "lank:bat_bool",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "addition",
+            "value": -99,
+            "name": "damage prevention"
+        }
+    }
+}

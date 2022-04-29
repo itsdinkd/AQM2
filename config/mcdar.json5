@@ -1,0 +1,62 @@
+{
+	"enableEnchantment": {
+		"BEAST_BOSS": false,
+		"BEAST_BURST": false,
+		"BEAST_SURGE": false,
+		"COOLDOWN": true
+	},
+	"enableDamagingArtefact": {
+		"BLAST_FUNGUS": false,
+		"HARVESTER": false,
+		"LIGHTNING_ROD": false,
+		"UPDRAFT_TOME": true
+	},
+	"enableStatusInflictingArtefact": {
+		"CORRUPTED_SEEDS": false,
+		"GONG_OF_WEAKENING": false,
+		"SATCHEL_OF_ELEMENTS": true,
+		"SHOCK_POWDER": false
+	},
+	"enableQuiverArtefact": {
+		"FLAMING_QUIVER": false,
+		"HARPOON_QUIVER": false,
+		"THUNDERING_QUIVER": false,
+		"TORMENT_QUIVER": false
+	},
+	"enableSummoningArtefact": {
+		"BUZZY_NEST": true,
+		"ENCHANTED_GRASS": false,
+		"GOLEM_KIT": false,
+		"TASTY_BONE": true,
+		"WONDERFUL_WHEAT": true
+	},
+	"enableAgilityArtefact": {
+		"BOOTS_OF_SWIFTNESS": true,
+		"DEATH_CAP_MUSHROOM": true,
+		"GHOST_CLOAK": true,
+		"LIGHT_FEATHER": false
+	},
+	"enableDefenciveArtefact": {
+		"ENCHANTERS_TOME": false,
+		"IRON_HIDE_AMULET": true,
+		"POWERSHAKER": false,
+		"SOUL_HEALER": false,
+		"TOTEM_OF_REGENERATION": false,
+		"TOTEM_OF_SHIELDING": false,
+		"TOTEM_OF_SOUL_PROTECTION": false,
+		"WIND_HORN": true
+	},
+	// Artefact Durability
+	"agilityArtefactDurability": 32,
+	"damagingArtefactDurability": 32,
+	"defenciveArtefactDurability": 32,
+	"quiverArtefactDurability": 7,
+	"statusArtefactDurability": 32,
+	"summoningArtefactDurability": 6,
+	// Villager Artefact Spawn Rate (Percentage where 1.0 = 100%)
+	"villagerArtefactSpawnRate": 0.0,
+	// Illager Artefact Spawn Rate (Percentage where 1.0 = 100%)
+	"illagerArtefactSpawnRate": 0.004999999888241291,
+	// Dungeon Artefact Spawn Rate (Percentage where 1.0 = 100%)
+	"dungeonArtefactSpawnRate": 0.010000001639127731
+}

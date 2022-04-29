@@ -1,0 +1,16 @@
+{
+  "modId": "blockus",
+  "group": {
+    "name": "Blockus Sapling",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:diamond"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "blockus:white_oak_sapling"
+    }
+  ]
+}

@@ -1,0 +1,736 @@
+{
+	id: "4D51D68B3DCDAA0B"
+	group: "7DDA60A5DB5F9F6C"
+	order_index: 3
+	filename: "tato_farmer"
+	title: "Tato Farmer"
+	icon: "minecraft:potato"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.5d
+			y: -6.5d
+			subtitle: "Buy Seeds, Saplings, and Other Goodies"
+			description: ["Get this Market, Place it, and then interact with it to have your own personal farming shop"]
+			id: "1F2BCB39AA537AD1"
+			tasks: [{
+				id: "6E67C23357940874"
+				type: "item"
+				item: "farmingforblockheads:market"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "7D8FAD4051E1A142"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 3
+				}
+				{
+					id: "3D2A675D58E30CA2"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "One menu to see the all"
+			description: [
+				"Place this where your villagers are and you will get all trades in one menu"
+				""
+				"The range is 24 blocks horizontally, 14 blocks vertically"
+			]
+			id: "7B9FF9B3955224DA"
+			tasks: [{
+				id: "774028ECB27A66E5"
+				type: "item"
+				item: "tradingpost:trading_post"
+			}]
+			rewards: [{
+				id: "40982C5C6DF542AE"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["1C72D8F994EB404A"]
+			id: "3022D0646E4AB65E"
+			tasks: [{
+				id: "3601FA3933090639"
+				type: "item"
+				item: "croparia:croparia4"
+			}]
+			rewards: [{
+				id: "685C9BFA469AB048"
+				type: "item"
+				item: "croparia:croparia4"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["3CD2A3AD3473836D"]
+			id: "1C72D8F994EB404A"
+			tasks: [{
+				id: "479DA2E369C330E3"
+				type: "item"
+				item: "croparia:croparia3"
+			}]
+			rewards: [{
+				id: "3B042487FBBE27A4"
+				type: "item"
+				item: "croparia:croparia3"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["716354CF0D89DD59"]
+			id: "3CD2A3AD3473836D"
+			tasks: [{
+				id: "7D05A293D2853CB3"
+				type: "item"
+				item: "croparia:croparia2"
+			}]
+			rewards: [{
+				id: "01C830F77E54D20A"
+				type: "item"
+				item: "croparia:croparia2"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["5684AECD7B8F217A"]
+			id: "716354CF0D89DD59"
+			tasks: [{
+				id: "402F0FA45A03E41D"
+				type: "item"
+				item: "croparia:croparia"
+			}]
+			rewards: [{
+				id: "6E80A843842D594A"
+				type: "item"
+				item: "croparia:croparia"
+			}]
+		}
+		{
+			title: "Dye Seeds"
+			x: -7.0d
+			y: -4.0d
+			description: ["Grow those dyes instead of searching for flowers in the world."]
+			dependencies: ["716354CF0D89DD59"]
+			id: "0AF96F1F81C17484"
+			tasks: [
+				{
+					id: "224258FA663014B1"
+					type: "item"
+					item: "croparia:seed_crop_orange"
+				}
+				{
+					id: "3A952A247621ACCC"
+					type: "item"
+					item: "croparia:seed_crop_magenta"
+				}
+				{
+					id: "0BCE6DDA87D28174"
+					type: "item"
+					item: "croparia:seed_crop_lightblue"
+				}
+				{
+					id: "31F00785513E841F"
+					type: "item"
+					item: "croparia:seed_crop_yellow"
+				}
+				{
+					id: "7308531F4AF50187"
+					type: "item"
+					item: "croparia:seed_crop_lime"
+				}
+				{
+					id: "2B2A39F6A73E8294"
+					type: "item"
+					item: "croparia:seed_crop_pink"
+				}
+				{
+					id: "1911F0EFFC0B86B2"
+					type: "item"
+					item: "croparia:seed_crop_gray"
+				}
+				{
+					id: "6184E1348F8D278E"
+					type: "item"
+					item: "croparia:seed_crop_silver"
+				}
+				{
+					id: "37A1CF3D2A5B4B67"
+					type: "item"
+					item: "croparia:seed_crop_cyan"
+				}
+				{
+					id: "04DC1B48C101C752"
+					type: "item"
+					item: "croparia:seed_crop_purple"
+				}
+				{
+					id: "1639B19CB4D8AC1F"
+					type: "item"
+					item: "croparia:seed_crop_brown"
+				}
+				{
+					id: "79281F25AC56609B"
+					type: "item"
+					item: "croparia:seed_crop_green"
+				}
+				{
+					id: "0B124F67AC5B4104"
+					type: "item"
+					item: "croparia:seed_crop_red"
+				}
+				{
+					id: "0DFADA38E09154A3"
+					type: "item"
+					item: "croparia:seed_crop_black"
+				}
+				{
+					id: "071F22E2F784C236"
+					type: "item"
+					item: "croparia:seed_crop_blue"
+				}
+				{
+					id: "334206D6EB3D48E1"
+					type: "item"
+					item: "croparia:seed_crop_white"
+				}
+			]
+			rewards: [{
+				id: "58D19ED803D770EB"
+				type: "item"
+				item: "croparia:elematilius"
+				count: 16
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			id: "5684AECD7B8F217A"
+			tasks: [{
+				id: "4B8863718D9D67BE"
+				type: "item"
+				item: "croparia:elematilius"
+			}]
+		}
+		{
+			title: "Wood without trees"
+			x: -6.5d
+			y: -5.0d
+			dependencies: ["716354CF0D89DD59"]
+			id: "49C005DBA501446E"
+			tasks: [
+				{
+					id: "4DA56B8A19B09468"
+					type: "item"
+					item: "croparia:seed_crop_darkoak"
+				}
+				{
+					id: "3A2789AB4916F8F7"
+					type: "item"
+					item: "croparia:seed_crop_spruce"
+				}
+				{
+					id: "63F6717A8BAC68EC"
+					type: "item"
+					item: "croparia:seed_crop_darkoak"
+				}
+				{
+					id: "747B916791F03591"
+					type: "item"
+					item: "croparia:seed_crop_birch"
+				}
+				{
+					id: "4C90F2D49C9DF712"
+					type: "item"
+					item: "croparia:seed_crop_acacia"
+				}
+				{
+					id: "64D63B295889833E"
+					type: "item"
+					item: "croparia:seed_crop_jungle"
+				}
+			]
+			rewards: [{
+				id: "2A8D96888C826990"
+				type: "item"
+				item: "croparia:elematilius"
+				count: 6
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			description: ["Grow Elemantilus to save some diamonds."]
+			dependencies: ["3022D0646E4AB65E"]
+			id: "2807A99DF13291C5"
+			tasks: [{
+				id: "71063183AAF35B07"
+				type: "item"
+				item: "croparia:seed_crop_elemental"
+			}]
+			rewards: [{
+				id: "4A5718C4EAE9C460"
+				type: "item"
+				item: "croparia:fruit_elemental"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["1C72D8F994EB404A"]
+			id: "57A10A6BCC415040"
+			tasks: [{
+				id: "2C47FBE49A8A8082"
+				type: "item"
+				item: "croparia:seed_crop_nether"
+			}]
+			rewards: [{
+				id: "5E79AC1A361C64EA"
+				type: "item"
+				item: "croparia:croparia2"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			dependencies: ["1C72D8F994EB404A"]
+			id: "4D45BBC31C468899"
+			tasks: [{
+				id: "6D7D13BAA6CEB8C3"
+				type: "item"
+				item: "croparia:seed_crop_glowstone"
+			}]
+			rewards: [{
+				id: "4080C0018F74F23E"
+				type: "item"
+				item: "croparia:croparia2"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["1C72D8F994EB404A"]
+			id: "61A332ECC27B1008"
+			tasks: [{
+				id: "2D4C4A4188E660DF"
+				type: "item"
+				item: "croparia:seed_crop_lapis"
+			}]
+			rewards: [{
+				id: "017F4552ED6C9ADA"
+				type: "item"
+				item: "croparia:croparia2"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["1C72D8F994EB404A"]
+			id: "5A57E39257359360"
+			tasks: [{
+				id: "185922912EED0A6C"
+				type: "item"
+				item: "croparia:seed_crop_chorus"
+			}]
+			rewards: [{
+				id: "4B8F998C96B7AB91"
+				type: "item"
+				item: "croparia:croparia2"
+			}]
+		}
+		{
+			title: "Grow Mobs"
+			x: -7.0d
+			y: -1.5d
+			dependencies: ["3CD2A3AD3473836D"]
+			id: "41A51CECB0556C53"
+			tasks: [
+				{
+					id: "60EA590F7F04720A"
+					type: "item"
+					item: "croparia:seed_crop_slime"
+				}
+				{
+					id: "0470E0BA89FC8149"
+					type: "item"
+					item: "croparia:seed_crop_zombie"
+				}
+				{
+					id: "6B10B8CF0AD8BF06"
+					type: "item"
+					item: "croparia:seed_crop_string"
+				}
+				{
+					id: "6F78E87E1676B173"
+					type: "item"
+					item: "croparia:seed_crop_powder"
+				}
+				{
+					id: "0D0C1435636B2284"
+					type: "item"
+					item: "croparia:seed_crop_bone"
+				}
+			]
+			rewards: [{
+				id: "3FEDF845C5DEFE56"
+				type: "item"
+				item: "croparia:croparia"
+				count: 5
+			}]
+		}
+		{
+			title: "T2 Resource Seeds"
+			x: -5.0d
+			y: -1.5d
+			description: [""]
+			dependencies: ["3CD2A3AD3473836D"]
+			id: "471A37A94D6721AD"
+			tasks: [
+				{
+					id: "3B3E3EFBB6E7F06B"
+					type: "item"
+					item: "croparia:seed_crop_gold"
+				}
+				{
+					id: "13BBFD4B4D24DE02"
+					type: "item"
+					item: "croparia:seed_crop_iron"
+				}
+				{
+					id: "66DA62624C692FDA"
+					type: "item"
+					item: "croparia:seed_crop_copper"
+				}
+			]
+			rewards: [{
+				id: "04A8CD9EB5660F58"
+				type: "item"
+				item: "croparia:croparia"
+				count: 3
+			}]
+		}
+		{
+			title: "Fish Seeds"
+			x: -5.5d
+			y: -5.0d
+			dependencies: ["716354CF0D89DD59"]
+			id: "2804E50019304C6A"
+			tasks: [
+				{
+					id: "32ABB9CFFEA1052D"
+					type: "item"
+					item: "croparia:seed_crop_salmon"
+				}
+				{
+					id: "7AA042B0381F8F97"
+					type: "item"
+					item: "croparia:seed_crop_pufferfish"
+				}
+				{
+					id: "2DA355065C99A845"
+					type: "item"
+					item: "croparia:seed_crop_fish"
+				}
+				{
+					id: "4657055643BEDD49"
+					type: "item"
+					item: "croparia:seed_crop_clownfish"
+				}
+			]
+			rewards: [{
+				id: "721C67B7452C6763"
+				type: "item"
+				item: "croparia:elematilius"
+				count: 4
+			}]
+		}
+		{
+			title: "Plant Seeds"
+			x: -5.0d
+			y: -4.0d
+			dependencies: ["716354CF0D89DD59"]
+			id: "3244D18D95146CAC"
+			tasks: [
+				{
+					id: "3833B6F5584A389F"
+					type: "item"
+					item: "croparia:seed_crop_vine"
+				}
+				{
+					id: "44C82D482A953303"
+					type: "item"
+					item: "croparia:seed_crop_tallgrass"
+				}
+				{
+					id: "2A04FD15B6DB8FC0"
+					type: "item"
+					item: "croparia:seed_crop_lilypad"
+				}
+				{
+					id: "6D9E053BA4295E47"
+					type: "item"
+					item: "croparia:seed_crop_largefern"
+				}
+				{
+					id: "1A20EBC5026F4CCE"
+					type: "item"
+					item: "croparia:seed_crop_grass"
+				}
+				{
+					id: "1E44F7548495B350"
+					type: "item"
+					item: "croparia:seed_crop_fern"
+				}
+				{
+					id: "2271F52AF274F8E3"
+					type: "item"
+					item: "croparia:seed_crop_bush"
+				}
+			]
+			rewards: [{
+				id: "52C63A68F883914F"
+				type: "item"
+				item: "croparia:elematilius"
+				count: 7
+			}]
+		}
+		{
+			title: "Paper and Sugar"
+			x: -5.5d
+			y: -3.0d
+			description: ["Sugarcane but not"]
+			dependencies: ["716354CF0D89DD59"]
+			id: "1B67AA8F880A3224"
+			tasks: [
+				{
+					id: "2F7BE7C53922617E"
+					type: "item"
+					item: "croparia:seed_crop_sugar"
+				}
+				{
+					id: "1B26AA36BDA1C85C"
+					type: "item"
+					item: "croparia:seed_crop_paper"
+				}
+			]
+			rewards: [{
+				id: "787C062F3D03CBA9"
+				type: "item"
+				item: "croparia:elematilius"
+				count: 2
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			dependencies: ["716354CF0D89DD59"]
+			id: "5EF85C84BD4EA417"
+			tasks: [{
+				id: "2FCBCF2DB983B3FA"
+				type: "item"
+				item: "croparia:seed_crop_snowball"
+			}]
+			rewards: [{
+				id: "31659CF32CCAB04C"
+				type: "item"
+				item: "croparia:elematilius"
+			}]
+		}
+		{
+			title: "Friendly Mob Seeds"
+			x: -4.5d
+			y: -5.0d
+			dependencies: ["716354CF0D89DD59"]
+			id: "0FCD37EB30B419CE"
+			tasks: [
+				{
+					id: "70686D577270DE51"
+					type: "item"
+					item: "croparia:seed_crop_hide"
+				}
+				{
+					id: "322DCF42E1070506"
+					type: "item"
+					item: "croparia:seed_crop_rawrabbit"
+				}
+				{
+					id: "43016561A6884D19"
+					type: "item"
+					item: "croparia:seed_crop_rawporc"
+				}
+				{
+					id: "088974045959245A"
+					type: "item"
+					item: "croparia:seed_crop_rawmutton"
+				}
+				{
+					id: "06AC7A5753C908E8"
+					type: "item"
+					item: "croparia:seed_crop_rawchicken"
+				}
+				{
+					id: "7771B6A2CC561A78"
+					type: "item"
+					item: "croparia:seed_crop_rawbeef"
+				}
+				{
+					id: "2B37FD303704D7B9"
+					type: "item"
+					item: "croparia:seed_crop_leather"
+				}
+				{
+					id: "0E33784BB1D94555"
+					type: "item"
+					item: "croparia:seed_crop_ink"
+				}
+				{
+					id: "4944FF525EAD96B5"
+					type: "item"
+					item: "croparia:seed_crop_glowink"
+				}
+				{
+					id: "2CED8590D27EBACB"
+					type: "item"
+					item: "croparia:seed_crop_feather"
+				}
+				{
+					id: "3F832FE91FFDACF6"
+					type: "item"
+					item: "croparia:seed_crop_egg"
+				}
+				{
+					id: "6A0B27A07A118B59"
+					type: "item"
+					item: "croparia:seed_crop_honeycomb"
+				}
+			]
+			rewards: [{
+				id: "502A720C1714A18D"
+				type: "item"
+				item: "croparia:elematilius"
+				count: 12
+			}]
+		}
+		{
+			title: "Misc Item Seeds"
+			x: -7.5d
+			y: -5.0d
+			dependencies: ["716354CF0D89DD59"]
+			id: "23B0B766E2C480B9"
+			tasks: [
+				{
+					id: "40408FB2AC3EC0F0"
+					type: "item"
+					item: "croparia:seed_crop_nametag"
+				}
+				{
+					id: "56469032904F856C"
+					type: "item"
+					item: "croparia:seed_crop_bottle"
+				}
+				{
+					id: "504A6F4084DFBC58"
+					type: "item"
+					item: "croparia:seed_crop_firework"
+				}
+			]
+			rewards: [{
+				id: "35187E85B2943BFA"
+				type: "item"
+				item: "croparia:elematilius"
+				count: 3
+			}]
+		}
+		{
+			title: "T1 Resource Seeds"
+			x: -7.5d
+			y: -3.0d
+			dependencies: ["716354CF0D89DD59"]
+			id: "38FC5C270F34BC1E"
+			tasks: [
+				{
+					id: "6141FCE8DCADDEB6"
+					type: "item"
+					item: "croparia:seed_crop_flint"
+				}
+				{
+					id: "4728CD5C207E62DB"
+					type: "item"
+					item: "croparia:seed_crop_charcoal"
+				}
+				{
+					id: "13A9AA4A0D058FAD"
+					type: "item"
+					item: "croparia:seed_crop_coal"
+				}
+				{
+					id: "792671A315F68DBA"
+					type: "item"
+					item: "croparia:seed_crop_amethyst"
+				}
+			]
+			rewards: [{
+				id: "6E59B98151A6CF30"
+				type: "item"
+				item: "croparia:elematilius"
+				count: 4
+			}]
+		}
+		{
+			title: "Food Seeds"
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["716354CF0D89DD59"]
+			id: "6C97888D069611A8"
+			tasks: [
+				{
+					id: "5B5C9B53FD3D2FB6"
+					type: "item"
+					item: "croparia:seed_crop_cookie"
+				}
+				{
+					id: "3F9B6B28EBD63E12"
+					type: "item"
+					item: "croparia:seed_crop_bread"
+				}
+				{
+					id: "0F64B98EA251DEF9"
+					type: "item"
+					item: "croparia:seed_crop_apple"
+				}
+			]
+			rewards: [{
+				id: "5236516B9E8FB8F9"
+				type: "item"
+				item: "croparia:elematilius"
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			dependencies: ["716354CF0D89DD59"]
+			id: "137655E826E2EF3D"
+			tasks: [{
+				id: "24027257B774A070"
+				type: "item"
+				item: "croparia:seed_crop_clay"
+			}]
+		}
+	]
+}

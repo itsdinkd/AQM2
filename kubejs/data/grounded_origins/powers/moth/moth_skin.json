@@ -1,0 +1,14 @@
+{    
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+	  "type": "origins:execute_command",
+	  "command": "skin set URL classic https://www.minecraftskins.com/uploads/skins/2013/03/02/skin_20130302155345118723.png?v437",
+	  "permission_level": 0
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "skin clear",
+        "permission_level": 0
+    },
+    "execute_chosen_when_orb": true
+}

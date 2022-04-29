@@ -1,0 +1,405 @@
+{
+	/* 
+	   
+	   ***********************
+	   Enable-Disable Rings
+	   ***********************
+	*/
+	"enableRingAbove": true,
+	"enableRingAirWalking": false,
+	"enableRingAscent": true,
+	"enableRingAttraction": true,
+	"enableRingBlink": true,
+	"enableRingCuring": true,
+	"enableRingDismissal": true,
+	"enableRingEnderchest": true,
+	"enableRingExplorer": true,
+	"enableRingFarmer": false,
+	"enableRingHaste": true,
+	"enableRingLuck": true,
+	"enableRingMiner": true,
+	"enableRingPhoenix": false,
+	"enableRingRepair": false,
+	"enableRingReturn": true,
+	"enableRingStealth": false,
+	"enableRingStrength": false,
+	"enableRingSunshine": false,
+	"enableRingSwiftness": true,
+	"enableRingTeleport": true,
+	"enableRingTraveler": true,
+	"enableRingVision": true,
+	"enableRingVoid": true,
+	/* 
+	   
+	   ***********************
+	   Enable-Disable Staffs
+	   ***********************
+	*/
+	"enableStaffClearing": true,
+	"enableStaffEnsnarement": true,
+	"enableStaffFarmer": false,
+	"enableStaffNature": true,
+	"enableStaffSniper": true,
+	"enableStaffStars": true,
+	"enableStaffTransformation": true,
+	"enableStaffHostileEnsnarement": false,
+	/* 
+	   
+	   ***********************
+	   Enable-Disable Medallions
+	   ***********************
+	*/
+	"enableMedallionBreathing": true,
+	"enableMedallionLesserHealing": true,
+	"enableMedallionHealing": true,
+	"enableMedallionGreaterHealing": true,
+	"enableMedallionExp": true,
+	"enableMedallionHero": true,
+	"enableMedallionSea": true,
+	"enableMedallionShielding": false,
+	"enableMedallionSuffering": false,
+	/* 
+	   
+	   ***********************
+	   Ring Settings
+	   ***********************
+	*/
+	"ringAboveCooldown": 240,
+	"enableAirWalkingPlaceGlass": true,
+	"ringAttractionRange": 4,
+	"ringBlinkDistance": 40,
+	"ringBlinkCooldown": 160,
+	"enableCuringAlwaysOn": false,
+	"ringCuringCooldown": 500,
+	"ringDismissalRange": 8.0,
+	"ringDismissalVelocity": 0.2,
+	"ringDismissalLift": 1.5,
+	"ringExplorerCooldown": 1200,
+	"ringExplorerUsePlayerPos": false,
+	"ringExplorerMin": 1000,
+	"ringExplorerMax": 8000,
+	"ringFarmerHorizRange": 9,
+	"ringFarmerVertRange": 6,
+	"ringFarmerInterval": 200,
+	"ringFarmerIntervalCactus": 60,
+	"ringPhoenixHealAmount": 5,
+	"ringHasteLevel": 2,
+	"ringLuckLevel": 4,
+	"ringMinerCooldown": 130,
+	"ringMinerRange": 4,
+	"ringMinerVerticalRange": 5,
+	"ringMinerDelayedBreak": false,
+	"ringRepairInterval": 180,
+	"ringStrengthLevel": 2,
+	"ringStrengthResistenceLevel": 1,
+	"ringSwiftnessLevel": 1,
+	"ringTravelerLaunch": 1.95,
+	"ringTravelerCruising": 0.11,
+	/* 
+	   
+	   ***********************
+	   Effect Setting
+	   -used with optimization mods
+	   that break things
+	   Value of 300 works
+	   - only needed if there is a problem
+	   ***********************
+	*/
+	"effectDuration": 8,
+	"effectDurationKnowledge": 120,
+	/* 
+	   
+	   ***********************
+	   Medallion Settings
+	   ***********************
+	*/
+	"medallionExpMultiplier": 3,
+	"medallionLesserHealingAmount": 1,
+	"medallionHealingAmount": 2,
+	"medallionGreaterHealingAmount": 3,
+	"medallionShieldingHorizRange": 3,
+	"medallionShieldingVertRange": 2,
+	"medallionShieldingAgainstWither": false,
+	"medallionSufferingRange": 6,
+	"medallionSufferingDamage": 2,
+	/* 
+	   
+	   ***********************
+	   Staff Settings
+	   ***********************
+	*/
+	"staffTransformationDurability": 825,
+	"staffClearingHorizRange": 6,
+	"staffClearingVertRange": 3,
+	"staffClearingCooldown": 180,
+	"staffSniperCooldown": 200,
+	"staffFarmerHorizRange": 12,
+	"staffFarmerVertRange": 6,
+	"staffFarmerInterval": 180,
+	"staffFarmerIntervalCactus": 20,
+	"staffFarmerReplant": true,
+	"staffEnsnarementHotileMobs": false,
+	/* 
+	   
+	   ***********************
+	   Tool Settings
+	   ***********************
+	*/
+	"swordSniperCooldoown": 140,
+	"enableEndHammer5x5": true,
+	"enableEndExcavator5x5": true,
+	"enableTreeAxe": true,
+	"enableHammers": true,
+	"enableExcavators": true,
+	"enablePaxels": true,
+	"enableNetherSwordPerks": true,
+	/* 
+	   
+	   
+	   ******************************
+	   Bow Durability
+	   ******************************
+	*/
+	"gobberBowDurability": 3800,
+	"gobberNetherBowDurability": 5200,
+	"gobberEndBowDurability": 9999,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber Tool Material Stats
+	   ******************************
+	*/
+	"gobberDurability": 3800,
+	"gobberMiningSpeed": 9.0,
+	"gobberAttackDamage": 7.0,
+	"gobberSwordAttackSpeed": 1.7000000476837158,
+	"gobberMiningLevel": 4,
+	"gobberEnchantability": 8,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber Nether Tool Material Stats
+	   ******************************
+	*/
+	"gobberNetherDurability": 5200,
+	"gobberNetherMiningSpeed": 11.0,
+	"gobberNetherAttackDamage": 8.0,
+	"gobberNetherSwordAttackSpeed": 1.9000000953674316,
+	"gobberNetherMiningLevel": 5,
+	"gobberNetherEnchantability": 11,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber End Tool Material Stats
+	   ******************************
+	*/
+	"unbreakableEndTools": false,
+	"gobberEndDurability": 9001,
+	"gobberEndMiningSpeed": 13.0,
+	"gobberEndAttackDamage": 9.0,
+	"gobberEndSwordAttackSpeed": 2.200000047683716,
+	"gobberEndMiningLevel": 6,
+	"gobberEndEnchantability": 14,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber Armor Material Stats
+	   ******************************
+	*/
+	"gobberDurabilityMultiplier": 68,
+	"gobberArmorEnchantability": 9,
+	"gobberToughness": 2.0,
+	"gobberKnockbackResistance": 0.10000000149011612,
+	"gobberHeadProtection": 7,
+	"gobberChestProtection": 10,
+	"gobberLeggingsProtection": 8,
+	"gobberBootsProtection": 5,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber Nether Armor Material Stats
+	   ******************************
+	*/
+	"gobberNetherDurabilityMultiplier": 83,
+	"gobberNetherArmorEnchantability": 11,
+	"gobberNetherToughness": 2.25,
+	"gobberNetherKnockbackResistance": 0.10000000149011612,
+	"netherHeadProtection": 8,
+	"netherChestProtection": 11,
+	"netherLeggingsProtection": 8,
+	"netherBootsProtection": 6,
+	/* 
+	   
+	   
+	   ******************************
+	   Gobber End Armor Material Stats
+	   ******************************
+	*/
+	"gobberEndDurabilityMultiplier": 120,
+	"gobberEndArmorEnchantability": 13,
+	"gobberEndToughness": 2.5,
+	"gobberEndKnockbackResistance": 0.11249999701976776,
+	"endHeadProtection": 9,
+	"endChestProtection": 12,
+	"endLeggingsProtection": 9,
+	"endBootsProtection": 7,
+	/* 
+	   
+	   
+	   ******************************
+	   Dragon Armor Material Stats
+	   ******************************
+	*/
+	"gobberDragonDurabilityMultiplier": 130,
+	"gobberDragonArmorEnchantability": 15,
+	"gobberDragonToughness": 2.700000047683716,
+	"gobberDragonKnockbackResistance": 0.11874999850988388,
+	"dragonHeadProtection": 10,
+	"dragonChestProtecction": 13,
+	"dragonLeggingsProtection": 10,
+	"dragonBootsProtection": 8,
+	/* 
+	   
+	   ***********************
+	   Gobber Armor Features
+	   ***********************
+	*/
+	"enableGobberBreathing": false,
+	"enableGobberHealthPerks": false,
+	"healingPointsGobberArmor": 2,
+	/* 
+	   
+	   ***********************
+	   Nether Armor Features
+	   ***********************
+	*/
+	"enableNetherFirePerk": false,
+	"enableNetherHealthPerks": false,
+	"healingPointsNetherArmor": 2,
+	/* 
+	   
+	   ***********************
+	   End Armor Features
+	   ***********************
+	*/
+	"unbreakableEndArmor": false,
+	"enableEndBreathing": false,
+	"enableEndFirePerk": false,
+	"enableEndHealthPerks": false,
+	"healingPointsEndArmor": 3,
+	"enableEndNoFallDamage": false,
+	"enableGlidingEndArmor": true,
+	/* 
+	   
+	   ***********************
+	   Dragon Armor Features
+	   ***********************
+	*/
+	"unbreakableDragonArmor": true,
+	"enableDragonArmorWithoutFlight": true,
+	"enableDragonArmorWithFlight": false,
+	"enableDragonBreathing": true,
+	"enableDragonFirePerk": false,
+	"enableDragonHealthPerks": false,
+	"healingPointsDragonArmor": 4,
+	"enableDragonCuring": false,
+	"enableDragonNoFallDamage": true,
+	"enableGlidingDragonArmor": true,
+	/* 
+	   
+	   ***********************
+	   Enchantments
+	   ***********************
+	*/
+	"enableSmithblade": true,
+	"enableRebuffing": true,
+	"enableFasterObsidian": true,
+	"enableUntouchable": true,
+	"enableQuickUse": false,
+	"enableBlinders": true,
+	"enableSolidFooting": true,
+	"enableApotropaic": true,
+	"enableFluidMaster": true,
+	"enableSummoner": false,
+	"enableSummonerBonusStats": false,
+	"summonerGoldGear": true,
+	"summonerMobLifespan": 120,
+	/* 
+	   
+	   ***********************
+	   Enchantment Settings
+	   ***********************
+	*/
+	"smithbladeAttackAmount": 1,
+	"smithbladeMaxLevel": 4,
+	"rebuffingMaxLevel": 2,
+	"untouchableDamage": 5,
+	"untouchableMaxLevel": 2,
+	"summonerHealthBonus": 30.0,
+	"summonerAttackBonus": 10.0,
+	"summonerMovementBonus": 0.6,
+	"summonerArmorBonus": 20.0,
+	"enableRingEnchanting": false,
+	"enableStaffEnchanting": false,
+	"enableMedallionEnchanting": false,
+	/* 
+	   
+	   ***********************
+	   Status Effects
+	   ***********************
+	*/
+	"KnowledgeBoostXPPerTick": 1,
+	/* 
+	   
+	   ***********************
+	   Loot Chests
+	   ***********************
+	*/
+	"lootEnable": false,
+	"lootChance": 0.03999999910593033,
+	/* 
+	   
+	   ***********************
+	   Special Item
+	   
+	   Item provides a one-time random teleport
+	   and is consumed after successful teleport.
+	   Min/Max range from world spawn to search
+	   or from the player's current position
+	   Item does NOT have a standard recipe
+	   ***********************
+	*/
+	"enableSpecialItem": true,
+	"specialItemMin": 20000,
+	"specialItemMax": 75000,
+	"specialItemUsePlayerPos": false,
+	/* 
+	   
+	   ***********************
+	   Fuel (Foo) Settings
+	   
+	   ***********************
+	*/
+	"fooBurntime": 9000,
+	"fooNetherBurntime": 18000,
+	"fooEndBurntime": 30000,
+	/* 
+	   
+	   ***********************
+	   Nemesis Settings
+	   
+	   ***********************
+	*/
+	"enableNemesis": true,
+	"dropChanceNemesis": 0.05,
+	"attackDamageNemesis": 13.5,
+	"healthNemesis": 38.0,
+	"movementSpeedNemesis": 0.38,
+	"attackKnockbackNemesis": 1.0,
+	"knockbackResistanceNemesis": 1.7
+}

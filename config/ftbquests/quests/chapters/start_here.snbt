@@ -1,0 +1,731 @@
+{
+	id: "48AED9D0BCAFF527"
+	group: "5D105B5F3CE9B0B7"
+	order_index: 0
+	filename: "start_here"
+	title: "Start Here"
+	icon: "minecraft:oak_log"
+	subtitle: ["The Basics"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.5d
+			y: -2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/book.png"
+			hover: ["The Wiki (Coming Soon)"]
+			click: "#WIKI LINK#"
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "kubejs:textures/gui/presets/aqm2.png"
+			hover: ["Click here to join the AQM Discord"]
+			click: "https://discord.gg/y6Sby9BGVe"
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Locate Biomes"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Nature's Compass... more like your best friend"
+			description: ["Want to find biomes fast? Then you'll need Nature's Compass! This handy necessity gives you the coordinates, and a compass to show you the direction you need to follow for your targeted biome."]
+			id: "0DFD9D948D188C8A"
+			tasks: [{
+				id: "4A862D9C33B13F3E"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "77EE29556AEC37C8"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Use Auto Run"
+			icon: "minecraft:clock"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "In AQM you can run automatically"
+			description: ["The way to auto run is as follows; Press 'ESC-> Go into Options--> Go into Controls---> Keybind for AutorunPress the key and you will run automatically. Click the checkmark once finished."]
+			id: "385F49C2862DA2E7"
+			tasks: [{
+				id: "287885062F71D113"
+				type: "checkmark"
+				title: "Complete"
+			}]
+			rewards: [{
+				id: "417B95F2D9C09BD0"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "Use Ctrl and Shift in Keybinds"
+			icon: "minecraft:slime_ball"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Just Enough Keys is powerful. You can filter searching to find what you need quickly. Check out the checkbox task to learn how to use it"
+			description: [
+				"How to use the search box in Controls"
+				""
+				"Find Conflicts using: ^c"
+				""
+				"Find Controls by mod/category: @c Mod"
+				""
+				"Find Unbound Controls by: ^u key"
+				""
+				"note: key is optional"
+				""
+				"Find Key Name by: @k key"
+				""
+				""
+				"example: ^c @c Movement"
+				"will find all conflicts in the movement category"
+			]
+			id: "7BF13BA80370EF5F"
+			tasks: [{
+				id: "397AA3F242E1F624"
+				type: "checkmark"
+				title: "Complete"
+			}]
+		}
+		{
+			title: "Claim Land"
+			icon: {
+				id: "minecraft:golden_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 2.5d
+			subtitle: "Okay you're in a server or playing with randoms and want your land protected. We got you! "
+			description: [
+				"With land claims, you can use the command /flan"
+				"or you can use a golden hoe. "
+				""
+				"You get a new claim block every 900 ticks, so the longer you play, the more claim blocks you receive. "
+				""
+				"Select a starting block via the tool or where you are standing, and then select the end point with the tool or where you are standing (or exact coordinates can be typed)."
+				""
+				"/help flan"
+				"will give you a list of available commands, like adding players to your claim, promoting them to do or not do certain things, and so much more. "
+			]
+			id: "071541909661ECA8"
+			tasks: [{
+				id: "462798E838C79DEF"
+				type: "checkmark"
+				title: "Claim Land"
+			}]
+			rewards: [
+				{
+					id: "26E53771ED42AFDE"
+					type: "item"
+					item: {
+						id: "minecraft:golden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44D3699AD14360A3"
+					type: "item"
+					item: "kubejs:aqm2"
+				}
+			]
+		}
+		{
+			title: "Zoom Zoom"
+			icon: {
+				id: "additionaladditions:crossbow_with_spyglass"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.5d
+			y: 5.0d
+			subtitle: "Zoom with the \"V\" Key!"
+			description: [
+				"Use the \"V\" key to Zoom"
+				""
+				"Also, take this crossbow with a spyglass just because you're awesome."
+			]
+			id: "7378A01FE062F915"
+			tasks: [{
+				id: "544CD933F5DB472E"
+				type: "checkmark"
+				title: "Zoom Zoom"
+			}]
+			rewards: [{
+				id: "245FBC9AF2E1FEC2"
+				type: "item"
+				item: {
+					id: "additionaladditions:crossbow_with_spyglass"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "How to Sort"
+			icon: "minecraft:lead"
+			x: 2.0d
+			y: 0.5d
+			subtitle: "Sort is a necessity in any modpack, and this one is no different."
+			description: [
+				"- Middle Mouse button empty slot to sort"
+				"- I + C in game to open Item Scroller Menu (which shows all hotkeys for scroll sorting)"
+				"- R + C in game to open Inventory Profiles menu which also goes over hot keys + tweaks."
+			]
+			id: "294578C7D4072356"
+			tasks: [{
+				id: "1A0447F95F262A56"
+				type: "checkmark"
+				title: "Complete"
+			}]
+		}
+		{
+			title: "How to Find Items in All Chests"
+			icon: "minecraft:chest"
+			x: 7.5d
+			y: 1.5d
+			subtitle: "Misplaced something and have lots of chests early game?"
+			description: [
+				"Chest Tracker is the small icon in your inventory on the top right. Click it to see all the items you can find in your chests. It will highlight whatever chest has the item you selected, and it remembers every item you encountered in chests."
+				""
+			]
+			id: "416EBB7198D253DB"
+			tasks: [{
+				id: "0E04151EB0D6C23F"
+				type: "checkmark"
+				title: "Complete"
+			}]
+		}
+		{
+			title: "Silk Touch a Spawner"
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Silktouch Spawner"
+			description: ["Get Silk Touch enchantment and do your thing"]
+			id: "638C86BBE9B9FA6E"
+			tasks: [{
+				id: "40B95D419E4E8091"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+			rewards: [{
+				id: "24640D6FC9BD991B"
+				type: "item"
+				item: "minecraft:cat_spawn_egg"
+			}]
+		}
+		{
+			title: "Change your skin"
+			icon: {
+				id: "entitybanners:entity_banner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Bannerpp_LoomPatterns: [{
+							Pattern: "mobz:fast_banner"
+							Index: 0
+							Color: 15
+						}]
+						entitybanners_Entity: "mobz:fast"
+						Patterns: [
+							{
+								Pattern: "tts"
+								Color: 10
+							}
+							{
+								Pattern: "bts"
+								Color: 10
+							}
+							{
+								Pattern: "bo"
+								Color: 10
+							}
+							{
+								Pattern: "cs"
+								Color: 15
+							}
+						]
+					}
+				}
+			}
+			x: 5.5d
+			y: 5.0d
+			description: [
+				"You can change your skin two different ways."
+				""
+				"The first way is using the keybind to open up the skin menu, which you can find under Controls using the filtered search, type"
+				""
+				"@c Tailor"
+				""
+				"This will bring up the mod category (Tailor) and display all keybinds related to it."
+				""
+				"The second way is by using the /skin   command. You can change skin by URL (get the image url), a file on your computer, or even another players name."
+			]
+			id: "52E5521AE0FB29EF"
+			tasks: [{
+				id: "79ED5703FA681700"
+				type: "checkmark"
+				title: "Complete"
+			}]
+		}
+		{
+			title: "Carry Things"
+			x: 5.5d
+			y: 1.0d
+			subtitle: "With a Carrier Glove, you can move lots of different blocks"
+			description: [
+				"With a Carrier Glove, you can move lots of different blocks like Crafting Tables, Expanded Storages, Cables, Smithing Tables, and so much more (NO Spawners or Vanilla Chests)"
+				""
+				"Craft a Carrier Glove and Sneak + Rightclick to carry it. Do know that this will cost you some hunger and slow you down until its placed with Right Click."
+			]
+			id: "7F73193A153674A7"
+			tasks: [{
+				id: "15E423A5B293B80C"
+				type: "item"
+				item: "carrier:glove"
+			}]
+			rewards: [{
+				id: "4D282F6E83932E2B"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			title: "How Seasons affect Crops"
+			icon: {
+				id: "mcdar:wonderful_wheat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 1.5d
+			subtitle: "Seasons affect growth times"
+			description: [
+				""
+				"During winter, most crops will be reduced down to 20% growth time, with spring being at 100%"
+				""
+				"There are 28 days in a season"
+			]
+			id: "2D6130744463AEC2"
+			tasks: [{
+				id: "45E5467A9F2B244C"
+				type: "checkmark"
+				title: "Complete"
+			}]
+		}
+		{
+			title: "Find Gobber Globettes"
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Gobber Gobber Gobber..."
+			description: [
+				"If this pack were a human body, Gobber would be the spine. Paxels, Tree Axes, 5x5 Hammers, Rings, Medallions, It's got it all, but very rare to find the ore. Go find some Gobber Ore and mine it with at least a diamond pick axe"
+				""
+				"Do note; a lot of recipes in AQM2 require gobber materials due to gobber ore being very rare."
+				""
+				"Once this task is completed, it will unlock more gobber quests in a different category outside of Start Here."
+				""
+				"Click On the Gobber above and click submit. This will consume 1 Gobber."
+			]
+			size: 3.0d
+			min_width: 400
+			id: "40AC615E022379B9"
+			tasks: [{
+				id: "7340447646BC18C6"
+				type: "item"
+				title: "Submit Gobber"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gobber2:gobber2_globette"
+							}
+							{
+								Count: 1b
+								id: "gobber2:gobber2_ore"
+							}
+							{
+								Count: 1b
+								id: "gobber2:gobber2_ore_deepslate"
+							}
+						]
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "29641C25A1C1C478"
+					type: "item"
+					item: "gobber2:gobber2_goo"
+				}
+				{
+					id: "2618066D90FFA64C"
+					type: "item"
+					item: "gobber2:gobber2_globette"
+				}
+			]
+		}
+		{
+			title: "Waystones..."
+			x: 8.0d
+			y: 3.5d
+			subtitle: "Waystones are one of the more common ways to get around the world here in AQM"
+			description: [
+				"You can claim waystones that do not have a owner, and retrieve payments."
+				""
+				"The payment item to use a waystone is 1 Gobber Globette."
+				""
+				"Owners can Sneak + Right click a waystone to retrieve the payments others paid to use."
+				""
+				"You can break waystone but not with just any tool. You need a Level 4 Harvesting level tool to do this. (Diamond+)"
+			]
+			id: "4071CC2AEF557C8F"
+			tasks: [{
+				id: "13BEE17022D37FA7"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"We got Effect Hats, Artifacts, Magic Spells (Found on Lecterns and Bookshelves), Enchantments, and more that can only be found in dungeon chests."
+				""
+				"To complete this quest, you must find all the MC Dungeon Artifacts."
+			]
+			hide_dependency_lines: false
+			id: "2C33CCFB8DDEE5C3"
+			tasks: [
+				{
+					id: "2A3620560C896670"
+					type: "item"
+					item: {
+						id: "mcdar:boots_of_swiftness"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "037DB8AB9C599587"
+					type: "item"
+					title: "Cut Crops?"
+					item: {
+						id: "mcdar:wonderful_wheat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7528D4E0EDC71689"
+					type: "item"
+					title: "I wonder what this will summon.."
+					item: {
+						id: "mcdar:tasty_bone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "141166F46F2F2CBA"
+					type: "item"
+					title: "Call in the mighty sheep"
+					item: {
+						id: "mcdar:enchanted_grass"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53918CA98947D052"
+					type: "item"
+					title: "The Buzzy Nest allows you to spawn in soldier bees to help attack your enemies"
+					item: {
+						id: "mcdar:buzzy_nest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "316B9261998B7BC8"
+					type: "item"
+					title: "Summon elements"
+					item: {
+						id: "mcdar:satchel_of_elements"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A59A597A6BD031B"
+					type: "item"
+					title: "Its a mystery"
+					item: {
+						id: "mcdar:updraft_tome"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1ED471DFD8830E03"
+					type: "item"
+					title: "Put your enemies in a frenzy"
+					item: {
+						id: "mcdar:iron_hide_amulet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "663EDE012A0CEA0B"
+					type: "item"
+					title: "Get some nice armor"
+					item: {
+						id: "mcdar:wind_horn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14C7F541A4CFF3F8"
+					type: "item"
+					title: "Temporary Invisibility"
+					item: {
+						id: "mcdar:ghost_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5D099239D5682418"
+				type: "choice"
+				auto: "disabled"
+				table_id: 2919854265915651793L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			subtitle: "Modded Minecraft 101... You need a backpack. Its essential."
+			description: ["So, Go ahead and craft a inmis Baby Backpack and turn it in for a better reward! After that, work on getting higher tiers of the backpacks as you get so much more storage space."]
+			id: "43E87948D1604211"
+			tasks: [{
+				id: "3939E3B0004E3AFE"
+				type: "item"
+				title: "Turn in your empty baby backpack"
+				item: {
+					id: "inmis:baby_backpack"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "75F74210F46C8EB5"
+				type: "item"
+				item: {
+					id: "inmis:frayed_backpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Chistel This, Chisel That"
+			x: 7.5d
+			y: 4.5d
+			subtitle: "We got Chisels.... and its a wonderful tool for a inchling."
+			description: ["Bits n Chisels allows the player to chisel out ANY block in the world. Try it out!"]
+			id: "0C01DD5FD3795E65"
+			tasks: [{
+				id: "2773F5A9BADC3CB7"
+				type: "item"
+				item: {
+					id: "bitsandchisels:iron_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D8CC593AA9330B5"
+				type: "item"
+				item: "additionaladditions:mysterious_bundle"
+			}]
+		}
+		{
+			title: "Moar Space"
+			x: 4.0d
+			y: 3.5d
+			subtitle: "With all the Mining you will be doing a dank is a great way to hold the blocks you mine."
+			description: [
+				"The Dank 1 Can hold 256 of 9 different items. "
+				""
+				"Each tier hold 4X the stack size and 9 more types than the previous tier,"
+				""
+				"Later you can use the dock to be able to connect to your storage system"
+			]
+			id: "135CCA336BE0DDCF"
+			tasks: [{
+				id: "7F8FF314DE302FFF"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			title: "Reset Origins"
+			icon: "origins:orb_of_origin"
+			x: 4.5d
+			y: 4.5d
+			subtitle: "Learn how to reset your origin"
+			description: ["Craft a Orb of Origin to reset your origin. But look, i'm a nice guy. I'll give you one free reset because you're awesome."]
+			id: "19534F81193FF552"
+			tasks: [{
+				id: "2F701E70DBDA56F4"
+				type: "checkmark"
+				title: "Yay, one free reset"
+			}]
+			rewards: [{
+				id: "3A95EC1EBB4CBF72"
+				type: "item"
+				title: "Orb of Origin"
+				item: "origins:orb_of_origin"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Find Structures with this guy"
+			dependencies: ["0DFD9D948D188C8A"]
+			hide: true
+			id: "37858C2342635F64"
+			tasks: [{
+				id: "266725330869C202"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "19AFFE0A6973B745"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Mining Dimensions"
+			icon: "spectrum:end_portal_cracker"
+			x: 6.5d
+			y: 1.0d
+			subtitle: "We have 4 dimensions that you can visit to mine, hunt, climb, or cave (weird). "
+			description: [
+				"Mining Dimension:"
+				"A dimension with two biomes (desert and plains) and is always noon; same ores and structures as Overworld; made using the vanilla portal method but with deepslate and lit with flint-n-steel. "
+				""
+				"Caving Dimension:"
+				"A safe haven dimension of Mushroom biome caves; same ores as Overworld; made with tuff and lit with flint-n-steel;"
+				""
+				"Climbing Dimension:"
+				"A dimensions with two biomes (badlands and wind-swept hills) and is always noon; same ores and structures as Overworld; made with snow blocks and lit with flint-n-steel."
+				""
+				"Hunting Dimension:"
+				"A dimension with just plains, always dark, and full of juiced up, armored mobs; only vanilla ores; made with oak logs and lit with flint-n-steel; seriously, the mobs are tough and you will likely die!"
+				"However, you get good loot from slaying those mobs."
+			]
+			id: "7E27FCFA8A163F34"
+			tasks: [
+				{
+					id: "1BBD77438CA10D7D"
+					type: "dimension"
+					dimension: "mining_dims:mining_dim"
+				}
+				{
+					id: "0B619480978757F4"
+					type: "dimension"
+					dimension: "mining_dims:caving_dim"
+				}
+				{
+					id: "6F16EEBEFD4CB46C"
+					type: "dimension"
+					dimension: "mining_dims:climbing_dim"
+				}
+				{
+					id: "0E180EB35C171125"
+					type: "dimension"
+					dimension: "mining_dims:hunting_dim"
+				}
+			]
+			rewards: [{
+				id: "76C3DB86D83E02D0"
+				type: "random"
+				title: "Random Weapon Reward"
+				icon: {
+					id: "magicfungi:impetus_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				table_id: 707184499980441339L
+			}]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "modId": "valleycraft",
+  "group": {
+    "name": "Valley Craft Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:diamond"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "valleycraft:apple_sapling"
+    }
+  ]
+}

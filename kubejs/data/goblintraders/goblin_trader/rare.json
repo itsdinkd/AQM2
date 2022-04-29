@@ -1,0 +1,254 @@
+{
+  "replace": true
+  "trades": [
+    {
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:experience_bottle",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 64,
+      "merchant_experience": 4,
+      "player_experience": 40
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:name_tag",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 24
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:paper",
+        "count": 8
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 2,
+      "merchant_experience": 4,
+      "player_experience": 40
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:blue_ice",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:packed_ice",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 64,
+      "merchant_experience": 4,
+      "player_experience": 40
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_cat",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 32
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_blocks",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 32
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_chirp",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 32
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_mellohi",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 32
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_stal",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 32
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:fishing_rod",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:luck_of_the_sea",
+      "offer_level": 5,
+      "payment_level": 3
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "item": {
+        "item": "gofish:slime_rod",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "item": "givemehats:witch_hat",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantments": [
+        {
+          "id": "minecraft:lure",
+          "level": 4
+        }
+      ]
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "item": {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "item": "givemehats:tater_hat",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantments": [
+        {
+          "id": "minecraft:efficiency",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "item": {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "item": "dragonloot:dragon_scale",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantments": [
+        {
+          "id": "minecraft:fortune",
+          "level": 4
+        }
+      ]
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "item": {
+        "item": "minecraft:diamond_axe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "item": "dragonloot:dragon_scale",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantments": [
+        {
+          "id": "minecraft:efficiency",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "type": "goblintraders:upgraded_basic",
+      "item": {
+        "item": "minecraft:diamond_shovel",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "item": "dragonloot:dragon_scale",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantments": [
+        {
+          "id": "minecraft:efficiency",
+          "level": 5
+        }
+      ]
+    }
+  ]
+}

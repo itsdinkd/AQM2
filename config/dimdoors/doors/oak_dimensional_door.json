@@ -1,0 +1,46 @@
+{
+  "id": "dimdoors:oak_dimensional_door",
+  "itemSettings": {
+    "parent": "minecraft:oak_door",
+    "maxCount": 1,
+    "rarity": "uncommon",
+    "fireproof": false
+  },
+  "blockSettings": {
+    "parent": "minecraft:oak_door",
+    "luminance": 10
+  },
+  "riftData": [
+    {
+      "data": {
+        "destination": {
+          "type": "dimdoors:available_link",
+          "noLinkBack": 0,
+          "coordFactor": 1.0,
+          "acceptedGroups": [
+            0
+          ],
+          "positiveDepthFactor": 10000.0,
+          "weightMaximum": 100.0,
+          "negativeDepthFactor": 160.0,
+          "newRiftWeight": 1.0,
+          "noLink": 0
+        },
+        "properties": {
+          "groups": [
+            0,
+            1
+          ],
+          "entranceWeight": 0.0,
+          "linksRemaining": 1,
+          "oneWay": 0,
+          "floatingWeight": 0.0
+        }
+      },
+      "condition": {
+        "type": "dimdoors:always_true"
+      }
+    }
+  ],
+  "hasToolTip": true
+}

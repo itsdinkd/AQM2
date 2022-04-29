@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "bno:nether_coal_ore",
+    "minecraft:coal_ore"
+  ]
+}

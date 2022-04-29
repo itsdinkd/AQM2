@@ -1,0 +1,20 @@
+{
+    "name": "Power Generation",
+    "icon": "croparia:solar_panel",
+    "category": "croparia:tech_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title" : "Power Generation",
+            "text": "You have to generate power before using it (no way !)."
+        },
+       	{
+        	"type": "patchouli:crafting",
+        	"recipe": "croparia:crop_generator",
+            "text": "This is the simplest way to generate power anywhere. Placed in the center of a 5*5 square of crops, this block will generate power each time a crop grow.",
+        	"title": "Crop Generator"
+       	}
+        
+    ],
+    "sortnum": 0
+}
