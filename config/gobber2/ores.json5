@@ -14,7 +14,6 @@
 	   Lucky Block
 	   ***********************
 	*/
-	"luckyEnable": true,
 	"luckyVeinSize": 2,
 	"luckyMaxLevel": 100,
 	"luckyPerChunk": 11,
@@ -24,7 +23,6 @@
 	   Lucky Block - Deepslate
 	   ***********************
 	*/
-	"luckyDeepslateEnable": true,
 	"luckyDeepslateVeinSize": 1,
 	"luckyDeepslateMaxLevel": 0,
 	"luckyDeepslatePerChunk": 8,
@@ -34,7 +32,6 @@
 	   Lucky Block - Nether
 	   ***********************
 	*/
-	"luckyNetherEnable": true,
 	"luckyNetherVeinSize": 2,
 	"luckyNetherMaxLevel": 128,
 	"luckyNetherPerChunk": 11,
@@ -55,13 +52,13 @@
 	"commonThreshold": 0.1,
 	"uncommonThreshold": 0.04,
 	"rareThreshold": 0.01,
+	"defaultDrop": "gobbers:gobber2_foo",
 	/* 
 	   
 	   ***********************
 	   Gobber Ore
 	   ***********************
 	*/
-	"gobberEnable": true,
 	"gobberVeinSize": 3,
 	"gobberMaxLevel": 40,
 	"gobberPerChunk": 9,
@@ -71,17 +68,15 @@
 	   Deepslate Gobber Ore
 	   ***********************
 	*/
-	"gobberDeepslateEnable": true,
 	"gobberDeepslateVeinSize": 2,
 	"gobberDeepslateMaxLevel": 30,
-	"gobberDeepslatePerChunk": 3,
+	"gobberDeepslatePerChunk": 2,
 	/* 
 	   
 	   ***********************
 	   Nether Gobber Ore
 	   ***********************
 	*/
-	"netherGobberEnable": true,
 	"netherGobberVeinSize": 3,
 	"netherGobberMaxLevel": 60,
 	"netherGobberPerChunk": 7,
@@ -91,7 +86,6 @@
 	   End Gobber Ore
 	   ***********************
 	*/
-	"endGobberEnable": true,
 	"endGobberVeinSize": 3,
 	"endGobberMaxLevel": 100,
 	"endGobberPerChunk": 6

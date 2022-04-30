@@ -1,0 +1,28 @@
+{
+    "name": "Sturdy legs",
+    "description": "Due to your sturdy legs you only take fall damage after 13 blocks and take reduced fall damage",
+    "type": "origins:multiple",
+    "o___1_": {
+        "condition": {
+            "type": "origins:fall_distance",
+            "comparison": "<=",
+            "compare_to": 13
+        },
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        }
+    },
+    "o___1": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        },
+        "modifier": {
+            "operation": "multiply_base",
+            "value": -0.6666
+        }
+    }
+}

@@ -37,9 +37,10 @@
   },
   "enchantment": {
     "registerEnchant": false,
+    "registerSpecificEnchant": false,
     "hideEnchant": true
   },
-  "reverseSneaking": true,
+  "sneakMode": "SNEAK_DISABLE",
   "breakInCreative": false,
   "notificationMode": "ACTION_BAR"
 }

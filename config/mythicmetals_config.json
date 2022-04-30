@@ -235,6 +235,7 @@
     "trapezoid": false
   },
   "configVersion": 4,
+  "disableFunny": false,
   "blacklist": [
     "minershorizon:rocky_plains",
     "mining_dims:mining_dim",

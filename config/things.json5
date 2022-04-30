@@ -1,4 +1,6 @@
 {
+	// Whether gleaming ore should generate. Unless you plan on making custom recipes, turning this off is a bad idea
+	"generateGleamingOre": true,
 	// Disables trinket support for apples
 	"appleTrinket": true,
 	// How much faster the wax gland should make you

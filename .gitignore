@@ -1,11 +1,15 @@
 
 *.jar
+spoornpacks
+spoornpacks/*
 *.xwmc
 usernamecache.json
 materials-to-use.yaml
 *.jar
 .fabric
 chesttracker/*
+config/chisel
+mods.rar
 craftpresence
 XaeroWaypoints*
 XaeroWorldMap

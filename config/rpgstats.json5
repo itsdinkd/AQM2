@@ -1,6 +1,6 @@
-{
+{ 
 	// Level scaling formula inputs
-	"scaling": {
+	"scaling": { 
 		// Default 2.05
 		"power": 2.05,
 		// Default 0.5
@@ -14,40 +14,40 @@
 	// If players should lose all stats on death
 	"hardcoreMode": false,
 	// Toggles for level effects
-	"toggles": {
-		"magic": {
+	"toggles": { 
+		"magic": { 
 			"enableLv50Buff": true,
 			"enableLv25Buff": true
 		},
-		"melee": {
+		"melee": { 
 			"enableLv50Buff": true,
 			"enableLv25Buff": true
 		},
-		"fishing": {
+		"fishing": { 
 			"enableLv50Buff": true,
 			"enableLv25Buff": true
 		},
-		"ranged": {
+		"ranged": { 
 			"enableLv50Buff": true,
 			"enableLv25Buff": true
 		},
-		"defense": {
+		"defense": { 
 			"enableLv50Buff": true,
 			"enableLv25Buff": true
 		},
-		"mining": {
+		"mining": { 
 			// At what Y level does the lv50 effect trigger?
 			"effectLevelTrigger": 40,
 			"enableLv50Buff": true,
 			"enableLv25Buff": true
 		},
-		"farming": {
+		"farming": { 
 			"enableLv50Buff": true,
 			"enableLv25Buff": false
 		}
 	},
 	// Config for how HP scaling works with defense
-	"defenseHP": {
+	"defenseHP": { 
 		// Will only grant HP every X levels
 		"everyXLevels": 3,
 		// How much HP to grant on trigger
@@ -56,7 +56,7 @@
 		"afterLevel": 10
 	},
 	// If these damage types should grant defense XP when blocked
-	"damageBlacklist": {
+	"damageBlacklist": { 
 		"inFire": true,
 		"lightning": false,
 		"onFire": true,
@@ -81,8 +81,15 @@
 		"stalactite": false,
 		"fallingStalactite": true
 	},
+	// Options for attempting to prevent cheating
+	"antiCheat": { 
+		// Prevent duplicate XP from breaking blocks in the same location
+		"blockBreakPos": true,
+		// How many ticks before you gain XP from breaking a block from a location again
+		"blockBreakDelay": 5000
+	},
 	// Debug options
-	"debug": {
+	"debug": { 
 		"logXpGain": false,
 		"logBrokenBlocks": false,
 		"logRawOps": false,

@@ -1,0 +1,33 @@
+{
+    "name": "Combat inept",
+    "description": "You are not used to fighting an thus you deal less damage and weapons break quicker",
+    "type": "origins:multiple",
+    "o___2": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:fall_distance",
+            "comparison": "<=",
+            "compare_to": 8
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.25,
+            "name": "damage prevention"
+        }
+    },
+    "dur": {
+        "type": "origins:action_on_hit",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:damage",
+                    "amount": 2
+                }
+            }
+        }
+    }
+}

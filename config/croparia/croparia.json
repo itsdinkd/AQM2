@@ -21,7 +21,7 @@
       "value": 4400
     },
     "Deepslates Elematilius Ore Veins": {
-      "comment": "Number of deepslate vein per chunk. Default : 2",
+      "comment": "Number of deepslate elemarilius ore vein per chunk. Default : 2",
       "value": 0
     },
     "Harvester Range": {
@@ -41,7 +41,7 @@
       "value": 2
     },
     "Deepslate Elematilius Ore Vein Size": {
-      "comment": "Deepslate Vein size. Default : 2",
+      "comment": "Deepslate elematilius ore Vein size. Default : 2",
       "value": 0
     },
     "Elematilius Ore Veins": {

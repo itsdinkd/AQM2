@@ -2,25 +2,9 @@
 	/* 
 	   
 	   ******************************
-	   ENABLE/DISABLE TOOLS
-	   ******************************
-	*/
-	"enableHookKnife": true,
-	"enableTreeTrimmer": true,
-	"enableHandPick": true,
-	"enableHandTiller": true,
-	"enableClamDigger": true,
-	"enableCrackHammer": true,
-	"enableGlassPlacer": true,
-	"enableTrashCan": true,
-	/* 
-	   
-	   ******************************
 	   SPRING BLOCKS
 	   ******************************
 	*/
-	"enableLavaSpring": true,
-	"enableWellSpring": true,
 	"laveSpringPowerFurnace": true,
 	/* 
 	   

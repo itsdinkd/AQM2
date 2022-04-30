@@ -2,29 +2,6 @@
 	/* 
 	   
 	   ***********************
-	   Portals
-	   ***********************
-	*/
-	"enableMiningPortal": true,
-	"enableHuntingPortal": true,
-	"enableCavingPortal": true,
-	"enableNetheringPortal": false,
-	"enableClimbingPortal": true,
-	/* 
-	   
-	   ***********************
-	   Portable Teleporters
-	   ***********************
-	*/
-	"enableMiningTeleporter": false,
-	"enableHuntingTeleporter": false,
-	"enableCavingTeleporter": false,
-	"enableNetheringTeleporter": false,
-	"enableClimbingTeleporter": false,
-	"enableReturningEnchantment": false,
-	/* 
-	   
-	   ***********************
 	   Teleporters
 	    * disable check and place player
 	    possibly in middle of an ocean on
@@ -40,7 +17,6 @@
 	    (Also affects the Mining, Climbing, & Caving Dims)
 	   ***********************
 	*/
-	"enableExtraDiamond": false,
 	"extraDiamondDeepslateVeinSize": 1,
 	"extraDiamondDeepslateVeinsPerChunk": 2,
 	"extraDiamondDeepslateMaxHeight": -50,
@@ -51,7 +27,6 @@
 	    (Also affects the Nethering Dim)
 	   ***********************
 	*/
-	"enableExtraAncientDebris": false,
 	"extraAncientDebrisVeinSize": 3,
 	"extraAncientDebrisVeinsPerChunk": 8,
 	"extraAncientDebrisMaxHeight": 40,

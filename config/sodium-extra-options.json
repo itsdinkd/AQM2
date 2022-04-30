@@ -5,7 +5,8 @@
     "lava": true,
     "fire": true,
     "portal": true,
-    "block_animations": true
+    "block_animations": true,
+    "sculk_sensor": false
   },
   "particle_settings": {
     "particles": true,
@@ -43,7 +44,7 @@
   },
   "extra_settings": {
     "overlay_corner": "TOP_LEFT",
-    "show_fps": true,
+    "show_fps": false,
     "show_f_p_s_extended": true,
     "show_coords": false,
     "reduce_resolution_on_mac": true,
@@ -52,5 +53,8 @@
     "instant_sneak": false,
     "prevent_shaders": false,
     "use_fast_random": true
+  },
+  "notification_settings": {
+    "hide_r_s_o_recommendation": false
   }
 }

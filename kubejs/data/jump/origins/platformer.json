@@ -1,0 +1,17 @@
+{
+    "name": "Platformer",
+    "description": "You learned to jump like the plumber",
+    "powers": [
+        "jump:better_jumping",
+        "jump:dash",
+        "jump:can_dash",
+        "jump:can_double_jump",
+        "jump:arodynamic",
+        "jump:sturdy_legs",
+        "jump:less_damage"
+    ],
+    "icon": {
+        "item": "minecraft:leather_boots"
+    },
+    "impact": 2
+}

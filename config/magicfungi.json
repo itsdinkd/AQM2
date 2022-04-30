@@ -31,8 +31,44 @@
   "morbusScytheEffectDuration": 8,
   //Morbus Scythe's wither effect strength. 0 = I, 1 = II, etc.
   "morbusScytheEffectStrength": 0,
-  //Spawnrate for generation of the Host Biome. Increase if using any biome overhaul-styled mods, as otherwise the biome will be exceedingly rare.
-  "hostBiomeSpawnRate": 4.0,
+  //Magical Fungi Armor's Durability Multiplier. Changing this value on worlds where you already have Magical Fungi Armor is NOT recommended.
+  "magicalFungiArmorDurabilityMultiplier": 45,
+  //Magical Fungi Armor's toughness. Armor Toughness defines how much damage is absorbed by the armor.
+  "magicalFungiArmorToughness": 3.5,
+  //Magical Fungi Armor's knockback resistance. Greater values are not recommended, as they may result in no knockback whatsoever.
+  "magicalFungiKnockBackResistance": 0.15,
+  //Whether Impetus Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateImpetusMushrooms": true,
+  //Whether Clypeus Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateClypeusMushrooms": true,
+  //Whether Impetus Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateUtilisMushrooms": true,
+  //Whether Vivifica Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateVivificaMushrooms": true,
+  //Whether Morbus Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateMorbusMushrooms": true,
+  //Impetus Mushrooms' spawn ratio at normal circumstances.
+  "impetusRegularSpawnRatio": 12,
+  //Impetus Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
+  "impetusBiomeEnhancedSpawnRatio": 28,
+  //Clypeus Mushrooms' spawn ratio at normal circumstances.
+  "clypeusRegularSpawnRatio": 12,
+  //Clypeus Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
+  "clypeusBiomeEnhancedSpawnRatio": 28,
+  //Utilis Mushrooms' spawn ratio at normal circumstances.
+  "utilisRegularSpawnRatio": 12,
+  //Utilis Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
+  "utilisBiomeEnhancedSpawnRatio": 28,
+  //Vivifica Mushrooms' spawn ratio at normal circumstances.
+  "vivificaRegularSpawnRatio": 12,
+  //Vivifica Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
+  "vivificaBiomeEnhancedSpawnRatio": 28,
+  //Spawnrate for generation of the Host Biome.
+  "hostBiomeSpawnRate": 4,
+  //Whether Wither Roses will be generated on the Host Biome.
+  "canGenerateWitherRoseHostBiome": true,
+  //How often will Wither Roses generate on the Host Biome.
+  "hostBiomeWitherRoseSpawnRatio": 12,
   //Whether Host Grass will start spreading towards non-grass blocks after X in-game days.
   //This only affects the default gamerule value for this setting.
   //To change this on already generated worlds, use /gamerule doMorbusSpread.

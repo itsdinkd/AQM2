@@ -13,5 +13,6 @@
   "reverseLastNames": false,
   "nameTagNames": true,
   "piglinNames": true,
-  "piglinSurnames": true
+  "piglinSurnames": true,
+  "illagerEntityNames": true
 }

@@ -1,0 +1,196 @@
+{
+    "name": "Better jumping",
+    "description": "You jump 2 blocks high! and gain a double jump and wall jump.",
+    "type": "origins:multiple",
+    "double_jump": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:block_collision",
+                    "offset_x": 1.2,
+                    "offset_y": 1.2,
+                    "offset_z": 1.2
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "jump:can_double_jump",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:attribute",
+                    "attribute": "minecraft:generic.armor",
+                    "comparison": "<=",
+                    "compare_to": 12
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:sprinting"
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "y": 0.6,
+                    "space": "world",
+                    "set": true
+                },
+                {
+                    "type": "origins:add_velocity",
+                    "z": 0.1,
+                    "space": "local"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "jump:can_double_jump",
+                    "change": -1,
+                    "operation": "add"
+                }
+            ]
+        },
+        "cooldown": 5,
+        "hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 16
+        },
+        "key": {
+            "key": "key.jump"
+        }
+    },
+    "double_jump_sprinting": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:block_collision",
+                    "offset_x": 1.2,
+                    "offset_y": 1.2,
+                    "offset_z": 1.2
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "jump:can_double_jump",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:attribute",
+                    "attribute": "minecraft:generic.armor",
+                    "comparison": "<=",
+                    "compare_to": 12
+                },
+                {
+                    "type": "origins:sprinting"
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "y": 0.6,
+                    "space": "world",
+                    "set": true
+                },
+                {
+                    "type": "origins:add_velocity",
+                    "z": 0.15,
+                    "space": "local"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "jump:can_double_jump",
+                    "change": -1,
+                    "operation": "add"
+                }
+            ]
+        },
+        "cooldown": 5,
+        "hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 16
+        },
+        "key": {
+            "key": "key.jump"
+        }
+    },
+    "higher_jump": {
+        "condition": {
+            "type": "origins:attribute",
+            "attribute": "minecraft:generic.armor",
+            "comparison": "<=",
+            "compare_to": 12
+        },
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.2
+        }
+    },
+    "reset_double_jump": {
+        "type": "origins:action_on_land",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "jump:can_double_jump",
+            "change": 2,
+            "operation": "add"
+        }
+    },
+    "wall_jump": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:collided_horizontally"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:on_block"
+                },
+                {
+                    "type": "origins:attribute",
+                    "attribute": "minecraft:generic.armor",
+                    "comparison": "<=",
+                    "compare_to": 12
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:add_velocity",
+                    "y": 0.6,
+                    "space": "world",
+                    "set": true
+                },
+                {
+                    "type": "origins:add_velocity",
+                    "z": -0.4,
+                    "space": "local"
+                }
+            ]
+        },
+        "cooldown": 5,
+        "hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 16
+        },
+        "key": {
+            "key": "key.jump"
+        }
+    }
+}

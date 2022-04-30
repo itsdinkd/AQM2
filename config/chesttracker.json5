@@ -11,7 +11,8 @@
 	"databaseOptions": {
 		"destroyedMemoryCheckInterval": 20,
 		"readableFiles": false,
-		"safeFileNames": false
+		"safeFileNames": false,
+		"prefixFilesWithUsername": false
 	},
 	"miscOptions": {
 		"printGuiClassNames": false,

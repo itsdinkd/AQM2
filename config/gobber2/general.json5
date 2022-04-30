@@ -2,65 +2,6 @@
 	/* 
 	   
 	   ***********************
-	   Enable-Disable Rings
-	   ***********************
-	*/
-	"enableRingAbove": true,
-	"enableRingAirWalking": false,
-	"enableRingAscent": true,
-	"enableRingAttraction": true,
-	"enableRingBlink": true,
-	"enableRingCuring": true,
-	"enableRingDismissal": true,
-	"enableRingEnderchest": true,
-	"enableRingExplorer": true,
-	"enableRingFarmer": false,
-	"enableRingHaste": true,
-	"enableRingLuck": true,
-	"enableRingMiner": true,
-	"enableRingPhoenix": false,
-	"enableRingRepair": false,
-	"enableRingReturn": true,
-	"enableRingStealth": false,
-	"enableRingStrength": false,
-	"enableRingSunshine": false,
-	"enableRingSwiftness": true,
-	"enableRingTeleport": true,
-	"enableRingTraveler": true,
-	"enableRingVision": true,
-	"enableRingVoid": true,
-	/* 
-	   
-	   ***********************
-	   Enable-Disable Staffs
-	   ***********************
-	*/
-	"enableStaffClearing": true,
-	"enableStaffEnsnarement": true,
-	"enableStaffFarmer": false,
-	"enableStaffNature": true,
-	"enableStaffSniper": true,
-	"enableStaffStars": true,
-	"enableStaffTransformation": true,
-	"enableStaffHostileEnsnarement": false,
-	/* 
-	   
-	   ***********************
-	   Enable-Disable Medallions
-	   ***********************
-	*/
-	"enableMedallionBreathing": true,
-	"enableMedallionLesserHealing": true,
-	"enableMedallionHealing": true,
-	"enableMedallionGreaterHealing": true,
-	"enableMedallionExp": true,
-	"enableMedallionHero": true,
-	"enableMedallionSea": true,
-	"enableMedallionShielding": false,
-	"enableMedallionSuffering": false,
-	/* 
-	   
-	   ***********************
 	   Ring Settings
 	   ***********************
 	*/
@@ -88,6 +29,7 @@
 	"ringMinerCooldown": 130,
 	"ringMinerRange": 4,
 	"ringMinerVerticalRange": 5,
+	"ringMinerSharedBreaking": false,
 	"ringMinerDelayedBreak": false,
 	"ringRepairInterval": 180,
 	"ringStrengthLevel": 2,
@@ -148,10 +90,6 @@
 	"swordSniperCooldoown": 140,
 	"enableEndHammer5x5": true,
 	"enableEndExcavator5x5": true,
-	"enableTreeAxe": true,
-	"enableHammers": true,
-	"enableExcavators": true,
-	"enablePaxels": true,
 	"enableNetherSwordPerks": true,
 	/* 
 	   
@@ -301,8 +239,6 @@
 	   ***********************
 	*/
 	"unbreakableDragonArmor": true,
-	"enableDragonArmorWithoutFlight": true,
-	"enableDragonArmorWithFlight": false,
 	"enableDragonBreathing": true,
 	"enableDragonFirePerk": false,
 	"enableDragonHealthPerks": false,
@@ -310,22 +246,13 @@
 	"enableDragonCuring": false,
 	"enableDragonNoFallDamage": true,
 	"enableGlidingDragonArmor": true,
+	"enableDragonFlying": false,
 	/* 
 	   
 	   ***********************
 	   Enchantments
 	   ***********************
 	*/
-	"enableSmithblade": true,
-	"enableRebuffing": true,
-	"enableFasterObsidian": true,
-	"enableUntouchable": true,
-	"enableQuickUse": false,
-	"enableBlinders": true,
-	"enableSolidFooting": true,
-	"enableApotropaic": true,
-	"enableFluidMaster": true,
-	"enableSummoner": false,
 	"enableSummonerBonusStats": false,
 	"summonerGoldGear": true,
 	"summonerMobLifespan": 120,
@@ -387,19 +314,5 @@
 	*/
 	"fooBurntime": 9000,
 	"fooNetherBurntime": 18000,
-	"fooEndBurntime": 30000,
-	/* 
-	   
-	   ***********************
-	   Nemesis Settings
-	   
-	   ***********************
-	*/
-	"enableNemesis": true,
-	"dropChanceNemesis": 0.05,
-	"attackDamageNemesis": 13.5,
-	"healthNemesis": 38.0,
-	"movementSpeedNemesis": 0.38,
-	"attackKnockbackNemesis": 1.0,
-	"knockbackResistanceNemesis": 1.7
+	"fooEndBurntime": 30000
 }
