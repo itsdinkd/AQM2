@@ -1,0 +1,45 @@
+{
+  "id": "dimdoors:dungeon_door",
+  "itemSettings": {
+    "parent": "dimdoors:stone_door",
+    "maxCount": 1,
+    "rarity": "uncommon",
+    "fireproof": false
+  },
+  "blockSettings": {
+    "parent": "dimdoors:stone_door"
+  },
+  "riftData": [
+    {
+      "data": {
+        "destination": {
+          "coordFactor": 1.0,
+          "newRiftWeight": 1.0,
+          "positiveDepthFactor": 10000.0,
+          "weightMaximum": 100.0,
+          "noLink": 0,
+          "negativeDepthFactor": 160.0,
+          "noLinkBack": 0,
+          "acceptedGroups": [
+            0
+          ],
+          "type": "dimdoors:available_link"
+        },
+        "properties": {
+          "groups": [
+            0,
+            1
+          ],
+          "oneWay": 0,
+          "linksRemaining": 1,
+          "floatingWeight": 0.0,
+          "entranceWeight": 0.0
+        }
+      },
+      "condition": {
+        "type": "dimdoors:always_true"
+      }
+    }
+  ],
+  "hasToolTip": true
+}

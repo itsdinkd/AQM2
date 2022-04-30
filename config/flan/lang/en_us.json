@@ -276,6 +276,9 @@
   "NOHUNGER.desc": [
     "Disable hunger"
   ],
+  "CLAIMMESSAGE.desc": [
+    "Permission to edit the enter/leave message"
+  ],
   "HURTPLAYER.desc": [
     "Permission to hurt other players"
   ],

@@ -42,12 +42,12 @@
           "fontColor": 10526880
         }
       ],
-      "activeTheme": "waila:vanilla"
+      "activeTheme": "waila:dark"
     },
     "scale": 1.0
   },
-  "formatting": {
-    "modName": "§9§o§l%s",
+  "formatter": {
+    "modName": "§9§o%s",
     "blockName": "§f%s",
     "fluidName": "§f%s",
     "entityName": "§f%s",

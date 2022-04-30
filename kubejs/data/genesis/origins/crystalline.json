@@ -1,0 +1,11 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:amethyst_shard",
+  "order": 2,
+  "impact": 2,
+  "name":"Crystalline",
+  "description": "§6Deep in the earth, fractals stir... But they are not yet ready to emerge.                    §5§n§l[Coming Soon!]",
+  "unchoosable": true,
+  "loading_priority": 100
+}

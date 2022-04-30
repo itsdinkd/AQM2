@@ -1,0 +1,26 @@
+{
+  "id": "dimdoors:gold_dimensional_door",
+  "itemSettings": {
+    "parent": "dimdoors:gold_door",
+    "maxCount": 1,
+    "rarity": "uncommon",
+    "fireproof": false
+  },
+  "blockSettings": {
+    "parent": "dimdoors:gold_door",
+    "luminance": 10
+  },
+  "riftData": [
+    {
+      "data": {
+        "destination": {
+          "type": "dimdoors:public_pocket"
+        }
+      },
+      "condition": {
+        "type": "dimdoors:always_true"
+      }
+    }
+  ],
+  "hasToolTip": true
+}

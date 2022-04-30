@@ -1,0 +1,27 @@
+{
+  "id": "dimdoors:oak_dimensional_door",
+  "itemSettings": {
+    "parent": "minecraft:oak_door",
+    "maxCount": 1,
+    "rarity": "uncommon",
+    "fireproof": false
+  },
+  "blockSettings": {
+    "parent": "minecraft:oak_door",
+    "luminance": 10
+  },
+  "riftData": [
+    {
+      "data": {
+        "destination": {
+          "canEscapeLimbo": 1,
+          "type": "dimdoors:escape"
+        }
+      },
+      "condition": {
+        "type": "dimdoors:always_true"
+      }
+    }
+  ],
+  "hasToolTip": true
+}

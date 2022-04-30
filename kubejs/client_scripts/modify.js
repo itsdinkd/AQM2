@@ -1,88 +1,123 @@
 // Another Quality Modpack 2 //
 //////////////////////////////
-onEvent("rei.hide.items", event => { event.hide('kibe:chunk_loader');  event.hide('doom:invisiblesphere');   event.hide('kibe:diamond_kibe');  event.hide('kibe:golden_kibe');  event.hide('things:moss_necklace');  event.hide('things:hades_crystal');  event.hide('things:hardening_catalyst');  var k_g = ["mk1","mk2","mk3","mk4","mk5",];var kcg = 'kibe:cobblestone_generator_';var kbg = 'kibe:basalt_generator_';k_g.forEach(function(item,index){event.hide(kbg + item);event.hide(kcg + item)})
+onEvent("rei.hide.items", event => { 
 
-  // event.hide('blast:cold_digger');
-  // event.hide('blast:stripminer');
-  event.hide('agape_space:enhanced_helmet');
-  // event.hide('battletowers:boss_key');
-  event.hide('bewitchment:prickly_belt');
-  event.hide('bewitchment:specter_bangle');
-  event.hide('bno:copper_nugget');
-  event.hide('botania:balance_cloak')
-  event.hide('botania:blood_pendant')
-  event.hide('botania:cocoon')
-  event.hide('botania:diving_rod')
-  event.hide('botania:fel_pumpkin')
-  event.hide('botania:flight_tiara')
-  event.hide('botania:flight_tiara_0')
-  event.hide('botania:flight_tiara_1')
-  event.hide('botania:flight_tiara_2')
-  event.hide('botania:flight_tiara_3')
-  event.hide('botania:flight_tiara_4')
-  event.hide('botania:flight_tiara_5')
-  event.hide('botania:flight_tiara_6')
-  event.hide('botania:flight_tiara_7')
-  event.hide('botania:flight_tiara_8')
-  event.hide('botania:laputa_shard')
-  event.hide('botania:missile_rod')
-  event.hide('botania:smelt_rod')
-  event.hide('botania:spawner_claw')
-  event.hide('botania:super_lava_pendant')
-  event.hide('botania:terraform_rod')
-  event.hide('botania:tornado_rod')
-  event.hide('botania:water_ring')
-  event.hide('mining_dims:diamond_nugget')
-  event.hide('mythicmetals:copper_nugget');
-  event.hide('spectrum:exchange_staff')
-  event.hide('techreborn:nuke')
-  event.hide('valley:copper_nugget');
-  // event.hide('croptosis:feather_meal');
-  // event.hide('croptosis:rotten_pile');
-  event.hide('doom:daisy');
-  event.hide('doom:soulcube');
-  // event.hide('givemehats:bunny_space_hat');
-  // event.hide('givemehats:irish_hat');
-  // event.hide('givemehats:strider_hat');
-  event.hide('kibe:cursed_lasso');
-  event.hide('kibe:diamond_lasso');
-  event.hide('kibe:diamond_spikes');
-  event.hide('kibe:gold_spikes');
-  event.hide('kibe:iron_spikes');
-  event.hide('kibe:stone_spikes');
-  event.hide('kibe:water_ring');
-  event.hide('kibe:magma_ring');
-  // event.hide('lacrimis:rune/spawner');
-  event.hide('mcdw:sword_the_starless_night')
-  event.hide('things:monocle');
-  event.hide('winged:heart_of_the_sky');
-   event.hide('winged:heart_of_the_sky_25')
-   event.hide('winged:heart_of_the_sky_50')
-   event.hide('winged:heart_of_the_sky_75')
+var aqmClientRemove = [
+'agape_space:enhanced_helmet',
+'bewitchment:prickly_belt',
+'bewitchment:specter_bangle',
+'bno:copper_nugget',
+'botania:balance_cloak',
+'botania:blood_pendant',
+'botania:cocoon',
+'botania:diving_rod',
+'botania:fel_pumpkin',
+'botania:flight_tiara',
+'botania:flight_tiara_0',
+'botania:flight_tiara_1',
+'botania:flight_tiara_2',
+'botania:flight_tiara_3',
+'botania:flight_tiara_4',
+'botania:flight_tiara_5',
+'botania:flight_tiara_6',
+'botania:flight_tiara_7',
+'botania:flight_tiara_8',
+'botania:laputa_shard',
+'botania:missile_rod',
+'botania:smelt_rod',
+'botania:spawner_claw',
+'botania:super_lava_pendant',
+'botania:terraform_rod',
+'botania:tornado_rod',
+'botania:water_ring',
+'doom:daisy',
+'doom:invisiblesphere',
+'doom:soulcube',
+'kibe:chunk_loader',
+'techreborn:chunk_loader',
+'kibe:cursed_lasso',
+'kibe:diamond_kibe',
+'kibe:diamond_lasso',
+'kibe:diamond_spikes',
+'kibe:gold_spikes',
+'kibe:golden_kibe',
+'kibe:iron_spikes',
+'kibe:magma_ring',
+'kibe:stone_spikes',
+'kibe:water_ring',
+'mcdw:sword_the_starless_night',
+'gobber2:gobber2_medallion_shielding',
+'gobber2:gobber2_medallion_suffering',
+'gobber2:gobber2_ring_airwalking',
+'gobber2:gobber2_ring_farmer',
+'gobber2:gobber2_ring_phoenix',
+'gobber2:gobber2_ring_repair',
+'gobber2:gobber2_ring_strength',
+'gobber2:gobber2_ring_sunshine',
+'gobber2:gobber2_staff_farmer',
+'gobber2:gobber2_staff_hostile_ensnarement',
+'mining_dims:caving_teleporter',
+'mining_dims:climbing_teleporter',
+'mining_dims:hunting_teleporter',
+'mining_dims:mining_teleporter',
+'mining_dims:nethering_portal_block',
+'mining_dims:nethering_teleporter',
+'mining_dims:diamond_nugget',
+'miningutility:escape_rope',
+'miningutility:mining_helmet',
+'modern_industrialization:gravichestplate',
+'modern_industrialization:quantum_boots',
+'modern_industrialization:quantum_chestplate',
+'modern_industrialization:quantum_helmet',
+'modern_industrialization:quantum_leggings',
+'modern_industrialization:quantum_sword',
+'modern_industrialization:replicator',
+'prefab:item_swift_blade_bronze',
+'prefab:item_swift_blade_copper',
+'prefab:item_swift_blade_diamond',
+'prefab:item_swift_blade_gold',
+'prefab:item_swift_blade_iron',
+'prefab:item_swift_blade_netherite',
+'prefab:item_swift_blade_obsidian',
+'prefab:item_swift_blade_osmium',
+'prefab:item_swift_blade_steel',
+'prefab:item_swift_blade_stone',
+'prefab:item_swift_blade_wood',
+'myloot:loot_chest_minecart',
+'myloot:loot_chest',
+'myloot:loot_shulker_box',
+'myloot:opened_loot_chest',
+'mythicmetals:copper_nugget',
+'quarryplus:adv_quarry',
+'quarryplus:flex_marker',
+'quarryplus:marker16',
+'quarryplus:remove_bedrock_module',
+'spectrum:emergency_boots',
+'spectrum:emergency_chestplate',
+'spectrum:emergency_helmet',
+'spectrum:emergency_leggings',
+'spectrum:exchange_staff',
+'techreborn:nuke',
+'things:hades_crystal',
+'things:monocle',
+'things:moss_necklace',
+'valley:copper_nugget',
+'winged:heart_of_the_sky',
+'winged:heart_of_the_sky_25',
+'winged:heart_of_the_sky_50',
+'winged:heart_of_the_sky_75'
+];
 
-  event.hide('miningutility:escape_rope');
-  event.hide('miningutility:mining_helmet');
-  // Modern Industrialization
-  event.hide('modern_industrialization:quantum_chestplate');
-  event.hide('modern_industrialization:quantum_leggings');
-  event.hide('modern_industrialization:quantum_boots');
-  event.hide('modern_industrialization:quantum_helmet');
-  event.hide('modern_industrialization:quantum_sword');
-  event.hide('modern_industrialization:gravichestplate');
-  event.hide('modern_industrialization:replicator');
+aqmClientRemove.forEach(function(item, index) {
+  event.hide(item)
+});
 
-  // QuarryPlus
-  event.hide('quarryplus:flex_marker');
-  event.hide('quarryplus:marker16');
-  event.hide('quarryplus:remove_bedrock_module');
-  event.hide('quarryplus:adv_quarry')
+  // event.hide('lacrimis:rune/spawner',;
+  // event.hide('croptosis:feather_meal',;
+  // event.hide('croptosis:rotten_pile',;
+  // event.hide('battletowers:boss_key',;
 
-// Spectrum emergency armor
-  event.hide('spectrum:emergency_chestplate');
-  event.hide('spectrum:emergency_leggings');
-  event.hide('spectrum:emergency_boots');
-  event.hide('spectrum:emergency_helmet')
-
+var k_g = ["mk1","mk2","mk3","mk4","mk5",];var kcg = 'kibe:cobblestone_generator_';var kbg = 'kibe:basalt_generator_';k_g.forEach(function(item,index){event.hide(kbg + item);event.hide(kcg + item)})
   // bewitchment boats (causes crash)
   var witchBoats = [
     "juniper",
@@ -155,7 +190,4 @@ onEvent("rei.hide.items", event => { event.hide('kibe:chunk_loader');  event.hid
 
   // event.hide("crookedcrooks:ir_bronze_crook");
 
-  // // copper nugget duplicates
-  // event.hide('consistency_plus:copper_nugget');
-  // event.hide('valleycraft:copper_nugget');
 })

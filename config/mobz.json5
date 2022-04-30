@@ -180,6 +180,6 @@
 	"WildBoarSpawnRate": 5,
 	"WitherBlazeSpawnRate": 5,
 	"ZombieMageSpawnRate": 5,
-	"ToadSpawnRate": 8,
+	"ToadSpawnRate": 0,
 	"SpawnCountBabyRavagerBlock": 8
 }

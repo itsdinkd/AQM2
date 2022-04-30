@@ -1559,3 +1559,7 @@ mode = "fancy"
 			[light_sources.settings.entities.myloot]
 				loot_chest_minecart = true
 
+			[light_sources.settings.entities.whisperwoods]
+				moth = true
+				zotzpyre = true
+

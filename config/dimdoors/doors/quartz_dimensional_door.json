@@ -1,0 +1,41 @@
+{
+  "id": "dimdoors:quartz_dimensional_door",
+  "itemSettings": {
+    "parent": "dimdoors:quartz_door",
+    "maxCount": 1,
+    "rarity": "uncommon",
+    "fireproof": false
+  },
+  "blockSettings": {
+    "parent": "dimdoors:quartz_door",
+    "luminance": 10
+  },
+  "riftData": [
+    {
+      "data": {
+        "destination": {
+          "type": "dimdoors:private_pocket_exit"
+        }
+      },
+      "condition": {
+        "type": "dimdoors:world_match",
+        "world": "dimdoors:personal_pockets"
+      }
+    },
+    {
+      "data": {
+        "destination": {
+          "type": "dimdoors:private"
+        }
+      },
+      "condition": {
+        "type": "dimdoors:inverse",
+        "condition": {
+          "type": "dimdoors:world_match",
+          "world": "dimdoors:personal_pockets"
+        }
+      }
+    }
+  ],
+  "hasToolTip": true
+}

@@ -18,13 +18,13 @@ onEvent('recipes', event => {
    event.replaceOutput({}, "#c:salt_dusts", "bewitchment:salt");
 
   // // rice
-  event.shapeless("farmersdelight:rice", ['valley:rice_item']);
+  // event.shapeless("farmersdelight:rice", ['valley:rice_item']);
   event.shapeless("farmersdelight:rice", ['croptopia:rice']);
-  event.shapeless("valley:rice_item", ['farmersdelight:rice']);
-  event.shapeless("valley:rice_item", ['croptopia:rice']);
+  // event.shapeless("valley:rice_item", ['farmersdelight:rice']);
+  // event.shapeless("valley:rice_item", ['croptopia:rice']);
 
   event.shapeless("croptopia:rice", ['farmersdelight:rice']);
-  event.shapeless("croptopia:rice", ['valley:rice_item']);
+  // event.shapeless("croptopia:rice", ['valley:rice_item']);
 
   // // onion
   event.shapeless("farmersdelight:onion", ['valley:onion']);
@@ -38,17 +38,17 @@ onEvent('recipes', event => {
 
   //// tomato
   event.shapeless("farmersdelight:tomato", ['croptopia:tomato']);
-  // event.shapeless("farmersdelight:tomato", ['sandwichable:tomato']);
+  event.shapeless("farmersdelight:tomato", ['sandwichable:tomato']);
 
-  // event.shapeless("croptopia:tomato", ['sandwichable:tomato']);
+  event.shapeless("croptopia:tomato", ['sandwichable:tomato']);
   event.shapeless("croptopia:tomato", ['farmersdelight:tomato']);
 
-  // event.shapeless("sandwichable:tomato", ['croptopia:tomato']);
-  // event.shapeless("sandwichable:tomato", ['farmersdelight:tomato']);
+  event.shapeless("sandwichable:tomato", ['croptopia:tomato']);
+  event.shapeless("sandwichable:tomato", ['farmersdelight:tomato']);
 
   // lettuce
-  // event.shapeless("croptopia:lettuce", ['sandwichable:lettuce_leaf']);
-  // event.shapeless("sandwichable:lettuce_leaf", ['croptopia:lettuce']);
+  event.shapeless("croptopia:lettuce", ['sandwichable:lettuce_leaf']);
+  event.shapeless("sandwichable:lettuce_leaf", ['croptopia:lettuce']);
 
   // event.replaceInput({},"croptopia:cheese","#c:cheeses")
 
@@ -88,22 +88,11 @@ onEvent('recipes', event => {
     ["blockus:white_oak_log", "blockus:white_oak_log", "blockus:white_oak_log"],
   ]);
 
-  // Aluminum plate for catalyst
-  event.shapeless('techreborn:aluminum_plate', ['agape_space:aluminum_catalyst'])
-
   // Silver
   event.replaceOutput({}, "bewitchment:silver_ingot", "techreborn:silver_ingot");
   event.replaceOutput({}, "bewitchment:silver_nugget", "techreborn:silver_nugget");
   event.replaceOutput({}, "bewitchment:raw_silver", "techreborn:raw_silver");
   event.replaceOutput({}, "bewitchment:raw_silver_block", "techreborn:raw_silver_storage_block");
-
-  // veggie_way:knife
-event.remove({output: 'veggie_way:knife'});
-event.shaped('veggie_way:knife', [
-[null, null, null],
-['minecraft:iron_ingot', null, null],
-[null, 'minecraft:stick', 'minecraft:wheat_seeds'],
-]);
 
 // mcdw:dagger_dagger
 event.remove({output: 'mcdw:dagger_dagger'});
@@ -130,13 +119,6 @@ event.shaped('bitsandchisels:iron_chisel', [
 ]);
 
 event.replaceInput({type: 'minecraft:crafting_shapeless'}, 'minecraft:copper_ingot', '#c:copper_ingots')
-
-event.remove({output: 'friendsandfoes:copper_button'});
-event.shaped('friendsandfoes:copper_button', [
-['#c:copper_ingots', "minecraft:coal", null],
-[null,null,null],
-[null,null,null],
-]);
 
 // Garlic Choice
 event.replaceInput('croptopia:garlic', 'bewitchment:garlic')

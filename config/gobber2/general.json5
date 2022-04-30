@@ -18,7 +18,7 @@
 	"ringExplorerCooldown": 1200,
 	"ringExplorerUsePlayerPos": false,
 	"ringExplorerMin": 1000,
-	"ringExplorerMax": 8000,
+	"ringExplorerMax": 6000,
 	"ringFarmerHorizRange": 9,
 	"ringFarmerVertRange": 6,
 	"ringFarmerInterval": 200,

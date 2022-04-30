@@ -16,6 +16,7 @@ const disableInfo = [
 'givemehats:strider_hat',
 'givemehats:irish_hat',
 'givemehats:dwarven_hat',
+'givemehats:viking_hat',
 'botania:dice',
 'botania:infinite_fruit',
 'botania:king_key',

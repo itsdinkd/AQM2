@@ -1,4 +1,5 @@
-
+kubejs/assets
+kubejs/exported
 *.jar
 spoornpacks
 spoornpacks/*
@@ -62,3 +63,4 @@ mcdw-configs-backup/range_config.json5
 *.psd
 .persistent/multibeds/embroidery.dat
 .persistent/multibeds/projects.dat
+backups/2022-04-29_23-19-44_New World (1).zip

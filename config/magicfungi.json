@@ -64,11 +64,11 @@
   //Vivifica Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
   "vivificaBiomeEnhancedSpawnRatio": 28,
   //Spawnrate for generation of the Host Biome.
-  "hostBiomeSpawnRate": 4,
+  "hostBiomeSpawnRate": 6,
   //Whether Wither Roses will be generated on the Host Biome.
   "canGenerateWitherRoseHostBiome": true,
   //How often will Wither Roses generate on the Host Biome.
-  "hostBiomeWitherRoseSpawnRatio": 12,
+  "hostBiomeWitherRoseSpawnRatio": 8,
   //Whether Host Grass will start spreading towards non-grass blocks after X in-game days.
   //This only affects the default gamerule value for this setting.
   //To change this on already generated worlds, use /gamerule doMorbusSpread.

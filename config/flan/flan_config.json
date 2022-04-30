@@ -19,7 +19,12 @@
     "mining_dims:mining_dim",
     "mining_dims:nethering_dim",
     "mining_dims:climbing_dim",
-    "voidz:void"
+    "voidz:void",
+    "the_aether:the_aether",
+    "dimdoors:limbo",
+    "dimdoors:public_pockets",
+    "dimdoors:dungeon_pockets",
+    "spectrum:deeper_down_dimension"
   ],
   "worldWhitelist": false,
   "claimingItem": "minecraft:golden_hoe",
