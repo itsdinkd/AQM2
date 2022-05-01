@@ -40,7 +40,7 @@
 	// EXP multiplier for Ultra Mobs
 	"UltraExpMult": 12,
 	// EXP multiplier for Eldritch Mobs
-	"EldritchExpMult": 20,
+	"EldritchExpMult": 25,
 	// Difficulty increases with intensity. Intensity ranges from 1-3.
 	"intensity": 2,
 	// Level of strength applied to mobs
@@ -54,7 +54,7 @@
 		"disableYeeter": false,
 		"disableBlinding": false,
 		"disableBurning": false,
-		"disableCloaked": false,
+		"disableCloaked": true,
 		"disableDeflector": false,
 		"disableDraining": false,
 		"disableDrowning": false,

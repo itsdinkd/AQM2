@@ -88,7 +88,12 @@
   //// You can find biome identifiers by doing "/locatebiome" command in game.
   //// RS's dungeons and wells identifiers can be found here on GitHub:
   ////  https://github.com/TelepathicGrunt/RepurposedStructures/blob/1ffe99074dcdecee9e2d5e8cc90520644a7ee1cd/src/main/java/com/telepathicgrunt/repurposedstructures/modinit/RSConfiguredFeatures.java#L293-L315
-  "disallowedFeatureBiomes": {},
+  "disallowedFeatureBiomes": {
+    "repurposed_structures:dungeons_badlands": "terralith:snowy_badlands",
+    "repurposed_structures:dungeons_snow": "terralith:gravel_desert",
+    "repurposed_structures:dungeons_desert": "terralith:red_oasis",
+    "repurposed_structures:dungeons_neutral_ocean": "terralith:skylands"
+  },
   //
   //
   //

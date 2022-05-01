@@ -1,5 +1,6 @@
 //////////////////////////////////////////////
 // AOF 4 unification script - MIT licensed. //
+// Created by Team All of Fabric            //
 //////////////////////////////////////////////
 
 // Set to true to generate the client script for REI unification.

@@ -23,6 +23,6 @@ In slots containing "minecraft:the_void", biomes at the equivalent temperature/h
 		[ "byg:coconino_meadow", "byg:weeping_witch_forest", "byg:twilight_meadow", "byg:autumnal_taiga", "minecraft:old_growth_pine_taiga" ],
 		[ "minecraft:sunflower_plains", "minecraft:the_void", "byg:red_oak_forest", "minecraft:old_growth_birch_forest", "byg:jacaranda_forest" ],
 		[ "minecraft:the_void", "byg:firecracker_shrubland", "minecraft:plains", "minecraft:sparse_jungle", "minecraft:bamboo_jungle" ],
-		[ "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void", "minecraft:the_void" ]
+		[ "magicfungi:host_biome", "magicfungi:host_biome", "magicfungi:host_biome", "magicfungi:host_biome", "magicfungi:host_biome" ]
 	]
 }

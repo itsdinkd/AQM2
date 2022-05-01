@@ -525,7 +525,7 @@
       },
       "max": {
         "default": 1024,
-        "value": 2048
+        "value": 10000
       }
     },
     "dml-refabricated:rot_resistance": {

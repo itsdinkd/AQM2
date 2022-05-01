@@ -1,3 +1,6 @@
+// Another Quality Modpack 2 //
+///////////////////////////////
+
 onEvent('tags.items', event => {
 const catalystBlacklist = [
 'bewitchment:death_protection_poppet',
@@ -28,4 +31,5 @@ const catalystBlacklist = [
 	catalystBlacklist.forEach(function(item) { 
 	event.add('things:hardening_catalyst_blacklist', item)
 });
+		event.add('techreborn:wrench','c:wrenches')
 });

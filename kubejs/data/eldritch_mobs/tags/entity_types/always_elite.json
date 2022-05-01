@@ -1,6 +1,13 @@
 {
   "values": [
     "doom:motherdemon",
-    "doom:gladiator"
+    "doom:gladiator",
+    "doom:iconofsin",
+    "adventurez:void_shadow",
+    "adventurez:stone_golem",
+    "bosses_of_mass_destruction:void_blossom",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:obsidilith"
   ]
 }

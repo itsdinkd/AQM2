@@ -1,4 +1,6 @@
-// Another Quality Modpack 2
+// Another Quality Modpack 2 //
+///////////////////////////////
+
 // Macerator Recipes
 onEvent('recipes', event => {
   event.custom(

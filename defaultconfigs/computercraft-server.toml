@@ -3,14 +3,14 @@ computer_space_limit = 1000000
 #The disk space limit for floppy disks, in bytes
 floppy_space_limit = 125000
 #Set how many files a computer can have open at the same time. Set to 0 for unlimited.
-maximum_open_files = 64
+maximum_open_files = 128
 #Set this to true to disable Lua 5.1 functions that will be removed in a future update. Useful for ensuring forward compatibility of your programs now.
 disable_lua51_features = false
 #A comma separated list of default system settings to set on new computers. Example: "shell.autocomplete=false,lua.autocomplete=false,edit.autocomplete=false" will disable all autocompletion
 default_computer_settings = ""
 #Log exceptions thrown by peripherals and other Lua objects.
 #This makes it easier for mod authors to debug problems, but may result in log spam should people use buggy methods.
-log_computer_errors = false
+log_computer_errors = true
 #Require players to be in creative mode and be opped in order to interact with command computers.This is the default behaviour for vanilla's Command blocks.
 command_require_creative = true
 
@@ -49,10 +49,10 @@ command_require_creative = true
 		max_websocket_message = 131072
 		host = "*"
 		#The maximum size (in bytes) that a computer can upload in a single request. This includes headers and POST text.
-		max_upload = 1500000
+		max_upload = 4194304
 		action = "allow"
 		#The maximum size (in bytes) that a computer can download in a single request. Note that responses may receive more data than allowed, but this data will not be returned to the client.
-		max_download = 5000000
+		max_download = 16777216
 		#The period of time (in milliseconds) to wait before a HTTP request times out. Set to 0 for unlimited.
 		timeout = 30000
 

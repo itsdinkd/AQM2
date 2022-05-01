@@ -10,22 +10,22 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 5.5d
-			y: -2.5d
+			x: 6.0d
+			y: -3.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
 			image: "minecraft:textures/item/book.png"
 			hover: ["The Wiki (Coming Soon)"]
 			click: "#WIKI LINK#"
-			dev: false
+			dev: true
 			corner: false
 		}
 		{
-			x: 6.5d
+			x: 6.0d
 			y: -2.5d
-			width: 1.0d
-			height: 1.0d
+			width: 4.0d
+			height: 4.0d
 			rotation: 0.0d
 			image: "kubejs:textures/gui/presets/aqm2.png"
 			hover: ["Click here to join the AQM Discord"]

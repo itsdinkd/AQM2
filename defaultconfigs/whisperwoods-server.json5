@@ -172,12 +172,12 @@
 		},
 		"wisp": {
 			// Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-			"can_despawn": false,
+			"can_despawn": true,
 			"spawning": {
 				// Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
 				"spawn_naturally": true,
 				// The spawn weight compared to other entities (typically between 6-20)
-				"spawn_weight": 13,
+				"spawn_weight": 11,
 				// Minimum amount of entities in spawned groups
 				"minimum_group_size": 1,
 				// Maximum amount of entities in spawned groups - Must be greater or equal to min value
@@ -281,7 +281,7 @@
 				// Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
 				"spawn_naturally": true,
 				// The spawn weight compared to other entities (typically between 6-20)
-				"spawn_weight": 2,
+				"spawn_weight": 3,
 				// Minimum amount of entities in spawned groups
 				"minimum_group_size": 1,
 				// Maximum amount of entities in spawned groups - Must be greater or equal to min value
@@ -361,7 +361,7 @@
 				// Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
 				"spawn_naturally": true,
 				// The spawn weight compared to other entities (typically between 6-20)
-				"spawn_weight": 30,
+				"spawn_weight": 20,
 				// Minimum amount of entities in spawned groups
 				"minimum_group_size": 1,
 				// Maximum amount of entities in spawned groups - Must be greater or equal to min value

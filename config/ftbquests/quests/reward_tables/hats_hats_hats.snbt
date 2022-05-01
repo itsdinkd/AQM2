@@ -1,0 +1,30 @@
+{
+	id: "19657D93EACF209D"
+	order_index: 4
+	title: "Hats Hats Hats"
+	loot_size: 1
+	rewards: [
+		{ item: "givemehats:woolrus_hat" }
+		{ item: "givemehats:wolf_ears" }
+		{ item: "givemehats:witch_hat" }
+		{ item: "givemehats:topest_hat" }
+		{ item: "givemehats:top_hat" }
+		{ item: "givemehats:tater_hat" }
+		{ item: "givemehats:slime_hat" }
+		{ item: "givemehats:santa_hat" }
+		{ item: "givemehats:sailor_hat" }
+		{ item: "givemehats:russian_hat" }
+		{ item: "givemehats:jojo_hat" }
+		{ item: "givemehats:golem_bucket" }
+		{ item: "givemehats:fox_ears" }
+		{ item: "givemehats:floating_hat" }
+		{ item: "givemehats:fez_hat" }
+		{ item: "givemehats:electric_mouse_ears" }
+		{ item: "givemehats:deerstalker_hat" }
+		{ item: "givemehats:crown" }
+		{ item: "givemehats:cowboy_hat" }
+		{ item: "givemehats:cat_ears" }
+		{ item: "givemehats:bunny_ears" }
+		{ item: "givemehats:bowler_hat" }
+	]
+}

@@ -9,35 +9,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Craft Soul Mirror"
-			x: 2.5d
-			y: 3.0d
-			subtitle: "Each soul has a set of attributes and genetics that determine its type and abilities."
-			description: [
-				"Each soul has a set of attributes and genetics that determine its type and abilities. You can check the genes of your soulstones with a soul mirror"
-				""
-				"To use the soul mirror, just hold it in your off-hand and right-click with a soulstone in the other hand."
-			]
-			dependencies: ["260534C1D189BA9E"]
-			id: "735A60040CCE040B"
-			tasks: [{
-				id: "01E0B1364FCE1EF7"
-				type: "item"
-				item: {
-					id: "golemancy:soul_mirror"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "07683EA56749366D"
-				type: "item"
-				item: "golemancy:soulstone_empty"
-			}]
-		}
-		{
 			title: "The Pets that Stop Mob Spawns"
 			x: 0.0d
 			y: 0.0d
@@ -60,7 +31,11 @@
 			x: 1.0d
 			y: 0.0d
 			subtitle: "Guardians stop certain mobs from spawning"
-			description: ["Summon a guardian using the proper bowl."]
+			description: [
+				"Summon a guardian using the proper bowl."
+				""
+				"Place the bowl on top of the Anchor and the pet related to the bowl will spawn"
+			]
 			dependencies: ["1065CAB5189B3DD4"]
 			id: "6D893BC304AD9E5B"
 			tasks: [{
@@ -131,29 +106,6 @@
 			}]
 		}
 		{
-			title: "Slave Golems??"
-			x: 0.0d
-			y: 4.0d
-			subtitle: "You can create a curated Golem that will do special things"
-			description: [
-				"Thats right! You can create a curated Golem that will do special things like defending you, to breaking blocks for you, all depending on the type of soul you obtain. "
-				""
-				"Using Nether Quartz, Put 1 in a stonecutter and you shall receive a Empty Soulstone."
-			]
-			hide: false
-			id: "45C7866BB219FC18"
-			tasks: [{
-				id: "1465DAFE140DFA6A"
-				type: "item"
-				item: "golemancy:soulstone_empty"
-			}]
-			rewards: [{
-				id: "76C54A69F4CCC257"
-				type: "item"
-				item: "gofish:wooden_crate"
-			}]
-		}
-		{
 			title: "Extend Despawn Range"
 			x: 0.0d
 			y: 1.0d
@@ -169,169 +121,6 @@
 				type: "item"
 				item: "guardiansgalore:blaze_bell"
 				only_from_crafting: true
-			}]
-		}
-		{
-			title: "Capture Souls"
-			x: 1.0d
-			y: 4.0d
-			subtitle: "KILL EVERYTHING"
-			description: [
-				"Have Empty Soulstone in your inventory while you kill a mob to get a Filled Soulstone."
-				"Note: Killing Baby mobs will not count"
-				""
-				"Covetous: Endermen"
-				"Curious: Slimes"
-				"Entropic: Creepers/Silverfish"
-				"Hungry: Hoglins/Zombies"
-				"Intrepid: Shulkers"
-				"Marshy: Drowned"
-				"Parched: Blazes/Husks"
-				"Restless: Skeletons"
-				"Tactile: Phantoms"
-				"Valiant: Guardians/Ravagers"
-				"Weeping: Ghasts"
-			]
-			dependencies: ["45C7866BB219FC18"]
-			hide: false
-			id: "0D69865694FD43C4"
-			tasks: [{
-				id: "3AFA882CC7D72379"
-				type: "item"
-				title: "Filled Soulstone"
-				item: {
-					id: "golemancy:soulstone_filled"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "0888EC7587048A47"
-				type: "item"
-				item: "gobber2:gobber2_globette"
-			}]
-		}
-		{
-			title: "Craft Soul Grafter"
-			x: 1.5d
-			y: 3.0d
-			subtitle: "You can breed (or \"graft\") soulstones together to produce new results."
-			description: [
-				"You can breed (or \"graft\") soulstones together to produce new results. To do so, you'll need to craft a soul grafter using any converted soulstone."
-				""
-				"The soul grafter is what you use to breed soulstones. You'll need a good supply of empty soulstones and bone meal to keep it running, though"
-			]
-			dependencies: ["260534C1D189BA9E"]
-			id: "5CA44BB0F6B662C2"
-			tasks: [{
-				id: "2292CE439B87C4CC"
-				type: "item"
-				item: "golemancy:soul_grafter"
-			}]
-			rewards: [
-				{
-					id: "1EB6022F73FF6A23"
-					type: "item"
-					item: "golemancy:soulstone_empty"
-					count: 2
-				}
-				{
-					id: "7D1D999F9007CFFF"
-					type: "item"
-					item: "minecraft:bone_meal"
-					count: 2
-				}
-			]
-		}
-		{
-			title: "Craft Golem Wand"
-			x: 3.0d
-			y: 4.0d
-			subtitle: "Used to interact with your golem."
-			description: [
-				"Hold the golem wand in your hand and right-click on one of your golems to make them follow you. Right click again to tell them to stop. If you right-click a golem while sneaking, you'll enter \"linking mode\". You can then right-click on a block to link the golem to that block. "
-				""
-				"Golems consider their linked block as \"home\" and will return to it when they're not busy doing something else. Some golems can, if linked to a chest or other inventory, extract or insert items into their linked block."
-			]
-			dependencies: ["260534C1D189BA9E"]
-			hide: false
-			min_width: 300
-			id: "5995410BD2B888CD"
-			tasks: [{
-				id: "3477D8125CC20850"
-				type: "item"
-				item: "golemancy:golem_wand"
-			}]
-			rewards: [{
-				id: "038E89E4C7139DA3"
-				type: "item"
-				item: "additionaladditions:mysterious_bundle"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 5.0d
-			subtitle: "Put on your reading glasses."
-			description: [
-				"Covetous: Picks up items, deposits held items into their linked inventory."
-				""
-				"Curious: Give them a block to hold, and they'll stare at nearby instances - even through walls."
-				""
-				"Entropic: Link them to a block, and they'll break instances of that block they find nearby. They'll need a high strength to break hard blocks."
-				""
-				"Hungry: Picks up items and eats them, destroying them. They can eat any item."
-				""
-				"Intrepid: Ranged golem that throws clay balls. Immune to clay balls from other golems."
-				""
-				"Marshy: Give them a fishing rod, and they will fish for you. Agile golems fish faster, smarters golems produce less junk. Golems can never fish up treasure."
-				""
-				"Parched: Can fill up an empty bucket or bottle from nearby fluid blocks. If they're linked to an inventory, they can extract empty buckets/bottles and deposit full ones."
-				""
-				"Restless: Wander around randomly and don't do much... or maybe they're just looking for something to listen to?"
-				""
-				"Tactile: Link them to a block, and they'll interact with it every few seconds, like a player. They can pull levers, open doors, place blocks, etc."
-				""
-				"Valiant: Melee combat golem. Equip them with tools, and they'll use them in combat."
-				""
-				"Weeping: Can heal golems and even other pets, like wolves. However, they can't heal players or others peoples' pets."
-			]
-			dependencies: ["260534C1D189BA9E"]
-			min_width: 600
-			id: "4F0403235F612964"
-			tasks: [{
-				id: "432451AA430D3C84"
-				type: "checkmark"
-				title: "Types of Golems"
-			}]
-			rewards: [{
-				id: "7F5DCD98FFEEB668"
-				type: "item"
-				item: "valley:tenderloin_sandwich"
-			}]
-		}
-		{
-			title: "Craft and Place Golem Effigy"
-			x: 2.0d
-			y: 4.0d
-			subtitle: "Craft Golem Effigy"
-			description: [
-				"Nows the time to get your golem ready for the Soulstone you captured."
-				""
-				"Once you have captured a Soulstone by killing the mob of your choice, you can use it on the Effigy to convert it into that golem type."
-				""
-				"Craft the Golem Effigy, Place it in the world, and then holding your soulstone, right click the golem effigy."
-			]
-			dependencies: ["0D69865694FD43C4"]
-			id: "260534C1D189BA9E"
-			tasks: [{
-				id: "5DCD20782C9B54D6"
-				type: "item"
-				item: "golemancy:clay_effigy"
-			}]
-			rewards: [{
-				id: "2D9407E77871489A"
-				type: "item"
-				item: "additionaladditions:mysterious_bundle"
 			}]
 		}
 	]

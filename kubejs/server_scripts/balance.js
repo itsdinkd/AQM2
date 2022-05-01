@@ -22,13 +22,13 @@ onEvent('recipes', event => {
 // ["minecraft:white_wool","minecraft:water_bucket", "minecraft:white_wool"],
 // ]);
 
-// event.shaped('artis:end_game_crafting', ['gs ', ' ge', 'c g'],
-// {
-//   c: 'techreborn:auto_crafting_table',
-//   s: 'gobber2:dragon_elytra',
-//   e: 'betterend:elytra_crystalite',
-//   g: 'gobber2:dragon_star'
-// });
+ event.shaped('artis:end_game_crafting', ['gs ', ' ge', 'c g'],
+ {
+   c: 'techreborn:auto_crafting_table',
+   s: 'gobber2:dragon_elytra',
+   e: 'betterend:elytra_crystalite',
+   g: 'gobber2:dragon_star'
+ });
 
 event.remove({ output: "prefab:item_starter_farm" });
 event.shaped("prefab:item_starter_farm", [
@@ -91,7 +91,7 @@ event.shaped('kubejs:aqm2', [
 event.remove({ output: "techreborn:quantum_chestplate" });
 event.shaped("techreborn:quantum_chestplate", [
 ["techreborn:tungstensteel_plate","modern_industrialization:quantum_upgrade", "techreborn:tungstensteel_plate"],
-["techreborn:superconductor_cable", null,"techreborn:superconductor_cable"],
+["techreborn:superconductor_cable", "kibe:angel_ring","techreborn:superconductor_cable"],
 ["techreborn:data_storage_chip","techreborn:iridium_neutron_reflector", "techreborn:data_storage_chip"],
 ]);
 
@@ -170,93 +170,97 @@ event.shaped("gobber2:gobber2_ring_vision", [
 
 
 // Angel Ring
- // event.remove({output: 'kibe:angel_ring'});
- // event.custom({
- //   "type": "artis:end_game_crafting_shaped",
- //   "pattern": [
- //     "@NyCHCyN@",
- //     "gMAAaAAMg",
- //     "^I1DDD4I^",
- //     "g82DND58g",
- //     "&I1DDD6I&",
- //     "gMAA7AAMg",
- //     "!NsCECsN!"
- //   ],
- //   "key": {
- //     "D": {
- //       "item": "gobber2:dragon_star"
- //     },
- //     "N": {
- //       "item": "modern_industrialization:quantum_upgrade"
- //     },
- //     "A": {
- //       "item": "ae2:cell_component_64k"
- //     },
- //     "1": {
- //       "item": "techreborn:uu_matter"
- //     },
- //     "2": {
- //       "item": "kubejs:cursed_gem"
- //     },
- //     "4": {
- //       "item": "bosses_of_mass_destruction:void_thorn"
- //     },
- //     "5": {
- //       "item": "bosses_of_mass_destruction:ancient_anima"
- //     },
- //     "6": {
- //       "item": "bosses_of_mass_destruction:blazing_eye"
- //     },
- //     "7": {
- //       "item": "bosses_of_mass_destruction:obsidian_heart"
- //     },
- //     "8": {
- //       "item": "modern_industrialization:quantum_circuit"
- //     },
- //     "M": {
- //       "item": "mobz:boss_ingot"
- //     },
- //     "H": {
- //       "item": "adventurez:stone_golem_heart"
- //     },
- //     "E": {
- //       "item": "adventurez:prime_eye"
- //     },
- //     "I": {
- //       "item": "techreborn:interdimensional_su"
- //     },
- //     "C": {
- //       "item": "techreborn:nak_coolant_cell_360k"
- //     },
- //     "s": {
- //       "item": "spectrum:neolith"
- //     },
- //     "y": {
- //       "item": "spectrum:refined_azurite"
- //     },
- //     "g": {
- //       "item": "botania:gaia_ingot"
- //     },
- //     "@": {
- //       "item": "bewitchment:heaven_extract"
- //     },
- //     "!": {
- //       "item": "magicfungi:clypeus_essence"
- //     },
- //     "^": {
- //       "item": "magicfungi:utilis_essence"
- //     },
- //     "&": {
- //       "item": "magicfungi:vivifica_essence"
- //     },
- //     "a": {
- //       "item": "minecraft:apple"
- //     }
- //   },
- //   "result": {
- //     "item": "kibe:angel_ring"
- //   }
- // })
+  event.remove({output: 'kibe:angel_ring'});
+  event.custom({
+   "type": "artis:end_game_crafting_shaped",
+   "pattern": [
+     "@NyCHCyN@",
+     "gMAAaAAMg",
+     "^I1DDD4I^",
+     "g82DND58g",
+     "&I1DDD6I&",
+     "gMAA7AAMg",
+     "!NsCECsN!",
+     "    3    "
+   ],
+   "key": {
+     "D": {
+       "item": "gobber2:dragon_star"
+     },
+     "N": {
+       "item": "modern_industrialization:quantum_upgrade"
+     },
+     "A": {
+       "item": "ae2:cell_component_64k"
+     },
+     "1": {
+       "item": "techreborn:uu_matter"
+     },
+     "2": {
+       "item": "kubejs:cursed_gem"
+     },
+     "4": {
+       "item": "bosses_of_mass_destruction:void_thorn"
+     },
+     "5": {
+       "item": "bosses_of_mass_destruction:ancient_anima"
+     },
+     "6": {
+       "item": "bosses_of_mass_destruction:blazing_eye"
+     },
+     "7": {
+       "item": "bosses_of_mass_destruction:obsidian_heart"
+     },
+     "8": {
+       "item": "modern_industrialization:quantum_circuit"
+     },
+     "M": {
+       "item": "mobz:boss_ingot"
+     },
+     "H": {
+       "item": "adventurez:stone_golem_heart"
+     },
+     "E": {
+       "item": "adventurez:prime_eye"
+     },
+     "I": {
+       "item": "techreborn:interdimensional_su"
+     },
+     "C": {
+       "item": "techreborn:nak_coolant_cell_360k"
+     },
+     "s": {
+       "item": "spectrum:neolith"
+     },
+     "y": {
+       "item": "spectrum:refined_azurite"
+     },
+     "g": {
+       "item": "botania:gaia_ingot"
+     },
+     "@": {
+       "item": "bewitchment:heaven_extract"
+     },
+     "!": {
+       "item": "magicfungi:clypeus_essence"
+     },
+     "^": {
+       "item": "magicfungi:utilis_essence"
+     },
+     "&": {
+       "item": "magicfungi:vivifica_essence"
+     },
+     "a": {
+       "item": "minecraft:apple"
+     },
+     "3": {
+       "item": "kubejs:aqm2"
+     }
+    },
+    "result": {
+      "item": "kibe:angel_ring"
+    }
+  })
 
 //   event.custom({
 //   "type": "botania:runic_altar",
@@ -552,18 +556,20 @@ event.replaceInput(
 "techreborn:tungstensteel_plate"
 );
 
+// temp gold dim door removal until fix
+event.remove({output:"dimdoors:gold_dimensional_door"})
 //  dim doors - gold
- event.replaceInput(
- { id: "dimdoors:gold_dimensional_door" },
- "minecraft:ender_pearl",
- "compressed:gold_block_iv"
- );
+//  event.replaceInput(
+//  { id: "dimdoors:gold_dimensional_door" },
+//  "minecraft:ender_pearl",
+//  "compressed:gold_block_iv"
+//  );
 
 //  dim doors - iron
  event.replaceInput(
  { id: "dimdoors:iron_dimensional_door" },
  "minecraft:ender_pearl",
- "gobber2:dragon_star"
+ "gobber2:gobber2_ingot_nether"
  );
 
 //  dim doors - oak
@@ -577,8 +583,16 @@ event.replaceInput(
  event.replaceInput(
  { id: "dimdoors:quartz_dimensional_door" },
  "minecraft:ender_pearl",
- "gobber2:gobber2_ingot_nether"
+ "gobber2:dragon_star"
  );
+
+// dim door blade
+ event.replaceInput(
+ { id: "dimdoors:rift_blade" },
+ "minecraft:iron_sword",
+ "gobber2:gobber2_sword_nether"
+ );
+
 
 // // Dim Doors - stabrift signature
  event.remove({ output: "dimdoors:stabilized_rift_signature" });
@@ -659,6 +673,13 @@ event.replaceInput(
 "adventurez:warthog_shell_piece"
 );
 
+// Gobber2 - Ring of Return
+event.replaceInput(
+{ id: "gobber2:gobber2_ring_return" },
+"minecraft:ender_pearl",
+"waystones:abyss_watcher"
+);
+
 // Gobber2 - Ring of Explorer
 event.replaceInput(
 { id: "gobber2:gobber2_ring_explorer" },
@@ -666,11 +687,52 @@ event.replaceInput(
 "bosses_of_mass_destruction:void_thorn"
 );
 
+event.remove({ output: "gobber2:gobber2_ring_curing" });
+event.custom({
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "gobber2:gobber2_ring_curing"
+  },
+  "mana": 33333,
+  "ingredients": [
+    {
+      "item": "adventurez:stone_golem_heart"
+    },
+    {
+      "item": "kubejs:demon_pearl"
+    },
+    {
+      "item": "gobber2:gobber2_rod_end"
+    },
+    {
+      "item": "gobber2:gobber2_rod_end"
+    },
+    {
+      "item": "gobber2:gobber2_ring_end"
+    }
+    ]
+  })
+
+event.remove({id: "gobber2:gobber2_ring_miner"})
+event.shaped("gobber2:gobber2_ring_miner", ['123', '456', '789'],
+{
+  1: '#c:diamond_ores',
+  2: 'minecraft:ancient_debris',
+  3: '#c:emerald_ores',
+  4: 'gobber2:gobber2_ore',
+  5: 'gobber2:gobber2_ring',
+  6: 'lightestlamp:lanthanum_ore',
+  7: '#c:emerald_ores',
+  8: 'minecraft:ancient_debris',
+  9: '#c:diamond_ores'
+})
+
+
 //Gobber2 - Swiftness
 event.remove({ output: "gobber2:gobber2_ring_swiftness" });
 event.shaped("gobber2:gobber2_ring_swiftness", [
 ["","mcdar:boots_of_swiftness", ""],
-["magicfungi:vivifica_mushroom","gobber2:gobber2_ring","magicfungi:vivifica_mushroom"],
+["magicfungi:morbus_mushroom","gobber2:gobber2_ring","magicfungi:vivifica_mushroom"],
 ["","magicfungi:vivifica_mushroom", ""],
 ]);
 
@@ -680,100 +742,6 @@ event.replaceInput(
 "minecraft:iron_ingot",
 "adventurez:gilded_stone"
 );
-
-
-  // Croptosis Watering Cans
-  // event.remove({output: 'croptosis:iron_watering_can'});
-  // event.custom({
-  //   "type": "lacrimis:infusion_shaped",
-  //   "pattern": [
-  //     "AAA",
-  //     "D  ",
-  //     "   "
-  //   ],
-  //   "key": {
-  //     "A": {
-  //       "item": "gobber2:gobber2_rod"
-  //     },
-  //     "D": {
-  //       "item": "minecraft:bucket"
-  //     }
-  //   },
-  //   "result": {
-  //     "item": "croptosis:iron_watering_can",
-  //     "count": 1
-  //   },
-  //   "tears": 150
-  //   });
-
-  // event.remove({output: 'croptosis:gold_watering_can'});
-  // event.custom({
-  //   "type": "lacrimis:infusion_shaped",
-  //   "pattern": [
-  //     "AAA",
-  //     "D  ",
-  //     "   "
-  //   ],
-  //   "key": {
-  //     "A": {
-  //       "item": "gobber2:gobber2_rod_nether"
-  //     },
-  //     "D": {
-  //       "item": "croptosis:iron_watering_can"
-  //     }
-  //   },
-  //   "result": {
-  //     "item": "croptosis:gold_watering_can",
-  //     "count": 1
-  //   },
-  //   "tears": 250
-  //   });
-
-  // event.remove({output: 'croptosis:diamond_watering_can'});
-  // event.custom({
-  //   "type": "lacrimis:infusion_shaped",
-  //   "pattern": [
-  //     "AAA",
-  //     "D  ",
-  //     "   "
-  //   ],
-  //   "key": {
-  //     "A": {
-  //       "item": "gobber2:gobber2_rod_end"
-  //     },
-  //     "D": {
-  //       "item": "croptosis:gold_watering_can"
-  //     }
-  //   },
-  //   "result": {
-  //     "item": "croptosis:diamond_watering_can",
-  //     "count": 1
-  //   },
-  //   "tears": 500
-  //   });
-
-  // event.remove({output: 'croptosis:netherite_watering_can'});
-  // event.custom({
-  //   "type": "lacrimis:infusion_shaped",
-  //   "pattern": [
-  //     "AAA",
-  //     "D  ",
-  //     "   "
-  //   ],
-  //   "key": {
-  //     "A": {
-  //       "item": "gobber2:dragon_star"
-  //     },
-  //     "D": {
-  //       "item": "croptosis:diamond_watering_can"
-  //     }
-  //   },
-  //   "result": {
-  //     "item": "croptosis:netherite_watering_can",
-  //     "count": 1
-  //   },
-  //   "tears": 1000
-  //   });
 
 
 // Tools and Sword
@@ -1051,6 +1019,109 @@ event.replaceInput(
 "minecraft:comparator",
 "doom:argent_block"
 );
+
+// Things
+event.replaceInput(
+{ id: "things:item_magnet" },
+"minecraft:iron_ingot",
+"dml-refabricated:glitch_ingot"
+);
+
+event.replaceInput(
+{ id: "things:recall_potion" },
+"minecraft:ender_pearl",
+"mythicmetals:aquarium_pearl"
+);
+
+event.replaceInput(
+{ id: "bosses_of_mass_destruction:brimstone_nectar"},
+"minecraft:ghast_tear",
+"gobber2:dragon_star"
+);
+
+event.remove({output:"things:rabbit_foot_charm"})
+event.custom({
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "things:rabbit_foot_charm"
+  },
+  "mana": 10000,
+  "ingredients": [
+    {
+      "item": "spectrum:rabbit_head"
+    },
+    {
+      "item": "things:gleaming_compound"
+    },
+    {
+      "item": "things:gleaming_compound"
+    },
+    {
+      "item": "betternether:cincinnasite_chain"
+    }
+    ]
+  });
+
+event.remove({output:"things:hardening_catalyst"})
+event.custom({
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "things:hardening_catalyst"
+  },
+  "mana": 33333,
+  "ingredients": [
+    {
+      "item": "gobber2:dragon_star"
+    },
+    {
+      "item": "gobber2:dragon_star"
+    },
+    {
+      "item": "spectrum:refined_azurite"
+    },
+    {
+      "item": "spectrum:refined_azurite"
+    },
+    {
+      "item": "botania:corporea_spark_master"
+    },
+    {
+      "item": "techreborn:uu_matter"
+    },
+    {
+      "item": "techreborn:uu_matter"
+    }
+    ]
+  });
+
+event.remove({output:"things:displacement_tome"})
+event.custom({
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "things:displacement_tome"
+  },
+  "mana": 50000,
+  "ingredients": [
+    {
+      "item": "waystones:pocket_wormhole"
+    },
+    {
+      "item": "waystones:pocket_wormhole"
+    },
+    {
+      "item": "kubejs:cursed_gem"
+    }
+    ]
+  });
+
+event.remove({output:"things:displacement_page"})
+event.shaped("things:displacement_page", ["123", "4  "],
+  {
+    1: "winged:phoenix_feather",
+    2: "techreborn:ender_eye_dust",
+    3: "betterend:twisted_umbrella_moss", 
+    4: "betternether:soul_vein"
+});
 
 event.remove({ output: "tempad:tempad" });
 event.custom({

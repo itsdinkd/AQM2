@@ -1,7 +1,7 @@
 {
 	id: "020030C7EAE53A6E"
 	group: "2B2D8A5BD664DEFC"
-	order_index: 0
+	order_index: 1
 	filename: "the_beginning"
 	title: "Gobber this Gobber that"
 	icon: "gobber2:gobber2_globette"
@@ -603,7 +603,7 @@
 					id: "6072474268FCF730"
 					type: "item"
 					item: {
-						id: "gobber2:gobber2_helmet_dragon_no_flight"
+						id: "gobber2:gobber2_helmet_dragon"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -614,7 +614,7 @@
 					id: "00430272B5E48629"
 					type: "item"
 					item: {
-						id: "gobber2:gobber2_chestplate_dragon_no_flight"
+						id: "gobber2:gobber2_chestplate_dragon"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -625,7 +625,7 @@
 					id: "6C19B0C114909567"
 					type: "item"
 					item: {
-						id: "gobber2:gobber2_leggings_dragon_no_flight"
+						id: "gobber2:gobber2_leggings_dragon"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -636,7 +636,7 @@
 					id: "5143143B011F85D5"
 					type: "item"
 					item: {
-						id: "gobber2:gobber2_boots_dragon_no_flight"
+						id: "gobber2:gobber2_boots_dragon"
 						Count: 1b
 						tag: {
 							Damage: 0

@@ -193,33 +193,6 @@
 		}
 		{
 			item: {
-				id: "wfw:war_hammer_gold"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "wfw:rapier_gold"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				id: "wfw:war_hammer"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
 				id: "mcdw:dagger_tempest_knife"
 				Count: 1b
 				tag: {
@@ -247,15 +220,6 @@
 		}
 		{
 			item: {
-				id: "mcdw:hammer_great"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
 				id: "mcdw:staff_battlestaff"
 				Count: 1b
 				tag: {
@@ -275,6 +239,132 @@
 		{
 			item: {
 				id: "mcdw:axe_cursed"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:hammer_great_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:crossbow_shadow_crossbow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:sword_sinister"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:shield_vanguard"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:bow_sabrewing"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:shield_royal_guard"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:crossbow_doom_crossbow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:sword_obsidian_claymore"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:whip_whip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:bow_weeping_vine_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:hammer_flail"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:spear_fortune"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:whip_vine_whip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdw:sickle_nightmares_bite"
 				Count: 1b
 				tag: {
 					Damage: 0

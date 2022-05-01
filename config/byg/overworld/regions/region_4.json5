@@ -128,7 +128,9 @@ Biome selectors may be inlined or may call a file from "this_file_parent_directo
 	   "key3":"value3"
 	   }
 	*/
-	"swapper": { },
+	"swapper": {
+	"minecraft:mushroom_fields":"magicfungi:host_biome"
+	},
 	/* The weight of this provider/region against all other providers.
 	   Higher numbers do NOT increase the provider's size.
 	   Weight "0" disables this provider and all its entries.

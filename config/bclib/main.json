@@ -3,8 +3,8 @@
     "repairBiomesOnLoad [default: false]": false
   },
   "patches": {
-    "applyPatches [default: true]": true,
+    "applyPatches [default: true]": false,
     "repairBiomesOnLoad [default: false]": false,
-    "repairBiomesOnLoad [default: true]": true
+    "repairBiomesOnLoad [default: true]": false
   }
 }

@@ -1,0 +1,229 @@
+{
+	id: "4DD12AFABD21AAEE"
+	group: "2B2D8A5BD664DEFC"
+	order_index: 2
+	filename: "uhaul"
+	title: "UHaul"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Storage Drawers but Fabric"
+			description: [
+				"Allows you to put one item in with high stack amounts"
+				""
+				"After depositing an item in by holding and right clicking the block, you can keep tapping left click on the individual drawer to withdraw. 1 Click = 1 Withdraw, Sneak + Left Click takes stacks of 64"
+			]
+			id: "453FA4328D144AFA"
+			tasks: [{
+				id: "21528316223443F3"
+				type: "item"
+				item: "extended_drawers:single_drawer"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "63A225259087335D"
+				type: "item"
+				item: "extended_drawers:single_drawer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "2 drawers for 2 items"
+			dependencies: ["453FA4328D144AFA"]
+			id: "16FF05E583BFFA38"
+			tasks: [{
+				id: "5FAD2DE4CFA2CD47"
+				type: "item"
+				item: "extended_drawers:double_drawer"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "0F3FF219A2CA78DD"
+				type: "item"
+				item: "extended_drawers:double_drawer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "4 drawers for 4 items"
+			dependencies: ["16FF05E583BFFA38"]
+			id: "5828340721EB75ED"
+			tasks: [{
+				id: "7351E4D21128321F"
+				type: "item"
+				item: "extended_drawers:quad_drawer"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "7813320FE3B571C9"
+				type: "item"
+				item: "extended_drawers:quad_drawer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			subtitle: "Connect your drawers using this connector"
+			description: ["Think of these connectors as pipes. The drawer must be touching the connector that you want to connect"]
+			dependencies: ["453FA4328D144AFA"]
+			id: "0C5D2138D83B2B70"
+			tasks: [{
+				id: "5371182E9473F833"
+				type: "item"
+				item: "extended_drawers:connector"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "Upgrade stack size  2x"
+			description: [
+				"To add to your drawer, hold the upgrade out and sneak + right click the drawer you want to add it to. You can add a upgrade to each drawer on the block (Example, Quad Drawers can have 4 upgrades)"
+				""
+				"You can take it off by pointing your mouse at the icon on the drawer and right clicking"
+			]
+			dependencies: ["453FA4328D144AFA"]
+			id: "2662C691C59CD704"
+			tasks: [{
+				id: "2730A8357E1DCBB4"
+				type: "item"
+				item: "extended_drawers:t1_upgrade"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "16EB127DE296FCC4"
+				type: "item"
+				item: "extended_drawers:upgrade_frame"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "Upgrade stack size  4x"
+			dependencies: ["2662C691C59CD704"]
+			id: "227A7FE12FF85DDD"
+			tasks: [{
+				id: "52E309B8B8C36BDA"
+				type: "item"
+				item: "extended_drawers:t2_upgrade"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4B84F1FE980E6FD4"
+				type: "item"
+				item: "extended_drawers:upgrade_frame"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "Upgrade stack size  8x"
+			dependencies: ["227A7FE12FF85DDD"]
+			id: "61DAA534A8BD6A66"
+			tasks: [{
+				id: "24F24E4FE9A7C100"
+				type: "item"
+				item: "extended_drawers:t3_upgrade"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "7C2F7E10D17E8A2F"
+				type: "item"
+				item: "extended_drawers:t1_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Upgrade stack size  16x"
+			dependencies: ["61DAA534A8BD6A66"]
+			id: "7293CAD58793DE17"
+			tasks: [{
+				id: "21919F989208DEE4"
+				type: "item"
+				item: "extended_drawers:t4_upgrade"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "5E73BE84320ABEBD"
+				type: "item"
+				item: "extended_drawers:t2_upgrade"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			subtitle: "Upgrade stack size"
+			dependencies: ["2662C691C59CD704"]
+			id: "2459485871DA4E04"
+			tasks: [{
+				id: "534A1DB82B15B76B"
+				type: "item"
+				item: "extended_drawers:downgrade"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "1FBAE75999223C56"
+				type: "item"
+				item: "extended_drawers:t3_upgrade"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Name says it all"
+			dependencies: ["2662C691C59CD704"]
+			id: "2B289A0C025AC8F8"
+			tasks: [{
+				id: "33D7BF8B66BE5221"
+				type: "item"
+				item: "extended_drawers:lock"
+			}]
+			rewards: [{
+				id: "3A236F0B4E8E8F89"
+				type: "item"
+				item: "extended_drawers:upgrade_frame"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "The master controller. Use one of these with connectors touching it"
+			description: [
+				"This will allow you to deposit items on it and the item will go to the next available drawer if its a new item, or to the drawer that already contains said item"
+				""
+				"They only support insertion in world, but can be extracted from using pipes and hoppers. They can also be used to lock a large amount of drawers at the same time."
+			]
+			dependencies: ["0C5D2138D83B2B70"]
+			id: "15B23D1FCFED7F69"
+			tasks: [{
+				id: "3B890CC5B8CB4E7C"
+				type: "item"
+				item: "extended_drawers:controller"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "Used to show amounts in networks, can be used for insert and extract"
+			description: ["Shadow drawers show the amount of a resource that is available in the whole network and allows for insertion and expansion of that resource, but they are only available in the 1 slot configuration."]
+			dependencies: ["0C5D2138D83B2B70"]
+			id: "4CDF3157F7376080"
+			tasks: [{
+				id: "45F1C75BB460ED95"
+				type: "item"
+				item: "extended_drawers:shadow_drawer"
+			}]
+			rewards: [{
+				id: "5887EEFBF813948A"
+				type: "item"
+				item: "extended_drawers:upgrade_frame"
+			}]
+		}
+	]
+}

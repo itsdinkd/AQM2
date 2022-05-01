@@ -1,4 +1,6 @@
-// Another Quality Modpack 2
+// Another Quality Modpack 2 //
+///////////////////////////////
+
 // Assembler Recipes
 onEvent('recipes', event => {
   event.remove({output: "gobber2:dragon_star"})

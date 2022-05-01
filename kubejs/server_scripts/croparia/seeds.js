@@ -1,3 +1,6 @@
+// Another Quality Modpack 2 //
+///////////////////////////////
+
   onEvent("recipes", function(event) {
 
       var cropariaColors = ["black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple", "red", "white", "yellow"];

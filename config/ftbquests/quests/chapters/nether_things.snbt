@@ -196,5 +196,331 @@
 				}
 			]
 		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Light up an Arena with Lightest Lamps questline"
+			description: ["Go mine some Lanthanum Ore which can be found only in The Nether"]
+			id: "6C4350CA07B1D6BF"
+			tasks: [{
+				id: "13DC4BAD6B4FB6CB"
+				type: "item"
+				item: "lightestlamp:lanthanum_ore"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			subtitle: "The Centrifuge is a key component "
+			description: ["Use the centrifuge to create dusts that will be used for rods"]
+			dependencies: ["27DC52AA7C9DED7F"]
+			id: "7F7F0F2CF58E47EC"
+			tasks: [{
+				id: "6BC0D31F8DD06A9B"
+				type: "item"
+				item: "lightestlamp:glowstone_centrifuge"
+			}]
+			rewards: [{
+				id: "5CA48D6D422FF6B3"
+				type: "item"
+				item: "lightestlamp:neon_pile"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			subtitle: "Component for Centrifuge, there are several others for other tiers of lamps"
+			description: ["Each filter is for different dusts, make sure you check REI for what color the lamp you want requires"]
+			dependencies: ["7F7F0F2CF58E47EC"]
+			id: "5409DE5B4D1A3741"
+			tasks: [{
+				id: "678C01270907E8E5"
+				type: "item"
+				item: {
+					id: "lightestlamp:basic_centrifuge_filter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "74D27E0E29DAE4D9"
+					type: "item"
+					item: "lightestlamp:glow_lichen_fiber"
+				}
+				{
+					id: "67144862A3F74749"
+					type: "item"
+					item: "lightestlamp:neon_pile"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			subtitle: "There are numerous dusts, this is one of them"
+			dependencies: ["5409DE5B4D1A3741"]
+			id: "4635E8B6F846664A"
+			tasks: [{
+				id: "2B4ADB9113071B8A"
+				type: "item"
+				item: "lightestlamp:neon_dust"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "5DC83E337FE81184"
+				type: "item"
+				item: "lightestlamp:neon_dust"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.5d
+			subtitle: "Certain rods are required for certain tiers of lamps"
+			dependencies: ["4635E8B6F846664A"]
+			id: "27DD055D3D9F8595"
+			tasks: [{
+				id: "554B85F2322F7C2D"
+				type: "item"
+				item: "lightestlamp:neon_rod"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "5D5BE1671B37CF7E"
+				type: "item"
+				item: "lightestlamp:neon_block"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.5d
+			subtitle: "Basic lamp, 16 blocks of light, redstone activated"
+			dependencies: ["27DD055D3D9F8595"]
+			id: "474AF34701D09AD4"
+			tasks: [{
+				id: "74E687819FFF1D0E"
+				type: "item"
+				item: "lightestlamp:alpha_lamp"
+			}]
+			rewards: [{
+				id: "45C2052FB19DD3C7"
+				type: "item"
+				item: "lightestlamp:argon_dust"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "Use the raw ore to smelt ingots"
+			dependencies: ["6C4350CA07B1D6BF"]
+			id: "27DC52AA7C9DED7F"
+			tasks: [{
+				id: "00AD2899F3631D14"
+				type: "item"
+				item: "lightestlamp:lanthanum_ingot"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			subtitle: "There are numerous dusts, this is one of them"
+			dependencies: ["5409DE5B4D1A3741"]
+			id: "063CBB1D1EC634FB"
+			tasks: [{
+				id: "069931DAFFE1D3B4"
+				type: "item"
+				item: "lightestlamp:argon_dust"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "37C8760BD7252357"
+				type: "item"
+				item: "lightestlamp:argon_dust"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -0.5d
+			subtitle: "Certain rods are required for certain tiers of lamps"
+			dependencies: ["063CBB1D1EC634FB"]
+			id: "51631301E0865E64"
+			tasks: [{
+				id: "25BCDDB62E828AB1"
+				type: "item"
+				item: "lightestlamp:argon_rod"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "7873DB77AA58279C"
+				type: "item"
+				item: "lightestlamp:argon_block"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -0.5d
+			subtitle: "Underwater Sea Lamp with 16 blocks of Light"
+			dependencies: ["51631301E0865E64"]
+			id: "5CADDB01056E4DA0"
+			tasks: [{
+				id: "57D0706D8D0FBD8E"
+				type: "item"
+				item: "lightestlamp:clear_sea_lantern"
+			}]
+			rewards: [{
+				id: "357F2580C70AAF81"
+				type: "item"
+				item: "lightestlamp:clear_sea_lantern"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -0.5d
+			subtitle: "Underwater Sea Lamp with 17 blocks of Light"
+			dependencies: ["5CADDB01056E4DA0"]
+			id: "0AD2321171436C97"
+			tasks: [{
+				id: "5DF760E6BB9A2AF7"
+				type: "item"
+				item: "lightestlamp:deep_sea_lantern"
+			}]
+			rewards: [{
+				id: "465D8DBE5DCA4878"
+				type: "item"
+				item: "lightestlamp:argon_rod"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.5d
+			subtitle: "18 Blocks of Light, redstone activated, light penetration"
+			dependencies: [
+				"51631301E0865E64"
+				"474AF34701D09AD4"
+			]
+			hide: true
+			id: "6D29C3F13DC2D225"
+			tasks: [{
+				id: "681F50344723777E"
+				type: "item"
+				item: "lightestlamp:gamma_lamp"
+			}]
+			rewards: [{
+				id: "160CDB1E1692F38B"
+				type: "item"
+				item: "lightestlamp:argon_dust"
+				count: 2
+			}]
+		}
+		{
+			x: -12.750000000000014d
+			y: 1.6160714285714306d
+			subtitle: "Ultimate Lamp; Always on, 32 blocks of light"
+			dependencies: ["6D29C3F13DC2D225"]
+			hide: true
+			size: 3.0d
+			id: "20DE5E09F49845BF"
+			tasks: [{
+				id: "20240417D590E51B"
+				type: "item"
+				item: "lightestlamp:omega_lamp"
+			}]
+			rewards: [
+				{
+					id: "689EE788EC5A3240"
+					type: "random"
+					table_id: 1830006897849082013L
+				}
+				{
+					id: "0ECC5675B8A4A9DB"
+					type: "item"
+					item: "lightestlamp:radon_rod"
+				}
+			]
+		}
+		{
+			x: -12.750000000000014d
+			y: -1.241071428571427d
+			subtitle: "Ultimate Sea Lamp; Always on, 24 blocks of light"
+			dependencies: ["0AD2321171436C97"]
+			hide: true
+			size: 3.0d
+			id: "2EACA44FF2240B6B"
+			tasks: [{
+				id: "5B1C78B7221EEB38"
+				type: "item"
+				item: "lightestlamp:abyssal_lantern"
+			}]
+			rewards: [
+				{
+					id: "6F88749059A1A6C0"
+					type: "random"
+					table_id: 172378784714914766L
+				}
+				{
+					id: "1DA28DD96E61B761"
+					type: "item"
+					item: "lightestlamp:xenon_rod_block"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			subtitle: "Recipe component"
+			dependencies: ["1A67A036D38A1A78"]
+			id: "34C9F704E841F1A4"
+			tasks: [{
+				id: "4FEC64D248B9E81A"
+				type: "item"
+				item: "lightestlamp:alchemical_dust"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "3ED78E271B1E9BE0"
+				type: "item"
+				item: "lightestlamp:glow_lichen_fiber"
+				count: 3
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			subtitle: "Chance to drop from killing a mob during a full moon"
+			dependencies: ["27DC52AA7C9DED7F"]
+			id: "1A67A036D38A1A78"
+			tasks: [{
+				id: "4698712AEE6D4285"
+				type: "item"
+				item: "lightestlamp:moon_shard"
+			}]
+			rewards: [{
+				id: "0FC0F4FFD36884E2"
+				type: "item"
+				item: "lightestlamp:moon_shard"
+				count: 2
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			subtitle: "Push mobs away that are within the lamps light"
+			dependencies: ["34C9F704E841F1A4"]
+			id: "61F15F5CD09C630C"
+			tasks: [{
+				id: "37C4756A9747A64F"
+				type: "item"
+				item: "lightestlamp:alchemical_lamp"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "4A0FECDD81D9C37F"
+				type: "item"
+				item: "lightestlamp:clear_lamp"
+			}]
+		}
 	]
 }

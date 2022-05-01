@@ -92,8 +92,8 @@ key_modifiers_key.dml-refabricated.teleport:0,0,0
 key_modifiers_key.dml-refabricated.soul_vision:0,0,0
 key_modifiers_key.doom.reload:0,0,0
 key_modifiers_key.doom.yeethook:0,0,0
-key_modifiers_Show comparison tooltip:0,0,0
 key_modifiers_key.craftpresence.config_keycode.name:0,0,0
+key_modifiers_Show comparison tooltip:0,0,0
 key_modifiers_key.fabrictailor.toggle_skin_gui:0,0,0
 key_modifiers_key.gearreborn.toggle_nv:0,0,0
 key_modifiers_key.origins.arcanite_toggle:0,0,0

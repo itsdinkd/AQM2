@@ -1,5 +1,5 @@
-// Another Quality Modpack 2          //
-////////////////////////////////////////
+// Another Quality Modpack 2 //
+///////////////////////////////
 
 // itemtype, input, output, count, power = 5, time = 200
 onEvent('recipes', event => {
