@@ -1,5 +1,5 @@
 {
-  "replace": true,
+  "replace": false,
   "values": [
     "givemehats:bunny_ears",
     "givemehats:santa_hat",
@@ -22,7 +22,8 @@
     "givemehats:jojo_hat",
     "givemehats:wolf_ears",
     "givemehats:witch_hat",
-    "givemehats:viking_hat",
+    "givemehats:hippie_vibes",
+    "givemehats:halo"
     "villager-hats:farmer_hat",
     "villager-hats:fletcher_hat",
     "villager-hats:fisherman_hat",

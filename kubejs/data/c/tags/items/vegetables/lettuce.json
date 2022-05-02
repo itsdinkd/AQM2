@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "croptopia:lettuce",
-    "sandwichable:lettuce_leaf"
+    "croptopia:lettuce"
   ]
 }

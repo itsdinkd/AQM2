@@ -1,0 +1,48 @@
+{
+  "id": "tiered:extended",
+  "verifiers": [
+    {
+      "tag": "c:swords"
+    },
+    {
+      "tag": "c:axes"
+    },
+    {
+      "tag": "c:pickaxes"
+    },
+    {
+      "tag": "c:shovels"
+    },
+    {
+      "tag": "c:hoes"
+    }
+  ],
+  "weight": 10,
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "reach-entity-attributes:reach",
+      "modifier": {
+        "name": "tiered:extended",
+        "operation": "ADDITION",
+        "amount": 1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "reach-entity-attributes:attack_range",
+      "modifier": {
+        "name": "tiered:extended",
+        "operation": "ADDITION",
+        "amount": 1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

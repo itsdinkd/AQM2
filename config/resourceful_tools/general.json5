@@ -12,9 +12,9 @@
 	   CRACK HAMMERS
 	   ******************************
 	*/
-	"copperHammerDurability": 125,
-	"ironHammerDurability": 129,
-	"diamondHammerDurability": 412,
+	"copperHammerDurability": 24,
+	"ironHammerDurability": 68,
+	"diamondHammerDurability": 499,
 	/* 
 	   
 	   ******************************
@@ -70,9 +70,9 @@
 	   - Handpick, Hand Tiller, & Hand Trimmer
 	   ******************************
 	*/
-	"ironDurability": 250,
-	"ironMiningSpeed": 1.399999976158142,
-	"ironAttackDamage": 1.399999976158142,
+	"ironDurability": 198,
+	"ironMiningSpeed": 1.499999976158142,
+	"ironAttackDamage": 1.699999976158142,
 	"ironMiningLevel": 2,
 	"ironEnchantability": 4,
 	/* 
@@ -82,9 +82,9 @@
 	   - Handpick, Hand Tiller, & Hand Trimmer
 	   ******************************
 	*/
-	"copperDurability": 125,
-	"copperMiningSpeed": 1.7000000476837158,
-	"copperAttackDamage": 1.600000023841858,
-	"copperMiningLevel": 2,
+	"copperDurability": 90,
+	"copperMiningSpeed": 1.3000000476837158,
+	"copperAttackDamage": 1.300000023841858,
+	"copperMiningLevel": 1,
 	"copperEnchantability": 2
 }

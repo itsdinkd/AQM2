@@ -313,6 +313,20 @@ event.remove({ output: "techreborn:" + item + "_boots"});
 ///////////////////////////////////
 // Single item in recipe replace //
 
+// Resourceful Tools - Diamond Hammer
+event.replaceInput(
+{ id: "resourceful_tools:crack_hammer_diamond" },
+"minecraft:stick",
+"betterend:leather_wrapped_stick"
+);
+
+event.replaceInput(
+{ id: "resourceful_tools:crack_hammer_diamond" },
+"minecraft:string",
+"minecraft:diamond_block"
+);
+
+
 // Steam drill
 
 event.replaceInput(

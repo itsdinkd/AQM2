@@ -5,11 +5,11 @@
 		// How many extra mobs to spawn per abundance charm
 		"abundance_multiplier": 1,
 		// How many ticks of waiting to remove per haste charm
-		"haste_multiplier": 80.75,
+		"haste_multiplier": 83.75,
 		// How many blocks of range to add per scope charm
 		"scope_multiplier": 2,
 		// How many extra mobs are allowed close to the conjurer per ignorance charm
-		"ignorance_multiplier": 1,
+		"ignorance_multiplier": 2,
 		// Which mob types you shouldn't be able to create a conjuring focus for
 		"conjurer_blacklist": [
 			"adorn:seat",
@@ -284,13 +284,12 @@
 			"tinyskeletons:baby_skeleton",
 			"tinyskeletons:baby_stray",
 			"tinyskeletons:baby_wither_skeleton",
-			"untitledduckmod:duck",
-			"untitledduckmod:goose",
 			"whisperwoods:hidebehind",
 			"whisperwoods:hirschgeist",
 			"whisperwoods:moth",
 			"whisperwoods:wisp",
-			"whisperwoods:zotzpyre"
+			"whisperwoods:zotzpyre",
+			"minecraft:elder_guardian"
 		]
 	},
 	"tools_config": {
@@ -303,11 +302,11 @@
 		// Exponent for the haste level, attack speed calculation goes like this: -2.4f + haste_level^exponent
 		"sword_haste_exponent": 1.3,
 		// How much durability firing a projectile with sword costs
-		"sword_secondary_durability_cost": 24,
+		"sword_secondary_durability_cost": 28,
 		// Cooldown for firing projectiles with the sword, in ticks
 		"sword_secondary_cooldown": 40,
 		// How much of the sword's damage each fired projectile deals
-		"sword_projectile_damage_multiplier": 0.23000000298023224,
+		"sword_projectile_damage_multiplier": 0.23000000417232513,
 		// The exponent for the scope level, tree cutting range is calculated like this: 8 + scope_level^exponent * 8
 		"axe_scope_exponent": 2.25,
 		// How much durability firing a projectile with the hatchet costs, base value
@@ -315,7 +314,7 @@
 		// How much durability firing a projectile with the hatchet costs, added per scope level
 		"axe_secondary_per_scope_durability_cost": 9,
 		// Cooldown for firing projectiles with the hatchet, in ticks
-		"axe_secondary_cooldown": 25,
+		"axe_secondary_cooldown": 20,
 		// The exponent for the scope level, tree cutting range is calculated like this: 8 + scope_level^exponent * 8
 		"scythe_scope_exponent": 3.0,
 		// How much durability firing a projectile with the scythe costs, base value
@@ -323,13 +322,13 @@
 		// How much durability firing a projectile with the scythe costs, added per scope level
 		"scythe_secondary_per_scope_durability_cost": 5,
 		// Cooldown for firing projectiles with the scythe, in ticks
-		"scythe_secondary_cooldown": 13,
+		"scythe_secondary_cooldown": 11,
 		// How much durability firing a projectile with the pickaxe costs
 		"pickaxe_secondary_durability_cost": 22,
 		// Cooldown for firing projectiles with the pickaxe, in ticks
 		"pickaxe_secondary_cooldown": 24,
 		// How many ores the pickaxe's projectile can mine in one go
-		"pickaxe_veinmine_max_blocks": 40	,
+		"pickaxe_veinmine_max_blocks": 40,
 		// From what distance the shovel's projectile pulls in items
 		"shovel_magnet_range": 8
 	}

@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "farmersdelight:tomato",
-    "croptopia:tomato",
-    "sandwichable:tomato"
+    "croptopia:tomato"
   ]
 }

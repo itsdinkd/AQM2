@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "farmersdelight:rice",
-    "valley:rice_item",
     "croptopia:rice"
   ]
 }

@@ -1,7 +1,10 @@
-//////////////////////////////////////////////
-// AOF 4 unification script - MIT licensed. //
-// Created by Team All of Fabric            //
-//////////////////////////////////////////////
+////////////////////////
+/// Made by Team AOF ///
+////////////////////////
+
+//////////////////////////////////////////////////
+// AOF Unification Script - MIT licensed. //
+//////////////////////////////////////////////////
 
 // Set to true to generate the client script for REI unification.
 const GENERATE_REI_SCRIPT = false;
@@ -43,15 +46,16 @@ const MATERIALS = [
     "sulfur",
     "tin",
     "titanium",
-    "tungsten"
+    "tungsten",
+    "carbon"
 ];
 
 // Order of mods to unify
 const UNIFICATION_ORDER = [
     "techreborn",
     "modern_industrialization",
+    "indrev",
     "mythicmetals",
-    "survivalplus",
     "gobber2",
     "bewitchment",
     "agape_space",
@@ -232,19 +236,28 @@ onEvent('recipes', event => {
     // autoremove("modern_industrialization:{}_nugget", "modern_industrialization:generated/materials/{}/craft/nugget_from_ingot");
     // autoremove("modern_industrialization:{}_dust", "modern_industrialization:generated/materials/{}/craft/tiny_dust_from_dust.json");
 
-    // Indrev recipes
-    // autoremove("indrev:raw_{}", "indrev:blasting/{}_ingot_from_raw_ores");
-    // autoremove("indrev:raw_{}", "indrev:smelting/{}_ingot_from_raw_ores");
-    // autoremove("indrev:{}_block", "indrev:shaped/raw_{}_block");
-    // autoremove("indrev:{}_block", "indrev:shaped/{}_block");
-    // autoremove("indrev:{}_block", "indrev:shaped/{}_ingot_from_nuggets");
-    // autoremove("indrev:{}_block", "indrev:shapeless/raw_{}");
-    // autoremove("indrev:{}_block", "indrev:shapeless/{}_ingot_from_block");
-    // autoremove("indrev:{}_block", "indrev:shapeless/{}_nugget");
-    // autoremove("indrev:{}_dust", "indrev:blasting/{}_ingot_from_smelting");
-    // autoremove("indrev:{}_dust", "indrev:smelting/{}_ingot_from_smelting");
-    // autoremove("indrev:{}_ore", "indrev:blasting/{}_ingot_from_ore");
-    // autoremove("indrev:{}_ore", "indrev:smelting/{}_ingot_from_ore");
+    // Industrial Revolution
+    autoremove("indrev:{}_block", "indrev:shaped/{}_block");
+    autoremove("indrev:{}_block", "indrev:shapeless/{}_ingot_from_block");
+    autoremove("indrev:{}_block", "indrev:shaped/{}_ingot_from_nugget");
+    autoremove("indrev:{}_block", "indrev:shapeless/{}_nugget");
+    autoremove("indrev:{}_block", "indrev:shaped/raw_{}_block");
+    autoremove("indrev:{}_block", "indrev:shapeless/raw_{}");
+    autoremove("indrev:{}_ingot", "indrev:shapeless/{}_ingot_from_block");
+    autoremove("indrev:{}_ingot", "indrev:shapeless/{}_ingot_from_nugget");
+
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_raw_ore");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_ores");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_ore");
+    autoremove("indrev:{}_ingot", "indrev:smelting/{}_ingot_from_smelting");
+
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_raw_ores");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_raw_ore");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ores");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_ore");
+    autoremove("indrev:{}_ingot", "indrev:blasting/{}_ingot_from_smelting");
 
     if (GENERATE_REI_SCRIPT) {
         generateReiScript(itemIdToUnified);
@@ -265,3 +278,8 @@ events.listen("kjsextras_rei", event => {
     console.log("Generated REI unification script. Disable by setting GENERATE_REI_SCRIPT to false.");
     console.log(script);
 }
+
+onEvent("recipes.serializer.special.flag", event => {
+    // Fix indrev recipe types
+    ["compress", "pulverize", "infuse"].forEach(id => event.ignoreSpecialFlag("indrev:" + id));
+});

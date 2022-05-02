@@ -1,0 +1,31 @@
+{
+  "id": "tiered:hasteful",
+  "verifiers": [
+    {
+      "tag": "c:pickaxes"
+    },
+    {
+      "tag": "c:shovels"
+    },
+    {
+      "tag": "c:axes"
+    }
+  ],
+  "weight": 8,
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "tiered:generic.dig_speed",
+      "modifier": {
+        "name": "tiered:hasteful",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.10
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

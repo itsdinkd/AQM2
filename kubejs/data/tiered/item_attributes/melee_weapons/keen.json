@@ -1,0 +1,28 @@
+{
+  "id": "tiered:keen",
+  "verifiers": [
+    {
+      "tag": "c:swords"
+    },
+    {
+      "tag": "c:axes"
+    }
+  ],
+  "weight": 10,
+  "style": {
+    "color": "red"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:keen",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.10
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

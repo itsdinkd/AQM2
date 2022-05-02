@@ -1,0 +1,28 @@
+{
+  "id": "tiered:sharp",
+  "verifiers": [
+    {
+      "tag": "c:swords"
+    },
+    {
+      "tag": "c:axes"
+    }
+  ],
+  "weight": 7,
+  "style": {
+    "color": "red"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:sharp",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}
