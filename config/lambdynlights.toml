@@ -53,13 +53,25 @@
 				fireball = true
 				sheep = true
 				slime = true
-				boat = true
+				boat = false
 				pillager = true
 				cave_spider = true
 				glow_item_frame = true
 				trident = true
 				fox = true
 				phantom = true
+				panda = true
+				lightning_bolt = true
+				wandering_trader = true
+				trader_llama = true
+				stray = true
+				polar_bear = true
+				ocelot = true
+				snowball = true
+				elder_guardian = true
+				guardian = true
+				donkey = true
+				potion = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				badger = true
@@ -94,29 +106,34 @@
 				dragonfly = true
 				tarantula = true
 				lammergeier = true
+				reindeer = true
 
 			[light_sources.settings.entities.mobz]
-				friend = true
-				armored = true
-				tspider = true
-				skeli4 = true
-				dwarf = true
-				skeli2 = true
-				fast = true
-				slimo = true
-				boar = true
-				tank = true
-				mage2 = true
-				spo = true
-				gchicken = true
-				boar3 = true
-				crip = true
-				brownbear = true
-				fulliron = true
-				spi = true
-				knight2 = true
-				knight4 = true
-				knight = true
+				friend = false
+				armored = false
+				tspider = false
+				skeli4 = false
+				dwarf = false
+				skeli2 = false
+				fast = false
+				slimo = false
+				boar = false
+				tank = false
+				mage2 = false
+				spo = false
+				gchicken = false
+				boar3 = false
+				crip = false
+				brownbear = false
+				fulliron = false
+				spi = false
+				knight2 = false
+				knight4 = false
+				knight = false
+				frost = false
+				creep = false
+				archer2 = true
+				icegolem = true
 
 			[light_sources.settings.entities.whisperwoods]
 				moth = true
@@ -125,14 +142,15 @@
 				hidebehind = true
 
 			[light_sources.settings.entities.graveyard]
-				ghoul = true
-				revenant = true
-				skeleton_creeper = true
-				nightmare = true
+				ghoul = false
+				revenant = false
+				skeleton_creeper = false
+				nightmare = false
 
 			[light_sources.settings.entities.earth]
 				rubro = true
 				pertilyo = true
+				carboranea = true
 
 			[light_sources.settings.entities.terrarianslimes]
 				green_slime = true
@@ -145,30 +163,39 @@
 				blue_slime = true
 				baby_slime = true
 				purple_slime = true
+				pinky = true
+				ice_slime = true
+				spiked_ice_slime = true
+				umbrella_slime = true
+				spiked_jungle_slime = true
 
 			[light_sources.settings.entities.tinyskeletons]
 				baby_skeleton = true
+				baby_stray = true
 
 			[light_sources.settings.entities.adventurez]
 				amethyst_golem = true
 				iguana = true
 				deer = true
 				orc = true
+				summoner = true
+				void_shadow = false
 
 			[light_sources.settings.entities.elementalcreepers]
-				illusion_creeper = true
-				cookie_creeper = true
-				light_creeper = true
-				water_creeper = true
-				firework_creeper = true
-				electric_creeper = true
-				dark_creeper = true
-				reverse_creeper = true
-				hydrogen_creeper = true
-				fire_creeper = true
+				illusion_creeper = false
+				cookie_creeper = false
+				light_creeper = false
+				water_creeper = false
+				firework_creeper = false
+				electric_creeper = false
+				dark_creeper = false
+				reverse_creeper = false
+				hydrogen_creeper = false
+				fire_creeper = false
+				ice_creeper = false
 
 			[light_sources.settings.entities.myloot]
-				loot_chest_minecart = true
+				loot_chest_minecart = false
 
 			[light_sources.settings.entities.bewitchment]
 				ghost = true
@@ -176,20 +203,25 @@
 				snake = true
 				raven = true
 				owl = true
+				werewolf = true
 
 			[light_sources.settings.entities.valley]
-				perch = true
-				duck = true
+				perch = false
+				duck = false
+				sardine = false
 
 			[light_sources.settings.entities.doom]
 				bfg_cell = true
 				unmaykr_bolt = true
+				baron = true
+				barenblast = true
+				gladiator = true
 
 			[light_sources.settings.entities.creeperspores]
-				creeperling = true
+				creeperling = false
 
 			[light_sources.settings.entities.byg]
-				boat = true
+				boat = false
 
 			[light_sources.settings.entities.additionaladditions]
 				glow_stick = true
@@ -199,4 +231,30 @@
 
 			[light_sources.settings.entities.charm]
 				coral_squid = true
+
+			[light_sources.settings.entities.advanced_reborn]
+				dynamite = true
+
+			[light_sources.settings.entities.mythicmounts]
+				acencia = false
+				archelon = false
+				courierbird = false
+
+			[light_sources.settings.entities.archon]
+				skelt = true
+				omega_skelt = true
+				tar = true
+				ayla = true
+
+			[light_sources.settings.entities.duckling]
+				duck = true
+
+			[light_sources.settings.entities.magehand]
+				iron = true
+				gold = true
+				diamond = true
+				amethyst = true
+
+			[light_sources.settings.entities.earthtojavamobs]
+				moolip = true
 

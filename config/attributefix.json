@@ -110,6 +110,17 @@
         "value": 10000000
       }
     },
+    "tiered:generic.range_attack_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 10000000
+      }
+    },
     "dml-refabricated:underwater_haste": {
       "enabled": false,
       "min": {
@@ -206,6 +217,17 @@
       },
       "max": {
         "default": 16,
+        "value": 10000000
+      }
+    },
+    "tiered:generic.crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
         "value": 10000000
       }
     },
@@ -396,6 +418,17 @@
         "value": 4096
       }
     },
+    "tiered:generic.durable": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -441,14 +474,14 @@
       }
     },
     "porting_lib:swim_speed": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
         "default": 1024,
-        "value": 10000000
+        "value": 2048
       }
     },
     "dml-refabricated:teleport": {
@@ -580,6 +613,17 @@
       },
       "max": {
         "default": 1,
+        "value": 10000000
+      }
+    },
+    "tiered:generic.dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
         "value": 10000000
       }
     }

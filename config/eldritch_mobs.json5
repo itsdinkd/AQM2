@@ -4,7 +4,7 @@
 	// Turn off custom names
 	"turnOffNames": false,
 	// Turn off boss bars
-	"turnOffBossBars": false,
+	"turnOffBossBars": true,
 	// Ignore named creatures and monsters
 	"ignoreNamed": true,
 	// Enable Glowing Elite/Ultra/Eldritch Mobs upon discovery

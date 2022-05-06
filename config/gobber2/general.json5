@@ -254,7 +254,7 @@
 	   ***********************
 	*/
 	"enableSummonerBonusStats": false,
-	"summonerGoldGear": true,
+	"summonerGoldGear": false,
 	"summonerMobLifespan": 120,
 	/* 
 	   
@@ -271,9 +271,11 @@
 	"summonerAttackBonus": 10.0,
 	"summonerMovementBonus": 0.6,
 	"summonerArmorBonus": 20.0,
+	"summonerEventEnable": false,
 	"enableRingEnchanting": false,
 	"enableStaffEnchanting": false,
 	"enableMedallionEnchanting": false,
+	"apotropaicEventEnable": false,
 	/* 
 	   
 	   ***********************

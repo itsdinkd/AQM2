@@ -243,7 +243,7 @@
 	#If true, routes additional debug messages into the standard game log.
 	"Debug mode" = false
 	#If true, Charm will add its own advancement tree.
-	Advancements = true
+	Advancements = false
 	#If true, allows anvil recipes that do not require any XP cost.
 	"Allow zero cost anvil recipes" = false
 

@@ -1,0 +1,75 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "element": {
+                    "type": "origins:chance",
+                    "chance": 0.5,
+                    "action": {
+                        "type": "origins:equipped_item_action",
+                        "equipment_slot": "head",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 4,
+                            "ignore_unbreaking": true
+                        }
+                    }
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:chance",
+                    "chance": 0.5,
+                    "action": {
+                        "type": "origins:equipped_item_action",
+                        "equipment_slot": "chest",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 4,
+                            "ignore_unbreaking": true
+                        }
+                    }
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:chance",
+                    "chance": 0.5,
+                    "action": {
+                        "type": "origins:equipped_item_action",
+                        "equipment_slot": "legs",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 4,
+                            "ignore_unbreaking": true
+                        }
+                    }
+                },
+                "weight": 10
+            },
+            {
+                "element": {
+                    "type": "origins:chance",
+                    "chance": 0.5,
+                    "action": {
+                        "type": "origins:equipped_item_action",
+                        "equipment_slot": "feet",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 4,
+                            "ignore_unbreaking": true
+                        }
+                    }
+                },
+                "weight": 10
+            }
+        ]
+    },
+    "name": "Sɪʟɪᴄᴀᴛᴇ ᴅᴇᴄᴀʏ",
+    "description": "Bᴇɪɴɢ ᴀ sᴛᴏɴᴇ-ʙᴏʀɴ ᴄʀᴇᴀᴛᴜʀᴇ, ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀʀᴍᴏʀ ᴇǫᴜɪᴘᴘᴇᴅ, ɪᴛ ᴡɪʟʟ ᴛᴀᴋᴇ ᴅᴀᴍᴀɢᴇ ᴏᴠᴇʀ ᴛɪᴍᴇ."
+}

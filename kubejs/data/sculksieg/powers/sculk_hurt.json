@@ -1,0 +1,25 @@
+{
+    "type": "origins:self_action_when_hit",
+    "hidden": true,
+    "name": "100% Sᴄᴜʟᴋ",
+    "description": "Yᴏᴜ ᴍᴀᴋᴇ ɴᴏɪsᴇs ᴏғ ɪɴғᴇᴄᴛɪᴏɴ ᴡʜᴇɴ ʏᴏᴜ ᴀʀᴇ ᴅᴀᴍᴀɢᴇᴅ ᴀɴᴅ/ᴏʀ ᴋɪʟʟᴇᴅ.",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:health",
+            "comparison": "<",
+            "compare_to": 1
+        },
+        "if_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:block.sculk_sensor.break",
+            "volume": 1
+        },
+        "else_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:block.sculk_sensor.place",
+            "volume": 1
+        }
+    },
+    "cooldown": 0
+}

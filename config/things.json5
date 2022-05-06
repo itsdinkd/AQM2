@@ -14,7 +14,7 @@
 	// Only disables trinket rendering for apples
 	"renderAppleTrinket": true,
 	// How many ender pearls the displacement tome uses per teleport
-	"displacementTomeFuelConsumption": 1,
+	"displacementTomeFuelConsumption": 5,
 	// How much walking speed the socks should add per level, base is 0.1, default is 0.02
 	"sockPerLevelSpeedAmplifier": 0.013500000350177288,
 	"effectLevels": {

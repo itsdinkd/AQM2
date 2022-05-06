@@ -41,6 +41,7 @@
 			x: -0.5d
 			y: -2.5d
 			subtitle: "Under water breathing"
+			dependencies: ["6912B0F3A6A06069"]
 			id: "0FE2BFCCBAAC9C29"
 			tasks: [{
 				id: "22170D95778B1719"
@@ -57,6 +58,7 @@
 			x: -0.5d
 			y: -0.5d
 			subtitle: "Run Fast"
+			dependencies: ["6912B0F3A6A06069"]
 			id: "7DAA6E68A1184E08"
 			tasks: [{
 				id: "0A4D72B4940E60DF"
@@ -73,6 +75,7 @@
 			x: -0.5d
 			y: 0.5d
 			subtitle: "Jump High"
+			dependencies: ["6912B0F3A6A06069"]
 			id: "1B7C883BBC2962E3"
 			tasks: [{
 				id: "5087D37572FBB21C"
@@ -90,11 +93,7 @@
 			y: -1.5d
 			subtitle: "Good luck"
 			description: ["Creative Flight"]
-			dependencies: [
-				"54356D1908BAB423"
-				"5DCBAD24802E5735"
-				"13426EC067660B5B"
-			]
+			dependencies: ["01804CA59BAD3478"]
 			id: "6912B0F3A6A06069"
 			tasks: [{
 				id: "554BA9EC7E9B5F7A"
@@ -114,7 +113,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -2.5d
 			y: -1.5d
 			subtitle: "Spooky"
 			description: ["Use an Assembler with some UU Matter to craft the Cursed Gem."]
@@ -131,7 +130,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.5d
 			y: -1.5d
 			description: ["Kill the Arch Makyr to obtain a Corupted Emerald."]
 			dependencies: ["4FDF85B3FD6D691B"]
@@ -164,6 +163,56 @@
 				id: "54CF1CFE643B05AA"
 				type: "item"
 				item: "kubejs:star_of_icon"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			subtitle: "Become Loki"
+			description: [
+				"Save locations to teleport to using a Warp Portal. There is a 30 second delay after opening a portal to open another. Unlimited Uses, Unlimited Saved Locations"
+				""
+				"Better than the Displacement Tome"
+			]
+			dependencies: [
+				"01804CA59BAD3478"
+				"56DCB71E3FF4699C"
+			]
+			id: "4532E363054902AB"
+			tasks: [{
+				id: "1ABF9FF8A4340B1E"
+				type: "item"
+				item: "tempad:tempad"
+			}]
+			rewards: [{
+				id: "525668A315DBB2C8"
+				type: "item"
+				item: "kubejs:aqm2"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			subtitle: "A book to save teleport locations"
+			description: ["You need a displacement page to save a location, and each teleport requires 5 Ender Pearls"]
+			dependencies: ["01804CA59BAD3478"]
+			id: "56DCB71E3FF4699C"
+			tasks: [{
+				id: "159AD9421EF47BC4"
+				type: "item"
+				item: {
+					id: "things:displacement_tome"
+					Count: 1b
+					tag: {
+						Targets: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "576143D66340E7C4"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 5
 			}]
 		}
 	]

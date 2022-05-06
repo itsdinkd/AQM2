@@ -12,7 +12,7 @@
 		{
 			title: "Burn Gobber, Burn"
 			x: -1.5d
-			y: -1.5d
+			y: -6.0d
 			subtitle: "Using Gobber Foo, you can have a great fuel source"
 			description: [
 				"Using Gobber Foo, you can have a great fuel source, and I mean great. 1 can burn 45 items."
@@ -36,7 +36,7 @@
 		{
 			title: "Craft Gobber Ingot"
 			x: 0.0d
-			y: -3.0d
+			y: -4.5d
 			subtitle: "The Gobber Ingot is needed for most items and used throughout the modpack"
 			description: [
 				"You're going to need a lot of these. The Gobber Ingot is needed for most items and used throughout the modpack. As well as the Nether and end version."
@@ -67,7 +67,7 @@
 		{
 			title: "Craft a Gobber Rod"
 			x: 0.0d
-			y: -4.5d
+			y: -3.0d
 			subtitle: "This gobber rod is going to help you advance through the gobber weapons tiers."
 			description: [
 				"This gobber rod is going to help you advance through the gobber weapons tiers."
@@ -78,6 +78,7 @@
 				"333D851BF7D1E900"
 				"7DCB9D548877902F"
 			]
+			size: 1.33d
 			id: "61495D4F54FE2978"
 			tasks: [{
 				id: "70F3C01F6F71E74F"
@@ -89,7 +90,6 @@
 					id: "2F70AAF279C85650"
 					type: "item"
 					item: "gobber2:gobber2_globette"
-					count: 2
 				}
 				{
 					id: "5DCFDAB9D7DA5F63"
@@ -107,7 +107,7 @@
 			title: "Get The Glob"
 			icon: "gobber2:gobber2_glob"
 			x: 0.0d
-			y: -1.5d
+			y: -6.0d
 			subtitle: "Time to get yourself the Glob."
 			description: [
 				"Gobber has a lot of layers, but thats due to the amazingness that you will with it. 3x3 Hammers, 5x5 Hammers, Paxels, Rings, and more."
@@ -131,7 +131,7 @@
 		}
 		{
 			x: -1.5d
-			y: 0.0d
+			y: 1.5d
 			subtitle: "to receive some gobber food, yum"
 			dependencies: ["79F4D4DA705033B9"]
 			id: "640CD2A4796A60F9"
@@ -159,10 +159,13 @@
 		}
 		{
 			x: 1.5d
-			y: -1.5d
+			y: -6.0d
 			subtitle: "Ouch"
 			description: ["The Gobber Nemesis has a chance to spawn when mining Gobber Ore. Slay this beast and get your loot."]
-			dependencies: ["40AC615E022379B9"]
+			dependencies: [
+				"40AC615E022379B9"
+				"333D851BF7D1E900"
+			]
 			id: "4629227FCF91E173"
 			tasks: [{
 				id: "2719608AA988294C"
@@ -179,9 +182,12 @@
 		}
 		{
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 			subtitle: "Nether Globettes, scary."
-			dependencies: ["7340447646BC18C6"]
+			dependencies: [
+				"7340447646BC18C6"
+				"429FF0A596FA0C23"
+			]
 			id: "79F4D4DA705033B9"
 			tasks: [{
 				id: "33970CE27F99CB90"
@@ -195,8 +201,9 @@
 			}]
 		}
 		{
+			icon: "gobber2:gobber2_ore_end"
 			x: 1.5d
-			y: 0.0d
+			y: 7.5d
 			subtitle: "Are you tired of this yet?"
 			hide_dependency_lines: true
 			dependencies: ["79F4D4DA705033B9"]
@@ -204,6 +211,7 @@
 			tasks: [{
 				id: "081FC071BD83F56E"
 				type: "item"
+				title: "Mine End Gobber Ore"
 				item: "gobber2:gobber2_globette_end"
 			}]
 			rewards: [{
@@ -214,7 +222,7 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "You know what to do"
 			dependencies: ["79F4D4DA705033B9"]
 			id: "454CCF93166E73EF"
@@ -232,7 +240,7 @@
 		}
 		{
 			x: 1.5d
-			y: 1.5d
+			y: 6.0d
 			subtitle: "The last glob...."
 			dependencies: ["35B3650C5AC1562F"]
 			id: "2CD163E1780FAD0D"
@@ -250,7 +258,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.0d
+			y: 4.5d
 			subtitle: "Got Gobbs?"
 			dependencies: ["454CCF93166E73EF"]
 			id: "6DC760A92F8BE047"
@@ -269,7 +277,7 @@
 		}
 		{
 			x: 1.5d
-			y: 3.0d
+			y: 4.5d
 			dependencies: ["2CD163E1780FAD0D"]
 			id: "291C047CCE48E8B2"
 			tasks: [{
@@ -303,8 +311,9 @@
 		}
 		{
 			x: 1.5d
-			y: 4.5d
+			y: 3.0d
 			dependencies: ["291C047CCE48E8B2"]
+			size: 1.33d
 			id: "45F3BD5D86B2024A"
 			tasks: [{
 				id: "32D76CD53B44885A"
@@ -320,7 +329,8 @@
 		}
 		{
 			x: 3.0d
-			y: 3.0d
+			y: 4.5d
+			subtitle: "Use this to craft the other End Rings"
 			dependencies: ["291C047CCE48E8B2"]
 			id: "40B65FA30052F614"
 			tasks: [{
@@ -336,8 +346,12 @@
 		}
 		{
 			x: 0.0d
-			y: 4.5d
-			dependencies: ["6DC760A92F8BE047"]
+			y: 6.0d
+			dependencies: [
+				"6DC760A92F8BE047"
+				"43699963081B4C23"
+			]
+			size: 1.33d
 			id: "4727F254D09DAE2A"
 			tasks: [{
 				id: "715B76FABBF07D0D"
@@ -432,7 +446,7 @@
 		}
 		{
 			x: -1.5d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "Fuel Fuel Fuel!"
 			dependencies: ["454CCF93166E73EF"]
 			id: "6B2457F8831B7ADD"
@@ -450,7 +464,7 @@
 		}
 		{
 			x: 3.0d
-			y: 1.5d
+			y: 7.5d
 			subtitle: "Second best fuel in the pack"
 			dependencies: ["2CD163E1780FAD0D"]
 			id: "5EEFF9007CB80901"
@@ -468,7 +482,8 @@
 		}
 		{
 			x: -1.5d
-			y: 4.5d
+			y: 6.0d
+			subtitle: "Base Nether Medallion"
 			dependencies: ["6DC760A92F8BE047"]
 			id: "1C0B0A977700023F"
 			tasks: [{
@@ -485,7 +500,8 @@
 		}
 		{
 			x: -1.5d
-			y: 3.0d
+			y: 4.5d
+			subtitle: "Use this to craft the other Nether Rings"
 			dependencies: ["6DC760A92F8BE047"]
 			id: "5832FE697A573092"
 			tasks: [{
@@ -503,8 +519,10 @@
 		{
 			x: 1.5d
 			y: -3.0d
+			subtitle: "Base item for rings"
 			description: [""]
 			dependencies: ["7DCB9D548877902F"]
+			size: 1.33d
 			id: "47C80F126DB9B45C"
 			tasks: [{
 				id: "7258CD8D9FEB4BFE"
@@ -521,7 +539,10 @@
 		{
 			x: -1.5d
 			y: -3.0d
+			subtitle: "Base item for Medallions"
+			description: ["The gobber medallions give you effects"]
 			dependencies: ["7DCB9D548877902F"]
+			size: 1.33d
 			id: "7945050C2C85CD68"
 			tasks: [{
 				id: "712D1603078A5FF9"
@@ -537,7 +558,8 @@
 		}
 		{
 			x: 3.0d
-			y: 4.5d
+			y: 6.0d
+			subtitle: "Base End Medallion"
 			dependencies: ["291C047CCE48E8B2"]
 			id: "563E9C54C4E5B7D1"
 			tasks: [{
@@ -552,8 +574,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -3.0d
+			x: 2.5d
+			y: -2.0d
+			subtitle: "It breaks blocks... and drops the resource"
 			description: ["Remove those pesky usless blocks while mining."]
 			dependencies: ["47C80F126DB9B45C"]
 			id: "243C256FE0E8FB08"
@@ -570,33 +593,16 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
-			description: [""]
-			dependencies: ["7DCB9D548877902F"]
-			id: "3195D8067F386750"
-			tasks: [{
-				id: "5A868CF70A12290D"
-				type: "item"
-				item: "gobber2:gobber2_ring"
-			}]
-			rewards: [{
-				id: "1FD0AAEFF151D3D0"
-				type: "item"
-				item: "gobber2:gobber2_globette"
-				count: 3
-			}]
-		}
-		{
 			title: "Dragon Armor"
-			x: 6.0d
-			y: 0.0d
+			x: 6.018741496598658d
+			y: -0.813605442176879d
 			description: [
 				"Best armor Gobber has to offer."
 				""
 				"The full set offers gliding, no fall damage, and water breathing."
 			]
 			dependencies: ["5F87690E9ED5F080"]
+			size: 2.5d
 			id: "76532B4BC6DC40B9"
 			tasks: [
 				{
@@ -648,6 +654,410 @@
 				id: "31AFC01336ADF47B"
 				type: "item"
 				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			title: "Mine Nether Gobber Ore"
+			icon: "gobber2:gobber2_ore_nether"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Nether only"
+			dependencies: ["17A156D8BEA3B103"]
+			hide: true
+			id: "429FF0A596FA0C23"
+			tasks: [{
+				id: "72CFF9BE6E8E0674"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+			}]
+			rewards: [{
+				id: "3CE4BFA29415DCDB"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			subtitle: "You're ready to mine some end globettes"
+			description: ["These guys are much faster than the previous version"]
+			dependencies: ["35B3650C5AC1562F"]
+			id: "43699963081B4C23"
+			tasks: [{
+				id: "6FB72CD69070A376"
+				type: "item"
+				title: "Nether Pickaxe/Hammer/Paxel"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gobber2:gobber2_pickaxe_nether"
+								Count: 1b
+							}
+							{
+								id: "gobber2:gobber2_paxel_nether"
+								Count: 1b
+							}
+							{
+								id: "gobber2:gobber2_hammer_nether"
+								Count: 1b
+							}
+						]
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "6EE14CD4027AD198"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+			}]
+		}
+		{
+			title: "Gobber Pickaxe/Hammer/Paxel"
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["61495D4F54FE2978"]
+			id: "17A156D8BEA3B103"
+			tasks: [{
+				id: "7733ABAB3ED3C89A"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gobber2:gobber2_pickaxe"
+								Count: 1b
+							}
+							{
+								id: "gobber2:gobber2_paxel"
+								Count: 1b
+							}
+							{
+								id: "gobber2:gobber2_hammer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7FCEB7C571032243"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			subtitle: "Magnetize"
+			dependencies: ["47C80F126DB9B45C"]
+			id: "4753016EAFC39363"
+			tasks: [{
+				id: "6DF8508452ACC807"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_ring_attraction"
+					Count: 1b
+					tag: {
+						"Attraction Mode": 0b
+					}
+				}
+			}]
+			rewards: [{
+				id: "053F4A03F558A437"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			subtitle: "Return to your bed"
+			dependencies: ["47C80F126DB9B45C"]
+			id: "744D020D9BB740DF"
+			tasks: [{
+				id: "5A21324F43A45DFD"
+				type: "item"
+				item: "gobber2:gobber2_ring_return"
+			}]
+			rewards: [{
+				id: "37CAA0AD4D62B929"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "Passive heals"
+			dependencies: ["7945050C2C85CD68"]
+			id: "5C5F0DEE2B5F3F6E"
+			tasks: [{
+				id: "78C25688DA30861B"
+				type: "item"
+				item: "gobber2:gobber2_medallion_healing"
+			}]
+			rewards: [{
+				id: "3489B6164CCE7AA0"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Become the hero... of the village!"
+			dependencies: ["7945050C2C85CD68"]
+			id: "53A4DC7A7CD44646"
+			tasks: [{
+				id: "3EEF4F7A396D5827"
+				type: "item"
+				item: "gobber2:gobber2_medallion_hero"
+			}]
+			rewards: [{
+				id: "31D0C7939B15B3A0"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["45F3BD5D86B2024A"]
+			id: "4C487BD8EDAADA4E"
+			tasks: [{
+				id: "0ACA18842B04E0F2"
+				type: "item"
+				title: "End Gobber Pickaxe/Hammer/Paxel"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gobber2:gobber2_pickaxe_end"
+								Count: 1b
+							}
+							{
+								id: "gobber2:gobber2_paxel_end"
+								Count: 1b
+							}
+							{
+								id: "gobber2:gobber2_hammer_end"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E8A20405464320C"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Capture villagers!"
+			dependencies: ["61495D4F54FE2978"]
+			id: "062673AC25A246F5"
+			tasks: [{
+				id: "7D116F61D6DC4711"
+				type: "item"
+				item: "gobber2:gobber2_staff_ensnarement"
+			}]
+			rewards: [{
+				id: "18990CA638F7A2BE"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Transform items into other items"
+			description: [
+				"Make sure to use REI to view all recipe usage for this staff"
+				""
+				"Use the staff and crimson fungus in the crafting table and see what you get"
+			]
+			dependencies: ["61495D4F54FE2978"]
+			id: "51CAF0E3117247BF"
+			tasks: [{
+				id: "331FAC1E9EB4140B"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_staff_transformation"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "33D54DF2E2CFA9AB"
+				type: "item"
+				item: "minecraft:crimson_fungus"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			subtitle: "Pew Pew"
+			dependencies: ["61495D4F54FE2978"]
+			id: "7FF957F042277919"
+			tasks: [{
+				id: "164914658E91DFEB"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FFA1DA0F7F91E31"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			subtitle: "First tier in swords"
+			dependencies: ["61495D4F54FE2978"]
+			id: "5E6A06DA57A6C40F"
+			tasks: [{
+				id: "43AA95C4C6B49D1C"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			subtitle: "Place unlimited torches"
+			dependencies: ["4727F254D09DAE2A"]
+			id: "6E99E4C93A01A0C0"
+			tasks: [{
+				id: "0BF3329E87CE1626"
+				type: "item"
+				item: "gobber2:gobber2_staff_stars"
+			}]
+			rewards: [{
+				id: "17215F8A44520BD9"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "Fire unlimited arrows"
+			dependencies: ["45F3BD5D86B2024A"]
+			id: "7E92CB9E829BA7A2"
+			tasks: [{
+				id: "1235B3D0FEF61FB2"
+				type: "item"
+				item: "gobber2:gobber2_staff_sniper"
+			}]
+			rewards: [{
+				id: "091EA4D55F77E760"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["45F3BD5D86B2024A"]
+			id: "550B601CCEC488E1"
+			tasks: [{
+				id: "389F7F7A2D1C79C3"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F1E49E4B364A488"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			subtitle: "Ultimate Gobber Sword!"
+			dependencies: [
+				"7E92CB9E829BA7A2"
+				"550B601CCEC488E1"
+			]
+			size: 2.0d
+			id: "22608741A197ADCC"
+			tasks: [{
+				id: "7D2067ACD49A244D"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_sniper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41564041DCEABDE4"
+					type: "item"
+					item: "gobber2:gobber2_globette_end"
+				}
+				{
+					id: "04227042A13E3A9D"
+					type: "item"
+					item: "gobber2:gobber2_glob_end"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			subtitle: "Greater healing in your inventory"
+			dependencies: ["1C0B0A977700023F"]
+			id: "54003399E4FB7F9A"
+			tasks: [{
+				id: "0D6F6BA39484E8CA"
+				type: "item"
+				item: "gobber2:gobber2_medallion_healing2"
+			}]
+			rewards: [{
+				id: "712A358430B55C3E"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
 			}]
 		}
 	]

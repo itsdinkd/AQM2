@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:unlucky",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.1
+                "amount": -0.075
             },
             "optional_equipment_slots": [
                 "MAINHAND"

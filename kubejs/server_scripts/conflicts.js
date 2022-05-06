@@ -1,58 +1,60 @@
 // Another Quality Modpack 2 //
 ///////////////////////////////
-
+onEvent('tags.item', event => {
+  event.add('c:food/bacon', 'croptopia:bacon');
+  event.add('c:food/bacon', 'farmersdelight:bacon')
+})
 
 settings.useOriginalRecipeForFilters = true;
 onEvent('recipes', event => {
 
   // salt
-   event.shapeless('croptopia:salt', ['valley:salt']);
-   event.shapeless('valley:salt', ['croptopia:salt']);
-
-
-   event.shapeless('bewitchment:salt', ['valley:salt']);
-   event.shapeless('bewitchment:salt', ['croptopia:salt']);
-   event.shapeless('croptopia:salt', ['bewitchment:salt']);
-   event.shapeless('valley:salt', ['bewitchment:salt']);
+   event.replaceInput({}, "#c:salts", "bewitchment:salt");
    event.replaceInput({}, "#c:salt_dusts", "bewitchment:salt");
-   event.replaceOutput({}, "#c:salt_dusts", "bewitchment:salt");
 
   // // rice
-  // event.shapeless("farmersdelight:rice", ['valley:rice_item']);
-  event.shapeless("farmersdelight:rice", ['croptopia:rice']);
-  // event.shapeless("valley:rice_item", ['farmersdelight:rice']);
-  // event.shapeless("valley:rice_item", ['croptopia:rice']);
-
-  event.shapeless("croptopia:rice", ['farmersdelight:rice']);
+  // event.shapeless("croptopia:rice", ['farmersdelight:rice']);
   // event.shapeless("croptopia:rice", ['valley:rice_item']);
+  // event.shapeless("farmersdelight:rice", ['croptopia:rice']);
+  // event.shapeless("farmersdelight:rice", ['valley:rice_item']);
+  // event.shapeless("valley:rice_item", ['croptopia:rice']);
+  // event.shapeless("valley:rice_item", ['farmersdelight:rice']);
+  event.replaceInput({}, "#c:grains/rice", "farmersdelight:rice");
 
   // // onion
-  event.shapeless("farmersdelight:onion", ['valley:onion']);
-  event.shapeless("farmersdelight:onion", ['croptopia:onion']);
-
-  event.shapeless("valley:onion", ['farmersdelight:onion']);
-  event.shapeless("valley:onion", ['croptopia:onion']);
-
-  event.shapeless("croptopia:onion", ['farmersdelight:onion']);
-  event.shapeless("croptopia:onion", ['valley:onion']);
-
+  // event.shapeless("croptopia:onion", ['farmersdelight:onion']);
+  // event.shapeless("croptopia:onion", ['valley:onion']);
+  // event.shapeless("farmersdelight:onion", ['croptopia:onion']);
+  // event.shapeless("farmersdelight:onion", ['valley:onion']);
+  // event.shapeless("valley:onion", ['croptopia:onion']);
+  // event.shapeless("valley:onion", ['farmersdelight:onion']);
+  event.replaceInput({}, "#c:vegetables/onion", "farmersdelight:onion");
   //// tomato
-  event.shapeless("farmersdelight:tomato", ['croptopia:tomato']);
-  event.shapeless("farmersdelight:tomato", ['sandwichable:tomato']);
+  // event.shapeless("croptopia:tomato", ['farmersdelight:tomato']);
+  // event.shapeless("croptopia:tomato", ['sandwichable:tomato']);
+  // event.shapeless("farmersdelight:tomato", ['croptopia:tomato']);
+  // event.shapeless("farmersdelight:tomato", ['sandwichable:tomato']);
+  // event.shapeless("sandwichable:tomato", ['croptopia:tomato']);
+  // event.shapeless("sandwichable:tomato", ['farmersdelight:tomato']);
+  event.replaceInput({}, "#c:vegetables/tomatoes", "sandwichable:tomato");
 
-  event.shapeless("croptopia:tomato", ['sandwichable:tomato']);
-  event.shapeless("croptopia:tomato", ['farmersdelight:tomato']);
+  // Cabbage
+  event.replaceInput({}, "#c:vegetables/cabbage", "farmersdelight:cabbage");
 
-  event.shapeless("sandwichable:tomato", ['croptopia:tomato']);
-  event.shapeless("sandwichable:tomato", ['farmersdelight:tomato']);
+  // Dough
+  event.replaceInput({}, "#c:dough", "farmersdelight:wheat_dough");
+
+  // Bacon
+  event.replaceInput({}, "#c:food/bacon", "farmersdelight:bacon");
 
   // lettuce
-  event.shapeless("croptopia:lettuce", ['sandwichable:lettuce_leaf']);
-  event.shapeless("sandwichable:lettuce_leaf", ['croptopia:lettuce']);
+  // event.shapeless("croptopia:lettuce", ['sandwichable:lettuce_leaf']);
+  // event.shapeless("sandwichable:lettuce_leaf", ['croptopia:lettuce']);
+  // event.replaceInput({}, "#c:vegetables/lettuce", "sandwichable:lettuce_leaf");
 
   // event.replaceInput({},"croptopia:cheese","#c:cheeses")
 
-  // Blockus from Vanilla qol
+  // Blockus QoL
   event.remove({ output: "blockus:oak_small_logs" });
   event.shaped("3x blockus:oak_small_logs", [
     ["minecraft:oak_log", "minecraft:oak_log", "minecraft:oak_log"],
@@ -117,8 +119,13 @@ event.shaped('bitsandchisels:iron_chisel', [
 ['minecraft:stick', null, null],
 ['minecraft:iron_ingot', null, null],
 ]);
+//Blockus Golden bars
+event.remove({ output: "blockus:golden_bars" });
 
-event.replaceInput({type: 'minecraft:crafting_shapeless'}, 'minecraft:copper_ingot', '#c:copper_ingots')
+// event.shapeless('blockus:golden_bars', ['charm:gold_bars'])
+// event.shapeless('charm:gold_bars', ['blockus:golden_bars'])
+
+// event.replaceInput({type: 'minecraft:crafting_shapeless'}, 'minecraft:copper_ingot', '#c:copper_ingots')
 
 // Garlic Choice
 event.replaceInput('croptopia:garlic', 'bewitchment:garlic')

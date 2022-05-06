@@ -14,7 +14,7 @@
       "tag": "c:boots"
     }
   ],
-  "weight": 15,
+  "weight": 11,
   "style": {
     "color": "dark_blue"
   },
@@ -24,7 +24,7 @@
       "modifier": {
         "name": "tiered:fortified",
         "operation": "MULTIPLY_TOTAL",
-        "amount": 0.2
+        "amount": 0.125
       },
       "optional_equipment_slots": [
         "FEET",

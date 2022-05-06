@@ -1,0 +1,12 @@
+{
+	id: "2B2796A84600E30E"
+	order_index: 6
+	title: "Sandwichable Seeds"
+	loot_size: 1
+	rewards: [
+		{ item: "sandwichable:tomato_seeds" }
+		{ item: "sandwichable:lettuce_seeds" }
+		{ item: "sandwichable:cucumber_seeds" }
+		{ item: "sandwichable:onion_seeds" }
+	]
+}

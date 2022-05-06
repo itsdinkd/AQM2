@@ -12,8 +12,8 @@
 		{
 			title: "Travel to the Nether"
 			icon: "additionaladditions:mysterious_bundle"
-			x: 0.0d
-			y: 0.0d
+			x: 0.5d
+			y: 2.0d
 			subtitle: "Its time to visit Hell to progress further. Good luck, its hard as hell."
 			id: "051C81A88B70C303"
 			tasks: [{
@@ -28,31 +28,12 @@
 			}]
 		}
 		{
-			title: "Find Killer Bunny Castle"
-			x: -1.0d
-			y: 2.0d
-			subtitle: "Search the overworld for Killer Bunny's Castle"
-			description: ["Can you kill it?"]
-			id: "44397653A9E18B40"
-			tasks: [{
-				id: "42B3E7157994116D"
-				type: "structure"
-				icon: "companion_bats:bunny_ears"
-				structure: "mostructures:killer_bunny_castle"
-			}]
-			rewards: [{
-				id: "63D217DC2D1413A5"
-				type: "item"
-				item: "soaringstructures2:heavenly_tea"
-				count: 2
-			}]
-		}
-		{
 			title: "Visit The Better Stronghold"
-			x: 0.0d
+			x: -0.5d
 			y: 2.0d
 			subtitle: "It's Better"
 			description: ["You can find lots here, including Arcanus spell books in the libraries"]
+			optional: true
 			id: "21789090F6D9D027"
 			tasks: [{
 				id: "57420B926B45C780"
@@ -70,6 +51,72 @@
 				id: "5F5E6E269AEB71D6"
 				type: "item"
 				item: "gofish:golden_crate"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "You will come across a rare Mushroom"
+			id: "085D054DC0BA2696"
+			tasks: [{
+				id: "1AC55FDAE3AA75AF"
+				type: "biome"
+				title: "Find the Host Biome"
+				icon: "magicfungi:host_tall_grass"
+				biome: "magicfungi:host_biome"
+			}]
+			rewards: [{
+				id: "4AFF52220D6620E1"
+				type: "item"
+				item: "magicfungi:morbus_mushroom"
+			}]
+		}
+		{
+			title: "Visit Forgotten Forest"
+			x: -1.5d
+			y: 3.0d
+			subtitle: "It's beautiful at night"
+			id: "6DA08A9E3135D056"
+			tasks: [{
+				id: "4CE2F4F1A310D4FF"
+				type: "biome"
+				icon: "byg:green_enchanted_leaves"
+				biome: "byg:forgotten_forest"
+			}]
+			rewards: [
+				{
+					id: "3D13A29DAD0DD607"
+					type: "item"
+					item: "byg:pink_cherry_sapling"
+				}
+				{
+					id: "697EAF2EE13DB926"
+					type: "item"
+					item: "byg:blue_enchanted_sapling"
+				}
+				{
+					id: "41E3FF201C1D9438"
+					type: "item"
+					item: "byg:green_enchanted_sapling"
+				}
+			]
+		}
+		{
+			title: "Aether Highland Forest"
+			x: -0.5d
+			y: 3.0d
+			subtitle: "The Aether Forest!"
+			id: "62F935B260B4335A"
+			tasks: [{
+				id: "715CDA4F871B3AFD"
+				type: "biome"
+				icon: "the_aether:boreal_wisteria_sapling"
+				biome: "the_aether:aether_highlands_forest"
+			}]
+			rewards: [{
+				id: "4E4FD0E277932514"
+				type: "item"
+				item: "the_aether:rose_wisteria_sapling"
 			}]
 		}
 	]

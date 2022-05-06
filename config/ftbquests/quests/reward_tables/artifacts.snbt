@@ -3,6 +3,7 @@
 	order_index: 5
 	title: "Artifacts"
 	loot_size: 1
+	hide_tooltip: true
 	rewards: [
 		{
 			item: {

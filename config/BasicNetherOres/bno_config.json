@@ -238,7 +238,7 @@
     },
     "emeraldMinHeight": {
       "comment": "Set Emerald Min Spawn Height (Default: 25)",
-      "value": 25
+      "value": 15
     }
   },
   "redstoneOre": {
@@ -319,39 +319,39 @@
     "protectedBlocks": {
       "comment": "***This is dealt with in the vanilla MC Tags ***Add Blocks to be protected by Piglins (Example: minecraft:glowstone, bno:netheremerald_ore, ect. )",
       "value": [
-        "bno:netheremerald_ore",
-        "bno:netherdiamond_ore",
-        "bno:netherlapis_ore",
-        "bno:netherredstone_ore",
-        "minecraft:nether_gold_ore",
-        "bno:nethersilver_ore",
-        "bno:netheriron_ore",
-        "bno:netherlead_ore",
-        "bno:nethernickel_ore",
-        "bno:nethercoal_ore",
-        "bno:nethercopper_ore",
-        "bno:netheraluminum_ore",
-        "bno:nethertin_ore",
-        "bno:netherosmium_ore",
-        "bno:netheruranium_ore",
-        "betternether:nether_ruby_ore",
         "betternether:cincinnasite_ore",
-        "techreborn:pyrite_ore",
-        "techreborn:cinnabar_ore",
-        "techreborn:sphalerite_ore",
+        "betternether:nether_ruby_ore",
+        "bno:nether_aluminum_ore",
+        "bno:nether_coal_ore",
+        "bno:nether_copper_ore",
+        "bno:nether_diamond_ore",
+        "bno:nether_emerald_ore",
+        "bno:nether_iron_ore",
+        "bno:nether_lapis_ore",
+        "bno:nether_lead_ore",
+        "bno:nether_nickel_ore",
+        "bno:nether_osmium_ore",
+        "bno:nether_redstone_ore",
+        "bno:nether_silver_ore",
+        "bno:nether_tin_ore",
+        "bno:nether_uranium_ore",
         "gobber2:gobber2_ore_nether",
-        "valley:nether_salt",
         "lightestlamp:lanthanum_ore",
+        "minecraft:glowstone",
+        "minecraft:nether_gold_ore",
         "mythicmetals:palladium_ore",
         "mythicmetals:stormyx_ore",
         "spectrum:scarlet_ore",
-        "minecraft:glowstone",
+        "techreborn:cinnabar_ore",
+        "techreborn:pyrite_ore",
+        "techreborn:sphalerite_ore",
+        "valley:nether_salt",
         "minecraft:nether_quartz_ore"
       ]
     },
     "silkEffect": {
       "comment": "Set to false if you want the Piglins to attack when using Silk Touch Tools (Default: true)",
-      "value": false
+      "value": true
     }
   },
   "zincOre": {

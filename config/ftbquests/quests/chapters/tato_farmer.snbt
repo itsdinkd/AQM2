@@ -9,10 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -9.5d
-			y: -6.5d
+			x: -10.0d
+			y: -1.0d
 			subtitle: "Buy Seeds, Saplings, and Other Goodies"
 			description: ["Get this Market, Place it, and then interact with it to have your own personal farming shop"]
+			size: 2.5d
 			id: "1F2BCB39AA537AD1"
 			tasks: [{
 				id: "6E67C23357940874"
@@ -36,14 +37,15 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: -2.3035714285714235d
+			y: -0.9642857142857153d
 			subtitle: "One menu to see the all"
 			description: [
 				"Place this where your villagers are and you will get all trades in one menu"
 				""
 				"The range is 24 blocks horizontally, 14 blocks vertically"
 			]
+			size: 2.5d
 			id: "7B9FF9B3955224DA"
 			tasks: [{
 				id: "774028ECB27A66E5"
@@ -730,6 +732,16 @@
 				id: "24027257B774A070"
 				type: "item"
 				item: "croparia:seed_crop_clay"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 2.0d
+			id: "192D1D05E5D3DB83"
+			tasks: [{
+				id: "7830BF68435ECFE3"
+				type: "item"
+				item: "minecraft:oak_sapling"
 			}]
 		}
 	]

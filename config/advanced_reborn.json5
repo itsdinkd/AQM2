@@ -1,0 +1,28 @@
+{
+	// Add Tech Reborn's ore-based tool turtle and more.
+	"linkComputerCraft": true,
+	// link Roughly Enough Items with Tech Reborn
+	"linkReiWithTR": true,
+	// link Roughly Enough Items with Advanced Reborn
+	"linkReiWithAR": true,
+	// link Roughly Enough Items
+	"linkRei": true,
+	// Rotary Grinder, Centrifugal Extractor, Singularity Compressor Max Input (Value in EU)
+	"advancedMachineMaxInput": 256,
+	// Rotary Grinder, Centrifugal Extractor, Singularity Compressor Max Energy (Value in EU)
+	"advancedMachineMaxEnergy": 10000,
+	// Canning Machine Max Input (Value in EU)
+	"canningMachineMaxInput": 32,
+	// Canning Machine Max Energy (Value in EU)
+	"canningMachineMaxEnergy": 1000,
+	// Renaming Machine Max Input (Value in EU)
+	"renamingMachineMaxInput": 32,
+	// Renaming Machine Max Energy (Value in EU)
+	"renamingMachineMaxEnergy": 1000,
+	// Renaming Machine Use Energy (Value in EU)
+	"renamingMachineUseEnergy": 4,
+	// Teleporter Use Energy (Value in EU)
+	"teleporterUseEnergy": 64,
+	// If you make a mistake in setting the teleporter and you get an infinite loop, you can fix it by disabling it.
+	"teleporterEnabled": false
+}

@@ -60,7 +60,7 @@ onEvent('recipes', event => {
 
     "fluid_inputs": {
       "fluid" : "modern_industrialization:uu_matter",
-      "amount" : 30
+      "amount" : 3000
     },
     "item_outputs": [
       {

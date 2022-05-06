@@ -20,7 +20,22 @@ onEvent('recipes', event => {
 // ["minecraft:wheat_seeds","croptopia:corn_seed", "minecraft:wheat_seeds"],
 // ["prefab:item_bundle_of_timber", "prefab:block_compressed_dirt","prefab:item_bundle_of_timber"],
 // ["minecraft:white_wool","minecraft:water_bucket", "minecraft:white_wool"],
-// ]);
+// ]);magehand:mage_hand_copper
+
+event.remove({output: 'quarryplus:marker'})
+ event.shaped('quarryplus:marker', ['cQc', ' s '],
+ {
+   c: 'gobber2:gobber2_glob_end',
+   Q: 'botania:cosmetic_questgiver_mark',
+   s: 'betterend:leather_wrapped_stick'
+ });
+
+//  event.replaceInput({id: 'magehand:mage_hand_copper'}, 'minecraft:copper_ingot', 'indrev:copper_chunk')
+// event.replaceInput({id: 'magehand:mage_hand_gold'}, 'minecraft:gold_ingot', 'indrev:gold_chunk')
+// event.replaceInput({id: 'magehand:mage_hand_diamond'}, 'minecraft:diamond', 'techreborn:diamond_plate')
+// event.replaceInput({id: 'magehand:mage_hand_iron'}, 'minecraft:iron_ingot', 'indrev:iron_chunk')
+// event.replaceInput({id: 'magehand:mage_hand_iron'}, 'minecraft:iron_ingot', 'indrev:iron_chunk')
+
 
  event.shaped('artis:end_game_crafting', ['gs ', ' ge', 'c g'],
  {
@@ -28,7 +43,18 @@ onEvent('recipes', event => {
    s: 'gobber2:dragon_elytra',
    e: 'betterend:elytra_crystalite',
    g: 'gobber2:dragon_star'
- });
+ })
+//  });
+// event.remove({output:'miniminer:minimineritem'})
+// event.shaped('miniminer:minimineritem', ['D d','nCn', 'g v'],
+// {
+//   g: "goldenhopper:goldenhopper",
+//   D: "techreborn:advanced_drill",
+//   d: "indrev:mining_drill_mk2",
+//   n: 'gobber2:gobber2_ingot_nether',
+//   C: 'wirelessnetworks:entangled_capacitor',
+//   v: 'kibe:vacuum_hopper'
+// })
 
 event.remove({ output: "prefab:item_starter_farm" });
 event.shaped("prefab:item_starter_farm", [
@@ -259,8 +285,12 @@ event.shaped("gobber2:gobber2_ring_vision", [
     },
     "result": {
       "item": "kibe:angel_ring"
-    }
-  })
+    },
+    "catalyst": {
+      "item": "kubejs:ultimate_ingot"
+    },
+    "cost": 1
+  });
 
 //   event.custom({
 //   "type": "botania:runic_altar",
@@ -1146,13 +1176,10 @@ event.custom({
   "mana": 99999,
   "ingredients": [
     {
-      "item": "kubejs:cursed_gem"
+      "item": "things:displacement_tome"
     },
     {
       "item": "botania:gaia_ingot"
-    },
-    {
-      "item": "techreborn:interdimensional_su"
     },
     {
       "item": "techreborn:interdimensional_su"

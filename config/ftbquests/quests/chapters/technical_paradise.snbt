@@ -305,9 +305,9 @@
 			subtitle: "Using Botania, Complete the AE2 press quest in \"What Sorcery is This\""
 			description: ["Presses are used in an Inscriber to make the various Circuits"]
 			dependencies: [
-				"523C60C22F277DBE"
 				"5612740453389204"
 				"47FBE6421F89965A"
+				"03DC791EC5F5BEBA"
 			]
 			id: "737F2F2D5BB68057"
 			tasks: [
@@ -1426,6 +1426,281 @@
 				id: "7C800AA001365BD2"
 				type: "item"
 				item: "ae2:wireless_booster"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			subtitle: "Transfer power wirelessly - Quest coming soon"
+			hide: false
+			id: "2B5A3FAEFD45FF1C"
+			tasks: [{
+				id: "6B3138344546F600"
+				type: "item"
+				item: "wirelessnetworks:node_block"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			subtitle: "Transfer power wirelessly - Quest coming soon"
+			dependencies: ["2B5A3FAEFD45FF1C"]
+			hide_text_until_complete: false
+			id: "31FEC1D914195281"
+			tasks: [{
+				id: "6675D939BEBA4A82"
+				type: "item"
+				item: "wirelessnetworks:entangled_capacitor"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			subtitle: "A better portable pocket dimension"
+			dependencies: ["1CA75D7D445EFFDF"]
+			id: "25C2ECB313ABAA62"
+			tasks: [{
+				id: "0E16C0892C6BA174"
+				type: "item"
+				item: "dimdoors:quartz_dimensional_door"
+			}]
+			rewards: [{
+				id: "11BD98BCCE00FF3B"
+				type: "item"
+				item: {
+					id: "dimdoors:rift_remover"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			subtitle: "Your own pocket dimension"
+			description: ["Hint: Build a base inside of it, or a storage, or a farm. the options are limitless"]
+			dependencies: ["239ECC2B7F3A3AD8"]
+			id: "1CA75D7D445EFFDF"
+			tasks: [{
+				id: "1AB79CF8FFAE99AD"
+				type: "item"
+				item: "dimdoors:iron_dimensional_door"
+			}]
+			rewards: [{
+				id: "4574051BB3C80D75"
+				type: "item"
+				item: "dimdoors:oak_dimensional_door"
+			}]
+		}
+		{
+			title: "???"
+			icon: "dimdoors:monolith_spawner"
+			x: -8.5d
+			y: 3.0d
+			subtitle: "You'll randomly unlock this"
+			description: [
+				"You may ask yourself how you exit..."
+				""
+				"Beat a monolith or find the liquid and jump in it"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "239ECC2B7F3A3AD8"
+			tasks: [
+				{
+					id: "09A17ED7E4D26B41"
+					type: "location"
+					title: "Some Dimension"
+					dimension: "dimdoors:limbo"
+					ignore_dimension: false
+					position: [I;
+						0
+						0
+						0
+					]
+					size: [I;
+						1
+						1
+						1
+					]
+				}
+				{
+					id: "7A628DBE88D2A415"
+					type: "observation"
+					title: "..."
+					icon: "botania:cosmetic_questgiver_mark"
+					timer: 1L
+					observe_type: 0
+					to_observe: "minecraft:dirt"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			subtitle: "Stop that Rift!"
+			description: ["When you see a rift, you can use the rift remover to close it. Closing a rift is a smart as it will stop the spread of unstable fabric"]
+			dependencies: ["25C2ECB313ABAA62"]
+			id: "1CBAE85D6CEDCC7C"
+			tasks: [{
+				id: "670D1873F6D801A0"
+				type: "item"
+				item: {
+					id: "dimdoors:rift_remover"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "021CC1628C40AD3B"
+				type: "item"
+				item: "dimdoors:white_void_record"
+			}]
+		}
+		{
+			title: "Automate using Mage Hands"
+			x: -3.0d
+			y: 6.0d
+			subtitle: "Slay the Hostile Hand"
+			description: ["Found by killing Hostile Hand which spawns in vanilla nether biomes"]
+			id: "3365EB5832C708B4"
+			tasks: [{
+				id: "4443B3B57596CB36"
+				type: "item"
+				title: "Find the Mage Hand Essence"
+				item: "magehand:hand_essence_item"
+			}]
+			rewards: [{
+				id: "41ADB18A7D300D9E"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			dependencies: ["3365EB5832C708B4"]
+			id: "1F4DFB58C168A100"
+			tasks: [{
+				id: "79C3A264E2F45E9F"
+				type: "item"
+				item: "magehand:bone_hand_item"
+			}]
+			rewards: [{
+				id: "2DBFC519B1EF68EB"
+				type: "item"
+				item: "minecraft:leather"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			subtitle: "Main component for mage hands"
+			dependencies: ["1F4DFB58C168A100"]
+			id: "7089BA6073A770DF"
+			tasks: [{
+				id: "0D4BEDAC0737A401"
+				type: "item"
+				item: "magehand:flesh_hand_item"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			subtitle: "Seeks items on the ground and takes it to the set inventory"
+			description: ["Tip: Combine with a dropper for long distance item movement!"]
+			dependencies: ["7089BA6073A770DF"]
+			id: "6489F9ED4CDA1C91"
+			tasks: [{
+				id: "083E9176B38E9756"
+				type: "item"
+				item: "magehand:copper_spawner_item"
+			}]
+			rewards: [{
+				id: "4D64D865FA94D113"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			subtitle: "Points to the nearest set ore block"
+			description: ["Sneak + Right Click to change the vanilla ore"]
+			dependencies: ["7089BA6073A770DF"]
+			id: "767BB50081EFDF4D"
+			tasks: [{
+				id: "0D9C8BCF1C6DF4E5"
+				type: "item"
+				item: "magehand:diamond_spawner_item"
+			}]
+			rewards: [{
+				id: "766AD4170EA2355D"
+				type: "item"
+				item: "gofish:diamond_crate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			subtitle: "Similar to Copper Hand, but more advanced and has a filter"
+			description: ["Toggle Whitelist or Blacklist by right clicking on the hand with the item you want to filter"]
+			dependencies: ["7089BA6073A770DF"]
+			id: "2B8FCCA39A560361"
+			tasks: [{
+				id: "07216CEF5F4599BC"
+				type: "item"
+				item: {
+					id: "magehand:amethyst_spawner_item"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "75A5287F9FEAF5B5"
+				type: "item"
+				item: "gofish:supply_crate"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.0d
+			subtitle: "Finds mobs and aggresively attacks"
+			description: ["Tip: Give it a sword!"]
+			dependencies: ["7089BA6073A770DF"]
+			id: "06B968F0586DB387"
+			tasks: [{
+				id: "3EDC0EB8615F6F7B"
+				type: "item"
+				item: "magehand:iron_spawner_item"
+			}]
+			rewards: [{
+				id: "62E2291E0EC99891"
+				type: "item"
+				item: "gofish:iron_crate"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.5d
+			subtitle: "Harvests fully grown plants, and plants the seeds found in the set chest"
+			description: ["Tip: Combine with copper for fully automated crops"]
+			dependencies: ["7089BA6073A770DF"]
+			id: "3C4D65B9907A10E8"
+			tasks: [{
+				id: "6A863947A6C0591F"
+				type: "item"
+				item: "magehand:gold_spawner_item"
+			}]
+			rewards: [{
+				id: "796E697C6F39D489"
+				type: "item"
+				item: "gofish:golden_crate"
 			}]
 		}
 	]

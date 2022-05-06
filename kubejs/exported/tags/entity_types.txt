@@ -1,15 +1,27 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 18, 2022, 4:44:03 PM
-
-#ward_blocks:loot_exclude
-- minecraft:cow
+To refresh this file, delete it and run /reload command again! Last updated: May 3, 2022, 3:06:01 PM
 
 #c:skeletons
 - earthtojavamobs:skeleton_wolf
+
+#the_aether:condition_immunities/venom
+- the_aether:cockatrice
+- the_aether:aechor_plant
+- the_aether:purple_swet
+
+#milk_plus:skeletons
+- minecraft:skeleton
+- minecraft:skeleton_horse
+- minecraft:stray
 
 #dml-refabricated:end_mobs
 - minecraft:enderman
 - minecraft:shulker
 - minecraft:endermite
+
+#byg:not_hurt_by_quartz_crystals
+- minecraft:ghast
+- minecraft:hoglin
+- minecraft:enderman
 
 #botania:cocoon/common
 - minecraft:pig
@@ -18,12 +30,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:rabbit
 - minecraft:sheep
 
+#the_aether:condition_immunities/abstentine_toxicity
+- the_aether:cockatrice
+- the_aether:aechor_plant
+- the_aether:purple_swet
+
 #botania:cocoon/rare_aquatic
 - minecraft:dolphin
 - minecraft:glow_squid
+- minecraft:axolotl
 
-#ward_blocks:attack_exclude
-- minecraft:cow
+#minecraft:power_snow_walkable_mobs
+- whisperwoods:hirschgeist
+- whisperwoods:wisp
 
 #requiem:inventory/inventory_carriers
 - ratsmischief:rat
@@ -54,27 +73,32 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:fox
 - minecraft:panda
 - minecraft:turtle
+- minecraft:goat
 - quark:frog?
 
 #dml-refabricated:nether_mobs
-- minecraft:wither_skeleton
-- minecraft:blaze
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:zombified_piglin
 - minecraft:ghast
 - minecraft:magma_cube
+- minecraft:wither_skeleton
+- minecraft:blaze
 - minecraft:hoglin
 - minecraft:zoglin
-- minecraft:piglin
-- minecraft:zombified_piglin
-
-#ward_blocks:exp_include
-- minecraft:witch
 
 #botania:shaded_mesa_blacklist
 - minecraft:ender_dragon
 - minecraft:wither
 - minecraft:item_frame
+- minecraft:glow_item_frame
 - minecraft:end_crystal
 - minecraft:painting
+- minecraft:command_block_minecart
+- minecraft:marker
+- minecraft:area_effect_cloud
+- minecraft:evoker_fangs
+- minecraft:leash_knot
 - botania:corporea_spark
 - botania:doppleganger
 - botania:flame_ring
@@ -129,6 +153,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #minecraft:beehive_inhabitors
 - minecraft:bee
 
+#c:boats
+- minecraft:boat
+
 #minecraft:skeletons
 - minecraft:skeleton
 - minecraft:stray
@@ -177,9 +204,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:witch
 - minecraft:spider
 
+#tradingpost:blacklisted_traders
+
 #dml-refabricated:slimy_mobs
 - minecraft:slime
 - minecraft:magma_cube
+- terrarianslimes:green_slime
+- terrarianslimes:blue_slime
+- terrarianslimes:red_slime
+- terrarianslimes:purple_slime
+- terrarianslimes:yellow_slime
+- terrarianslimes:black_slime
+- terrarianslimes:ice_slime
+- terrarianslimes:sand_slime
+- terrarianslimes:jungle_slime
+- terrarianslimes:spiked_ice_slime
+- terrarianslimes:spiked_jungle_slime
+- terrarianslimes:mother_slime
+- terrarianslimes:baby_slime
+- terrarianslimes:lava_slime
+- terrarianslimes:pinky
+- terrarianslimes:spiked_slime
+- terrarianslimes:umbrella_slime
+- terrarianslimes:corrupt_slime
+- terrarianslimes:slimeling
+- terrarianslimes:crimslime
+- terrarianslimes:illuminant_slime
+- terrarianslimes:rainbow_slime
 
 #eldritch_mobs:eldritch_blacklist
 - minecraft:axolotl
@@ -224,6 +275,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:zombie_horse
 - minecraft:cod
 
+#c:minecarts
+- minecraft:minecart
+- minecraft:tnt_minecart
+- minecraft:chest_minecart
+- minecraft:furnace_minecart
+- minecraft:command_block_minecart
+- minecraft:hopper_minecart
+- minecraft:spawner_minecart
+
 #eldritch_mobs:eldritch_allowed
 - adventurez:amethyst_golem
 - adventurez:amethyst_shard
@@ -248,7 +308,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - adventurez:void_shade
 - adventurez:void_shadow
 - adventurez:wither_puppet
-- aqupd:grizzly_bear
+- archon:tar
+- archon:ayla
 - betternether:flying_pig
 - betternether:naga
 - bewitchment:baphomet
@@ -272,7 +333,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - doom:arachnotroneternal
 - doom:arch_maykr
 - doom:archvile
-- doom:archvileeternal
 - doom:armoredbaron
 - doom:baron
 - doom:baron2016
@@ -281,27 +341,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - doom:chaingunner
 - doom:cueball
 - doom:cyberdemon
-- doom:cyberdemon2016
 - doom:doom_hunter
 - doom:dreadknight
 - doom:firebronebaron
 - doom:gargoyle
+- doom:gladiator
 - doom:gore_nest
 - doom:hellknight
 - doom:hellknight2016
 - doom:iconofsin
 - doom:imp
-- doom:imp2016
-- doom:imp2016
 - doom:lost_soul
 - doom:mancubus
 - doom:marauder
 - doom:maykr_drone
 - doom:mechazombie
 - doom:motherdemon
-- doom:nightmare_imp
 - doom:painelemental
-- doom:pinky
 - doom:pinky
 - doom:possessed_scientist
 - doom:possessed_soldier
@@ -315,14 +371,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - doom:spidermastermind2016
 - doom:stone_imp
 - doom:summoner
-- doom:summoner
 - doom:tentacle
 - doom:turret
-- doom:tyrant
 - doom:unwilling
 - doom:whiplash
 - doom:zombieman
-- gobber2:nemesis
 - earthtojavamobs:viler_witch
 - earthtojavamobs:furnace_golem
 - earthtojavamobs:bouldering_zombie
@@ -415,8 +468,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - mobz:tadpode
 - mobz:tank
 - mobz:test
-- mobz:toad
-- mobz:toad_giant
 - mobz:tspider
 - mobz:with
 - mobz:withender
@@ -457,6 +508,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:snow_golem
 - minecraft:wither
 - adventurez:summoner
+- tinyskeletons:baby_stray
+- whisperwoods:hirschgeist
+- whisperwoods:wisp
 
 #libra:evil_creatures
 - minecraft:evoker
@@ -478,9 +532,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:wither_skeleton
 - minecraft:zombified_piglin
 
-#ward_blocks:loot_include
-- minecraft:witch
-
 #requiem:behavior/regular_eaters
 - ratsmischief:rat
 
@@ -497,6 +548,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - bewitchment:herne
 
 #c:bosses
+- minecraft:wither
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- archon:tar
+- archon:ayla
 - minecraft:ender_dragon
 - minecraft:wither
 - bewitchment:leonard
@@ -504,6 +560,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - bewitchment:lilith
 - bewitchment:herne
 - botania:doppleganger
+- minecraft:ender_dragon
+- minecraft:wither
 
 #farmersdelight:horse_feed_users
 - minecraft:horse
@@ -533,6 +591,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:squid
 - minecraft:glow_squid
 
+#the_aether:swet_transformers/blue
+
+#archon:players
+- minecraft:player
+
 #requiem:humans
 - bewitchment:vampire
 - bewitchment:werewolf
@@ -543,11 +606,48 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:villager
 - minecraft:parrot
 
+#archon:creatures
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- minecraft:goat
+- minecraft:dolphin
+- minecraft:glow_squid
+- minecraft:axolotl
+- minecraft:bat
+- minecraft:mooshroom
+- minecraft:strider
+- minecraft:bee
+- minecraft:polar_bear
+
 #eldritch_mobs:always_eldritch
 
 #eldritch_mobs:always_ultra
 - minecraft:ender_dragon
 - minecraft:wither
+
+#the_aether:swet_transformers/transformers
+- #the_aether:swet_transformers/blue
+- #the_aether:swet_transformers/golden
+- #the_aether:swet_transformers/purple
+- #the_aether:swet_transformers/vermilion
 
 #dml-refabricated:skeleton_mobs
 - minecraft:skeleton
@@ -556,6 +656,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #requiem:inventory/item_users
 - ratsmischief:rat
+
+#the_aether:swet_transformers/golden
 
 #bewitchment:encounter_fortune
 - minecraft:husk
@@ -573,17 +675,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - adventurez:small_stone_golem
 
 #eldritch_mobs:always_elite
+- doom:motherdemon
+- doom:gladiator
+- doom:iconofsin
+- adventurez:void_shadow
+- adventurez:stone_golem
+- bosses_of_mass_destruction:void_blossom
+- bosses_of_mass_destruction:lich
+- bosses_of_mass_destruction:gauntlet
+- bosses_of_mass_destruction:obsidilith
+- archon:tar
+- archon:ayla
 
 #bewitchment:insanity_blacklist
 - minecraft:creeper
 - minecraft:witch
 - minecraft:ravager
 
-#ward_blocks:exp_exclude
-- minecraft:cow
+#the_aether:swet_transformers/vermilion
+- minecraft:magma_cube
 
-#ward_blocks:attack_include
-- minecraft:witch
+#the_aether:swets
+- the_aether:white_swet
+- the_aether:blue_swet
+- the_aether:purple_swet
+- the_aether:golden_swet
+
+#the_aether:swet_transformers/purple
+- the_aether:cockatrice
+- the_aether:aechor_plant
 
 #bewitchment:has_blood
 - minecraft:player

@@ -1,8 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 18, 2022, 4:44:03 PM
-
-#minecraft:lava
-- minecraft:lava
-- minecraft:flowing_lava
+To refresh this file, delete it and run /reload command again! Last updated: May 3, 2022, 3:06:01 PM
 
 #minecraft:water
 - minecraft:water
@@ -74,16 +70,34 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - hyperlighting:red_colored_glowing_water_flowing
 - hyperlighting:black_colored_glowing_water_still
 - hyperlighting:black_colored_glowing_water_flowing
-- milk:flowing_milk
-- milk:still_milk
+- indrev:coolant_still
+- indrev:coolant_flowing
+- indrev:sulfuric_acid_still
+- indrev:sulfuric_acid_flowing
+- indrev:toxic_mud_still
+- indrev:toxic_mud_flowing
+- milk:flowing_milk?
+- milk:still_milk?
+- sandwichable:pickle_brine
+- sandwichable:pickle_brine_flowing
+- the_aether:dense_aercloud
+- the_aether:spring_water
+- the_aether:flowing_spring_water
+- minecraft:water
+- minecraft:flowing_water
+- xps:xp_fluid
+- xps:flowing_xp
 
-#c:mud
-- earthtojavamobs:mud_fluid
-- earthtojavamobs:mud_fluid_flowing
+#spectrum:swimmable_fluid
+- #spectrum:liquid_crystal
+- #spectrum:mud
+- #spectrum:midnight_solution
 
-#spectrum:liquid_crystal
-- spectrum:liquid_crystal
-- spectrum:flowing_liquid_crystal
+#the_aether:swet_transformers/transformers
+- #the_aether:swet_transformers/blue
+- #the_aether:swet_transformers/golden
+- #the_aether:swet_transformers/purple
+- #the_aether:swet_transformers/vermilion
 
 #ae2:blacklisted/annihilation_plane
 
@@ -91,10 +105,63 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - spectrum:mud
 - spectrum:flowing_mud
 
+#c:milk
+- milk:flowing_milk?
+- milk:still_milk?
+
+#the_aether:swet_transformers/golden
+
+#c:water
+- #minecraft:water?
+
+#c:lava
+- #minecraft:lava?
+
+#spectrum:midnight_solution_converted
+- #spectrum:liquid_crystal
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+- indrev:molten_netherite_still
+- indrev:molten_netherite_flowing
+- indrev:molten_iron_still
+- indrev:molten_iron_flowing
+- indrev:molten_copper_still
+- indrev:molten_copper_flowing
+- indrev:molten_gold_still
+- indrev:molten_gold_flowing
+- indrev:molten_tin_still
+- indrev:molten_tin_flowing
+- indrev:molten_lead_still
+- indrev:molten_lead_flowing
+- indrev:molten_silver_still
+- indrev:molten_silver_flowing
+
+#the_aether:swet_transformers/vermilion
+
+#spectrum:midnight_solution
+- spectrum:midnight_solution
+- spectrum:flowing_midnight_solution
+
+#the_aether:swet_transformers/purple
+
+#c:mud
+- earthtojavamobs:mud_fluid
+- earthtojavamobs:mud_fluid_flowing
+
+#the_aether:spring_water
+- the_aether:spring_water
+- the_aether:flowing_spring_water
+
+#spectrum:liquid_crystal
+- spectrum:liquid_crystal
+- spectrum:flowing_liquid_crystal
+
 #earthtojavamobs:mud
 - earthtojavamobs:mud_fluid
 - earthtojavamobs:mud_fluid_flowing
 
-#c:milk
-- milk:flowing_milk
-- milk:still_milk
+#the_aether:swet_transformers/blue
+- minecraft:water
+- minecraft:flowing_water

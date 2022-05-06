@@ -39,7 +39,7 @@
   },
   "saltySandGenOptions": {
     "rarity": 18,
-    "veinSize": 5,
+    "veinSize": 4,
     "maxGenHeight": 128
   },
   "shrubGenOptions": {

@@ -1,0 +1,1144 @@
+{
+	id: "76E30DE0B75DE42C"
+	group: "7DDA60A5DB5F9F6C"
+	order_index: 3
+	filename: "chef_boyardee"
+	title: "Chef Boyardee"
+	icon: "croptopia:cooking_pot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Taco Day"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Lets make some tacos"
+			id: "5540C5B32D7A1675"
+			tasks: [{
+				id: "0AFCE49EDAFF6427"
+				type: "item"
+				item: "tacocraft:tortilla_dough"
+			}]
+			rewards: [{
+				id: "2104255396213EB5"
+				type: "item"
+				item: "tacocraft:corn_seed"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Used to heat Tortilla's"
+			dependencies: ["5540C5B32D7A1675"]
+			id: "487E9C2809CBDCFD"
+			tasks: [{
+				id: "065AEF632CE44338"
+				type: "item"
+				item: "tacocraft:furnace"
+			}]
+			rewards: [{
+				id: "15C4534C69D7A129"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Place the Tortilla on this bad boy"
+			dependencies: ["487E9C2809CBDCFD"]
+			id: "0BA1106C6BF0CA51"
+			tasks: [{
+				id: "56398259330DA838"
+				type: "item"
+				item: "tacocraft:comal"
+			}]
+			rewards: [{
+				id: "739E15D6389BEC08"
+				type: "item"
+				item: "tacocraft:tortilla_dough"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "Grill up some tortilla's"
+			description: [
+				"Place your Brick Furnace down, and sneak right click place the Comal on top"
+				""
+				"Then take your tortilla dough, and place it on your Comal. Make sure to put some fuel in your furnace!"
+			]
+			dependencies: ["0BA1106C6BF0CA51"]
+			id: "275F4112B24C097F"
+			tasks: [{
+				id: "3C4D58704C52E73A"
+				type: "observation"
+				title: "Heat up your tortilla dough"
+				icon: "tacocraft:tortilla"
+				timer: 0L
+				observe_type: 0
+				to_observe: "tacocraft:tortilla"
+			}]
+			rewards: [{
+				id: "113DF9884401D26C"
+				type: "item"
+				item: "tacocraft:tortilla"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Crunch Crunch"
+			dependencies: ["5540C5B32D7A1675"]
+			id: "506680B4DA94A156"
+			tasks: [{
+				id: "323577A9C523094C"
+				type: "item"
+				item: "tacocraft:empty_shell"
+			}]
+			rewards: [{
+				id: "587388E9FB9DD961"
+				type: "item"
+				item: "tacocraft:empty_shell"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Carne Asade?"
+			dependencies: ["275F4112B24C097F"]
+			id: "38E22FB19BCE3741"
+			tasks: [{
+				id: "42FF75314BEE86A2"
+				type: "item"
+				item: "tacocraft:steak_taco"
+			}]
+			rewards: [{
+				id: "0EF5E59AFEBC009F"
+				type: "item"
+				item: "tacocraft:empty_shell"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "Yo Quiero Taco Bell"
+			dependencies: ["506680B4DA94A156"]
+			id: "1815964CD996E094"
+			tasks: [{
+				id: "01DD5578FF07CAC3"
+				type: "item"
+				item: "tacocraft:crunchy_taco"
+			}]
+			rewards: [{
+				id: "193882D76C603D49"
+				type: "item"
+				item: "tacocraft:corn"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			subtitle: "Sparkly taco"
+			dependencies: ["1815964CD996E094"]
+			size: 1.77d
+			id: "09FD9EB75A492FAD"
+			tasks: [{
+				id: "5CB6CBEEC6B68BC8"
+				type: "item"
+				item: "tacocraft:golden_taco"
+			}]
+			rewards: [{
+				id: "0D51B367304F1DA7"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Double Double with Beef"
+			dependencies: ["275F4112B24C097F"]
+			id: "74C6DD646287242C"
+			tasks: [{
+				id: "253FE502329214F4"
+				type: "item"
+				item: "tacocraft:double_taco"
+			}]
+			rewards: [{
+				id: "2004752F0066ECDB"
+				type: "item"
+				item: "tacocraft:empty_shell"
+			}]
+		}
+		{
+			title: "The Path to Barbacoa (pt2)"
+			icon: "tacocraft:open_pot"
+			x: -4.5d
+			y: 2.0d
+			subtitle: "Stack your pork or beef ontop of this"
+			description: [
+				"Build a 3x3x3 hole (best to do on grass) on flat ground, Place a campfire in the middle. Build 2 layers of cobblestone surrounding the campfire"
+				""
+				"Place your Open Pot on top of the Campfire. Then, place your TWO closed penca's in the open pot. With a EMPTY hand, right click in the open pot again after placing the Penca's, this is needed."
+				""
+				"Once you placed the closed penca's in, cover the top layer of your hole with dirt, so now its flat on top. If you have done this correctly, you will see smoke particles coming through the dirt"
+				""
+				"You will need to wait \"5\" minutes for this to complete. The dirt will turn into Course Dirt after 5 minutes and you can then go get your Barbacoa in the open pot!"
+			]
+			dependencies: ["5540C5B32D7A1675"]
+			id: "4864A961FDF425A2"
+			tasks: [
+				{
+					id: "3BF5CAE5F6C9776F"
+					type: "item"
+					item: "tacocraft:open_pot"
+				}
+				{
+					id: "0613DCDB53D1DC33"
+					type: "observation"
+					title: "Place Open Pot"
+					icon: "tacocraft:open_pot"
+					timer: 0L
+					observe_type: 0
+					to_observe: "tacocraft:open_pot"
+				}
+			]
+			rewards: [{
+				id: "0A27DB9F14BDBE7E"
+				type: "item"
+				item: "tacocraft:fish_taco"
+			}]
+		}
+		{
+			title: "The Path to Barbacoa "
+			x: -3.5d
+			y: 1.0d
+			subtitle: "Create the best tacos, ever."
+			description: [
+				"These tacos give you 39 Food and Sat, well worth it. This is more of a multi-block process."
+				""
+				"First, craft a Penca.  You will need to then place your Penca on top of anything. Once placed, Stack 4 steaks or 4 cooked porkchops on top of the penca. You will need to do this twice as you need TWO closed Pencas to continue"
+				""
+				"Secondly, after placing the meat down on the Penca, with a open hand, right click it. You will receive a Closed Penca. Make sure you have Two of these. Continue to next quest."
+			]
+			id: "161E6513AE8B12A3"
+			tasks: [{
+				id: "7002A68B318DC66B"
+				type: "item"
+				item: "tacocraft:penca"
+			}]
+			rewards: [{
+				id: "71260B4D232337DB"
+				type: "item"
+				item: "tacocraft:corn_seed"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			subtitle: "Go break that grass/dirt and get that barboca from the pot"
+			dependencies: ["4864A961FDF425A2"]
+			id: "1BC947F8EE81ED7C"
+			tasks: [{
+				id: "396F1CD2A285A829"
+				type: "item"
+				item: "tacocraft:barbacoa"
+			}]
+			rewards: [{
+				id: "50362E56441A718D"
+				type: "item"
+				item: "tacocraft:penca"
+				count: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.4499999999999993d
+			subtitle: "You're ready to eat"
+			dependencies: ["1BC947F8EE81ED7C"]
+			size: 2.3d
+			id: "7F4B432A397697F6"
+			tasks: [{
+				id: "629983FE74830C16"
+				type: "item"
+				item: "tacocraft:barbacoa_taco"
+			}]
+			rewards: [{
+				id: "4F2861DAFA0F66CE"
+				type: "item"
+				item: {
+					id: "tacocraft:divine_corn_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			subtitle: "Congrats! You sliced bread"
+			dependencies: ["185FAAA271C6EBB8"]
+			id: "35293E47ABF69AA7"
+			tasks: [{
+				id: "1204C4A319A6DD94"
+				type: "item"
+				item: "sandwichable:bread_slice"
+			}]
+			rewards: [{
+				id: "43F0BAEB4EED69A7"
+				type: "item"
+				item: "sandwichable:bread_slice"
+			}]
+		}
+		{
+			title: "Become Subway"
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Time to slice some bread for your custom sandwiches"
+			description: ["Sandwichable allows you to create custom sandwiches using any food in the game, stacking its food and saturation levels"]
+			id: "7D6A248CFD79203C"
+			tasks: [{
+				id: "289D02EA4AEFF194"
+				type: "item"
+				title: "Craft a cutting board"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "sandwichable:cutting_boards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "12364C1F44033322"
+				type: "item"
+				item: "minecraft:bread"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			subtitle: "Use your bread and place it on the cutting board"
+			description: ["While holding your bread, right click the cutting board"]
+			dependencies: ["69EBFCBEF907744E"]
+			id: "0A3C9C3570180532"
+			tasks: [{
+				id: "3F4DD1D00762B72F"
+				type: "item"
+				item: "minecraft:bread"
+			}]
+			rewards: [{
+				id: "3F4DA8044C170DF7"
+				type: "item"
+				item: "minecraft:bread"
+			}]
+		}
+		{
+			title: "Place the cutting board down"
+			x: 5.5d
+			y: -2.5d
+			subtitle: "This is how you will slice bread"
+			dependencies: ["7D6A248CFD79203C"]
+			id: "69EBFCBEF907744E"
+			tasks: [{
+				id: "03C8C315FF5C5EEF"
+				type: "observation"
+				icon: "sandwichable:birch_cutting_board"
+				timer: 0L
+				observe_type: 1
+				to_observe: "sandwichable:cutting_boards"
+			}]
+			rewards: [{
+				id: "3D7D7DCA465C5FCA"
+				type: "item"
+				item: "sandwichable:cucumber"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "Slice the bread holding your knife"
+			description: ["While holding your knife, right click the bread to slice it up"]
+			dependencies: ["0A3C9C3570180532"]
+			id: "185FAAA271C6EBB8"
+			tasks: [{
+				id: "60F716A3199783C6"
+				type: "item"
+				item: {
+					id: "sandwichable:stone_kitchen_knife"
+					Count: 1b
+					tag: {
+						id: "itemfilters:tag"
+						tag: {
+							value: "sandwichable:metal_items"
+						}
+						Count: 1b
+						KnifeData: {
+							sharpness: 132
+							maxSharpness: 132
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5BCEEE56EA3E7C6F"
+					type: "item"
+					item: "sandwichable:toaster"
+				}
+				{
+					id: "4FF1FB1F3D649276"
+					type: "choice"
+					table_id: 3109619717195752206L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Your personal sandwich station! Regular bread slice or Toasted bread slice goes here"
+			description: [
+				"Once placed, you can place your bread slice on top, then put as many food items on top of the bread as you will. When you're finished, put the top bread slice down. Sneak right click the bread with a empty hand to take your finished sandwich"
+				""
+				""
+				"If you want to remove any item, with a empty hand simply right click it and it will give you one item back in your sandwich at a time, while the sandwich is on the station of course."
+			]
+			dependencies: ["35293E47ABF69AA7"]
+			size: 1.5d
+			id: "416CB18E33C58F2F"
+			tasks: [{
+				id: "4B0DB7A8BF7F4FF7"
+				type: "item"
+				item: "sandwichable:sandwich_table"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			subtitle: "Slice some 'matos"
+			hide_dependency_lines: true
+			dependencies: [
+				"185FAAA271C6EBB8"
+				"35293E47ABF69AA7"
+			]
+			id: "41E9FB069551E03E"
+			tasks: [{
+				id: "5B85FA2A7CFD4D33"
+				type: "item"
+				item: "sandwichable:tomato_slice"
+			}]
+			rewards: [
+				{
+					id: "37BB5BAA2084A4CE"
+					type: "item"
+					item: "sandwichable:tomato_seeds"
+				}
+				{
+					id: "0EEBB5A54498C9C1"
+					type: "item"
+					item: "sandwichable:tomato_slice"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			subtitle: "Slice Lettuce"
+			hide_dependency_lines: true
+			dependencies: [
+				"185FAAA271C6EBB8"
+				"35293E47ABF69AA7"
+			]
+			id: "50009CA20B2FE008"
+			tasks: [{
+				id: "1E06DF017D65A3CA"
+				type: "item"
+				item: "sandwichable:lettuce_leaf"
+			}]
+			rewards: [{
+				id: "5C3340635C1C1778"
+				type: "item"
+				item: "sandwichable:lettuce_seeds"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			subtitle: "You now have your first sandwich, time to open up a Subway!"
+			dependencies: ["416CB18E33C58F2F"]
+			id: "0B1FD34907A3CD7A"
+			tasks: [{
+				id: "4DE46F5DA2EC053E"
+				type: "item"
+				icon: "sandwichable:toasted_bread_slice"
+				item: {
+					id: "sandwichable:sandwich"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayValues: {
+								hunger: 0
+								saturation: 0.0f
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3994DE37892672F3"
+				type: "item"
+				item: {
+					id: "sandwichable:spread"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			subtitle: "Slice up some Salmon"
+			hide_dependency_lines: true
+			dependencies: [
+				"185FAAA271C6EBB8"
+				"35293E47ABF69AA7"
+			]
+			id: "64E9095B531FEC5D"
+			tasks: [{
+				id: "349EF786D8FEECF6"
+				type: "item"
+				item: "sandwichable:salmon_filet"
+			}]
+			rewards: [{
+				id: "19249478E3E8C562"
+				type: "item"
+				item: "sandwichable:salmon_filet"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			subtitle: "Don't cry"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "30E4EDEEDFEB1231"
+			tasks: [{
+				id: "2DB456329876D6A2"
+				type: "item"
+				item: "sandwichable:chopped_onion"
+			}]
+			rewards: [{
+				id: "3C0E744744DCC7C3"
+				type: "item"
+				item: "sandwichable:chopped_onion"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			subtitle: "Chop the carrots"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "6992E3785DAB0BDD"
+			tasks: [{
+				id: "4A6CE51451C79CA2"
+				type: "item"
+				item: "sandwichable:chopped_carrot"
+			}]
+			rewards: [{
+				id: "1CF0C2F40C55BBE7"
+				type: "item"
+				item: "sandwichable:chopped_carrot"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			subtitle: "This is nice"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "23C3B4C1C78006DF"
+			tasks: [{
+				id: "7A8FB4AE0647A553"
+				type: "item"
+				item: "sandwichable:chopped_golden_carrot"
+			}]
+			rewards: [{
+				id: "07B810A00D900148"
+				type: "item"
+				item: "sandwichable:chopped_golden_carrot"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			subtitle: "Why?"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "628B826E74191CF1"
+			tasks: [{
+				id: "3435D8EB7743FFC0"
+				type: "item"
+				item: "sandwichable:chopped_beetroot"
+			}]
+			rewards: [{
+				id: "7BBC3BABA3C1AB8D"
+				type: "item"
+				item: "sandwichable:chopped_beetroot"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			subtitle: "Basic"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "6276202DD53D6BA7"
+			tasks: [{
+				id: "7E5A6A973F1EEA39"
+				type: "item"
+				item: "sandwichable:apple_slices"
+			}]
+			rewards: [{
+				id: "30793D715E51CC7B"
+				type: "item"
+				item: "sandwichable:apple_slices"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 3.5d
+			subtitle: "California made"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "29530D47139378AF"
+			tasks: [{
+				id: "4E67DD6E0A275EFC"
+				type: "item"
+				item: "sandwichable:golden_apple_slices"
+			}]
+			rewards: [{
+				id: "4B42E0DE6ADB76B8"
+				type: "item"
+				item: "sandwichable:golden_apple_slices"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.5d
+			subtitle: "This is even better"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "16B80D209B6F3D80"
+			tasks: [{
+				id: "15DEA0E858922234"
+				type: "item"
+				item: "sandwichable:enchanted_golden_apple_slices"
+			}]
+			rewards: [{
+				id: "371124DBD9FD970D"
+				type: "item"
+				item: "sandwichable:enchanted_golden_apple_slices"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			subtitle: "Yuck"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "24434DDD160FE9C9"
+			tasks: [{
+				id: "5541C90D9CBA8838"
+				type: "item"
+				item: "sandwichable:pork_cuts"
+			}]
+			rewards: [{
+				id: "1D8A90B97521AFB4"
+				type: "item"
+				item: "sandwichable:pork_cuts"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			subtitle: "Chicken nuggies?"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "016A9FDEADFAED2B"
+			tasks: [{
+				id: "275CBE31829D8567"
+				type: "item"
+				item: "sandwichable:chicken_filet"
+			}]
+			rewards: [{
+				id: "6DE2233E7FB96311"
+				type: "item"
+				item: "farmersdelight:chicken_cuts"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			subtitle: "Sliced Cod"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "52F14BA56E10760F"
+			tasks: [{
+				id: "67EFC0995137FA60"
+				type: "item"
+				item: "sandwichable:cod_filet"
+			}]
+			rewards: [{
+				id: "7931CFAF28E25F97"
+				type: "item"
+				item: "farmersdelight:cod_slice"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			subtitle: "Chop a Pickled Cucumber"
+			hide_dependency_lines: true
+			dependencies: [
+				"35293E47ABF69AA7"
+				"185FAAA271C6EBB8"
+			]
+			id: "7D7DB49C539E70F6"
+			tasks: [{
+				id: "4FDB236693E5F7D4"
+				type: "item"
+				item: "sandwichable:pickle_chips"
+			}]
+			rewards: [{
+				id: "01DB627308B77899"
+				type: "item"
+				item: "sandwichable:pickle_chips"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			subtitle: "Toast it!"
+			hide_dependency_lines: true
+			dependencies: [
+				"52F14BA56E10760F"
+				"652E5C7F5378E892"
+				"3CDCE443196B3AE3"
+			]
+			id: "2AF2275D490F6AED"
+			tasks: [{
+				id: "4AC72D1129F23D58"
+				type: "item"
+				item: "sandwichable:cooked_cod_filet"
+			}]
+			rewards: [{
+				id: "1E4E0BD62F13E113"
+				type: "item"
+				item: "sandwichable:cooked_cod_filet"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			subtitle: "Toast it!"
+			hide_dependency_lines: true
+			dependencies: [
+				"30E4EDEEDFEB1231"
+				"652E5C7F5378E892"
+				"3CDCE443196B3AE3"
+			]
+			id: "005F089D5AF2446B"
+			tasks: [{
+				id: "390FAAA9B2E60A3D"
+				type: "item"
+				item: "sandwichable:cooked_chopped_onion"
+			}]
+			rewards: [{
+				id: "23D76D334F0F5F7C"
+				type: "item"
+				item: "sandwichable:cooked_chopped_onion"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			subtitle: "Toast it!"
+			hide_dependency_lines: true
+			dependencies: [
+				"628B826E74191CF1"
+				"652E5C7F5378E892"
+				"3CDCE443196B3AE3"
+			]
+			id: "227F00D5B39A2ABB"
+			tasks: [{
+				id: "62125F5F445A7CF4"
+				type: "item"
+				item: "sandwichable:cooked_chopped_beetroot"
+			}]
+			rewards: [{
+				id: "6724494CCF3A6B38"
+				type: "item"
+				item: "sandwichable:cooked_chopped_beetroot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			subtitle: "Toast it!"
+			hide_dependency_lines: true
+			dependencies: [
+				"64E9095B531FEC5D"
+				"652E5C7F5378E892"
+				"3CDCE443196B3AE3"
+			]
+			id: "1BECA763DA824571"
+			tasks: [{
+				id: "36791B3D7E092FDE"
+				type: "item"
+				item: "sandwichable:cooked_salmon_filet"
+			}]
+			rewards: [{
+				id: "7912D0FB132FCFAD"
+				type: "item"
+				item: "sandwichable:cooked_salmon_filet"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 6.5d
+			subtitle: "Toast it!"
+			hide_dependency_lines: true
+			dependencies: [
+				"41E9FB069551E03E"
+				"652E5C7F5378E892"
+				"3CDCE443196B3AE3"
+			]
+			id: "62BD2E85D97BC0B2"
+			tasks: [{
+				id: "35B7406919D97882"
+				type: "item"
+				item: "sandwichable:cooked_tomato_slice"
+			}]
+			rewards: [{
+				id: "0D641D05079E1864"
+				type: "item"
+				item: "sandwichable:cooked_tomato_slice"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			subtitle: "Toast it!"
+			hide_dependency_lines: true
+			dependencies: [
+				"016A9FDEADFAED2B"
+				"652E5C7F5378E892"
+				"3CDCE443196B3AE3"
+			]
+			id: "13E6B1CD19E573A7"
+			tasks: [{
+				id: "081B7B5D36295C94"
+				type: "item"
+				item: "sandwichable:cooked_chicken_filet"
+			}]
+			rewards: [{
+				id: "5B9DF91F7170DC32"
+				type: "item"
+				item: "sandwichable:cooked_chicken_filet"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			subtitle: "Toast it!"
+			hide_dependency_lines: true
+			dependencies: [
+				"24434DDD160FE9C9"
+				"652E5C7F5378E892"
+				"3CDCE443196B3AE3"
+			]
+			id: "6B8286B8B2835161"
+			tasks: [{
+				id: "23FD143A60F3B11F"
+				type: "item"
+				item: "sandwichable:cooked_pork_cuts"
+			}]
+			rewards: [{
+				id: "19AB4516324E0AE8"
+				type: "item"
+				item: "sandwichable:cooked_pork_cuts"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			subtitle: "Toast it!"
+			hide_dependency_lines: true
+			dependencies: [
+				"24434DDD160FE9C9"
+				"652E5C7F5378E892"
+				"3CDCE443196B3AE3"
+			]
+			id: "3C5EC84568539BFE"
+			tasks: [{
+				id: "6A08AEA9F7CD8210"
+				type: "item"
+				item: "sandwichable:bacon_strips"
+			}]
+			rewards: [{
+				id: "33B58B62F8413679"
+				type: "item"
+				item: "sandwichable:bacon_strips"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.5d
+			subtitle: "Toast it!"
+			hide_dependency_lines: true
+			dependencies: [
+				"6992E3785DAB0BDD"
+				"652E5C7F5378E892"
+				"3CDCE443196B3AE3"
+			]
+			id: "1CF3182C3CEF03A0"
+			tasks: [{
+				id: "1A74F6561E32CDAE"
+				type: "item"
+				item: "sandwichable:cooked_chopped_carrot"
+			}]
+			rewards: [{
+				id: "7F3F38F878ADADB7"
+				type: "item"
+				item: "sandwichable:cooked_chopped_carrot"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			subtitle: "Heat up them slices or chopped foods"
+			description: [
+				"Controlled by Redstone, you can sneak + right click the toaster to turn it on. Prior to doing this, make sure you put the food item you want to cook in first. "
+				""
+				"Sliced foods go well in the toaster :)"
+			]
+			dependencies: ["416CB18E33C58F2F"]
+			id: "652E5C7F5378E892"
+			tasks: [{
+				id: "6BF16F780FF37AB4"
+				type: "item"
+				item: "sandwichable:desalinator"
+			}]
+			rewards: [{
+				id: "3C4391C07BC037B7"
+				type: "item"
+				item: "minecraft:crimson_fungus"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			subtitle: "Toast your bread slice"
+			dependencies: ["652E5C7F5378E892"]
+			id: "3CDCE443196B3AE3"
+			tasks: [{
+				id: "08A12FFB3BD29D9D"
+				type: "item"
+				item: "sandwichable:toasted_bread_slice"
+			}]
+			rewards: [{
+				id: "0D532704D9718042"
+				type: "item"
+				item: "sandwichable:toasted_bread_slice"
+			}]
+		}
+		{
+			title: "Craft a Basin to make Cheese"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "You're going to use this to store milk for yummy cheese"
+			description: [
+				"Once crafted, place your basin down and empty your milk bucket into it."
+				""
+				"You can also craft other Basin's after this quest line to match your decor!"
+			]
+			dependencies: ["416CB18E33C58F2F"]
+			id: "04BDF2C48B02C292"
+			tasks: [{
+				id: "1B33985B155F6DFF"
+				type: "item"
+				item: "sandwichable:copper_basin"
+			}]
+			rewards: [
+				{
+					id: "0F7AFC2359EE4B02"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+				{
+					id: "6635511E3F776868"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "The basic cheese culture. Right click the bottle into your Basin with the Milk"
+			description: [
+				"There's over 6 different cheese you can make, which each cheese has its own curated bottle. For starters we'll just use the normal cheese culture."
+				""
+				"Wait Three Minutes after interacting your Culture with the Milk-filled Basin. Once there are particles, you can Interact with the basin to collect your cheese, or use a Bucket to collect Fermenting Milk"
+			]
+			dependencies: ["04BDF2C48B02C292"]
+			id: "3920C2E3CEBC4DEB"
+			tasks: [
+				{
+					id: "07096C9865D8197F"
+					type: "item"
+					item: {
+						id: "sandwichable:regular_cheese_culture_bottle"
+						Count: 1b
+						tag: {
+							UsageData: {
+								uses: 10
+							}
+						}
+					}
+				}
+				{
+					id: "573B6C6C4E9D1388"
+					type: "observation"
+					title: "Place Basin, Pour Milk, Pour Culture"
+					icon: "sandwichable:copper_basin"
+					timer: 0L
+					observe_type: 0
+					to_observe: "sandwichable:copper_basin"
+				}
+			]
+			rewards: [{
+				id: "50B2FFDBB4848E4C"
+				type: "item"
+				item: "sandwichable:shrub"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			subtitle: "You saw the particles from the basin and right clicked it to grab your cheese"
+			dependencies: ["3920C2E3CEBC4DEB"]
+			id: "14E7CFAB1F66D70B"
+			tasks: [{
+				id: "1D38D75512BDDECF"
+				type: "item"
+				item: "sandwichable:cheese_wheel"
+			}]
+			rewards: [{
+				id: "365C73778080AE97"
+				type: "item"
+				item: "sandwichable:shrub"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			subtitle: "Store your Cultured Milk here to increase uses"
+			description: ["This is a storage for your Cultured Milk bottles. The milk will slowly grow over time if you leave the cultured bottles inside!"]
+			dependencies: ["3920C2E3CEBC4DEB"]
+			id: "537EB8FA1ED7CAB4"
+			tasks: [{
+				id: "744D169E502D8E71"
+				type: "item"
+				item: "sandwichable:bottle_crate"
+			}]
+			rewards: [{
+				id: "2CA60866E1CF4639"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			subtitle: "Use a bucket on fermenting cheese inside a basin to collect and store"
+			dependencies: [
+				"04BDF2C48B02C292"
+				"3920C2E3CEBC4DEB"
+			]
+			id: "38FE9664FB857FA1"
+			tasks: [{
+				id: "24D94D525256CA8B"
+				type: "item"
+				item: "sandwichable:fermenting_milk_bucket"
+			}]
+			rewards: [{
+				id: "0B7E545EFCEF4016"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Slice up that cheese"
+			dependencies: ["14E7CFAB1F66D70B"]
+			id: "6952243787B711F6"
+			tasks: [{
+				id: "0A9E25F99261936B"
+				type: "item"
+				item: "sandwichable:cheese_slice"
+			}]
+			rewards: [{
+				id: "2FF9EB7BB5B78494"
+				type: "item"
+				item: {
+					id: "sandwichable:creamy_cheese_culture_bottle"
+					Count: 1b
+					tag: {
+						UsageData: {
+							uses: 10
+						}
+					}
+				}
+			}]
+		}
+	]
+}

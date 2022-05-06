@@ -29,7 +29,7 @@
       "tag": "c:axes"
     }
   ],
-  "weight": 9,
+  "weight": 7,
   "style": {
     "color": "dark_purple"
   },
@@ -39,7 +39,7 @@
       "modifier": {
         "name": "tiered:epic",
         "operation": "ADDITION",
-        "amount": 6
+        "amount": 3
       },
       "optional_equipment_slots": [
         "MAINHAND",
@@ -69,7 +69,7 @@
       "modifier": {
         "name": "tiered:epic",
         "operation": "ADDITION",
-        "amount": 1
+        "amount": 0.33
       },
       "optional_equipment_slots": [
         "MAINHAND",
@@ -84,7 +84,7 @@
       "modifier": {
         "name": "tiered:epic",
         "operation": "MULTIPLY_TOTAL",
-        "amount": 0.2
+        "amount": 0.135
       },
       "optional_equipment_slots": [
         "MAINHAND",

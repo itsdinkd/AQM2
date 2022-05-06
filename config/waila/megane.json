@@ -25,7 +25,9 @@
       "enhanced_quarries": 7408640,
       "extragenerators": 7408640,
       "modern_industrialization": 11993088,
-      "wirelessnetworks": 7408640
+      "wirelessnetworks": 7408640,
+      "advanced_reborn": 7408640,
+      "indrev": 3885790
     },
     "units": {
       "megane": "E",
@@ -33,7 +35,9 @@
       "enhanced_quarries": "E",
       "extragenerators": "E",
       "modern_industrialization": "EU",
-      "wirelessnetworks": "E"
+      "wirelessnetworks": "E",
+      "advanced_reborn": "E",
+      "indrev": "LF"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"

@@ -1,0 +1,17 @@
+{
+    "type": "origins:overlay",
+    "texture": "minecraft:textures/misc/nausea.png",
+    "strength": 0.1,
+    "red": 0,
+    "green": 0,
+    "blue": 1,
+    "draw_mode": "texture",
+    "draw_phase": "below_hud",
+    "hide_with_hud": false,
+    "visible_in_third_person": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "sculksieg:sculkphase"
+    },
+    "hidden": true
+}

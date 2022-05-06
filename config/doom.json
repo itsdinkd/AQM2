@@ -228,7 +228,6 @@
     "summoner_min_group": 1,
     "summoner_max_group": 2,
     "motherdemon_biomes": [
-      "#nether"
     ],
     "motherdemon_spawn_weight": 1,
     "motherdemon_min_group": 1,
@@ -252,10 +251,6 @@
     "bloodmaykr_min_group": 1,
     "bloodmaykr_max_group": 1,
     "archmaykr_biomes": [
-      "minecraft:small_end_islands",
-      "minecraft:end_midlands",
-      "minecraft:end_barrens",
-      "minecraft:end_highlands"
     ],
     "archmaykr_spawn_weight": 1,
     "archmaykr_min_group": 1,

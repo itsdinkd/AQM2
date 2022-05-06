@@ -14,6 +14,7 @@
         "material_color": "terracotta_purple",
         "sounds": "weeping_vines_low_pitch"
       },
+      "catalyst_slot": true,
       "requires_tool": false,
       "tags": [
         "minecraft:blocks/mineable/pickaxe",

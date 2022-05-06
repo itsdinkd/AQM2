@@ -8,5 +8,5 @@
   //Amount of barbacoa you get from one penca
   "barbacoa_per_penca": 7,
   //Chance of corn spawning. Is in 1 per x chunks
-  "corn_gen_chance": 300
+  "corn_gen_chance": 200
 }

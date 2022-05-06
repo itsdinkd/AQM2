@@ -1,0 +1,7 @@
+{
+    "type": "origins:prevent_game_event",
+    "event": "minecraft:step",
+    "name": "Oɴᴇ ᴡɪᴛʜ ᴛʜᴇ sᴛᴏɴᴇ",
+    "description": "Yᴏᴜ ᴅᴏ ɴᴏᴛ ᴇᴍɪᴛ ᴠɪʙʀᴀᴛɪᴏɴs.",
+    "hidden": false
+}

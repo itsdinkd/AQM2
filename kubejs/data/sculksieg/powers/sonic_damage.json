@@ -1,0 +1,65 @@
+{
+    "name": "Sᴏɴɪᴄ Cʜᴀɴɴᴇʟɪɴɢ",
+    "description": "Wʜᴇɴ ʏᴏᴜ ᴀʀᴇ ᴛʀᴀɴsғᴏʀᴍᴇᴅ, ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɴᴇʟ ᴀ sᴏɴɪᴄ ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ғʀᴏᴍ ʏᴏᴜʀ ᴄʜᴇsᴛ, ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴘᴀssᴇs ᴛʜʀᴏᴜɢʜ ʙʟᴏᴄᴋs ᴀɴᴅ ғʟᴜɪᴅs, ᴏɴ ɪᴍᴘᴀᴄᴛ ᴡɪᴛʜ ᴀɴ ᴇɴᴛɪᴛʏ, ɪᴛ ᴡɪʟʟ ᴅᴇᴀʟ 5 ʜᴇᴀʀᴛs ᴏғ ᴅᴀᴍᴀɢᴇ. Tʜᴇ ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴄᴀɴ ᴏɴʟʏ ᴛʀᴀᴠᴇʟ 15 ʙʟᴏᴄᴋs ʙᴇғᴏʀᴇ ᴅɪsᴀᴘᴘᴇᴀʀɪɴɢ. (LOAD HOTBAR TOGGLE)",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "sculksieg:projectile_toggle",
+        "comparison": "==",
+        "compare_to": 1,
+        "inverted": false
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:slowness",
+                    "duration": 50,
+                    "amplifier": 1
+                }
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.beacon.power_select",
+                "pitch": 1.3
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:raycast",
+                    "distance": 15,
+                    "block": false,
+                    "entity": true,
+                    "shape_type": "visual",
+                    "fluid_handling": "none",
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:damage",
+                            "amount": 10,
+                            "source": {
+                                "name": "explosion",
+                                "bypasses_armor": true,
+                                "unblockable": false,
+                                "magic": false
+                            }
+                        }
+                    },
+                    "command_along_ray": "function sculksieg:soniceffect"
+                },
+                "ticks": 40
+            }
+        ]
+    },
+    "cooldown": 1200,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 9
+    },
+    "key": {
+        "key": "key.saveToolbarActivator"
+    }
+}

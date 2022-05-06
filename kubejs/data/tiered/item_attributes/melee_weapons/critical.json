@@ -29,7 +29,7 @@
       "modifier": {
         "name": "tiered:critical",
         "operation": "MULTIPLY_TOTAL",
-        "amount": 0.25
+        "amount": 0.275
       },
       "optional_equipment_slots": [
         "MAINHAND"

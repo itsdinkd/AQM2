@@ -1,0 +1,29 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "sculksieg:pulse_toggle",
+                "comparison": "==",
+                "compare_to": 1
+            },
+            {
+                "type": "origins:sneaking",
+                "inverted": true
+            }
+        ]
+    },
+    "type": "origins:prevent_entity_render",
+    "bientity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:distance",
+                "comparison": ">=",
+                "compare_to": 65
+            }
+        ]
+    }
+}

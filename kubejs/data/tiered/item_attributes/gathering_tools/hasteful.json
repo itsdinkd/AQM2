@@ -11,7 +11,7 @@
       "tag": "c:axes"
     }
   ],
-  "weight": 8,
+  "weight": 9,
   "style": {
     "color": "green"
   },
@@ -21,7 +21,7 @@
       "modifier": {
         "name": "tiered:hasteful",
         "operation": "MULTIPLY_TOTAL",
-        "amount": 0.10
+        "amount": 0.075
       },
       "optional_equipment_slots": [
         "MAINHAND"

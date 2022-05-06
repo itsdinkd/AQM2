@@ -1,0 +1,534 @@
+{
+  "mining_radius": 5,
+  "minerOreRewardMap": [
+    {
+      "ore": "minecraft:deepslate_diamond_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:deepslate",
+      "reward": [
+        {
+          "item": "minecraft:diamond",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:diamond_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:stone",
+      "reward": [
+        {
+          "item": "minecraft:diamond",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:deepslate_lapis_ore",
+      "depleteAt": 6,
+      "depleted": "minecraft:deepslate",
+      "reward": [
+        {
+          "item": "minecraft:lapis_lazuli",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:lapis_ore",
+      "depleteAt": 6,
+      "depleted": "minecraft:stone",
+      "reward": [
+        {
+          "item": "minecraft:lapis_lazuli",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:deepslate_emerald_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:deepslate",
+      "reward": [
+        {
+          "item": "minecraft:emerald",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:emerald_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:stone",
+      "reward": [
+        {
+          "item": "minecraft:emerald",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:deepslate_redstone_ore",
+      "depleteAt": 6,
+      "depleted": "minecraft:deepslate",
+      "reward": [
+        {
+          "item": "minecraft:redstone",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:redstone_ore",
+      "depleteAt": 6,
+      "depleted": "minecraft:stone",
+      "reward": [
+        {
+          "item": "minecraft:redstone",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:deepslate_gold_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:deepslate",
+      "reward": [
+        {
+          "item": "minecraft:raw_gold",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:gold_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:stone",
+      "reward": [
+        {
+          "item": "minecraft:raw_gold",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:deepslate_iron_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:deepslate",
+      "reward": [
+        {
+          "item": "minecraft:raw_iron",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:iron_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:stone",
+      "reward": [
+        {
+          "item": "minecraft:raw_iron",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:deepslate_copper_ore",
+      "depleteAt": 8,
+      "depleted": "minecraft:deepslate",
+      "reward": [
+        {
+          "item": "minecraft:raw_copper",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:copper_ore",
+      "depleteAt": 8,
+      "depleted": "minecraft:stone",
+      "reward": [
+        {
+          "item": "minecraft:raw_copper",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:deepslate_coal_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:deepslate",
+      "reward": [
+        {
+          "item": "minecraft:coal",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:coal_ore",
+      "depleteAt": 4,
+      "depleted": "minecraft:stone",
+      "reward": [
+        {
+          "item": "minecraft:coal",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:deepslate",
+      "depleteAt": 20,
+      "depleted": "minecraft:gravel",
+      "reward": [
+        {
+          "item": "minecraft:cobbled_deepslate",
+          "weight": 9
+        },
+        {
+          "item": "minecraft:coal",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:stone",
+      "depleteAt": 20,
+      "depleted": "minecraft:gravel",
+      "reward": [
+        {
+          "item": "minecraft:cobblestone",
+          "weight": 9
+        },
+        {
+          "item": "minecraft:coal",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:granite",
+      "depleteAt": 0,
+      "depleted": "minecraft:air",
+      "reward": [
+        {
+          "item": "minecraft:granite",
+          "weight": 9
+        },
+        {
+          "item": "minecraft:coal",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:diorite",
+      "depleteAt": 0,
+      "depleted": "minecraft:air",
+      "reward": [
+        {
+          "item": "minecraft:diorite",
+          "weight": 9
+        },
+        {
+          "item": "minecraft:coal",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:andesite",
+      "depleteAt": 0,
+      "depleted": "minecraft:air",
+      "reward": [
+        {
+          "item": "minecraft:andesite",
+          "weight": 9
+        },
+        {
+          "item": "minecraft:coal",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:calcite",
+      "depleteAt": 0,
+      "depleted": "minecraft:air",
+      "reward": [
+        {
+          "item": "minecraft:calcite",
+          "weight": 24
+        },
+        {
+          "item": "minecraft:amethyst_shard",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:podzol",
+      "depleteAt": 20,
+      "depleted": "minecraft:dirt",
+      "reward": [
+        {
+          "item": "minecraft:dirt",
+          "weight": 2
+        },
+        {
+          "item": "minecraft:brown_mushroom",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:red_mushroom",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:bone",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:coarse_dirt",
+      "depleteAt": 20,
+      "depleted": "minecraft:dirt",
+      "reward": [
+        {
+          "item": "minecraft:dirt",
+          "weight": 2
+        },
+        {
+          "item": "minecraft:gravel",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:gravel",
+      "depleteAt": 20,
+      "depleted": "minecraft:sand",
+      "reward": [
+        {
+          "item": "minecraft:gravel",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:flint",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:sandstone",
+      "depleteAt": 20,
+      "depleted": "minecraft:sand",
+      "reward": [
+        {
+          "item": "minecraft:sand",
+          "weight": 9
+        },
+        {
+          "item": "minecraft:coal",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:bone_meal",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:red_sandstone",
+      "depleteAt": 20,
+      "depleted": "minecraft:red_sand",
+      "reward": [
+        {
+          "item": "minecraft:red_sand",
+          "weight": 9
+        },
+        {
+          "item": "minecraft:coal",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:bone_meal",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:nether_gold_ore",
+      "depleteAt": 8,
+      "depleted": "minecraft:netherrack",
+      "reward": [
+        {
+          "item": "minecraft:gold_nugget",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:netherrack",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:nether_quartz_ore",
+      "depleteAt": 8,
+      "depleted": "minecraft:netherrack",
+      "reward": [
+        {
+          "item": "minecraft:quartz",
+          "weight": 5
+        },
+        {
+          "item": "minecraft:netherrack",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:snow_block",
+      "depleteAt": 0,
+      "depleted": "minecraft:air",
+      "reward": [
+        {
+          "item": "minecraft:snowball",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "ore": "minecraft:dirt",
+      "depleteAt": 0,
+      "depleted": "minecraft:air",
+      "reward": [
+        {
+          "item": "minecraft:dirt",
+          "weight": 15
+        },
+        {
+          "item": "minecraft:wheat_seeds",
+          "weight": 2
+        },
+        {
+          "item": "minecraft:pumpkin_seeds",
+          "weight": 2
+        },
+        {
+          "item": "minecraft:melon_seeds",
+          "weight": 2
+        },
+        {
+          "item": "minecraft:beetroot_seeds",
+          "weight": 2
+        },
+        {
+          "item": "minecraft:carrot",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:potato",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:poisonous_potato",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:oak_sapling",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:spruce_sapling",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:birch_sapling",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:jungle_sapling",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:acacia_sapling",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:dark_oak_sapling",
+          "weight": 1
+        },
+        {
+          "item": "minecraft:bone_meal",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

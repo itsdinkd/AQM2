@@ -85,7 +85,7 @@
 			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
 		},
 		"accessibility": {
-			"entrySize": 1.0,
+			"entrySize": 0.93,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
 			// Declares whether scrolled entry panel should snap to rows.
@@ -129,7 +129,7 @@
 		}
 	},
 	"appearance": {
-		"recipeScreenType": "COMPOSITE",
+		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
 		"theme": "DARK",
 		"layout": {
@@ -138,7 +138,7 @@
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
-			"enableCraftableOnlyButton": true
+			"enableCraftableOnlyButton": false
 		},
 		// Declares the appearance of recipe's border.
 		"recipeBorder": "LIGHTER",

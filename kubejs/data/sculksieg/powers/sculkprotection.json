@@ -1,0 +1,355 @@
+{
+    "name": "Dᴇғᴇɴsɪᴠᴇ Tʀᴀɴsғɪɢᴜʀᴀᴛɪᴏɴ",
+    "description": "(SAVE HOTBAR TOGGLE) Yᴏᴜ ᴄᴀɴ ᴛʀᴀɴsғᴏʀᴍ ɪɴᴛᴏ ᴀ 3 ʙʟᴏᴄᴋ ʜɪɢʜ ᴄʀᴇᴀᴛᴜʀᴇ ᴡɪᴛʜ ᴘᴏᴡᴇʀғᴜʟ ᴀᴛᴛᴀᴄᴋs ʙᴜᴛ ᴇxᴛʀᴇᴍᴇʟʏ sʟᴏᴡ. (Yᴏᴜ ᴏɴʟʏ ᴇᴀᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴅᴜʀɪɴɢ ᴛʜɪs ᴛɪᴍᴇ)",
+    "type": "origins:multiple",
+    "invis": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:power_active",
+            "power": "*:sizetoggle"
+        },
+        "type": "origins:invisibility",
+        "render_armor": false
+    },
+    "base_transform": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle",
+			"inverted": true
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.elder_guardian.ambient_land",
+                    "volume": 1,
+                    "pitch": 0.1
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:width 0.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:height 0.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:motion 0.6 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:reach 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:attack 1.25 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:defense 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:step_height 2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/execute as @s at @s run particle dust 0.109 0.109 0.109 100 ~ ~1 ~ 1 1 1 100 250 force"
+                },
+                {
+                    "type": "origins:grant_power",
+                    "power": "sculksieg:sculk_echolocation",
+                    "source": "sculksieg:sculkinfection"
+                },
+                {
+                    "type": "origins:grant_power",
+                    "power": "sculksieg:actualrender",
+                    "source": "sculksieg:sculkinfection"
+                },
+                {
+                    "type": "origins:revoke_power",
+                    "power": "sculksieg:combatsense",
+                    "source": "sculksieg:sculkinfection"
+                },                
+                {
+                    "type": "origins:change_resource",
+                    "resource": "sculksieg:projectile_toggle",
+                    "change": 0,
+                    "operation": "set"
+                }
+            ]
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.loadToolbarActivator"
+        }
+    },
+    "big_transform": {
+        "condition": {
+            "inverted": false,
+            "type": "origins:power_active",
+            "power": "*:sizetoggle"
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.enderman.scream",
+                    "volume": 1,
+                    "pitch": 0.6
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.elder_guardian.curse",
+                    "volume": 1,
+                    "pitch": 0.4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:width 1.33 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:height 1.33 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:motion 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:reach 2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:attack 1 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:defense 3 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/scale set pehkui:step_height 2 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "/execute as @s at @s run particle dust 0.109 0.109 0.109 100 ~ ~1 ~ 1 1 1 100 250 force"
+                },
+                {
+                    "type": "origins:revoke_power",
+                    "power": "sculksieg:sculk_echolocation",
+                    "source": "sculksieg:sculkinfection"
+                },
+                {
+                    "type": "origins:revoke_power",
+                    "power": "sculksieg:actualrender",
+                    "source": "sculksieg:sculkinfection"
+                },
+                {
+                    "type": "origins:grant_power",
+                    "power": "sculksieg:combatsense",
+                    "source": "sculksieg:sculkinfection"
+                }, 
+                {
+                    "type": "origins:change_resource",
+                    "resource": "sculksieg:projectile_toggle",
+                    "change": 1,
+                    "operation": "set"
+                }
+            ]
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.loadToolbarActivator"
+        }
+    },
+    "exhaust": {
+		"type": "origins:exhaust",
+		"interval": 20,
+		"exhaustion": 2.0,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle"
+        }
+    },
+    "big_attributes": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle",
+			"inverted": false
+        },
+        "type": "origins:conditioned_attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": -0.060
+            },
+            {
+                "attribute": "minecraft:generic.max_health",
+                "operation": "addition",
+                "value": -4
+            }
+        ],
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "base_attributes": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:power_active",
+            "power": "*:sizetoggle"
+        },
+        "type": "origins:conditioned_attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "operation": "addition",
+                "value": -10
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "addition",
+                "value": 0.1
+            }
+        ],
+        "tick_rate": 10,
+        "update_health": true
+    },
+    "base_size": {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": false,
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "/scale set pehkui:base 1 @s"
+        },
+        "entity_action_added": {
+            "type": "origins:if_else",
+            "condition": {
+                "inverted": true,
+                "type": "origins:power_active",
+                "power": "*:sizetoggle"
+            },
+            "if_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:width 0.5 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:height 0.5 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:motion 0.6 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:reach 1 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:attack 1.25 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:defense 1 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:step_height 2 @s"
+                    },
+                    {
+                        "type": "origins:grant_power",
+                        "power": "sculksieg:sculk_echolocation",
+                        "source": "sculksieg:sculkinfection"
+                    },
+                    {
+                        "type": "origins:grant_power",
+                        "power": "sculksieg:actualrender",
+                        "source": "sculksieg:sculkinfection"
+                    },
+                    {
+                        "type": "origins:revoke_power",
+                        "power": "sculksieg:combatsense",
+                        "source": "sculksieg:sculkinfection"
+                    }, 
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "sculksieg:projectile_toggle",
+                        "change": 0,
+                        "operation": "set"
+                    }
+                ]
+            },
+            "else_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:width 1.33 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:height 1.33 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:motion 1 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:reach 2 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:attack 1 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:defense 3 @s"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "/scale set pehkui:step_height 2 @s"
+                    },
+                    {
+                        "type": "origins:revoke_power",
+                        "power": "sculksieg:sculk_echolocation",
+                        "source": "sculksieg:sculkinfection"
+                    },
+                    {
+                        "type": "origins:revoke_power",
+                        "power": "sculksieg:actualrender",
+                        "source": "sculksieg:sculkinfection"
+                    },
+                    {
+                        "type": "origins:grant_power",
+                        "power": "sculksieg:combatsense",
+                        "source": "sculksieg:sculkinfection"
+                    }, 
+                    {
+                        "type": "origins:change_resource",
+                        "resource": "sculksieg:projectile_toggle",
+                        "change": 1,
+                        "operation": "set"
+                    }
+                ]
+            }
+        }
+    }
+}

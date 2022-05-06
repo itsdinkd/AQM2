@@ -1,5 +1,5 @@
 {
-  "startingItem": "StartingHouse",
+  "startingItem": "",
   "includeSpawnersInMasher": false,
   "enableStructurePreview": true,
   "allowBulldozerToCreateDrops": false,

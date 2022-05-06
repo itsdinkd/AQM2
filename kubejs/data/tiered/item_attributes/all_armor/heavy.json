@@ -24,7 +24,21 @@
       "modifier": {
         "name": "tiered:heavy",
         "operation": "MULTIPLY_TOTAL",
-        "amount": 0.08
+        "amount": 0.08795555
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "minecraft:generic.attack_speed",
+      "modifier": {
+        "name": "tiered:heavy",
+        "operation": "ADDITION",
+        "amount": -0.10
       },
       "optional_equipment_slots": [
         "FEET",

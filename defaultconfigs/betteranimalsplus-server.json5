@@ -1897,11 +1897,11 @@
 				// Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
 				"spawn_naturally": true,
 				// The spawn weight compared to other entities (typically between 6-20)
-				"spawn_weight": 10,
+				"spawn_weight": 15,
 				// Minimum amount of entities in spawned groups
 				"minimum_group_size": 1,
 				// Maximum amount of entities in spawned groups - Must be greater or equal to min value
-				"maximum_group_size": 3,
+				"maximum_group_size": 2,
 				// Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 				"spawn_biomes": [
 					"byg:temperate_rainforest",

@@ -6,7 +6,7 @@
   "blobsGenerations": {
     "scaldingVolcanicStoneInJungle": {
       "enable": true,
-      "size": 9,
+      "size": 7,
       "repeat": 6,
       "minOffset": 30,
       "maxOffset": 64,
@@ -15,8 +15,8 @@
     },
     "carmineStone": {
       "enable": true,
-      "size": 20,
-      "repeat": 15,
+      "size": 15,
+      "repeat": 11,
       "minOffset": 0,
       "maxOffset": 128,
       "minBelowTop": false,
@@ -33,7 +33,7 @@
     },
     "mudInJungle": {
       "enable": true,
-      "size": 10,
+      "size": 8,
       "repeat": 5,
       "minOffset": 32,
       "maxOffset": 80,
@@ -51,8 +51,8 @@
     },
     "mossyStone": {
       "enable": false,
-      "size": 33,
-      "repeat": 15,
+      "size": 25,
+      "repeat": 13,
       "minOffset": 0,
       "maxOffset": 128,
       "minBelowTop": false,
@@ -60,7 +60,7 @@
     },
     "mariniteStone": {
       "enable": true,
-      "size": 15,
+      "size": 11,
       "repeat": 10,
       "minOffset": -10,
       "maxOffset": 70,
@@ -78,7 +78,7 @@
     },
     "swampStone": {
       "enable": true,
-      "size": 20,
+      "size": 14,
       "repeat": 5,
       "minOffset": 30,
       "maxOffset": 80,
@@ -87,7 +87,7 @@
     },
     "darkStone": {
       "enable": true,
-      "size": 20,
+      "size": 15,
       "repeat": 4,
       "minOffset": -20,
       "maxOffset": 10,
@@ -96,7 +96,7 @@
     },
     "limestone": {
       "enable": true,
-      "size": 15,
+      "size": 11,
       "repeat": 10,
       "minOffset": 0,
       "maxOffset": 50,
@@ -186,7 +186,7 @@
     },
     "scaldingStone": {
       "enable": true,
-      "size": 6,
+      "size": 5,
       "repeat": 9,
       "minOffset": -55,
       "maxOffset": -30,
@@ -276,7 +276,7 @@
     },
     "mud": {
       "enable": true,
-      "size": 12,
+      "size": 9,
       "repeat": 5,
       "minOffset": 40,
       "maxOffset": 64,
@@ -641,10 +641,10 @@
       "maxGroupSize": 2
     },
     "duckSpawn": {
-      "enable": true,
+      "enable": false,
       "weight": 5,
-      "minGroupSize": 2,
-      "maxGroupSize": 4
+      "minGroupSize": 1,
+      "maxGroupSize": 3
     },
     "fireEelSpawn": {
       "enable": true,
@@ -655,26 +655,26 @@
     "perchSpawn": {
       "enable": true,
       "weight": 5,
-      "minGroupSize": 3,
-      "maxGroupSize": 5
+      "minGroupSize": 2,
+      "maxGroupSize": 4
     },
     "minnowSpawn": {
       "enable": true,
       "weight": 4,
-      "minGroupSize": 3,
-      "maxGroupSize": 6
+      "minGroupSize": 2,
+      "maxGroupSize": 5
     },
     "sardineSpawn": {
       "enable": true,
       "weight": 4,
-      "minGroupSize": 3,
-      "maxGroupSize": 6
+      "minGroupSize": 2,
+      "maxGroupSize": 5
     },
     "redPorgySpawn": {
       "enable": true,
       "weight": 4,
-      "minGroupSize": 3,
-      "maxGroupSize": 6
+      "minGroupSize": 2,
+      "maxGroupSize": 4
     }
   },
   "misc": {

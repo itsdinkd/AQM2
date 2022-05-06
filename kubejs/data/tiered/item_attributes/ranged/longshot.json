@@ -18,7 +18,7 @@
             "modifier": {
                 "name": "tiered:longshot",
                 "operation": "ADDITION",
-                "amount": 4
+                "amount": 2
             },
             "optional_equipment_slots": [
                 "MAINHAND"

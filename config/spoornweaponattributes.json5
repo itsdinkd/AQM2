@@ -25,13 +25,13 @@
 	// Fire attribute config
 	"fireConfig": {
 		// Chance for a weapon to have fire damage [0 = never, 1 = always] [default = 0.05]
-		"attributeChance": 0.01,
+		"attributeChance": 0.009,
 		/* Expression for duration in seconds to set target on fire for based on damage
 		   (can just be a scalar value such as '5' for 5 seconds) [0 = don't set on fire] [default = (damage+7)/2]
 		*/
 		"fireDuration": "3",
 		// Minimum bonus damage [default = 1.0]
-		"minDamage": 1.0,
+		"minDamage": 0.5,
 		// Maximum bonus damage [default = 30.0]
 		"maxDamage": 15.0,
 		/* True if damage should be calculated using a Gaussian distribution, else it will be a linearly random
@@ -50,7 +50,7 @@
 		// Expression for duration in seconds to slow target [0 = don't slow] [default = (damage+7)/2]
 		"slowDuration": "5",
 		// Expression for duration in seconds to add frozen effect to target (deals damage over time) [0 = don't freeze] [default = (damage+7)/2]
-		"freezeDuration": "(damage+7)/2",
+		"freezeDuration": "(damage+4)/2",
 		// Minimum bonus damage [default = 1.0]
 		"minDamage": 1.0,
 		// Maximum bonus damage [default = 30.0]
@@ -86,9 +86,9 @@
 	// Poison attribute config
 	"poisonConfig": {
 		// Chance for a weapon to have poison damage [0 = never, 1 = always] [default = 0.05]
-		"attributeChance": 0.05,
+		"attributeChance": 0.03,
 		// Expression for duration in seconds to poison target [0 = don't poison] [default = (damage+17)/2]
-		"poisonDuration": "6",
+		"poisonDuration": "(damage+6)/2",
 		// Minimum bonus damage [default = 1.0]
 		"minDamage": 1.0,
 		// Maximum bonus damage [default = 30.0]
@@ -105,7 +105,7 @@
 	// Lifesteal attribute config
 	"lifestealConfig": {
 		// Chance for a weapon to have lifesteal [0 = never, 1 = always] [default = 0.02]
-		"attributeChance": 0.005,
+		"attributeChance": 0.003,
 		// Minimum lifesteal percentage [default = 1]
 		"minLifesteal": 1,
 		// Maximum lifesteal percentage [default = 100]

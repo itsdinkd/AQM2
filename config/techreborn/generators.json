@@ -80,7 +80,7 @@
   "solarPanelBasic": {
     "basicNightRate": {
       "comment": "Generation rate during night for Basic Solar Panel (Energy per tick)",
-      "value": 2
+      "value": 0
     },
     "basicDayRate": {
       "comment": "Generation rate during day for Basic Solar Panel (Energy per tick)",
@@ -104,7 +104,7 @@
   "solarPanelAdvanced": {
     "advancedNightRate": {
       "comment": "Generation rate during night for Advanced Solar Panel (Energy per tick)",
-      "value": 8
+      "value": 0
     },
     "advancedDayRate": {
       "comment": "Generation rate during day for Advanced Solar Panel (Energy per tick)",
@@ -114,7 +114,7 @@
   "solarPanelQuantum": {
     "quantumNightRate": {
       "comment": "Generation rate during night for Quantum Solar Panel (Energy per tick)",
-      "value": 128
+      "value": 0
     },
     "quantumDayRate": {
       "comment": "Generation rate during day for Quantum Solar Panel (Energy per tick)",
@@ -124,7 +124,7 @@
   "solarPanelIndustrial": {
     "industrialNightRate": {
       "comment": "Generation rate during night for Industrial Solar Panel (Energy per tick)",
-      "value": 16
+      "value": 0
     },
     "industrialDayRate": {
       "comment": "Generation rate during day for Industrial Solar Panel (Energy per tick)",
@@ -186,7 +186,7 @@
     },
     "ultimateNightRate": {
       "comment": "Generation rate during night for Ultimate Solar Panel (Energy per tick)",
-      "value": 32
+      "value": 0
     }
   },
   "diesel_generator": {

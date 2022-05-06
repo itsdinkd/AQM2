@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "indrev:modular_armor_chest",
+    "indrev:modular_armor_legs",
+    "indrev:modular_armor_helmet",
+    "indrev:modular_armor_boots",
+    "techreborn:quantum_chestplate",
+    "techreborn:quantum_helmet",
+    "techreborn:quantum_boots",
+    "techreborn:quantum_leggings"
+  ]
+}

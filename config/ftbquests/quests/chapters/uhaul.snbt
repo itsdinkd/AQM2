@@ -77,6 +77,12 @@
 				type: "item"
 				item: "extended_drawers:connector"
 			}]
+			rewards: [{
+				id: "56F7EED693F8975C"
+				type: "item"
+				item: "extended_drawers:connector"
+				count: 3
+			}]
 		}
 		{
 			x: -1.0d
@@ -206,6 +212,11 @@
 				type: "item"
 				item: "extended_drawers:controller"
 			}]
+			rewards: [{
+				id: "271865820326E11E"
+				type: "item"
+				item: "gofish:iron_crate"
+			}]
 		}
 		{
 			x: 2.0d
@@ -223,6 +234,124 @@
 				id: "5887EEFBF813948A"
 				type: "item"
 				item: "extended_drawers:upgrade_frame"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			subtitle: "Poor mans AE2 - Rewards coming soon"
+			description: [
+				"This is basically Simple Storage Network. Use the Inventory Connector to connect to chests or to use it wirelessly by adding a storage or crafting terminal to it"
+				""
+				"Questline Rewards coming soon"
+			]
+			id: "1516CD4B2E6CCB74"
+			tasks: [{
+				id: "31E60507907453BF"
+				type: "item"
+				item: "toms_storage:ts.inventory_connector"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			subtitle: "Place on a Inventory Connector"
+			dependencies: ["1516CD4B2E6CCB74"]
+			id: "3BC219B8883CB46E"
+			tasks: [{
+				id: "17FB37166734C5E8"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			subtitle: "Storage Terminal but with crafting"
+			dependencies: ["3BC219B8883CB46E"]
+			id: "4668728F7E556923"
+			tasks: [{
+				id: "72527E3EC352C030"
+				type: "item"
+				item: "toms_storage:ts.crafting_terminal"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			subtitle: "This is what moves the items"
+			description: ["Connect it to the cable connector, leading to your Storage/Crafting Terminal"]
+			dependencies: ["1516CD4B2E6CCB74"]
+			id: "00DC4503D8F34ED2"
+			tasks: [{
+				id: "3146048898E4C626"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			subtitle: "Connects inbetween chest and cable"
+			dependencies: ["00DC4503D8F34ED2"]
+			id: "5A0F9067D6885BCD"
+			tasks: [{
+				id: "5E769E8B6110445C"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_connector"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			subtitle: "Filter items using this, right click to set filter"
+			dependencies: ["00DC4503D8F34ED2"]
+			id: "529ADE638FEFCE92"
+			tasks: [{
+				id: "15993556F3AF1BB9"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable_connector_filtered"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			subtitle: "You can use this to push items into your network"
+			dependencies: [
+				"1516CD4B2E6CCB74"
+				"00DC4503D8F34ED2"
+			]
+			id: "234378CC7E850F61"
+			tasks: [{
+				id: "3C882D4492D65385"
+				type: "item"
+				item: "toms_storage:ts.inventory_hopper_basic"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			subtitle: "Wireless range increases"
+			description: ["Sneak + Right click the Storage/Crafting terminal to set to the network"]
+			dependencies: ["3023E1D876818ACE"]
+			id: "2DC80F325B12B118"
+			tasks: [{
+				id: "1A8464792727B90E"
+				type: "item"
+				item: "toms_storage:ts.adv_wireless_terminal"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			subtitle: "Access storage wirelessly"
+			description: ["Sneak + Right click the Storage/Crafting terminal to set to the network"]
+			dependencies: ["3BC219B8883CB46E"]
+			id: "3023E1D876818ACE"
+			tasks: [{
+				id: "77695F871FD4600C"
+				type: "item"
+				item: "toms_storage:ts.wireless_terminal"
 			}]
 		}
 	]

@@ -71,8 +71,8 @@
 	   ******************************
 	*/
 	"ironDurability": 198,
-	"ironMiningSpeed": 1.499999976158142,
-	"ironAttackDamage": 1.699999976158142,
+	"ironMiningSpeed": 1.5,
+	"ironAttackDamage": 1.6999999284744263,
 	"ironMiningLevel": 2,
 	"ironEnchantability": 4,
 	/* 
@@ -83,8 +83,8 @@
 	   ******************************
 	*/
 	"copperDurability": 90,
-	"copperMiningSpeed": 1.3000000476837158,
-	"copperAttackDamage": 1.300000023841858,
+	"copperMiningSpeed": 1.3000000715255737,
+	"copperAttackDamage": 1.3000000715255737,
 	"copperMiningLevel": 1,
 	"copperEnchantability": 2
 }

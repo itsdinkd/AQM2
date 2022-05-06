@@ -93,6 +93,7 @@
 		"logXpGain": false,
 		"logBrokenBlocks": false,
 		"logRawOps": false,
-		"logRawWrite": false
+		"logRawWrite": false,
+		"logAntiCheatPrevention": false
 	}
 }

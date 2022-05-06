@@ -1,0 +1,138 @@
+{
+    "name": "Dᴇғᴇɴsᴇ Tʀᴀɴsғɪɢᴜʀᴀᴛɪᴏɴ",
+    "description": "Wʜᴇɴ ᴀ sᴄᴜʟᴋᴇʀ ғᴇᴇʟs ᴛʜʀᴇᴀᴛᴇɴᴇᴅ ɪᴛ ᴄᴀɴ ᴛʀᴀɴsғɪɢᴜʀᴇ ɪᴛs ʙᴏᴅʏ ɪɴᴛᴏ ᴀ ʜᴜᴍᴀɴᴏɪᴅ ғᴏʀᴍ, ᴅᴜʀɪɴɢ ᴛʜɪs sᴛᴀᴛᴇ ᴛʜᴇ sᴄᴜʟᴋᴇʀ ɪs ᴠɪᴏʟᴇɴᴛ, sʟᴏᴡ ᴀɴᴅ sᴛʀᴏɴɢ.",
+    "type": "origins:multiple",
+    "invis": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle",
+            "inverted": true
+        }
+    },
+    "base_height": {
+        "type": "extraorigins:modify_size",
+        "scale": 0.5,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle",
+            "inverted": true
+        }
+    },
+    "base_transform": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.elder_guardian.ambient_land",
+            "volume": 1,
+            "pitch": 0.1
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle",
+            "inverted": true
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "base_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": 0.025,
+            "name": "Increased sprinting speed"
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle",
+            "inverted": true
+        }
+    },
+    "base_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": -10,
+            "name": "Increased sprinting speed"
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle",
+            "inverted": true
+        }
+    },
+    "big_height": {
+        "type": "extraorigins:modify_size",
+        "scale": 2,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle"
+        }
+    },
+    "exhaust": {
+        "type": "origins:exhaust",
+        "interval": 20,
+        "exhaustion": 2,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle"
+        }
+    },
+    "big_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": -0.025,
+            "name": "Increased sprinting speed"
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle"
+        }
+    },
+    "big_health": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 6,
+            "name": "Increased sprinting speed"
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle"
+        }
+    },
+    "big_transform": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.elder_guardian.curse",
+            "volume": 1,
+            "pitch": 0.4
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle"
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "big_transform2": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.enderman.scream",
+            "volume": 1,
+            "pitch": 0.6
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:sizetoggle",
+            "inverted": true
+        },
+        "key": "key.origins.ternary_active"
+    }
+}

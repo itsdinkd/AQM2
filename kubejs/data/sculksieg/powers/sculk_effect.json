@@ -1,0 +1,36 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:spawn_particles",
+        "particle": {
+            "type": "minecraft:block",
+            "params": "minecraft:sculk_sensor"
+        },
+        "count": 5,
+        "speed": 0.0001,
+        "force": true,
+        "offset_y": 0.2,
+        "spread": {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "force": true
+        }
+    },
+    "interval": 1,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:power_active",
+                "power": "*:sizetoggle",
+                "inverted": true
+            }
+        ]
+    }
+}

@@ -5,6 +5,7 @@
       "lol.bai.megane.module.kibe.MeganeKibe": true
     },
     "megane-industrial-revolution": {
+      "lol.bai.megane.module.indrev.MeganeIndustrialRevolution": true,
       "badasintended.megane.impl.IndustrialRevolution": true
     },
     "megane-modern-industrialization": {

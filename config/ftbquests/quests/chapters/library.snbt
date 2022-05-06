@@ -1,0 +1,267 @@
+{
+	id: "05B7C7F1925179E8"
+	group: "2B2D8A5BD664DEFC"
+	order_index: 3
+	filename: "library"
+	title: "Library (All Mod Guides)"
+	icon: "minecraft:bookshelf"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -3.0d
+			subtitle: "Learn about the Mounts in Overworld and how to breed and tame"
+			id: "79EF1312A26CC670"
+			tasks: [{
+				id: "0E6643CC16AB8F30"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "mythicmounts:mythical_mounts"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Everything DOOM"
+			id: "7B524123DD883C01"
+			tasks: [{
+				id: "1C2BDA07A9C69A72"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "doom:doom"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Travel to.. space!"
+			id: "4D11462A9C5D6301"
+			tasks: [{
+				id: "3E2E9AA54A966FAB"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "agape_space:space_guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			subtitle: "Store XP and stuff"
+			id: "397D05BDC219F19F"
+			tasks: [{
+				id: "5F33AE0A451BC4F1"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "xps:xps_lexica"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			subtitle: "All about Redstone"
+			id: "43B7A3B4D93DA8A0"
+			tasks: [{
+				id: "5A6FCD79BC8FFA92"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "redbits:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			subtitle: "Industrial Revolution"
+			id: "334C9F2FE0B42C42"
+			tasks: [{
+				id: "7C0012E298E378C4"
+				type: "item"
+				item: "indrev:guide_book"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			id: "617B49CA33BD39B3"
+			tasks: [{
+				id: "0754FB21E505579C"
+				type: "item"
+				item: "modern_industrialization:guidebook"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -1.0d
+			subtitle: "Magic Fungi, Magical Mushrooms"
+			id: "4492F769DAEA1263"
+			tasks: [{
+				id: "643AE3DBB9D878D5"
+				type: "item"
+				item: "magicfungi:guide_book"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.0d
+			id: "452D28FFB49139AC"
+			tasks: [{
+				id: "2690C24509367482"
+				type: "item"
+				title: "ComputerCraft Manual"
+				item: "computercraft:printed_book"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			subtitle: "AdventureZ"
+			id: "2756B16048AD6EC4"
+			tasks: [{
+				id: "3E32304FE64F4997"
+				type: "item"
+				item: "adventurez:handbook"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -1.0d
+			subtitle: "Bewitchment - Magic"
+			description: ["Bewitchment is a magic mod based around curses, voodoo puppets, sacrifices, and demons. You can transform into a werewolf or a vampire, you can fight Lilith and other Demons, and even fly on brooms. "]
+			id: "3D757CE8D64F794A"
+			tasks: [{
+				id: "1EDE29345D65D156"
+				type: "item"
+				item: "bewitchment:book_of_shadows"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			subtitle: "Random fun items"
+			id: "086AE27ABCE20C9B"
+			tasks: [{
+				id: "351DAC9F95137CD3"
+				type: "item"
+				item: "things:things_almanac"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -2.0d
+			subtitle: "Spicy Magic Mod"
+			id: "35A28E2DAFB2B301"
+			tasks: [{
+				id: "33AD3437165BEC31"
+				type: "item"
+				item: "archon:grimoire"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.0d
+			subtitle: "Magical Tech, Botania. Automate, Destroy, Have fun."
+			id: "6583CBA7754DFB94"
+			tasks: [{
+				id: "7669ADD54441F5A9"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.0d
+			subtitle: "Spectrum - Explore a Magical World"
+			description: ["Craft the Manual to learn how to play through this mod. It also relies heavily on advancements, so be sure to check the Spectrum Advancements if you're stuck (Press \"L\" in game)\""]
+			id: "6960A07B62E40B02"
+			tasks: [{
+				id: "6FF23824F2ADD9B3"
+				type: "item"
+				item: "spectrum:manual"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -3.0d
+			subtitle: "Automate Mob Farms, Harvest Trees, Plants, Veinmine, Item Mangets, and more."
+			id: "4967AB6AFE0A6ECC"
+			tasks: [{
+				id: "1A934B334A96A378"
+				type: "item"
+				item: {
+					id: "conjuring:enchiridion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			subtitle: "Food, trees, tacos."
+			id: "59C1AA932E7BC1B9"
+			tasks: [{
+				id: "3FD0F68488F1B23F"
+				type: "item"
+				item: "croptopia:guide"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			subtitle: "Adorn"
+			description: ["Adorn is a decoration mod. We have Adorn, Macaw's, Consistency Plus for decoration mods"]
+			id: "6935BCB8E4AC030B"
+			tasks: [{
+				id: "2CA02A6718757AF5"
+				type: "item"
+				item: "adorn:guide_book"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			id: "3193C6157F84E788"
+			tasks: [{
+				id: "2D1A26D64D801D52"
+				type: "item"
+				item: "betterend:guidebook"
+			}]
+		}
+		{
+			title: "Read Me"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: -6.0d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "First step into our world of mods"
+			description: ["Some of these books will be empty. This is due to you needing to progress a bit through the mod, or find something that creates a journal entry. Better End is a great example of this, as well as Spectrum. "]
+			size: 3.0d
+			id: "2C8ECD655EB5D9A3"
+		}
+	]
+}

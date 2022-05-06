@@ -1,9 +1,43 @@
 // Another Quality Modpack 2 //
 ///////////////////////////////
 
-onEvent('tags.items', event => {
+// Fish
+
+	const originFish =[
+	"#minecraft:fishes",
+	"#c:cooked_fish",
+	"#fabric:raw_fishes",
+	"#fabric:raw_fish"
+	]
+
+
+// Berries
+
+	const originBerries = [
+	"#c:fruits/blackberries",
+	"#c:fruits/blueberries",
+	"#c:fruits/cranberries",
+	"#c:fruits/dragonfruits",
+	"#c:fruits/elderberries",
+	"#c:fruits/pineapples",
+	"#c:fruits/raspberries",
+	"#c:fruits/strawberries",
+	"valley:spicy_berries",
+	"valley:bitter_berries"
+]
+
+// Meats
+
+	const originMeats =[
+	"#forge:raw_meats",
+	"#c:cooked_meat"
+	]
+
+// TieredZ Blacklist
 
 	const tieredZBlacklist = []
+
+// Hardened Catalyst
 
 	const catalystBlacklist = [
 	'bewitchment:death_protection_poppet',
@@ -30,13 +64,38 @@ onEvent('tags.items', event => {
 	'bewitchment:judgment_poppet',
 	'bewitchment:fatigue_poppet'
 	]
-	
+
+onEvent('tags.items', event => {
+
+	originFish.forEach(function (item, index) {
+		event.add('grounded_origins:penguin/seafood', item)
+		event.add('origins:meat', item)
+		event.add('libra:meat', item)
+	})
+
+	originBerries.forEach(function (item, index) {
+		event.add('grounded_origins:deer/berry_foods', item)
+	})
+
+	originMeats.forEach(function (item, index) {
+		event.add('libra:meat', item)
+		event.add('origins:meat', item)
+	})
+
 	catalystBlacklist.forEach(function(item) { 
 		event.add('things:hardening_catalyst_blacklist', item)
     });	
 
+// Misc
+	event.add('c:wrenches', 'advanced_reborn:config_wrench')
 	event.add('c:wrenches','techreborn:wrench')
 	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
 	event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
+
+	event.add('grounded_origins:moth/fibrous_foods', '#fabric:grain')
+	event.add('grounded_origins:moth/fibrous_foods', '#minecraft:fox_food')
+	event.add('grounded_origins:moth/fibrous_foods', '#c:fruits')
+	event.remove('nourish:vegetables', "croptopia:beef_stew")
+	event.remove('nourish:vegetables', "croptopia:beef_stir_fry")
 
 });

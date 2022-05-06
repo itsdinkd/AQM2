@@ -1,0 +1,15 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "effect give @s minecraft:haste 1 0 true"
+            }
+        ]
+    },
+    "name": "Uɴᴄᴏɴᴛʀᴏʟʟᴇᴅ ᴠɪʙʀᴀᴛɪᴏɴ",
+    "description": "Sᴄᴜʟᴋᴇʀs ʜᴀᴠᴇ Hᴀsᴛᴇ 1 ᴀʟʟ ᴛʜᴇ ᴛɪᴍᴇ."
+}
