@@ -6,5 +6,7 @@ onEvent('player.logged_in', event => {
     event.player.stages.add('starting_items')
     // give items
     event.player.give('ftbquests:book')
+    // clear item
+    event.player.inventory.clear('prefab:item_start_house');
   }
 })

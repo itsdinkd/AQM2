@@ -121,6 +121,17 @@
         "value": 10000000
       }
     },
+    "creeperoverhaul:reach_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
     "dml-refabricated:underwater_haste": {
       "enabled": false,
       "min": {
@@ -482,6 +493,17 @@
       "max": {
         "default": 1024,
         "value": 2048
+      }
+    },
+    "creeperoverhaul:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
       }
     },
     "dml-refabricated:teleport": {

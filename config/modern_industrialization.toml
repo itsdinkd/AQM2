@@ -1,6 +1,6 @@
 generateOres = true
 blacklistedOres = ["lead", "tin", "silver", "salt", "bauxite", "iridium", "tungsten"]
-spawnWithGuideBook = true
+spawnWithGuideBook = false
 respawnWithGuideBook = false
 disableFuelTooltips = true
 disableItemTagTooltips = true

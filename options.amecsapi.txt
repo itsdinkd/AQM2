@@ -36,6 +36,8 @@ key_modifiers_key.big_items_duh.toggle_zoom:0,0,1
 key_modifiers_key.big_items_duh.hold_zoom:0,0,0
 key_modifiers_key.dynamicfps.toggle_forced:0,0,0
 key_modifiers_key.dynamicfps.toggle_disabled:0,0,0
+key_modifiers_key.emotecraft.fastchoose:0,0,0
+key_modifiers_key.emotecraft.stop:0,0,0
 key_modifiers_Reload Menu | CTRL + ALT + :0,0,0
 key_modifiers_Toggle Customization Overlay | CTRL + ALT + :0,0,0
 key_modifiers_key.expandedstorage.config:0,0,0

@@ -227,8 +227,7 @@
     "summoner_spawn_weight": 4,
     "summoner_min_group": 1,
     "summoner_max_group": 2,
-    "motherdemon_biomes": [
-    ],
+    "motherdemon_biomes": [],
     "motherdemon_spawn_weight": 1,
     "motherdemon_min_group": 1,
     "motherdemon_max_group": 1,
@@ -250,8 +249,7 @@
     "bloodmaykr_spawn_weight": 5,
     "bloodmaykr_min_group": 1,
     "bloodmaykr_max_group": 1,
-    "archmaykr_biomes": [
-    ],
+    "archmaykr_biomes": [],
     "archmaykr_spawn_weight": 1,
     "archmaykr_min_group": 1,
     "archmaykr_max_group": 1,

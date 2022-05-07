@@ -10,7 +10,8 @@ event => {
       'indrev:deepslate_tin_ore', 
       'indrev:deepslate_tungsten_ore', 
       'techreborn:deepslate_ruby_ore',
-      'techreborn:ruby_ore'
+      'techreborn:ruby_ore',
+      'blockus:viridite'
       ]
   })
 });

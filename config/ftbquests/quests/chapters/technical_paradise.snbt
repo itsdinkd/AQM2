@@ -1429,8 +1429,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -3.0d
+			x: -4.5d
+			y: -2.0d
 			subtitle: "Transfer power wirelessly - Quest coming soon"
 			hide: false
 			id: "2B5A3FAEFD45FF1C"
@@ -1507,6 +1507,7 @@
 			]
 			hide: true
 			hide_text_until_complete: true
+			secret: true
 			id: "239ECC2B7F3A3AD8"
 			tasks: [
 				{
@@ -1529,11 +1530,11 @@
 				{
 					id: "7A628DBE88D2A415"
 					type: "observation"
-					title: "..."
+					title: "You saw fabric of reality"
 					icon: "botania:cosmetic_questgiver_mark"
 					timer: 1L
 					observe_type: 0
-					to_observe: "minecraft:dirt"
+					to_observe: "dimdoors:black_fabric"
 				}
 			]
 		}
@@ -1628,6 +1629,7 @@
 			}]
 		}
 		{
+			title: "Temporarily Disabled"
 			x: -2.0d
 			y: 9.0d
 			subtitle: "Points to the nearest set ore block"
@@ -1638,11 +1640,6 @@
 				id: "0D9C8BCF1C6DF4E5"
 				type: "item"
 				item: "magehand:diamond_spawner_item"
-			}]
-			rewards: [{
-				id: "766AD4170EA2355D"
-				type: "item"
-				item: "gofish:diamond_crate"
 			}]
 		}
 		{
@@ -1701,6 +1698,90 @@
 				id: "796E697C6F39D489"
 				type: "item"
 				item: "gofish:golden_crate"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -0.5d
+			subtitle: "Tank on the go"
+			id: "1489C5DF4EDE9997"
+			tasks: [{
+				id: "0AE8F2F0C43A99E4"
+				type: "item"
+				item: "coxinhautilities:portable_tank_mk1"
+			}]
+			rewards: [{
+				id: "5C1DF096C283498F"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			subtitle: "Tank on the go, tier 2"
+			dependencies: ["1489C5DF4EDE9997"]
+			id: "3ADE65550136F2AC"
+			tasks: [{
+				id: "35A95451B7448106"
+				type: "item"
+				item: "coxinhautilities:portable_tank_mk2"
+			}]
+			rewards: [{
+				id: "6A8552EBE63BB87C"
+				type: "item"
+				item: "hyperlighting:orange_colored_water_bucket"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			subtitle: "Tank on the go, tier 3"
+			dependencies: ["3ADE65550136F2AC"]
+			id: "5424DB42C0B6FDC3"
+			tasks: [{
+				id: "63D2E1FC888FC2AC"
+				type: "item"
+				item: "coxinhautilities:portable_tank_mk3"
+			}]
+			rewards: [{
+				id: "627AF62BDB32CF73"
+				type: "item"
+				item: "hyperlighting:green_colored_water_bucket"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			subtitle: "Tank on the go, tier 4"
+			dependencies: ["5424DB42C0B6FDC3"]
+			id: "4D384344BC41D00B"
+			tasks: [{
+				id: "27DF3870388A5747"
+				type: "item"
+				item: "coxinhautilities:portable_tank_mk4"
+			}]
+			rewards: [{
+				id: "6075F2A0B0732E18"
+				type: "item"
+				item: "sandwichable:fermenting_milk_bucket"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			subtitle: "Tank on the go, tier 5"
+			dependencies: ["4D384344BC41D00B"]
+			id: "343C5765272310D0"
+			tasks: [{
+				id: "3FB0F970520416FB"
+				type: "item"
+				item: "coxinhautilities:portable_tank_mk5"
+			}]
+			rewards: [{
+				id: "41CCBFDB37829652"
+				type: "item"
+				item: "hyperlighting:light_blue_colored_glowing_water_bucket"
 			}]
 		}
 	]

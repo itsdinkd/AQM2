@@ -695,14 +695,23 @@
 				""
 				"Be sure to view all the @prefab structures that are available, you can build an amazing base with two clicks."
 			]
+			secret: true
 			id: "580922BEFEDA9C42"
-			tasks: [{
-				id: "0F5C49C0AA3F013F"
-				type: "gamestage"
-				title: "Join Game"
-				icon: "prefab:item_start_house"
-				stage: "starting_items"
-			}]
+			tasks: [
+				{
+					id: "0F5C49C0AA3F013F"
+					type: "gamestage"
+					title: "Join Game"
+					icon: "prefab:item_start_house"
+					stage: "starting_items"
+				}
+				{
+					id: "0CA63F10DD79246D"
+					type: "questsadditions:time"
+					title: "Tick Tock"
+					elapsedTime: 300L
+				}
+			]
 			rewards: [{
 				id: "4A1B778F8F84688F"
 				type: "item"

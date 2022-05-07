@@ -1193,5 +1193,7 @@ event.custom({
     ]
   })
 
+//quarryplus pickaxes
+event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'minecraft:netherite_pickaxe')
 //end
 })
