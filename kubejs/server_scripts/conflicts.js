@@ -20,7 +20,7 @@ onEvent('recipes', event => {
   // event.shapeless("valley:rice_item", ['croptopia:rice']);
   // event.shapeless("valley:rice_item", ['farmersdelight:rice']);
   event.replaceInput({}, "#c:grains/rice", "farmersdelight:rice");
-
+  event.replaceOutput({}, "#c:grains/rice", "farmersdelight:rice");
   // // onion
   // event.shapeless("croptopia:onion", ['farmersdelight:onion']);
   // event.shapeless("croptopia:onion", ['valley:onion']);
@@ -29,6 +29,7 @@ onEvent('recipes', event => {
   // event.shapeless("valley:onion", ['croptopia:onion']);
   // event.shapeless("valley:onion", ['farmersdelight:onion']);
   event.replaceInput({}, "#c:vegetables/onion", "farmersdelight:onion");
+  event.replaceOutput({}, "#c:vegetables/onion", "farmersdelight:onion");
   //// tomato
   // event.shapeless("croptopia:tomato", ['farmersdelight:tomato']);
   // event.shapeless("croptopia:tomato", ['sandwichable:tomato']);
@@ -37,15 +38,21 @@ onEvent('recipes', event => {
   // event.shapeless("sandwichable:tomato", ['croptopia:tomato']);
   // event.shapeless("sandwichable:tomato", ['farmersdelight:tomato']);
   event.replaceInput({}, "#c:vegetables/tomatoes", "sandwichable:tomato");
+  event.replaceOutput({}, "#c:vegetables/tomatoes", "sandwichable:tomato");
 
   // Cabbage
   event.replaceInput({}, "#c:vegetables/cabbage", "farmersdelight:cabbage");
+  event.replaceOutput({}, "#c:vegetables/cabbage", "farmersdelight:cabbage");
 
   // Dough
   event.replaceInput({}, "#c:dough", "farmersdelight:wheat_dough");
+  event.replaceOutput({}, "#c:dough", "farmersdelight:wheat_dough");
 
   // Bacon
   event.replaceInput({}, "#c:food/bacon", "farmersdelight:bacon");
+  event.replaceOutput({}, "#c:food/bacon", "farmersdelight:bacon");
+
+
 
   // lettuce
   // event.shapeless("croptopia:lettuce", ['sandwichable:lettuce_leaf']);
@@ -89,6 +96,14 @@ onEvent('recipes', event => {
   event.shaped("3x blockus:white_oak_small_logs", [
     ["blockus:white_oak_log", "blockus:white_oak_log", "blockus:white_oak_log"],
   ]);
+
+  // lignite Coal
+  event.remove({output: 'modern_industrialization:lignite_coal_block', type: 'minecraft:crafting_shapeless'})
+  event.remove({output: 'modern_industrialization:lignite_coal_block', type: 'minecraft:crafting_shaped'})
+  event.shaped('modern_industrialization:lignite_coal_block', ['yxx', 'xxx', 'xxx'], {
+    x: '#c:lignite_coal',
+    y: 'modern_industrialization:lignite_coal'
+  })
 
   // Silver
   event.replaceOutput({}, "bewitchment:silver_ingot", "techreborn:silver_ingot");

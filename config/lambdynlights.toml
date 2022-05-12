@@ -73,6 +73,15 @@
 				donkey = true
 				potion = true
 				chest_minecart = true
+				zombified_piglin = true
+				firework_rocket = true
+				ravager = true
+				vex = true
+				leash_knot = true
+				dragon_fireball = true
+				area_effect_cloud = true
+				horse = true
+				llama = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				badger = true
@@ -108,6 +117,9 @@
 				tarantula = true
 				lammergeier = true
 				reindeer = true
+				squid_giant = true
+				squid_colossal = true
+				moose = true
 
 			[light_sources.settings.entities.mobz]
 				friend = false
@@ -135,6 +147,8 @@
 				creep = false
 				archer2 = true
 				icegolem = true
+				blackbear = true
+				boar2 = true
 
 			[light_sources.settings.entities.whisperwoods]
 				moth = true
@@ -217,6 +231,8 @@
 				baron = true
 				barenblast = true
 				gladiator = true
+				shotgun_shell = true
+				bullets = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false
@@ -240,12 +256,17 @@
 				acencia = false
 				archelon = false
 				courierbird = false
+				firebird = true
+				nudibranch = true
+				colelytra = true
+				geckotoalizard = true
 
 			[light_sources.settings.entities.archon]
 				skelt = true
 				omega_skelt = true
 				tar = true
 				ayla = true
+				water_bolt = true
 
 			[light_sources.settings.entities.duckling]
 				duck = true
@@ -259,7 +280,28 @@
 
 			[light_sources.settings.entities.earthtojavamobs]
 				moolip = true
+				skewbald_chicken = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
+				dripstone_creeper = true
+
+			[light_sources.settings.entities.biomemakeover]
+				moth = true
+				glowfish = true
+
+			[light_sources.settings.entities.botania]
+				mana_burst = true
+
+			[light_sources.settings.entities.farmingforblockheads]
+				merchant = true
+
+			[light_sources.settings.entities.sprout]
+				elephant = true
+
+			[light_sources.settings.entities.guardiansgalore]
+				dragon = true
+				fox = true
+				chicken = true
+				liondog = true
 

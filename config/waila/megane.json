@@ -27,7 +27,8 @@
       "modern_industrialization": 11993088,
       "wirelessnetworks": 7408640,
       "advanced_reborn": 7408640,
-      "indrev": 3885790
+      "indrev": 3885790,
+      "ae2": 6556063
     },
     "units": {
       "megane": "E",
@@ -37,7 +38,8 @@
       "modern_industrialization": "EU",
       "wirelessnetworks": "E",
       "advanced_reborn": "E",
-      "indrev": "LF"
+      "indrev": "LF",
+      "ae2": "AE"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"

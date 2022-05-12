@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = Q:/mc/Instances/AQM2 1.18.2/saves/test5
+  is_server = true
+  world = aqm21182.minecraft.best:25565
 }
 
