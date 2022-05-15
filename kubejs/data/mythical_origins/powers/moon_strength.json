@@ -1,0 +1,16 @@
+{
+    "name": "Moon Strength",
+    "description": "The moon gives you power, making you deal +3 damage under it. (must have \"werewolf activate\" active.",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "mythical_origins:werewolf_activate"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.attack_damage",
+        "operation": "addition",
+        "value": 3
+    },
+    "tick_rate": 20,
+    "update_health": false
+}

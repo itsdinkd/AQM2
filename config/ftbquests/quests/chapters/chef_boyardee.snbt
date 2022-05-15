@@ -5,6 +5,7 @@
 	filename: "chef_boyardee"
 	title: "Chef Boyardee"
 	icon: "croptopia:cooking_pot"
+	subtitle: ["Cooking Foods, duh"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

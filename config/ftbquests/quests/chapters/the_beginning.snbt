@@ -158,29 +158,6 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -6.0d
-			subtitle: "Ouch"
-			description: ["The Gobber Nemesis has a chance to spawn when mining Gobber Ore. Slay this beast and get your loot."]
-			dependencies: [
-				"40AC615E022379B9"
-				"333D851BF7D1E900"
-			]
-			id: "4629227FCF91E173"
-			tasks: [{
-				id: "2719608AA988294C"
-				type: "kill"
-				title: "Kill Gobber Nemesis"
-				entity: "gobber2:nemesis"
-				value: 1L
-			}]
-			rewards: [{
-				id: "188692D01089F1C4"
-				type: "item"
-				item: "gobber2:gobber2_globette"
-			}]
-		}
-		{
 			x: 0.0d
 			y: 1.5d
 			subtitle: "Nether Globettes, scary."

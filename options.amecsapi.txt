@@ -53,6 +53,7 @@ key_modifiers_key.ae2wtlib.toggleMagnet:0,0,0
 key_modifiers_key.agape_space.vehicle_menu:0,0,0
 key_modifiers_key.ftbquests.quests:0,0,0
 key_modifiers_key.autorun.toggle:0,0,0
+key_modifiers_key.besmirchment.familiar_ability:0,0,0
 key_modifiers_key.bewitchment.transformation_ability:0,0,0
 key_modifiers_key.botania_corporea_request:0,0,0
 key_modifiers_key.buildinggadgets.settings_menu:0,0,0
@@ -88,19 +89,25 @@ key_modifiers_key.crawl:0,0,0
 key_modifiers_key.dankstorage.construction:0,0,0
 key_modifiers_key.dankstorage.lock_slot:0,0,0
 key_modifiers_key.dankstorage.pickup_mode:0,0,0
-key_modifiers_key.craftpresence.config_keycode.name:0,0,0
 key_modifiers_key.deathlog.death_screen:0,0,0
 key_modifiers_key.dml-refabricated.teleport:0,0,0
 key_modifiers_key.dml-refabricated.soul_vision:0,0,0
+key_modifiers_key.craftpresence.config_keycode.name:0,0,0
 key_modifiers_key.doom.reload:0,0,0
 key_modifiers_key.doom.yeethook:0,0,0
 key_modifiers_key.entityculling.toggle:0,0,0
 key_modifiers_Show comparison tooltip:0,0,0
+key_modifiers_key.origins.ternary_active:0,0,0
+key_modifiers_key.origins.quaternary_active:0,0,0
+key_modifiers_key.origins.quinary_active:0,0,0
+key_modifiers_key.origins.senary_active:0,0,0
+key_modifiers_key.origins.septenary_active:0,0,0
+key_modifiers_key.origins.octonary_active:0,0,0
+key_modifiers_key.origins.nonary_active:0,0,0
+key_modifiers_key.origins.denary_active:0,0,0
 key_modifiers_key.fabrictailor.toggle_skin_gui:0,0,0
 key_modifiers_key.gearreborn.toggle_nv:0,0,0
 key_modifiers_key.origins.arcanite_toggle:0,0,0
-key_modifiers_key.origins.ternary_active:0,0,0
-key_modifiers_key.origins.quaternary_active:0,0,0
 key_modifiers_key.hoverpets.pet_ability:0,0,0
 key_modifiers_key.indrev.modular:0,0,0
 key_modifiers_key.indrev.gamer_axe_toggle:0,0,0
@@ -129,6 +136,8 @@ key_modifiers_key.trashslot.toggle:0,0,0
 key_modifiers_key.trashslot.delete:0,0,0
 key_modifiers_key.trashslot.deleteAll:0,0,0
 key_modifiers_key.veinmining.activate.desc:0,0,0
+key_modifiers_key.walljump.walljump:0,0,0
+key_modifiers_key.weaponthrow:0,0,0
 key_modifiers_key.whereisit.finditem:0,0,0
 key_modifiers_key.waila.config:0,0,0
 key_modifiers_key.waila.show_overlay:0,0,0

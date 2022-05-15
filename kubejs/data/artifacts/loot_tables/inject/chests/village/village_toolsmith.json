@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:digging_claws"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:pocket_piston"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "artifacts:configurable_random_chance",
+          "default_probability": 0.15
+        }
+      ]
+    }
+  ]
+}

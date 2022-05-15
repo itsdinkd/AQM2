@@ -19,6 +19,10 @@ var aqmClientRemove = [
 'advanced_reborn:ray_generator_9',
 'advanced_reborn:sticky_dynamite',
 'advanced_reborn:teleporter',
+'artifacts:eternal_steak',
+'artifacts:villager_hat',
+'artifacts:cross_necklace',
+'artifacts:scarf_of_invisibility',
 'agape_space:enhanced_helmet',
 'bewitchment:prickly_belt',
 'bewitchment:specter_bangle',
@@ -188,6 +192,7 @@ var aqmClientRemove = [
 'things:moss_necklace',
 'valley:copper_nugget',
 'winged:heart_of_the_sky',
+'waystones:void_totem',
 'winged:heart_of_the_sky_25',
 'winged:heart_of_the_sky_50',
 'winged:heart_of_the_sky_75'

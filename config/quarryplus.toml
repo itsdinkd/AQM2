@@ -4,6 +4,7 @@ netherTop = 127
 noEnergy = false
 convertDeepslateOres = true
 removesCommonMaterialAdvQuarry = true
+removeFrameAfterQuarryIsRemoved = true
 [power]
 rebornEnergyConversionCoefficient = 0.06
 creativeGeneratorGeneration = 1000

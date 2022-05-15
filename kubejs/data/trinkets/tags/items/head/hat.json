@@ -29,6 +29,10 @@
     "villager-hats:armorer_hat",
     "villager-hats:shepherd_hat",
     "villager-hats:librarian_hat",
-    "villager-hats:butcher_hat"
+    "villager-hats:butcher_hat",
+    "artifacts:plastic_drinking_hat",
+    "artifacts:novelty_drinking_hat",
+    "artifacts:superstitious_hat",
+    "artifacts:whoopee_cushion"
   ]
 }

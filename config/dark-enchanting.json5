@@ -533,7 +533,7 @@
     {
       "enchantmentId": "yigd:soulbound",
       "activated": true,
-      "personalFactor": 3.8,
+      "personalFactor": 3.99,
       "personalReceiveFactor": 0.0
     },
     {
@@ -951,27 +951,9 @@
       "personalReceiveFactor": 0.0
     },
     {
-      "enchantmentId": "magiccombatwands:thrifty",
-      "activated": false,
-      "personalFactor": 4.02,
-      "personalReceiveFactor": 0.0
-    },
-    {
-      "enchantmentId": "magiccombatwands:skillful",
-      "activated": false,
-      "personalFactor": 4.02,
-      "personalReceiveFactor": 0.0
-    },
-    {
-      "enchantmentId": "magiccombatwands:concentration",
-      "activated": false,
-      "personalFactor": 4.02,
-      "personalReceiveFactor": 0.0
-    },
-    {
-      "enchantmentId": "magiccombatwands:magic_wind",
-      "activated": false,
-      "personalFactor": 4.02,
+      "enchantmentId": "walljump:doublejump",
+      "activated": true,
+      "personalFactor": 4.3563,
       "personalReceiveFactor": 0.0
     }
   ]

@@ -285,10 +285,16 @@
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
 				dripstone_creeper = true
+				savannah_creeper = true
 
 			[light_sources.settings.entities.biomemakeover]
 				moth = true
 				glowfish = true
+				dragonfly = true
+				decayed = true
+				lightning_bug = true
+				lightning_bug_alternate = true
+				toad = true
 
 			[light_sources.settings.entities.botania]
 				mana_burst = true
@@ -304,4 +310,23 @@
 				fox = true
 				chicken = true
 				liondog = true
+
+			[light_sources.settings.entities.mannequins]
+				mannequin = true
+				statue = true
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
+
+			[light_sources.settings.entities.megaparrot]
+				megaparrot = true
+
+			[light_sources.settings.entities.weaponthrow]
+				weaponthrow = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
+			[light_sources.settings.entities.dimdoors]
+				monolith = true
 

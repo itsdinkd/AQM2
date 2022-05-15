@@ -25,8 +25,34 @@ const disableInfo = [
 'botania:odin_ring',
 'botania:loki_ring'
 ];
+
+const greenhouseColors =[
+    "white",
+    "magenta",
+    "orange",
+    "light_blue",
+    "yellow",
+    "green",
+    "pink",
+    "gray",
+    "lime",
+    "blue",
+    "light_gray",
+    "cyan",
+    "purple",
+    "brown",
+    "red",
+    "black"
+  ];
+
 onEvent('rei.information', event => {
   disableInfo.forEach(function(item, index) {
     event.add(item, 'Disabled', ['This item has been disabled'])
+  });
+
+  event.add('croparia:greenhouse', 'WARNING', ['You will crash and corrupt chunk if you use this on modded crops'])
+
+  greenhouseColors.forEach(function(item, index) {
+    event.add('croparia:greenhouse_' + item, 'WARNING', ['You will crash and corrupt chunk if you use this on modded crops'])
   });
 });

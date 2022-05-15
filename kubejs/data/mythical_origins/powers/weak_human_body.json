@@ -1,0 +1,17 @@
+{
+    "name": "Weak Human Body",
+    "description": "Your human side is really weak, so when not in werewolf mode, you have -4 hearts.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:power_active",
+        "power": "mythical_origins:werewolf_activate"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": -8
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

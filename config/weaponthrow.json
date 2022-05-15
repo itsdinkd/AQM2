@@ -1,0 +1,53 @@
+{
+  "general": {
+    "creativeSpamming": false,
+    "notUseWhenCooldown": true
+  },
+  "defaults": {
+    "baseDamageDefault": 1.0,
+    "velocityDefault": 2.0
+  },
+  "enchantments": {
+    "enchantAllWeapons": false,
+    "enableThrow": true,
+    "enableConccusion": true,
+    "enableGroundedEdge": true,
+    "enableGravity": true,
+    "enableReturn": true
+  },
+  "experimental": {
+    "shouldThrowItemsToo": false
+  },
+  "interactions": {
+    "canBreakBlocks": false
+  },
+  "multipliers": {
+    "tools": {
+      "pickaxeMultiplier": 0.8,
+      "axeMultiplier": 1.1,
+      "swordMultiplier": 1.0,
+      "hoeMultiplier": 1.2,
+      "shovelMultiplier": 0.9
+    },
+    "damages": {
+      "baseDamageMultiplier": 0.25,
+      "stackDamageMultiplier": 0.0,
+      "modifiedDamageMultiplier": 0.5
+    },
+    "velocities": {
+      "baseVelocityMultiplier": 0.25,
+      "stackVelocityMultiplier": 0.005,
+      "modifiedVelocityMultiplier": 0.4
+    },
+    "exhaustions": {
+      "baseExhaustionMultiplier": 0.075,
+      "stackExhaustionMultiplier": 0.014,
+      "modifiedExhaustionMultiplier": 2.0
+    }
+  },
+  "times": {
+    "despawnTime": 1200,
+    "castTimeMuliplier": 3.0,
+    "ticksUntilWeaponLoseOwner": 180
+  }
+}

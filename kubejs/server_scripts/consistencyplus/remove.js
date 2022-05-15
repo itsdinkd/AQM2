@@ -18,7 +18,7 @@ const remAllThese = [
 
 onEvent('recipes', event => {
   calciteRem.forEach(function(item, index) {
-    event.remove({output: 'consistencyplus:' + item})
+    event.remove({output: 'consistency_plus:' + item})
     event.remove({output: 'twigs:' + item})
   });
 

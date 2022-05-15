@@ -1,2 +1,0 @@
-particle minecraft:explosion
-playsound minecraft:entity.enderman.teleport ambient @s ~ ~ ~ 1 1.6

@@ -5,6 +5,7 @@
 	filename: "gotta_catch_em_all"
 	title: "Gotta Catch Em All"
 	icon: "hoverpets:fox_pet"
+	subtitle: ["Breeding, Taming"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
@@ -121,6 +122,100 @@
 				type: "item"
 				item: "guardiansgalore:blaze_bell"
 				only_from_crafting: true
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			subtitle: "Use the feather it drops to create the whistle"
+			description: ["Whistles will call your bird over to you"]
+			dependencies: ["3559B91785D78067"]
+			optional: true
+			id: "5BDECDBCDB7E4DAE"
+			tasks: [{
+				id: "2BA4E78217DA5D65"
+				type: "kill"
+				title: "Slay the Pretty MegaParrot"
+				icon: "plushies:parrot_plushie"
+				entity: "megaparrot:megaparrot"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "03BC53B721A2870D"
+					type: "item"
+					item: "minecraft:bamboo"
+				}
+				{
+					id: "7DF1EC222092911A"
+					type: "item"
+					item: "minecraft:red_dye"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["5BDECDBCDB7E4DAE"]
+			id: "0D1393862B57EFE1"
+			tasks: [{
+				id: "629FF7DBBEE4B708"
+				type: "item"
+				item: {
+					id: "megaparrot:bird_whistle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "49AD6F76386C9A1B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Name Tag Skin Variants"
+			icon: "minecraft:name_tag"
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Use one of these names on a name tag for your parrot"
+			description: [
+				"Skylorbeck"
+				"Commissargrey"
+				"Mordecai"
+				"Chone"
+			]
+			dependencies: ["3559B91785D78067"]
+			id: "062F1569E0891602"
+			tasks: [{
+				id: "18DD8FA079302D12"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1EEF98A97670DF42"
+				type: "item"
+				item: "minecraft:name_tag"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			subtitle: "And now tame it!"
+			id: "3559B91785D78067"
+			tasks: [{
+				id: "2E8050CE3656B4E8"
+				type: "observation"
+				title: "Find a Mega Parrot"
+				icon: "spectrum:parrot_red_head"
+				timer: 1L
+				observe_type: 5
+				to_observe: "megaparrot:megaparrot"
+			}]
+			rewards: [{
+				id: "4403EB7D2066DF31"
+				type: "item"
+				item: "minecraft:pumpkin_seeds"
+				count: 5
 			}]
 		}
 	]

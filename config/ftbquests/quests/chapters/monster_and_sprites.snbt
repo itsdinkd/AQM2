@@ -5,7 +5,140 @@
 	filename: "monster_and_sprites"
 	title: "Monster and Sprites"
 	icon: "minecraft:zombie_head"
+	subtitle: ["Everything Monsters"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			icon: "artifacts:mimic_spawn_egg"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Find these rare mimic chests and slay it for a artifact"
+			id: "0B98F4D11E033EDA"
+			tasks: [{
+				id: "67AEA01F07E5BB99"
+				type: "kill"
+				title: "Kill a Mimic"
+				icon: "artifacts:mimic_spawn_egg"
+				entity: "artifacts:mimic"
+				value: 1L
+			}]
+			rewards: [{
+				id: "62B7E93739FA08C8"
+				type: "item"
+				item: "gobber2:gobber2_glob"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.625d
+			subtitle: "Found in the nether at the Gladiator Arena"
+			hide_dependency_lines: true
+			dependencies: ["34F995C13D2E8ECB"]
+			size: 1.25d
+			id: "3D8C6E7D44891F51"
+			tasks: [{
+				id: "5248D61485902420"
+				type: "kill"
+				title: "Kill Gladiator [DIFFICULT]"
+				entity: "doom:gladiator"
+				value: 100L
+			}]
+		}
+		{
+			title: "Kill Arch Maykr"
+			x: -0.25d
+			y: 2.625d
+			subtitle: "Clear out those evil doom mobs in the end"
+			description: ["Visit the End, Find the Arch Maykr, and Slay this special mini bosss. This will stop Doom Mobs from spawning in the End"]
+			dependencies: ["3D8C6E7D44891F51"]
+			hide: true
+			size: 1.25d
+			id: "4FDF85B3FD6D691B"
+			tasks: [{
+				id: "56B533D691636624"
+				type: "kill"
+				title: "Kill Arch Makyr"
+				entity: "doom:arch_maykr"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "055291452BBF348D"
+					type: "item"
+					item: "doom:argent_energy"
+					count: 16
+				}
+				{
+					id: "238F38632A4D07E0"
+					type: "item"
+					item: "doom:jump_pad"
+				}
+			]
+		}
+		{
+			title: "Kill Mother Demon [END GAME]"
+			x: 1.1857142857142904d
+			y: 2.642857142857146d
+			subtitle: "Found in a structure in The Nether"
+			dependencies: ["4FDF85B3FD6D691B"]
+			hide: false
+			size: 1.75d
+			id: "5C3324C5094EA33B"
+			tasks: [{
+				id: "4026F62E588A5ED1"
+				type: "kill"
+				title: "Kill the Mother Demon"
+				entity: "doom:motherdemon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4645DBCAF93979C0"
+					type: "item"
+					item: "doom:jump_pad"
+				}
+				{
+					id: "6A4B13AB31CEAFB7"
+					type: "item"
+					item: {
+						id: "doom:shotgun"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "228B0D4B53CEEA56"
+					type: "item"
+					item: "doom:shotgun_shells"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Kill Icon Of Sin [END GAME]"
+			x: 3.0702380952380963d
+			y: 2.5437499999999886d
+			subtitle: "The last Doom Boss... you cant do it!"
+			description: ["Found in a structure in The Nether"]
+			dependencies: ["5C3324C5094EA33B"]
+			hide: true
+			size: 2.5d
+			id: "075E9ED31928FCFA"
+			tasks: [{
+				id: "6CAA179F4E796CB6"
+				type: "kill"
+				title: "Kill Icon of Sin"
+				entity: "doom:iconofsin"
+				value: 1L
+			}]
+			rewards: [{
+				id: "48C474F348CED4F5"
+				type: "item"
+				item: "tacocraft:cheesy_taco"
+			}]
+		}
+	]
 }

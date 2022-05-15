@@ -5,6 +5,7 @@
 	filename: "finders_keepers"
 	title: "Finders Keepers"
 	icon: "minecraft:filled_map"
+	subtitle: ["Loot?"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -266,6 +267,30 @@
 				id: "509AE711C4BB98FB"
 				type: "item"
 				item: "winged:wing_random"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			subtitle: "Find them throughout the world in chests"
+			description: ["They grant you permanent abilities while equipped"]
+			id: "5D16AA79E6DD1302"
+			tasks: [{
+				id: "6F5D75069CBA0975"
+				type: "item"
+				title: "The Artifacts"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "artifacts:artifacts"
+					}
+				}
+			}]
+			rewards: [{
+				id: "11BF3D57FACD3CBF"
+				type: "xp_levels"
+				xp_levels: 3
 			}]
 		}
 	]

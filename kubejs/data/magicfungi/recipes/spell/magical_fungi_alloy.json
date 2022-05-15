@@ -1,0 +1,31 @@
+{
+  "type": "magicfungi:spell_discovery",
+
+  "inputA" : {
+    "item": "gobber2:gobber2_ingot_end"
+  },
+  "inputB" : {
+    "item": "gobber2:gobber2_ingot_end"
+  },
+  "inputC" : {
+    "item": "magicfungi:morbus_essence"
+  },
+  "inputD" : {
+    "item": "magicfungi:clypeus_essence"
+  },
+  "inputE" : {
+    "item": "magicfungi:utilis_essence"
+  },
+  "inputF" : {
+    "item": "magicfungi:vivifica_essence"
+  },
+  "inputG" : {
+    "item": "gobber2:gobber2_ingot_end"
+  },
+  "inputH" : {
+    "item": "gobber2:gobber2_ingot_end"
+  },
+
+  "outputItem": "magicfungi:magical_fungi_alloy",
+  "outputAmount": "2"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "artifacts:night_vision_goggles"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:thorn_pendant"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "artifacts:fire_gauntlet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "artifacts:power_glove"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:universal_attractor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "artifacts:obsidian_skull"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "artifacts:artifact"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "artifacts:configurable_random_chance",
+          "default_probability": 0.115
+        }
+      ]
+    }
+  ]
+}

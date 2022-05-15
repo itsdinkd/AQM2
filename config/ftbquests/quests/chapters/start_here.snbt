@@ -137,20 +137,15 @@
 			}]
 			rewards: [
 				{
-					id: "26E53771ED42AFDE"
-					type: "item"
-					item: {
-						id: "minecraft:golden_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "44D3699AD14360A3"
 					type: "item"
 					item: "kubejs:aqm2"
+				}
+				{
+					id: "5304DDAC7BFDD6FC"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
 				}
 			]
 		}
@@ -296,8 +291,8 @@
 					Damage: 0
 				}
 			}
-			x: 4.5d
-			y: 1.5d
+			x: 13.5d
+			y: 2.5d
 			subtitle: "Seasons affect growth times"
 			description: [
 				""
@@ -305,6 +300,7 @@
 				""
 				"There are 28 days in a season"
 			]
+			secret: true
 			id: "2D6130744463AEC2"
 			tasks: [{
 				id: "45E5467A9F2B244C"
@@ -543,7 +539,7 @@
 			}]
 		}
 		{
-			title: "Chistel This, Chisel That"
+			title: "Chisel This, Chisel That"
 			x: 7.5d
 			y: 4.5d
 			subtitle: "We got Chisels.... and its a wonderful tool for a inchling."
@@ -583,6 +579,11 @@
 				id: "7F8FF314DE302FFF"
 				type: "item"
 				item: "dankstorage:dank_1"
+			}]
+			rewards: [{
+				id: "33B6A12454401D60"
+				type: "xp"
+				xp: 2
 			}]
 		}
 		{
@@ -709,7 +710,7 @@
 					id: "0CA63F10DD79246D"
 					type: "questsadditions:time"
 					title: "Tick Tock"
-					elapsedTime: 300L
+					elapsedTime: 360L
 				}
 			]
 			rewards: [{
@@ -853,6 +854,159 @@
 				id: "31E954436FEFA290"
 				type: "xp"
 				xp: 50
+			}]
+		}
+		{
+			title: "Wall Jumping"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			x: 9.5d
+			y: -0.5d
+			subtitle: "Yes, you can wall jump!"
+			description: [
+				"First, you need the enchantment. once placed on boots, change your keybind (otherwise its \"SHIFT\" by default, doesnt work. change it) "
+				"When you jump onto the wall, hold down your keybind. you will cling onto the wall. You can then hold space bar, and let go of the walljump keybind to jump from the wall. rinse and repeat."
+			]
+			id: "5D57BC2A763753F5"
+			tasks: [{
+				id: "29C461F65FCD919B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Vein Mining"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 4s
+					}]
+				}
+			}
+			x: 10.5d
+			y: -0.5d
+			subtitle: "Yes, you can vein mine!"
+			description: [
+				"To vein mine, you need to add the enchantment to your pickaxe. It is a treasure enchantment, however, it can also be purchased using a Dark Enchanting Table for a lot of XP."
+				""
+				"Once you have the enchantment, hold down the ` key to vein mine while mining. You can change this keybind. "
+			]
+			id: "0096C7D2617A84C8"
+			tasks: [{
+				id: "15318E711802697E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Weapon Thrower!"
+			icon: {
+				id: "betternether:nether_ruby_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "betternether:ruby_fire"
+						lvl: 1s
+					}]
+				}
+			}
+			x: 10.0d
+			y: 0.5d
+			subtitle: "You can throw weapons to hurt things"
+			description: [
+				"Default keybind is \"R\", you will most likely need to change this. Once held, you will wind up your throw. When you let go, you will throw it. longer you hold = further its thrown"
+				""
+				"You can deal good damage, cause concussions, and more. Let it be known the item will despawn after 30 seconds, so run to it if you want it back"
+			]
+			id: "068E00FB696E3111"
+			tasks: [{
+				id: "0B560C8D11F269EA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7C19F5D070F5C8D3"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Why are Vanilla Mobs Hard?"
+			x: 6.0d
+			y: 6.5d
+			subtitle: "What's going on?"
+			description: [
+				"By now you realized vanilla zombies run faster, creepers are charged and do not stop, and also several vanilla mobs are attacking villagers.."
+				""
+				"This is due to Totally Enough Pain, a mod that vamps up difficulty. Zombies have a chance to break doors, Ghasts have a larger explosion, and more. Good luck!"
+			]
+			secret: true
+			id: "504D27355350A1E6"
+			tasks: [
+				{
+					id: "45D00E0C0A7CD31D"
+					type: "kill"
+					icon: "mobz:fasthead"
+					entity: "minecraft:zombie"
+					value: 2L
+				}
+				{
+					id: "29BD4D497ABEF967"
+					type: "kill"
+					icon: "minecraft:creeper_head"
+					entity: "minecraft:creeper"
+					value: 2L
+				}
+			]
+		}
+		{
+			title: "Hookshots!"
+			x: 4.5d
+			y: 1.5d
+			subtitle: "Netherecssity"
+			description: [
+				"Stackable Upgrades using Smithing Table"
+				""
+				"- Aquatic Upgrade (Prismarine Shard) lets the hookshot glide through water"
+				"- Enderic Upgrade (Eye of Ender) teleports instead of pulls"
+				"- Quick Upgrade (Piston) speeds up the hook by 50%"
+				"- Long Upgrade (Chain) doubles the range"
+				"- Automatic Upgrade (Observer) automatically diconnects the hook"
+				"- Durability Upgrade (Obsidian) doubles the durability of the hookshot"
+				"- Bleed Upgrade (Arrow) causes bleeding on hooked entities"
+			]
+			id: "58FF21F45DC7C7AB"
+			tasks: [{
+				id: "4D4BF695DD418A68"
+				type: "item"
+				title: "Any #hookshot:hookshots"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hookshot:hookshots"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C7C8510B78C764C"
+				type: "item"
+				item: "minecraft:oak_sapling"
 			}]
 		}
 	]

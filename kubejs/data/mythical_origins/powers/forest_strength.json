@@ -1,0 +1,68 @@
+{
+    "name": "Forest Strength",
+    "description": "When in a forest, you gain resistance and strength.",
+    "condition": {
+        "type": "origins:biome",
+        "biomes": [
+                    "byg:aspen_forest",
+                    "byg:autumnal_forest",
+                    "byg:cherry_blossom_forest",
+                    "byg:cika_woods",
+                    "byg:coniferous_forest",
+                    "byg:forgotten_forest",
+                    "byg:fragment_forest",
+                    "byg:frosted_coniferous_forest",
+                    "byg:jacaranda_forest",
+                    "byg:red_oak_forest",
+                    "byg:redwood_thicket",
+                    "byg:shulkren_forest",
+                    "byg:temperate_rainforest",
+                    "byg:tropical_rainforest",
+                    "byg:twilight_meadow",
+                    "byg:weeping_witch_forest",
+                    "byg:zelkova_forest",
+                    "minecraft:birch_forest",
+                    "minecraft:dark_forest",
+                    "minecraft:flower_forest",
+                    "minecraft:forest",
+                    "minecraft:old_growth_birch_forest",
+                    "minecraft:snowy_taiga",
+                    "minecraft:windswept_forest",
+                    "terralith:alpha_islands",
+                    "terralith:alpha_islands_winter",
+                    "terralith:amethyst_rainforest",
+                    "terralith:cloud_forest",
+                    "terralith:forested_highlands",
+                    "terralith:lavender_forest",
+                    "terralith:moonlight_valley",
+                    "terralith:sakura_valley",
+                    "terralith:snowy_maple_forest",
+                    "terralith:wintry_forest",
+                    "the_aether:aether_highlands_forest",
+                    "the_aether:aether_highlands_thicket",
+                    "the_aether:aether_wisteria_woods",
+                    "terralith:blooming_valley"
+        ]
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:strength",
+                "duration": 100,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": true
+            },
+            {
+                "effect": "minecraft:resistance",
+                "duration": 100,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ]
+    }
+}

@@ -12,6 +12,8 @@ priority = "GRAVE"
 unlockableGraves = true
 deleteEnchantments = ["minecraft:vanishing_curse"]
 soulboundEnchantments = ["yigd:soulbound"]
+voidSlots = []
+soulboundSlots = []
 applyBindingCurse = true
 trySoft = true
 tryStrict = true
@@ -70,14 +72,19 @@ adaptRenderer = false
 glowingGrave = true
 glowMinDistance = 0
 glowMaxDistance = 14
-[utilitySettings]
-soulboundEnchant = true
-deathSightEnchant = false
-
+[utilitySettings.soulboundEnchant]
+enabled = true
+isTreasure = false
+villagerTrade = true
+tableAndLoot = false
+[utilitySettings.deathSightEnchant]
+enabled = false
+isTreasure = false
+villagerTrade = false
+tableAndLoot = false
 [utilitySettings.scrollItem]
 scrollType = "DISABLED"
 retrieveOnRespawn = true
-
 [utilitySettings.graveKeySettings]
 enableKeys = false
 alwaysRequire = false

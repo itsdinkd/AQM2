@@ -1,10 +1,10 @@
 {
   "isEnabled": true,
-  "triggerDistance": 32,
+  "triggerDistance": 10,
   "dropObsidian": true,
-  "fireResistanceSeconds": 30,
+  "fireResistanceSeconds": 0,
   "slowFallingSeconds": 5,
   "horizontalDistanceOffset": 128,
-  "targetDimension": "the_nether",
-  "transferPositionMode": "SIMILAR"
+  "targetDimension": "dimdoors:limbo",
+  "transferPositionMode": "SURFACE"
 }

@@ -1,0 +1,22 @@
+{
+    "name": "Overwhelming Heat",
+    "description": "The sun emits way too much heat, so you are weaker and slower underneath it.",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+        {
+            "attribute": "generic.movement_speed",
+            "operation": "addition",
+            "value": -0.024
+        },
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "addition",
+            "value": -0.2
+        }
+    ],
+    "tick_rate": 20,
+    "update_health": false
+}

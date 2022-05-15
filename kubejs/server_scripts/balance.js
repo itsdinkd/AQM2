@@ -620,14 +620,14 @@ event.remove({output:"dimdoors:gold_dimensional_door"})
  event.replaceInput(
  { id: "dimdoors:oak_dimensional_door" },
  "minecraft:ender_pearl",
- "conjuring:scope_charm"
+ "prefab:item_heap_of_timber"
  );
 
 //  dim doors - quartz
  event.replaceInput(
  { id: "dimdoors:quartz_dimensional_door" },
  "minecraft:ender_pearl",
- "gobber2:dragon_star"
+ "gobber2:gobber2_ingot_end"
  );
 
 // dim door blade
@@ -749,7 +749,7 @@ event.custom({
       "item": "gobber2:gobber2_rod_end"
     },
     {
-      "item": "gobber2:gobber2_rod_end"
+      "item": "artifacts:antidote_vessel"
     },
     {
       "item": "gobber2:gobber2_ring_end"

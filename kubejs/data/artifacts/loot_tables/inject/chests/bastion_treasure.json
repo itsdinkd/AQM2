@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 6,
+          "name": "artifacts:artifact"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "artifacts:golden_hook"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "artifacts:fire_gauntlet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "artifacts:steadfast_spikes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:panic_necklace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "artifacts:configurable_random_chance",
+          "default_probability": 0.33
+        }
+      ]
+    }
+  ]
+}

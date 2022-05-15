@@ -1,0 +1,15 @@
+{
+    "name": "Untrained",
+    "description": "You are untrained, so you have no idea how to use a shield in werewolf Mode.",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "mythical_origins:werewolf_activate"
+    },
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "c:shields"
+        }
+    }
+}

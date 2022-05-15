@@ -1,0 +1,11 @@
+{
+  "shoulderCreatureHudPosition": "NONE",
+  "notifyWhenLeashFallFromPlayer": true,
+  "receiveWanderingTraderSpawnBroadcasts": false,
+  "highlightEntitiesBlindnessTime": 40,
+  "allowHotKeyToOpenBoleHandbookScreen": false,
+  "blockAccidentalInjuryToPets": false,
+  "petsCanTeleportToMoreBlocks": false,
+  "forbidToSetNetherPortalCooldownOfOtherPlayers": true,
+  "broadcastWhenWanderingTraderSpawn": false
+}

@@ -5,7 +5,7 @@
 			"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}"
 		],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": "WHEN_CREATIVE",
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
@@ -85,7 +85,7 @@
 			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
 		},
 		"accessibility": {
-			"entrySize": 0.93,
+			"entrySize": 1.0,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
 			// Declares whether scrolled entry panel should snap to rows.

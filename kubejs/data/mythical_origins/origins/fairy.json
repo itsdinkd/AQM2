@@ -1,0 +1,13 @@
+{
+    "name": "Fairy",
+    "description": "An adorable, but dangrous little creature. It is small, and has tiny wings, but man is it scary.",
+    "powers": [
+    ],
+    "icon": {
+        "item": "minecraft:amethyst_shard"
+    },
+    "order": 10,
+    "impact": 3,
+    "loading_priority": 100,
+    "unchoosable": true
+}

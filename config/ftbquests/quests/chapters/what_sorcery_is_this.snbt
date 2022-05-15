@@ -11,7 +11,7 @@
 			arcanus: { }
 		}
 	}
-	subtitle: ["You're a Wizzard, harry"]
+	subtitle: ["You're a Wizard, harry"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

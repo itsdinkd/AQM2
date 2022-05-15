@@ -1,6 +1,6 @@
 {
     "name": "Combat inept",
-    "description": "You are not used to fighting an thus you deal less damage and weapons break quicker",
+    "description": "You are not used to fighting an thus you deal less damage (-30%)) and weapons break quicker",
     "type": "origins:multiple",
     "o___2": {
         "condition": {
@@ -12,7 +12,7 @@
         "type": "origins:modify_damage_dealt",
         "modifier": {
             "operation": "multiply_total",
-            "value": -0.25,
+            "value": -0.3,
             "name": "damage prevention"
         }
     },

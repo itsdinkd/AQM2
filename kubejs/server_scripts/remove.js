@@ -15,8 +15,10 @@ const arrRemove = [
 'botania:fel_pumpkin',
 'botania:flight_tiara_0',
 'botania:flight_tiara',
+'quarryplus:install_bedrock_module_quarry',
 'botania:laputa_shard',
 'botania:missile_rod',
+'artifacts:eternal_steak',
 'botania:smelt_rod',
 'botania:spawner_claw',
 'botania:super_lava_pendant',
@@ -155,6 +157,7 @@ const arrRemove = [
 'things:monocle',
 'things:moss_necklace',
 'valley:copper_nugget',
+'waystones:void_totem',
 'winged:heart_of_the_sky',
 'winged:wing_random',
 'winged:wing_random_creative_flight'
