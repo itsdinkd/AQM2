@@ -18,7 +18,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	"forceBYGEndBiomeSource": true,
 	// Biomes that spawn where the large end islands/surface generate.
 	"islandLayer": {
-		"biomeSize": 3,
+		"biomeSize": 4,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -67,98 +67,22 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 3
 			},
 			{
-				"data": "minecraft:the_end",
-				"weight": 2
-			},
-			{
 				"data": "minecraft:small_end_islands",
-				"weight": 2
-			},
-			{
-				"data": "betterend:foggy_mushroomland",
-				"weight": 2
-			},
-			{
-				"data": "betterend:chorus_forest",
-				"weight": 2
-			},
-			{
-				"data": "betterend:dust_wastelands",
-				"weight": 2
-			},
-			{
-				"data": "betterend:megalake",
-				"weight": 2
-			},
-			{
-				"data": "betterend:megalake_grove",
-				"weight": 2
-			},
-			{
-				"data": "betterend:crystal_mountains",
-				"weight": 2
-			},
-			{
-				"data": "betterend:painted_mountains",
-				"weight": 2
-			},
-			{
-				"data": "betterend:shadow_forest",
-				"weight": 2
-			},
-			{
-				"data": "betterend:amber_land",
-				"weight": 2
-			},
-			{
-				"data": "betterend:blossoming_spires",
-				"weight": 2
-			},
-			{
-				"data": "betterend:sulphur_springs",
-				"weight": 2
-			},
-			{
-				"data": "betterend:umbrella_jungle",
-				"weight": 2
-			},
-			{
-				"data": "betterend:glowing_grasslands",
-				"weight": 2
-			},
-			{
-				"data": "betterend:dragon_graveyards",
-				"weight": 2
-			},
-			{
-				"data": "betterend:dry_shrubland",
-				"weight": 2
-			},
-			{
-				"data": "betterend:lantern_woods",
-				"weight": 2
-			},
-			{
-				"data": "betterend:neon_oasis",
-				"weight": 2
-			},
-			{
-				"data": "betterend:umbra_valley",
-				"weight": 2
-			},
-			{
-				"data": "betterend:ice_starfield",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "byg:viscal_isles",
-				"weight": 2
+				"weight": 0
+			},
+			{
+				"data": "minecraft:the_end",
+				"weight": 0
 			}
 		]
 	},
 	// Biomes that spawn in the Y range of "skyLayerStartY to Dimension Max Y.
 	"skyLayer": {
-		"biomeSize": 2,
+		"biomeSize": 3,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   
@@ -179,7 +103,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	"skyLayerStartY": 180,
 	// Biomes that spawn where there is no ground aka void.
 	"voidLayer": {
-		"biomeSize": 2,
+		"biomeSize": 3,
 		/* Higher weight, means the biome in question is bound to spawn more frequently against all other biomes listed here.
 		   Weight of 0 means the biome is disabled.
 		   

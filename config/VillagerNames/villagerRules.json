@@ -9,7 +9,7 @@
   "turnOffVillagerConsoleSpam": true,
   "wanderingTraderNames": true,
   "wanderingTraderText": "DaddyDanked the Wanderer",
-  "surNames": true,
+  "surNames": false,
   "reverseLastNames": false,
   "nameTagNames": true,
   "piglinNames": true,

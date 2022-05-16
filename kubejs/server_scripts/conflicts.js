@@ -100,9 +100,8 @@ onEvent('recipes', event => {
   // lignite Coal
   event.remove({output: 'modern_industrialization:lignite_coal_block', type: 'minecraft:crafting_shapeless'})
   event.remove({output: 'modern_industrialization:lignite_coal_block', type: 'minecraft:crafting_shaped'})
-  event.shaped('modern_industrialization:lignite_coal_block', ['yxx', 'xxx', 'xxx'], {
-    x: '#c:lignite_coal',
-    y: 'modern_industrialization:lignite_coal'
+  event.shaped('modern_industrialization:lignite_coal_block', ['xxx', 'xxx', 'xxx'], {
+    x: 'byg:lignite'
   })
 
   // Silver

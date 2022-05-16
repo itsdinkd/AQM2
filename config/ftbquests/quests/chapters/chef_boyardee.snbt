@@ -374,11 +374,11 @@
 					id: "sandwichable:stone_kitchen_knife"
 					Count: 1b
 					tag: {
-						id: "itemfilters:tag"
+						Count: 1b
 						tag: {
 							value: "sandwichable:metal_items"
 						}
-						Count: 1b
+						id: "itemfilters:tag"
 						KnifeData: {
 							sharpness: 132
 							maxSharpness: 132

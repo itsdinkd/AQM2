@@ -3,9 +3,7 @@
         "lank:iron_golem",
         "lank:fairy",
         "lank:vamp",
-        "jump:platformer",
-        "sculksieg:sculkinfection",
-        "moarorigins:felvaxian",
+        "jump:platformer"
     ],
     "enabled": true
 }

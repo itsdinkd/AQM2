@@ -41,7 +41,7 @@
   //
   //TLDR: higher values means that this will DECREASE rarer enchantment's cost, while lower values will INCREASE the cost.
   //Default: 2.0
-  "weightDivisor": 1.5,
+  "weightDivisor": 1.535,
   //
   //Repairing any item will have its cost multiplied by this value.
   //Default: 1.0
@@ -221,19 +221,19 @@
     {
       "enchantmentId": "minecraft:fire_protection",
       "activated": false,
-      "personalFactor": 3.75,
+      "personalFactor": 4.212,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "minecraft:power",
       "activated": true,
-      "personalFactor": 2.5,
+      "personalFactor": 4.33,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "minecraft:efficiency",
       "activated": true,
-      "personalFactor": 3.85,
+      "personalFactor": 4.05,
       "personalReceiveFactor": 0.0
     },
     {
@@ -257,7 +257,7 @@
     {
       "enchantmentId": "minecraft:looting",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.978,
       "personalReceiveFactor": 0.0
     },
     {
@@ -269,13 +269,13 @@
     {
       "enchantmentId": "mcdw:exploding",
       "activated": true,
-      "personalFactor": 4.2,
+      "personalFactor": 4.4341,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:chains",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.76534,
       "personalReceiveFactor": 0.0
     },
     {
@@ -533,19 +533,19 @@
     {
       "enchantmentId": "yigd:soulbound",
       "activated": true,
-      "personalFactor": 3.99,
+      "personalFactor": 3.751,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcda:chilling",
       "activated": true,
-      "personalFactor": 4.0,
+      "personalFactor": 4.141,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "incantationem:reaping_rod",
       "activated": true,
-      "personalFactor": 3.3,
+      "personalFactor": 3.983,
       "personalReceiveFactor": 0.0
     },
     {
@@ -557,7 +557,7 @@
     {
       "enchantmentId": "incantationem:bunnys_hop",
       "activated": true,
-      "personalFactor": 3.0,
+      "personalFactor": 3.88,
       "personalReceiveFactor": 0.0
     },
     {
@@ -677,25 +677,25 @@
     {
       "enchantmentId": "mcda:reckless",
       "activated": true,
-      "personalFactor": 3.0,
+      "personalFactor": 3.3,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcda:recycler",
       "activated": true,
-      "personalFactor": 3.3,
+      "personalFactor": 3.4,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcda:snowball",
       "activated": true,
-      "personalFactor": 3.0,
+      "personalFactor": 3.2,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcda:surprise_gift",
       "activated": true,
-      "personalFactor": 2.95,
+      "personalFactor": 3.2312,
       "personalReceiveFactor": 0.0
     },
     {

@@ -14,7 +14,7 @@
                 "min": 2.0,
                 "max": 6.0
               },
-              "add": false,
+              "add": false
             }
           ],
           "name": "c:crops",

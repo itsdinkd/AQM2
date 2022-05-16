@@ -291,8 +291,8 @@
 					Damage: 0
 				}
 			}
-			x: 13.5d
-			y: 2.5d
+			x: 24.5d
+			y: 2.0d
 			subtitle: "Seasons affect growth times"
 			description: [
 				""
@@ -725,8 +725,8 @@
 				id: "botania:twig_wand"
 				Count: 1b
 				tag: {
-					color2: 3
 					color1: 3
+					color2: 3
 				}
 			}
 			x: -0.5d
@@ -742,8 +742,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 0
 						color1: 0
+						color2: 0
 					}
 				}
 				advancement: "arcanite:acolyte"
@@ -1007,6 +1007,189 @@
 				id: "2C7C8510B78C764C"
 				type: "item"
 				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			title: "Nomad Portable Camps"
+			icon: "nomadbooks:grass_page"
+			x: 10.0d
+			y: 5.0d
+			subtitle: "Think Yurts, but stored and deployed via Nomad Books, basic tier stores 3x1x3 "
+			description: [
+				"Grass Pages, which allow the player to craft and upgrade nomad books - can be found with a 50% chance in the loot chests of buried treasures, cartographer villagers, dungeons, jungle temples, mineshafts and pillager outposts."
+				""
+				"They can also be found in stronghold library chests in stacks of 0-3."
+				""
+				"Another way of obtaining grass pages is by dismantling Nomad Books in a crafting grid while the camp is deployed. For dismantling a Nomad Book the player will receive 3 grass pages for the book itself, 1 page per height upgrade and 2 pages per width upgrade as well as 1 page per special upgrade."
+			]
+			id: "63332BE64275DF9F"
+			tasks: [
+				{
+					id: "0754B7B5C0227DDF"
+					type: "item"
+					title: "Find 3 Grass Pages"
+					item: "nomadbooks:grass_page"
+					count: 3L
+				}
+				{
+					id: "3804112795691F62"
+					type: "item"
+					title: "Craft Nomad Book"
+					item: {
+						id: "nomadbooks:nomad_book"
+						Count: 1b
+						tag: {
+							nomadbooks: {
+								Structure: "nomadbooks:campfire3x1x3"
+								Height: 1
+								Width: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5525A5A6F2AD3C0B"
+				type: "item"
+				item: "givemehats:top_hat"
+			}]
+		}
+		{
+			title: "Upgrade Height Limit"
+			icon: {
+				id: "nomadbooks:nomad_page"
+				Count: 1b
+				tag: {
+					nomadbooks: { }
+				}
+			}
+			x: 9.5d
+			y: 6.0d
+			subtitle: "Must be undeployed (in a book) to upgrade height"
+			description: ["A book’s height can be upgraded by shapelessly combining it with grass pages in a crafting inventory. Despite there being no limit to the height of a camp, the higher it gets the more difficult the search for a good spot may be since not only space that is actually used must be emptied of obstacles."]
+			dependencies: ["63332BE64275DF9F"]
+			optional: true
+			id: "041C685E199A9CF6"
+			tasks: [{
+				id: "1E9CBF3FCE08FAFA"
+				type: "item"
+				item: {
+					id: "nomadbooks:nomad_book"
+					Count: 1b
+					tag: {
+						nomadbooks: {
+							Structure: "nomadbooks:campfire3x1x3"
+							Height: 1
+							Width: 3
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F6C050A219A819C"
+				type: "item"
+				item: "minecraft:grass"
+			}]
+		}
+		{
+			title: "Upgrade Width Limit"
+			x: 10.5d
+			y: 6.0d
+			subtitle: "Must be undeployed (stored in a book) to upgrade width"
+			description: [
+				"You need to add Itinerant Ink. Itinerant ink can be applied to a book by shapelessly combining it with a ghast tear, blue dye and charcoal."
+				""
+				"Upon application, a goal will be decided depending on the current width size. Progress towards this goal is made by visiting biomes that the book hasn’t been to yet. Note that it does not have to be a new kind of biome."
+			]
+			dependencies: ["63332BE64275DF9F"]
+			optional: true
+			id: "2BF2EB8628BEDA3D"
+			tasks: [{
+				id: "6BD22CFAF9E08889"
+				type: "item"
+				item: {
+					id: "nomadbooks:nomad_book"
+					Count: 1b
+					tag: {
+						nomadbooks: {
+							InkGoal: 8
+							Structure: "nomadbooks:campfire3x1x3"
+							Width: 3
+							Inked: 1b
+							Height: 2
+							InkProgress: 0
+							VisitedBiomes: ["Reference{ResourceKey[minecraft:worldgen/biome / minecraft:stony_shore]=net.minecraft.class_1959@164b5a09}"]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.0d
+			subtitle: "Underwater camp"
+			description: ["The Aquatic Membrane page adds a membrane to your camp that will stop fluids from entering but lets the player as well as other entities pass, opening up the possibility to place your camp underwater!"]
+			dependencies: ["223D6112E898633B"]
+			optional: true
+			id: "7AAD83DC940D8AF2"
+			tasks: [{
+				id: "2A446E71C234AFA3"
+				type: "item"
+				item: "nomadbooks:aquatic_membrane_page"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 9.0d
+			subtitle: "Camp on uneven terrain"
+			description: ["The Mycelium Page is a special page granting the Fungi Support upgrade. Fungi support allows the camp to be deployed on rough surfaces, as long as no obstacles interfere, by growing a special mushroom to fill up the missing floor blocks."]
+			dependencies: ["223D6112E898633B"]
+			optional: true
+			id: "53DA481A3711CCFF"
+			tasks: [{
+				id: "1767DC461DC52524"
+				type: "item"
+				item: "nomadbooks:mycelium_page"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 10.0d
+			subtitle: "Fire proof your camp"
+			description: ["By combining the Nomad Book with a netherite ingot in an usual crafting grid the dropped item won’t be destroyed in lava and instead swims up in it, similar to netherite ingots, tools and armour."]
+			dependencies: ["223D6112E898633B"]
+			optional: true
+			id: "782C06F0CBB96DDA"
+			tasks: [{
+				id: "6E4EF6FD006488EB"
+				type: "item"
+				item: {
+					id: "nomadbooks:nether_nomad_book"
+					Count: 1b
+					tag: {
+						nomadbooks: {
+							Width: 3
+							Height: 1
+							Structure: "nomadbooks:nethercampfire3x1x3"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Special Upgrades"
+			icon: "indrev:tier_upgrade_mk4"
+			x: 10.0d
+			y: 7.0d
+			subtitle: "How to add Special Upgrades"
+			description: ["Special upgrades are upgrades that only have to be applied once to a book and add special properties to itself or the camp. Upgrades are applied by combining the book with a specific item in a crafting grid. The items required per upgrade are listed after this quest."]
+			dependencies: ["63332BE64275DF9F"]
+			optional: true
+			id: "223D6112E898633B"
+			tasks: [{
+				id: "34E3D3570C979F83"
+				type: "checkmark"
+				title: "Okay!"
 			}]
 		}
 	]

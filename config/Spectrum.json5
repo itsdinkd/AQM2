@@ -5,15 +5,15 @@
 	   if the worldgen has lots of high mountains consider raising the TopazGeodeMinFixedGenerationHeight
 	*/
 	"CitrineGeodeMinAboveBottomGenerationHeight": 96,
-	"CitrineGeodeFixedMaxGenerationHeight": 60,
-	"TopazGeodeMinFixedGenerationHeight": 110,
+	"CitrineGeodeFixedMaxGenerationHeight": 55,
+	"TopazGeodeMinFixedGenerationHeight": 100,
 	"TopazGeodeMaxBelowTopGenerationHeight": 0,
 	// Every x chunks there is a chance for a geode to generate, Moonstone geodes do not spawn in the Overworld
-	"TopazGeodeChunkChance": 15,
-	"CitrineGeodeChunkChance": 40,
+	"TopazGeodeChunkChance": 10,
+	"CitrineGeodeChunkChance": 50,
 	"MoonstoneGeodeChunkChance": 35,
 	// The amount of colored tree patches to generate every X chunks
-	"ColoredTreePatchChanceChunk": 50,
+	"ColoredTreePatchChanceChunk": 75,
 	/* The chance that an Enderman is holding a special treasure block on spawn
 	   Separate value for Endermen spawning in the end, since there are LOTS of them there
 	   Those blocks do not gate progression, so it is not that drastic not finding any right away.
@@ -37,7 +37,7 @@
 	   By default, there is a 0.004 ^= 0.4 % chance at each of those check times. Making it ~1 shooting star spawn
 	   per night per player that unlocked the required progression.
 	*/
-	"ShootingStarChance": 0.004000999499112368,
+	"ShootingStarChance": 0.0036809993907809258,
 	// The biomes where the biome specific plants are growing
 	"MermaidsBrushGenerationBiomes": [
 		"minecraft:ocean",
@@ -104,7 +104,7 @@
 	// In vanilla, crits are a flat 50 % damage bonus. Improved Critical increases this damage by additional 50 % per level by default
 	"ImprovedCriticalExtraDamageMultiplierPerLevel": 0.15000000596046448,
 	// Flat additional damage dealt with each level of the First Strike enchantment
-	"FirstStrikeDamagePerLevel": 2.0,
+	"FirstStrikeDamagePerLevel": 1.5,
 	// The percentile a mobs armor/hand stacks are being dropped when hit with a Disarming enchanted weapon per the enchantments level
 	"DisarmingChancePerLevelMobs": 0.009999999776482582,
 	// If > 0 the Disarming Enchantment is able to remove armor and hand tools from a hit player. Should be a far smaller chance than for mobs
@@ -112,7 +112,7 @@
 	// The duration a glow ink sac gives night vision when wearing a glow vision helmet in seconds
 	"GlowVisionGogglesDuration": 15,
 	// By Default, Roughly Enough Items does not show recipes for items at all unless unlocked. Setting this value to true will show a 'recipe not unlocked yet' screen instead
-	"REIListsRecipesAsNotUnlocked": false,
+	"REIListsRecipesAsNotUnlocked": true,
 	/* If the player has Azure Dike Charges: Where should they be rendered on the screen. Default: Over the food bar
 	   Only touch those values if you have other mods that render GUI overlays!
 	*/

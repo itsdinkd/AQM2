@@ -8,8 +8,6 @@ JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mr
 to make editing this file much easier.
 */
 {
-	// Whether this file appends villager/wandering trader trades.
-	"enabled": true,
 	// Trades for a given villager profession. Trade levels are in the range of 1-5
 	"trades_by_profession": {
 		"agape_space:machinist": {
@@ -237,6 +235,20 @@ to make editing this file much easier.
 			"4": [],
 			"5": []
 		},
+		"minecraft:enderian": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"minecraft:engineer": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
 		"minecraft:farmer": {
 			"1": [
 				{
@@ -313,6 +325,20 @@ to make editing this file much easier.
 			"5": []
 		},
 		"minecraft:fletcher": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"minecraft:florist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"minecraft:hunter": {
 			"1": [],
 			"2": [],
 			"3": [],
@@ -437,6 +463,27 @@ to make editing this file much easier.
 			],
 			"5": []
 		},
+		"minecraft:miner": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"minecraft:netherian": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"minecraft:oceanographer": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
 		"minecraft:shepherd": {
 			"1": [],
 			"2": [],
@@ -457,8 +504,38 @@ to make editing this file much easier.
 			"3": [],
 			"4": [],
 			"5": []
+		},
+		"minecraft:wizard": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"minecraft:woodworker": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"phonos:technician": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"sandwichable:sandwich_maker": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
 		}
 	},
+	// Whether this file appends villager/wandering trader trades.
+	"visible": true,
 	// Trades for the wandering trader. Trades in "1" are "generic" trades. Trades appearing in "2" are "rare" trades.
 	"wandering_trader_trades": {
 		// Trades listed here are "generic" and a few(not only from these listed here but from other mods/vanilla also) are picked when a wandering trader spawns.

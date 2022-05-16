@@ -1193,6 +1193,14 @@ event.custom({
     ]
   })
 
+  event.remove({ id: "nomadbooks:craft_nomad_book"});
+  event.shaped("nomadbooks:nomad_book", ["ppp", " b ", " B "],
+  {
+    p: "nomadbooks:grass_page",
+    b: "minecraft:campfire",
+    B: "inmis:bejeweled_backpack"
+  });
+
 //quarryplus pickaxes
 event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'minecraft:netherite_pickaxe')
 //end

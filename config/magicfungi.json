@@ -23,10 +23,18 @@
   "cibusSpellHungerModifier": 9,
   //Saturation given by Cibus Spell.
   "cibusSpellSaturationModifier": 0.8,
+  //Tool durability for all Fungic Relics.
+  "relicDurability": 3046,
+  //Mining Speed for all Fungic Relics.
+  "relicMiningSpeed": 10.5,
+  //Impetus Sword's attack damage.
+  "impetusSwordAttackDamage": 18.5,
   //Utilis Pickaxe's haste effect duration in seconds.
   "utilisPickaxeEffectDuration": 4,
   //Utilis Pickaxe's haste effect strength. 0 = I, 1 = II, etc.
   "utilisPickaxeEffectStrength": 2,
+  //Morbus Scythe's attack damage.
+  "morbusScytheAttackDamage": 11.5,
   //Morbus Scythe's wither effect duration in seconds.
   "morbusScytheEffectDuration": 8,
   //Morbus Scythe's wither effect strength. 0 = I, 1 = II, etc.
@@ -80,5 +88,9 @@
   "morbusSpreadStartingDay": 100,
   //Enables the usage of the Maledictio Glyph and Heart of Morbus.
   //If you plan to use this mod on a public server, disable this to avoid griefing.
-  "canUseMorbusCorruptionItems": false
+  "canUseMorbusCorruptionItems": false,
+  //Whether part of Magic Fungi's content might be found on vanilla structures' chests.
+  "addModContentToChests": true,
+  //Whether trades including Magic Fungi's content will be available on certain types of Villagers and Wandering Traders.
+  "addModContentToTrades": true
 }
