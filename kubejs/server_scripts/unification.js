@@ -22,6 +22,7 @@ const PARTS = [
 const MATERIALS = [
     "aluminum",
     "bauxite",
+    "brass",
     "bronze",
     "chrome",
     "coal",
@@ -47,13 +48,16 @@ const MATERIALS = [
     "tin",
     "titanium",
     "tungsten",
-    "carbon"
+    "carbon",
+    "zinc"
 ];
 
 // Order of mods to unify
 const UNIFICATION_ORDER = [
     "techreborn",
     "modern_industrialization",
+    "create",
+    "createplus",
     "indrev",
     "mythicmetals",
     "gobber2",
@@ -69,7 +73,9 @@ const UNIFICATION_ORDER = [
 // List of tags NOT to unify
 const UNIFICATION_BLACKLIST = [
     "c:quartz_blocks",
-    "c:aluminum_ores"
+    "c:aluminum_ores",
+    "c:rubies",
+    "c:ruby_ores"
 ];
 // Map of removed item -> unified variant.
 const itemIdToUnified = {};

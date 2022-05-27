@@ -1,8 +1,7 @@
 {
-  "version": 6,
+  "version": 7,
   "GildedNetherite": false,
   "Wrench": true,
-  "AmethystLamp": false,
   "NoteBlockAmethystSounds": true,
   "EnchantmentPrecision": true,
   "EnchantmentSpeed": false,
@@ -15,7 +14,6 @@
   "Crossbows": true,
   "MusicDiscs": true,
   "RoseGold": true,
-  "Potions": true,
   "WateringCan": true,
   "CopperPatina": false,
   "Ropes": true,
@@ -36,5 +34,9 @@
     "duration": 5
   },
   "HastePotions": true,
-  "BundleRecipe": true
+  "BundleRecipe": true,
+  "AmethystLamp": {
+    "enabled": true,
+    "despawnChance": 0.5
+  }
 }

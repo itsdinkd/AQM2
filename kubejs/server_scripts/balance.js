@@ -56,6 +56,8 @@ event.remove({output: 'quarryplus:marker'})
 //   v: 'kibe:vacuum_hopper'
 // })
 
+event.replaceInput({id: 'modern_industrialization:armor/diesel_jetpack'}, 'modern_industrialization:aluminum_tank', 'techreborn:quantum_tank_unit')
+
 event.remove({ output: "prefab:item_starter_farm" });
 event.shaped("prefab:item_starter_farm", [
 ["minecraft:wheat_seeds","croptopia:corn_seed", "minecraft:wheat_seeds"],
@@ -147,6 +149,29 @@ event.shaped("gobber2:gobber2_ring_vision", [
 //  ['techreborn:nak_coolant_cell_360k','ae2:cell_component_64k','bosses_of_mass_destruction:earthdive_spear'],
 //  ]);
 
+  // Fabric Furnace - Furnaces
+  event.replaceInput({id: 'fabric-furnaces:end_furnace'}, 'minecraft:shulker_shell', 'minecraft:dragon_head')
+
+  event.remove({id: 'fabric-furnaces:ethereal_furnace'});
+  event.shaped('fabric-furnaces:ethereal_furnace', ["abc","def","g g"],
+  {
+    a: 'fabric-furnaces:end_furnace',
+    b: 'fabric-furnaces:nether_furnace',
+    c: 'fabric-furnaces:obsidian_furnace',
+    d: 'fabric-furnaces:gold_furnace',
+    e: 'fabric-furnaces:iron_furnace',
+    f: 'fabric-furnaces:fabric_furnace',
+    g: 'betterend:ender_shard'
+  })
+
+  // Travelers Backpack
+  event.remove({output: 'travelersbackpack:backpack_tank'});
+  event.shaped('travelersbackpack:backpack_tank', ['gig', ' g '],
+  {
+    g: 'fluidtank:tank_iron',
+    i: "mythicmetals:mythril_ingot"
+  })
+  event.replaceInput({id: 'travelersbackpack:backpack_tank'}, 'minecraft:glass', 'fluidtank:tank_iron')
   // Abyss Watcher
   event.remove({output: 'waystones:abyss_watcher'});
   event.custom({

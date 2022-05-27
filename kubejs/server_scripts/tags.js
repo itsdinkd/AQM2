@@ -107,6 +107,9 @@ onEvent('tags.items', event => {
 	event.remove('nourish:vegetables', "croptopia:beef_stew")
 	event.remove('nourish:vegetables', "croptopia:beef_stir_fry")
 
+	event.add('c:rubies', 'betternether:nether_ruby')
+	event.add('c:ruby_ores', 'betternether:nether_ruby_ore')
+
 	// alwaysSoulbound.forEach((item,index) => {
 	// 	event.add('yigd:soulbound_item', item)
 	// })

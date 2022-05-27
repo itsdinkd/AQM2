@@ -54,7 +54,7 @@ Biome selectors may be inlined or may call a file from "this_file_parent_directo
 	   All keys passed in must be valid in the biome registry!
 	   "minecraft:the_void" is invalid as it represents a value of "NULL(nothing)" internally.
 	*/
-	"ocean_biomes": "oceans/oceans_1",
+	"ocean_biomes": "oceans/oceans_vanilla",
 	/* Appearing on mountainous terrain & BELOW weirdness 0, here is the "peak_biomes" layout:
 	   
 	   [ ARID-ICY, DRY-ICY, NEUTRAL-ICY, WET-ICY, HUMID-ICY ],

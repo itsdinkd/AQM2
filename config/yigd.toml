@@ -16,13 +16,13 @@ voidSlots = []
 soulboundSlots = []
 applyBindingCurse = true
 trySoft = true
-tryStrict = true
-replaceWhenClaimed = true
+tryStrict = false
+replaceWhenClaimed = false
 blacklistDimensions = []
 graveInVoid = true
 ignoreDeathTypes = []
 graveSpawnHeight = 2
-lastResort = "DROP_ITEMS"
+lastResort = "SET_GRAVE"
 putXpInGrave = true
 defaultXpDrop = false
 xpDropPercent = 80
@@ -52,16 +52,16 @@ lossRangeTo = 5
 percentChanceOfLoss = 100
 
 [graveSettings.blockUnderGrave]
-generateBlockUnder = true
+generateBlockUnder = false
 inOverWorld = "minecraft:cobblestone"
 inNether = "minecraft:soul_soil"
 inTheEnd = "minecraft:end_stone"
 inCustom = "minecraft:dirt"
 
 [graveSettings.graveCompatConfig]
-levelzXpInGraves = true
+levelzXpInGraves = false
 levelzXpDropPercent = 100
-claimRuleOverride = "CREATE_GRAVE"
+claimRuleOverride = "KEEP_ITEMS"
 
 [graveSettings.graveRenderSettings]
 useRenderFeatures = true
@@ -83,7 +83,7 @@ isTreasure = false
 villagerTrade = false
 tableAndLoot = false
 [utilitySettings.scrollItem]
-scrollType = "DISABLED"
+scrollType = "INFO_SCROLL"
 retrieveOnRespawn = true
 [utilitySettings.graveKeySettings]
 enableKeys = false

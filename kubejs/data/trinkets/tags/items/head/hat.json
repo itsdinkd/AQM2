@@ -18,7 +18,6 @@
     "givemehats:woolrus_hat",
     "givemehats:tater_hat",
     "givemehats:golem_bucket",
-    "givemehats:jojo_hat",
     "givemehats:wolf_ears",
     "givemehats:witch_hat",
     "givemehats:hippie_vibes",
@@ -33,6 +32,8 @@
     "artifacts:plastic_drinking_hat",
     "artifacts:novelty_drinking_hat",
     "artifacts:superstitious_hat",
+    "artifacts:snorkel",
+    "artifacts:night_vision_goggles",
     "artifacts:whoopee_cushion"
   ]
 }

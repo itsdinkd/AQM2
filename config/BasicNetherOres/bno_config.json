@@ -40,7 +40,7 @@
     },
     "leadPerChunk": {
       "comment": "Set Lead Spawn Chance (Default: 8)",
-      "value": 6
+      "value": 5
     }
   },
   "coalOre": {
@@ -98,7 +98,7 @@
     },
     "aluminumGeneration": {
       "comment": "Generate Aluminum Ore",
-      "value": true
+      "value": false
     },
     "aluminumMinHeight": {
       "comment": "Set Aluminum Min Spawn Height (Default: 75)",
@@ -150,7 +150,7 @@
     },
     "tinGeneration": {
       "comment": "Generate Tin Ore",
-      "value": false
+      "value": true
     }
   },
   "osmiumOre": {

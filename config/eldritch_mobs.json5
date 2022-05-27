@@ -12,9 +12,9 @@
 	// Out of 100 Mobs
 	"EliteSpawnRates": 1.1,
 	// Out of 100 Elites
-	"UltraSpawnRates": 1.05,
+	"UltraSpawnRates": 1.2,
 	// Out of 100 Ultras
-	"EldritchSpawnRates": 1.0,
+	"EldritchSpawnRates": 1.1,
 	"healthIncrease": false,
 	"healthMult": true,
 	// Number of extra hearts for Elite Mobs

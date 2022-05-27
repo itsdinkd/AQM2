@@ -220,13 +220,13 @@
     "CourierBirdSpawnSettings": {
       "shouldSpawn": true,
       "spawnDebug": false,
-      "spawnWeight": 10,
-      "spawnRandomChance": 100,
+      "spawnWeight": 7,
+      "spawnRandomChance": 80,
       "chunkFreq": 0,
       "chunkOffset": 0,
       "spawnType": "overworld",
       "minSpawnGroupSize": 1,
-      "maxSpawnGroupSize": 3
+      "maxSpawnGroupSize": 2
     },
     "DireWolfSpawnSettings": {
       "shouldSpawn": true,
@@ -237,12 +237,12 @@
       "chunkOffset": 0,
       "spawnType": "overworld",
       "minSpawnGroupSize": 2,
-      "maxSpawnGroupSize": 4
+      "maxSpawnGroupSize": 3
     },
     "DragonSpawnSettings": {
       "shouldSpawn": true,
       "spawnDebug": false,
-      "spawnWeight": 1,
+      "spawnWeight": 2,
       "spawnRandomChance": 35,
       "chunkFreq": 5,
       "chunkOffset": 0,
@@ -292,7 +292,7 @@
     "NetherBatSpawnSettings": {
       "shouldSpawn": true,
       "spawnDebug": false,
-      "spawnWeight": 20,
+      "spawnWeight": 12,
       "spawnRandomChance": 95,
       "chunkFreq": 5,
       "chunkOffset": 0,
@@ -304,13 +304,13 @@
     "NudibranchSpawnSettings": {
       "shouldSpawn": true,
       "spawnDebug": false,
-      "spawnWeight": 15,
-      "spawnRandomChance": 75,
+      "spawnWeight": 7,
+      "spawnRandomChance": 50,
       "chunkFreq": 0,
       "chunkOffset": 0,
       "spawnType": "water",
       "minSpawnGroupSize": 1,
-      "maxSpawnGroupSize": 3
+      "maxSpawnGroupSize": 2
     },
     "RidingLizardSpawnSettings": {
       "shouldSpawn": true,
@@ -361,12 +361,12 @@
     "ColelytraSpawnSettings": {
       "shouldSpawn": true,
       "spawnDebug": false,
-      "spawnWeight": 10,
-      "spawnRandomChance": 100,
+      "spawnWeight": 5,
+      "spawnRandomChance": 90,
       "chunkFreq": 0,
       "chunkOffset": 0,
       "spawnType": "overworld",
-      "minSpawnGroupSize": 3,
+      "minSpawnGroupSize": 2,
       "maxSpawnGroupSize": 3
     },
     "FirebirdSpawnSettings": {
@@ -387,7 +387,7 @@
   "mobConfig": {
     "ACENCIA": {
       "health": 32,
-      "speed": 0.44999998807907104,
+      "speed": 0.42999998807907104,
       "attack": 10,
       "inventorySize": 4,
       "spawnCategory": "AcenciaSpawnSettings",
@@ -481,7 +481,7 @@
     },
     "DIREWOLF": {
       "health": 40,
-      "speed": 0.44999998807907104,
+      "speed": 0.43599998807907104,
       "attack": 8,
       "inventorySize": 4,
       "spawnCategory": "DireWolfSpawnSettings",
@@ -515,7 +515,7 @@
     },
     "DRAGON": {
       "health": 90,
-      "speed": 0.44999998807907104,
+      "speed": 0.43999998807907104,
       "attack": 14,
       "inventorySize": 9,
       "spawnCategory": "DragonSpawnSettings",
@@ -546,7 +546,7 @@
     },
     "GRIFFON": {
       "health": 50,
-      "speed": 0.42999998807907104,
+      "speed": 0.41999998807907104,
       "attack": 7,
       "inventorySize": 4,
       "spawnCategory": "GriffonSpawnSettings",
@@ -582,7 +582,7 @@
     },
     "GECKOTOA": {
       "health": 40,
-      "speed": 0.42999998807907104,
+      "speed": 0.41999998807907104,
       "attack": 5,
       "inventorySize": 9,
       "spawnCategory": "GeckotoaSpawnSettings",
@@ -648,7 +648,7 @@
     },
     "NETHER_BAT": {
       "health": 30,
-      "speed": 0.41999998807907104,
+      "speed": 0.40999998807907104,
       "attack": 6,
       "inventorySize": 3,
       "spawnCategory": "NetherBatSpawnSettings",
@@ -678,7 +678,7 @@
     },
     "NUDIBRANCH": {
       "health": 32,
-      "speed": 0.43999998807907104,
+      "speed": 0.40599998807907104,
       "attack": 3,
       "inventorySize": 3,
       "spawnCategory": "NudibranchSpawnSettings",
@@ -712,7 +712,7 @@
     },
     "RIDING_LIZARD": {
       "health": 26,
-      "speed": 0.42999998807907104,
+      "speed": 0.42555998807907104,
       "attack": 5,
       "inventorySize": 4,
       "spawnCategory": "RidingLizardSpawnSettings",
@@ -746,7 +746,7 @@
     },
     "NIGHTMARE": {
       "health": 50,
-      "speed": 0.44999998807907104,
+      "speed": 0.42999998807907104,
       "attack": 6,
       "inventorySize": 8,
       "spawnCategory": "NightmareSpawnSettings",
@@ -786,7 +786,7 @@
     },
     "COLELYTRA": {
       "health": 14,
-      "speed": 0.44999998807907104,
+      "speed": 0.41999998807907104,
       "attack": 2,
       "inventorySize": 5,
       "spawnCategory": "ColelytraSpawnSettings",
@@ -814,7 +814,7 @@
     },
     "FIREBIRD": {
       "health": 20,
-      "speed": 0.44999998807907104,
+      "speed": 0.41999998807907104,
       "attack": 3,
       "inventorySize": 3,
       "spawnCategory": "FirebirdSpawnSettings",

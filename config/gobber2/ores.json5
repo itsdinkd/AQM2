@@ -61,7 +61,7 @@
 	*/
 	"gobberVeinSize": 3,
 	"gobberMaxLevel": 40,
-	"gobberPerChunk": 9,
+	"gobberPerChunk": 15,
 	/* 
 	   
 	   ***********************
@@ -77,16 +77,16 @@
 	   Nether Gobber Ore
 	   ***********************
 	*/
-	"netherGobberVeinSize": 4,
+	"netherGobberVeinSize": 3,
 	"netherGobberMaxLevel": 60,
-	"netherGobberPerChunk": 7,
+	"netherGobberPerChunk": 13,
 	/* 
 	   
 	   ***********************
 	   End Gobber Ore
 	   ***********************
 	*/
-	"endGobberVeinSize": 5,
+	"endGobberVeinSize": 3,
 	"endGobberMaxLevel": 100,
-	"endGobberPerChunk": 6
+	"endGobberPerChunk": 11
 }

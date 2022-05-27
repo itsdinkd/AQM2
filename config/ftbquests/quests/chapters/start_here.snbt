@@ -725,8 +725,8 @@
 				id: "botania:twig_wand"
 				Count: 1b
 				tag: {
-					color1: 3
 					color2: 3
+					color1: 3
 				}
 			}
 			x: -0.5d
@@ -742,8 +742,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color1: 0
 						color2: 0
+						color1: 0
 					}
 				}
 				advancement: "arcanite:acolyte"
@@ -1041,8 +1041,8 @@
 						tag: {
 							nomadbooks: {
 								Structure: "nomadbooks:campfire3x1x3"
-								Height: 1
 								Width: 3
+								Height: 1
 							}
 						}
 					}
@@ -1079,8 +1079,8 @@
 					tag: {
 						nomadbooks: {
 							Structure: "nomadbooks:campfire3x1x3"
-							Height: 1
 							Width: 3
+							Height: 1
 						}
 					}
 				}
@@ -1113,10 +1113,10 @@
 					tag: {
 						nomadbooks: {
 							InkGoal: 8
-							Structure: "nomadbooks:campfire3x1x3"
 							Width: 3
-							Inked: 1b
+							Structure: "nomadbooks:campfire3x1x3"
 							Height: 2
+							Inked: 1b
 							InkProgress: 0
 							VisitedBiomes: ["Reference{ResourceKey[minecraft:worldgen/biome / minecraft:stony_shore]=net.minecraft.class_1959@164b5a09}"]
 						}
@@ -1169,8 +1169,8 @@
 					tag: {
 						nomadbooks: {
 							Width: 3
-							Height: 1
 							Structure: "nomadbooks:nethercampfire3x1x3"
+							Height: 1
 						}
 					}
 				}
@@ -1191,6 +1191,61 @@
 				type: "checkmark"
 				title: "Okay!"
 			}]
+		}
+		{
+			title: "Recipe Confliction?"
+			x: 10.0d
+			y: 2.6785714285714306d
+			subtitle: "Read Me!"
+			description: [
+				"If you are using a vanilla crafting table/furnace/or any other vanilla station, Polymorph will not take effect, which allows you to choose which output item in your recipe"
+				""
+				"Use \"Improved Stations\" stations for crafting as it works with Polymorph, and also holds items left in its screen."
+			]
+			size: 2.0d
+			id: "2B70D65FA38D567F"
+			tasks: [
+				{
+					id: "0479D7C1254370A6"
+					type: "item"
+					item: "improved-stations:crafting_station"
+				}
+				{
+					id: "2003430231FEEE77"
+					type: "item"
+					item: "improved-stations:crafting_station_slab"
+				}
+				{
+					id: "0F3CF7AEFB82194F"
+					type: "item"
+					item: "improved-stations:furnace_slab"
+				}
+				{
+					id: "11EAE1A528D7427D"
+					type: "item"
+					item: "improved-stations:smoker_slab"
+				}
+				{
+					id: "09505F6CE83C4A7C"
+					type: "item"
+					item: "improved-stations:blast_furnace_slab"
+				}
+				{
+					id: "62E3582D70EEF1B7"
+					type: "item"
+					item: "improved-stations:jukebox_slab"
+				}
+				{
+					id: "4108D21F9E8B7A15"
+					type: "item"
+					item: "improved-stations:loom_slab"
+				}
+				{
+					id: "2CCDD673B11FA39B"
+					type: "item"
+					item: "improved-stations:cartography_table_slab"
+				}
+			]
 		}
 	]
 }

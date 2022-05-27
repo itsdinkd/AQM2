@@ -1,14 +1,14 @@
 // Another Quality Modpack 2          //
 ////////////////////////////////////////
 
-onEvent('recipes', event => {
-
 const MiningDimBlocks = [
-'mining_dims:caving_portal_block',
-'mining_dims:climbing_portal_block',
-'mining_dims:hunting_portal_block',
-'mining_dims:mining_portal_block',
-];
+  'mining_dims:caving_portal_block',
+  'mining_dims:climbing_portal_block',
+  'mining_dims:hunting_portal_block',
+  'mining_dims:mining_portal_block',
+  ];
+
+onEvent('recipes', event => {
 
 MiningDimBlocks.forEach(function(item,i) {
   event.remove({ output: item});
@@ -42,4 +42,11 @@ event.shaped("mining_dims:mining_portal_block", ["1  ", " 2 ", "  3"],
     3: "gobber2:gobber2_globette"
 });
 //end
+})
+
+onEvent('block.loot_tables', event => {
+
+  MiningDimBlocks.forEach(function(item,i) {
+    event.addSimpleBlock(item);
+  })  
 })

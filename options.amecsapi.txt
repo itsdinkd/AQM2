@@ -36,11 +36,11 @@ key_modifiers_key.big_items_duh.toggle_zoom:0,0,1
 key_modifiers_key.big_items_duh.hold_zoom:0,0,0
 key_modifiers_key.dynamicfps.toggle_forced:0,0,0
 key_modifiers_key.dynamicfps.toggle_disabled:0,0,0
+key_modifiers_key.ellemes_container_lib.config:0,0,0
 key_modifiers_key.emotecraft.fastchoose:0,0,0
 key_modifiers_key.emotecraft.stop:0,0,0
 key_modifiers_Reload Menu | CTRL + ALT + :0,0,0
 key_modifiers_Toggle Customization Overlay | CTRL + ALT + :0,0,0
-key_modifiers_key.expandedstorage.config:0,0,0
 key_modifiers_key.wi_zoom.zoom:0,0,0
 key_modifiers_key.adventurez.activatearmor:0,0,0
 key_modifiers_key.adventurez.dragonflydown:0,0,0
@@ -86,13 +86,15 @@ key_modifiers_key.craftingtweaks.decompressAll:0,0,0
 key_modifiers_key.craftingtweaks.refill_last:0,0,0
 key_modifiers_key.craftingtweaks.refill_last_stack:0,0,0
 key_modifiers_key.crawl:0,0,0
+key_modifiers_create.keyinfo.toolmenu:0,0,0
+key_modifiers_create.keyinfo.toolbelt:0,0,0
 key_modifiers_key.dankstorage.construction:0,0,0
 key_modifiers_key.dankstorage.lock_slot:0,0,0
 key_modifiers_key.dankstorage.pickup_mode:0,0,0
-key_modifiers_key.craftpresence.config_keycode.name:0,0,0
 key_modifiers_key.deathlog.death_screen:0,0,0
 key_modifiers_key.dml-refabricated.teleport:0,0,0
 key_modifiers_key.dml-refabricated.soul_vision:0,0,0
+key_modifiers_key.craftpresence.config_keycode.name:0,0,0
 key_modifiers_key.doom.reload:0,0,0
 key_modifiers_key.doom.yeethook:0,0,0
 key_modifiers_key.entityculling.toggle:0,0,0
@@ -135,6 +137,8 @@ key_modifiers_key.things.openenderchest:0,0,0
 key_modifiers_key.trashslot.toggle:0,0,0
 key_modifiers_key.trashslot.delete:0,0,0
 key_modifiers_key.trashslot.deleteAll:0,0,0
+key_modifiers_key.travelersbackpack.inventory:0,0,0
+key_modifiers_key.travelersbackpack.cycle_tool:0,0,0
 key_modifiers_key.veinmining.activate.desc:0,0,0
 key_modifiers_key.walljump.walljump:0,0,0
 key_modifiers_key.weaponthrow:0,0,0
@@ -167,6 +171,7 @@ key_modifiers_gui.xaero_open_settings:0,0,0
 key_modifiers_gui.xaero_map_zoom_in:0,0,0
 key_modifiers_gui.xaero_map_zoom_out:0,0,0
 key_modifiers_gui.xaero_quick_confirm:0,0,0
+key_modifiers_gui.xaero_wm_toggle_minimap_radar:0,0,0
 key_modifiers_iris.keybind.reload:0,0,0
 key_modifiers_iris.keybind.toggleShaders:0,0,0
 key_modifiers_iris.keybind.shaderPackSelection:0,0,0

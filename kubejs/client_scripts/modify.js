@@ -7,7 +7,6 @@ var aqmClientRemove = [
 'advanced_reborn:dynamite',
 'advanced_reborn:forge_hammer',
 'advanced_reborn:freq_trans',
-'advanced_reborn:ray_generator',
 'advanced_reborn:ray_generator_10',
 'advanced_reborn:ray_generator_2',
 'advanced_reborn:ray_generator_3',
@@ -17,13 +16,14 @@ var aqmClientRemove = [
 'advanced_reborn:ray_generator_7',
 'advanced_reborn:ray_generator_8',
 'advanced_reborn:ray_generator_9',
+'advanced_reborn:ray_generator',
 'advanced_reborn:sticky_dynamite',
 'advanced_reborn:teleporter',
-'artifacts:eternal_steak',
-'artifacts:villager_hat',
-'artifacts:cross_necklace',
-'artifacts:scarf_of_invisibility',
 'agape_space:enhanced_helmet',
+'artifacts:cross_necklace',
+'artifacts:eternal_steak',
+'artifacts:scarf_of_invisibility',
+'artifacts:villager_hat',
 'bewitchment:prickly_belt',
 'bewitchment:specter_bangle',
 'bno:copper_nugget',
@@ -32,7 +32,6 @@ var aqmClientRemove = [
 'botania:cocoon',
 'botania:diving_rod',
 'botania:fel_pumpkin',
-'botania:flight_tiara',
 'botania:flight_tiara_0',
 'botania:flight_tiara_1',
 'botania:flight_tiara_2',
@@ -42,6 +41,7 @@ var aqmClientRemove = [
 'botania:flight_tiara_6',
 'botania:flight_tiara_7',
 'botania:flight_tiara_8',
+'botania:flight_tiara',
 'botania:laputa_shard',
 'botania:missile_rod',
 'botania:smelt_rod',
@@ -51,9 +51,11 @@ var aqmClientRemove = [
 'botania:tornado_rod',
 'botania:water_ring',
 'buildinggadgets:gadget_exchanging',
-'darkutils:damage_plate',
+'coxinhautilities:diamond_coxinha',
+'coxinhautilities:golden_coxinha',
 'darkutils:damage_plate_maim',
 'darkutils:damage_plate_player',
+'darkutils:damage_plate',
 'darkutils:darkness_plate',
 'darkutils:fatigue_plate',
 'darkutils:flame_plate',
@@ -65,6 +67,7 @@ var aqmClientRemove = [
 'darkutils:slowness_plate',
 'darkutils:weakness_plate',
 'darkutils:wither_plate',
+'dimdoors:gold_dimensional_door',
 'doom:daisy',
 'doom:invisiblesphere',
 'doom:soulcube',
@@ -134,8 +137,8 @@ var aqmClientRemove = [
 'modern_industrialization:quantum_leggings',
 'modern_industrialization:quantum_sword',
 'modern_industrialization:replicator',
-'myloot:loot_chest',
 'myloot:loot_chest_minecart',
+'myloot:loot_chest',
 'myloot:loot_shulker_box',
 'myloot:opened_loot_chest',
 'mythicmetals:bronze_axe', 
@@ -159,31 +162,30 @@ var aqmClientRemove = [
 'prefab:item_swift_blade_steel',
 'prefab:item_swift_blade_stone',
 'prefab:item_swift_blade_wood',
-'biomemakeover:altar',
 'quarryplus:adv_quarry',
 'quarryplus:flex_marker',
 'quarryplus:marker16',
 'quarryplus:remove_bedrock_module',
 'quarryplus:waterlogged_flex_marker',
 'quarryplus:waterlogged_marker16',
-'resourceful_tools:crack_hammer',
 'resourceful_tools:crack_hammer_copper',
+'resourceful_tools:crack_hammer',
+'spectrum:ashen_circlet',
 'spectrum:block_flooder',
 'spectrum:emergency_boots',
-'spectrum:ashen_circlet',
 'spectrum:emergency_chestplate',
 'spectrum:emergency_helmet',
 'spectrum:emergency_leggings',
+'spectrum:ender_splice',
 'spectrum:exchange_staff',
 'spectrum:multitool',
 'spectrum:voiding_pickaxe',
-'spectrum:ender_splice',
 'techreborn:chunk_loader',
+'techreborn:deepslate_ruby_ore',
 'techreborn:nuke',
+'techreborn:ruby_gem',
+'techreborn:ruby_ore',
 'techreborn:steel_boots', 
-'coxinhautilities:diamond_coxinha',
-'coxinhautilities:golden_coxinha',
-'dimdoors:gold_dimensional_door',
 'techreborn:steel_chestplate', 
 'techreborn:steel_helmet', 
 'techreborn:steel_leggings', 
@@ -191,10 +193,10 @@ var aqmClientRemove = [
 'things:monocle',
 'things:moss_necklace',
 'valley:copper_nugget',
-'winged:heart_of_the_sky',
 'waystones:void_totem',
 'winged:heart_of_the_sky_25',
 'winged:heart_of_the_sky_50',
+'winged:heart_of_the_sky',
 'winged:heart_of_the_sky_75'
 ];
 
@@ -257,26 +259,26 @@ var k_g = ['mk1','mk2','mk3','mk4','mk5',];var kcg = 'kibe:cobblestone_generator
   });
 
   // remove duplicate armors/tools/weapons
-  // var nullGear = [
-  // 'pickaxe',
-  // 'sword',
-  // 'axe',
-  // 'shovel',
-  // 'hoe',
-  // 'helmet',
-  // 'chestplate',
-  // 'leggings',
-  // 'boots'
-  // ];
+  var nullGear = [
+   'pickaxe',
+   'sword',
+   'axe',
+   'shovel',
+   'hoe',
+   'helmet',
+   'chestplate',
+   'leggings',
+   'boots'
+   ];
 
-  // nullGear.forEach(function(item, index) {
-  //   event.hide('indrev:bronze_' + item);
+  nullGear.forEach(function(item, index) {
+    event.hide('techreborn:ruby_' + item);
   //   event.hide('indrev:silver_' + item);
   //   event.hide('indrev:steel_' + item);
   //   event.hide('indrev:copper_' + item);
   //   event.hide('techreborn:bronze_' + item);
   //   event.hide('techreborn:ruby_' + item);
-  // })
+  })
 
   // event.hide('crookedcrooks:ir_bronze_crook');
 

@@ -29,7 +29,7 @@
 		[worldgen.v2.zinc_ore]
 			# 
 			#Range: > -64
-			minHeight = -63
+			minHeight = 0
 			# 
 			#Range: > -64
 			maxHeight = 70
@@ -42,7 +42,7 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 8.0
+			frequency = 0
 
 		[worldgen.v2.striated_ores_nether]
 			# 

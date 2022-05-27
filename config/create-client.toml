@@ -6,7 +6,7 @@
 	#Choose the menu row that the Create config button appears on in the main menu
 	#Set to 0 to disable the button altogether
 	#Range: 0 ~ 4
-	mainMenuConfigButtonRow = 2
+	mainMenuConfigButtonRow = 0
 	# 
 	#Choose the menu row that the Create config button appears on in the in-game menu
 	#Set to 0 to disable the button altogether
@@ -35,7 +35,7 @@
 	filterItemRenderDistance = 10.0
 	# 
 	#Show colourful debug information while the F3-Menu is open.
-	enableRainbowDebug = true
+	enableRainbowDebug = false
 	# 
 	#Vertical offset for the Toolbox Hotbar overlay.
 	#Range: > -2147483648

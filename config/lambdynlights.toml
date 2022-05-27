@@ -149,6 +149,7 @@
 				icegolem = true
 				blackbear = true
 				boar2 = true
+				stonegolem = true
 
 			[light_sources.settings.entities.whisperwoods]
 				moth = true
@@ -286,6 +287,10 @@
 				cave_creeper = true
 				dripstone_creeper = true
 				savannah_creeper = true
+				beach_creeper = true
+				hills_creeper = true
+				dark_oak_creeper = true
+				bamboo_creeper = true
 
 			[light_sources.settings.entities.biomemakeover]
 				moth = true
@@ -329,4 +334,10 @@
 
 			[light_sources.settings.entities.dimdoors]
 				monolith = true
+
+			[light_sources.settings.entities.usefulutilities]
+				turtle_boat = true
+
+			[light_sources.settings.entities.besmirchment]
+				werepyre = true
 

@@ -41,19 +41,19 @@
       "name": "emerald",
       "speedModifier": 8.0,
       "fuelModifier": 8.0,
-      "duplicationChance": 33
+      "duplicationChance": 0
     },
     {
       "name": "end",
       "speedModifier": 12.0,
       "fuelModifier": 10.0,
-      "duplicationChance": 66
+      "duplicationChance": 1
     },
     {
       "name": "ethereal",
       "speedModifier": 32.0,
       "fuelModifier": 16.0,
-      "duplicationChance": 100
+      "duplicationChance": 2
     }
   ]
 }

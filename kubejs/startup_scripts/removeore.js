@@ -11,7 +11,13 @@ event => {
       'indrev:deepslate_tungsten_ore', 
       'techreborn:deepslate_ruby_ore',
       'techreborn:ruby_ore',
-      'blockus:viridite'
+      'blockus:viridite',
+      'byg:lignite_ore',
+      'expandeddelight:salt_ore',
+      'expandeddelight:deepslate_salt_ore',
+      'croptopia:salt_ore',
+      'valley:salt_ore',
+      'valley:nether_salt_ore'
       ]
   })
 });
