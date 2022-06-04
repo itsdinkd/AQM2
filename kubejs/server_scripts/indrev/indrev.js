@@ -58,9 +58,9 @@ indrevArmor.forEach(function(item,i) {
     a: 'indrev:enriched_nikolite_ingot',
     d: 'indrev:netherite_drill_head',
     c: 'indrev:circuit_mk4',
-    l: 'techreborn:lead_plate',
+    l: 'techreborn:tungstensteel_plate',
     b: 'better_batpack:batpack16',
-    u: "modern_industrialization:turbo_upgrade"
+    u: 'modern_industrialization:turbo_upgrade'
   })
 
   event.remove({id: 'indrev:shaped/mining_drill_mk3'});
@@ -69,9 +69,9 @@ indrevArmor.forEach(function(item,i) {
     a: 'indrev:enriched_nikolite_dust',
     d: 'indrev:diamond_drill_head',
     c: 'indrev:circuit_mk3',
-    l: 'techreborn:electrum_plate',
+    l: 'techreborn:hot_tungstensteel_ingot',
     b: 'better_batpack:batpack4',
-    u: "modern_industrialization:advanced_upgrade"
+    u: 'modern_industrialization:advanced_upgrade'
   })
 
   event.remove({id: 'indrev:shaped/mining_drill_mk2'});
@@ -80,9 +80,9 @@ indrevArmor.forEach(function(item,i) {
     a: 'indrev:nikolite_ingot',
     d: 'indrev:iron_drill_head',
     c: 'indrev:circuit_mk2',
-    l: 'techreborn:silver_plate',
+    l: 'techreborn:electrum_plate',
     b: 'indrev:battery',
-    u: "modern_industrialization:turbo_upgrade"
+    u: 'modern_industrialization:turbo_upgrade'
   })
 
   event.remove({id: 'indrev:shaped/mining_drill_mk1'});
@@ -93,7 +93,7 @@ indrevArmor.forEach(function(item,i) {
     c: 'indrev:circuit_mk1',
     l: 'techreborn:bronze_plate',
     b: 'indrev:battery',
-    u: "modern_industrialization:large_motor"
+    u: 'modern_industrialization:large_motor'
   })
 
   event.replaceInput({

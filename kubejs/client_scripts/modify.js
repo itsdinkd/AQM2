@@ -282,4 +282,16 @@ var k_g = ['mk1','mk2','mk3','mk4','mk5',];var kcg = 'kibe:cobblestone_generator
 
   // event.hide('crookedcrooks:ir_bronze_crook');
 
+  const tanksRemRei =[
+    "stone",
+    "bronze",
+    "silver",
+    "lead",
+    "tin"
+  ];
+  
+  tanksRemRei.forEach(function(item,i) {
+    event.hide("fluidtank:tank_" + item)
+  })
+
 })

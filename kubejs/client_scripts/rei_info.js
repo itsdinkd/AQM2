@@ -57,3 +57,10 @@ onEvent('rei.information', event => {
     event.add('croparia:greenhouse_' + item, 'WARNING', ['You will crash and corrupt chunk if you use this on modded crops'])
   });
 });
+
+onEvent('rei.hide.items', event => { 
+  event.hide("croparia:greenhouse")
+  greenhouseColors.forEach(function(item,index) {
+    event.hide(item)
+  })
+})

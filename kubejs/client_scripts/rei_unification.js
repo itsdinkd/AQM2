@@ -29,6 +29,9 @@ const DELETED_ITEMS = [
  "bno:nickel_block",
  "bno:nickel_ingot",
  "bno:nickel_nugget",
+ "modern_industrialization:diamond_plate",
+ "modern_industrialization:copper_plate",
+ "modern_industrialization:emerald_plate",
  "bno:osmium_block",
  "bno:osmium_ingot",
  "bno:osmium_nugget",
@@ -284,6 +287,7 @@ const DELETED_ITEMS = [
  "valley:salt",
  "valley:tomato",
  "valley:raw_bacon",
+ "createdeco:zinc_sheet",
  "veggie_way:dough"
  ];
 onEvent("rei.hide.items", event => {

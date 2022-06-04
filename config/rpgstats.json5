@@ -55,6 +55,9 @@
 		// Minimum level before you start getting HP (Exclusive)
 		"afterLevel": 10
 	},
+	"melee": { 
+		"attackDamagePerLevel": 0.08
+	},
 	// If these damage types should grant defense XP when blocked
 	"damageBlacklist": { 
 		"inFire": false,

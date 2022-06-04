@@ -62,6 +62,8 @@ inCustom = "minecraft:dirt"
 levelzXpInGraves = false
 levelzXpDropPercent = 100
 claimRuleOverride = "KEEP_ITEMS"
+prioritiseTheGraveyardGraves = false
+graveyardSearchRadius = 10
 
 [graveSettings.graveRenderSettings]
 useRenderFeatures = true

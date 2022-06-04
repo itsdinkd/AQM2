@@ -124,6 +124,10 @@ const arrRemove = [
 'modern_industrialization:quantum_leggings',
 'modern_industrialization:quantum_sword',
 'modern_industrialization:replicator',
+'modern_industrialization:diamond_plate',
+'modern_industrialization:diamond_plate',
+'modern_industrialization:copper_plate',
+'modern_industrialization:emerald_plate',
 'myloot:loot_chest',
 'myloot:loot_chest_minecart',
 'myloot:loot_shulker_box',
@@ -171,13 +175,40 @@ const arrRemove = [
 'waystones:void_totem',
 'winged:heart_of_the_sky',
 'winged:wing_random',
-'winged:wing_random_creative_flight'
+'winged:wing_random_creative_flight',
+'createdeco:zinc_sheet'
+];
+
+const greenhouseColorsRemove =[
+  "white",
+  "magenta",
+  "orange",
+  "light_blue",
+  "yellow",
+  "green",
+  "pink",
+  "gray",
+  "lime",
+  "blue",
+  "light_gray",
+  "cyan",
+  "purple",
+  "brown",
+  "red",
+  "black"
 ];
 
 onEvent('recipes', event => {
+
+  greenhouseColorsRemove.forEach(function(item,index) {
+    event.remove({output: "croparia:greenhouse_" + item})
+  });
+  event.remove({output:"croparia:greenhouse"})
+
   arrRemove.forEach(function(item, index) {
     event.remove({output: item})
   });
+
   event.remove({input: "valley:tomato_crate"})
   // Remove Create XP Recipe and Zinc workaround
   event.remove({input: "create:experience_nugget"})

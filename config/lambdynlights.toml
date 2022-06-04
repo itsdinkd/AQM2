@@ -82,6 +82,18 @@
 				area_effect_cloud = true
 				horse = true
 				llama = true
+				blaze = true
+				end_crystal = true
+				ender_dragon = true
+				endermite = true
+				evoker_fangs = true
+				eye_of_ender = true
+				falling_block = true
+				ghast = true
+				giant = true
+				goat = true
+				hoglin = true
+				illusioner = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				badger = true
@@ -234,6 +246,7 @@
 				gladiator = true
 				shotgun_shell = true
 				bullets = true
+				motherdemon = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false
@@ -340,4 +353,7 @@
 
 			[light_sources.settings.entities.besmirchment]
 				werepyre = true
+
+			[light_sources.settings.entities.ratsmischief]
+				rat = true
 

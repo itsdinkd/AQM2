@@ -1,17 +1,17 @@
 {
-  "minGroupSize": 2,
-  "maxGroupSize": 4,
+  "minGroupSize": 1,
+  "maxGroupSize": 2,
   "spawnStuff": {
     "jungle": true,
-    "spawnWeightA": 24,
+    "spawnWeightA": 5,
     "taiga": true,
-    "spawnWeightB": 6,
+    "spawnWeightB": 5,
     "desert": true,
-    "spawnWeightC": 4,
+    "spawnWeightC": 5,
     "plains": true,
-    "spawnWeightD": 6,
+    "spawnWeightD": 5,
     "mesa": true,
-    "spawnWeightE": 6,
+    "spawnWeightE": 5,
     "icy": true,
     "spawnWeightF": 4
   }

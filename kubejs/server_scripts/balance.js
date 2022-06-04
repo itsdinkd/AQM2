@@ -164,14 +164,6 @@ event.shaped("gobber2:gobber2_ring_vision", [
     g: 'betterend:ender_shard'
   })
 
-  // Travelers Backpack
-  event.remove({output: 'travelersbackpack:backpack_tank'});
-  event.shaped('travelersbackpack:backpack_tank', ['gig', ' g '],
-  {
-    g: 'fluidtank:tank_iron',
-    i: "mythicmetals:mythril_ingot"
-  })
-  event.replaceInput({id: 'travelersbackpack:backpack_tank'}, 'minecraft:glass', 'fluidtank:tank_iron')
   // Abyss Watcher
   event.remove({output: 'waystones:abyss_watcher'});
   event.custom({
@@ -911,36 +903,70 @@ event.shaped("16x minecraft:stick", [
 ]);
 
 // Tanks
-event.replaceInput(
-  { id: "fluidtank:tank_copper" },
-  "minecraft:copper_ingot",
-  "techreborn:copper_plate"
-);
-event.replaceInput(
-  { id: "fluidtank:tank_iron" },
-  "minecraft:iron_ingot",
-  "techreborn:refined_iron_plate"
-);
-event.replaceInput(
-  { id: "fluidtank:tank_diamond" },
-  "minecraft:diamond",
-  "techreborn:diamond_plate"
-);
-event.replaceInput(
-  { id: "fluidtank:tank_emerald" },
-  "minecraft:emerald",
-  "techreborn:emerald_plate"
-);
-event.replaceInput(
-  { id: "fluidtank:tank_star" },
-  "minecraft:nether_star",
-  "techreborn:industrial_tank_unit"
-);
-event.replaceInput(
-  { id: "fluidtank:tank_gold" },
-  "minecraft:gold_ingot",
-  "techreborn:gold_plate"
-);
+
+const tanksRem =[
+  "stone",
+  "copper",
+  "iron",
+  "gold",
+  "diamond",
+  "emerald",
+  "star",
+  "bronze",
+  "silver",
+  "lead",
+  "tin"
+];
+
+tanksRem.forEach(function(item,index) {
+  event.remove({output: "fluidtank:tank_" + item})
+});
+
+event.shaped("fluidtank:tank_stone", ["iti", "tit", "iti"],
+{
+  i: "#minecraft:stone_bricks",
+  t: "fluidtank:tank_wood"
+})
+
+event.shaped("fluidtank:tank_copper", ["iti", "tit", "iti"],
+{
+  i: "techreborn:copper_plate",
+  t: "fluidtank:tank_stone"
+})
+
+
+event.shaped("fluidtank:tank_iron", ["iti", "tit", "iti"],
+{
+  i: "create:iron_sheet",
+  t: "fluidtank:tank_copper"
+})
+
+
+event.shaped("fluidtank:tank_gold", ["iti", "tit", "iti"],
+{
+  i: "techreborn:gold_plate",
+  t: "fluidtank:tank_iron"
+})
+
+
+event.shaped("fluidtank:tank_diamond", ["iti", "tit", "iti"],
+{
+  i: "techreborn:diamond_plate",
+  t: "fluidtank:tank_gold"
+})
+
+
+event.shaped("fluidtank:tank_emerald", ["iti", "tit", "iti"],
+{
+  i: "techreborn:emerald_plate",
+  t: "fluidtank:tank_diamond"
+})
+
+event.shaped("fluidtank:tank_star", ["iti", "tit", "iti"],
+{
+  i: "techreborn:industrial_tank_unit",
+  t: "fluidtank:tank_emerald"
+})
 
 event.remove({ output: "things:enchanted_wax_gland" });
 event.custom({
@@ -1227,6 +1253,16 @@ event.custom({
   });
 
 //quarryplus pickaxes
-event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'minecraft:netherite_pickaxe')
+event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'gobber2:gobber2_pickaxe_nether')
 //end
+
+
+  // Travelers Backpack
+  event.remove({output: 'travelersbackpack:backpack_tank'});
+  event.shaped('travelersbackpack:backpack_tank', ['gig', ' g '],
+  {
+    g: 'fluidtank:tank_copper',
+    i: "mythicmetals:mythril_ingot"
+  })
+
 })
