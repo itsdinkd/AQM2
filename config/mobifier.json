@@ -19,66 +19,234 @@
         }
       }
     ],
+    "twilightforest:minoshroom": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.5",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1.3",
+          "minecraft:generic.armor": "+5",
+          "minecraft:generic.attack_damage": "*3",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "+0.25",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*2.15",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:lich": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*2",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1.3",
+          "minecraft:generic.armor": "+10",
+          "minecraft:generic.attack_damage": "*4",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1.1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "+0.3",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*6",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:ur_ghast": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*2.5",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1.15",
+          "minecraft:generic.armor": "+5",
+          "minecraft:generic.attack_damage": "*2.2",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1.099999",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "+0.5",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*4.5",
+          "minecraft:generic.movement_speed": "*1.175"
+        }
+      }
+    ],
+    "twilightforest:carminite_ghastling": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.5",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*2",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*2.5",
+          "minecraft:generic.movement_speed": "*1.025"
+        }
+      }
+    ],
+    "twilightforest:carminite_ghastguard": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.5",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*2",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.movement_speed": "*1.025"
+        }
+      }
+    ],
+    "twilightforest:carminite_golem": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.5",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "+0.5",
+          "minecraft:generic.armor": "+4",
+          "minecraft:generic.attack_damage": "+4",
+          "minecraft:generic.attack_knockback": "*1.05",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "+20",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
     "botania:ender_air": [
       {
         "conditions_to_apply": [],
         "xp_modifier": "*1",
         "attribute_modifier": {
-          "minecraft:generic.attack_speed": "*1",
-          "dml-refabricated:teleport": "*1",
-          "dml-refabricated:resistance": "*1",
-          "additionalentityattributes:lava_speed": "*1",
-          "tiered:generic.range_attack_damage": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.knockback_resistance": "*1",
-          "dml-refabricated:feather_falling": "*1",
-          "tiered:generic.durable": "*1",
-          "dml-refabricated:zombie_friendly": "*1",
           "additionalentityattributes:critical_bonus_damage": "*1",
-          "dml-refabricated:depth_strider": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "arcanus:casting_multiplier": "*1",
-          "tiered:generic.crit_chance": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "stepheightentityattribute:stepheight": "*1",
-          "dml-refabricated:skeleton_friendly": "*1",
-          "additionalentityattributes:water_visibility": "*1",
-          "reach-entity-attributes:attack_range": "*1",
-          "arcanus:mana_regen": "*1",
-          "dml-refabricated:unrotten_flesh": "*1",
-          "additionalentityattributes:water_speed": "*1",
-          "dml-refabricated:fall_immunity": "*1",
+          "additionalentityattributes:lava_speed": "*1",
           "additionalentityattributes:lava_visibility": "*1",
-          "dml-refabricated:fire_immunity": "*1",
+          "additionalentityattributes:water_speed": "*1",
+          "additionalentityattributes:water_visibility": "*1",
+          "arcanus:burnout_regen": "*1",
+          "arcanus:casting_multiplier": "*1",
           "arcanus:mana_lock": "*1",
-          "dml-refabricated:plenty": "*1",
-          "dml-refabricated:night_vision": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.luck": "*1",
-          "botania:pixie_spawn_chance": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "dml-refabricated:endermen_proof_vision": "*1",
-          "tiered:generic.dig_speed": "*1",
+          "arcanus:mana_regen": "*1",
           "betterend:generic.blindness_resistance": "*1",
-          "dml-refabricated:jump_boost": "*1",
-          "dml-refabricated:fly": "*1",
-          "dml-refabricated:poseidon_bless": "*1",
-          "dml-refabricated:underwater_haste": "*1",
-          "minecraft:zombie.spawn_reinforcements": "*1",
+          "botania:pixie_spawn_chance": "*1",
+          "dml-refabricated:archery": "*1",
+          "dml-refabricated:auto_extinguish": "*1",
+          "dml-refabricated:depth_strider": "*1",
+          "dml-refabricated:endermen_proof_vision": "*1",
+          "dml-refabricated:fall_immunity": "*1",
+          "dml-refabricated:feather_falling": "*1",
+          "dml-refabricated:fire_immunity": "*1",
           "dml-refabricated:fire_protection": "*1",
-          "dml-refabricated:shulker_friendly": "*1",
-          "reach-entity-attributes:reach": "*1",
-          "dml-refabricated:water_breathing": "*1",
-          "minecraft:generic.armor": "*1",
+          "dml-refabricated:fly": "*1",
+          "dml-refabricated:jump_boost": "*1",
+          "dml-refabricated:night_vision": "*1",
           "dml-refabricated:piglin_truce": "*1",
+          "dml-refabricated:plenty": "*1",
+          "dml-refabricated:poseidon_bless": "*1",
+          "dml-refabricated:resistance": "*1",
+          "dml-refabricated:rot_resistance": "*1",
+          "dml-refabricated:shulker_friendly": "*1",
+          "dml-refabricated:skeleton_friendly": "*1",
           "dml-refabricated:soul_vision": "*1",
+          "dml-refabricated:teleport": "*1",
+          "dml-refabricated:underwater_haste": "*1",
           "dml-refabricated:undying": "*1",
+          "dml-refabricated:unrotten_flesh": "*1",
+          "dml-refabricated:water_breathing": "*1",
+          "dml-refabricated:zombie_friendly": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*1",
           "minecraft:generic.movement_speed": "*1",
           "minecraft:horse.jump_strength": "*1",
-          "dml-refabricated:archery": "*1",
-          "dml-refabricated:rot_resistance": "*1",
-          "dml-refabricated:auto_extinguish": "*1",
-          "arcanus:burnout_regen": "*1",
+          "minecraft:zombie.spawn_reinforcements": "*1",
+          "reach-entity-attributes:attack_range": "*1",
+          "reach-entity-attributes:reach": "*1",
+          "stepheightentityattribute:stepheight": "*1",
+          "tiered:generic.crit_chance": "*1",
+          "tiered:generic.dig_speed": "*1",
+          "tiered:generic.durable": "*1",
+          "tiered:generic.range_attack_damage": "*1",
           "minecraft:generic.flying_speed": "*1"
         }
       }

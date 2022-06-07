@@ -725,8 +725,8 @@
 				id: "botania:twig_wand"
 				Count: 1b
 				tag: {
-					color2: 3
 					color1: 3
+					color2: 3
 				}
 			}
 			x: -0.5d
@@ -742,8 +742,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 0
 						color1: 0
+						color2: 0
 					}
 				}
 				advancement: "arcanite:acolyte"
@@ -1041,8 +1041,8 @@
 						tag: {
 							nomadbooks: {
 								Structure: "nomadbooks:campfire3x1x3"
-								Width: 3
 								Height: 1
+								Width: 3
 							}
 						}
 					}
@@ -1079,8 +1079,8 @@
 					tag: {
 						nomadbooks: {
 							Structure: "nomadbooks:campfire3x1x3"
-							Width: 3
 							Height: 1
+							Width: 3
 						}
 					}
 				}
@@ -1113,10 +1113,10 @@
 					tag: {
 						nomadbooks: {
 							InkGoal: 8
-							Width: 3
 							Structure: "nomadbooks:campfire3x1x3"
-							Height: 2
+							Width: 3
 							Inked: 1b
+							Height: 2
 							InkProgress: 0
 							VisitedBiomes: ["Reference{ResourceKey[minecraft:worldgen/biome / minecraft:stony_shore]=net.minecraft.class_1959@164b5a09}"]
 						}
@@ -1169,8 +1169,8 @@
 					tag: {
 						nomadbooks: {
 							Width: 3
-							Structure: "nomadbooks:nethercampfire3x1x3"
 							Height: 1
+							Structure: "nomadbooks:nethercampfire3x1x3"
 						}
 					}
 				}

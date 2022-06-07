@@ -232,6 +232,7 @@
 				raven = true
 				owl = true
 				werewolf = true
+				toad = true
 
 			[light_sources.settings.entities.valley]
 				perch = false
@@ -247,6 +248,7 @@
 				shotgun_shell = true
 				bullets = true
 				motherdemon = true
+				tentacle = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false

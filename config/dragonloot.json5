@@ -9,5 +9,6 @@
 	"dragon_armor_protection_boots": 8,
 	"dragon_armor_durability_multiplier": 90,
 	"dragon_item_durability_multiplier": 65,
-	"dragon_item_base_damage": 8.0
+	"dragon_item_base_damage": 8.0,
+	"dragon_anvil_no_cap": true
 }

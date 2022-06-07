@@ -38,6 +38,7 @@
   "replaceAnyBlock": true,
   "maxPlacementDistance": 8,
   "useRealTime": false,
+  "useAlternativeXPEntity": true,
   "createFromPvP": true,
   "createFromVoid": true,
   "createFromCommandDeaths": true,
@@ -72,6 +73,7 @@
     "<gold><lang:'text.graves.grave_of':'<white>${player}'>",
     "<yellow>${death_cause}"
   ],
+  "clickGraveToOpenGui": true,
   "guiTitle": "<lang:'text.graves.gui_title':'${player}'>",
   "guiProtectedText": [
     "${position} <gray>(${world})",
@@ -107,8 +109,11 @@
   "minutesText": "m",
   "secondsText": "s",
   "infinityText": "∞",
+  "fullDateFormat": "dd.MM.yyyy, HH:mm",
   "worldNameOverrides": {},
   "blacklistedWorlds": [],
+  "blacklistedAreas": {},
+  "blacklistedDamageSources": [],
   "tryDetectionSoulbound": false,
   "skippedEnchantments": [
     "soulbound:soulbound"

@@ -12,5 +12,19 @@
   "_c6": "Enables Polymer dev tools on non-development server",
   "enableDevUtils": false,
   "_c7": "Displays vanilla/modded creatives tabs in /polymer creative",
-  "displayNonPolymerCreativeTabs": true
+  "displayNonPolymerCreativeTabs": true,
+  "_c8": "Toggles pre-play stage Polymer handshake. It's recommended to leave it to true",
+  "handleHandshakeEarly": true,
+  "_c9": "Makes server send additional block updates around clicked area",
+  "sendBlocksAroundClicked": true,
+  "_c10a": "If you have too many BlockStates, this packets likes to break. This toggle allows you to disable",
+  "_c10b": "and replace it with multiple regular block update ones.",
+  "_c10c": "See this issue if you are curious: https://github.com/ConsistencyPlus/ConsistencyPlus/issues/108",
+  "disableChunkDeltaUpdatePacket": false,
+  "_c11": "Makes polymer report time it's handshake took",
+  "logHandshakeTime": false,
+  "_c12": "Enables logging of BlockState ids rebuilds",
+  "logBlockStateRebuilds": true,
+  "_cm1": "Enables compatibility with REI mod",
+  "reiCompatibility": true
 }

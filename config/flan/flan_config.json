@@ -28,7 +28,7 @@
   ],
   "worldWhitelist": false,
   "claimingItem": "minecraft:golden_hoe",
-  "inspectionItem": "kubejs:aqm2",
+  "inspectionItem": "minecraft:stick",
   "claimDisplayTime": 1300,
   "permissionLevel": 2,
   "buySellHandler": {

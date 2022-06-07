@@ -84,3 +84,9 @@ config/byg/backups/last_working_configs_backup.zip
 resourcepacks/Copper Legacy Pack.zip
 options.amecsapi.txt
 .mixin.out/class/net/minecraft/class_636.class
+.mixin.out/class/net/minecraft/class_3242$1.class
+.vscode/probe.code-snippets
+fancymenu_data/last_world.fmdata
+hs_err_pid34680.log
+config/polymer/client.json
+*.fmdata

@@ -11,8 +11,7 @@ const arrRemove = [
 'valley:tomato_crate',
 'botania:balance_cloak',
 'botania:blood_pendant',
-'create:mechanical_plough',
-'create:deployer',
+'create:extendo_grip',
 'botania:cocoon',
 'botania:diving_rod',
 'botania:fel_pumpkin',
@@ -222,7 +221,7 @@ onEvent('recipes', event => {
     event.remove({output: "doom:argent_" + item});
   });
 
-
+  event.remove({output:"twilightforest:uncrafting_table"})
   // Remove Kibe Generators due to ticking entity crashes
   var kibe_gen = [
     "mk1",

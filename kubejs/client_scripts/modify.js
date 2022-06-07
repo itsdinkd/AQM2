@@ -190,6 +190,7 @@ var aqmClientRemove = [
 'techreborn:steel_helmet', 
 'techreborn:steel_leggings', 
 'things:hades_crystal',
+'create:extendo_grip',
 'things:monocle',
 'things:moss_necklace',
 'valley:copper_nugget',

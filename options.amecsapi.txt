@@ -94,9 +94,9 @@ key_modifiers_key.dankstorage.pickup_mode:0,0,0
 key_modifiers_key.deathlog.death_screen:0,0,0
 key_modifiers_key.dml-refabricated.teleport:0,0,0
 key_modifiers_key.dml-refabricated.soul_vision:0,0,0
+key_modifiers_key.craftpresence.config_keycode.name:0,0,0
 key_modifiers_key.doom.reload:0,0,0
 key_modifiers_key.doom.yeethook:0,0,0
-key_modifiers_key.craftpresence.config_keycode.name:0,0,0
 key_modifiers_key.entityculling.toggle:0,0,0
 key_modifiers_Show comparison tooltip:0,0,0
 key_modifiers_key.origins.ternary_active:0,0,0
@@ -124,7 +124,6 @@ key_modifiers_key.lightoverlay.enable_overlay:0,0,0
 key_modifiers_key.mcda.firetrail.toggle:0,0,0
 key_modifiers_key.modern_industrialization.activate:0,0,0
 key_modifiers_key.mtmechs.primary:0,0,0
-key_modifiers_nimble.keybind.frontView:0,0,0
 key_modifiers_key.origins.primary_active:0,0,0
 key_modifiers_key.origins.secondary_active:0,0,0
 key_modifiers_key.origins.view_origin:0,0,0

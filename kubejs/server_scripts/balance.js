@@ -902,6 +902,7 @@ event.shaped("16x minecraft:stick", [
   ["#minecraft:logs"],
 ]);
 
+
 // Tanks
 
 const tanksRem =[
@@ -1156,6 +1157,42 @@ event.custom({
     }
     ]
   });
+
+  event.remove({output:"things:arm_extender"})
+  event.custom({
+      "type": "create:mechanical_crafting",
+      "pattern": [
+          " L ",
+          " R ",
+          "ASA",
+          " G ",
+          " H "
+      ],
+      "key": {
+          "L": {
+              "tag": "c:ingots/fiery"
+          },
+          "R": {
+              "item": "things:gleaming_compound"
+          },
+          "H": {
+              "item": "create:brass_hand"
+          },
+          "A": {
+              "item": "earth:pertilyo_rod"
+          },
+          "S": {
+            "item": "lightestlamp:xenon_rod"
+          },
+          "G": {
+            "item": "bosses_of_mass_destruction:ancient_anima"
+        }
+      },
+      "result": {
+          "item": "things:arm_extender"
+      },
+      "acceptMirrored": false
+  })
 
 event.remove({output:"things:hardening_catalyst"})
 event.custom({

@@ -119,5 +119,27 @@
 				item: "the_aether:rose_wisteria_sapling"
 			}]
 		}
+		{
+			title: "Twilight Forest Portal"
+			x: -6.0d
+			y: 2.0d
+			subtitle: "Build a Portal"
+			description: [
+				"To create the portal you must first make a 2x2 hole and fill it with water source blocks. You must then place flowers, mushrooms, etc. completely around the hole. You must then throw in a diamond and this will cause lightning to strike the water and turn it into a 2x2 portal."
+				""
+				"Questline coming soon..."
+			]
+			id: "15F270FB81C26443"
+			tasks: [{
+				id: "370E3F058C98F0CD"
+				type: "item"
+				item: "twilightforest:twilight_portal_miniature_structure"
+			}]
+			rewards: [{
+				id: "42C517FEC23C9857"
+				type: "item"
+				item: "twilightforest:music_disc_motion"
+			}]
+		}
 	]
 }
