@@ -1,0 +1,13 @@
+{
+    "name": "Elf",
+    "description": "A small, magical creature, that hides in jungles and forests. ",
+    "powers": [
+    ],
+    "icon": {
+        "item": "minecraft:oak_log"
+    },
+    "order": 10,
+    "impact": 3,
+    "loading_priority": 100,
+    "unchoosable": true
+}

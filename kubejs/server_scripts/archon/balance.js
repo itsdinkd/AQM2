@@ -3,7 +3,7 @@ onEvent('recipes', event=> {
     event.custom(
         {
             "type": "archon:channeling",
-            "tag": "c:diamond_ores",
+            "block": "minecraft:diamond_ore",
             "result": {
               "item": "minecraft:diamond",
               "count": 2
@@ -15,7 +15,7 @@ onEvent('recipes', event=> {
         event.custom(
             {
                 "type": "archon:channeling",
-                "tag": "c:redstone_ores",
+                "block": "minecraft:redstone_ore",
                 "result": {
                   "item": "minecraft:redstone",
                   "count": 7
@@ -27,7 +27,7 @@ onEvent('recipes', event=> {
         event.custom(
                 {
                     "type": "archon:channeling",
-                    "tag": "c:sand",
+                    "block": "minecraft:sand",
                     "result": {
                       "item": "archon:spry_dust",
                       "count": 1
@@ -39,7 +39,7 @@ onEvent('recipes', event=> {
                 event.custom(
                     {
                         "type": "archon:channeling",
-                        "tag": "c:iron_ores",
+                        "block": "minecraft:iron_ore",
                         "result": {
                           "item": "minecraft:raw_iron",
                           "count": 3
@@ -50,7 +50,7 @@ onEvent('recipes', event=> {
                     event.custom(
                         {
                             "type": "archon:channeling",
-                            "tag": "c:emerald_ores",
+                            "block": "minecraft:emerald_ore",
                             "result": {
                               "item": "minecraft:emerald",
                               "count": 2

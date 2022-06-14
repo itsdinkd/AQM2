@@ -42,9 +42,9 @@ onEvent('recipes', event => {
         }, {
             "item": "lightestlamp:lanthanum_ingot"
         }, {
-            "item": "minecraft:gold_ingot"
+            "item": "twilightforest:knightmetal_ingot"
         }, {
-            "item": "minecraft:iron_ingot"
+            "item": "twilightforest:fiery_ingot"
         }, {
             "item": "minecraft:netherite_ingot"
         }, {

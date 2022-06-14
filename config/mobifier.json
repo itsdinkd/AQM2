@@ -32,17 +32,325 @@
             "type": "mobifier:difficulty"
           }
         ],
-        "xp_modifier": "*1.5",
+        "xp_modifier": "*3",
         "attribute_modifier": {
           "minecraft:generic.armor_toughness": "*1.3",
           "minecraft:generic.armor": "+5",
-          "minecraft:generic.attack_damage": "*3",
+          "minecraft:generic.attack_damage": "*4.6",
           "minecraft:generic.attack_knockback": "*1",
           "minecraft:generic.attack_speed": "*1",
           "minecraft:generic.follow_range": "*1",
           "minecraft:generic.knockback_resistance": "+0.25",
           "minecraft:generic.luck": "*1",
-          "minecraft:generic.max_health": "*2.15",
+          "minecraft:generic.max_health": "*5",
+          "minecraft:generic.movement_speed": "*1.15"
+        }
+      }
+    ],
+    "twilightforest:hydra": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*3",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "+4",
+          "minecraft:generic.armor": "+7",
+          "minecraft:generic.attack_damage": "*4",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1.11111145",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "+0.25",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*5",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:knight_phantom": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*3",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*5.3",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1.175",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*5.5",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:snow_queen": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*3",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*5",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*5",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:skeleton_druid": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.4",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*1.66666",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:snow_guardian": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.4",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*2.5",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*3.5",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:blockchain_goblin": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.4",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*1.4",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*2.33",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:harbringer_cube": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.4",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*3",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1.3",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*1.75",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:troll": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.25",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*1.5",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*1.6",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:stable_ice_core": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.3",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*2",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*1.5",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:unstable_ice_core": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.3",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*2",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*1.5",
+          "minecraft:generic.movement_speed": "*1"
+        }
+      }
+    ],
+    "twilightforest:fire_beetle": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.3",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*2.1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*1.8",
           "minecraft:generic.movement_speed": "*1"
         }
       }
@@ -75,6 +383,118 @@
         }
       }
     ],
+    "twilightforest:alpha_yeti": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*3",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1.2",
+          "minecraft:generic.armor": "+8",
+          "minecraft:generic.attack_damage": "*4",
+          "minecraft:generic.attack_knockback": "*1.25",
+          "minecraft:generic.attack_speed": "*1.1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "+0.3",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*6.05252",
+          "minecraft:generic.movement_speed": "*1.3"
+        }
+      }
+    ],
+    "twilightforest:yeti": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.25",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*1.7",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.movement_speed": "*1.1"
+        }
+      }
+    ],
+    "twilightforest:goblin_knight_upper": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.25",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*4",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.movement_speed": "*1.1"
+        }
+      }
+    ],
+    "twilightforest:goblin_knight_lower": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*1.25",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.attack_damage": "*4",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*2",
+          "minecraft:generic.movement_speed": "*1.1"
+        }
+      }
+    ],
     "twilightforest:ur_ghast": [
       {
         "conditions_to_apply": [
@@ -92,13 +512,41 @@
         "attribute_modifier": {
           "minecraft:generic.armor_toughness": "*1.15",
           "minecraft:generic.armor": "+5",
-          "minecraft:generic.attack_damage": "*2.2",
+          "minecraft:generic.attack_damage": "*2.5",
           "minecraft:generic.attack_knockback": "*1",
           "minecraft:generic.attack_speed": "*1.099999",
           "minecraft:generic.follow_range": "*1",
           "minecraft:generic.knockback_resistance": "+0.5",
           "minecraft:generic.luck": "*1",
           "minecraft:generic.max_health": "*4.5",
+          "minecraft:generic.movement_speed": "*1.175"
+        }
+      }
+    ],
+    "twilightforest:naga": [
+      {
+        "conditions_to_apply": [
+          {
+            "difficulty_is": {
+              "PEACEFUL": false,
+              "EASY": false,
+              "NORMAL": false,
+              "HARD": true
+            },
+            "type": "mobifier:difficulty"
+          }
+        ],
+        "xp_modifier": "*2.5",
+        "attribute_modifier": {
+          "minecraft:generic.armor_toughness": "*1.15",
+          "minecraft:generic.armor": "+5",
+          "minecraft:generic.attack_damage": "*4",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_speed": "*1.099999",
+          "minecraft:generic.follow_range": "*1",
+          "minecraft:generic.knockback_resistance": "+0.5",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.max_health": "*3",
           "minecraft:generic.movement_speed": "*1.175"
         }
       }

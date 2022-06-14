@@ -1160,6 +1160,10 @@
     "twilightforest:mining_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "myrtrees:rubberwood_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

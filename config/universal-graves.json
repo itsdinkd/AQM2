@@ -31,7 +31,7 @@
   "customStyleUpdateRate": 20,
   "protectionTime": 86400,
   "breakingTime": 172800,
-  "keepBlockAfterBreaking": true,
+  "keepBlockAfterBreaking": false,
   "restoreBlockAfterPlayerBreaking": true,
   "xpStorageType": "percent_points",
   "xpPercentTypeValue": 80.0,

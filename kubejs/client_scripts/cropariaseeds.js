@@ -66,5 +66,4 @@ onEvent("rei.hide.items", event => {
         event.hide('croparia:elemental_fire_' + item);
         event.hide('croparia:elemental_earth_' + item);
     });
-
 });

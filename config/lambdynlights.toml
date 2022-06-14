@@ -359,3 +359,11 @@
 			[light_sources.settings.entities.ratsmischief]
 				rat = true
 
+			[light_sources.settings.entities.twilightforest]
+				carminite_ghastguard = true
+				snow_queen = true
+				rising_zombie = true
+				cube_of_annihilation = true
+				alpha_yeti = true
+				thrown_ice = true
+

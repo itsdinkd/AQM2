@@ -4,20 +4,23 @@ event => {
     ores.blocks = [ 
       'betternether:nether_lapis_ore',
       'betternether:nether_redstone_ore',
-      'croparia:deepslate_elematilius_ore',
-      'croparia:elematilius_ore',
-      'indrev:deepslate_lead_ore', 
-      'indrev:deepslate_tin_ore', 
-      'indrev:deepslate_tungsten_ore', 
-      'techreborn:deepslate_ruby_ore',
-      'techreborn:ruby_ore',
       'blockus:viridite',
       'byg:lignite_ore',
-      'expandeddelight:salt_ore',
-      'expandeddelight:deepslate_salt_ore',
+      'croparia:deepslate_elematilius_ore',
+      'croparia:elematilius_ore',
       'croptopia:salt_ore',
-      'valley:salt_ore',
-      'valley:nether_salt_ore'
+      'expandeddelight:deepslate_salt_ore',
+      'expandeddelight:salt_ore',
+      'indrev:lead_ore',
+      'indrev:tin_ore',
+      'indrev:tungsten_ore',
+      'indrev:deepslate_lead_ore', 
+      'indrev:deepslate_tin_ore', 
+      'indrev:deepslate_tungsten_ore',
+      'modern_industrialization:deepslate_salt_ore',
+      'modern_industrialization:salt_ore',
+      'techreborn:deepslate_ruby_ore',
+      'techreborn:ruby_ore'
       ]
   })
 });

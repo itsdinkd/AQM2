@@ -1,0 +1,9 @@
+{
+  "type": "archon:channeling",
+  "tag": "c:emerald_ores",
+  "result": {
+    "item": "minecraft:emerald",
+    "count": 2
+  },
+  "manaCost": 45
+}

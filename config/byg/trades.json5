@@ -81,7 +81,7 @@ to make editing this file much easier.
 						"cost": 8,
 						"item": "byg:wood_blewit",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -90,7 +90,7 @@ to make editing this file much easier.
 						"cost": 8,
 						"item": "byg:white_puffball_cap",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				}
@@ -102,7 +102,7 @@ to make editing this file much easier.
 						"item": "byg:white_puffball_spores",
 						"max_uses": 4,
 						"number_of_items": 5,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:items_for_emeralds"
 				},
@@ -111,7 +111,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "minecraft:crimson_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -120,7 +120,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "minecraft:warped_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -129,7 +129,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:sythian_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				}
@@ -141,7 +141,7 @@ to make editing this file much easier.
 						"item": "byg:witch_hazel_branch",
 						"max_uses": 4,
 						"number_of_items": 9,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:items_for_emeralds"
 				},
@@ -151,7 +151,7 @@ to make editing this file much easier.
 						"item": "byg:witch_hazel_blossom",
 						"max_uses": 10,
 						"number_of_items": 1,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:items_for_emeralds"
 				}
@@ -162,7 +162,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:imparius_mushroom",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 4
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -171,7 +171,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:shulkren_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 4
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -180,7 +180,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:fungal_imparius",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 4
 					},
 					"type": "byg:emerald_for_items"
 				}
@@ -764,6 +764,166 @@ to make editing this file much easier.
 				"config": {
 					"emerald_cost": 5,
 					"item": "byg:zelkova_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:withering_oak_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:araucaria_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:blue_spruce_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:brown_birch_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:brown_oak_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:brown_zelkova_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:joshua_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:orange_birch_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:orange_oak_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:orange_spruce_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:orchard_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:red_birch_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:red_oak_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:red_spruce_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:yellow_birch_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:yellow_spruce_sapling",
 					"max_uses": 12,
 					"number_of_items": 1,
 					"villager_xp": 2

@@ -2,16 +2,6 @@
     "name": "Dragon",
     "description": "The well known dragon beast. It breathes fire and strikes fear down the hearts of anyone who encounters it...",
     "powers": [
-        "mystic_origins:sturdy_scales",
-        "mystic_origins:resistant_skin",
-        "mystic_origins:reborn_magic",
-        "mystic_origins:uncomfortable_armor",
-        "mystic_origins:sharp_claws",
-        "origins:no_shield",
-        "mystic_origins:exhausting_heat",
-        "mystic_origins:wings",
-        "origins:carnivore",
-        "origins:water_vulnerability"
     ],
     "icon": {
         "item": "minecraft:ender_eye"

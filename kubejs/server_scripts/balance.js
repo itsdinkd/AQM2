@@ -309,6 +309,30 @@ event.shaped("gobber2:gobber2_ring_vision", [
     "cost": 1
   });
 
+// band aid terminite ingot fix for servers
+event.custom(
+  {
+    "type": "techreborn:alloy_smelter",
+    "power": 2,
+    "time": 100,
+    "ingredients" : [
+      {
+        "item": "betterend:thallasium_ingot",
+        "count": 1
+      },
+      {
+        "item": "betterend:ender_dust",
+        "count": 1
+      }
+    ],
+    "results" : [
+      {
+        "item": "betterend:terminite_ingot",
+        "count": 1
+      }
+    ]
+  }
+)
 //   event.custom({
 //   "type": "botania:runic_altar",
 //   "output": {
@@ -1300,6 +1324,36 @@ event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'gobbe
   {
     g: 'fluidtank:tank_copper',
     i: "mythicmetals:mythril_ingot"
+  })  
+
+
+  // Croptosis Watering Cans
+  event.remove({output: 'croptosis:iron_watering_can'});
+  event.shaped("croptosis:iron_watering_can", ['AAA','D  '],
+  {
+    A: "gobber2:gobber2_rod",
+    D: "minecraft:bucket"
+  })
+
+  event.remove({output: 'croptosis:gold_watering_can'});
+  event.shaped("croptosis:gold_watering_can", ['AAA','D  '],
+  {
+    A: "gobber2:gobber2_rod_nether",
+    D: "minecraft:bucket"
+  })
+
+  event.remove({output: 'croptosis:diamond_watering_can'});
+  event.shaped("croptosis:diamond_watering_can", ['AAA','D  '],
+  {
+    A: "gobber2:gobber2_rod_end",
+    D: "minecraft:bucket"
+  })
+
+  event.remove({output: 'croptosis:netherite_watering_can'});
+  event.shaped("croptosis:netherite_watering_can", ['AAA','D  '],
+  {
+    A: "gobber2:dragon_star",
+    D: "minecraft:bucket"
   })
 
 })

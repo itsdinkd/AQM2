@@ -1,0 +1,9 @@
+{
+  "type": "archon:channeling",
+  "tag": "c:iron_ores",
+  "result": {
+    "item": "minecraft:raw_iron",
+    "count": 3
+  },
+  "manaCost": 45
+}

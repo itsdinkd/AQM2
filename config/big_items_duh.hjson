@@ -5,5 +5,5 @@
 	// Sets the how big the zoom will be, relative to the space available on the screen
 	// default: 0.8
 	// 	Must be inclusively between 0.05 and 1.0
-	scale: 0.6000000238418579
+	scale: 0.5
 }

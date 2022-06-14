@@ -1,0 +1,9 @@
+{
+  "type": "archon:channeling",
+  "tag": "c:redstone_ores",
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 7
+  },
+  "manaCost": 25
+}

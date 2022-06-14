@@ -1,0 +1,9 @@
+{
+  "type": "archon:channeling",
+  "tag": "c:sand",
+  "result": {
+    "item": "archon:spry_dust",
+    "count": 1
+  },
+  "manaCost": 10
+}

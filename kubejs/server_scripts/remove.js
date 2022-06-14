@@ -58,13 +58,17 @@ const arrRemove = [
 'gobber2:gobber2_ring_farmer',
 'gobber2:gobber2_ring_phoenix',
 'gobber2:gobber2_ring_repair',
+'gobber2:gobber2_ring_stealth',
 'gobber2:gobber2_ring_strength',
 'gobber2:gobber2_ring_sunshine',
+'croptosis:feather_meal',
+'croptosis:rotten_pile',
 'gobber2:gobber2_staff_farmer',
 'gobber2:gobber2_staff_hostile_ensnarement',
 'hoverpets:blaze_pet',
 'hoverpets:creeper_pet',
 'hoverpets:panda_pet',
+"techreborn:rock_cutter",
 'hyperlighting:switch_board',
 'indrev:bronze_axe', 
 'indrev:bronze_boots', 
@@ -106,6 +110,7 @@ const arrRemove = [
 'kibe:magma_ring',
 'kibe:stone_spikes',
 'kibe:water_ring',
+'twilightforest:uncrafting_table',
 'mcdw:sword_the_starless_night',
 'mining_dims:caving_teleporter',
 'mining_dims:climbing_teleporter',
@@ -221,7 +226,7 @@ onEvent('recipes', event => {
     event.remove({output: "doom:argent_" + item});
   });
 
-  event.remove({output:"twilightforest:uncrafting_table"})
+  event.remove({input:"twilightforest:uncrafting_table"})
   // Remove Kibe Generators due to ticking entity crashes
   var kibe_gen = [
     "mk1",

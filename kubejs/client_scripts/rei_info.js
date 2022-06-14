@@ -61,6 +61,6 @@ onEvent('rei.information', event => {
 onEvent('rei.hide.items', event => { 
   event.hide("croparia:greenhouse")
   greenhouseColors.forEach(function(item,index) {
-    event.hide(item)
+    event.hide( "croparia:greenhouse_" + item)
   })
 })

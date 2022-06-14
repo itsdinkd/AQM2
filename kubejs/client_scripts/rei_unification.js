@@ -175,6 +175,8 @@ const DELETED_ITEMS = [
  "modern_industrialization:deepslate_lead_ore",
  "modern_industrialization:deepslate_platinum_ore",
  "modern_industrialization:deepslate_salt_ore",
+ "modern_industrialization:salt_tiny_dust",
+ "modern_industrialization:salt_crushed_dust",
  "modern_industrialization:deepslate_silver_ore",
  "modern_industrialization:deepslate_tin_ore",
  "modern_industrialization:deepslate_tungsten_ore",

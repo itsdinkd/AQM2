@@ -1,0 +1,9 @@
+{
+  "type": "archon:channeling",
+  "block": "minecraft:diamond_ores",
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 2
+  },
+  "manaCost": 55
+}
