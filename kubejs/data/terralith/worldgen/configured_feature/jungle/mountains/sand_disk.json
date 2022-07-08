@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state": {
+      "Name": "minecraft:sand"
+    },
+    "radius": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 5,
+        "max_inclusive": 8
+      }
+    },
+    "half_height": 3,
+    "targets": [
+      {
+        "Name": "minecraft:grass_block"
+      },
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Name": "minecraft:stone"
+      },
+      {
+        "Name": "minecraft:andesite"
+      },
+      {
+        "Name": "minecraft:gravel"
+      }
+    ]
+  }
+}

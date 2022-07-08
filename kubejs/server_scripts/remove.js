@@ -21,6 +21,7 @@ const arrRemove = [
 'botania:missile_rod',
 'botania:smelt_rod',
 'botania:spawner_claw',
+"modern_industrialization:wrench",
 'botania:super_lava_pendant',
 'botania:terraform_rod',
 'botania:tornado_rod',

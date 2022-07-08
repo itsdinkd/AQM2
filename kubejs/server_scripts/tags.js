@@ -1,6 +1,44 @@
 // Another Quality Modpack 2 //
 ///////////////////////////////
 
+// Wandering Collector blacklist
+	const blacklistTrader = [
+		"bosses_of_mass_destruction:ancient_anima",
+		"bosses_of_mass_destruction:void_thorn",
+		"bosses_of_mass_destruction:blazing_eye",
+		"bosses_of_mass_destruction:obsidian_heart",
+		"kubejs:cursed_gem",
+		"kubejs:corrupted_emerald",
+		"kubejs:star_of_icon",
+		"kubejs:ultimate_ingot",
+		"kubejs:demon_pearl",
+		"kibe:angel_ring",
+		"gobber2:dragon_star",
+		"gobber2:gobber2_ingot",
+		"gobber2:gobber2_ingot_nether",
+		"gobber2:gobber2_ingot_end",
+		"gobber2:gobber2_glob",
+		"gobber2:gobber2_glob_end",
+		"gobber2:gobber2_glob_nether",
+		"gobber2:gobber2_globette_end",
+		"gobber2:gobber2_globette_nether",
+		"gobber2:gobber2_globette",
+		"adventurez:stone_golem_heart",
+		"adventurez:prime_eye",
+		"techreborn:interdimensional_su",
+		"techreborn:nak_coolant_cell_360k",
+		"spectrum:refined_azurite",
+		"spectrum:neolith",
+		"botania:gaia_ingot",
+		"bewitchment:heaven_extract",
+		"modern_industrialization:quantum_upgrade",
+		"techreborn:uu_matter",
+		"ae2:cell_component_64k",
+		"mobz:boss_ingot",
+		"modern_industrialization:quantum_circuit"
+	];
+
+
 // Fish
 
 	const originFish =[
@@ -88,6 +126,10 @@ onEvent('tags.items', event => {
 	catalystBlacklist.forEach(function(item) { 
 		event.add('things:hardening_catalyst_blacklist', item)
     });	
+
+	blacklistTrader.forEach(function (item,index) {
+		event.add('wandering_collector:deny', item)
+	})
 
 // Misc
 	event.add('c:wrenches', 'advanced_reborn:config_wrench')

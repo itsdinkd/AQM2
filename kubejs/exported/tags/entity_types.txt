@@ -1,12 +1,11 @@
-To refresh this file, delete it and run /reload command again! Last updated: May 3, 2022, 3:06:01 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jun 17, 2022, 4:41:42 PM
+
+#besmirchment:pure_souls
+- minecraft:player
+- minecraft:villager
 
 #c:skeletons
 - earthtojavamobs:skeleton_wolf
-
-#the_aether:condition_immunities/venom
-- the_aether:cockatrice
-- the_aether:aechor_plant
-- the_aether:purple_swet
 
 #milk_plus:skeletons
 - minecraft:skeleton
@@ -29,11 +28,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:chicken
 - minecraft:rabbit
 - minecraft:sheep
-
-#the_aether:condition_immunities/abstentine_toxicity
-- the_aether:cockatrice
-- the_aether:aechor_plant
-- the_aether:purple_swet
 
 #botania:cocoon/rare_aquatic
 - minecraft:dolphin
@@ -118,6 +112,9 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:silverfish
 - minecraft:fox
 
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic
+
 #farmersdelight:dog_food_users
 - minecraft:wolf
 
@@ -128,6 +125,10 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:pufferfish
 - minecraft:squid
 - quark:crab?
+
+#besmirchment:illegal_familiar
+- minecraft:player
+- #bewitchment:taglock_blacklist
 
 #mobz:toad_target
 - minecraft:spider
@@ -162,7 +163,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:wither_skeleton
 - adventurez:summoner
 - earthtojavamobs:skeleton_wolf
-- overlord:owned_skeleton
 
 #libra:undead
 - minecraft:zombie
@@ -235,23 +235,21 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 #eldritch_mobs:eldritch_blacklist
 - minecraft:axolotl
 - minecraft:creeper
-- elementalcreepers:air_creeper
-- elementalcreepers:cookie_creeper
-- elementalcreepers:dark_creeper
-- elementalcreepers:earth_creeper
-- elementalcreepers:electric_creeper
-- elementalcreepers:air_creeper
-- elementalcreepers:fire_creeper
-- elementalcreepers:firework_creeper
-- elementalcreepers:hydrogen_creeper
-- elementalcreepers:ice_creeper
-- elementalcreepers:illusion_creeper
-- elementalcreepers:light_creeper
-- elementalcreepers:magma_creeper
-- elementalcreepers:miner_creeper
-- elementalcreepers:rainbow_creeper
-- elementalcreepers:reverse_creeper
-- elementalcreepers:water_creeper
+- creeperoverhaul:badlands_creeper
+- creeperoverhaul:bamboo_creeper
+- creeperoverhaul:beach_creeper
+- creeperoverhaul:cave_creeper
+- creeperoverhaul:dark_oak_creeper
+- creeperoverhaul:desert_creeper
+- creeperoverhaul:dripstone_creeper
+- creeperoverhaul:hills_creeper
+- creeperoverhaul:jungle_creeper
+- creeperoverhaul:mushroom_creeper
+- creeperoverhaul:savannah_creeper
+- creeperoverhaul:snowy_creeper
+- creeperoverhaul:spruce_creeper
+- creeperoverhaul:swamp_creeper
+- graveyard:skeleton_creeper
 
 #libra:passive
 - minecraft:ocelot
@@ -433,7 +431,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - mobz:ender
 - mobz:enderzombie
 - mobz:fast
-- mobz:friend
 - mobz:frost
 - mobz:frostball
 - mobz:fulliron
@@ -447,7 +444,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - mobz:knight
 - mobz:knight2
 - mobz:knight3
-- mobz:knight4
 - mobz:knight5
 - mobz:lavagolem
 - mobz:mage
@@ -467,7 +463,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - mobz:stonegolem
 - mobz:tadpode
 - mobz:tank
-- mobz:test
 - mobz:tspider
 - mobz:with
 - mobz:withender
@@ -523,6 +518,10 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:piglin_brute
 - minecraft:silverfish
 
+#c:slimes
+- minecraft:slime
+- minecraft:magma_cube
+
 #gobber2:minion_mobs
 - minecraft:cave_spider
 - minecraft:enderman
@@ -548,6 +547,9 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - bewitchment:herne
 
 #c:bosses
+- adventurez:stone_golem
+- adventurez:the_eye
+- adventurez:void_shadow
 - minecraft:wither
 - minecraft:ender_dragon
 - minecraft:elder_guardian
@@ -590,8 +592,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:cod
 - minecraft:squid
 - minecraft:glow_squid
-
-#the_aether:swet_transformers/blue
 
 #archon:players
 - minecraft:player
@@ -643,12 +643,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:ender_dragon
 - minecraft:wither
 
-#the_aether:swet_transformers/transformers
-- #the_aether:swet_transformers/blue
-- #the_aether:swet_transformers/golden
-- #the_aether:swet_transformers/purple
-- #the_aether:swet_transformers/vermilion
-
 #dml-refabricated:skeleton_mobs
 - minecraft:skeleton
 - minecraft:wither_skeleton
@@ -656,8 +650,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 
 #requiem:inventory/item_users
 - ratsmischief:rat
-
-#the_aether:swet_transformers/golden
 
 #bewitchment:encounter_fortune
 - minecraft:husk
@@ -678,7 +670,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - doom:motherdemon
 - doom:gladiator
 - doom:iconofsin
-- adventurez:void_shadow
 - adventurez:stone_golem
 - bosses_of_mass_destruction:void_blossom
 - bosses_of_mass_destruction:lich
@@ -691,19 +682,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:creeper
 - minecraft:witch
 - minecraft:ravager
-
-#the_aether:swet_transformers/vermilion
-- minecraft:magma_cube
-
-#the_aether:swets
-- the_aether:white_swet
-- the_aether:blue_swet
-- the_aether:purple_swet
-- the_aether:golden_swet
-
-#the_aether:swet_transformers/purple
-- the_aether:cockatrice
-- the_aether:aechor_plant
 
 #bewitchment:has_blood
 - minecraft:player

@@ -42,10 +42,6 @@ onEvent('recipes', event => {
         }, {
             "item": "lightestlamp:lanthanum_ingot"
         }, {
-            "item": "twilightforest:knightmetal_ingot"
-        }, {
-            "item": "twilightforest:fiery_ingot"
-        }, {
             "item": "minecraft:netherite_ingot"
         }, {
             "item": "mobz:amat_ingot"
@@ -73,8 +69,6 @@ onEvent('recipes', event => {
             "item": "modern_industrialization:le_uranium_ingot"
         }, {
             "item": "modern_industrialization:manganese_ingot"
-        }, {
-            "item": "modern_industrialization:nickel_ingot"
         }, {
             "item": "modern_industrialization:plutonium_ingot"
         }, {

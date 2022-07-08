@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state": {
+      "Name": "minecraft:coarse_dirt"
+    },
+    "radius": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 4
+      }
+    },
+    "half_height": 2,
+    "targets": [
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Name": "minecraft:clay"
+      },
+      {
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      {
+        "Name": "minecraft:coarse_dirt"
+      }
+    ]
+  }
+}

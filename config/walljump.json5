@@ -12,7 +12,7 @@
 	// Minimum distance for fall damage; set to 3.0 to disable
 	"minFallDistance": 6.0,
 	// Play a rush of wind as you fall to your doom
-	"playFallSound": true,
+	"playFallSound": false,
 	// Sprint speed boost; set to 0.0 to disable
 	"sprintSpeedBoost": 0.0,
 	// Sprint speed boost; set to 0.0 to disable

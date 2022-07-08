@@ -44106,9 +44106,9 @@
       ],
       "type": "minecraft:multi_noise"
     },
-    "seed": 3418002874881938,
     "settings": "minecraft:overworld",
-    "type": "minecraft:noise"
+    "type": "minecraft:noise",
+    "seed": 6609739674255493042
   },
   "forge:use_server_seed": true
 }

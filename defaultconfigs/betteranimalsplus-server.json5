@@ -176,7 +176,6 @@
 					"minecraft:forest",
 					"minecraft:old_growth_pine_taiga",
 					"agape:mars_plains",
-					"mining_dims:hunting_dim_plains",
 					"terralith:hot_shrubland",
 					"terralith:brushland",
 					"terralith:snowy_maple_forest",
@@ -422,8 +421,7 @@
 					"byg:twilight_meadow",
 					"minecraft:old_growth_pine_taiga",
 					"agape:mars_plains",
-					"terralith:blooming_valley",
-					"mining_dims:hunting_dim_plains"
+					"terralith:blooming_valley"
 				],
 				// Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
 				"biome_based_variants": true,
@@ -503,7 +501,6 @@
 					"minecraft:forest",
 					"minecraft:old_growth_pine_taiga",
 					"agape:mars_plains",
-					"mining_dims:hunting_dim_plains",
 					"terralith:hot_shrubland",
 					"terralith:brushland",
 					"terralith:snowy_maple_forest",
@@ -1458,8 +1455,7 @@
 					"terralith:steppe",
 					"minecraft:badlands",
 					"byg:orchard",
-					"agape:mars_plains",
-					"mining_dims:hunting_dim_plains"
+					"agape:mars_plains"
 				],
 				"spawn_costs": {
 					// Whether to use spawn costs in spawning or not
@@ -1636,7 +1632,6 @@
 					"minecraft:jungle",
 					"minecraft:old_growth_pine_taiga",
 					"agape:mars_plains",
-					"mining_dims:hunting_dim_plains",
 					"terralith:hot_shrubland",
 					"terralith:brushland",
 					"terralith:snowy_maple_forest",

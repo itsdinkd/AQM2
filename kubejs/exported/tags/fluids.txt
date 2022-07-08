@@ -1,8 +1,22 @@
-To refresh this file, delete it and run /reload command again! Last updated: May 3, 2022, 3:06:01 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jun 17, 2022, 4:41:42 PM
+
+#c:biofuel
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
+
+#c:crude_oil
+
+#c:creosote
 
 #minecraft:water
 - minecraft:water
 - minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
 - earthtojavamobs:mud_fluid
 - earthtojavamobs:mud_fluid_flowing
 - minecraft:water
@@ -80,11 +94,6 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - milk:still_milk?
 - sandwichable:pickle_brine
 - sandwichable:pickle_brine_flowing
-- the_aether:dense_aercloud
-- the_aether:spring_water
-- the_aether:flowing_spring_water
-- minecraft:water
-- minecraft:flowing_water
 - xps:xp_fluid
 - xps:flowing_xp
 
@@ -93,13 +102,11 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - #spectrum:mud
 - #spectrum:midnight_solution
 
-#the_aether:swet_transformers/transformers
-- #the_aether:swet_transformers/blue
-- #the_aether:swet_transformers/golden
-- #the_aether:swet_transformers/purple
-- #the_aether:swet_transformers/vermilion
-
 #ae2:blacklisted/annihilation_plane
+
+#c:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
 
 #spectrum:mud
 - spectrum:mud
@@ -109,10 +116,16 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - milk:flowing_milk?
 - milk:still_milk?
 
-#the_aether:swet_transformers/golden
+#c:tea
+- create:flowing_tea
+- create:tea
 
 #c:water
 - #minecraft:water?
+
+#c:ethanol
+- createaddition:flowing_bioethanol
+- createaddition:bioethanol
 
 #c:lava
 - #minecraft:lava?
@@ -138,30 +151,36 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - indrev:molten_silver_still
 - indrev:molten_silver_flowing
 
-#the_aether:swet_transformers/vermilion
+#create:bottomless/deny
 
 #spectrum:midnight_solution
 - spectrum:midnight_solution
 - spectrum:flowing_midnight_solution
 
-#the_aether:swet_transformers/purple
+#c:honey
+- create:flowing_honey
+- create:honey
 
 #c:mud
 - earthtojavamobs:mud_fluid
 - earthtojavamobs:mud_fluid_flowing
 
-#the_aether:spring_water
-- the_aether:spring_water
-- the_aether:flowing_spring_water
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch
+- decorative_blocks:flowing_thatch
 
 #spectrum:liquid_crystal
 - spectrum:liquid_crystal
 - spectrum:flowing_liquid_crystal
 
+#c:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
 #earthtojavamobs:mud
 - earthtojavamobs:mud_fluid
 - earthtojavamobs:mud_fluid_flowing
-
-#the_aether:swet_transformers/blue
-- minecraft:water
-- minecraft:flowing_water

@@ -10,7 +10,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": true,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "blueSlime": {
       "enabled": true,
@@ -22,7 +22,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": true,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "redSlime": {
       "enabled": true,
@@ -34,7 +34,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": true,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "purpleSlime": {
       "enabled": true,
@@ -46,7 +46,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": true,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "yellowSlime": {
       "enabled": true,
@@ -58,7 +58,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": true,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "blackSlime": {
       "enabled": true,
@@ -70,7 +70,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": true,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "iceSlime": {
       "enabled": true,
@@ -82,7 +82,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "sandSlime": {
       "enabled": true,
@@ -94,7 +94,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "jungleSlime": {
       "enabled": true,
@@ -106,7 +106,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": true,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "spikedIceSlime": {
       "baseSpikeAttack": 6.0,
@@ -120,7 +120,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "spikedJungleSlime": {
       "baseSpikeAttack": 8.5,
@@ -134,7 +134,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "motherSlime": {
       "enabled": true,
@@ -146,7 +146,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "babySlime": {
       "enabled": true,
@@ -158,7 +158,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": true,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "lavaSlime": {
       "enabled": true,
@@ -170,7 +170,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "pinky": {
       "enabled": true,
@@ -182,7 +182,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": true,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "kingSlime": {
       "enabled": true,
@@ -194,7 +194,7 @@
       "attackCooldown": 60,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "spikedSlime": {
       "baseSpikeAttack": 6.0,
@@ -208,7 +208,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "umbrellaSlime": {
       "enabled": true,
@@ -220,7 +220,7 @@
       "attackCooldown": 20,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "corruptSlime": {
       "enabled": true,
@@ -232,7 +232,7 @@
       "attackCooldown": 40,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "slimeling": {
       "enabled": true,
@@ -244,7 +244,7 @@
       "attackCooldown": 60,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "crimslime": {
       "enabled": true,
@@ -256,7 +256,7 @@
       "attackCooldown": 40,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "illuminantSlime": {
       "enabled": true,
@@ -268,7 +268,7 @@
       "attackCooldown": 40,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     },
     "rainbowSlime": {
       "enabled": true,
@@ -280,7 +280,7 @@
       "attackCooldown": 80,
       "hasBonusDrops": false,
       "biomeWhitelist": [],
-      "biomeBlacklist": []
+      "biomeBlacklist": ["aqm2:mining_dim"]
     }
   }
 }

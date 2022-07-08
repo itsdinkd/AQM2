@@ -288,5 +288,21 @@
 				item: "additionaladditions:mysterious_bundle"
 			}]
 		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "73A7CDB6E789A107"
+			tasks: [{
+				id: "18A1610341D2B5F6"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "hexcasting:thehexbook"
+					}
+				}
+			}]
+		}
 	]
 }

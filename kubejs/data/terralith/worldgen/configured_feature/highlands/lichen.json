@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:glow_lichen",
+  "config": {
+    "search_range": 9,
+    "chance_of_spreading": 0.99,
+    "can_place_on_floor": true,
+    "can_place_on_ceiling": true,
+    "can_place_on_wall": true,
+    "can_be_placed_on": [
+    "minecraft:stone"
+      
+    ]
+  }
+}

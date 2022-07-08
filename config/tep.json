@@ -1,67 +1,37 @@
 {
-  "blaze": {
-    "blaze_attacks_villagers": true,
-    "blaze_always_onfire": true
-  },
-  "creepers": {
-    "creeper_doesnt_stop": true,
-    "creeper_always_charged": true,
-    "creeper_explodes_faster": true,
-    "creeper_attacks_villagers": true,
-    "creeper_attacks_irongolems": true,
-    "creeper_blowsup_door": false,
-    "creeper_power": 3
-  },
-  "enderman": {
-    "enderman_always_attack": false,
-    "enderman_attacks_villagers": false
-  },
-  "endermite": {
-    "endermite_attacks_villagers": true
-  },
-  "ghasts": {
-    "ghast_fire_power": 4,
-    "ghast_attacks_villagers": true
-  },
-  "magma": {
-    "magma_render_onfire": false,
-    "magma_onfire": true
-  },
-  "phantoms": {
-    "phantoms_always_spawn": false
-  },
-  "shulker": {
-    "shulker_attacks_villagers": true
-  },
-  "silverfish": {
-    "silverfish_attacks_villagers": true
-  },
-  "skeletons": {
-    "skeletons_enchanted_more": 60.0,
-    "skeletons_attacks_villagers": true,
-    "skeletons_dont_burn": false
-  },
-  "slimes": {
-    "slimes_attacks_villagers": true
-  },
-  "spiders": {
-    "spider_always_attack": false,
-    "spider_attacks_villagers": true,
-    "spider_always_jockeys": true
-  },
-  "vexs": {
-    "vex_attacks_villagers": true
-  },
-  "wither": {
-    "wither_attacks_villagers": true
-  },
-  "zombies": {
-    "zombies_break_door": 70,
-    "zombies_dont_burn": false,
-    "zombies_enchanted_more": 65.0,
-    "zombies_better_gear": true,
-    "zombies_runners": true,
-    "zombiepiglin_onsight": true,
-    "zombiepiglin_attacks_villagers": true
-  }
+  "creeper_doesnt_stop": true,
+  "creeper_always_charged": true,
+  "creeper_explodes_faster": true,
+  "creeper_attacks_villagers": true,
+  "creeper_attacks_irongolems": true,
+  "creeper_blowsup_door": false,
+  "creeper_power": 3,
+  "ghast_fire_power": 4,
+  "ghast_attacks_villagers": true,
+  "zombies_break_door": 70,
+  "zombies_dont_burn": false,
+  "zombies_enchanted_more": 65.0,
+  "zombies_better_gear": true,
+  "zombies_runners": true,
+  "zombiepiglin_onsight": true,
+  "zombiepiglin_attacks_villagers": true,
+  "skeletons_enchanted_more": 60.0,
+  "skeletons_attacks_villagers": true,
+  "skeletons_dont_burn": false,
+  "enderman_always_attack": false,
+  "enderman_attacks_villagers": false,
+  "spider_always_attack": false,
+  "spider_attacks_villagers": true,
+  "spider_always_jockeys": true,
+  "phantoms_always_spawn": false,
+  "blaze_attacks_villagers": true,
+  "blaze_always_onfire": true,
+  "magma_render_onfire": false,
+  "magma_onfire": true,
+  "endermite_attacks_villagers": true,
+  "shulker_attacks_villagers": true,
+  "silverfish_attacks_villagers": true,
+  "slimes_attacks_villagers": true,
+  "vex_attacks_villagers": true,
+  "wither_attacks_villagers": true
 }

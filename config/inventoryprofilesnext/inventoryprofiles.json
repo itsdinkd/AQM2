@@ -1,5 +1,7 @@
 {
     "ModSettings": {
+        "highlight_foused_items": false,
+        "highlight_foused_items_foreground": false,
         "enable_updates_check": false,
         "add_interval_between_clicks": true,
         "interval_between_clicks_ms": 5,
@@ -7,7 +9,8 @@
     },
     "GuiSettings": {
         "enable_profiles_ui": false,
-        "enable_inventory_buttons": false
+        "enable_inventory_buttons": false,
+        "enable_inventory_editor_button": false
     },
     "AutoRefillSettings": {
         "refill_before_tool_break": false,
@@ -34,6 +37,11 @@
         "sort_inventory_in_rows": {
             "main": {
                 "keys": "LEFT_SHIFT,BUTTON_3"
+            }
+        },
+        "dump_item_nbt_to_chat": {
+            "main": {
+                "keys": "LEFT_CONTROL,N"
             }
         }
     }

@@ -285,7 +285,7 @@ event.shaped("gobber2:gobber2_ring_vision", [
        "item": "bewitchment:heaven_extract"
      },
      "!": {
-       "item": "magicfungi:clypeus_essence"
+       "item": "magicfungi:morbus_essence"
      },
      "^": {
        "item": "magicfungi:utilis_essence"

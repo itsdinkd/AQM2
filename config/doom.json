@@ -1,11 +1,8 @@
 {
-  "misc": {
     "enable_all_villager_trades": false,
     "enable_weaponsmith_trades": true,
     "enable_toolsmith_trades": false,
-    "enable_mason_trades": true
-  },
-  "weapons": {
+    "enable_mason_trades": true,
     "crucible_marauder_max_damage": 5,
     "enable_block_breaking": false,
     "enable_noncenter": false,
@@ -13,6 +10,9 @@
     "bfgball_damage": 80.0,
     "bfgball_damage_dragon": 30.0,
     "bfgball_damage_aoe": 5.0,
+    "bfg_damage_mob_whitelist": [
+      ""
+    ],
     "bullet_damage": 3.3,
     "chaingun_bullet_damage": 3.1,
     "energycell_damage": 1.5,
@@ -20,9 +20,7 @@
     "shotgun_damage": 12.9,
     "unmaykr_damage": 1.75,
     "grenade_damage": 20.0,
-    "max_meathook_distance": 32.0
-  },
-  "spawn": {
+    "max_meathook_distance": 32.0,
     "imp_biomes": [
       "#nether"
     ],
@@ -191,6 +189,12 @@
     "tentacle_spawn_weight": 6,
     "tentacle_min_group": 1,
     "tentacle_max_group": 2,
+	"turret_biomes": [
+	  "#nether"
+	],
+	"turret_spawn_weight": 4,
+	"turret_min_group": 1,
+	"turret_max_group": 4,
     "spider_mastermind_biomes": [
       "#nether"
     ],
@@ -227,7 +231,9 @@
     "summoner_spawn_weight": 4,
     "summoner_min_group": 1,
     "summoner_max_group": 2,
-    "motherdemon_biomes": [],
+    "motherdemon_biomes": [
+      ""
+    ],
     "motherdemon_spawn_weight": 1,
     "motherdemon_min_group": 1,
     "motherdemon_max_group": 1,
@@ -249,7 +255,9 @@
     "bloodmaykr_spawn_weight": 5,
     "bloodmaykr_min_group": 1,
     "bloodmaykr_max_group": 1,
-    "archmaykr_biomes": [],
+    "archmaykr_biomes": [
+      ""
+    ],
     "archmaykr_spawn_weight": 1,
     "archmaykr_min_group": 1,
     "archmaykr_max_group": 1,
@@ -258,9 +266,7 @@
     ],
     "gladiator_spawn_weight": 1,
     "gladiator_min_group": 1,
-    "gladiator_max_group": 1
-  },
-  "stats": {
+    "gladiator_max_group": 1,
     "motherdemon_health": 510.0,
     "motherdemon_ranged_damage": 45.0,
     "motherdemon_phaseone_damage_boos": 10.0,
@@ -451,5 +457,4 @@
     "mechazombie_health": 20.0,
     "mechazombie_ranged_damage": 7.0,
     "gorenest_health": 150.0
-  }
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state": {
+      "Name": "minecraft:light_blue_terracotta"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 6
+      }
+    },
+    "half_height": 4,
+    "targets": [
+      {
+        "Name": "minecraft:dirt"
+      }
+    ]
+  }
+}

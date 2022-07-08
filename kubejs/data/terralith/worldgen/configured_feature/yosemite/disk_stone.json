@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state": {
+      "Name": "minecraft:andesite"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 5
+      }
+    },
+    "half_height": 2,
+    "targets": [
+      {
+        "Name": "minecraft:gravel"
+      },
+      {
+        "Name": "minecraft:sand"
+      },
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      {
+        "Name": "minecraft:calcite"
+      },
+      {
+        "Name": "minecraft:basalt",
+        "Properties": {
+          "axis": "y"
+        }
+      },
+      {
+        "Name": "minecraft:gravel"
+      }
+    ]
+  }
+}

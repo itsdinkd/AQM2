@@ -9,3 +9,6 @@ ladysnake.illuminations.client.gui.AutoUpdateGreetingScreen {
 net.minecraft.class_442 {
 }
 
+net.minecraft.class_3928 {
+}
+

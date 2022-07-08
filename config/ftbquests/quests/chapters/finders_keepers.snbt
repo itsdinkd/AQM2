@@ -209,6 +209,11 @@
 				type: "item"
 				item: "winged:core_of_flight"
 			}]
+			rewards: [{
+				id: "39E3817BB2778E7B"
+				type: "random"
+				table_id: 28493754319576071L
+			}]
 		}
 		{
 			x: 2.0d
@@ -230,12 +235,18 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			subtitle: "Now you can clip your wings, child."
 			dependencies: ["5BECD6C59E537D4F"]
 			id: "4199961687696291"
 			tasks: [{
 				id: "45A0931A7956FC3D"
 				type: "item"
 				item: "winged:dipped_ceremonial_knife"
+			}]
+			rewards: [{
+				id: "688729044306A9FA"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 		}
 		{

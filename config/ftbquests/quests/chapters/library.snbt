@@ -263,5 +263,27 @@
 			size: 3.0d
 			id: "2C8ECD655EB5D9A3"
 		}
+		{
+			x: -10.5d
+			y: 0.0d
+			subtitle: "Cast spells by drawing their patterns"
+			description: [
+				"This mod is similar to Ars Nouveau how it has multiple spells you can cast and combine, though with Hex, you draw the spell with your mouse while holding your wand. Read the book."
+				""
+				"To escape drawing mode, press ESCAPE key"
+			]
+			id: "0F13A066988D0616"
+			tasks: [{
+				id: "0D5BE6DA23E5F597"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "hexcasting:thehexbook"
+					}
+				}
+			}]
+		}
 	]
 }

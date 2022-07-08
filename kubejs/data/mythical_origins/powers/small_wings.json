@@ -1,5 +1,6 @@
 {
     "name": "Small Wings",
     "description": "You have no way of jumping over blocks normally, so you have to fly over them. You have creative flight.",
-    "type": "origins:elytra_flight"
+    "type": "origins:elytra_flight",
+    "render_elytra": false
 }

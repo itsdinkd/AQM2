@@ -289,7 +289,14 @@ const DELETED_ITEMS = [
  "valley:salt",
  "valley:tomato",
  "valley:raw_bacon",
+ "valley:salt_ore",
+ "valley:nether_salt_ore",
+ "expandeddelight:salt_ore",
+ "expandeddelight:deepslate_salt_ore",
  "createdeco:zinc_sheet",
+ "croptopia:salt_ore",
+ "valley:saltpeter_ore",
+ "valley:deepslate_saltpeter_ore",
  "veggie_way:dough"
  ];
 onEvent("rei.hide.items", event => {

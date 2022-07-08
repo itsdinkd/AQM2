@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state": {
+      "Name": "minecraft:coarse_dirt"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 8
+      }
+    },
+    "half_height": 4,
+    "targets": [
+      {
+        "Name": "minecraft:dirt"
+      }
+    ]
+  }
+}

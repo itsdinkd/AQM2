@@ -140,5 +140,190 @@
 				item: "tacocraft:cheesy_taco"
 			}]
 		}
+		{
+			x: -2.5d
+			y: 5.5d
+			subtitle: "Good luck"
+			description: [
+				"You'll want the Lich's drop                                 "
+				"Found in Cold Biomes, follow the Soul Stars that lead the path"
+			]
+			id: "66F4F9428D96C99A"
+			tasks: [{
+				id: "008598C4124763B2"
+				type: "kill"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				entity: "bosses_of_mass_destruction:lich"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7F5290D8BEAC5606"
+				type: "random"
+				table_id: 1830006897849082013L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			subtitle: "You saw the Void Blossom, a end game boss. Run if you can."
+			secret: true
+			id: "59F44A867E77E0D9"
+			tasks: [{
+				id: "67CB0FC33EB453CE"
+				type: "observation"
+				title: "Nearing End Game Boss"
+				icon: "bosses_of_mass_destruction:void_blossom"
+				timer: 0L
+				observe_type: 5
+				to_observe: "bosses_of_mass_destruction:void_blossom"
+			}]
+			rewards: [{
+				id: "281DBCE4E98E6A78"
+				type: "item"
+				item: "terrarianslimes:blessed_apple"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			subtitle: "Another one bites the dust ;)"
+			description: [
+				"You'll want the Void Blossom's drop"
+				""
+				"Appears in rare caves at the bottom of the world. Void lilies will point the way"
+			]
+			dependencies: ["59F44A867E77E0D9"]
+			id: "6B62B3C86EDFCD2A"
+			tasks: [{
+				id: "463AAB4EE73688DB"
+				type: "kill"
+				title: "Kill Void Blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				entity: "bosses_of_mass_destruction:void_blossom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0259B060F54C9958"
+				type: "random"
+				table_id: 28493754319576071L
+			}]
+		}
+		{
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			x: -1.5d
+			y: 5.5d
+			subtitle: "Tough one"
+			description: [
+				"You'll want the Gauntlet's drop"
+				""
+				"Can be found in a rare nether structure"
+			]
+			id: "3E2FB2359874D3FD"
+			tasks: [{
+				id: "3F378224F7E0ABCC"
+				type: "kill"
+				icon: "bosses_of_mass_destruction:gauntlet_blackstone"
+				entity: "bosses_of_mass_destruction:gauntlet"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3FB3D62D006ED227"
+				type: "random"
+				table_id: 3648661763718734484L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			subtitle: "Can you stop it?!"
+			description: [
+				"You'll want the Obsidilith's drop"
+				""
+				"Found in a rare structure in the end islands"
+			]
+			id: "5DC586689DB6CA8C"
+			tasks: [{
+				id: "3D8EF7CB681E0876"
+				type: "kill"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				entity: "bosses_of_mass_destruction:obsidilith"
+				value: 1L
+			}]
+			rewards: [{
+				id: "36B8868B65A0CE51"
+				type: "choice"
+				table_id: 707184499980441339L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			subtitle: "Easy Choice"
+			description: ["Keep the material for another end game item, or use them to create a staff that suppresses mob spawn in 64 block range (You can kill the boss again)"]
+			dependencies: [
+				"66F4F9428D96C99A"
+				"5DC586689DB6CA8C"
+			]
+			id: "6A63CB1BC51C23FA"
+			tasks: [{
+				id: "56F0F1B3AE0A40BD"
+				type: "item"
+				item: "bosses_of_mass_destruction:mob_ward"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			subtitle: "Easy Choice"
+			description: ["Keep the material for another end game item, or use them to increase blast radius by 33% in 64 block range. (You can kill the boss again)"]
+			dependencies: [
+				"3E2FB2359874D3FD"
+				"5DC586689DB6CA8C"
+			]
+			id: "1E099201D86D6A61"
+			tasks: [{
+				id: "2E3D7B839A0D1454"
+				type: "item"
+				item: "bosses_of_mass_destruction:monolith_block"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			subtitle: "Tough Choice"
+			description: ["Keep the material for another end game item, or use them to give creative flight in a small area (You can kill the boss again)"]
+			dependencies: [
+				"66F4F9428D96C99A"
+				"3E2FB2359874D3FD"
+			]
+			id: "6CF78C3526B1E591"
+			tasks: [{
+				id: "5AC080533AEDCF71"
+				type: "item"
+				item: "bosses_of_mass_destruction:levitation_block"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			subtitle: "Really Tough Choice"
+			description: ["Keep the material for another end game item, or use them to blink through walls. (You can kill the boss again)"]
+			dependencies: [
+				"5DC586689DB6CA8C"
+				"6B62B3C86EDFCD2A"
+			]
+			id: "58D2B7A125EC181F"
+			tasks: [{
+				id: "68E1D635035B7317"
+				type: "item"
+				item: {
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }

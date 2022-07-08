@@ -8,5 +8,7 @@
 	*/
 	"enable_thin_block_handler": true,
 	// When enabled carpets on top of scaffolding can be passed through just like snow
-	"enable_carpet_passthrough": true
+	"enable_carpet_passthrough": true,
+	// When enabled using bonemeal on a stripped log restores the bark
+	"bonemeal_restores_bark": true
 }

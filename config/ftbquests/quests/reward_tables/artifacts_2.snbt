@@ -1,0 +1,38 @@
+{
+	id: "00653AEB28891C07"
+	order_index: 7
+	title: "Artifacts"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:helium_flamingo" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:everlasting_beef" }
+		{ item: "artifacts:umbrella" }
+	]
+}

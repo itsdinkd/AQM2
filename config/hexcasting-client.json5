@@ -1,0 +1,6 @@
+{
+	// How fast the point showing you the stroke order on patterns moves
+	"patternPointSpeedMultiplier": 1.0,
+	// Whether the ctrl key will instead turn *off* the color gradient on patterns
+	"ctrlTogglesOffStrokeOrder": false
+}

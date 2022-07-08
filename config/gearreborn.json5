@@ -15,7 +15,7 @@
 	"stungunEnergyCapacity": 10000,
 	// How many ticks it takes for the stun gun's capacitors to fully charge
 	"stungunChargeTicks": 72,
-	// How much damage a charged stun gun deals specifically arthropods. Set to 0 to disable this whole spider zapping feature.
+	// How much damage a charged stun gun deals specifically to arthropods. Set to 0 to disable this whole spider zapping feature
 	"stungunDamageDealtToArthropodsOnChargedHit": 16,
 	// Should the stun gun ignite Creepers
 	"stungunShouldChargedHitsIgniteCreepers": true,

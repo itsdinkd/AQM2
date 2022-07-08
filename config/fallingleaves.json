@@ -1164,6 +1164,18 @@
     "myrtrees:rubberwood_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "hexcasting:akashic_leaves1": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "hexcasting:akashic_leaves2": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "hexcasting:akashic_leaves3": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

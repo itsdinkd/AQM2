@@ -31,8 +31,8 @@ onEvent('block.place', event => {
     event.cancel()
   }
 
-  if (event.block.id == "twilightforest:uncrafting_table") {
-    event.cancel()
-  }
+  // if (event.block.id == "twilightforest:uncrafting_table") {
+  //   event.cancel()
+  // }
 
 })

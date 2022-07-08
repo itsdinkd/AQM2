@@ -128,6 +128,11 @@
 				type: "item"
 				item: "kubejs:cursed_gem"
 			}]
+			rewards: [{
+				id: "6789B02AC607F16C"
+				type: "random"
+				table_id: 28493754319576071L
+			}]
 		}
 		{
 			x: -3.5d
@@ -152,6 +157,11 @@
 				type: "item"
 				item: "kubejs:demon_pearl"
 			}]
+			rewards: [{
+				id: "44E808AFDCC02EC4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: -2.5d
@@ -163,6 +173,11 @@
 				id: "54CF1CFE643B05AA"
 				type: "item"
 				item: "kubejs:star_of_icon"
+			}]
+			rewards: [{
+				id: "6B2E3849276731BD"
+				type: "item"
+				item: "expandedstorage:obsidian_to_netherite_conversion_kit"
 			}]
 		}
 		{
@@ -184,11 +199,18 @@
 				type: "item"
 				item: "tempad:tempad"
 			}]
-			rewards: [{
-				id: "525668A315DBB2C8"
-				type: "item"
-				item: "kubejs:aqm2"
-			}]
+			rewards: [
+				{
+					id: "525668A315DBB2C8"
+					type: "item"
+					item: "kubejs:aqm2"
+				}
+				{
+					id: "26C57E6206318C7B"
+					type: "choice"
+					table_id: 1830006897849082013L
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -213,6 +235,58 @@
 				type: "item"
 				item: "minecraft:ender_pearl"
 				count: 5
+			}]
+		}
+		{
+			title: "Earn the Heart of the Sky"
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Permanent. Creative. Fly."
+			description: ["Have Fun!"]
+			dependencies: [
+				"0FE2BFCCBAAC9C29"
+				"641B13F19713CF5F"
+				"7DAA6E68A1184E08"
+				"1B7C883BBC2962E3"
+			]
+			id: "41C462C47A245184"
+			tasks: [
+				{
+					id: "6A056F04ADE71C00"
+					type: "kill"
+					entity: "minecraft:panda"
+					value: 10L
+				}
+				{
+					id: "6A66F44DBF23E243"
+					type: "kill"
+					entity: "creeperoverhaul:jungle_creeper"
+					value: 5L
+				}
+				{
+					id: "3A46D69A58DAFF36"
+					type: "kill"
+					entity: "sprout:elephant"
+					value: 5L
+				}
+				{
+					id: "64283EC520864312"
+					type: "kill"
+					entity: "mobz:crip"
+					value: 5L
+				}
+				{
+					id: "5843142E64B28A34"
+					type: "kill"
+					entity: "betteranimalsplus:turkey"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "40FEE64E8DCF5987"
+				type: "command"
+				command: "/give @p winged:heart_of_the_sky 1"
+				player_command: false
 			}]
 		}
 	]

@@ -77,6 +77,82 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "minecraft:the_end",
 				"weight": 0
+			},
+			{
+				"data": "betterend:foggy_mushroomland",
+				"weight": 2
+			},
+			{
+				"data": "betterend:chorus_forest",
+				"weight": 2
+			},
+			{
+				"data": "betterend:dust_wastelands",
+				"weight": 2
+			},
+			{
+				"data": "betterend:megalake",
+				"weight": 2
+			},
+			{
+				"data": "betterend:megalake_grove",
+				"weight": 2
+			},
+			{
+				"data": "betterend:crystal_mountains",
+				"weight": 2
+			},
+			{
+				"data": "betterend:painted_mountains",
+				"weight": 2
+			},
+			{
+				"data": "betterend:shadow_forest",
+				"weight": 2
+			},
+			{
+				"data": "betterend:amber_land",
+				"weight": 2
+			},
+			{
+				"data": "betterend:blossoming_spires",
+				"weight": 2
+			},
+			{
+				"data": "betterend:sulphur_springs",
+				"weight": 2
+			},
+			{
+				"data": "betterend:umbrella_jungle",
+				"weight": 2
+			},
+			{
+				"data": "betterend:glowing_grasslands",
+				"weight": 2
+			},
+			{
+				"data": "betterend:dragon_graveyards",
+				"weight": 2
+			},
+			{
+				"data": "betterend:dry_shrubland",
+				"weight": 2
+			},
+			{
+				"data": "betterend:lantern_woods",
+				"weight": 2
+			},
+			{
+				"data": "betterend:neon_oasis",
+				"weight": 2
+			},
+			{
+				"data": "betterend:umbra_valley",
+				"weight": 2
+			},
+			{
+				"data": "betterend:ice_starfield",
+				"weight": 2
 			}
 		]
 	},

@@ -11,6 +11,9 @@
     "megane-modern-industrialization": {
       "badasintended.megane.impl.ModernIndustrialization": true
     },
+    "upc": {
+      "ooo.foooooooooooo.upc.compat.megane.UPCMeganeModule": true
+    },
     "modern_industrialization": {
       "aztech.modern_industrialization.compat.megane.MIMeganeModule": true
     },
@@ -24,6 +27,9 @@
       "badasintended.megane.impl.TeamRebornEnergy": true,
       "badasintended.megane.impl.LegacyTeamRebornEnergy": true
     },
+    "megane-create": {
+      "lol.bai.megane.module.create.MeganeCreate": true
+    },
     "megane-reborn-core": {
       "lol.bai.megane.module.reborncore.MeganeRebornCore": true,
       "badasintended.megane.impl.RebornCore": true
@@ -31,6 +37,9 @@
     "megane-fabric-transfer": {
       "lol.bai.megane.module.fabrictransfer.MeganeFabricTransfer": true,
       "badasintended.megane.impl.FabricTransfer": true
+    },
+    "megane-alloy-forgery": {
+      "lol.bai.megane.module.alloyforgery.MeganeAlloyForgery": true
     },
     "megane-tech-reborn": {
       "lol.bai.megane.module.techreborn.MeganeTechReborn": true,

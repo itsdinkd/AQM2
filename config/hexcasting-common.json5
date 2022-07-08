@@ -1,0 +1,12 @@
+{
+	"Mana Amounts": {
+		// How much mana a single Amethyst Dust item is worth
+		"dustManaAmount": 5000,
+		// How much mana a single Amethyst Shard item is worth
+		"shardManaAmount": 25000,
+		// How much mana a single Charged Amethyst Crystal item is worth
+		"chargedCrystalManaAmount": 50000,
+		// How many points of mana a half-heart is worth when casting from HP
+		"manaToHealthRate": 5000.0
+	}
+}

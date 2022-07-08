@@ -94,6 +94,15 @@
 				goat = true
 				hoglin = true
 				illusioner = true
+				skeleton_horse = true
+				hopper_minecart = true
+				piglin = true
+				magma_cube = true
+				strider = true
+				piglin_brute = true
+				wither_skeleton = true
+				llama_spit = true
+				silverfish = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				badger = true
@@ -132,6 +141,7 @@
 				squid_giant = true
 				squid_colossal = true
 				moose = true
+				badgerdirt = true
 
 			[light_sources.settings.entities.mobz]
 				friend = false
@@ -162,6 +172,14 @@
 				blackbear = true
 				boar2 = true
 				stonegolem = true
+				fiora = true
+				katherine = true
+				pigman = true
+				with = true
+				lavagolem = true
+				skeli3 = true
+				archer = true
+				boss = true
 
 			[light_sources.settings.entities.whisperwoods]
 				moth = true
@@ -196,6 +214,7 @@
 				spiked_ice_slime = true
 				umbrella_slime = true
 				spiked_jungle_slime = true
+				lava_slime = true
 
 			[light_sources.settings.entities.tinyskeletons]
 				baby_skeleton = true
@@ -233,6 +252,7 @@
 				owl = true
 				werewolf = true
 				toad = true
+				hellhound = true
 
 			[light_sources.settings.entities.valley]
 				perch = false
@@ -249,6 +269,40 @@
 				bullets = true
 				motherdemon = true
 				tentacle = true
+				mechazombie = true
+				imp = true
+				prowler = true
+				gargoyle = true
+				arachnotroneternal = true
+				shotgunguy = true
+				stone_imp = true
+				possessed_soldier = true
+				arachnotron = true
+				cueball = true
+				revenant2016 = true
+				possessed_worker = true
+				zombieman = true
+				spectre = true
+				hellknight2016 = true
+				chaingunner = true
+				gore_nest = true
+				revenant = true
+				pinky = true
+				mancubus = true
+				unwilling = true
+				archvile = true
+				summoner = true
+				possessed_scientist = true
+				whiplash = true
+				dreadknight = true
+				spidermastermind2016 = true
+				spidermastermind = true
+				painelemental = true
+				turret = true
+				marauder = true
+				cyberdemon = true
+				doom_hunter = true
+				archvile_firing = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false
@@ -276,6 +330,8 @@
 				nudibranch = true
 				colelytra = true
 				geckotoalizard = true
+				griffon = true
+				ridinglizard = true
 
 			[light_sources.settings.entities.archon]
 				skelt = true
@@ -293,6 +349,7 @@
 				gold = true
 				diamond = true
 				amethyst = true
+				hostile = true
 
 			[light_sources.settings.entities.earthtojavamobs]
 				moolip = true
@@ -306,6 +363,9 @@
 				hills_creeper = true
 				dark_oak_creeper = true
 				bamboo_creeper = true
+				swamp_creeper = true
+				jungle_creeper = true
+				desert_creeper = true
 
 			[light_sources.settings.entities.biomemakeover]
 				moth = true
@@ -366,4 +426,19 @@
 				cube_of_annihilation = true
 				alpha_yeti = true
 				thrown_ice = true
+
+			[light_sources.settings.entities.betternether]
+				hydrogen_jellyfish = true
+				naga = true
+
+			[light_sources.settings.entities.allay]
+				allay = true
+
+			[light_sources.settings.entities.bosses_of_mass_destruction]
+				lich = true
+				void_blossom = true
+
+			[light_sources.settings.entities.halfdoors]
+				door_saw = true
+				tiny_door = true
 

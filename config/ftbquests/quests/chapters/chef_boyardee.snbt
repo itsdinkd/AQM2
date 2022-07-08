@@ -6,6 +6,7 @@
 	title: "Chef Boyardee"
 	icon: "croptopia:cooking_pot"
 	subtitle: ["Cooking Foods, duh"]
+	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -49,6 +50,7 @@
 			y: 0.0d
 			subtitle: "Place the Tortilla on this bad boy"
 			dependencies: ["487E9C2809CBDCFD"]
+			hide: true
 			id: "0BA1106C6BF0CA51"
 			tasks: [{
 				id: "56398259330DA838"
@@ -71,6 +73,7 @@
 				"Then take your tortilla dough, and place it on your Comal. Make sure to put some fuel in your furnace!"
 			]
 			dependencies: ["0BA1106C6BF0CA51"]
+			hide: true
 			id: "275F4112B24C097F"
 			tasks: [{
 				id: "3C4D58704C52E73A"
@@ -92,6 +95,7 @@
 			y: -1.0d
 			subtitle: "Crunch Crunch"
 			dependencies: ["5540C5B32D7A1675"]
+			hide: true
 			id: "506680B4DA94A156"
 			tasks: [{
 				id: "323577A9C523094C"
@@ -109,6 +113,7 @@
 			y: 2.0d
 			subtitle: "Carne Asade?"
 			dependencies: ["275F4112B24C097F"]
+			hide: true
 			id: "38E22FB19BCE3741"
 			tasks: [{
 				id: "42FF75314BEE86A2"
@@ -126,6 +131,7 @@
 			y: 0.0d
 			subtitle: "Yo Quiero Taco Bell"
 			dependencies: ["506680B4DA94A156"]
+			hide: true
 			id: "1815964CD996E094"
 			tasks: [{
 				id: "01DD5578FF07CAC3"
@@ -162,6 +168,7 @@
 			y: 2.0d
 			subtitle: "Double Double with Beef"
 			dependencies: ["275F4112B24C097F"]
+			hide: true
 			id: "74C6DD646287242C"
 			tasks: [{
 				id: "253FE502329214F4"
@@ -190,6 +197,7 @@
 				"You will need to wait \"5\" minutes for this to complete. The dirt will turn into Course Dirt after 5 minutes and you can then go get your Barbacoa in the open pot!"
 			]
 			dependencies: ["5540C5B32D7A1675"]
+			hide: true
 			id: "4864A961FDF425A2"
 			tasks: [
 				{
@@ -225,6 +233,7 @@
 				""
 				"Secondly, after placing the meat down on the Penca, with a open hand, right click it. You will receive a Closed Penca. Make sure you have Two of these. Continue to next quest."
 			]
+			hide: true
 			id: "161E6513AE8B12A3"
 			tasks: [{
 				id: "7002A68B318DC66B"
@@ -242,6 +251,7 @@
 			y: 2.0d
 			subtitle: "Go break that grass/dirt and get that barboca from the pot"
 			dependencies: ["4864A961FDF425A2"]
+			hide: true
 			id: "1BC947F8EE81ED7C"
 			tasks: [{
 				id: "396F1CD2A285A829"
@@ -286,9 +296,75 @@
 			dependencies: ["185FAAA271C6EBB8"]
 			id: "35293E47ABF69AA7"
 			tasks: [{
-				id: "1204C4A319A6DD94"
-				type: "item"
-				item: "sandwichable:bread_slice"
+				id: "30EA1AF3FC4406AA"
+				type: "questsadditions:use"
+				title: "Place Bread on Board and Slice"
+				block: "sandwichable:birch_cutting_board"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "sandwichable:stone_kitchen_knife"
+								tag: {
+									KnifeData: {
+										sharpness: 132
+										maxSharpness: 132
+									}
+								}
+								Count: 1b
+							}
+							{
+								id: "sandwichable:kitchen_knife"
+								tag: {
+									KnifeData: {
+										sharpness: 850
+										maxSharpness: 850
+									}
+								}
+								Count: 1b
+							}
+							{
+								id: "sandwichable:golden_kitchen_knife"
+								tag: {
+									KnifeData: {
+										sharpness: 225
+										maxSharpness: 225
+									}
+								}
+								Count: 1b
+							}
+							{
+								id: "sandwichable:diamond_kitchen_knife"
+								tag: {
+									KnifeData: {
+										sharpness: 1025
+										maxSharpness: 1025
+									}
+								}
+								Count: 1b
+							}
+							{
+								id: "sandwichable:netherite_kitchen_knife"
+								tag: {
+									KnifeData: {
+										sharpness: 1984
+										maxSharpness: 1984
+									}
+								}
+								Count: 1b
+							}
+							{
+								id: "sandwichable:glass_kitchen_knife"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 			rewards: [{
 				id: "43F0BAEB4EED69A7"
@@ -304,16 +380,11 @@
 			description: ["Sandwichable allows you to create custom sandwiches using any food in the game, stacking its food and saturation levels"]
 			id: "7D6A248CFD79203C"
 			tasks: [{
-				id: "289D02EA4AEFF194"
+				id: "09B9F58C96B62832"
 				type: "item"
-				title: "Craft a cutting board"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "sandwichable:cutting_boards"
-					}
-				}
+				title: "Craft Birch Cutting Board"
+				disable_toast: true
+				item: "sandwichable:birch_cutting_board"
 			}]
 			rewards: [{
 				id: "12364C1F44033322"
@@ -322,17 +393,31 @@
 			}]
 		}
 		{
+			title: "Prepare the Bread"
 			x: 7.0d
 			y: -1.5d
-			subtitle: "Use your bread and place it on the cutting board"
+			subtitle: "After obtaining bread, use your bread and place it on the cutting board"
 			description: ["While holding your bread, right click the cutting board"]
 			dependencies: ["69EBFCBEF907744E"]
 			id: "0A3C9C3570180532"
-			tasks: [{
-				id: "3F4DD1D00762B72F"
-				type: "item"
-				item: "minecraft:bread"
-			}]
+			tasks: [
+				{
+					id: "3F4DD1D00762B72F"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:bread"
+				}
+				{
+					id: "0F0B0B42562F5DAB"
+					type: "questsadditions:use"
+					icon: "sandwichable:birch_cutting_board"
+					block: "sandwichable:birch_cutting_board"
+					value: 1L
+					checkItem: true
+					isItemInteraction: false
+					item: "minecraft:bread"
+				}
+			]
 			rewards: [{
 				id: "3F4DA8044C170DF7"
 				type: "item"
@@ -347,12 +432,13 @@
 			dependencies: ["7D6A248CFD79203C"]
 			id: "69EBFCBEF907744E"
 			tasks: [{
-				id: "03C8C315FF5C5EEF"
-				type: "observation"
-				icon: "sandwichable:birch_cutting_board"
-				timer: 0L
-				observe_type: 1
-				to_observe: "sandwichable:cutting_boards"
+				id: "75A314CCF1A3517B"
+				type: "questsadditions:place"
+				disable_toast: true
+				block: "sandwichable:birch_cutting_board"
+				replaced: "minecraft:air"
+				value: 1L
+				replace: false
 			}]
 			rewards: [{
 				id: "3D7D7DCA465C5FCA"
@@ -363,26 +449,74 @@
 		{
 			x: 7.0d
 			y: 0.0d
-			subtitle: "Slice the bread holding your knife"
-			description: ["While holding your knife, right click the bread to slice it up"]
+			subtitle: "Using your newly crafted Sandwichable knife, Slice the bread."
+			description: ["While holding your knife, right click the bread on the cutting board to slice it up"]
 			dependencies: ["0A3C9C3570180532"]
 			id: "185FAAA271C6EBB8"
 			tasks: [{
-				id: "60F716A3199783C6"
+				id: "1C634B8028A4835D"
 				type: "item"
+				title: "Craft Sandwichable Knife"
 				item: {
-					id: "sandwichable:stone_kitchen_knife"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						Count: 1b
-						tag: {
-							value: "sandwichable:metal_items"
-						}
-						id: "itemfilters:tag"
-						KnifeData: {
-							sharpness: 132
-							maxSharpness: 132
-						}
+						items: [
+							{
+								id: "sandwichable:stone_kitchen_knife"
+								Count: 1b
+								tag: {
+									KnifeData: {
+										sharpness: 132
+										maxSharpness: 132
+									}
+								}
+							}
+							{
+								id: "sandwichable:kitchen_knife"
+								Count: 1b
+								tag: {
+									KnifeData: {
+										sharpness: 850
+										maxSharpness: 850
+									}
+								}
+							}
+							{
+								id: "sandwichable:golden_kitchen_knife"
+								Count: 1b
+								tag: {
+									KnifeData: {
+										sharpness: 225
+										maxSharpness: 225
+									}
+								}
+							}
+							{
+								id: "sandwichable:diamond_kitchen_knife"
+								Count: 1b
+								tag: {
+									KnifeData: {
+										sharpness: 1025
+										maxSharpness: 1025
+									}
+								}
+							}
+							{
+								id: "sandwichable:netherite_kitchen_knife"
+								Count: 1b
+								tag: {
+									KnifeData: {
+										sharpness: 1984
+										maxSharpness: 1984
+									}
+								}
+							}
+							{
+								id: "sandwichable:glass_kitchen_knife"
+								Count: 1b
+							}
+						]
 					}
 				}
 			}]
@@ -413,9 +547,18 @@
 			size: 1.5d
 			id: "416CB18E33C58F2F"
 			tasks: [{
-				id: "4B0DB7A8BF7F4FF7"
+				id: "6DED7ED3446AFE04"
+				type: "questsadditions:place"
+				icon: "sandwichable:sandwich_table"
+				block: "sandwichable:sandwich_table"
+				replaced: "minecraft:air"
+				value: 1L
+				replace: false
+			}]
+			rewards: [{
+				id: "4AA6F5E80E11CF85"
 				type: "item"
-				item: "sandwichable:sandwich_table"
+				item: "sandwichable:shrub"
 			}]
 		}
 		{

@@ -6,7 +6,7 @@
     "fire": true,
     "portal": true,
     "block_animations": true,
-    "sculk_sensor": false
+    "sculk_sensor": true
   },
   "particle_settings": {
     "particles": true,
@@ -45,11 +45,11 @@
   },
   "extra_settings": {
     "overlay_corner": "TOP_LEFT",
-    "show_fps": true,
+    "show_fps": false,
     "show_f_p_s_extended": true,
     "show_coords": false,
     "reduce_resolution_on_mac": true,
-    "use_adaptive_sync": true,
+    "use_adaptive_sync": false,
     "cloud_height": 192,
     "toasts": true,
     "instant_sneak": false,
