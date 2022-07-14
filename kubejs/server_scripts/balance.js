@@ -20,7 +20,7 @@ onEvent('recipes', event => {
 // ["minecraft:wheat_seeds","croptopia:corn_seed", "minecraft:wheat_seeds"],
 // ["prefab:item_bundle_of_timber", "prefab:block_compressed_dirt","prefab:item_bundle_of_timber"],
 // ["minecraft:white_wool","minecraft:water_bucket", "minecraft:white_wool"],
-// ]);magehand:mage_hand_copper
+// ]);
 
 event.remove({output: 'quarryplus:marker'})
  event.shaped('quarryplus:marker', ['cQc', ' s '],
@@ -383,6 +383,12 @@ event.remove({ output: "techreborn:" + item + "_boots"});
 
 ///////////////////////////////////
 // Single item in recipe replace //
+
+event.replaceInput(
+  {id: "plantinajar:plant_jar"},
+  "minecraft:iron_ingot",
+  "techreborn:aluminum_ingot"
+)
 
 // Resourceful Tools - Diamond Hammer
 event.replaceInput(

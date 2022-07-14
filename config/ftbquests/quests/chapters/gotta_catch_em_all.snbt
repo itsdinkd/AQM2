@@ -206,7 +206,7 @@
 				id: "2E8050CE3656B4E8"
 				type: "observation"
 				title: "Find a Mega Parrot"
-				icon: "spectrum:parrot_red_head"
+				icon: "plushies:parrot_plushie"
 				timer: 1L
 				observe_type: 5
 				to_observe: "megaparrot:megaparrot"

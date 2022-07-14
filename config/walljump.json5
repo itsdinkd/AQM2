@@ -1,30 +1,36 @@
 {
-	// Allows you to climb up without alternating walls
+	// Classic Wall Jump which allows Crouch, the reason this can't be keybinded is because Fabric doesn't support Multi Mapping.
+	"classicWallJump": false,
+	// Allows you to climb up without alternating walls.
 	"allowReclinging": false,
-	// Automatically turn the player when wall clinging
+	// Automagically turn the player when wall clinging.
 	"autoRotation": false,
 	// Enables Elytra Wall Cling: Clinging to the Wall with Elytra Deployed.
 	"enableElytraWallCling": false,
-	// Elytra speed boost; set to 0.0 to disable
+	// Elytra speed boost; set to 0.0 to disable.
 	"elytraSpeedBoost": 0.0,
-	// Exhaustion gained per wall jump
+	// Exhaustion gained per wall jump.
 	"exhaustionWallJump": 0.9,
-	// Minimum distance for fall damage; set to 3.0 to disable
+	// Minimum distance for fall damage; set to 3.0 to disable.
 	"minFallDistance": 6.0,
-	// Play a rush of wind as you fall to your doom
+	// Play a rush of wind as you fall to your doom.
 	"playFallSound": false,
-	// Sprint speed boost; set to 0.0 to disable
+	// Sprint speed boost; set to 0.0 to disable.
 	"sprintSpeedBoost": 0.0,
-	// Sprint speed boost; set to 0.0 to disable
+	// If you disable Speed Boost, it enables the enchantment automagically, this option disables the enchantment.
 	"enableSpeedBoostEnchantment": false,
-	// Walk up steps even while airborne, also jump over fences
+	// If you disable Wall Jump, it enables the enchantment automagically, this option disables the enchantment.
+	"enableWallJumpEnchantment": false,
+	// If you disable Double Jump, it enables the enchantment automagically, this option disables the enchantment.
+	"enableDoubleJumpEnchantment": false,
+	// Walk up steps even while airborne, also jump over fences.
 	"stepAssist": true,
-	// Allows you to jump in mid-air; will crash your game inside mod menu if you change it there. DO NOT BIND TO SPACE, IF YOU WANT TO USE SPACE, SET CLASSIC DOUBLE JUMP TO TRUE
+	// Allows you to jump in mid-air; will crash your game inside mod menu if you change it there.
 	"useDoubleJump": false,
-	// Allows you to wall cling and wall jump
+	// Allows you to wall cling and wall jump.
 	"useWallJump": true,
 	// Height of Wall Jumps
 	"wallJumpHeight": 0.55,
-	// Ticks wall clinged before starting wall slide
+	// Ticks wall clinged before starting wall slide.
 	"wallSlideDelay": 18
 }

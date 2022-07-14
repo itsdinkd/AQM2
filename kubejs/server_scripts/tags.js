@@ -137,9 +137,9 @@ onEvent('tags.items', event => {
 	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
 	event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
 
-	event.add('grounded_origins:moth/fibrous_foods', '#fabric:grain')
-	event.add('grounded_origins:moth/fibrous_foods', '#minecraft:fox_food')
-	event.add('grounded_origins:moth/fibrous_foods', '#c:fruits')
+	// event.add('grounded_origins:moth/fibrous_foods', '#fabric:grain')
+	// event.add('grounded_origins:moth/fibrous_foods', '#minecraft:fox_food')
+	// event.add('grounded_origins:moth/fibrous_foods', '#c:fruits')
 	event.add('c:redstone_ores','minecraft:redstone_ore')
 	event.add('c:redstone_ores','minecraft:deepslate_redstone_ore')
 	event.add('c:emerald_ores','minecraft:emerald_ore')

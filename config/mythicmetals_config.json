@@ -177,6 +177,10 @@
     "bottom": 38,
     "top": 52,
     "discardChance": 0.25,
+    "veinSizeVariant": 0,
+    "perChunkVariant": 0,
+    "bottomVariant": 0,
+    "topVariant": 0,
     "offset": false,
     "trapezoid": true
   },

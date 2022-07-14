@@ -355,5 +355,23 @@
 				item: "toms_storage:ts.wireless_terminal"
 			}]
 		}
+		{
+			x: 2.0d
+			y: 1.5d
+			subtitle: "The Guide Book"
+			id: "4F9ED5C7F32D873C"
+			tasks: [{
+				id: "2B6E2CF335F3C152"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "extended_drawers:guide"
+					}
+				}
+				only_from_crafting: true
+			}]
+		}
 	]
 }

@@ -26,7 +26,8 @@ onEvent('recipes', event => {
    event.replaceInput({}, "techreborn:ruby_gem", "betternether:nether_ruby");
    event.replaceOutput({}, "techreborn:ruby_gem", "betternether:nether_ruby");
    event.replaceInput({}, "techreborn:ruby_ore", "betternether:nether_ruby_ore");
-   
+   event.shapeless("bewitchment:salt", ['#c:salts']);
+  // event.shapeless("croptopia:rice", ['valley:rice_item']);
   // // rice
   // event.shapeless("croptopia:rice", ['farmersdelight:rice']);
   // event.shapeless("croptopia:rice", ['valley:rice_item']);
@@ -116,6 +117,10 @@ onEvent('recipes', event => {
   event.replaceOutput({}, "bewitchment:raw_silver", "techreborn:raw_silver");
   event.replaceOutput({}, "bewitchment:raw_silver_block", "techreborn:raw_silver_storage_block");
 
+
+// Conflicting Recipes
+  event.remove({id: "modern_industrialization:materials/salt/unpacker/dust"});
+  event.shapeless("bewitchment:salt", ["2x modern_industrialization:salt_dust"]);
 // mcdw:dagger_dagger
 event.remove({output: 'mcdw:dagger_dagger'});
 event.shaped('mcdw:dagger_dagger', [

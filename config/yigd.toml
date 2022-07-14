@@ -15,14 +15,14 @@ soulboundEnchantments = ["yigd:soulbound"]
 voidSlots = []
 soulboundSlots = []
 applyBindingCurse = true
-trySoft = true
-tryStrict = false
+trySoft = false
+tryStrict = true
 replaceWhenClaimed = false
 blacklistDimensions = []
 graveInVoid = true
 ignoreDeathTypes = []
 graveSpawnHeight = 2
-lastResort = "SET_GRAVE"
+lastResort = "DROP_ITEMS"
 putXpInGrave = true
 defaultXpDrop = false
 xpDropPercent = 80
@@ -37,7 +37,7 @@ timeType = "HOURS"
 robPriority = "INVENTORY"
 
 [graveSettings.graveDeletion]
-canDelete = false
+canDelete = true
 afterTime = 48
 timeType = "HOURS"
 dropInventory = true
@@ -52,7 +52,7 @@ lossRangeTo = 5
 percentChanceOfLoss = 100
 
 [graveSettings.blockUnderGrave]
-generateBlockUnder = false
+generateBlockUnder = true
 inOverWorld = "minecraft:cobblestone"
 inNether = "minecraft:soul_soil"
 inTheEnd = "minecraft:end_stone"
@@ -61,7 +61,7 @@ inCustom = "minecraft:dirt"
 [graveSettings.graveCompatConfig]
 levelzXpInGraves = false
 levelzXpDropPercent = 100
-claimRuleOverride = "KEEP_ITEMS"
+claimRuleOverride = "CREATE_GRAVE"
 prioritiseTheGraveyardGraves = false
 graveyardSearchRadius = 10
 
@@ -106,3 +106,6 @@ whitelist = true
 whitelistAdd = true
 whitelistRemove = true
 whitelistToggle = true
+[debugConfig]
+clearInventoryOnRespawn = false
+createGraveBeforeDeathMessage = false

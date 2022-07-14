@@ -12,6 +12,7 @@
     "allowOverweightMandrake": true,
     "allowOverweightGarlic": true,
     "allowOverweightBloodroot": true,
-    "allowOverweightWeeds": true
+    "allowOverweightWeeds": true,
+    "allowOverweightKiwi": true
   }
 }

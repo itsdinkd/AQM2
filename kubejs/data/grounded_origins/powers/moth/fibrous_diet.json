@@ -1,0 +1,103 @@
+{
+    "type": "origins:multiple",
+    "exclusivity": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "grounded_origins:moth/fibrous_foods"
+                    }
+                },
+                {
+                    "type": "origins:food"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "origins:ignore_diet"
+                    }
+                }
+            ]
+        }
+    },
+    "string": {
+        "type": "apugli:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:string"
+            }
+        },
+        "food_component": {
+            "hunger": 2,
+            "saturation": 0.4,
+            "always_edible": true
+        },
+        "use_action": "eat"
+    },
+    "string_recipe": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "grounded_origins:moth/string_from_wool",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "tag": "minecraft:wool"
+                }
+            ],
+            "result": {
+                "item": "minecraft:string"
+            }
+        }
+    },
+    "leather": {
+        "type": "apugli:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:leather"
+            }
+        },
+        "food_component": {
+            "hunger": 4,
+            "saturation": 0.5,
+            "always_edible": true
+        },
+        "use_action": "eat"
+    },
+    "paper": {
+        "type": "apugli:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:paper"
+            }
+        },
+        "food_component": {
+            "hunger": 3,
+            "saturation": 0.4,
+            "always_edible": true
+        },
+        "use_action": "eat"
+    },
+    "book": {
+        "type": "apugli:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:book"
+            }
+        },
+        "food_component": {
+            "hunger": 5,
+            "saturation": 0.6,
+            "always_edible": true
+        },
+        "use_action": "eat"
+    }
+}

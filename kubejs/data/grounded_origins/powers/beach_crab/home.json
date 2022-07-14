@@ -1,0 +1,55 @@
+{
+    "type": "origins:multiple",
+    "buffs": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 300,
+        "duration_per_stack": 10,
+        "effects": [
+            {
+                "effect": "minecraft:resistance",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false,
+                "amplifier": 1
+            },
+            {
+                "effect": "minecraft:strength",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false,
+                "amplifier": 1
+            }
+        ],
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:category",
+                "category": "beach"
+            }
+        }
+    },
+    "nerfs": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -3600,
+        "max_stacks": 300,
+        "duration_per_stack": 10,
+        "effects": [
+            {
+                "effect": "minecraft:weakness",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false,
+                "amplifier": 0
+            }
+        ],
+        "condition": {
+            "inverted": true,
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:category",
+                "category": "beach"
+            }
+        }
+    }
+}

@@ -15,7 +15,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	/* Is BYG's End Biome Source used?
 	   BYG's end biome source will automatically add all known end biomes that specify their biome category as "the_end", see "addAllEndBiomeCategoryEntries" comment.
 	*/
-	"forceBYGEndBiomeSource": true,
+	"forceBYGEndBiomeSource": false,
 	// Biomes that spawn where the large end islands/surface generate.
 	"islandLayer": {
 		"biomeSize": 4,

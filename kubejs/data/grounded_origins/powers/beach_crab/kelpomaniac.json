@@ -1,0 +1,25 @@
+{
+    "type": "apugli:edible_item",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:kelp"
+        }
+    },
+    "food_component": {
+        "hunger": 3,
+        "saturation": 0.3,
+        "always_edible": true,
+        "snack": true
+    },
+    "use_action": "eat",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:conduit_power",
+            "amplifier": 0,
+            "duration": 600,
+            "show_particles": false
+        }
+    }
+}

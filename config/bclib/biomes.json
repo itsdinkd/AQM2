@@ -1,8 +1,8 @@
 {
   "force_include": {
-    "end_land_biomes": [],
+    "end_land_biomes": ["byg:ivis_fields","byg:nightshade_forest","byg:ethereal_islands","byg:bulbis_gardens","byg:shulkren_forest","byg:cryptic_wastes","byg:imparius_grove"],
     "end_void_biomes": [],
-    "nether_biomes": []
+    "nether_biomes": ["byg:weeping_mire","byg:embur_bog","byg:brimstone_caverns","byg:subzero_hypogeal","byg:warped_desert","byg:magma_wastes","byg:quartz_desert","byg:crimson_gardens","byg:glowstone_gardens","byg:sythian_torrids","byg:wailing_garth","byg:arisian_undergrowth"]
   },
   "minecraft": {
     "nether_wastes": {

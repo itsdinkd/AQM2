@@ -1,8 +1,0 @@
-{
-    "hidden": true,
-    "type": "origins:modify_player_spawn",
-    "dimension": "minecraft:overworld",
-    "biome": "minecraft:forest",
-    "spawn_strategy": "default",
-    "dimension_distance_multiplier": 1
-}

@@ -143,6 +143,17 @@
         "value": 10000000
       }
     },
+    "archon:max_mana": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
     "arcanus:burnout_regen": {
       "enabled": false,
       "min": {

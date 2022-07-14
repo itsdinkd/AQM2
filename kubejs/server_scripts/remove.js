@@ -32,6 +32,8 @@ const arrRemove = [
 'byg:lignite_ore',
 'consistency_plus:copper_nugget',
 'create:crushed_zinc_ore',
+"xps:xp_berries",
+"xps:xp_berries_seeds",
 'create:deepslate_zinc_ore',
 'create:raw_zinc',
 'create:raw_zinc_block',
@@ -181,7 +183,12 @@ const arrRemove = [
 'winged:heart_of_the_sky',
 'winged:wing_random',
 'winged:wing_random_creative_flight',
-'createdeco:zinc_sheet'
+'createdeco:zinc_sheet',
+'indrev:rancher_mk1',
+'indrev:rancher_mk2',
+'indrev:rancher_mk3',
+'indrev:rancher_mk4',
+'indrev:rancher_creative'
 ];
 
 const greenhouseColorsRemove =[

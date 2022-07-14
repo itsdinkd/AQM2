@@ -185,7 +185,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	/* Is BYG's Nether Biome Source used?
 	   BYG's nether biome source will automatically add all known nether biomes that specify their biomes in the "minecraft:is_nether" tag, see "addAllNetherBiomeTagEntries" comment.
 	*/
-	"forceBYGNetherBiomeSource": true,
+	"forceBYGNetherBiomeSource": false,
 	"layerSizeInBlocks": 40,
 	/* Biomes that appear at the middle of the nether dimension above the bottom layer.
 	   This layer appears in the y range of: "layer size to (layer size + layer size)".
