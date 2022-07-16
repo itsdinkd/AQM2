@@ -1,0 +1,46 @@
+{
+  "type": "repurposed_structures:buriable_structure",
+  "config": {
+    "start_pool": "repurposed_structures:pyramids/dark_forest",
+    "size": 20,
+    "offset_amount": 0
+  },
+  "biomes": "#repurposed_structures:has_structure/pyramids/dark_forest",
+  "adapt_noise": false,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:zombie",
+          "weight": 100,
+          "minCount": 10,
+          "maxCount": 32
+        },
+        {
+          "type": "minecraft:spider",
+          "weight": 50,
+          "minCount": 5,
+          "maxCount": 15
+        }
+      ]
+    },
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:cat",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:rabbit",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "repurposed_structures:buriable_structure",
+  "config": {
+    "start_pool": "repurposed_structures:pyramids/badlands",
+    "size": 20,
+    "offset_amount": 0
+  },
+  "biomes": "#repurposed_structures:has_structure/pyramids/badlands",
+  "adapt_noise": false,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:husk",
+          "weight": 100,
+          "minCount": 10,
+          "maxCount": 32
+        }
+      ]
+    },
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:cat",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:rabbit",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 4
+        }
+      ]
+    }
+  }
+}
