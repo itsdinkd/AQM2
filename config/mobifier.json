@@ -1,6 +1,24 @@
 {
   "dump_registries": true,
   "mobifier": {
+    "category/monster": [
+      {
+        "drop_death_table": false,
+        "conditions_to_apply": [
+          {
+            "structure_tag_is": [
+              "mostructures:the_castle_in_the_sky"
+            ],
+            "type": "mobifier:inside_structure"
+          }
+        ],
+        "xp_modifier": "*2",
+        "attribute_modifier": {
+          "minecraft:generic.attack_damage": "*3",
+          "minecraft:generic.max_health": "*1.5"
+        }
+      }
+    ],
     "sprout:elephant": [
       {
         "conditions_to_apply": [],
@@ -276,7 +294,7 @@
           "reach-entity-attributes:reach": "*1",
           "additionalentityattributes:water_speed": "*1",
           "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "*1.2",
           "porting_lib:entity_gravity": "*1",
           "reach-entity-attributes:attack_range": "*1",
           "additionalentityattributes:water_visibility": "*1",
@@ -808,7 +826,7 @@
     "doom:gladiator": [
       {
         "conditions_to_apply": [],
-        "xp_modifier": "*1",
+        "xp_modifier": "+8000",
         "attribute_modifier": {
           "minecraft:generic.attack_damage": "*1",
           "additionalentityattributes:lava_speed": "*1",
@@ -818,13 +836,13 @@
           "stepheightentityattribute:stepheight": "*1",
           "additionalentityattributes:lava_visibility": "*1",
           "additionalentityattributes:dig_speed": "*1",
-          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_knockback": "+1",
           "betterend:generic.blindness_resistance": "*1",
-          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor_toughness": "+8",
           "reach-entity-attributes:reach": "*1",
           "additionalentityattributes:water_speed": "*1",
           "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "+8",
           "porting_lib:entity_gravity": "*1",
           "reach-entity-attributes:attack_range": "*1",
           "additionalentityattributes:water_visibility": "*1",
@@ -920,17 +938,18 @@
     "adventurez:void_shadow": [
       {
         "conditions_to_apply": [],
-        "xp_modifier": "*1",
+        "xp_modifier": "+15000",
         "attribute_modifier": {
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_speed": "*1.002",
+          "minecraft:generic.attack_damage": "+40",
           "additionalentityattributes:lava_speed": "*1",
           "additionalentityattributes:critical_bonus_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.05",
           "porting_lib:swim_speed": "*1",
           "stepheightentityattribute:stepheight": "*1",
           "additionalentityattributes:lava_visibility": "*1",
           "additionalentityattributes:dig_speed": "*1",
-          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_knockback": "*1.00255",
           "betterend:generic.blindness_resistance": "*1",
           "minecraft:generic.armor_toughness": "*1",
           "reach-entity-attributes:reach": "*1",
@@ -941,7 +960,7 @@
           "reach-entity-attributes:attack_range": "*1",
           "additionalentityattributes:water_visibility": "*1",
           "minecraft:generic.knockback_resistance": "*1",
-          "minecraft:generic.max_health": "*1"
+          "minecraft:generic.max_health": "+4000"
         }
       }
     ],
@@ -1177,13 +1196,18 @@
     ],
     "minecraft:creeper": [
       {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
+        "conditions_to_apply": [
+          {
+            "chance": 0.2,
+            "type": "mobifier:chance"
+          }
+        ],
+        "xp_modifier": "*1.2",
         "attribute_modifier": {
           "minecraft:generic.attack_damage": "*1",
           "additionalentityattributes:lava_speed": "*1",
           "additionalentityattributes:critical_bonus_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.25",
           "porting_lib:swim_speed": "*1",
           "stepheightentityattribute:stepheight": "*1",
           "additionalentityattributes:lava_visibility": "*1",
@@ -1192,7 +1216,7 @@
           "betterend:generic.blindness_resistance": "*1",
           "minecraft:generic.armor_toughness": "*1",
           "reach-entity-attributes:reach": "*1",
-          "additionalentityattributes:water_speed": "*1",
+          "additionalentityattributes:water_speed": "*1.66",
           "minecraft:generic.follow_range": "*1",
           "minecraft:generic.armor": "*1",
           "porting_lib:entity_gravity": "*1",
@@ -1811,6 +1835,7 @@
         "conditions_to_apply": [],
         "xp_modifier": "*1",
         "attribute_modifier": {
+          "minecraft:generic.attack_damage": "*1.621",
           "additionalentityattributes:lava_speed": "*1",
           "additionalentityattributes:critical_bonus_damage": "*1",
           "minecraft:generic.movement_speed": "*1",
@@ -1820,16 +1845,16 @@
           "additionalentityattributes:dig_speed": "*1",
           "minecraft:generic.attack_knockback": "*1",
           "betterend:generic.blindness_resistance": "*1",
-          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor_toughness": "*1.5",
           "reach-entity-attributes:reach": "*1",
           "additionalentityattributes:water_speed": "*1",
           "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "+15",
           "porting_lib:entity_gravity": "*1",
           "reach-entity-attributes:attack_range": "*1",
           "additionalentityattributes:water_visibility": "*1",
           "minecraft:generic.knockback_resistance": "*1",
-          "minecraft:generic.max_health": "*1"
+          "minecraft:generic.max_health": "+500"
         }
       }
     ],
@@ -9042,7 +9067,7 @@
     "doom:arch_maykr": [
       {
         "conditions_to_apply": [],
-        "xp_modifier": "*1",
+        "xp_modifier": "+14000",
         "attribute_modifier": {
           "minecraft:generic.attack_damage": "*1",
           "additionalentityattributes:lava_speed": "*1",
@@ -9054,12 +9079,12 @@
           "additionalentityattributes:dig_speed": "*1",
           "minecraft:generic.attack_knockback": "*1",
           "betterend:generic.blindness_resistance": "*1",
-          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor_toughness": "+5",
           "reach-entity-attributes:reach": "*1",
           "additionalentityattributes:water_speed": "*1",
           "minecraft:generic.flying_speed": "*1",
           "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "+10",
           "porting_lib:entity_gravity": "*1",
           "reach-entity-attributes:attack_range": "*1",
           "additionalentityattributes:water_visibility": "*1",
@@ -9524,11 +9549,11 @@
           "additionalentityattributes:dig_speed": "*1",
           "minecraft:generic.attack_knockback": "*1",
           "betterend:generic.blindness_resistance": "*1",
-          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor_toughness": "+7",
           "reach-entity-attributes:reach": "*1",
           "additionalentityattributes:water_speed": "*1",
           "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "+6",
           "porting_lib:entity_gravity": "*1",
           "reach-entity-attributes:attack_range": "*1",
           "additionalentityattributes:water_visibility": "*1",
@@ -11158,7 +11183,10 @@
     "doom:gladiator_mace": [
       {
         "conditions_to_apply": [],
-        "xp_modifier": "*1"
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.armor": "+10"
+        }
       }
     ],
     "extragenerators:generator_area_effect_cloud": [
@@ -11694,10 +11722,10 @@
         "conditions_to_apply": [],
         "xp_modifier": "*1",
         "attribute_modifier": {
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_damage": "+11",
           "additionalentityattributes:lava_speed": "*1",
           "additionalentityattributes:critical_bonus_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.005",
           "porting_lib:swim_speed": "*1",
           "stepheightentityattribute:stepheight": "*1",
           "additionalentityattributes:lava_visibility": "*1",
@@ -12399,11 +12427,11 @@
           "additionalentityattributes:dig_speed": "*1",
           "minecraft:generic.attack_knockback": "*1",
           "betterend:generic.blindness_resistance": "*1",
-          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor_toughness": "+8",
           "reach-entity-attributes:reach": "*1",
           "additionalentityattributes:water_speed": "*1",
           "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "*1.5",
           "porting_lib:entity_gravity": "*1",
           "reach-entity-attributes:attack_range": "*1",
           "additionalentityattributes:water_visibility": "*1",
@@ -12839,7 +12867,7 @@
           "additionalentityattributes:water_speed": "*1",
           "minecraft:generic.flying_speed": "*1",
           "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "*1.25",
           "porting_lib:entity_gravity": "*1",
           "reach-entity-attributes:attack_range": "*1",
           "additionalentityattributes:water_visibility": "*1",
@@ -14129,26 +14157,27 @@
         "conditions_to_apply": [],
         "xp_modifier": "*1",
         "attribute_modifier": {
-          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.attack_speed": "*1.005",
+          "minecraft:generic.attack_damage": "+25",
           "additionalentityattributes:lava_speed": "*1",
           "additionalentityattributes:critical_bonus_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
+          "minecraft:generic.movement_speed": "*1.0042599",
           "porting_lib:swim_speed": "*1",
           "stepheightentityattribute:stepheight": "*1",
           "additionalentityattributes:lava_visibility": "*1",
           "additionalentityattributes:dig_speed": "*1",
-          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.attack_knockback": "+0.4",
           "betterend:generic.blindness_resistance": "*1",
-          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.armor_toughness": "+4",
           "reach-entity-attributes:reach": "*1",
           "additionalentityattributes:water_speed": "*1",
           "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
+          "minecraft:generic.armor": "+10",
           "porting_lib:entity_gravity": "*1",
           "reach-entity-attributes:attack_range": "*1",
           "additionalentityattributes:water_visibility": "*1",
-          "minecraft:generic.knockback_resistance": "*1",
-          "minecraft:generic.max_health": "*1"
+          "minecraft:generic.knockback_resistance": "+0.6",
+          "minecraft:generic.max_health": "+15"
         }
       }
     ],
@@ -14502,7 +14531,10 @@
     "adventurez:void_bullet": [
       {
         "conditions_to_apply": [],
-        "xp_modifier": "*1"
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.attack_damage": "*2.4"
+        }
       }
     ],
     "spectrum:block_flooder_projectile": [
