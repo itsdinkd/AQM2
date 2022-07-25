@@ -4,30 +4,30 @@
 # The path to the main modpack folder. (the same folder as the mods folder is in)
 # Running the modpack uploader from the main modpack folder: ("$PSScriptRoot" | Resolve-Path)
 # Running the modpacker uploader from a subfolder: ("$PSScriptRoot/.." | Resolve-Path)
-$INSTANCE_ROOT = ("$PSScriptRoot" | Resolve-Path)
+$INSTANCE_ROOT = ("$PSScriptRoot/.." | Resolve-Path)
 
 # =====================================================================//
 #  CURSEFORGE ACCOUNT SETTINGS
 # =====================================================================//
 
-$CURSEFORGE_USER = "MyCurseForgeUsername"
+$CURSEFORGE_USER = "BusterBrown99"
 
 # For details see: https://www.curseforge.com/account/api-tokens
 # Defined in secrets.ps1 
 # $CURSEFORGE_TOKEN = 
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 123456
+$CURSEFORGE_PROJECT_ID = 643419
 
 # =====================================================================//
 #  MAIN MODPACK SETTINGS
 # =====================================================================//
 
 # This is the modpack name as seen in it's CurseForge url: https://www.curseforge.com/minecraft/modpacks/[enigmatica6]
-$MODPACK_NAME = "MyModpack"
+$MODPACK_NAME = "another-quality-testing-pack"
 
 # Name of the Modpack in the ZIP File
-$CLIENT_NAME = "MyModpack"
+$CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
 $MODPACK_VERSION = "1.0.1"
@@ -35,12 +35,12 @@ $MODPACK_VERSION = "1.0.1"
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "1.0.0"
+$LAST_MODPACK_VERSION = "$null"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
 # default: "forge"
-$MODLOADER = "forge"
+$MODLOADER = "fabric"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -62,10 +62,10 @@ $CLIENT_CHANGELOG = "The Changelog is currently being written."
 # @(6756) - is Minecraft 1.12.2
 # @(8203) - is Minecraft 1.16.5
 # More can be found by running GetGameVersions
-$GAME_VERSIONS = @(8203)
+$GAME_VERSIONS = @(9008)
 
 # Can be "alpha", "beta" or "release"
-$CLIENT_RELEASE_TYPE = "beta"
+$CLIENT_RELEASE_TYPE = "release"
 
 #=====================================================================//
 #  DEPENDENCIES
@@ -75,20 +75,24 @@ $CLIENT_RELEASE_TYPE = "beta"
 $CHANGELOG_GENERATOR_JAR = "ChangelogGenerator-2.0.0-pre10.jar"
 
 # File name of the latest https://github.com/MelanX/ModListCreator/releases
-$MODLIST_CREATOR_JAR = "ModListCreator-2.0.1.jar"
+$MODLIST_CREATOR_JAR = "ModListCreator-3.0.1-fatjar.jar"
 
 #=====================================================================//
 #  CLIENT FILE SETTINGS
 #=====================================================================//
 
-$CLIENT_FILE_AUTHOR = "MyName"
+$CLIENT_FILE_AUTHOR = "itsDinkd"
 
 $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
+    "bg",
     "config",
     "defaultconfigs",
+    "emotes",
     "kubejs",
-    "local",
-    "packmenu")
+    "paintings",
+    "shaderpacks",
+    "servers.dat"
+)
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @()
 
@@ -123,7 +127,7 @@ $ENABLE_SERVER_FILE_MODULE = $true
 # This will update the "modpackUrl" in the file found at $SERVER_SETUP_CONFIG_PATH
 # to point to your newly created client files on the CurseForge CDN.
 # Default: $false
-$ENABLE_SERVERSTARTER_MODULE = $false
+$ENABLE_SERVERSTARTER_MODULE = $true
 
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
@@ -166,7 +170,7 @@ $CLIENT_ZIP_NAME = "$CLIENT_NAME-$MODPACK_VERSION"
 $LAST_MODPACK_ZIP_NAME = "$CLIENT_NAME-$LAST_MODPACK_VERSION"
 
 # Default: "$CLIENT_NAME $MODPACK_VERSION"
-$CLIENT_FILE_DISPLAY_NAME = "MyModpack $MODPACK_VERSION"
+$CLIENT_FILE_DISPLAY_NAME = "$CLIENT_NAME $MODPACK_VERSION"
 
 # Can be "markdown", "text" or "html"
 # Default: $CLIENT_CHANGELOG_TYPE
@@ -184,4 +188,4 @@ $SERVER_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 $SERVER_ZIP_NAME = "$CLIENT_NAME`Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
-$SERVER_FILE_DISPLAY_NAME = "MyModpack Server $MODPACK_VERSION"
+$SERVER_FILE_DISPLAY_NAME = "$CLIENT_NAME Server $MODPACK_VERSION"
