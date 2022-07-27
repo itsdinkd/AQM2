@@ -89,13 +89,13 @@ key_modifiers_key.craftingtweaks.refill_last_stack:0,0,0
 key_modifiers_key.crawl:0,0,0
 key_modifiers_create.keyinfo.toolmenu:0,0,0
 key_modifiers_create.keyinfo.toolbelt:0,0,0
-key_modifiers_key.craftpresence.config_keycode.name:0,0,0
 key_modifiers_key.dankstorage.construction:0,0,0
 key_modifiers_key.dankstorage.lock_slot:0,0,0
 key_modifiers_key.dankstorage.pickup_mode:0,0,0
 key_modifiers_key.deathlog.death_screen:0,0,0
 key_modifiers_key.dml-refabricated.teleport:0,0,0
 key_modifiers_key.dml-refabricated.soul_vision:0,0,0
+key_modifiers_key.craftpresence.config_keycode.name:0,0,0
 key_modifiers_key.doom.reload:0,0,0
 key_modifiers_key.doom.yeethook:0,0,0
 key_modifiers_key.entityculling.toggle:0,0,0
@@ -123,7 +123,9 @@ key_modifiers_key.inventoryhud.togglearm:0,0,0
 key_modifiers_key.inventoryhud.toggleall:0,0,0
 key_modifiers_key.justenoughkeys.dropstack:0,0,0
 key_modifiers_key.lightoverlay.enable_overlay:0,0,0
+key_modifiers_keybind.luggage.whistle:0,0,0
 key_modifiers_key.mcda.firetrail.toggle:0,0,0
+key_modifiers_key.mobhealthbar.chooser:0,0,0
 key_modifiers_key.modern_industrialization.activate:0,0,0
 key_modifiers_key.modmenu.open_menu:0,0,0
 key_modifiers_key.mtmechs.primary:0,0,0

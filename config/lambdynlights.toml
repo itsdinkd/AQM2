@@ -180,6 +180,8 @@
 				skeli3 = true
 				archer = true
 				boss = true
+				illusioner = true
+				knight5 = true
 
 			[light_sources.settings.entities.whisperwoods]
 				moth = true
@@ -219,6 +221,7 @@
 			[light_sources.settings.entities.tinyskeletons]
 				baby_skeleton = true
 				baby_stray = true
+				baby_wither_skeleton = true
 
 			[light_sources.settings.entities.adventurez]
 				amethyst_golem = true
@@ -441,4 +444,12 @@
 			[light_sources.settings.entities.halfdoors]
 				door_saw = true
 				tiny_door = true
+
+			[light_sources.settings.entities.luggage]
+				luggage = true
+
+			[light_sources.settings.entities.hoverpets]
+				enderman_pet = true
+				cow_pet = true
+				ocelot_pet = true
 

@@ -1,0 +1,10 @@
+{
+  "loot_table": "minecraft:chests/underwater_ruin_big",
+  "max_result_itemcount": 15,
+  "integrated_loot_tables": {
+    "dungeons_enhanced:castle_spring": 6,
+    "dungeons_plus:chests/warped_garden/common": 3,
+    "dungeons_arise:chests/illager_galley/illager_galley_treasure": 9,
+    "dungeons_arise:chests/typhon/typhon_treasure": 9
+  }
+}

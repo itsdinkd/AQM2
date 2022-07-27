@@ -1,0 +1,45 @@
+{
+	id: "0FD562C5EE2EA038"
+	order_index: 8
+	title: "Common"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_ingot", count: 2, random_bonus: 2 }
+		{ item: "minecraft:gold_ingot", count: 2, random_bonus: 1 }
+		{ item: "minecraft:diamond", random_bonus: 1 }
+		{
+			item: {
+				id: "minecraft:lingering_potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_strength"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+		}
+		{ item: "gobber2:gobber2_gooey_bread", count: 2 }
+		{ item: "minecraft:bread", count: 9 }
+		{ item: "farmersdelight:roasted_mutton_chops", random_bonus: 1 }
+		{ item: "croparia:croparia" }
+		{ item: "botania:mana_diamond", random_bonus: 1 }
+		{ item: "gobber2:gobber2_foo", random_bonus: 1 }
+		{ item: "valley:fox_food", random_bonus: 2 }
+	]
+}

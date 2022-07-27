@@ -252,6 +252,12 @@
 				type: "item"
 				item: "toms_storage:ts.inventory_connector"
 			}]
+			rewards: [{
+				id: "7D64F578EBA6D290"
+				type: "item"
+				item: "toms_storage:ts.inventory_cable"
+				count: 3
+			}]
 		}
 		{
 			x: 4.5d
@@ -371,6 +377,277 @@
 					}
 				}
 				only_from_crafting: true
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			subtitle: "Ultimate Storage Tool"
+			description: [
+				"Holds X amount of items in limited slots. You can hold for example 512 Cobblestone in one slot. once crafted, hold in hand, and right click to open menu. "
+				""
+				"Place the item you want to automatically pick up in one of the slots. You can set to Void, Pickup, Place. If you set keybinds, you can place whatever is in slots down in the world"
+				""
+			]
+			dependencies: ["135CCA336BE0DDCF"]
+			id: "186209E3E9F3CADB"
+			tasks: [{
+				id: "71B565485697B6BB"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+			rewards: [
+				{
+					id: "3DE19D6990141AD3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "76077AD751F780DE"
+					type: "item"
+					item: "minecraft:black_concrete"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			subtitle: "Go Bigger"
+			dependencies: ["186209E3E9F3CADB"]
+			id: "3D078876EAAB0542"
+			tasks: [{
+				id: "1A67645FAFF2FE06"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+			rewards: [{
+				id: "5B774280A3A59DCE"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			subtitle: "Stack Size increased / Slots increased"
+			dependencies: ["3D078876EAAB0542"]
+			id: "44C62E09F4773DCE"
+			tasks: [{
+				id: "39E62C8BB4109CBE"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+			rewards: [{
+				id: "515C89AD22720F2C"
+				type: "xp"
+				xp: 33
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["44C62E09F4773DCE"]
+			id: "553280D50AD9105B"
+			tasks: [{
+				id: "7CF76ABD546E3730"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+			rewards: [{
+				id: "346F91957F90C5D9"
+				type: "random"
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			dependencies: ["553280D50AD9105B"]
+			id: "3C16C20F3CBDF7BD"
+			tasks: [{
+				id: "1DE1FC164B6970F1"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+			rewards: [{
+				id: "1332B6347D690D27"
+				type: "random"
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.0d
+			dependencies: ["3C16C20F3CBDF7BD"]
+			id: "3554021E2D3428F3"
+			tasks: [{
+				id: "7E3CA161103C99A0"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+			rewards: [{
+				id: "06C87A0976667735"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.0d
+			dependencies: ["3554021E2D3428F3"]
+			id: "6603D116A8A48286"
+			tasks: [{
+				id: "669B4024F1FAC953"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+			rewards: [{
+				id: "605CE0888B8FE8E7"
+				type: "random"
+				table_id: 707184499980441339L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			subtitle: "The Dank Chest"
+			description: [
+				"Place your dank in your dock to have it act as a chest storage"
+				""
+				"You can upgrade these as well using the Dank Upgrader. Place the dank in the dock, use the upgrader on the dank by looking at it"
+			]
+			dependencies: ["186209E3E9F3CADB"]
+			id: "2E971F267FFA3EAB"
+			tasks: [{
+				id: "239E30863B1601D5"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+			rewards: [{
+				id: "6EC3A4A11289FF7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			subtitle: "Upgrade Dank in Dock"
+			dependencies: ["2E971F267FFA3EAB"]
+			id: "5F3909664BA6EBFE"
+			tasks: [{
+				id: "33DA033452F8311B"
+				type: "item"
+				item: "dankstorage:1_to_2"
+			}]
+			rewards: [{
+				id: "415D62FADA3E9317"
+				type: "item"
+				item: "bewitchment:garlic_bread"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["5F3909664BA6EBFE"]
+			id: "590AD41DC1A2AC54"
+			tasks: [{
+				id: "5C84BBD5F855276E"
+				type: "item"
+				item: "dankstorage:2_to_3"
+			}]
+			rewards: [{
+				id: "20F95FAF3B3358BD"
+				type: "item"
+				item: "minecraft:iron_ore"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			dependencies: ["590AD41DC1A2AC54"]
+			id: "642B86F018B6B1F6"
+			tasks: [{
+				id: "1B8B131155BED4A0"
+				type: "item"
+				item: "dankstorage:3_to_4"
+			}]
+			rewards: [{
+				id: "036F793129245A47"
+				type: "random"
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			dependencies: ["642B86F018B6B1F6"]
+			id: "7907CD686C5A4D59"
+			tasks: [{
+				id: "6B92F04145BA5692"
+				type: "item"
+				item: "dankstorage:4_to_5"
+			}]
+			rewards: [{
+				id: "396C55643BD738EA"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.0d
+			dependencies: ["7907CD686C5A4D59"]
+			id: "39CA4155BD211689"
+			tasks: [{
+				id: "40A2249FB877D28E"
+				type: "item"
+				item: "dankstorage:5_to_6"
+			}]
+			rewards: [{
+				id: "58C94B7645FA336F"
+				type: "random"
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			dependencies: ["39CA4155BD211689"]
+			id: "273F8B1ECECEBC1A"
+			tasks: [{
+				id: "53A8ECEFC1C1FA97"
+				type: "item"
+				item: "dankstorage:6_to_7"
+			}]
+			rewards: [{
+				id: "1659C7A3BC21DE39"
+				type: "random"
+				table_id: 28493754319576071L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			subtitle: "The best companion one can have, the true UHaul"
+			description: ["This guy here will follow you throughout the world and pick up any item that is near you. "]
+			size: 2.0d
+			id: "516BFF00696F10B3"
+			tasks: [{
+				id: "4869B0AB08B12983"
+				type: "item"
+				item: {
+					id: "luggage:luggage"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "35015819EDB2D391"
+				type: "item"
+				item: "minecraft:emerald"
 			}]
 		}
 	]

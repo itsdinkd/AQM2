@@ -1,0 +1,148 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:prismarine",
+              "price": 14,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:sea_lantern",
+                "count": 1
+              },
+              "price": 2,
+              "count": 4,
+              "maxUses": 16,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:prismarine_bricks",
+              "price": 14,
+              "maxUses": 16,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:sponge",
+                "count": 1
+              },
+              "price": 4,
+              "count": 2,
+              "maxUses": 16,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:dark_prismarine",
+              "price": 12,
+              "maxUses": 16,
+              "experience": 20,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "price": 13,
+              "structure": "minecraft:on_treasure_maps",
+              "nameKey": "filled_map.buried_treasure",
+              "iconType": "RED_X",
+              "maxUses": 12,
+              "experience": 10,
+              "type": "SellMapFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:nautilus_shell",
+                "count": 1
+              },
+              "price": 3,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:prismarine_crystals",
+                "count": 1
+              },
+              "price": 8,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:trident",
+                "count": 1,
+                "tag": "{Damage:0}"
+              },
+              "price": 32,
+              "count": 1,
+              "maxUses": 2,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

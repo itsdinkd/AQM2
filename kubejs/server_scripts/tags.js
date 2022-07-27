@@ -35,6 +35,7 @@
 		"techreborn:uu_matter",
 		"ae2:cell_component_64k",
 		"mobz:boss_ingot",
+		"minecraft:command_block",
 		"modern_industrialization:quantum_circuit"
 	];
 

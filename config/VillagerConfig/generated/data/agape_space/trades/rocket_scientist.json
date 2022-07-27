@@ -1,0 +1,178 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:shard_power",
+              "price": 1,
+              "maxUses": 32,
+              "experience": 4,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:gunpowder",
+                "count": 1
+              },
+              "price": 1,
+              "count": 4,
+              "maxUses": 8,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:aluminum_ingot",
+              "price": 1,
+              "maxUses": 32,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:launch_solution_mars",
+                "count": 1
+              },
+              "price": 32,
+              "count": 1,
+              "maxUses": 1,
+              "experience": 8,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:shard_cold",
+              "price": 1,
+              "maxUses": 32,
+              "experience": 4,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:launch_solution_ganymede",
+                "count": 1
+              },
+              "price": 32,
+              "count": 1,
+              "maxUses": 1,
+              "experience": 8,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:scrap_isotope",
+              "price": 1,
+              "maxUses": 32,
+              "experience": 4,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:launch_solution_mercury",
+                "count": 1
+              },
+              "price": 32,
+              "count": 1,
+              "maxUses": 1,
+              "experience": 8,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:token_green",
+              "price": 1,
+              "maxUses": 32,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:launch_solution_titan",
+                "count": 1
+              },
+              "price": 64,
+              "count": 1,
+              "maxUses": 1,
+              "experience": 8,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:launch_solution_europa",
+                "count": 1
+              },
+              "price": 64,
+              "count": 1,
+              "maxUses": 1,
+              "experience": 8,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:launch_solution_io",
+                "count": 1
+              },
+              "price": 64,
+              "count": 1,
+              "maxUses": 1,
+              "experience": 8,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

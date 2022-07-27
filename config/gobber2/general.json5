@@ -30,7 +30,8 @@
 	"ringMinerRange": 4,
 	"ringMinerVerticalRange": 5,
 	"ringMinerSharedBreaking": false,
-	"ringMinerDelayedBreak": false,
+	"ringMinerSharedBreakingDelay": true,
+	"ringMinerInstantBreak": false,
 	"ringRepairInterval": 180,
 	"ringStrengthLevel": 2,
 	"ringStrengthResistenceLevel": 1,
@@ -75,6 +76,7 @@
 	"staffClearingVertRange": 3,
 	"staffClearingCooldown": 180,
 	"staffSniperCooldown": 200,
+	"staffSniperQuickUseAllowed": false,
 	"staffFarmerHorizRange": 12,
 	"staffFarmerVertRange": 6,
 	"staffFarmerInterval": 180,
@@ -88,6 +90,7 @@
 	   ***********************
 	*/
 	"swordSniperCooldoown": 140,
+	"swordSniperQuickUseAllowed": false,
 	"enableEndHammer5x5": true,
 	"enableEndExcavator5x5": true,
 	"enableNetherSwordPerks": true,

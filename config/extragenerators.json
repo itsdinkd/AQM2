@@ -1,6 +1,6 @@
 {
   "thermoelectricGenerator": {
-    "output": 32,
+    "output": 28,
     "storage": 16000
   },
   "burnableGenerator": {
@@ -28,7 +28,7 @@
     "storage": 32000
   },
   "steamGenerator": {
-    "output": 64,
+    "output": 56,
     "storage": 32000
   },
   "gluttonyGenerator": {

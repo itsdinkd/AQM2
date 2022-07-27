@@ -1,0 +1,146 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "archon:earth_gem",
+              "price": 3,
+              "maxUses": 64,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "archon:mana_berries",
+                "count": 1
+              },
+              "price": 2,
+              "count": 2,
+              "maxUses": 40,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "archon:sky_gem",
+              "price": 3,
+              "maxUses": 64,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "experience": 5,
+              "type": "WizardEnchantBookFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "archon:water_gem",
+              "price": 3,
+              "maxUses": 64,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "archon:lightning_bottle",
+                "count": 1
+              },
+              "price": 13,
+              "count": 1,
+              "maxUses": 16,
+              "experience": 8,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "archon:fire_gem",
+              "price": 3,
+              "maxUses": 64,
+              "experience": 4,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "archon:capacity_scroll",
+                "count": 1
+              },
+              "price": 60,
+              "count": 1,
+              "maxUses": 3,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "archon:end_gem",
+              "price": 3,
+              "maxUses": 64,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "archon:accelerate_scroll",
+                "count": 1
+              },
+              "price": 60,
+              "count": 1,
+              "maxUses": 3,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

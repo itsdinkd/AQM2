@@ -1,0 +1,42 @@
+{
+  "id": "tiered:lucky",
+  "verifiers": [
+    {
+      "tag": "c:pickaxes"
+    },
+    {
+      "tag": "c:shovels"
+    },
+    {
+      "tag": "c:axes"
+    }
+  ],
+  "weight": 1,
+  "style": {
+    "color": "green"
+  },
+  "attributes": [
+    {
+      "type": "tiered:generic.dig_speed",
+      "modifier": {
+        "name": "tiered:lucky",
+        "operation": "MULTIPLY_TOTAL",
+        "amount": 0.10
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "minecraft:generic.luck",
+      "modifier": {
+        "name": "tiered:lucky",
+        "operation": "ADDITION",
+        "amount": 1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

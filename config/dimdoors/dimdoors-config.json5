@@ -1,6 +1,6 @@
 {
 	"general": {
-		"teleportOffset": 0.0,
+		"teleportOffset": 10.0,
 		"riftBoundingBoxInCreative": false,
 		"riftCloseSpeed": 0.01,
 		"riftGrowthSpeed": 1.0,

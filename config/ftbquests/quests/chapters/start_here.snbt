@@ -261,9 +261,9 @@
 			}]
 		}
 		{
-			title: "Carry Things"
-			x: 5.5d
-			y: 1.0d
+			title: "Carry Things (TEMPORARILY REMOVED)"
+			x: 0.0d
+			y: -0.5d
 			subtitle: "With a Carrier Glove, you can move lots of different blocks"
 			description: [
 				"With a Carrier Glove, you can move lots of different blocks like Crafting Tables, Expanded Storages, Cables, Smithing Tables, and so much more (NO Spawners or Vanilla Chests)"
@@ -538,7 +538,7 @@
 			}]
 		}
 		{
-			title: "Moar Space"
+			title: "Moar Space (Unlocks Questline)"
 			x: 4.0d
 			y: 3.5d
 			subtitle: "With all the Mining you will be doing a dank is a great way to hold the blocks you mine."
@@ -604,74 +604,17 @@
 			}]
 		}
 		{
-			title: "Mining Dimensions"
-			icon: "spectrum:end_portal_cracker"
-			x: 7.0d
-			y: 47.5d
-			subtitle: "We have 4 dimensions that you can visit to mine, hunt, climb, or cave (weird). "
-			description: [
-				"Mining Dimension:"
-				"A dimension with two biomes (desert and plains) and is always noon; same ores and structures as Overworld; Made by crafting the Mining Portal Block and using these blocks to build the frame. Light with portal lighter "
-				""
-				"Caving Dimension:"
-				"A safe haven dimension of Mushroom biome caves; same ores as Overworld; Made by crafting the Caving Portal Blocks and using these blocks to build the frame. Light with portal lighter ;"
-				""
-				"Climbing Dimension:"
-				"A dimensions with two biomes (badlands and wind-swept hills) and is always noon; same ores and structures as Overworld; Made by crafting the Climbing Portal Block and using these blocks to build the frame. Light with portal lighter ."
-				""
-				"Hunting Dimension:"
-				"A dimension with just plains, always dark, and full of juiced up, armored mobs; only vanilla ores; Made by crafting the Hunting Portal Block and using these blocks to build the frame. Light with portal lighter; seriously, the mobs are tough and you will likely die!"
-				"However, you get good loot from slaying those mobs."
-			]
-			secret: true
-			id: "7E27FCFA8A163F34"
-			tasks: [
-				{
-					id: "1BBD77438CA10D7D"
-					type: "dimension"
-					dimension: "mining_dims:mining_dim"
-				}
-				{
-					id: "0B619480978757F4"
-					type: "dimension"
-					dimension: "mining_dims:caving_dim"
-				}
-				{
-					id: "6F16EEBEFD4CB46C"
-					type: "dimension"
-					dimension: "mining_dims:climbing_dim"
-				}
-				{
-					id: "0E180EB35C171125"
-					type: "dimension"
-					dimension: "mining_dims:hunting_dim"
-				}
-			]
-			rewards: [{
-				id: "76C3DB86D83E02D0"
-				type: "random"
-				title: "Random Weapon Reward"
-				icon: {
-					id: "magicfungi:impetus_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				table_id: 707184499980441339L
-			}]
-		}
-		{
 			title: "Free House!"
 			icon: "prefab:item_start_house"
-			x: 0.0d
-			y: -0.5d
+			x: 0.8d
+			y: 7.2d
 			subtitle: "Introducing... Prefab Structures"
 			description: [
 				"Your first Prefab structure is on us. PS: Do yourself a favor and if youre in a server, do not build next to spawn :)"
 				""
 				"Be sure to view all the @prefab structures that are available, you can build an amazing base with two clicks."
 			]
+			size: 1.6d
 			secret: true
 			id: "580922BEFEDA9C42"
 			tasks: [
@@ -922,14 +865,15 @@
 		}
 		{
 			title: "Why are Vanilla Mobs Hard?"
-			x: 6.0d
-			y: 6.5d
+			x: 6.050000000000004d
+			y: 7.242857142857147d
 			subtitle: "What's going on?"
 			description: [
 				"By now you realized vanilla zombies run faster, creepers are charged and do not stop, and also several vanilla mobs are attacking villagers.."
 				""
 				"This is due to Totally Enough Pain, a mod that vamps up difficulty. Zombies have a chance to break doors, Ghasts have a larger explosion, and more. Good luck!"
 			]
+			size: 1.75d
 			secret: true
 			id: "504D27355350A1E6"
 			tasks: [
@@ -953,7 +897,7 @@
 			title: "Hookshots!"
 			x: 4.5d
 			y: 1.5d
-			subtitle: "Netherecssity"
+			subtitle: "Netheressity"
 			description: [
 				"Stackable Upgrades using Smithing Table"
 				""
@@ -1235,7 +1179,38 @@
 			tasks: [{
 				id: "7EBA7BF3AF4019DC"
 				type: "item"
+				title: "Pure Mining Dimension"
+				disable_toast: true
 				item: "spectrum:end_portal_cracker"
+			}]
+		}
+		{
+			title: "Respawnable Pets"
+			x: 5.5d
+			y: 1.0d
+			subtitle: "Using this gem on your pet will allow it to respawn"
+			id: "014910E4CBF7157C"
+			tasks: [{
+				id: "4F7C0DF1727DA7AA"
+				type: "item"
+				item: "respawnablepets:etheric_gem"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Funko Pops!"
+			description: ["Convert a villager into a Funko Pop villager that sells Mine Pops"]
+			id: "75974D9C410B0EED"
+			tasks: [{
+				id: "38F66AD175AECC97"
+				type: "item"
+				item: "xxxx:minepop_seller"
+			}]
+			rewards: [{
+				id: "3093E52821627EB2"
+				type: "item"
+				item: "xxxx:minepop_itachi"
 			}]
 		}
 	]

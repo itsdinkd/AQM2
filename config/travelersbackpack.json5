@@ -1,5 +1,5 @@
 {
-	"disableCrafting": false,
+	"disableCrafting": true,
 	// Enables wearing backpack directly from ground
 	"enableBackpackBlockQuickEquip": true,
 	// Enables backpacks spawning in loot chests

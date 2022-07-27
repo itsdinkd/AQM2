@@ -386,7 +386,7 @@
 				id: "2313771DCE9AD3D8"
 				type: "item"
 				item: "ae2:printed_silicon"
-				count: 8
+				count: 2
 			}]
 		}
 		{
@@ -607,7 +607,7 @@
 				id: "47775B51C467E881"
 				type: "item"
 				item: "ae2:fluix_crystal"
-				count: 8
+				count: 4
 			}]
 		}
 		{
@@ -717,12 +717,6 @@
 				type: "item"
 				item: "ae2:speed_card"
 			}]
-			rewards: [{
-				id: "586FD1B22B9684E7"
-				type: "item"
-				item: "ae2:advanced_card"
-				count: 2
-			}]
 		}
 		{
 			title: "Powwa"
@@ -741,13 +735,13 @@
 					id: "37434AEE9717F514"
 					type: "item"
 					item: "ae2:fluix_crystal"
-					count: 4
+					count: 2
 				}
 				{
 					id: "4795E7BEC51D0467"
 					type: "item"
 					item: "ae2:certus_quartz_crystal"
-					count: 4
+					count: 2
 				}
 			]
 		}
@@ -772,13 +766,13 @@
 					id: "636FEAEC610C3675"
 					type: "item"
 					item: "ae2:fluix_crystal"
-					count: 4
+					count: 2
 				}
 				{
 					id: "3F1E31E3C2A15715"
 					type: "item"
 					item: "ae2:certus_quartz_crystal"
-					count: 4
+					count: 2
 				}
 			]
 		}
@@ -997,7 +991,6 @@
 				id: "153A8020F2EE67E0"
 				type: "item"
 				item: "ae2:advanced_card"
-				count: 2
 			}]
 		}
 		{
@@ -1213,12 +1206,12 @@
 				id: "3AA34F0CB186DCF5"
 				type: "item"
 				item: "ae2:basic_card"
+				consume_items: true
 			}]
 			rewards: [{
 				id: "19719E5A2C3D227A"
 				type: "item"
 				item: "ae2:basic_card"
-				count: 2
 			}]
 		}
 		{
@@ -1232,12 +1225,6 @@
 				type: "item"
 				item: "ae2:crafting_card"
 			}]
-			rewards: [{
-				id: "26F4AD98C9C69423"
-				type: "item"
-				item: "ae2:basic_card"
-				count: 2
-			}]
 		}
 		{
 			x: 8.0d
@@ -1249,12 +1236,6 @@
 				id: "2232D0C7D8F93693"
 				type: "item"
 				item: "ae2:redstone_card"
-			}]
-			rewards: [{
-				id: "09CDA02E9BCAD385"
-				type: "item"
-				item: "ae2:basic_card"
-				count: 2
 			}]
 		}
 		{
@@ -1268,12 +1249,6 @@
 				type: "item"
 				item: "ae2:capacity_card"
 			}]
-			rewards: [{
-				id: "61F8ABC6BF28CAD8"
-				type: "item"
-				item: "ae2:basic_card"
-				count: 2
-			}]
 		}
 		{
 			x: 4.0d
@@ -1286,12 +1261,6 @@
 				type: "item"
 				item: "ae2:fuzzy_card"
 			}]
-			rewards: [{
-				id: "5CC26BF05005F1AB"
-				type: "item"
-				item: "ae2:advanced_card"
-				count: 2
-			}]
 		}
 		{
 			x: 3.0d
@@ -1303,12 +1272,6 @@
 				id: "25C93E98D93FF1EA"
 				type: "item"
 				item: "ae2:energy_card"
-			}]
-			rewards: [{
-				id: "5D5470C7CDF98A17"
-				type: "item"
-				item: "ae2:advanced_card"
-				count: 2
 			}]
 		}
 		{
@@ -1442,7 +1405,7 @@
 		}
 		{
 			x: -4.5d
-			y: -3.0d
+			y: -3.5d
 			subtitle: "Transfer power wirelessly - Quest coming soon"
 			dependencies: ["2B5A3FAEFD45FF1C"]
 			hide_text_until_complete: false
@@ -1458,6 +1421,7 @@
 			y: 1.5d
 			subtitle: "A better portable pocket dimension"
 			dependencies: ["1CA75D7D445EFFDF"]
+			hide: true
 			id: "25C2ECB313ABAA62"
 			tasks: [{
 				id: "0E16C0892C6BA174"
@@ -1482,6 +1446,7 @@
 			subtitle: "Your own pocket dimension"
 			description: ["Hint: Build a base inside of it, or a storage, or a farm. the options are limitless"]
 			dependencies: ["239ECC2B7F3A3AD8"]
+			hide: true
 			id: "1CA75D7D445EFFDF"
 			tasks: [{
 				id: "1AB79CF8FFAE99AD"
@@ -1497,8 +1462,8 @@
 		{
 			title: "???"
 			icon: "dimdoors:monolith_spawner"
-			x: -8.5d
-			y: 3.0d
+			x: -10.0d
+			y: 1.5d
 			subtitle: "You'll randomly unlock this"
 			description: [
 				"You may ask yourself how you exit..."
@@ -1506,7 +1471,6 @@
 				"Beat a monolith or find the liquid and jump in it"
 			]
 			hide: true
-			hide_text_until_complete: true
 			secret: true
 			id: "239ECC2B7F3A3AD8"
 			tasks: [
@@ -1539,11 +1503,12 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 1.5d
+			x: -10.0d
+			y: 2.5d
 			subtitle: "Stop that Rift!"
 			description: ["When you see a rift, you can use the rift remover to close it. Closing a rift is a smart as it will stop the spread of unstable fabric"]
-			dependencies: ["25C2ECB313ABAA62"]
+			dependencies: ["239ECC2B7F3A3AD8"]
+			hide: true
 			id: "1CBAE85D6CEDCC7C"
 			tasks: [{
 				id: "670D1873F6D801A0"
@@ -1644,6 +1609,338 @@
 				id: "41CCBFDB37829652"
 				type: "item"
 				item: "hyperlighting:light_blue_colored_glowing_water_bucket"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 7.0d
+			description: [
+				"You can also input/output the machine block to other machines outside of the compact dimension. Each compact machine tier offers larger sizes. "
+				""
+				"Use the Personal Shrinking Device on the machine to teleport to the Compact Dimension of the machine"
+			]
+			dependencies: ["1608A7D764B07277"]
+			id: "4387560D82D9DA91"
+			tasks: [{
+				id: "48489BC0431382F9"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+			rewards: [{
+				id: "4A22D96B979B33BF"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 7.0d
+			dependencies: ["4387560D82D9DA91"]
+			id: "07AC63277A2681D3"
+			tasks: [{
+				id: "249D09DE06B6268E"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+			rewards: [{
+				id: "057F2C74039284B9"
+				type: "item"
+				item: "kibe:wither_proof_glass"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			dependencies: ["07AC63277A2681D3"]
+			id: "10B28CE34FB331F7"
+			tasks: [{
+				id: "122639A871EE05C1"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+			rewards: [{
+				id: "709799D2E9E5C264"
+				type: "item"
+				item: "farmersdelight:smoked_ham"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.5d
+			dependencies: ["10B28CE34FB331F7"]
+			id: "0A5B3157B97578D6"
+			tasks: [{
+				id: "1A1B552C129D84F4"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 8.5d
+			dependencies: ["0A5B3157B97578D6"]
+			id: "1F265BBD16C4EC9E"
+			tasks: [{
+				id: "78FFF2AA68D11A49"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 8.5d
+			subtitle: "Well worth it"
+			dependencies: ["1F265BBD16C4EC9E"]
+			id: "7EAF9F74436A4C2F"
+			tasks: [{
+				id: "2501D08705FCCC43"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 5.5d
+			dependencies: ["4387560D82D9DA91"]
+			id: "7152023471C62546"
+			tasks: [{
+				id: "376ACE3E4DF46181"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 7.0d
+			dependencies: ["4387560D82D9DA91"]
+			id: "4705DA3D631CD9B2"
+			tasks: [{
+				id: "6950637C3F17F9D6"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:item"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 8.5d
+			dependencies: ["4387560D82D9DA91"]
+			id: "5D24913B073ED9CE"
+			tasks: [{
+				id: "05794CBE2969E817"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:fluid"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 10.0d
+			dependencies: ["4387560D82D9DA91"]
+			id: "7A2077BAB882E929"
+			tasks: [{
+				id: "1BDEDE36EF47D535"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:energy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 12.5d
+			subtitle: "Early Stage Power"
+			id: "4FFC268637249F04"
+			tasks: [{
+				id: "4DC431BBFD744A54"
+				type: "item"
+				item: "extragenerators:thermoelectric_generator"
+			}]
+			rewards: [{
+				id: "3E72B1398C2F9B7E"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 14.5d
+			subtitle: "Grab a bucket and get your infinite lava"
+			description: ["Holding your bucket out, right click the spring to fill up the bucket with lava. You can then use this lava bucket with the generator"]
+			dependencies: ["4FFC268637249F04"]
+			id: "1A3A8818DA57B23B"
+			tasks: [{
+				id: "7E0B3178B50483FB"
+				type: "item"
+				item: "resourceful_tools:lavaspring"
+			}]
+			rewards: [{
+				id: "507C59E50418618E"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			subtitle: "Use AE2 Energy with Botania!"
+			description: ["Mana P2P tunnels can be made by right clicking any Botania item on a P2P tunnel. Mana can then instantly travel through to any outputs, such as a Mana pool, Runic Altar, Terrasteel Agglomeration Plate or anything else!"]
+			dependencies: ["7EF3EEE918C70377"]
+			id: "1CD9FBB6F96CAB6F"
+			tasks: [{
+				id: "529559B1E931AF85"
+				type: "item"
+				item: "appbot:mana_p2p_tunnel"
+			}]
+		}
+		{
+			title: "UPC: Tech Reborn to MI Energy"
+			x: 0.0d
+			y: 9.0d
+			subtitle: "Convert Tech Reborn energy to be used with Modern Industrialization"
+			description: [
+				"To use"
+				""
+				"Place down your UPC block. One side should have Tech Reborn (Or Industrial Revolution) cables to either by Sending to UPC, or Receiving from UPC. The other side should have Modern Industrialization Cables sending or receiving energy to or from the UPC block."
+				"This works on a 1:1 ratio"
+				""
+				"You can also send/receive Industrial Revolution to Modern Industrialization using UPC"
+			]
+			size: 2.0d
+			id: "3C52A743A479C3A4"
+			tasks: [{
+				id: "618D4ABB667E4A90"
+				type: "item"
+				item: "upc:upc"
+			}]
+			rewards: [{
+				id: "2243B500D6A6A79B"
+				type: "item"
+				item: "upc:upc"
+			}]
+		}
+		{
+			title: "Fast Augment Pipes"
+			x: -0.5d
+			y: 12.5d
+			subtitle: "Fluid and Item Pipes by Modern Dynamics (Similar to Thermal Dynamics)"
+			description: [
+				"highly augmentable. In REI, look at Used Recipes for either of the three items received from this quest. You can use add these augments to increase speed, max slots, transfer rates of fluids, and more."
+				""
+				"Use a Wrench to Configure Pipes"
+			]
+			id: "31FEC2EC81A2D729"
+			tasks: [
+				{
+					id: "0B62585B52523BCD"
+					type: "item"
+					item: "moderndynamics:item_pipe"
+				}
+				{
+					id: "461278DF0258D1BD"
+					type: "item"
+					item: "moderndynamics:fluid_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "7ED5A10E32EBE331"
+					type: "item"
+					item: "moderndynamics:attractor"
+				}
+				{
+					id: "20C53F9F8EB32084"
+					type: "item"
+					item: "moderndynamics:extractor"
+				}
+				{
+					id: "0BEFE4227E9D2090"
+					type: "item"
+					item: "moderndynamics:filter"
+				}
+			]
+		}
+		{
+			title: "Create Powerful Compact Machines"
+			x: -8.5d
+			y: 5.5d
+			subtitle: "Build your machines in a compact dimension (To complete: Submit the soot in the task)"
+			description: [
+				"To convert redstone into redstone soot, place a block of coal down, hold out the redstone, and left click the coal. each left click will convert redstone into redstone soot."
+				""
+				"Once you have 9 Redstone Soot's, Turn them into this quest by clicking the Redstone Soot task and clicking Submit"
+			]
+			id: "3202E121B821C163"
+			tasks: [{
+				id: "7A0B5106EE1891DE"
+				type: "item"
+				item: "dml-refabricated:soot_redstone"
+				count: 9L
+				consume_items: true
+				only_from_crafting: false
+			}]
+			rewards: [
+				{
+					id: "5A9A4EA503359106"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "467B68EA32F96722"
+					type: "item"
+					item: "dml-refabricated:soot_redstone"
+					count: 9
+				}
+			]
+		}
+		{
+			title: "Create Coolant"
+			x: -7.0d
+			y: 5.5d
+			subtitle: "Use Fluid Infuser MK1 with Water and Lapis"
+			description: ["Input 1000mb of Water, Add a Lapis. Export the Coolant (preferably into another fluid infuser)"]
+			dependencies: ["3202E121B821C163"]
+			id: "499B15FC9C4ACFC0"
+			tasks: [{
+				id: "450363B11B7032F8"
+				type: "questsadditions:use"
+				icon: "indrev:fluid_infuser_mk1"
+				block: "indrev:fluid_infuser_mk1"
+				value: 1L
+				checkItem: false
+				isItemInteraction: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			subtitle: "Infuse the Coolant with Soot to create this wall"
+			dependencies: ["499B15FC9C4ACFC0"]
+			id: "1608A7D764B07277"
+			tasks: [{
+				id: "472B5CE507F6FECC"
+				type: "item"
+				item: "compactmachines:wall"
 			}]
 		}
 	]

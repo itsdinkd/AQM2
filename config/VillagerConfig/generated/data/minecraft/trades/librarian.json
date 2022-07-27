@@ -1,0 +1,177 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:paper",
+              "price": 24,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "experience": 1,
+              "type": "EnchantBookFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:bookshelf",
+                "count": 1
+              },
+              "price": 9,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:book",
+              "price": 4,
+              "maxUses": 12,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "experience": 5,
+              "type": "EnchantBookFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:lantern",
+                "count": 1
+              },
+              "price": 1,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:ink_sac",
+              "price": 5,
+              "maxUses": 12,
+              "experience": 20,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "experience": 10,
+              "type": "EnchantBookFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:glass",
+                "count": 1
+              },
+              "price": 1,
+              "count": 4,
+              "maxUses": 12,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:writable_book",
+              "price": 2,
+              "maxUses": 12,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "experience": 15,
+              "type": "EnchantBookFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:clock",
+                "count": 1
+              },
+              "price": 5,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:compass",
+                "count": 1
+              },
+              "price": 4,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:name_tag",
+                "count": 1
+              },
+              "price": 20,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "type": "BackpackVillagerTrade"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

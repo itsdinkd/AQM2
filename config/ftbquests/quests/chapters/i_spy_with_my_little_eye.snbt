@@ -12,8 +12,8 @@
 		{
 			title: "Travel to the Nether"
 			icon: "additionaladditions:mysterious_bundle"
-			x: 0.5d
-			y: 2.0d
+			x: 2.5d
+			y: 0.0d
 			subtitle: "Its time to visit Hell to progress further. Good luck, its hard as hell."
 			id: "051C81A88B70C303"
 			tasks: [{
@@ -29,11 +29,10 @@
 		}
 		{
 			title: "Visit The Better Stronghold"
-			x: -0.5d
-			y: 2.0d
+			x: 0.5d
+			y: 0.0d
 			subtitle: "It's Better"
 			description: ["You can find lots here, including Arcanus spell books in the libraries"]
-			optional: true
 			id: "21789090F6D9D027"
 			tasks: [{
 				id: "57420B926B45C780"
@@ -55,7 +54,7 @@
 		}
 		{
 			x: -1.5d
-			y: 2.0d
+			y: 0.0d
 			subtitle: "You will come across a rare Mushroom"
 			id: "085D054DC0BA2696"
 			tasks: [{
@@ -74,7 +73,7 @@
 		{
 			title: "Visit Forgotten Forest"
 			x: -1.5d
-			y: 3.0d
+			y: 1.5d
 			subtitle: "It's beautiful at night"
 			id: "6DA08A9E3135D056"
 			tasks: [{
@@ -100,6 +99,49 @@
 					item: "byg:green_enchanted_sapling"
 				}
 			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			subtitle: "An improved desert temple thanks to Better Desert Temples"
+			description: ["This gigantic new structure has traps, loots, and scary mobs. Can you loot it all?"]
+			id: "2B4A869598C3C703"
+			tasks: [{
+				id: "13B875DFDC0817BE"
+				type: "structure"
+				title: "Find Desert Temple"
+				icon: "prefab:item_magic_temple"
+				structure: "betterdeserttemples:desert_temple"
+			}]
+			rewards: [{
+				id: "66C0125F76B3DB24"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "Can you kill the killer bunny?"
+			id: "3D2478E46ED4D56E"
+			tasks: [{
+				id: "0440088B2033AC43"
+				type: "structure"
+				title: "Find the Killer Bunny Castle"
+				icon: "givemehats:bunny_ears"
+				structure: "mostructures:killer_bunny_castle"
+			}]
+			rewards: [{
+				id: "694986F142AAEF4E"
+				type: "item"
+				item: "gobber2:gobber2_gooey_bread_nether"
+			}]
 		}
 	]
 }

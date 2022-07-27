@@ -1,0 +1,147 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:coal",
+              "price": 15,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:iron_axe",
+                "count": 1,
+                "tag": "{Damage:0}"
+              },
+              "price": 3,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 1,
+              "multiplier": 0.2,
+              "type": "SellItemFactory"
+            },
+            {
+              "tool": {
+                "id": "minecraft:iron_sword",
+                "count": 1,
+                "tag": "{Damage:0}"
+              },
+              "basePrice": 2,
+              "maxUses": 3,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellEnchantedToolFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:iron_ingot",
+              "price": 4,
+              "maxUses": 12,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:bell",
+                "count": 1
+              },
+              "price": 36,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 5,
+              "multiplier": 0.2,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:flint",
+              "price": 24,
+              "maxUses": 12,
+              "experience": 20,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:diamond",
+              "price": 1,
+              "maxUses": 12,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "tool": {
+                "id": "minecraft:diamond_axe",
+                "count": 1,
+                "tag": "{Damage:0}"
+              },
+              "basePrice": 12,
+              "maxUses": 3,
+              "experience": 15,
+              "multiplier": 0.2,
+              "type": "SellEnchantedToolFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "tool": {
+                "id": "minecraft:diamond_sword",
+                "count": 1,
+                "tag": "{Damage:0}"
+              },
+              "basePrice": 8,
+              "maxUses": 3,
+              "experience": 30,
+              "multiplier": 0.2,
+              "type": "SellEnchantedToolFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

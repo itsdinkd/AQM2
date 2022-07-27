@@ -1,0 +1,1269 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "type": "ModRegistries$$Lambda$18290/0x0000000802d759e8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18291/0x0000000802d75c00"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18292/0x0000000802d75e18"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18293/0x0000000802d76030"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18294/0x0000000802d76248"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18295/0x0000000802d76460"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18296/0x0000000802d76678"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18297/0x0000000802d76890"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18298/0x0000000802d76aa8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18299/0x0000000802d76cc0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18300/0x0000000802d76ed8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18301/0x0000000802d770f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18302/0x0000000802d77308"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18303/0x0000000802d77520"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18304/0x0000000802d77738"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18305/0x0000000802d77950"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18306/0x0000000802d77b68"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18307/0x0000000802d77d80"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18308/0x0000000802d78000"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18309/0x0000000802d78218"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18310/0x0000000802d78430"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18311/0x0000000802d78648"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18312/0x0000000802d78860"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18313/0x0000000802d78a78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18314/0x0000000802d78c90"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18315/0x0000000802d78ea8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18316/0x0000000802d790c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18317/0x0000000802d792d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18318/0x0000000802d794f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18319/0x0000000802d79708"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18320/0x0000000802d79920"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18321/0x0000000802d79b38"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18322/0x0000000802d79d50"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18323/0x0000000802d79f68"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18324/0x0000000802d7a180"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18325/0x0000000802d7a398"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18326/0x0000000802d7a5b0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18327/0x0000000802d7a7c8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18328/0x0000000802d7a9e0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18329/0x0000000802d7abf8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18330/0x0000000802d7ae10"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18331/0x0000000802d7b028"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18332/0x0000000802d7b240"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18333/0x0000000802d7b458"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18334/0x0000000802d7b670"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18335/0x0000000802d7b888"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18336/0x0000000802d7baa0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18337/0x0000000802d7bcb8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18338/0x0000000802d7bed0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18339/0x0000000802d7c0e8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18340/0x0000000802d7c300"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18341/0x0000000802d7c518"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18342/0x0000000802d7c730"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18343/0x0000000802d7c948"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18344/0x0000000802d7cb60"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18345/0x0000000802d7cd78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18346/0x0000000802d7cf90"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18347/0x0000000802d7d1a8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18348/0x0000000802d7d3c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18349/0x0000000802d7d5d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18350/0x0000000802d7d7f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18351/0x0000000802d7da08"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18352/0x0000000802d7dc20"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18353/0x0000000802d7de38"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18354/0x0000000802d7e050"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18355/0x0000000802d7e268"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18356/0x0000000802d7e480"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18357/0x0000000802d7e698"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18358/0x0000000802d7e8b0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18359/0x0000000802d7eac8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18360/0x0000000802d7ece0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18361/0x0000000802d7eef8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18362/0x0000000802d7f110"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18363/0x0000000802d7f328"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18364/0x0000000802d7f540"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18365/0x0000000802d7f758"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18366/0x0000000802d7f970"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18367/0x0000000802d7fb88"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18368/0x0000000802d7fda0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18369/0x0000000802d80000"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18370/0x0000000802d80218"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "type": "ModRegistries$$Lambda$18372/0x0000000802d80658"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18373/0x0000000802d80870"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18374/0x0000000802d80a88"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18375/0x0000000802d80ca0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18376/0x0000000802d80eb8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18377/0x0000000802d810d0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18378/0x0000000802d812e8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18379/0x0000000802d81500"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18380/0x0000000802d81718"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18381/0x0000000802d81930"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18382/0x0000000802d81b48"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18383/0x0000000802d81d60"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18384/0x0000000802d81f78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18385/0x0000000802d82190"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18386/0x0000000802d823a8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18387/0x0000000802d825c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18388/0x0000000802d827d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18389/0x0000000802d829f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18390/0x0000000802d82c08"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18391/0x0000000802d82e20"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18392/0x0000000802d83038"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18393/0x0000000802d83250"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18394/0x0000000802d83468"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18395/0x0000000802d83680"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18396/0x0000000802d83898"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18397/0x0000000802d83ab0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18398/0x0000000802d83cc8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18399/0x0000000802d83ee0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18400/0x0000000802d840f8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18401/0x0000000802d84310"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18402/0x0000000802d84528"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18403/0x0000000802d84740"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18404/0x0000000802d84958"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18405/0x0000000802d84b70"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18406/0x0000000802d84d88"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18407/0x0000000802d84fa0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18408/0x0000000802d851b8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18409/0x0000000802d853d0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18410/0x0000000802d855e8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18411/0x0000000802d85800"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18412/0x0000000802d85a18"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18413/0x0000000802d85c30"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18414/0x0000000802d85e48"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18415/0x0000000802d86060"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18416/0x0000000802d86278"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18417/0x0000000802d86490"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18418/0x0000000802d866a8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18419/0x0000000802d868c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18420/0x0000000802d86ad8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18421/0x0000000802d86cf0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18422/0x0000000802d86f08"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18423/0x0000000802d87120"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18424/0x0000000802d87338"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18425/0x0000000802d87550"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18426/0x0000000802d87768"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18427/0x0000000802d87980"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18428/0x0000000802d87b98"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18429/0x0000000802d87db0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18430/0x0000000802d88000"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18431/0x0000000802d88218"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18432/0x0000000802d88430"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18433/0x0000000802d88648"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18434/0x0000000802d88860"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18435/0x0000000802d88a78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18436/0x0000000802d88c90"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18437/0x0000000802d88ea8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18438/0x0000000802d890c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18439/0x0000000802d892d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18440/0x0000000802d894f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18441/0x0000000802d89708"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18442/0x0000000802d89920"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18443/0x0000000802d89b38"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18444/0x0000000802d89d50"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18445/0x0000000802d89f68"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18446/0x0000000802d8a180"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18447/0x0000000802d8a398"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18448/0x0000000802d8a5b0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18449/0x0000000802d8a7c8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18450/0x0000000802d8a9e0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18451/0x0000000802d8abf8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18452/0x0000000802d8ae10"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "type": "ModRegistries$$Lambda$18454/0x0000000802d8b250"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18455/0x0000000802d8b468"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18456/0x0000000802d8b680"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18457/0x0000000802d8b898"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18458/0x0000000802d8bab0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18459/0x0000000802d8bcc8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18460/0x0000000802d8bee0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18461/0x0000000802d8c0f8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18462/0x0000000802d8c310"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18463/0x0000000802d8c528"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18464/0x0000000802d8c740"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18465/0x0000000802d8c958"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18466/0x0000000802d8cb70"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18467/0x0000000802d8cd88"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18468/0x0000000802d8cfa0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18469/0x0000000802d8d1b8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18470/0x0000000802d8d3d0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18471/0x0000000802d8d5e8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18472/0x0000000802d8d800"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18473/0x0000000802d8da18"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18474/0x0000000802d8dc30"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18475/0x0000000802d8de48"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18476/0x0000000802d8e060"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18477/0x0000000802d8e278"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18478/0x0000000802d8e490"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18479/0x0000000802d8e6a8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18480/0x0000000802d8e8c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18481/0x0000000802d8ead8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18482/0x0000000802d8ecf0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18483/0x0000000802d8ef08"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18484/0x0000000802d8f120"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18485/0x0000000802d8f338"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18486/0x0000000802d8f550"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18487/0x0000000802d8f768"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18488/0x0000000802d8f980"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18489/0x0000000802d8fb98"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18490/0x0000000802d8fdb0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18491/0x0000000802d90000"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18492/0x0000000802d90218"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18493/0x0000000802d90430"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18494/0x0000000802d90648"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18495/0x0000000802d90860"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18496/0x0000000802d90a78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18497/0x0000000802d90c90"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18498/0x0000000802d90ea8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18499/0x0000000802d910c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18500/0x0000000802d912d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18501/0x0000000802d914f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18502/0x0000000802d91708"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18503/0x0000000802d91920"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18504/0x0000000802d91b38"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18505/0x0000000802d91d50"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18506/0x0000000802d91f68"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18507/0x0000000802d92180"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18508/0x0000000802d92398"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18509/0x0000000802d925b0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18510/0x0000000802d927c8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18511/0x0000000802d929e0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18512/0x0000000802d92bf8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18513/0x0000000802d92e10"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18514/0x0000000802d93028"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18515/0x0000000802d93240"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18516/0x0000000802d93458"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18517/0x0000000802d93670"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18518/0x0000000802d93888"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18519/0x0000000802d93aa0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18520/0x0000000802d93cb8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18521/0x0000000802d93ed0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18522/0x0000000802d940e8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18523/0x0000000802d94300"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18524/0x0000000802d94518"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18525/0x0000000802d94730"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18526/0x0000000802d94948"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18527/0x0000000802d94b60"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18528/0x0000000802d94d78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18529/0x0000000802d94f90"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18530/0x0000000802d951a8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18531/0x0000000802d953c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18532/0x0000000802d955d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18533/0x0000000802d957f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18534/0x0000000802d95a08"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "type": "ModRegistries$$Lambda$18536/0x0000000802d95e48"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18537/0x0000000802d96060"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18538/0x0000000802d96278"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18539/0x0000000802d96490"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18540/0x0000000802d966a8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18541/0x0000000802d968c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18542/0x0000000802d96ad8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18543/0x0000000802d96cf0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18544/0x0000000802d96f08"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18545/0x0000000802d97120"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18546/0x0000000802d97338"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18547/0x0000000802d97550"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18548/0x0000000802d97768"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18549/0x0000000802d97980"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18550/0x0000000802d97b98"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18551/0x0000000802d97db0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18552/0x0000000802d98000"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18553/0x0000000802d98218"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18554/0x0000000802d98430"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18555/0x0000000802d98648"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18556/0x0000000802d98860"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18557/0x0000000802d98a78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18558/0x0000000802d98c90"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18559/0x0000000802d98ea8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18560/0x0000000802d990c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18561/0x0000000802d992d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18562/0x0000000802d994f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18563/0x0000000802d99708"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18564/0x0000000802d99920"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18565/0x0000000802d99b38"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18566/0x0000000802d99d50"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18567/0x0000000802d99f68"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18568/0x0000000802d9a180"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18569/0x0000000802d9a398"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18570/0x0000000802d9a5b0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18571/0x0000000802d9a7c8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18572/0x0000000802d9a9e0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18573/0x0000000802d9abf8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18574/0x0000000802d9ae10"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18575/0x0000000802d9b028"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18576/0x0000000802d9b240"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18577/0x0000000802d9b458"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18578/0x0000000802d9b670"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18579/0x0000000802d9b888"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18580/0x0000000802d9baa0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18581/0x0000000802d9bcb8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18582/0x0000000802d9bed0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18583/0x0000000802d9c0e8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18584/0x0000000802d9c300"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18585/0x0000000802d9c518"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18586/0x0000000802d9c730"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18587/0x0000000802d9c948"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18588/0x0000000802d9cb60"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18589/0x0000000802d9cd78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18590/0x0000000802d9cf90"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18591/0x0000000802d9d1a8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18592/0x0000000802d9d3c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18593/0x0000000802d9d5d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18594/0x0000000802d9d7f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18595/0x0000000802d9da08"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18596/0x0000000802d9dc20"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18597/0x0000000802d9de38"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18598/0x0000000802d9e050"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18599/0x0000000802d9e268"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18600/0x0000000802d9e480"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18601/0x0000000802d9e698"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18602/0x0000000802d9e8b0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18603/0x0000000802d9eac8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18604/0x0000000802d9ece0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18605/0x0000000802d9eef8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18606/0x0000000802d9f110"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18607/0x0000000802d9f328"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18608/0x0000000802d9f540"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18609/0x0000000802d9f758"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18610/0x0000000802d9f970"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18611/0x0000000802d9fb88"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18612/0x0000000802d9fda0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18613/0x0000000802da0000"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18614/0x0000000802da0218"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18615/0x0000000802da0430"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18616/0x0000000802da0648"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "type": "ModRegistries$$Lambda$18618/0x0000000802da0a88"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18619/0x0000000802da0ca0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18620/0x0000000802da0eb8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18621/0x0000000802da10d0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18622/0x0000000802da12e8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18623/0x0000000802da1500"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18624/0x0000000802da1718"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18625/0x0000000802da1930"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18626/0x0000000802da1b48"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18627/0x0000000802da1d60"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18628/0x0000000802da1f78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18629/0x0000000802da2190"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18630/0x0000000802da23a8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18631/0x0000000802da25c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18632/0x0000000802da27d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18633/0x0000000802da29f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18634/0x0000000802da2c08"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18635/0x0000000802da2e20"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18636/0x0000000802da3038"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18637/0x0000000802da3250"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18638/0x0000000802da3468"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18639/0x0000000802da3680"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18640/0x0000000802da3898"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18641/0x0000000802da3ab0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18642/0x0000000802da3cc8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18643/0x0000000802da3ee0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18644/0x0000000802da40f8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18645/0x0000000802da4310"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18646/0x0000000802da4528"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18647/0x0000000802da4740"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18648/0x0000000802da4958"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18649/0x0000000802da4b70"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18650/0x0000000802da4d88"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18651/0x0000000802da4fa0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18652/0x0000000802da51b8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18653/0x0000000802da53d0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18654/0x0000000802da55e8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18655/0x0000000802da5800"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18656/0x0000000802da5a18"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18657/0x0000000802da5c30"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18658/0x0000000802da5e48"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18659/0x0000000802da6060"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18660/0x0000000802da6278"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18661/0x0000000802da6490"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18662/0x0000000802da66a8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18663/0x0000000802da68c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18664/0x0000000802da6ad8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18665/0x0000000802da6cf0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18666/0x0000000802da6f08"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18667/0x0000000802da7120"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18668/0x0000000802da7338"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18669/0x0000000802da7550"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18670/0x0000000802da7768"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18671/0x0000000802da7980"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18672/0x0000000802da7b98"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18673/0x0000000802da7db0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18674/0x0000000802da8000"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18675/0x0000000802da8218"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18676/0x0000000802da8430"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18677/0x0000000802da8648"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18678/0x0000000802da8860"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18679/0x0000000802da8a78"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18680/0x0000000802da8c90"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18681/0x0000000802da8ea8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18682/0x0000000802da90c0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18683/0x0000000802da92d8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18684/0x0000000802da94f0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18685/0x0000000802da9708"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18686/0x0000000802da9920"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18687/0x0000000802da9b38"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18688/0x0000000802da9d50"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18689/0x0000000802da9f68"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18690/0x0000000802daa180"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18691/0x0000000802daa398"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18692/0x0000000802daa5b0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18693/0x0000000802daa7c8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18694/0x0000000802daa9e0"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18695/0x0000000802daabf8"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18696/0x0000000802daae10"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18697/0x0000000802dab028"
+            },
+            {
+              "type": "ModRegistries$$Lambda$18698/0x0000000802dab240"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

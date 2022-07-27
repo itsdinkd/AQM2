@@ -39,7 +39,7 @@
       "modifier": {
         "name": "tiered:rare",
         "operation": "ADDITION",
-        "amount": 3
+        "amount": 2
       },
       "optional_equipment_slots": [
         "MAINHAND",

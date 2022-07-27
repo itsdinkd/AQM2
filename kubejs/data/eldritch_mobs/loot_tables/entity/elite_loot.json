@@ -73,65 +73,6 @@
         },
         {
           "type": "item",
-          "name": "minecraft:iron_sword",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "sharpness",
-                "smite",
-                "bane_of_arthropods",
-                "fire_aspect",
-                "knockback",
-                "sweeping"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_shovel",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "efficiency"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_pickaxe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "efficiency"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_axe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "sharpness",
-                "fire_aspect",
-                "efficiency"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
           "name": "minecraft:golden_sword",
           "weight": 1,
           "functions": [
@@ -182,21 +123,29 @@
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:golden_axe",
+          "type": "minecraft:tag",
           "weight": 1,
-          "functions": [
+          "name": "aqm2:mcdw/weapons",
+          "expand": true,
+          "conditions": [
             {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "sharpness",
-                "fire_aspect",
-                "efficiency"
-              ]
+              "condition": "minecraft:killed_by_player",
+              "inverse": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 1,
+          "name": "aqm2:mcdw/bows",
+          "expand": true,
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player",
+              "inverse": false
             }
           ]
         }
-
       ]
     }
   ]

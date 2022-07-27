@@ -20,7 +20,7 @@
     "foeColorSecondary": "#800000"
   },
   "inWorld": {
-    "mode": "ALWAYS",
+    "mode": "NONE",
     "distance": 40.0,
     "onlyWhenLookingAt": false,
     "onlyWhenHurt": false

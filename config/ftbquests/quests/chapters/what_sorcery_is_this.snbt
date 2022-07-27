@@ -90,7 +90,7 @@
 			]
 		}
 		{
-			title: "You're First Mana"
+			title: "Your First Mana"
 			icon: "botania:mana_pool"
 			x: 2.0d
 			y: 1.5d
@@ -302,6 +302,27 @@
 						"patchouli:book": "hexcasting:thehexbook"
 					}
 				}
+			}]
+		}
+		{
+			title: "Mana P2P Tunnel for AE2 and Botania"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "You read that right (More advanced path)"
+			description: [
+				"Mana P2P tunnels can be made by right clicking any Botania item on a P2P tunnel. Mana can then instantly travel through to any outputs, such as a Mana pool, Runic Altar, Terrasteel Agglomeration Plate or anything else!"
+				""
+				"A spark can also be placed on the input of a Mana P2P tunnel, allowing an insane amount of mana throughput with a dominant spark augment and multiple pools!"
+			]
+			dependencies: [
+				"7EF3EEE918C70377"
+				"604D32742D49C830"
+			]
+			id: "6D1DE8DCAD44CAFD"
+			tasks: [{
+				id: "752810A5B97C1C38"
+				type: "item"
+				item: "appbot:mana_p2p_tunnel"
 			}]
 		}
 	]

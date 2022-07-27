@@ -268,6 +268,7 @@
 				"41C779652CECD439"
 				"7C7BC4EA5064A19D"
 			]
+			secret: true
 			id: "6792627CC301D588"
 			tasks: [{
 				id: "78E33EBF45979113"
@@ -284,7 +285,7 @@
 			x: -5.0d
 			y: -3.0d
 			subtitle: "Find them throughout the world in chests"
-			description: ["They grant you permanent abilities while equipped"]
+			description: ["They grant you abilities while equipped"]
 			id: "5D16AA79E6DD1302"
 			tasks: [{
 				id: "6F5D75069CBA0975"

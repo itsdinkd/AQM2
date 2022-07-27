@@ -1,0 +1,125 @@
+{
+	id: "53C019CCAB17B2B2"
+	group: "332CF3EA95B49108"
+	order_index: 2
+	filename: "create"
+	title: "Create"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "A necessary ingot"
+			id: "2694A7A3FAAC9946"
+			tasks: [{
+				id: "735EF4E709096FA9"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "Journey to Zinc Ingot"
+			description: ["You can use either Sphalerite Ore, or Tin Ore."]
+			min_required_tasks: 1
+			id: "74E2D0713AB330E3"
+			tasks: [
+				{
+					id: "0F35646B8597F4BE"
+					type: "questsadditions:break"
+					title: "Mine Sphalerite Ore"
+					icon: "techreborn:sphalerite_ore"
+					block: "techreborn:sphalerite_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "224D4303405A87C8"
+					type: "questsadditions:break"
+					title: "Mine Tin Ore"
+					icon: "techreborn:tin_ore"
+					block: "techreborn:tin_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "One or the other"
+			description: [
+				"Grinding Tin Ore in the Industrial Grinder gives Zinc Nuggets, 9 Nuggets = 1 Zinc Ingot"
+				""
+				"Placing Sphalerite Dust in an Industrial Electrolyzer produces Zinc Dust"
+			]
+			dependencies: ["74E2D0713AB330E3"]
+			min_required_tasks: 1
+			id: "095F29176A318C65"
+			tasks: [
+				{
+					id: "49C7F0B3115F2DC2"
+					type: "item"
+					item: "techreborn:zinc_nugget"
+					count: 3L
+				}
+				{
+					id: "3FD0EA762F6D810C"
+					type: "item"
+					item: "techreborn:zinc_dust"
+				}
+			]
+			rewards: [{
+				id: "5B99FB900276522E"
+				type: "random"
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["095F29176A318C65"]
+			id: "32DACA012BABEEE3"
+			tasks: [{
+				id: "232E7F0BA5876904"
+				type: "item"
+				item: "techreborn:zinc_ingot"
+			}]
+			rewards: [{
+				id: "73A9424098A4755B"
+				type: "random"
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			min_required_dependencies: 1
+			dependencies: [
+				"32DACA012BABEEE3"
+				"1DC466269F356713"
+			]
+			id: "397657CCABF487A4"
+			tasks: [{
+				id: "47148370DAD36056"
+				type: "item"
+				item: "techreborn:brass_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			subtitle: "Journey to Brass Ingots"
+			dependencies: ["095F29176A318C65"]
+			optional: true
+			id: "1DC466269F356713"
+			tasks: [{
+				id: "1D3E30508D19EBF6"
+				type: "item"
+				item: "techreborn:brass_dust"
+			}]
+		}
+	]
+}

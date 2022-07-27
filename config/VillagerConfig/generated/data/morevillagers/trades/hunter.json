@@ -1,0 +1,159 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:bone",
+              "price": 32,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:slime_ball",
+                "count": 1
+              },
+              "price": 5,
+              "count": 2,
+              "maxUses": 16,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:spider_eye",
+              "price": 24,
+              "maxUses": 16,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:fermented_spider_eye",
+                "count": 1
+              },
+              "price": 5,
+              "count": 1,
+              "maxUses": 16,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:gunpowder",
+              "price": 20,
+              "maxUses": 16,
+              "experience": 20,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:magma_cream",
+                "count": 1
+              },
+              "price": 5,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:blaze_rod",
+                "count": 1
+              },
+              "price": 5,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "price": 13,
+              "structure": "morevillagers:on_pillager_outpost_explorer_maps",
+              "nameKey": "filled_map.pillager_outpost",
+              "iconType": "BANNER_BLACK",
+              "maxUses": 12,
+              "experience": 15,
+              "type": "SellMapFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:ghast_tear",
+                "count": 1
+              },
+              "price": 8,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:rabbit_foot",
+                "count": 1
+              },
+              "price": 8,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

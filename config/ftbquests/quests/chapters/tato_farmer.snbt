@@ -745,5 +745,170 @@
 				item: "minecraft:oak_sapling"
 			}]
 		}
+		{
+			x: -6.0d
+			y: 6.5d
+			subtitle: "Super fast crop growth? Yes please"
+			id: "2C906AE9AA613E06"
+			tasks: [{
+				id: "05DC0E36AE87E0BF"
+				type: "questsadditions:break"
+				title: "Fast Farming: Mine Potash Ore"
+				block: "croptosis:potash_ore"
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "3CE1C4B384EDBE51"
+				type: "item"
+				item: "croptosis:potash_pieces"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			subtitle: "Use Potash on your farmland"
+			description: [
+				"After using Potash, you can then place your seeds and use as normal. You can also convert regular farmland that already has seeds if you use Potash on the block and not the crop"
+				""
+				"Note: Potash also acts as Bonemeal!"
+			]
+			dependencies: ["2C906AE9AA613E06"]
+			id: "2B305F04917A6DB7"
+			tasks: [{
+				id: "04826E2DC254E252"
+				type: "item"
+				item: "croptosis:potash"
+			}]
+			rewards: [
+				{
+					id: "106B46D06E0FAB6B"
+					type: "item"
+					item: "minecraft:beetroot_seeds"
+					count: 12
+				}
+				{
+					id: "63BF094F709F37F8"
+					type: "item"
+					item: "croptosis:potash"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 8.0d
+			dependencies: ["2C906AE9AA613E06"]
+			id: "6B0E762795A96096"
+			tasks: [{
+				id: "68992226992C7485"
+				type: "questsadditions:break"
+				title: "Apatite does the same!"
+				block: "croptosis:apatite_ore"
+				value: 1L
+				checkItem: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			subtitle: "Does the same as Potash"
+			description: ["Just a little less powerful"]
+			dependencies: ["6B0E762795A96096"]
+			id: "621DE270B228F448"
+			tasks: [{
+				id: "53F05A859446F63A"
+				type: "item"
+				item: "croptosis:apatite"
+			}]
+			rewards: [
+				{
+					id: "7E746368B48AD587"
+					type: "item"
+					item: "croptopia:olive_seed"
+					count: 6
+				}
+				{
+					id: "13C260681CBA9A6A"
+					type: "item"
+					item: "croptosis:apatite"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			subtitle: "Holds 12 buckets, Range of 2"
+			description: ["Great tool for farmers. Fill it up and wet your land with a radius. Each can tier has a higher range and bucket hold"]
+			id: "4AEBB233B2A5F685"
+			tasks: [{
+				id: "61FBBB85205A1B87"
+				type: "item"
+				item: "croptosis:iron_watering_can"
+			}]
+			rewards: [{
+				id: "6484E2B2C340E619"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			subtitle: "Holds 6 buckets, Range of 5"
+			dependencies: ["4AEBB233B2A5F685"]
+			id: "25642C57D76E6F25"
+			tasks: [{
+				id: "0AD7445E2DD0B453"
+				type: "item"
+				item: "croptosis:gold_watering_can"
+			}]
+			rewards: [{
+				id: "00BFFDBECE7F2ADC"
+				type: "item"
+				item: "croptosis:potash"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			subtitle: "Holds 16 buckets, Range of 3"
+			dependencies: ["25642C57D76E6F25"]
+			id: "3BBD27594A88B894"
+			tasks: [{
+				id: "370F054AAC00930E"
+				type: "item"
+				item: "croptosis:diamond_watering_can"
+			}]
+			rewards: [{
+				id: "7936414E024B6D14"
+				type: "item"
+				item: "croptosis:apatite"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			subtitle: "Holds 20 buckets, Range of 4"
+			dependencies: ["3BBD27594A88B894"]
+			id: "3884802866765AB7"
+			tasks: [{
+				id: "335C0CFBC7F1511C"
+				type: "item"
+				item: "croptosis:netherite_watering_can"
+			}]
+			rewards: [
+				{
+					id: "5926CE5D6E13A127"
+					type: "item"
+					item: "croptosis:apatite"
+				}
+				{
+					id: "45EF255BC1EDF065"
+					type: "item"
+					item: "croptosis:potash"
+				}
+			]
+		}
 	]
 }

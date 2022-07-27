@@ -1,0 +1,312 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:wheat",
+              "price": 20,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "minecraft:potato",
+              "price": 26,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "minecraft:carrot",
+              "price": 22,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "minecraft:beetroot",
+              "price": 15,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:bread",
+                "count": 1
+              },
+              "price": 1,
+              "count": 6,
+              "maxUses": 16,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "type": "VillageTradeUtil$$Lambda$12400/0x0000000801eb91e8"
+            },
+            {
+              "type": "VillageTradeUtil$$Lambda$12402/0x0000000801eb9628"
+            },
+            {
+              "type": "VillageTradeUtil$$Lambda$12404/0x0000000801eb9a68"
+            },
+            {
+              "type": "VillageTradeUtil$$Lambda$12406/0x0000000801eb9ea8"
+            },
+            {
+              "buy": "byg:cattail_sprout",
+              "price": 24,
+              "maxUses": 12,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:pumpkin",
+              "price": 6,
+              "maxUses": 12,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:pumpkin_pie",
+                "count": 1
+              },
+              "price": 1,
+              "count": 4,
+              "maxUses": 12,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:apple",
+                "count": 1
+              },
+              "price": 1,
+              "count": 4,
+              "maxUses": 16,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "type": "VillageTradeUtil$$Lambda$12408/0x0000000801eba2e8"
+            },
+            {
+              "buy": "byg:baobab_fruit",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "byg:aloe_vera",
+              "price": 16,
+              "maxUses": 12,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "byg:green_apple",
+              "price": 24,
+              "maxUses": 12,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:cookie",
+                "count": 1
+              },
+              "price": 3,
+              "count": 18,
+              "maxUses": 12,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "buy": "minecraft:melon",
+              "price": 4,
+              "maxUses": 12,
+              "experience": 20,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "byg:joshua_fruit",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:cake",
+                "count": 1
+              },
+              "price": 1,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "effect": "minecraft:night_vision",
+              "duration": 100,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellSuspiciousStewFactory"
+            },
+            {
+              "effect": "minecraft:jump_boost",
+              "duration": 160,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellSuspiciousStewFactory"
+            },
+            {
+              "effect": "minecraft:weakness",
+              "duration": 140,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellSuspiciousStewFactory"
+            },
+            {
+              "effect": "minecraft:blindness",
+              "duration": 120,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellSuspiciousStewFactory"
+            },
+            {
+              "effect": "minecraft:poison",
+              "duration": 280,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellSuspiciousStewFactory"
+            },
+            {
+              "effect": "minecraft:saturation",
+              "duration": 7,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellSuspiciousStewFactory"
+            },
+            {
+              "secondBuy": {
+                "id": "minecraft:dirt",
+                "count": 1
+              },
+              "secondCount": 16,
+              "price": 2,
+              "sell": {
+                "id": "byg:lush_dirt",
+                "count": 1
+              },
+              "sellCount": 16,
+              "maxUses": 4,
+              "experience": 4,
+              "multiplier": 0.05,
+              "type": "ProcessItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:golden_carrot",
+                "count": 1
+              },
+              "price": 3,
+              "count": 3,
+              "maxUses": 12,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:glistering_melon_slice",
+                "count": 1
+              },
+              "price": 4,
+              "count": 3,
+              "maxUses": 12,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "overweight_farming:straw_hat",
+                "count": 1,
+                "tag": "{Damage:0}"
+              },
+              "price": 20,
+              "maxUses": 1,
+              "experience": 12,
+              "multiplier": 0.05,
+              "type": "EmeraldToItemOffer"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

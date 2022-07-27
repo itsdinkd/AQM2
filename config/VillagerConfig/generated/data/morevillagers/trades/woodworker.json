@@ -1,0 +1,222 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:oak_sapling",
+              "price": 6,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:oak_log",
+                "count": 1
+              },
+              "price": 1,
+              "count": 6,
+              "maxUses": 16,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "buy": "minecraft:birch_sapling",
+              "price": 6,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:birch_log",
+                "count": 1
+              },
+              "price": 1,
+              "count": 6,
+              "maxUses": 16,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:spruce_sapling",
+              "price": 6,
+              "maxUses": 16,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:spruce_log",
+                "count": 1
+              },
+              "price": 1,
+              "count": 6,
+              "maxUses": 16,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "buy": "minecraft:dark_oak_sapling",
+              "price": 6,
+              "maxUses": 16,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:dark_oak_log",
+                "count": 1
+              },
+              "price": 1,
+              "count": 6,
+              "maxUses": 16,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:acacia_sapling",
+              "price": 6,
+              "maxUses": 16,
+              "experience": 20,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:acacia_log",
+                "count": 1
+              },
+              "price": 1,
+              "count": 6,
+              "maxUses": 16,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "buy": "minecraft:jungle_sapling",
+              "price": 6,
+              "maxUses": 16,
+              "experience": 20,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:jungle_log",
+                "count": 1
+              },
+              "price": 1,
+              "count": 6,
+              "maxUses": 16,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:warped_stem",
+                "count": 1
+              },
+              "price": 1,
+              "count": 6,
+              "maxUses": 16,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:crimson_stem",
+                "count": 1
+              },
+              "price": 1,
+              "count": 6,
+              "maxUses": 16,
+              "experience": 15,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "tool": {
+                "id": "minecraft:diamond_axe",
+                "count": 1,
+                "tag": "{Damage:0}"
+              },
+              "basePrice": 12,
+              "maxUses": 3,
+              "experience": 15,
+              "multiplier": 0.2,
+              "type": "SellEnchantedToolFactory"
+            },
+            {
+              "tool": {
+                "id": "minecraft:diamond_hoe",
+                "count": 1,
+                "tag": "{Damage:0}"
+              },
+              "basePrice": 12,
+              "maxUses": 3,
+              "experience": 15,
+              "multiplier": 0.2,
+              "type": "SellEnchantedToolFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

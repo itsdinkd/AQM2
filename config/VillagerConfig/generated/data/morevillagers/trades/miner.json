@@ -1,0 +1,139 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:deepslate",
+              "price": 20,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:calcite",
+                "count": 1
+              },
+              "price": 1,
+              "count": 16,
+              "maxUses": 16,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:raw_copper",
+              "price": 15,
+              "maxUses": 16,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "minecraft:raw_iron",
+              "price": 12,
+              "maxUses": 16,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:raw_gold",
+              "price": 10,
+              "maxUses": 16,
+              "experience": 20,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:amethyst_shard",
+                "count": 1
+              },
+              "price": 1,
+              "count": 2,
+              "maxUses": 12,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:torch",
+              "price": 50,
+              "maxUses": 12,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "price": 13,
+              "structure": "morevillagers:on_mineshaft_explorer_maps",
+              "nameKey": "filled_map.mineshaft",
+              "iconType": "BANNER_BROWN",
+              "maxUses": 12,
+              "experience": 15,
+              "type": "SellMapFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "tool": {
+                "id": "minecraft:diamond_pickaxe",
+                "count": 1,
+                "tag": "{Damage:0}"
+              },
+              "basePrice": 12,
+              "maxUses": 3,
+              "experience": 15,
+              "multiplier": 0.2,
+              "type": "SellEnchantedToolFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

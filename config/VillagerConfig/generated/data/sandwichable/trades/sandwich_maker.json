@@ -1,0 +1,263 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:wheat",
+              "price": 20,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "minecraft:bread",
+              "price": 6,
+              "maxUses": 12,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "sandwichable:tomato",
+              "price": 18,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "sandwichable:lettuce_head",
+              "price": 14,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "sandwichable:bread_slice",
+                "count": 1
+              },
+              "price": 1,
+              "count": 10,
+              "maxUses": 16,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "price": 5,
+              "items": [
+                "minecraft:bread",
+                "minecraft:apple",
+                "minecraft:bread"
+              ],
+              "experience": 7,
+              "maxUses": 6,
+              "type": "SellSandwichFactory"
+            },
+            {
+              "buy": "minecraft:bucket",
+              "price": 1,
+              "maxUses": 12,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "minecraft:porkchop",
+              "price": 18,
+              "maxUses": 12,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "sandwichable:cheese_slice",
+                "count": 1
+              },
+              "price": 2,
+              "count": 10,
+              "maxUses": 4,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "price": 10,
+              "items": [
+                "sandwichable:bread_slice",
+                "sandwichable:bacon_strips",
+                "sandwichable:lettuce_leaf",
+                "sandwichable:tomato_slice",
+                "sandwichable:bread_slice"
+              ],
+              "experience": 8,
+              "maxUses": 6,
+              "type": "SellSandwichFactory"
+            },
+            {
+              "price": 10,
+              "items": [
+                "sandwichable:toasted_bread_slice",
+                "sandwichable:cheese_slice",
+                "minecraft:cooked_chicken",
+                "sandwichable:lettuce_leaf",
+                "sandwichable:toasted_bread_slice"
+              ],
+              "experience": 8,
+              "maxUses": 6,
+              "type": "SellSandwichFactory"
+            },
+            {
+              "sell": {
+                "id": "sandwichable:toasted_bread_slice",
+                "count": 1
+              },
+              "price": 1,
+              "count": 7,
+              "maxUses": 16,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "buy": "minecraft:cooked_beef",
+              "price": 14,
+              "maxUses": 12,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "minecraft:potato",
+              "price": 20,
+              "maxUses": 12,
+              "experience": 4,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "price": 16,
+              "items": [
+                "minecraft:bread",
+                "sandwichable:bacon_strips",
+                "minecraft:cooked_beef",
+                "minecraft:cooked_chicken",
+                "minecraft:cooked_porkchop",
+                "minecraft:bread"
+              ],
+              "experience": 12,
+              "maxUses": 6,
+              "type": "SellSandwichFactory"
+            },
+            {
+              "price": 16,
+              "items": [
+                "minecraft:bread",
+                "sandwichable:lettuce_leaf",
+                "minecraft:carrot",
+                "minecraft:beetroot",
+                "minecraft:baked_potato",
+                "sandwichable:tomato_slice",
+                "minecraft:bread"
+              ],
+              "experience": 12,
+              "maxUses": 6,
+              "type": "SellSandwichFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:charcoal",
+                "count": 1
+              },
+              "price": 1,
+              "count": 3,
+              "maxUses": 12,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "buy": "minecraft:carrot",
+              "price": 20,
+              "maxUses": 16,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "price": 25,
+              "items": [
+                "minecraft:bread",
+                "minecraft:golden_apple",
+                "minecraft:bread"
+              ],
+              "experience": 17,
+              "maxUses": 6,
+              "type": "SellSandwichFactory"
+            },
+            {
+              "price": 4,
+              "experience": 6,
+              "maxUses": 12,
+              "cheeses": [
+                "sandwichable:cheese_wheel",
+                "sandwichable:creamy_cheese_wheel",
+                "sandwichable:intoxicating_cheese_wheel",
+                "sandwichable:sour_cheese_wheel"
+              ],
+              "type": "SellCheeseFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

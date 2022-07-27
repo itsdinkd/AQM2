@@ -8,11 +8,11 @@
   "childNames": false,
   "turnOffVillagerConsoleSpam": true,
   "wanderingTraderNames": true,
-  "wanderingTraderText": "DaddyDanked the Wanderer",
+  "wanderingTraderText": "Dinkd the Wanderer",
   "surNames": false,
   "reverseLastNames": false,
   "nameTagNames": true,
   "piglinNames": true,
-  "piglinSurnames": true,
+  "piglinSurnames": false,
   "illagerEntityNames": true
 }

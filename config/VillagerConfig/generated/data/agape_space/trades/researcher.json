@@ -1,0 +1,99 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:token_green",
+              "sell": "minecraft:paper",
+              "count": 1,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_green",
+              "sell": "agape_space:deco_table",
+              "count": 16,
+              "type": "CustomBuy"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:token_gold",
+              "sell": "agape_space:deco_monitor",
+              "count": 1,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_gold",
+              "sell": "agape_space:deco_controls",
+              "count": 1,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_gold",
+              "sell": "agape_space:deco_glow",
+              "count": 1,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_green",
+              "sell": "agape_space:deco_vent",
+              "count": 1,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_green",
+              "sell": "agape_space:deco_wall",
+              "count": 1,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_green",
+              "sell": "agape_space:deco_carpet",
+              "count": 1,
+              "type": "CustomBuy"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

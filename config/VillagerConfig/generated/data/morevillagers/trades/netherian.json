@@ -1,0 +1,140 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:basalt",
+              "price": 24,
+              "maxUses": 16,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:nether_brick",
+                "count": 1
+              },
+              "price": 1,
+              "count": 10,
+              "maxUses": 16,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:blackstone",
+              "price": 24,
+              "maxUses": 16,
+              "experience": 10,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "minecraft:nether_quartz_ore",
+                "count": 1
+              },
+              "price": 4,
+              "count": 1,
+              "maxUses": 16,
+              "experience": 5,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:obsidian",
+              "price": 4,
+              "maxUses": 16,
+              "experience": 20,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "price": 13,
+              "structure": "morevillagers:on_fortress_explorer_maps",
+              "nameKey": "filled_map.fortress",
+              "iconType": "BANNER_RED",
+              "maxUses": 12,
+              "experience": 10,
+              "type": "SellMapFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:gold_ingot",
+              "price": 4,
+              "maxUses": 16,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "price": 14,
+              "structure": "morevillagers:on_bastion_remnant_explorer_maps",
+              "nameKey": "filled_map.bastion_remnant",
+              "iconType": "BANNER_YELLOW",
+              "maxUses": 12,
+              "experience": 15,
+              "type": "SellMapFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "minecraft:music_disc_pigstep",
+                "count": 1
+              },
+              "price": 20,
+              "count": 1,
+              "maxUses": 12,
+              "experience": 30,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

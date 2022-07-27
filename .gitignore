@@ -93,3 +93,6 @@ config/polymer/client.json
 options.amecsapi.txt
 options.amecsapi.txt
 .mixin.out/class/net/minecraft/class_2535$1.class
+irisUpdateInfo.json
+fancymenu_data/last_world.fmdata
+fancymenu_data/last_world.fmdata

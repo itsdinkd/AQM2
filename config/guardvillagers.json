@@ -6,7 +6,7 @@
     "ClericHealing": true,
     "armorerRepairGuardArmor": true,
     "GuardsOpenDoors": true,
-    "AttackAllMobs": false,
+    "AttackAllMobs": true,
     "guardAttackMobBlacklist": [],
     "giveGuardStuffHOTV": true,
     "setGuardPatrolHotv": true,
@@ -18,7 +18,7 @@
     "BlackSmithHealing": true,
     "GuardVillagerHelpRange": 40.0,
     "ConvertVillagerIfHaveHOTV": false,
-    "amountOfHealthRegenerated": 1
+    "amountOfHealthRegenerated": 2
   },
   "permission": {
     "AmountOfConversions": 5

@@ -10,7 +10,7 @@
 	// Enable Glowing Elite/Ultra/Eldritch Mobs upon discovery
 	"turnOnGlowingMobs": true,
 	// Out of 100 Mobs
-	"EliteSpawnRates": 1.1,
+	"EliteSpawnRates": 1.3,
 	// Out of 100 Elites
 	"UltraSpawnRates": 1.2,
 	// Out of 100 Ultras

@@ -1,0 +1,128 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:copper_ingot",
+              "price": 1,
+              "maxUses": 32,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:iron_gear",
+                "count": 1
+              },
+              "price": 13,
+              "count": 1,
+              "maxUses": 8,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:copper_wire",
+                "count": 1
+              },
+              "price": 8,
+              "count": 1,
+              "maxUses": 8,
+              "experience": 1,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:gold_ingot",
+              "price": 1,
+              "maxUses": 32,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:gear_template",
+                "count": 1
+              },
+              "price": 64,
+              "count": 1,
+              "maxUses": 4,
+              "experience": 12,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "agape_space:wire_template",
+                "count": 1
+              },
+              "price": 64,
+              "count": 1,
+              "maxUses": 4,
+              "experience": 12,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:gold_wire",
+              "sell": "agape_space:component_coil",
+              "count": 16,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_gold",
+              "sell": "agape_space:transport_duct",
+              "count": 1,
+              "type": "CustomBuy"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

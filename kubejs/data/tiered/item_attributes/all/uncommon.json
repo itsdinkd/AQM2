@@ -29,7 +29,7 @@
             "tag": "c:axes"
         }
     ],
-    "weight": 20,
+    "weight": 28,
     "style": {
         "color": "dark_green"
     },
@@ -39,7 +39,7 @@
             "modifier": {
                 "name": "tiered:uncommon",
                 "operation": "ADDITION",
-                "amount": 2
+                "amount": 1
             },
             "optional_equipment_slots": [
                 "MAINHAND",

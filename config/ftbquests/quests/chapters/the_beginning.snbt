@@ -182,7 +182,6 @@
 			x: 1.5d
 			y: 7.5d
 			subtitle: "Are you tired of this yet?"
-			hide_dependency_lines: true
 			dependencies: ["79F4D4DA705033B9"]
 			id: "35B3650C5AC1562F"
 			tasks: [{
@@ -324,10 +323,7 @@
 		{
 			x: 0.0d
 			y: 6.0d
-			dependencies: [
-				"6DC760A92F8BE047"
-				"43699963081B4C23"
-			]
+			dependencies: ["6DC760A92F8BE047"]
 			size: 1.33d
 			id: "4727F254D09DAE2A"
 			tasks: [{
@@ -658,7 +654,7 @@
 			y: 7.5d
 			subtitle: "You're ready to mine some end globettes"
 			description: ["These guys are much faster than the previous version"]
-			dependencies: ["35B3650C5AC1562F"]
+			dependencies: ["4727F254D09DAE2A"]
 			id: "43699963081B4C23"
 			tasks: [{
 				id: "6FB72CD69070A376"

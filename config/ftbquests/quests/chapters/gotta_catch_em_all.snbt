@@ -218,5 +218,77 @@
 				count: 5
 			}]
 		}
+		{
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Ability: Emits Glow Particles and Glows"
+			description: ["You can use this pet by crafting and then right clicking while held. To retrieve your pet, you need to look down at the top of its head and spam right click until its taken back."]
+			id: "51B3425A0CBCEEFD"
+			tasks: [{
+				id: "0FCFDEE22627AADD"
+				type: "item"
+				item: "hoverpets:glow_squid_pet"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			subtitle: "Ability: Randomly Plucks Seeds from Ground"
+			description: ["You can use this pet by crafting and then right clicking while held. To retrieve your pet, you need to look down at the top of its head and spam right click until its taken back."]
+			id: "7C480088FE643883"
+			tasks: [{
+				id: "3874F1A60802DB1B"
+				type: "item"
+				item: "hoverpets:chicken_pet"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "Ability: Hunts Rabbits and Chickens"
+			description: ["You can use this pet by crafting and then right clicking while held. To retrieve your pet, you need to look down at the top of its head and spam right click until its taken back."]
+			id: "310D7F5812BFE58E"
+			tasks: [{
+				id: "530AE2F8468DB626"
+				type: "item"
+				item: "hoverpets:fox_pet"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			subtitle: "Ability: Poisons Enemies when your Hearts are 3 and less"
+			description: ["You can use this pet by crafting and then right clicking while held. To retrieve your pet, you need to look down at the top of its head and spam right click until its taken back."]
+			id: "63F73E7C10763794"
+			tasks: [{
+				id: "3E7EDA38B79D5D1D"
+				type: "item"
+				item: "hoverpets:pufferfish_pet"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			subtitle: "Ability: Walk on Lava"
+			description: ["You can use this pet by crafting and then right clicking while held. To retrieve your pet, you need to look down at the top of its head and spam right click until its taken back."]
+			id: "79C4E85899DECE23"
+			tasks: [{
+				id: "30918D54E2183874"
+				type: "item"
+				item: "hoverpets:magma_cube_pet"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			subtitle: "Ability: Splashes Healing Potions on Villagers, Golems, and Players"
+			description: ["You can use this pet by crafting and then right clicking while held. To retrieve your pet, you need to look down at the top of its head and spam right click until its taken back."]
+			id: "5AFC8A131867E596"
+			tasks: [{
+				id: "095B5AE9FBCB8588"
+				type: "item"
+				item: "hoverpets:witch_pet"
+			}]
+		}
 	]
 }

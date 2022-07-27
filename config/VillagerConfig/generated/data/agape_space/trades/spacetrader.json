@@ -1,0 +1,111 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:token_green",
+              "sell": "minecraft:emerald",
+              "count": 1,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_green",
+              "sell": "agape_space:luxury_game1",
+              "count": 24,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_green",
+              "sell": "agape_space:cryo_tube",
+              "count": 32,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_gold",
+              "sell": "agape_space:cryo_sheep",
+              "count": 8,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_gold",
+              "sell": "agape_space:cryo_cow",
+              "count": 8,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_gold",
+              "sell": "agape_space:space_cat",
+              "count": 16,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_gold",
+              "sell": "agape_space:laser_pistol",
+              "count": 16,
+              "type": "CustomBuy"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:token_pink",
+              "sell": "agape_space:personal_beamer",
+              "count": 8,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_pink",
+              "sell": "agape_space:vehicle_upgrade_5",
+              "count": 7,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_pink",
+              "sell": "agape_space:vehicle_upgrade_3",
+              "count": 7,
+              "type": "CustomBuy"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

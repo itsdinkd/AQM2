@@ -1,0 +1,87 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:scrap_circuit",
+              "sell": "agape_space:component_display",
+              "count": 4,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:scrap_amplifier",
+              "sell": "agape_space:component_capacitor",
+              "count": 4,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:scrap_magnet",
+              "sell": "agape_space:component_redstone_magnet",
+              "count": 4,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:scrap_disk",
+              "sell": "agape_space:component_coil",
+              "count": 4,
+              "type": "CustomBuy"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "agape_space:scrap_isotope",
+              "sell": "agape_space:component_isotope_battery",
+              "count": 16,
+              "type": "CustomBuy"
+            },
+            {
+              "buy": "agape_space:token_pink",
+              "sell": "agape_space:disc_log_1",
+              "count": 4,
+              "type": "CustomBuy"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

@@ -1,7 +1,9 @@
 {
   "blocks": [
     "minecraft:barrier",
-    "minecraft:structure_void"
+    "minecraft:structure_void",
+    "dimdoors:unravelled_fabric",
+    "dimdoors:black_fabric"
   ],
   "blockEntityTypes": [],
   "entityTypes": [

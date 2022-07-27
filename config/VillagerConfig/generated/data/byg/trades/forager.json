@@ -1,0 +1,178 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "minecraft:red_mushroom",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "minecraft:brown_mushroom",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "byg:green_mushroom",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 2,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "byg:wood_blewit",
+              "price": 8,
+              "maxUses": 12,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "byg:white_puffball_cap",
+              "price": 8,
+              "maxUses": 12,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "byg:white_puffball_spores",
+                "count": 1
+              },
+              "price": 4,
+              "count": 5,
+              "maxUses": 4,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "buy": "minecraft:crimson_fungus",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "minecraft:warped_fungus",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "byg:sythian_fungus",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "sell": {
+                "id": "byg:witch_hazel_branch",
+                "count": 1
+              },
+              "price": 4,
+              "count": 9,
+              "maxUses": 4,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            },
+            {
+              "sell": {
+                "id": "byg:witch_hazel_blossom",
+                "count": 1
+              },
+              "price": 10,
+              "count": 1,
+              "maxUses": 10,
+              "experience": 3,
+              "multiplier": 0.05,
+              "type": "SellItemFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "buy": "byg:imparius_mushroom",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 4,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "byg:shulkren_fungus",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 4,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            },
+            {
+              "buy": "byg:fungal_imparius",
+              "price": 10,
+              "maxUses": 12,
+              "experience": 4,
+              "multiplier": 0.05,
+              "type": "BuyForOneEmeraldFactory"
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

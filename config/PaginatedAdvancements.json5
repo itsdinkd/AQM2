@@ -13,5 +13,7 @@
 	// Spacing between horizontal tabs (vanilla default: 4)
 	"SpacingBetweenHorizontalTabs": 4,
 	// Spacing between pinned tabs
-	"SpacingBetweenPinnedTabs": 2
+	"SpacingBetweenPinnedTabs": 2,
+	// Always Show Debug Info (default: only when advanced tooltips enabled)
+	"AlwaysShowDebugInfo": false
 }

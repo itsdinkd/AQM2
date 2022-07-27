@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////
 // AOF Unification Script - MIT licensed. //
 //////////////////////////////////////////////////
-
+priority: 100
 // Set to true to generate the client script for REI unification.
 const GENERATE_REI_SCRIPT = false;
 // List of part tags to unify.

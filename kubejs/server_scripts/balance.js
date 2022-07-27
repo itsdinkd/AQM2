@@ -140,15 +140,16 @@ event.shaped("gobber2:gobber2_ring_vision", [
  ['bewitchment:demon_horn',"modern_industrialization:highly_advanced_upgrade", 'bewitchment:harbinger'],
  ]);
 
-
-// OLD RECIPE -- Angel Ring
-// event.remove({ output: "kibe:angel_ring" });
-// event.shaped("kibe:angel_ring", [
-//  ['techreborn:iridium_neutron_reflector','gobber2:gobber2_chestplate_dragon_no_flight','adventurez:source_stone'],
-//  ['techreborn:interdimensional_su', 'modern_industrialization:quantum_upgrade', 'techreborn:interdimensional_su'],
-//  ['techreborn:nak_coolant_cell_360k','ae2:cell_component_64k','bosses_of_mass_destruction:earthdive_spear'],
-//  ]);
-
+// Luggage
+event.remove({ output: "luggage:luggage" });
+event.shaped("luggage:luggage", ['123', 'd d'], {
+  1: "inmis:plated_backpack",
+  2: "minecraft:chest",
+  3: "earth:pertilyo_rod",
+  d: "botania:pixie_dust"
+}
+  );
+ 
   // Fabric Furnace - Furnaces
   event.replaceInput({id: 'fabric-furnaces:end_furnace'}, 'minecraft:shulker_shell', 'minecraft:dragon_head')
 
@@ -603,6 +604,9 @@ event.replaceInput(
 "magicfungi:magical_fungi_alloy"
 );
 
+// Final Broom
+event.replaceInput({id: "besmirchment:final_broom"}, "minecraft:nether_star", "gobber2:dragon_star")
+
 ////// Gobber2
 
 // Dragon Armor Chestplate recipe change
@@ -643,7 +647,7 @@ event.replaceInput(
 // Doom Argent Ingot
 event.replaceInput(
 { id: "doom:argent_plate" },
-"minecraft:iron_ingot",
+"minecraft:netherite_scrap",
 "techreborn:tungstensteel_plate"
 );
 
@@ -834,6 +838,33 @@ event.replaceInput(
 "adventurez:gilded_stone"
 );
 
+// Compact Machine
+event.remove({id: "compactmachines:wall"})
+event.custom({
+  "type": "indrev:fluid_infuse",
+  "ingredients": [
+    {
+      "item": "dml-refabricated:soot_redstone",
+      "count": 1
+    }
+  ],
+  "fluidInput": {
+    "fluid": "indrev:coolant_still",
+    "amount": 81000
+  },
+  "output": {
+    "item": "compactmachines:wall",
+    "count": 1
+  },
+  "processTime": 200
+})
+
+event.replaceInput({id: "compactmachines:machine_tiny"}, "#minecraft:planks", "indrev:plank_block")
+event.replaceInput({id: "compactmachines:machine_small"}, "minecraft:iron_block", "compactmachines:machine_tiny")
+event.replaceInput({id: "compactmachines:machine_normal"}, "minecraft:gold_block", "compactmachines:machine_small")
+event.replaceInput({id: "compactmachines:machine_large"}, "minecraft:obsidian", "compactmachines:machine_normal")
+event.replaceInput({id: "compactmachines:machine_giant"}, "minecraft:diamond_block", "compactmachines:machine_large")
+event.replaceInput({id: "compactmachines:machine_maximum"}, "minecraft:emerald_block", "compactmachines:machine_giant")
 
 // Tools and Sword
 
@@ -1325,12 +1356,12 @@ event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'gobbe
 
 
   // Travelers Backpack
-  event.remove({output: 'travelersbackpack:backpack_tank'});
-  event.shaped('travelersbackpack:backpack_tank', ['gig', ' g '],
-  {
-    g: 'fluidtank:tank_copper',
-    i: "mythicmetals:mythril_ingot"
-  })  
+  // event.remove({output: 'travelersbackpack:backpack_tank'});
+  // event.shaped('travelersbackpack:backpack_tank', ['gig', ' g '],
+  // {
+  //   g: 'fluidtank:tank_copper',
+  //   i: "mythicmetals:mythril_ingot"
+  // })  
 
 
   // Croptosis Watering Cans
@@ -1362,4 +1393,33 @@ event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'gobbe
     D: "minecraft:bucket"
   })
 
+  const autoCraftingExtraRem = [
+    'autoworkstations:gold_auto_crafting_table',
+    'autoworkstations:gold_auto_furnace',
+    'autoworkstations:gold_auto_enchanting_table',
+    'autoworkstations:gold_auto_anvil'
+  ];
+
+  autoCraftingExtraRem.forEach(function(item, index) {
+    event.remove({id: item})
+  })
+  event.replaceInput({id: "resourceful_tools:lavaspring"}, "minecraft:black_concrete", "minecraft:obsidian");
+  event.replaceInput({id: "resourceful_tools:wellspring"}, "minecraft:black_concrete", "minecraft:obsidian");
+  event.replaceInput({id: "autoworkstations:iron_auto_enchanting_table"}, "minecraft:enchanting_table", "dark-enchanting:dark_enchanter");
+  event.replaceInput({id: "autoworkstations:iron_auto_enchanting_table"}, "minecraft:glass", "modern_industrialization:iridium_curved_plate");
+  event.replaceInput({id: "autoworkstations:iron_auto_crafting_table"}, "minecraft:glass", "techreborn:zinc_plate");
+  event.replaceInput({id: "autoworkstations:iron_auto_crafting_table"}, "minecraft:copper_block", "techreborn:auto_crafting_table");
+  event.replaceInput({id: "autoworkstations:iron_auto_furnace"}, "minecraft:furnace", "fabric-furnaces:ethereal_furnace");
+  event.replaceInput({id: "autoworkstations:iron_auto_furnace"}, "minecraft:copper_block", "blockus:nether_stars_block");
+  event.replaceInput({id: "autoworkstations:iron_auto_furnace"}, "minecraft:redstone", "modern_industrialization:he_mox_dust");
+
+  event.remove({output: 'autoworkstations:iron_auto_anvil'});
+  event.shaped("autoworkstations:iron_auto_anvil", ['121','2A2','3B3'],
+  {
+    1: "minecraft:chain",
+    2: "spectrum:onyx_block",
+    A: "dragonloot:dragon_anvil",
+    3: "techreborn:zinc_plate",
+    B: "gobber2:gobber2_block_nether"
+  })
 })

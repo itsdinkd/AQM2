@@ -361,15 +361,13 @@
 				// Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
 				"spawn_naturally": true,
 				// The spawn weight compared to other entities (typically between 6-20)
-				"spawn_weight": 20,
+				"spawn_weight": 14,
 				// Minimum amount of entities in spawned groups
 				"minimum_group_size": 1,
 				// Maximum amount of entities in spawned groups - Must be greater or equal to min value
 				"maximum_group_size": 1,
 				// Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
 				"spawn_biomes": [
-					"betterend:lush_aurora_cave",
-					"betterend:lush_smaragdant_cave",
 					"byg:aspen_forest",
 					"byg:autumnal_forest",
 					"byg:autumnal_taiga",
@@ -480,10 +478,6 @@
 					"terralith:yellowstone",
 					"terralith:yosemite_cliffs",
 					"terralith:yosemite_lowlands",
-					"the_aether:aether_highlands_forest",
-					"the_aether:aether_highlands_thicket",
-					"the_aether:aether_wisteria_woods",
-					"the_aether:autumnal_tundra",
 					"terralith:blooming_valley"
 				],
 				"spawn_costs": {
