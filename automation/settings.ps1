@@ -30,7 +30,7 @@ $MODPACK_NAME = "another-quality-testing-pack"
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.0.1"
+$MODPACK_VERSION = "1.5"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
@@ -132,6 +132,7 @@ $ENABLE_SERVERSTARTER_MODULE = $true
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
 # $LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
+# CURRENTLY BROKEN!! due to the new curseforge API
 # Default: $false
 $ENABLE_CHANGELOG_GENERATOR_MODULE = $false
 # Path to the ChangelogGenerator's output file
