@@ -74,55 +74,85 @@ install:
   formatSpecific:
     # optional paramenter used for curse to specify a whole project to ignore (mostly if it is client side only)
     ignoreProject:
-      - 242064 #Item Scroller
-      - 582640 #better fps
-      - 250419 #enct descriptions
-      - 271492 #IKWID
-      - 448233 #Entity Culling
-      - 277668 #Armor Sound Tweak
-      - 415758 #Smooth Boot
-      - 292908 #illuminations
-      - 296468 #NoFog
-      - 297038 #CraftPresence
-      - 308702 #Mod Menu
-      - 317590 #Client MAmbience
-      - 325492 #Light Overlay
-      - 325625 #Roughly Resources
-      - 331965 #enchantment tooltips
-      - 334259 #Presence Footsteps
-      - 335493 #Dynamic FPS
-      - 349630 #WI Zoom
+      - 521480 #3dskinlayers
+      - 514882 #AdvancementPlaques
       - 355583 #Advancements Enlarger
-      - 365521 #Pling
-      - 388252 #Notes
-      - 394468 #Sodium
-      - 400929 #cAn i MiNe thIS bLOCk?
+      - 320163 #AmbientEnvironment
+      - 254284 #AmbientSounds
+      - 594146 #aofemotes
+      - 277668 #Armor Sound Tweak
+      - 356643 #authme
+      - 613072 #auudio
       - 401648 #Better f3
-      - 407206 #Chatheads
-      - 401978 #Disable Custom Worlds Advice
-      - 407981 #Precise Block Placement
-      - 416796 #Fancy Menu
-      - 416797 #Konkrete
+      - 582640 #better fps
       - 435044 #better3rdperson
-      - 435141 #No Angled brackets
       - 437443 #bettersodiumoptions
-      - 447673 #Extra sodium
-      - 455508 #Iris
-      - 459496 #indium
-      - 463169 #Puddles Bugged
-      - 495059 #Just Enough Keys
-      - 495267 #Inventory Profiles Next
-      - 496150 #Deathlog
-      - 502516 #CraftingTweals
-      - 511319 #Reeses Sodium Options
-      - 515172 #Drippy Loading
-      - 530816 #no telemetary
-      - 537653 #End Goblin Traders
-      - 539382 #Iceberg
-      - 541604 #Item borders
-      - 542478 #Legendary Tooltips
+      - 585548 #bhmenu
+      - 444972 #big-items-duh
+      - 416406 #breakprogress
+      - 400929 #cAn i MiNe thIS bLOCk?
+      - 407206 #Chatheads
+      - 397217 #chesttracker
+      - 392805 #cleancut
+      - 308793 #ClearDespawn
+      - 405262 #clickthrough
+      - 317590 #Client MAmbience
       - 547692 #Client Tweaks
+      - 531351 #continuity
+      - 297038 #CraftPresence
+      - 619718 #CullLessLeaves
+      - 506898 #DetailArmorBar
+      - 401978 #Disable Custom Worlds Advice
+      - 515172 #Drippy Loading
+      - 448311 #DripSounds
+      - 335493 #Dynamic FPS
+      - 331965 #enchantment tooltips
+      - 250419 #enct descriptions
+      - 537653 #End Goblin Traders
+      - 446173 #enhanced_attack_indicator
+      - 448233 #Entity Culling
+      - 541329 #EquipmentCompare
+      - 447673 #Extra sodium
+      - 417510 #fallingleaves
+      - 416796 #Fancy Menu
+      - 489631 #fuelinfo
+      - 313219 #HealthOverlay
+      - 271492 #IKWID
+      - 292908 #illuminations
+      - 459496 #indium
+      - 495267 #Inventory Profiles Next
+      - 357540 #InventoryHUD
+      - 455508 #Iris
+      - 541604 #Item borders
+      - 242064 #Item Scroller
+      - 495059 #Just Enough Keys
+      - 416797 #Konkrete
+      - 400322 #lambdabettergrass
+      - 393442 #lambdynamiclights
+      - 433518 #lazydfu
+      - 542478 #Legendary Tooltips
+      - 325492 #Light Overlay
+      - 545836 #MiniEffects
+      - 308702 #Mod Menu
+      - 435141 #No Angled brackets
+      - 530816 #no telemetary
+      - 296468 #NoFog
+      - 388252 #Notes
       - 550387 #otter
+      - 618770 #paginatedadvancements
+      - 547474 #PickUpNotifier
+      - 365521 #Pling
+      - 407981 #Precise Block Placement
+      - 334259 #Presence Footsteps
+      - 463169 #Puddles Bugged
+      - 511319 #Reeses Sodium Options
+      - 415758 #Smooth Boot
+      - 394468 #Sodium
+      - 411557 #tooltipfix
+      - 245733 #torohealth
+      - 521126 #visuality
+      - 349630 #WI Zoom
+      - 547358 #wmitaf
 
   # The base path where the server should be installed to, ~ for current path
   baseInstallPath: server/
@@ -140,6 +170,7 @@ install:
     - kubejs/client_scripts/**
     - packmenu/**
     - openloader/resources/**
+    - config/fancymenu/**
 
   # often a server needs more files, which are nearly useless on the client, such as tickprofiler
   # This is a list of files, each ' - ' is a new file:
