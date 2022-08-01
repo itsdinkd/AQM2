@@ -1,0 +1,290 @@
+# Version of the specs, only for internal usage if this format should ever change drastically
+_specver: 2
+
+# modpack related settings, changes the supposed to change the visual appearance of the launcher
+modpack:
+  # Name of the mod pack, that is displayed in various places where it fits
+  name: Another Quality Modpack 2
+
+  # Description
+  description: Largest Fabric 1.18.2 Modpack with 100+ Unique Biomes | Origins, Tech, Magic, Tiered Gear, New Bosses/Mobs/Mounts
+
+# settings regarding the installation of the modpack
+install:
+  # Curse Forge requires an API Token to access the API and to allow for downloading files.
+  # This field supports using an Environment Variable like ${CURSE_FORGE_API_KEY} to decrease the risk of sharing the API-Key by mistake
+  # To Modpack authors: You can enter your own API-Key here, but do that on your own risk.
+  curseForgeApiKey: ~
+
+  # version of minecraft, needs the exact version
+  mcVersion: 1.18.2
+
+  # exact version of forge or fabric that is supposed to be used
+  # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
+  loaderVersion: 0.14.8
+
+  # installer version
+  # useful for fabric as its not using the loaderVersion
+  # check https://fabricmc.net/use/installer/ for the latest installer version
+  installerVersion: 0.11.0
+
+  # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
+  # supports variables: {{@loaderversion@}}, {{@mcversion@}} and {{@installerversion@}}
+  # For forge: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/forge-{{@mcversion@}}-{{@loaderversion@}}-installer.jar"
+  # For Fabric: "https://maven.fabricmc.net/net/fabricmc/fabric-installer/{{@installerversion@}}/fabric-installer-{{@installerversion@}}.jar"
+  installerUrl: "https://maven.fabricmc.net/net/fabricmc/fabric-installer/{{@installerversion@}}/fabric-installer-{{@installerversion@}}.jar"
+
+  # Installer Arguments
+  # These Arguments have to be passed to the installer
+  #
+  # For Fabric:
+  # installerArguments:
+  #   - "-downloadMinecraft"
+  #   - "server"
+  #   - "-mcversion"
+  #   - "{{@mcversion@}}"
+  #   - "-loader"
+  #   - "{{@loaderversion@}}"
+  #
+  # For Forge:
+  # installerArguments:
+  #   - "--installServer"
+  installerArguments:
+    - "server"
+    - "-downloadMinecraft"
+    - "-mcversion"
+    - "{{@mcversion@}}"
+    - "-loader"
+    - "{{@loaderversion@}}"
+
+  # Link to where the file where the modpack can be distributed
+  # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
+  # Note: file://{PathToFile} does not need the full path, can be a relative path.
+  # E.g: modpackUrl: file://../modpacks/All+the+Mods+7-0.0.21.zip
+  modpackUrl: https://media.forgecdn.net/files/3911/537/AQM2-1.5.zip
+
+  # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
+  # current supported formats:
+  # - curseforge or curse
+  # - curseid
+  # - zip or zipfile
+  modpackFormat: curse
+
+  # Settings which are specific to the format used, might not be needed in some casese
+  formatSpecific:
+    # optional paramenter used for curse to specify a whole project to ignore (mostly if it is client side only)
+    ignoreProject:
+      - 242064 #Item Scroller
+      - 582640 #better fps
+      - 250419 #enct descriptions
+      - 271492 #IKWID
+      - 448233 #Entity Culling
+      - 277668 #Armor Sound Tweak
+      - 415758 #Smooth Boot
+      - 292908 #illuminations
+      - 296468 #NoFog
+      - 297038 #CraftPresence
+      - 308702 #Mod Menu
+      - 317590 #Client MAmbience
+      - 325492 #Light Overlay
+      - 325625 #Roughly Resources
+      - 331965 #enchantment tooltips
+      - 334259 #Presence Footsteps
+      - 335493 #Dynamic FPS
+      - 349630 #WI Zoom
+      - 355583 #Advancements Enlarger
+      - 365521 #Pling
+      - 388252 #Notes
+      - 394468 #Sodium
+      - 400929 #cAn i MiNe thIS bLOCk?
+      - 401648 #Better f3
+      - 407206 #Chatheads
+      - 401978 #Disable Custom Worlds Advice
+      - 407981 #Precise Block Placement
+      - 416796 #Fancy Menu
+      - 416797 #Konkrete
+      - 435044 #better3rdperson
+      - 435141 #No Angled brackets
+      - 437443 #bettersodiumoptions
+      - 447673 #Extra sodium
+      - 455508 #Iris
+      - 459496 #indium
+      - 463169 #Puddles Bugged
+      - 495059 #Just Enough Keys
+      - 495267 #Inventory Profiles Next
+      - 496150 #Deathlog
+      - 502516 #CraftingTweals
+      - 511319 #Reeses Sodium Options
+      - 515172 #Drippy Loading
+      - 530816 #no telemetary
+      - 537653 #End Goblin Traders
+      - 539382 #Iceberg
+      - 541604 #Item borders
+      - 542478 #Legendary Tooltips
+      - 547692 #Client Tweaks
+      - 550387 #otter
+
+  # The base path where the server should be installed to, ~ for current path
+  baseInstallPath: server/
+
+  # a list of files which are supposed to be ignored when installing it from the client files
+  # this can either use regex or glob {default glob: https://docs.oracle.com/javase/8/docs/api/java/nio/file/FileSystem.html#getPathMatcher-java.lang.String-}
+  # specify with regex:.... or glob:.... if you want to force a matching type
+  ignoreFiles:
+    - mods/Overrides.txt
+    - mods/optifine*.jar
+    - mods/optiforge*.jar
+    - resources/**
+    - shaderpacks/**
+    - kubejs/assets/**
+    - kubejs/client_scripts/**
+    - packmenu/**
+    - openloader/resources/**
+
+  # often a server needs more files, which are nearly useless on the client, such as tickprofiler
+  # This is a list of files, each ' - ' is a new file:
+  # url is the directlink to the file, destination is the path to where the file should be copied to
+  additionalFiles: ~
+  #  - url: https://media.forgecdn.net/files/2844/278/restrictedportals-1.15-1.0.jar
+  #    destination: mods/restrictedportals-1.15-1.0.jar
+  #  - url: https://media.forgecdn.net/files/2874/966/Morpheus-1.15.2-4.2.46.jar
+  #    destination: mods/Morpheus-1.15.2-4.2.46.jar
+  #  - url: https://media.forgecdn.net/files/2876/89/spark-forge.jar
+  #    destination: mods/spark-forge.jar
+
+  # For often there are config which the user wants to change, here is the place to put the local path to configs, jars or whatever
+  # You can copy files or folders
+  localFiles: ~
+  #  - from: setup/modpack-download.zip
+  #    to: setup/test/modpack-download-copied.zip
+  #  - from: setup/AOF 2/.minecraft
+  #    to: setup/.
+
+  # This makes the program check the folder for whether it is supposed to use the
+  checkFolder: true
+
+  # Whether to install the Loader (Forge or Fabric) or not, should always be true unless you only want to install the pack
+  installLoader: true
+
+  # Sponge bootstrapper jar URL
+  # Only needed if you have spongefix enabled
+  spongeBootstrapper: https://github.com/simon816/SpongeBootstrap/releases/download/v0.7.1/SpongeBootstrap-0.7.1.jar
+
+  # Time in seconds before the connection attempt to any webservice like forge/curseforge times out
+  # Only increase this timer if you have problems
+  connectTimeout: 30
+
+  # Time in seconds before the read attempt to any webservice like forge/curseforge times out
+  # Only increase this timer if you have problems
+  readTimeout: 30
+
+# settings regarding the launching of the pack
+launch:
+  # applies the launch wrapper to fix sponge for a few mods
+  spongefix: false
+
+  # Use a RAMDisk for the world folder
+  # case-sensitive; use only lowercase `true` or `false`
+  # NOTE: The server must have run once fully before switching to `true`!
+  ramDisk: false
+
+  # checks with the help of a few unrelated server whether the server is online
+  checkOffline: true
+
+  # These servers are going to be checked:
+  checkUrls:
+    - https://github.com/
+    - https://www.curseforge.com/
+
+  # specifies the max amount of ram the server is supposed to launch with
+  maxRam: 6G
+
+  # specifies the min amount of ram the server is supposed to launch with
+  minRam: 4G
+
+  # specifies whether the server is supposed to auto restart after crash
+  autoRestart: true
+
+  # after a given amount of crashes in a given time the server will stop auto restarting
+  crashLimit: 10
+
+  # Time a crash should be still accounted for in the {crashLimit}
+  # syntax is either [number]h or [number]min or [number]s
+  crashTimer: 60min
+
+  # Arguments that need to go before the 'java' argument, something like linux niceness
+  # This is only a string, not a list.
+  preJavaArgs: ~
+
+  # Start File Name, variables: {{@loaderversion@}} and {{@mcversion@}}
+  # This has to be the name the installer spits out
+  # For Forge 1.12-: "forge-{{@mcversion@}}-{{@loaderversion@}}-universal.jar"
+  # For Forge 1.13+: "forge-{{@mcversion@}}-{{@loaderversion@}}.jar"
+  # For Fabric: "fabric-server-launch.jar"
+  startFile: "fabric-server-launch.jar"
+
+  # This is the command how the server is supposed to be started
+  # All arguments must be separate entries, including options and their values.
+  # For example, "--fml.modLists pathToModListFile" should be:
+  #  - "--fml.modLists"
+  #  - "pathToModListFile"
+  #
+  # Forge:
+  #   For <1.16 it should be
+  #    - "-jar"
+  #    - "{{@startFile@}}"
+  #    - "nogui"
+  #   For >=1.17 it should be
+  #    - "@libraries/net/minecraftforge/forge/{{@mcversion@}}-{{@loaderversion@}}/{{@os@}}_args.txt"
+  #    - "nogui"
+  # Fabric:
+  #    - "-jar"
+  #    - "fabric-server-launch.jar"
+  #    - "nogui"
+  startCommand:
+    - "-jar"
+    - "fabric-server-launch.jar"
+    - "nogui"
+
+  # In case you have multiple javas installed you can add a absolute path to it here
+  # The Path has to be enclosed in \" like in the example if it has spaces (or for safety just include them always.)
+  # if the value is "", null, or ~ then 'java' from PATH is going to be used
+  # Example: "\"C:/Program Files/Java/jre1.8.0_201/bin/java.exe\""
+  # It also supports replacing with environment variables with ${ENV_VAR} e.g. ${JAVA_HOME}/bin/java.exe
+  forcedJavaPath: ~
+
+  # If you aren't sure what the java path is you can let serverstarter attempt to find the correct JVM
+  # For this you need to have all available JVMs on the PATH
+  # -> MC 1.12 to 1.16 requires java [8, 9, 10, 11]
+  # -> MC 1.17 requires java [17]
+  supportedJavaVersions: [17]
+
+  # Java args that are supposed to be used when the server launches
+  # keep in mind java args often need ' - ' in front of it to work, use clarifying parentheses to make sure it uses it correctly
+  # Keep in mind that some arguments only work on JRE 1.8
+  # reference: https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
+  javaArgs:
+    - "-server"
+    - "-XX:+UseG1GC"
+    - "-XX:+ParallelRefProcEnabled"
+    - "-XX:MaxGCPauseMillis=100"
+    - "-XX:+UnlockExperimentalVMOptions"
+    - "-XX:+DisableExplicitGC"
+    - "-XX:+AlwaysPreTouch"
+    - "-XX:G1NewSizePercent=30"
+    - "-XX:G1MaxNewSizePercent=40"
+    - "-XX:G1HeapRegionSize=8M"
+    - "-XX:G1ReservePercent=20"
+    - "-XX:G1HeapWastePercent=5"
+    - "-XX:G1MixedGCCountTarget=4"
+    - "-XX:InitiatingHeapOccupancyPercent=15"
+    - "-XX:G1MixedGCLiveThresholdPercent=90"
+    - "-XX:G1RSetUpdatingPauseTimePercent=5"
+    - "-XX:SurvivorRatio=32"
+    - "-XX:+PerfDisableSharedMem"
+    - "-XX:MaxTenuringThreshold=1"
+    - "-Dusing.aikars.flags=https://mcflags.emc.gs"
+    - "-Daikars.new.flags=true"
+    - "-Dlog4j.skipJansi=false"
+    - "-Dfml.readTimeout=90" # servertimeout
+    - "-Dfml.queryResult=confirm" # auto /fmlconfirm
