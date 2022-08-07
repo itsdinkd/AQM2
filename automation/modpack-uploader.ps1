@@ -52,7 +52,8 @@ function Test-ForDependencies {
         throw "7zip not command available. Please follow the instructions above." 
     }
 
-    $isCurlAvailable = Get-Command curl.exe
+    $isCurlAvailable = Get-Command $curl
+
     if (-not $isCurlAvailable) {
         Clear-Host
         Write-Host 
@@ -63,7 +64,7 @@ function Test-ForDependencies {
         Write-Host 
         Write-Host "When you're done, rerun this script.`n"
 
-        throw "curl.exe command not available. Please follow the instructions above." 
+        throw "curl not available. Please follow the instructions above." 
     }
 }
 
@@ -216,7 +217,7 @@ function Push-ClientFiles {
             Remove-BlacklistedFiles
         }
 
-        #$CLIENT_CHANGELOG = Get-Content -Path "$PSScriptRoot\..\changelogs\changelog.md"
+        #$CLIENT_CHANGELOG = Get-Content -Path "$PSScriptRoot/../changelogs/changelog.md"
 
         $CLIENT_METADATA = 
         "{
@@ -236,7 +237,7 @@ function Push-ClientFiles {
         Write-Host "Uploading client files to https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" -ForegroundColor Green
         Write-Host
 
-        $response = curl.exe `
+        $response = & $curl `
             --url "https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" `
             --user "$CURSEFORGE_USER`:$CURSEFORGE_TOKEN" `
             -H "Accept: application/json" `
@@ -244,6 +245,8 @@ function Push-ClientFiles {
             -F metadata=$CLIENT_METADATA `
             -F file=@"$CLIENT_ZIP_NAME.zip" `
             --progress-bar | ConvertFrom-Json
+       
+
         $clientFileReturnId = $response.id
 
         if (-not $response.id) {
@@ -326,7 +329,7 @@ function Push-ServerFiles {
         Write-Host "Uploading server files..." -ForegroundColor Cyan
         Write-Host 
 
-        $serverFileResponse = curl.exe `
+        $serverFileResponse = & $curl `
             --url "https://minecraft.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file" `
             --user "$CURSEFORGE_USER`:$CURSEFORGE_TOKEN" `
             -H "Accept: application/json" `
@@ -398,6 +401,14 @@ function Remove-LeadingZero {
 
 $startLocation = Get-Location
 Set-Location $INSTANCE_ROOT
+
+if ($null -eq $IsWindows -or $IsWindows) {
+    # The script is running on Windows, use curl.exe
+    $curl = "curl.exe"
+}
+else {
+    $curl = "curl"
+}
 
 Test-ForDependencies
 Validate-SecretsFile
