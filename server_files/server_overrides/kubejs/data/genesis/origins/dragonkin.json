@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "genesis:dragonkin/fireball",
+    "genesis:dragonkin/dragon_flight",
+    "genesis:dragonkin/launch",
+    "genesis:dragonkin/dragon_scales",
+    "genesis:dragonkin/dragon_fireball",
+    "genesis:dragonkin/grounded",
+    "genesis:dragonkin/carnivore",
+    "origins:ender_particles"
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 1,
+  "impact": 2,
+  "name":"Dragonkin",
+  "description": "All but one of the Great Dragons left the End. Where they went is unknown. What we do know is you were born of them."
+}

@@ -188,6 +188,8 @@ install:
   localFiles:
     - from: server-icon.png
       to: server/server-icon.png
+    - from: server_overrides/
+      to: server/
   #  - from: setup/modpack-download.zip
   #    to: setup/test/modpack-download-copied.zip
   #  - from: setup/AOF 2/.minecraft

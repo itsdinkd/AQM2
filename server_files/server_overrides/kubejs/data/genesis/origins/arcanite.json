@@ -1,0 +1,32 @@
+{
+  "powers": [
+    "genesis:arcanite/scholar",
+    "genesis:arcanite/eldritch_talent",
+    "genesis:arcanite/mana",
+    "genesis:arcanite/magicman",
+    "genesis:arcanite/weak",
+    "genesis:arcanite/filler_regen",
+    "genesis:arcanite/filler_fireball",
+    "genesis:arcanite/filler_lightning",
+    "genesis:arcanite/filler_wither",
+    "genesis:arcanite/enchant_particles",
+    "genesis:arcanite/more_projectile_damage",
+    "genesis:arcanite/more_wither_damage",
+    "genesis:arcanite/mana_change",
+    "genesis:arcanite/mana_wither",
+    "genesis:arcanite/mana_respawn",
+    "genesis:arcanite/mana_regen",
+    "genesis:arcanite/mana_lightning",
+    "genesis:arcanite/mana_area_regen",
+    "genesis:arcanite/lightning_immune",
+    "genesis:arcanite/toggle",
+    "genesis:arcanite/advancements",
+    "genesis:arcanite/flight"
+  ],
+  "icon": "minecraft:enchanted_book",
+  "order": 4,
+  "impact": 1,
+  "name":"Arcanite",
+  "description": "Show them your power.",
+  "loading_priority": 100
+}

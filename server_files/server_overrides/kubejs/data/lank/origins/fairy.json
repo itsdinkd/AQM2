@@ -1,0 +1,11 @@
+{
+    "name": "Fairy",
+    "description": "Creatures of the forest. While they can fly, they are also very weak.",
+    "powers": [
+    ],
+    "icon": {
+        "item": "minecraft:apple"
+    },
+    "impact": 3,
+    "unchoosable": true
+}
