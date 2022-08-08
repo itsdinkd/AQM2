@@ -166,7 +166,6 @@ install:
     - mods/optiforge*.jar
     - resources/**
     - shaderpacks/**
-    - kubejs/assets/**
     - kubejs/client_scripts/**
     - packmenu/**
     - openloader/resources/**
