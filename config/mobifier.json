@@ -1,5 +1,5 @@
 {
-  "dump_registries": true,
+  "dump_registries": false,
   "mobifier": {
     "category/monster": [
       {

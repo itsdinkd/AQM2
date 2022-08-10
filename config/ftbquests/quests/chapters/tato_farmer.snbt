@@ -38,29 +38,6 @@
 			]
 		}
 		{
-			x: -2.3035714285714235d
-			y: -0.9642857142857153d
-			subtitle: "One menu to see the all"
-			description: [
-				"Place this where your villagers are and you will get all trades in one menu"
-				""
-				"The range is 24 blocks horizontally, 14 blocks vertically"
-			]
-			size: 2.5d
-			id: "7B9FF9B3955224DA"
-			tasks: [{
-				id: "774028ECB27A66E5"
-				type: "item"
-				item: "tradingpost:trading_post"
-			}]
-			rewards: [{
-				id: "40982C5C6DF542AE"
-				type: "item"
-				item: "minecraft:emerald"
-				count: 2
-			}]
-		}
-		{
 			x: -6.0d
 			y: 3.5d
 			dependencies: ["1C72D8F994EB404A"]
@@ -736,16 +713,6 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 2.0d
-			id: "192D1D05E5D3DB83"
-			tasks: [{
-				id: "7830BF68435ECFE3"
-				type: "item"
-				item: "minecraft:oak_sapling"
-			}]
-		}
-		{
 			x: -6.0d
 			y: 6.5d
 			subtitle: "Super fast crop growth? Yes please"
@@ -909,6 +876,25 @@
 					item: "croptosis:potash"
 				}
 			]
+		}
+		{
+			title: "Automate Harvesting"
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Place it above a chest and watch it grow"
+			description: ["This plant in a jar will automate sapling growth and place the logs and leaves in a chest that is underneath the block. "]
+			size: 2.5d
+			id: "25FD6F0F8BD22566"
+			tasks: [{
+				id: "4EAD11987372178E"
+				type: "item"
+				item: "plantinajar:plant_jar"
+			}]
+			rewards: [{
+				id: "192BA3F27E0E2C39"
+				type: "item"
+				item: "byg:pink_cherry_sapling"
+			}]
 		}
 	]
 }

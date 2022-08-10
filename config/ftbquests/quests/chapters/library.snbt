@@ -85,6 +85,7 @@
 			x: -7.0d
 			y: -2.0d
 			subtitle: "All about Redstone"
+			secret: true
 			id: "43B7A3B4D93DA8A0"
 			tasks: [{
 				id: "5A6FCD79BC8FFA92"

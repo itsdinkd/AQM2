@@ -239,6 +239,7 @@ onEvent('recipes', event => {
   // Remove Create XP Recipe and Zinc workaround
   event.remove({input: "create:experience_nugget"})
   event.remove({id: "createplus:modern_industrialization/macerator/asurine"})
+  event.remove({id: "createplus:modern_industrialization/macerator/cinder_flour"})
   var doom_tools = [
     "axe",
     "pickaxe",

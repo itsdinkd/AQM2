@@ -230,6 +230,8 @@
 				orc = true
 				summoner = true
 				void_shadow = false
+				blaze_guardian_shield = true
+				mammoth = true
 
 			[light_sources.settings.entities.elementalcreepers]
 				illusion_creeper = false
@@ -306,6 +308,7 @@
 				cyberdemon = true
 				doom_hunter = true
 				archvile_firing = true
+				chaingun_mob = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false
@@ -369,6 +372,7 @@
 				swamp_creeper = true
 				jungle_creeper = true
 				desert_creeper = true
+				spruce_creeper = true
 
 			[light_sources.settings.entities.biomemakeover]
 				moth = true
@@ -387,6 +391,7 @@
 
 			[light_sources.settings.entities.sprout]
 				elephant = true
+				bounce_bug = true
 
 			[light_sources.settings.entities.guardiansgalore]
 				dragon = true
@@ -433,6 +438,8 @@
 			[light_sources.settings.entities.betternether]
 				hydrogen_jellyfish = true
 				naga = true
+				skull = true
+				flying_pig = true
 
 			[light_sources.settings.entities.allay]
 				allay = true
@@ -440,6 +447,7 @@
 			[light_sources.settings.entities.bosses_of_mass_destruction]
 				lich = true
 				void_blossom = true
+				gauntlet = true
 
 			[light_sources.settings.entities.halfdoors]
 				door_saw = true
@@ -452,4 +460,13 @@
 				enderman_pet = true
 				cow_pet = true
 				ocelot_pet = true
+
+			[light_sources.settings.entities.lavajava]
+				wither_barista = true
+
+			[light_sources.settings.entities.create]
+				stationary_contraption = true
+
+			[light_sources.settings.entities.hexcasting]
+				wall_scroll = true
 

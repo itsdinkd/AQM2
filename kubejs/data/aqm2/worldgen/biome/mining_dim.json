@@ -1,0 +1,143 @@
+{
+  "temperature": 1,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 8103167,
+    "fog_color": 12638463,
+    "water_color": 4445678,
+    "water_fog_color": 270131,
+    "particle": {
+      "probability": 0.0001,
+      "options": {
+        "type": "minecraft:falling_dust",
+        "value": {
+          "Name": "betterend:firefly",
+          "Properties": {}
+        }
+      }
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "aqm2:techreborn_bauxite_ore",
+      "aqm2:techreborn_galena_ore",
+      "aqm2:techreborn_iridium_ore",
+      "aqm2:techreborn_lead_ore",
+      "aqm2:techreborn_sapphire_ore",
+      "aqm2:techreborn_silver_ore",
+      "aqm2:techreborn_tin_ore",
+      "aqm2:things_gleaming_ore",
+      "aqm2:ae2_certus_ore",
+      "aqm2:gobber_lucky_ore",
+      "aqm2:gobber_ore",
+      "aqm2:indrev_nikolite_ore",
+      "aqm2:mi_antimony_ore",
+      "aqm2:mi_mozanite_ore",
+      "aqm2:mi_nickel_ore",
+      "aqm2:mi_uranium_ore",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:trees_plains",
+      "minecraft:plain_vegetation",
+      "minecraft:flower_plain_decorated",
+      "minecraft:patch_grass_plain",
+      "minecraft:trees_old_growth_pine_taiga"
+    ],
+    []
+  ]
+}

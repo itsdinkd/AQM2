@@ -9,6 +9,9 @@ onEvent('player.logged_in', event => {
     // clear item
     event.player.inventory.clear('prefab:item_start_house');
   }
+
+  // banned items
+  event.player.inventory.clear("doom:daisy");
   const doomArmorRemInv = [
     "boots",
     "chestplate",

@@ -1,0 +1,27 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "minecraft:stone_ore_replaceables",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "valley:mixed_ore"
+        }
+      },
+      {
+        "target": {
+          "tag": "minecraft:deepslate_ore_replaceables",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "valley:deepslate_mixed_ore"
+        }
+      }
+    ],
+    "size": 5,
+    "discard_chance_on_air_exposure": 0.7
+  },
+  "type": "minecraft:ore"
+}

@@ -1,0 +1,27 @@
+{
+  "feature": "aqm2:valley_mixed",
+  "placement": [
+    {
+      "count": 8,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": 20
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

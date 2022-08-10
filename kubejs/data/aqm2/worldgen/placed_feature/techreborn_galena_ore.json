@@ -1,0 +1,27 @@
+{
+  "feature": "aqm2:techreborn_galena",
+  "placement": [
+    {
+      "count": 13,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": -39
+        },
+        "max_inclusive": {
+          "absolute": 40
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

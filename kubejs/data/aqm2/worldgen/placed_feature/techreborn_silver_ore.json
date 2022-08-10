@@ -1,0 +1,27 @@
+{
+  "feature": "aqm2:techreborn_silver",
+  "placement": [
+    {
+      "count": 10,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": -24
+        },
+        "max_inclusive": {
+          "absolute": 60
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

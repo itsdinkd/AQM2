@@ -59,7 +59,8 @@
       "modern_industrialization:steam": 15658734,
       "modern_industrialization:crude_oil": 4077624,
       "modern_industrialization:sulfuric_naphtha": 10852190,
-      "modern_industrialization:hydrogen": 1788620
+      "modern_industrialization:hydrogen": 1788620,
+      "modern_industrialization:lubricant": 16761856
     },
     "blacklist": [
       "minecraft:water",

@@ -1,82 +1,195 @@
 {
-	// Enable Boss Mobs with Eldritch Modifiers
-	"toggleEldritchBossMobs": true,
-	// Turn off custom names
-	"turnOffNames": false,
+	"EliteSpawnRates": 0.013,
+	"UltraSpawnRates": 0.012,
+	"EldritchSpawnRates": 0.01,
+	"EliteHealthMultiplier": 4.0,
+	"UltraHealthMultiplier": 7.5,
+	"EldritchHealthMultiplier": 13.0,
+	"EliteXpMultiplier": 4,
+	"UltraXpMultiplier": 8,
+	"EldritchXpMultiplier": 12,
+	"EliteMinModifiers": 2,
+	"UltraMinModifiers": 5,
+	"EldritchMinModifiers": 9,
+	"EliteMaxModifiers": 4,
+	"UltraMaxModifiers": 8,
+	"EldritchMaxModifiers": 12,
+	// Prevent named mobs from becoming Elite, Ultra, and Eldritch
+	"ignoreNamedMobs": true,
+	// Turn off titles for mobs
+	"turnOffTitles": false,
 	// Turn off boss bars
 	"turnOffBossBars": true,
-	// Ignore named creatures and monsters
-	"ignoreNamed": true,
-	// Enable Glowing Elite/Ultra/Eldritch Mobs upon discovery
+	// Boss bars appears when placing crosshair on buffed mob
+	"crosshairBossBars": true,
+	// Buffed mobs are highlighted after being damaged
 	"turnOnGlowingMobs": true,
-	// Out of 100 Mobs
-	"EliteSpawnRates": 1.3,
-	// Out of 100 Elites
-	"UltraSpawnRates": 1.2,
-	// Out of 100 Ultras
-	"EldritchSpawnRates": 1.1,
-	"healthIncrease": false,
-	"healthMult": true,
-	// Number of extra hearts for Elite Mobs
-	"EliteHealthMod": 60,
-	// Number of extra hearts for Ultra Mobs
-	"UltraHealthMod": 120,
-	// Number of extra hearts for Eldritch Mobs
-	"EldritchHealthMod": 240,
-	// Health Multiplier for Elite Mobs
-	"EliteHealthMult": 4.0,
-	// Health Multiplier for Ultra Mobs
-	"UltraHealthMult": 7.5,
-	// Health Modifier for Eldritch Mobs
-	"EldritchHealthMult": 13.0,
-	// # of Modifiers for Elite Mobs
-	"EliteModTotal": 4,
-	// # of Modifiers for Ultra Mobs
-	"UltraModTotal": 8,
-	// # of Modifiers for Eldritch Mobs
-	"EldritchModTotal": 12,
-	// EXP multiplier for Elite Mobs
-	"EliteExpMult": 5,
-	// EXP multiplier for Ultra Mobs
-	"UltraExpMult": 12,
-	// EXP multiplier for Eldritch Mobs
-	"EldritchExpMult": 25,
-	// Difficulty increases with intensity. Intensity ranges from 1-3.
-	"intensity": 2,
-	// Level of strength applied to mobs
-	"damageModifier": 0,
-	"enableCustomLoot": false,
-	"disableCombinedDrops": false,
-	"onlyDropLootIfPlayerKilled": true,
-	"disableModifiers": {
-		"disableAlchemist": false,
-		"disableBeserk": false,
-		"disableYeeter": false,
-		"disableBlinding": false,
-		"disableBurning": false,
-		"disableCloaked": true,
-		"disableDeflector": false,
-		"disableDraining": false,
-		"disableDrowning": false,
-		"disableEnder": false,
-		"disableGhastly": true,
-		"disableGravity": false,
-		"disableLethargic": false,
-		"disableLifesteal": true,
-		"disableOneUp": false,
-		"disableRegen": true,
-		"disableResistant": false,
-		"disableRust": false,
-		"disableSpeedster": false,
-		"disableSprinter": false,
-		"disableStarving": false,
-		"disableStormy": false,
-		"disableThorny": false,
-		"disableToxic": false,
-		"disableWeakness": false,
-		"disableWebslinging": false,
-		"disableWithering": false,
-		"disableSniper": false,
-		"disableDuplicator": true
+	// Turn off loot for buffed mobs
+	"disableLootDrops": false,
+	// If true, buffed mobs only drop loot when killed by players
+	"onlyDropLootIfKilledByPlayers": true,
+	// Buffed mobs also drop the loot of the tier below them + the loot of their tier.
+	"combinedLootDrop": false,
+	// Buffed mobs have generic titles w/o abilities
+	"genericTitles": true,
+	"alchemistConfig": {
+		"name": "Alchemist",
+		"disabled": false,
+		"cooldown": 240,
+		"useStrongHealing": false,
+		"useStrongHarming": false
+	},
+	"berserkConfig": {
+		"name": "Berserk",
+		"disabled": false,
+		"amplifier": 2
+	},
+	"blindingConfig": {
+		"name": "Blinding",
+		"disabled": false,
+		"cooldown": 300,
+		"duration": 80,
+		"amplifier": 1
+	},
+	"burningConfig": {
+		"name": "Burning",
+		"disabled": false,
+		"cooldown": 500,
+		"fireDuration": 6
+	},
+	"cloakedConfig": {
+		"name": "Cloaked",
+		"disabled": true
+	},
+	"deflectorConfig": {
+		"name": "Deflector",
+		"disabled": false
+	},
+	"drainingConfig": {
+		"name": "Draining",
+		"disabled": false,
+		"cooldown": 300,
+		"duration": 125,
+		"amplifier": 1
+	},
+	"drowningConfig": {
+		"name": "Drowning",
+		"disabled": false,
+		"drowningDamage": 0.009999999776482582,
+		"waterBreatingDuration": 100
+	},
+	"duplicatorConfig": {
+		"name": "Duplicator",
+		"disabled": true,
+		"cooldown": 3000
+	},
+	"enderConfig": {
+		"name": "Ender",
+		"disabled": false
+	},
+	"ghastlyConfig": {
+		"name": "Ghastly",
+		"disabled": false,
+		"cooldown": 900,
+		"fireballPower": 1
+	},
+	"gravityConfig": {
+		"name": "Gravity",
+		"disabled": false,
+		"cooldown": 600
+	},
+	"lethargicConfig": {
+		"name": "Lethargic",
+		"disabled": false,
+		"cooldown": 250,
+		"duration": 100,
+		"amplifier": 1
+	},
+	"lifestealConfig": {
+		"name": "Lifesteal",
+		"disabled": false,
+		"lifestealHealProportion": 0.12999999
+	},
+	"regeneratingConfig": {
+		"name": "Regenerating",
+		"disabled": true,
+		"healAmount": 0.005000000353902578
+	},
+	"rustConfig": {
+		"name": "Rust",
+		"disabled": false,
+		"equipmentDamage": 30
+	},
+	"resistantConfig": {
+		"name": "Resistant",
+		"disabled": false,
+		"amplifier": 0
+	},
+	"starvingConfig": {
+		"name": "Starving",
+		"disabled": false,
+		"cooldown": 300,
+		"duration": 160,
+		"amplifier": 1
+	},
+	"stormyConfig": {
+		"name": "Stormy",
+		"disabled": false,
+		"cooldown": 1000
+	},
+	"speedsterConfig": {
+		"name": "Speedster",
+		"disabled": false,
+		"amplifier": 2
+	},
+	"sprinterConfig": {
+		"name": "Sprinter",
+		"disabled": false,
+		"cooldown": 600,
+		"duration": 100,
+		"amplifier": 4
+	},
+	"thornyConfig": {
+		"name": "Thorny",
+		"disabled": false,
+		"thornyReturnDamage": 0.255555999
+	},
+	"toxicConfig": {
+		"name": "Toxic",
+		"disabled": false,
+		"duration": 100,
+		"amplifier": 1
+	},
+	"undyingConfig": {
+		"name": "Undying",
+		"disabled": false,
+		"regenerationDuration": 900,
+		"regenerationAmplifier": 1,
+		"absorptionDuration": 1200,
+		"absorptionAmplifier": 5,
+		"fireResistanceDuration": 800
+	},
+	"weaknessConfig": {
+		"name": "Weakness",
+		"disabled": false,
+		"cooldown": 250,
+		"duration": 100,
+		"amplifier": 1
+	},
+	"webslingingConfig": {
+		"name": "Webslinging",
+		"disabled": false,
+		"cooldown": 600
+	},
+	"witheringConfig": {
+		"name": "Withering",
+		"disabled": false,
+		"duration": 100,
+		"amplifier": 1
+	},
+	"yeeterConfig": {
+		"name": "Yeeter",
+		"disabled": false,
+		"yeetAmount": 5.0
 	}
 }

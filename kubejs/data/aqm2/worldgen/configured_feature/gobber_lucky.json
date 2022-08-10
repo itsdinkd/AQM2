@@ -1,0 +1,27 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "minecraft:stone_ore_replaceables",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "gobber2:gobber2_lucky_block"
+        }
+      },
+      {
+        "target": {
+          "tag": "minecraft:deepslate_ore_replaceables",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "gobber2:gobber2_lucky_block_deepslate"
+        }
+      }
+    ],
+    "size": 2,
+    "discard_chance_on_air_exposure": 0.3
+  },
+  "type": "minecraft:ore"
+}

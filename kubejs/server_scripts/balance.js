@@ -1218,6 +1218,8 @@ event.custom({
     }
     ]
   });
+  event.remove({output:Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}')})
+  event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}'), ['minecraft:book', 'minecraft:amethyst_shard'])
 
   event.remove({output:"things:arm_extender"})
   event.custom({
@@ -1231,7 +1233,7 @@ event.custom({
       ],
       "key": {
           "L": {
-              "tag": "c:ingots/fiery"
+              "item": "techreborn:lead_ingot"
           },
           "R": {
               "item": "things:gleaming_compound"

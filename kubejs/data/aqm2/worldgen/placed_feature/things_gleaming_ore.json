@@ -1,0 +1,27 @@
+{
+  "feature": "aqm2:things_gleaming",
+  "placement": [
+    {
+      "count": 7,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": -20
+        },
+        "max_inclusive": {
+          "absolute": 0
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
