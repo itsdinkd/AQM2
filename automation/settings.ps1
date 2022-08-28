@@ -10,27 +10,27 @@ $INSTANCE_ROOT = ("$PSScriptRoot/.." | Resolve-Path)
 #  CURSEFORGE ACCOUNT SETTINGS
 # =====================================================================//
 
-$CURSEFORGE_USER = "BusterBrown99"
+$CURSEFORGE_USER = "itsDinkd"
 
 # For details see: https://www.curseforge.com/account/api-tokens
 # Defined in secrets.ps1 
 # $CURSEFORGE_TOKEN = 
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 643419
+$CURSEFORGE_PROJECT_ID = 507137
 
 # =====================================================================//
 #  MAIN MODPACK SETTINGS
 # =====================================================================//
 
 # This is the modpack name as seen in it's CurseForge url: https://www.curseforge.com/minecraft/modpacks/[enigmatica6]
-$MODPACK_NAME = "another-quality-testing-pack"
+$MODPACK_NAME = "another-quality-modpack-2"
 
 # Name of the Modpack in the ZIP File
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.5"
+$MODPACK_VERSION = "1.5.1"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
