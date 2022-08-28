@@ -71,11 +71,11 @@ $CLIENT_RELEASE_TYPE = "release"
 #  DEPENDENCIES
 #=====================================================================//
 
-# File name of the latest https://github.com/TheRandomLabs/ChangelogGenerator/releases
-$CHANGELOG_GENERATOR_JAR = "ChangelogGenerator-2.0.0-pre10.jar"
+# File name of the latest https://github.com/ModdingX/ModListCreator/releases
+$CHANGELOG_GENERATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
 
-# File name of the latest https://github.com/MelanX/ModListCreator/releases
-$MODLIST_CREATOR_JAR = "ModListCreator-3.0.1-fatjar.jar"
+# File name of the latest https://github.com/ModdingX/ModListCreator/releases
+$MODLIST_CREATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
 
 #=====================================================================//
 #  CLIENT FILE SETTINGS
@@ -132,7 +132,6 @@ $ENABLE_SERVERSTARTER_MODULE = $true
 # Toggle automatic changelog generator on/off
 # This module requires an older modpack manifest zip to be present, 
 # $LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
-# CURRENTLY BROKEN!! due to the new curseforge API
 # Default: $false
 $ENABLE_CHANGELOG_GENERATOR_MODULE = $false
 # Path to the ChangelogGenerator's output file
