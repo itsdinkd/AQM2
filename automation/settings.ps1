@@ -30,12 +30,12 @@ $MODPACK_NAME = "another-quality-modpack-2"
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.5.1"
+$MODPACK_VERSION = "1.6"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "$null"
+$LAST_MODPACK_VERSION = "1.5.1"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -52,7 +52,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "The Changelog is currently being written."
+$CLIENT_CHANGELOG = "[The changelogs page](https://github.com/itsdinkd/AQM2/blob/1.18.2/changelogs/changelog_mods_$MODPACK_VERSION.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
@@ -72,10 +72,10 @@ $CLIENT_RELEASE_TYPE = "release"
 #=====================================================================//
 
 # File name of the latest https://github.com/ModdingX/ModListCreator/releases
-$CHANGELOG_GENERATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
+$CHANGELOG_GENERATOR_JAR = "ModListCreator-4.0.2-fatjar.jar"
 
 # File name of the latest https://github.com/ModdingX/ModListCreator/releases
-$MODLIST_CREATOR_JAR = "ModListCreator-4.0.1-fatjar.jar"
+$MODLIST_CREATOR_JAR = "ModListCreator-4.0.2-fatjar.jar"
 
 #=====================================================================//
 #  CLIENT FILE SETTINGS
@@ -91,12 +91,13 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "kubejs",
     "paintings",
     "shaderpacks",
+    "resourcepacks",
     "servers.dat"
 )
 
-$CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @()
+$CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems")
 
-$FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "resourcepacks")
+$FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities")
 
 #=====================================================================//
 #  SERVER FILE SETTINGS
@@ -133,7 +134,7 @@ $ENABLE_SERVERSTARTER_MODULE = $true
 # This module requires an older modpack manifest zip to be present, 
 # $LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
 # Default: $false
-$ENABLE_CHANGELOG_GENERATOR_MODULE = $false
+$ENABLE_CHANGELOG_GENERATOR_MODULE = $true
 # Path to the ChangelogGenerator's output file
 $CHANGELOG_PATH = "$INSTANCE_ROOT/changelogs/changelog_mods_$MODPACK_VERSION.md"
 
