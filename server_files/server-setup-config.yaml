@@ -174,9 +174,9 @@ install:
   # often a server needs more files, which are nearly useless on the client, such as tickprofiler
   # This is a list of files, each ' - ' is a new file:
   # url is the directlink to the file, destination is the path to where the file should be copied to
-  additionalFiles: ~
-  #  - url: https://media.forgecdn.net/files/2844/278/restrictedportals-1.15-1.0.jar
-  #    destination: mods/restrictedportals-1.15-1.0.jar
+  additionalFiles:
+    - url: https://mediafiles.forgecdn.net/files/3682/488/krypton-0.1.9.jar
+      destination: mods/krypton-0.1.9.jar
   #  - url: https://media.forgecdn.net/files/2874/966/Morpheus-1.15.2-4.2.46.jar
   #    destination: mods/Morpheus-1.15.2-4.2.46.jar
   #  - url: https://media.forgecdn.net/files/2876/89/spark-forge.jar
