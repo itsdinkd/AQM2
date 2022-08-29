@@ -92,7 +92,9 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "paintings",
     "shaderpacks",
     "resourcepacks",
-    "servers.dat"
+    "servers.dat",
+    "mods/porting_lib-1.2.460-beta+1.18.2-dev.cca931b.jar",
+    "mods/fancymenu/defaultscaleset.fancymenu"
 )
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems")
