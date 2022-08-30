@@ -164,12 +164,14 @@ install:
     - mods/Overrides.txt
     - mods/optifine*.jar
     - mods/optiforge*.jar
+    - mods/fancymenu/**
     - resources/**
     - shaderpacks/**
     - kubejs/client_scripts/**
     - packmenu/**
     - openloader/resources/**
     - config/fancymenu/**
+    - servers.dat
 
   # often a server needs more files, which are nearly useless on the client, such as tickprofiler
   # This is a list of files, each ' - ' is a new file:
