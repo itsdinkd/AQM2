@@ -1176,6 +1176,10 @@
     "hexcasting:akashic_leaves3": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "spectrum:jade_vine_petal_block": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

@@ -188,6 +188,7 @@ const arrRemove = [
 'winged:heart_of_the_sky',
 'winged:wing_random_creative_flight',
 'winged:wing_random',
+"indrev:hammer",
 "modern_industrialization:wrench",
 "techreborn:rock_cutter",
 "xps:xp_berries_seeds",

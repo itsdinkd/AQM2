@@ -1,17 +1,22 @@
 {
-	"enableEnchantmentSettings": {
+	"ENABLE_ENCHANTMENT_SETTINGS": {
+		"ENABLE_INNATE_ENCHANTMENTS": true,
+		"SHARED_PAIN_CAN_DAMAGE_USER": false,
 		"EXTRA_XP_HEALING": false,
-		"ENABLE_OP_ENCHANTMENT_MIXING": false,
 		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false,
 		"AREA_OF_EFFECT_ENCHANTS_DONT_AFFECT_PLAYERS": true,
-		"ENABLE_INNATE_ENCHANTMENTS": true
+		"ENABLE_OP_ENCHANTMENT_MIXING": false
 	},
-	// ENIGMA_RESONATOR_DIVISOR -> Higher number = lower damage
-	"enchantmentStatsSettings": {
+	// ENIGMA_RESONATOR_DIVISOR -> Higher number = lower damage. Default value = 3.25.
+	"ENIGMA_RESONATOR_DIVISOR": {
 		"ENIGMA_RESONATOR_DIVISOR": 3.25
 	},
+	// Dynamo Stack Cap, Higher number = more potential damage. Default value = 20.
+	"DYNAMO_STACK_CAP": {
+		"DYNAMO_STACK_CAP": 20
+	},
 	// Enchantment Trigger Chances Base. This is not the % to occur, but the higher this number, the higher the chance to trigger.
-	"enchantmentTriggerChanceBase": {
+	"ENCHANTMENT_TRIGGER_BASE_CHANCE": {
 		"CHAIN_REACTION": 10,
 		"CHAINS": 20,
 		"CHARGE": 10,
@@ -29,14 +34,16 @@
 		"RAMPAGING": 10,
 		"REPLENISH": 3,
 		"RUSHDOWN": 10,
+		"SHADOW_SHOT": 10,
 		"SHOCKWAVE": 10,
-		"SOUL_SIPHON": 8,
+		"SOUL_SIPHON": 10,
 		"STUNNING": 20,
 		"SWIRLING": 10,
 		"THUNDERING": 20,
 		"VOID_SHOT": 25,
 		"VOID_STRIKE": 15,
-		"WEAKENING": 30
+		"WEAKENING": 30,
+		"WILD_RAGE": 10
 	},
 	// Overall Enchantment Strength Slider
 	"enchantmentStrength": 1.0

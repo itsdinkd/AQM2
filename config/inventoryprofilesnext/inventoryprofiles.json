@@ -8,9 +8,9 @@
         "first_run": false
     },
     "GuiSettings": {
+        "enable_inventory_editor_button": false,
         "enable_profiles_ui": false,
-        "enable_inventory_buttons": false,
-        "enable_inventory_editor_button": false
+        "enable_inventory_buttons": false
     },
     "AutoRefillSettings": {
         "refill_before_tool_break": false,

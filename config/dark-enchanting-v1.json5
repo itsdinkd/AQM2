@@ -12,7 +12,7 @@
   //
   //Each enchantment's cost is multiplied by this value.
   //Default: 1.0
-  "costFactor": 1.6,
+  "costFactor": 1.5,
   //
   //Removing an enchantment from gear will give XP back.
   //The amount received back is multiplied by this value.
@@ -27,7 +27,7 @@
   //Each TREASURE enchantment's cost is multiplied by this value.
   //TREASURE Enchantments will show up as blue on the Dark Enchanter.
   //Default: 4.0
-  "treasureFactor": 5.0,
+  "treasureFactor": 4.8988,
   //
   //How much an enchantment's inverted weight should be multiplied with.
   //Each enchantment has a Rarity, and each Rarity has a weight.
@@ -38,7 +38,7 @@
   //This weightFactor allows you to modify the inverted weight.
   //
   //Default: 3.0
-  "weightFactor": 1.5,
+  "weightFactor": 1.6,
   //
   //Repairing any item will have its cost multiplied by this value.
   //Default: 1.0
@@ -50,7 +50,7 @@
   //
   //This number represents the discount from Dark Conduits.
   //Default: 0.1 (10%)
-  "conduitDiscount": 0.1,
+  "conduitDiscount": 0.115,
   //
   //As a security feature, the client can no longer send packets to the server requesting above
   //maximum enchantment levels.

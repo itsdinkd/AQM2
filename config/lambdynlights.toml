@@ -309,6 +309,7 @@
 				doom_hunter = true
 				archvile_firing = true
 				chaingun_mob = true
+				cacodemon = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false
@@ -469,4 +470,13 @@
 
 			[light_sources.settings.entities.hexcasting]
 				wall_scroll = true
+
+			[light_sources.settings.entities.lilwings]
+				red_applefly_butterfly = true
+				painted_panther_butterfly = true
+				grayling_butterfly = true
+				swallow_tail_butterfly = true
+
+			[light_sources.settings.entities.automobility]
+				automobile = true
 

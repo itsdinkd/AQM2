@@ -10,9 +10,9 @@ onEvent('tags.item', event => {
   event.add('c:crops', 'farmersdelight:rice');
   event.add('c:rice', 'farmersdelight:rice');
   event.add('c:tomato', 'farmersdelight:tomato');
-  event.add('c:salts', 'expandeddelight:ground_salt');
-	event.add('c:salt_dusts', 'expandeddelight:ground_salt');
-	event.add('c:salt_dusts', 'expandeddelight:ground_salt');
+  // event.add('c:salts', 'expandeddelight:ground_salt'); - Expanded Delight removed on v1.6
+	// event.add('c:salt_dusts', 'expandeddelight:ground_salt');
+	// event.add('c:salt_dusts', 'expandeddelight:ground_salt');
 })
 
 // settings.useOriginalRecipeForFilters = true;

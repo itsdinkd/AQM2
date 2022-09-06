@@ -16,6 +16,8 @@ onEvent('worldgen.remove',event => {
       'indrev:lead_ore',
       'indrev:tin_ore',
       'indrev:tungsten_ore',
+      'indrev:silver_ore',
+      'indrev:deepslate_silver_ore',
       'modern_industrialization:deepslate_salt_ore',
       'modern_industrialization:salt_ore',
       'techreborn:deepslate_ruby_ore',

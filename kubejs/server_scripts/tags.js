@@ -39,6 +39,26 @@
 		"modern_industrialization:quantum_circuit"
 	];
 
+	const SimplyRareSwords = [
+		"simplyswords:runic_katana",
+		"simplyswords:runic_sai",
+		"simplyswords:runic_rapier",
+		"simplyswords:runic_twinblade",
+		"simplyswords:runic_glaive",
+		"simplyswords:runic_longsword",
+		"simplyswords:runic_spear",
+		"simplyswords:runic_cutlass",
+		"simplyswords:runic_claymore",
+		"simplyswords:watcher_claymore",
+		"simplyswords:watching_warglaive",
+		"simplyswords:toxic_longsword",
+		"simplyswords:stormbringer",
+		"simplyswords:bramblethorn",
+		"simplyswords:brimstone_claymore",
+		"simplyswords:storms_edge",
+		"simplyswords:bramblethorn",
+		"simplyswords:sword_on_a_stick"
+	]
 
 // Fish
 
@@ -101,7 +121,8 @@
 	'bewitchment:curse_poppet',
 	'bewitchment:vampiric_poppet',
 	'bewitchment:judgment_poppet',
-	'bewitchment:fatigue_poppet'
+	'bewitchment:fatigue_poppet',
+	'archeology:copper_brush'
 	]
 
 	// const alwaysSoulbound = [
@@ -109,6 +130,9 @@
 
 onEvent('tags.items', event => {
 
+	SimplyRareSwords.forEach(function (item, index) {
+		event.add('aqm2:weapons/rare', item)
+	})
 	originFish.forEach(function (item, index) {
 		event.add('grounded_origins:penguin/seafood', item)
 		event.add('origins:meat', item)
@@ -136,6 +160,7 @@ onEvent('tags.items', event => {
 	event.add('c:wrenches', 'advanced_reborn:config_wrench')
 	event.add('c:wrenches','techreborn:wrench')
 	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
+	event.add("yigd:soulbound_blacklist", /^travelersbackpack:.*/)
 	event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
 
 	// event.add('grounded_origins:moth/fibrous_foods', '#fabric:grain')

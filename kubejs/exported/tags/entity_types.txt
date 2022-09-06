@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 17, 2022, 4:41:42 PM
+To refresh this file, delete it and run /reload command again! Last updated: Sep 1, 2022, 7:14:56 PM
 
 #besmirchment:pure_souls
 - minecraft:player
@@ -34,10 +34,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:glow_squid
 - minecraft:axolotl
 
-#minecraft:power_snow_walkable_mobs
-- whisperwoods:hirschgeist
-- whisperwoods:wisp
-
 #requiem:inventory/inventory_carriers
 - ratsmischief:rat
 
@@ -47,6 +43,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #libra:evil_bosses
 - minecraft:wither
 - minecraft:ender_dragon
+- minecraft:warden
 
 #dml-refabricated:zombie_mobs
 - minecraft:zombie
@@ -80,6 +77,66 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:blaze
 - minecraft:hoglin
 - minecraft:zoglin
+
+#eldritch_mobs:blacklist
+- minecraft:axolotl
+- minecraft:creeper
+- minecraft:bat
+- minecraft:bee
+- minecraft:boat
+- minecraft:cat
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:dolphin
+- minecraft:donkey
+- minecraft:end_crystal
+- minecraft:fox
+- minecraft:giant
+- minecraft:glow_squid
+- minecraft:goat
+- minecraft:horse
+- minecraft:llama
+- minecraft:mule
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:phantom
+- minecraft:pig
+- minecraft:polar_bear
+- minecraft:pufferfish
+- minecraft:rabbit
+- minecraft:salmon
+- minecraft:sheep
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:skeleton_horse
+- minecraft:squid
+- minecraft:stray
+- minecraft:strider
+- minecraft:trader_llama
+- minecraft:tropical_fish
+- minecraft:turtle
+- minecraft:villager
+- minecraft:wandering_trader
+- minecraft:wolf
+- minecraft:zombie_horse
+- creeperoverhaul:badlands_creeper
+- creeperoverhaul:bamboo_creeper
+- creeperoverhaul:beach_creeper
+- creeperoverhaul:cave_creeper
+- creeperoverhaul:dark_oak_creeper
+- creeperoverhaul:desert_creeper
+- creeperoverhaul:dripstone_creeper
+- creeperoverhaul:hills_creeper
+- creeperoverhaul:jungle_creeper
+- creeperoverhaul:mushroom_creeper
+- creeperoverhaul:savannah_creeper
+- creeperoverhaul:snowy_creeper
+- creeperoverhaul:spruce_creeper
+- creeperoverhaul:swamp_creeper
+- graveyard:skeleton_creeper
 
 #botania:shaded_mesa_blacklist
 - minecraft:ender_dragon
@@ -126,163 +183,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:squid
 - quark:crab?
 
-#besmirchment:illegal_familiar
-- minecraft:player
-- #bewitchment:taglock_blacklist
-
-#mobz:toad_target
-- minecraft:spider
-- minecraft:cave_spider
-- minecraft:silverfish
-- mobz:tspider
-- mobz:spi
-- mobz:spismall
-- mobz:spo
-
-#minecraft:impact_projectiles
-- #minecraft:arrows
-- minecraft:snowball
-- minecraft:fireball
-- minecraft:small_fireball
-- minecraft:egg
-- minecraft:trident
-- minecraft:dragon_fireball
-- minecraft:wither_skull
-- adventurez:void_bullet
-- adventurez:fire_breath
-
-#minecraft:beehive_inhabitors
-- minecraft:bee
-
-#c:boats
-- minecraft:boat
-
-#minecraft:skeletons
-- minecraft:skeleton
-- minecraft:stray
-- minecraft:wither_skeleton
-- adventurez:summoner
-- earthtojavamobs:skeleton_wolf
-
-#libra:undead
-- minecraft:zombie
-- minecraft:husk
-- minecraft:skeleton
-- minecraft:stray
-- minecraft:drowned
-- minecraft:wither_skeleton
-- minecraft:zombie_villager
-- minecraft:zombified_piglin
-- minecraft:zoglin
-- minecraft:phantom
-- minecraft:zombie_horse
-- minecraft:skeleton_horse
-
-#tinyskeletons:skeletons
-- tinyskeletons:baby_skeleton
-- tinyskeletons:baby_stray
-- tinyskeletons:baby_wither_skeleton
-
-#dml-refabricated:ocean_mobs
-- minecraft:guardian
-- minecraft:drowned
-
-#minecraft:arrows
-- minecraft:arrow
-- minecraft:spectral_arrow
-- bewitchment:silver_arrow
-
-#bewitchment:taglock_blacklist
-- #c:bosses
-
-#dml-refabricated:overworld_mobs
-- minecraft:creeper
-- minecraft:enderman
-- minecraft:skeleton
-- minecraft:zombie
-- minecraft:zombie_villager
-- minecraft:witch
-- minecraft:spider
-
-#tradingpost:blacklisted_traders
-
-#dml-refabricated:slimy_mobs
-- minecraft:slime
-- minecraft:magma_cube
-- terrarianslimes:green_slime
-- terrarianslimes:blue_slime
-- terrarianslimes:red_slime
-- terrarianslimes:purple_slime
-- terrarianslimes:yellow_slime
-- terrarianslimes:black_slime
-- terrarianslimes:ice_slime
-- terrarianslimes:sand_slime
-- terrarianslimes:jungle_slime
-- terrarianslimes:spiked_ice_slime
-- terrarianslimes:spiked_jungle_slime
-- terrarianslimes:mother_slime
-- terrarianslimes:baby_slime
-- terrarianslimes:lava_slime
-- terrarianslimes:pinky
-- terrarianslimes:spiked_slime
-- terrarianslimes:umbrella_slime
-- terrarianslimes:corrupt_slime
-- terrarianslimes:slimeling
-- terrarianslimes:crimslime
-- terrarianslimes:illuminant_slime
-- terrarianslimes:rainbow_slime
-
-#eldritch_mobs:eldritch_blacklist
-- minecraft:axolotl
-- minecraft:creeper
-- creeperoverhaul:badlands_creeper
-- creeperoverhaul:bamboo_creeper
-- creeperoverhaul:beach_creeper
-- creeperoverhaul:cave_creeper
-- creeperoverhaul:dark_oak_creeper
-- creeperoverhaul:desert_creeper
-- creeperoverhaul:dripstone_creeper
-- creeperoverhaul:hills_creeper
-- creeperoverhaul:jungle_creeper
-- creeperoverhaul:mushroom_creeper
-- creeperoverhaul:savannah_creeper
-- creeperoverhaul:snowy_creeper
-- creeperoverhaul:spruce_creeper
-- creeperoverhaul:swamp_creeper
-- graveyard:skeleton_creeper
-
-#libra:passive
-- minecraft:ocelot
-- minecraft:chicken
-- minecraft:cow
-- minecraft:pig
-- minecraft:sheep
-- minecraft:rabbit
-- minecraft:fox
-- minecraft:tropical_fish
-- minecraft:mule
-- minecraft:donkey
-- minecraft:horse
-- minecraft:mooshroom
-- minecraft:salmon
-- minecraft:turtle
-- minecraft:skeleton_horse
-- minecraft:squid
-- minecraft:strider
-- minecraft:wandering_trader
-- minecraft:zombie_horse
-- minecraft:cod
-
-#c:minecarts
-- minecraft:minecart
-- minecraft:tnt_minecart
-- minecraft:chest_minecart
-- minecraft:furnace_minecart
-- minecraft:command_block_minecart
-- minecraft:hopper_minecart
-- minecraft:spawner_minecart
-
-#eldritch_mobs:eldritch_allowed
+#eldritch_mobs:allowed
 - adventurez:amethyst_golem
 - adventurez:amethyst_shard
 - adventurez:blaze_guardian
@@ -492,6 +393,170 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - tinyskeletons:baby_stray
 - tinyskeletons:baby_wither_skeleton
 
+#besmirchment:illegal_familiar
+- minecraft:player
+- #bewitchment:taglock_blacklist
+
+#mobz:toad_target
+- minecraft:spider
+- minecraft:cave_spider
+- minecraft:silverfish
+- mobz:tspider
+- mobz:spi
+- mobz:spismall
+- mobz:spo
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- adventurez:void_bullet
+- adventurez:fire_breath
+
+#automobility:dash_panel_boostables
+- minecraft:arrow
+- minecraft:boat
+- minecraft:donkey
+- minecraft:falling_block
+- minecraft:horse
+- minecraft:llama
+- minecraft:minecart
+- minecraft:mule
+- minecraft:pig
+- minecraft:strider
+- minecraft:tnt
+- balloonist:balloon?
+- gravityguns:block?
+- hyperstellar:ship?
+- lovely_snails:snail?
+- owf:sled?
+- wackyvessels:submarine_vessel?
+- wackyvessels:airship_vessel?
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#c:boats
+- minecraft:boat
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- adventurez:summoner
+- earthtojavamobs:skeleton_wolf
+
+#libra:undead
+- minecraft:zombie
+- minecraft:husk
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:drowned
+- minecraft:wither_skeleton
+- minecraft:zombie_villager
+- minecraft:zombified_piglin
+- minecraft:zoglin
+- minecraft:phantom
+- minecraft:zombie_horse
+- minecraft:skeleton_horse
+
+#tinyskeletons:skeletons
+- tinyskeletons:baby_skeleton
+- tinyskeletons:baby_stray
+- tinyskeletons:baby_wither_skeleton
+
+#dml-refabricated:ocean_mobs
+- minecraft:guardian
+- minecraft:drowned
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- bewitchment:silver_arrow
+
+#bewitchment:taglock_blacklist
+- #c:bosses
+
+#dml-refabricated:overworld_mobs
+- minecraft:creeper
+- minecraft:enderman
+- minecraft:skeleton
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:witch
+- minecraft:spider
+
+#tradingpost:blacklisted_traders
+
+#dml-refabricated:slimy_mobs
+- minecraft:slime
+- minecraft:magma_cube
+- terrarianslimes:green_slime
+- terrarianslimes:blue_slime
+- terrarianslimes:red_slime
+- terrarianslimes:purple_slime
+- terrarianslimes:yellow_slime
+- terrarianslimes:black_slime
+- terrarianslimes:ice_slime
+- terrarianslimes:sand_slime
+- terrarianslimes:jungle_slime
+- terrarianslimes:spiked_ice_slime
+- terrarianslimes:spiked_jungle_slime
+- terrarianslimes:mother_slime
+- terrarianslimes:baby_slime
+- terrarianslimes:lava_slime
+- terrarianslimes:pinky
+- terrarianslimes:spiked_slime
+- terrarianslimes:umbrella_slime
+- terrarianslimes:corrupt_slime
+- terrarianslimes:slimeling
+- terrarianslimes:crimslime
+- terrarianslimes:illuminant_slime
+- terrarianslimes:rainbow_slime
+
+#libra:passive
+- minecraft:ocelot
+- minecraft:chicken
+- minecraft:cow
+- minecraft:pig
+- minecraft:sheep
+- minecraft:rabbit
+- minecraft:fox
+- minecraft:tropical_fish
+- minecraft:mule
+- minecraft:donkey
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:salmon
+- minecraft:turtle
+- minecraft:skeleton_horse
+- minecraft:squid
+- minecraft:strider
+- minecraft:wandering_trader
+- minecraft:zombie_horse
+- minecraft:cod
+- minecraft:axolotl
+- minecraft:frog
+- minecraft:glow_squid
+- minecraft:polar_bear
+
+#c:minecarts
+- minecraft:minecart
+- minecraft:tnt_minecart
+- minecraft:chest_minecart
+- minecraft:furnace_minecart
+- minecraft:command_block_minecart
+- minecraft:hopper_minecart
+- minecraft:spawner_minecart
+
+#eldritch_mobs:eldritch_allowed
+- ratsmischief:rat
+
 #minecraft:axolotl_always_hostiles
 - minecraft:drowned
 - minecraft:guardian
@@ -504,8 +569,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:wither
 - adventurez:summoner
 - tinyskeletons:baby_stray
-- whisperwoods:hirschgeist
-- whisperwoods:wisp
 
 #libra:evil_creatures
 - minecraft:evoker
@@ -555,6 +618,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:elder_guardian
 - archon:tar
 - archon:ayla
+- archon:leven
 - minecraft:ender_dragon
 - minecraft:wither
 - bewitchment:leonard
@@ -594,7 +658,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:glow_squid
 
 #archon:players
-- minecraft:player
 
 #requiem:humans
 - bewitchment:vampire
@@ -605,6 +668,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:wolf
 - minecraft:villager
 - minecraft:parrot
+- minecraft:allay
+- minecraft:panda
 
 #archon:creatures
 - minecraft:pig
@@ -695,6 +760,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:piglin
 - minecraft:piglin_brute
 - bewitchment:vampire
+
+#hexcasting:sticky_teleporters
+- create:contraption?
+- create:stationary_contraption?
+- create:gantry_contraption?
+- create:carriage_contraption?
+- minecraft:pig
+- minecraft:strider
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:mule
+- minecraft:donkey
+- minecraft:llama
+- minecraft:trader_llama
 
 #dml-refabricated:ghost_mobs
 - minecraft:ghast

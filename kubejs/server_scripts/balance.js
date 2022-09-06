@@ -212,6 +212,50 @@ event.shaped("luggage:luggage", ['123', 'd d'], {
       }
     });
 
+// Quantum Sword
+event.custom({
+  "type": "artis:end_game_crafting_shaped",
+  "pattern": [
+    "D s w D",
+    "D A H D",
+    "D 1 2 D",
+    "D c C D"
+  ],
+  "key": {
+    "D": {
+      "item": "gobber2:dragon_star"
+    },
+    "A": {
+      "item": "modern_industrialization:quantum_upgrade"
+    },
+    "H": {
+      "item": "adventurez:stone_golem_heart"
+    },
+    "1": {
+      "item": "techreborn:uu_matter"
+    },
+    "2": {
+      "item": "kubejs:cursed_gem"
+    },
+    "s": {
+      "item": "spectrum:neolith"
+    },
+    "w": {
+      "item": "magicfungi:impetus_sword"
+    },
+    "c": {
+      "item": "techreborn:lapotron_crystal"
+    },
+    "C": {
+      "item": "ae2:cell_component_64k"
+    }
+  },
+  "result": {
+    "item": "modern_industrialization:quantum_sword"
+  }
+})
+
+
 
 // Angel Ring
   event.remove({output: 'kibe:angel_ring'});

@@ -1,12 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 17, 2022, 4:41:42 PM
-
-#c:biofuel
-- createaddition:flowing_bioethanol
-- createaddition:bioethanol
-
-#c:crude_oil
-
-#c:creosote
+To refresh this file, delete it and run /reload command again! Last updated: Sep 1, 2022, 7:14:56 PM
 
 #minecraft:water
 - minecraft:water
@@ -15,8 +7,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - create:honey
 - create:flowing_chocolate
 - create:chocolate
-- createaddition:flowing_seed_oil
-- createaddition:seed_oil
 - earthtojavamobs:mud_fluid
 - earthtojavamobs:mud_fluid_flowing
 - minecraft:water
@@ -104,10 +94,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #ae2:blacklisted/annihilation_plane
 
-#c:plantoil
-- createaddition:flowing_seed_oil
-- createaddition:seed_oil
-
 #spectrum:mud
 - spectrum:mud
 - spectrum:flowing_mud
@@ -122,10 +108,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #c:water
 - #minecraft:water?
-
-#c:ethanol
-- createaddition:flowing_bioethanol
-- createaddition:bioethanol
 
 #c:lava
 - #minecraft:lava?

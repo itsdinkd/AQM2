@@ -1,0 +1,7 @@
+{
+  "disableBrushingAnimation": false,
+  "mojangExcavationBreaking": false,
+  "thresholdCoef": 1.0,
+  "breakingSpeed": 0.78,
+  "repairingSpeed": 0.9
+}

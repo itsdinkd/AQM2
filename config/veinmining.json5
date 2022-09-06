@@ -44,8 +44,10 @@
 		"playerExhaustionMultiplier": 120.0,
 		// Whether or not to stop vein mining when the tool can no longer be used
 		"limitedByDurability": true,
-		// Whether to activate vein mining by standing, crouching, or holding down the keybind ("STANDING", "CROUCHING", "KEYBINDING")
+		// Whether to activate vein mining (if using with the enchantment) by standing, crouching, or holding down the keybind ("STANDING", "CROUCHING", "KEYBINDING")
 		"activationState": "KEYBINDING",
+		// Whether to activate vein mining (if using without the enchantment) by standing, crouching, or holding down the keybind ("STANDING", "CROUCHING", "KEYBINDING")
+		"activationStateWithoutEnchantment": "KEYBINDING",
 		// List of whitelisted/blacklisted blocks or block tags
 		"blocks": [
 			"agape_space:fluid_pipe",
@@ -65,6 +67,17 @@
 			"minecraft:chest",
 			"kibe:tank",
 			"kibe:entangled_tank",
+			"indrev:item_pipe_mk1",
+			"indrev:item_pipe_mk2",
+			"indrev:item_pipe_mk3",
+			"indrev:item_pipe_mk4",
+			"indrev:cable_mk1",
+			"indrev:cable_mk2",
+			"indrev:cable_mk3",
+			"indrev:cable_mk4",
+			"modern_industrialization:pipe",
+			"moderndynamics:fluid_pipe",
+			"moderndynamics:item_pipe",
 			"toms_storage:ts.inventory_cable",
 			"toms_storage:ts.inventory_cable_framed",
 			"toms_storage:ts.inventory_cable_connector",

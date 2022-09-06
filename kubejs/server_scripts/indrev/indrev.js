@@ -42,7 +42,6 @@ event.custom({
   "processTime": 220
   });
 
-
 // Modular Armor
 indrevArmor.forEach(function(item,i) {
   event.replaceInput({

@@ -56,6 +56,8 @@ key_modifiers_key.agape_space.vehicle_menu:0,0,0
 key_modifiers_key.ftbquests.quests:0,0,0
 key_modifiers_key.autorun.toggle:0,0,0
 key_modifiers_key.besmirchment.familiar_ability:0,0,0
+key_modifiers_keybinds.bettercombat.feint:0,0,0
+key_modifiers_keybinds.bettercombat.toggle_mine_with_weapons:0,0,0
 key_modifiers_key.bewitchment.transformation_ability:0,0,0
 key_modifiers_key.botania_corporea_request:0,0,0
 key_modifiers_key.buildinggadgets.settings_menu:0,0,0
@@ -95,7 +97,6 @@ key_modifiers_key.dankstorage.pickup_mode:0,0,0
 key_modifiers_key.deathlog.death_screen:0,0,0
 key_modifiers_key.dml-refabricated.teleport:0,0,0
 key_modifiers_key.dml-refabricated.soul_vision:0,0,0
-key_modifiers_key.craftpresence.config_keycode.name:0,0,0
 key_modifiers_key.doom.reload:0,0,0
 key_modifiers_key.doom.yeethook:0,0,0
 key_modifiers_key.entityculling.toggle:0,0,0
@@ -181,3 +182,4 @@ key_modifiers_gui.xaero_quick_confirm:0,0,0
 key_modifiers_iris.keybind.reload:0,0,0
 key_modifiers_iris.keybind.toggleShaders:0,0,0
 key_modifiers_iris.keybind.shaderPackSelection:0,0,0
+key_modifiers_key.craftpresence.config_keycode.name:0,0,0

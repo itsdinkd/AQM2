@@ -275,7 +275,7 @@
     "tentacle_melee_damage": 13.0,
     "turret_health": 6.0,
     "turret_ranged_damage": 7.1,
-    "icon_health": 550.0,
+    "icon_health": 600.0,
     "icon_melee_damage": 47.9,
     "icon_phaseone_damage_boos": 8.0,
     "icon_wave_entries": [

@@ -1,0 +1,22 @@
+{
+  "lightning_chance": 10,
+  "slowness_duration": 50,
+  "freeze_chance": 15,
+  "wildfire_chance": 10,
+  "freeze_duration": 120,
+  "levitation_duration": 50,
+  "watcher_chance": 15,
+  "slowness_chance": 50,
+  "toxin_duration": 150,
+  "storm_chance": 15,
+  "omen_instantkill_threshold": 60,
+  "levitation_chance": 15,
+  "speed_duration": 300,
+  "plague_duration": 300,
+  "omen_chance": 15,
+  "wildfire_duration": 8,
+  "brimstone_chance": 15,
+  "plague_chance": 15,
+  "speed_chance": 15,
+  "toxin_chance": 15
+}

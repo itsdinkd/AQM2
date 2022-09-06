@@ -321,10 +321,10 @@ onEvent('tags.items', event => {
 		event.add('aqm2:mcdw', "mcdw:" + item)
   });
   mcdwWeaponsNonBows.forEach(function (item, index) {
-		event.add('aqm2:mcdw/weapons', "mcdw:" + item)
+		event.add('aqm2:weapons/mcdw', "mcdw:" + item)
   });
   mcdwBows.forEach(function (item, index) {
-		event.add('aqm2:mcdw/bows', "mcdw:" + item)
+		event.add('aqm2:bows/mcdw', "mcdw:" + item)
   });
 
   event.remove('aqm2:mcdw', 'mcdw:sword_the_starless_night');
