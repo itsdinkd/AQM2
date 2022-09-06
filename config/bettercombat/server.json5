@@ -5,6 +5,12 @@
 	"allow_attacking_mount": false,
 	// Allows vanilla sweeping mechanic (and Sweeping Edge enchant) to work
 	"allow_sweeping": true,
+	// Applies movement speed multiplier while attacking. (Min: 0, Max: 1). Use `0` for a full stop while attacking. Use `1` for no movement speed penalty
+	"movement_speed_while_attacking": 0.5,
+	// Determines if applying the movement speed multiplier while attacking is done smoothly or instantly
+	"movement_speed_applied_smoothly": true,
+	// Determines whether or not to apply movement speed reduction while attacking mounted
+	"movement_speed_effected_while_mounting": false,
 	// Multiplier for `attack_range`, during target lookup on both sides. Large sized entities may be colliding with weapon hitbox, but center of entities can have bigger distance than `attack_range`
 	"target_search_range_multiplier": 2.0,
 	// Total multiplier, (examples: +30% = 1.3, -30% = 0.7)
