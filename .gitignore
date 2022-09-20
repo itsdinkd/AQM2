@@ -99,3 +99,5 @@ fancymenu_data/last_world.fmdata
 rhino.local.properties
 options.amecsapi.txt
 options.amecsapi.txt
+.vscode/schema.json
+.vscode/settings.json

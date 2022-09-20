@@ -57,6 +57,9 @@
 		"simplyswords:brimstone_claymore",
 		"simplyswords:storms_edge",
 		"simplyswords:bramblethorn",
+		"simplyswords:hearthflame",
+		"simplyswords:emberblade",
+		"simplyswords:soulrender",
 		"simplyswords:sword_on_a_stick"
 	]
 

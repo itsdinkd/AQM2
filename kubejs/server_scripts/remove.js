@@ -201,7 +201,20 @@ const arrRemove = [
 "veggie_way:watering_can_copper",
 "autoworkstations:gold_auto_experience_orb_vacuum",
 "autoworkstations:iron_auto_experience_orb_vacuum",
-"autoworkstations:auto_enchanting_table_xp_inside"
+"autoworkstations:auto_enchanting_table_xp_inside",
+"createplus:crushed_adamantite_ore",
+"createplus:crushed_aquarium_ore",
+"createplus:crushed_banglum_ore",
+"createplus:crushed_carmot_ore",
+"createplus:crushed_kyber_ore",
+"createplus:crushed_midas_gold_ore",
+"createplus:crushed_mythril_ore",
+"createplus:crushed_orichalcum_ore",
+"createplus:crushed_palladium_ore",
+"createplus:crushed_prometheum_ore",
+"createplus:crushed_quadrillum_ore",
+"createplus:crushed_runite_ore",
+"createplus:crushed_stormyx_ore"
 ];
 
 const greenhouseColorsRemove =[

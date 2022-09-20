@@ -242,7 +242,20 @@ var aqmClientRemove = [
 "xps:xp_berries",
 "autoworkstations:gold_auto_experience_orb_vacuum",
 "autoworkstations:iron_auto_experience_orb_vacuum",
-"autoworkstations:auto_enchanting_table_xp_inside"
+"autoworkstations:auto_enchanting_table_xp_inside",
+"createplus:crushed_adamantite_ore",
+"createplus:crushed_aquarium_ore",
+"createplus:crushed_banglum_ore",
+"createplus:crushed_carmot_ore",
+"createplus:crushed_kyber_ore",
+"createplus:crushed_midas_gold_ore",
+"createplus:crushed_mythril_ore",
+"createplus:crushed_orichalcum_ore",
+"createplus:crushed_palladium_ore",
+"createplus:crushed_prometheum_ore",
+"createplus:crushed_quadrillum_ore",
+"createplus:crushed_runite_ore",
+"createplus:crushed_stormyx_ore"
 ];
 
 aqmClientRemove.forEach(function(item, index) {
@@ -339,15 +352,15 @@ var k_g = ['mk1','mk2','mk3','mk4','mk5',];var kcg = 'kibe:cobblestone_generator
     event.hide("fluidtank:tank_" + item)
   })
 
-  const doomArmorRemREI = [
-    "boots",
-    "chestplate",
-    "leggings",
-    "helmet"
-    ]
+  // const doomArmorRemREI = [
+  //   "boots",
+  //   "chestplate",
+  //   "leggings",
+  //   "helmet"
+  //   ]
     
-    doomArmorRemREI.forEach(function(item) {
-      event.hide(`/doom:.*${item}/`)
-    })
+  //   doomArmorRemREI.forEach(function(item) {
+  //     event.hide(`/doom:.*${item}/`)
+  //   })
 
 })

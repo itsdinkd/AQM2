@@ -1468,4 +1468,18 @@ event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'gobbe
     3: "techreborn:zinc_plate",
     B: "gobber2:gobber2_block_nether"
   })
+
+  event.remove({output: "harvest_scythes:star_platinum_machete"});
+  event.shaped("harvest_scythes:star_platinum_machete", ['AA ',' A ',' S '],
+  {
+    A: "mythicmetals:star_platinum",
+    D: "minecraft:stick"
+  })
+
+  event.remove({output: 'harvest_scythes:star_platinum_scythe'});
+  event.shaped("harvest_scythes:star_platinum_scythe", ['AAA','  S','  S'],
+  {
+    A: "mythicmetals:star_platinum",
+    S: "minecraft:stick"
+  })
 })

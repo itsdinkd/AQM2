@@ -45,7 +45,8 @@
     "mcdw:jungle_poison": 1
   },
   "mcdw:hammer_stormlander": {
-    "mcdw:thundering": 1
+    "mcdw:radiance": 1,
+    "mcdw:chains": 1
   },
   "mcdw:crossbow_lightning_harp_crossbow": {
     "mcdw:ricochet": 1,
@@ -55,7 +56,7 @@
     "minecraft:piercing": 1
   },
   "mcdw:crossbow_veiled_crossbow": {
-    "mcdw:shadow_shot": 1
+    "minecraft:power": 1
   },
   "mcdw:sword_heartstealer": {
     "mcdw:leeching": 1
@@ -114,11 +115,10 @@
     "minecraft:looting": 1
   },
   "mcdw:bow_call_of_the_void": {
-    "mcdw:void_shot": 1,
     "mcdw:fuse_shot": 1
   },
   "mcdw:bow_void_bow": {
-    "mcdw:void_shot": 1
+    "mcdw:accelerate": 1
   },
   "mcdw:sickle_last_laugh_gold": {
     "mcdw:prospector": 1
@@ -131,7 +131,7 @@
     "minecraft:power": 1
   },
   "mcdw:dagger_the_end": {
-    "mcdw:void_strike": 1
+    "mcdw:dynamo": 1
   },
   "mcdw:crossbow_corrupted_crossbow": {
     "mcdw:dynamo": 1
@@ -179,13 +179,13 @@
     "minecraft:multishot": 1
   },
   "mcdw:crossbow_shadow_crossbow": {
-    "mcdw:shadow_shot": 1
+    "minecraft:power": 1
   },
   "mcdw:dagger_moon": {
-    "mcdw:enigma_resonator": 0
+    "mcdw:smiting": 1
   },
   "mcdw:crossbow_soul_hunter_crossbow": {
-    "mcdw:enigma_resonator": 0
+    "mcdw:accelerate": 1
   },
   "mcdw:sword_dancers_sword": {
     "mcdw:rampaging": 1
@@ -275,7 +275,7 @@
     "mcdw:prospector": 1
   },
   "mcdw:dagger_void_touched_blade": {
-    "mcdw:void_strike": 1
+    "mcdw:dynamo": 1
   },
   "mcdw:sickle_frost_scythe": {
     "mcdw:freezing": 1

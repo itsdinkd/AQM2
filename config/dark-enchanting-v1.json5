@@ -96,7 +96,7 @@
     {
       "enchantmentId": "minecraft:sharpness",
       "activated": true,
-      "personalFactor": 6.5,
+      "personalFactor": 5.88,
       "personalReceiveFactor": 0.0
     },
     {
@@ -168,13 +168,61 @@
     {
       "enchantmentId": "mcdw:rampaging",
       "activated": true,
-      "personalFactor": 4.4,
+      "personalFactor": 4.43,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:overcharge",
+      "activated": true,
+      "personalFactor": 6.66,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:shared_pain",
+      "activated": true,
+      "personalFactor": 6.232385,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:wild_rage",
+      "activated": true,
+      "personalFactor": 4.1324,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:dynamo",
+      "activated": true,
+      "personalFactor": 5.975985,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:shadow_shot",
+      "activated": false,
+      "personalFactor": 5.56,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:shadow_barb",
+      "activated": false,
+      "personalFactor": 5.051,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:pain_cycle",
+      "activated": true,
+      "personalFactor": 5.2539,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:accelerate",
+      "activated": true,
+      "personalFactor": 5.923317,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:enigma_resonator",
-      "activated": false,
-      "personalFactor": 1.0,
+      "activated": true,
+      "personalFactor": 7.7,
       "personalReceiveFactor": 0.0
     },
     {
@@ -186,13 +234,13 @@
     {
       "enchantmentId": "spectrum:pest_control",
       "activated": false,
-      "personalFactor": 3.2,
+      "personalFactor": 3.888,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "spectrum:exuberance",
       "activated": false,
-      "personalFactor": 3.0,
+      "personalFactor": 3.6,
       "personalReceiveFactor": 0.0
     },
     {
@@ -234,13 +282,13 @@
     {
       "enchantmentId": "minecraft:fire_protection",
       "activated": false,
-      "personalFactor": 3.75,
+      "personalFactor": 3.9999,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "minecraft:power",
       "activated": true,
-      "personalFactor": 2.5,
+      "personalFactor": 3.125,
       "personalReceiveFactor": 0.0
     },
     {
@@ -270,7 +318,7 @@
     {
       "enchantmentId": "minecraft:looting",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.75,
       "personalReceiveFactor": 0.0
     },
     {
@@ -288,25 +336,25 @@
     {
       "enchantmentId": "mcdw:chains",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.85,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:echo",
       "activated": true,
-      "personalFactor": 4.5,
+      "personalFactor": 4.77,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:stunning",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.8785,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:shockwave",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.995,
       "personalReceiveFactor": 0.0
     },
     {
@@ -318,19 +366,19 @@
     {
       "enchantmentId": "mcdw:levitation_shot",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 4.05,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:weakening",
       "activated": true,
-      "personalFactor": 3.6,
+      "personalFactor": 3.999,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:jungle_poison",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.85,
       "personalReceiveFactor": 0.0
     },
     {
@@ -342,25 +390,25 @@
     {
       "enchantmentId": "mcdw:ambush",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.8985,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:dipping_poison",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.565,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:thundering",
-      "activated": false,
-      "personalFactor": 3.5,
+      "activated": true,
+      "personalFactor": 8.0509,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:poison_cloud",
       "activated": true,
-      "personalFactor": 4.0,
+      "personalFactor": 4.15,
       "personalReceiveFactor": 0.0
     },
     {
@@ -372,25 +420,25 @@
     {
       "enchantmentId": "mcdw:guarding_strike",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.875,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:multi_shot",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 4.15,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:chain_reaction",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.98,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:replenish",
       "activated": true,
-      "personalFactor": 3.8,
+      "personalFactor": 3.91111,
       "personalReceiveFactor": 0.0
     },
     {
@@ -402,31 +450,31 @@
     {
       "enchantmentId": "mcdw:swirling",
       "activated": true,
-      "personalFactor": 4.3,
-      "personalReceiveFactor": 0.0
-    },
-    {
-      "enchantmentId": "mcdw:radiance_shot",
-      "activated": true,
-      "personalFactor": 3.5,
-      "personalReceiveFactor": 0.0
-    },
-    {
-      "enchantmentId": "mcdw:smiting",
-      "activated": true,
-      "personalFactor": 3.6,
-      "personalReceiveFactor": 0.0
-    },
-    {
-      "enchantmentId": "mcdw:ricochet",
-      "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 4.75,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:radiance",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.8565,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:smiting",
+      "activated": true,
+      "personalFactor": 4.1,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:ricochet",
+      "activated": true,
+      "personalFactor": 3.655,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "mcdw:radiance",
+      "activated": true,
+      "personalFactor": 4.102,
       "personalReceiveFactor": 0.0
     },
     {
@@ -438,19 +486,19 @@
     {
       "enchantmentId": "mcdw:committed",
       "activated": false,
-      "personalFactor": 3.5,
+      "personalFactor": 4.352,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:charge",
       "activated": true,
-      "personalFactor": 4.0,
+      "personalFactor": 4.1,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:refreshment",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 4.3323,
       "personalReceiveFactor": 0.0
     },
     {
@@ -462,19 +510,19 @@
     {
       "enchantmentId": "mcdw:bonus_shot",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 4.1515,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:refreshment_shot",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 4.3332,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:freezing",
       "activated": true,
-      "personalFactor": 4.1,
+      "personalFactor": 4.167,
       "personalReceiveFactor": 0.0
     },
     {
@@ -485,20 +533,20 @@
     },
     {
       "enchantmentId": "mcdw:void_shot",
-      "activated": false,
-      "personalFactor": 3.5,
+      "activated": true,
+      "personalFactor": 6.7875,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:gravity",
       "activated": true,
-      "personalFactor": 4.2,
+      "personalFactor": 4.217,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:anima",
       "activated": false,
-      "personalFactor": 3.5,
+      "personalFactor": 6.5,
       "personalReceiveFactor": 0.0
     },
     {
@@ -516,13 +564,13 @@
     {
       "enchantmentId": "mcdw:fuse_shot",
       "activated": true,
-      "personalFactor": 3.7,
+      "personalFactor": 4.2865,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcdw:cobweb_shot",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.666,
       "personalReceiveFactor": 0.0
     },
     {
@@ -540,19 +588,13 @@
     {
       "enchantmentId": "minecraft:fire_aspect",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.815,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "yigd:soulbound",
       "activated": true,
-      "personalFactor": 3.8,
-      "personalReceiveFactor": 0.0
-    },
-    {
-      "enchantmentId": "mcda:chilling",
-      "activated": true,
-      "personalFactor": 4.0,
+      "personalFactor": 3.67,
       "personalReceiveFactor": 0.0
     },
     {
@@ -576,7 +618,7 @@
     {
       "enchantmentId": "incantationem:charmed",
       "activated": true,
-      "personalFactor": 3.63,
+      "personalFactor": 3.885663,
       "personalReceiveFactor": 0.0
     },
     {
@@ -588,13 +630,13 @@
     {
       "enchantmentId": "incantationem:last_stand",
       "activated": true,
-      "personalFactor": 4.0,
+      "personalFactor": 4.1751,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "incantationem:retreat",
       "activated": true,
-      "personalFactor": 3.75,
+      "personalFactor": 3.799,
       "personalReceiveFactor": 0.0
     },
     {
@@ -618,7 +660,7 @@
     {
       "enchantmentId": "mcda:burning",
       "activated": true,
-      "personalFactor": 4.1,
+      "personalFactor": 4.16711,
       "personalReceiveFactor": 0.0
     },
     {
@@ -630,25 +672,25 @@
     {
       "enchantmentId": "mcda:cowardice",
       "activated": true,
-      "personalFactor": 4.0,
+      "personalFactor": 4.08561,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcda:death_barter",
       "activated": true,
-      "personalFactor": 4.33,
+      "personalFactor": 4.53,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcda:deflect",
       "activated": true,
-      "personalFactor": 3.6,
+      "personalFactor": 3.8761,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcda:fire_focus",
       "activated": true,
-      "personalFactor": 3.9,
+      "personalFactor": 3.9199,
       "personalReceiveFactor": 0.0
     },
     {
@@ -666,7 +708,7 @@
     {
       "enchantmentId": "mcda:heal_allies",
       "activated": true,
-      "personalFactor": 3.5,
+      "personalFactor": 3.957575,
       "personalReceiveFactor": 0.0
     },
     {
@@ -678,7 +720,7 @@
     {
       "enchantmentId": "mcda:poison_focus",
       "activated": true,
-      "personalFactor": 3.867,
+      "personalFactor": 3.91369,
       "personalReceiveFactor": 0.0
     },
     {
@@ -690,7 +732,7 @@
     {
       "enchantmentId": "mcda:reckless",
       "activated": true,
-      "personalFactor": 3.0,
+      "personalFactor": 3.33156,
       "personalReceiveFactor": 0.0
     },
     {
@@ -702,19 +744,19 @@
     {
       "enchantmentId": "mcda:snowball",
       "activated": true,
-      "personalFactor": 3.0,
+      "personalFactor": 3.013,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcda:surprise_gift",
       "activated": true,
-      "personalFactor": 2.95,
+      "personalFactor": 3.4519,
       "personalReceiveFactor": 0.0
     },
     {
       "enchantmentId": "mcda:swiftfooted",
       "activated": true,
-      "personalFactor": 3.63,
+      "personalFactor": 3.8842,
       "personalReceiveFactor": 0.0
     },
     {
@@ -726,7 +768,7 @@
     {
       "enchantmentId": "fabricenchantments:beheading",
       "activated": true,
-      "personalFactor": 3.0,
+      "personalFactor": 3.66,
       "personalReceiveFactor": 0.0
     },
     {
@@ -816,7 +858,7 @@
     {
       "enchantmentId": "fabricenchantments:replenish",
       "activated": true,
-      "personalFactor": 2.0,
+      "personalFactor": 3.018,
       "personalReceiveFactor": 0.0
     },
     {

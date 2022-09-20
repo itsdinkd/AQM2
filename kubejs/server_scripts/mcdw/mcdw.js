@@ -157,8 +157,8 @@ mcdwWeaponsNonBows = [
 ]
 
 const mcdwWeapons = [
-"axe_axe",
 "axe_anchor",
+"axe_axe",
 "axe_cursed",
 "axe_double",
 "axe_encrusted_anchor",
@@ -262,6 +262,7 @@ const mcdwWeapons = [
 "pick_mountaineer_pick",
 "shield_royal_guard",
 "shield_vanguard",
+"shield_tower_guard",
 "sickle_frost_scythe",
 "sickle_jailors_scythe",
 "sickle_last_laugh_gold",
@@ -277,8 +278,8 @@ const mcdwWeapons = [
 "spear_spear",
 "spear_venom_glaive",
 "spear_whispering_spear",
-"staff_battlestaff",
 "staff_battlestaff_of_terror",
+"staff_battlestaff",
 "staff_growing_staff",
 "sword_beestinger",
 "sword_broadsword",

@@ -60,5 +60,34 @@
         {
             "condition": "minecraft:killed_by_player"
         }]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:tag",
+                "weight": 1,
+                "name": "aqm2:weapons/mcdw",
+                "expand": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:killed_by_player",
+                    "inverse": false
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:tag",
+                "weight": 1,
+                "name": "aqm2:bows/mcdw",
+                "expand": true,
+                "conditions": [
+                  {
+                    "condition": "minecraft:killed_by_player",
+                    "inverse": false
+                  }
+                ]
+              }
+            ]
     }]
 }

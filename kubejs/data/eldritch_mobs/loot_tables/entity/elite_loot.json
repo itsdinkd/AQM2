@@ -125,7 +125,7 @@
         {
           "type": "minecraft:tag",
           "weight": 1,
-          "name": "aqm2:mcdw/weapons",
+          "name": "aqm2:weapons/mcdw",
           "expand": true,
           "conditions": [
             {
@@ -137,7 +137,7 @@
         {
           "type": "minecraft:tag",
           "weight": 1,
-          "name": "aqm2:mcdw/bows",
+          "name": "aqm2:bows/mcdw",
           "expand": true,
           "conditions": [
             {

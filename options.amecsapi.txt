@@ -36,7 +36,6 @@ key_modifiers_key.big_items_duh.toggle_zoom:0,0,1
 key_modifiers_key.big_items_duh.hold_zoom:0,0,0
 key_modifiers_key.dynamicfps.toggle_forced:0,0,0
 key_modifiers_key.dynamicfps.toggle_disabled:0,0,0
-key_modifiers_key.ellemes_container_lib.config:0,0,0
 key_modifiers_key.emotecraft.fastchoose:0,0,0
 key_modifiers_key.emotecraft.stop:0,0,0
 key_modifiers_Reload Menu | CTRL + ALT + :0,0,0
@@ -56,8 +55,6 @@ key_modifiers_key.agape_space.vehicle_menu:0,0,0
 key_modifiers_key.ftbquests.quests:0,0,0
 key_modifiers_key.autorun.toggle:0,0,0
 key_modifiers_key.besmirchment.familiar_ability:0,0,0
-key_modifiers_keybinds.bettercombat.feint:0,0,0
-key_modifiers_keybinds.bettercombat.toggle_mine_with_weapons:0,0,0
 key_modifiers_key.bewitchment.transformation_ability:0,0,0
 key_modifiers_key.botania_corporea_request:0,0,0
 key_modifiers_key.buildinggadgets.settings_menu:0,0,0
@@ -99,6 +96,7 @@ key_modifiers_key.dml-refabricated.teleport:0,0,0
 key_modifiers_key.dml-refabricated.soul_vision:0,0,0
 key_modifiers_key.doom.reload:0,0,0
 key_modifiers_key.doom.yeethook:0,0,0
+key_modifiers_key.ellemes_container_lib.config:0,0,0
 key_modifiers_key.entityculling.toggle:0,0,0
 key_modifiers_Show comparison tooltip:0,0,0
 key_modifiers_key.origins.ternary_active:0,0,0

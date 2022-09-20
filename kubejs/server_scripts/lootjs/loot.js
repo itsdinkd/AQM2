@@ -17,11 +17,17 @@ const SimplySwordsLootRemove = [
     "simplyswords:brimstone_claymore",
     "simplyswords:storms_edge",
     "simplyswords:sword_on_a_stick",
-    "simplyswords:bramblethorn"
+    "simplyswords:bramblethorn",
+    "simplyswords:hearthflame",
+    "simplyswords:emberblade",
+    "simplyswords:soulrender"
 ]
 
 onEvent("lootjs", (event) => {
     SimplySwordsLootRemove.forEach(function(item,index){
     event.addBlockLootModifier("graveyard:vase_block").removeLoot(item);
     })
+    // Below will be added to aqm2 1.7
+    // event.addEntityLootModifier("adventurez:stone_golem").addLoot("#aqm2:weapons/rare");
+    // event.addEntityLootModifier("adventurez:stone_golem").addLoot("#aqm2:weapons/rare");
 });

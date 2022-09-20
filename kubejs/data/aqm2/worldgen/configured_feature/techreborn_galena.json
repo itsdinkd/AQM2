@@ -1,5 +1,8 @@
 {
+  "type": "minecraft:ore",
   "config": {
+    "size": 8,
+    "discard_chance_on_air_exposure": 0.3,
     "targets": [
       {
         "target": {
@@ -19,9 +22,6 @@
           "Name": "techreborn:deepslate_galena_ore"
         }
       }
-    ],
-    "size": 8,
-    "discard_chance_on_air_exposure": 0.3
-  },
-  "type": "minecraft:ore"
+    ]
+  }
 }

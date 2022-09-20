@@ -182,6 +182,7 @@
 				boss = true
 				illusioner = true
 				knight5 = true
+				skeli1 = true
 
 			[light_sources.settings.entities.whisperwoods]
 				moth = true
