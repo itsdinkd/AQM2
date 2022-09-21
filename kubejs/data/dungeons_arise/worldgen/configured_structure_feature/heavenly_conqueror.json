@@ -1,0 +1,13 @@
+{
+  "type": "dungeons_arise:heavenly_conqueror",
+
+  "config": {
+    "start_pool": "dungeons_arise:eerie/heavenly_conqueror/heavenly_conqueror_main",
+    "size": 7
+  },
+  "biomes": "#dungeons_arise:has_structure/heavenly_conqueror_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {
+
+  }
+}

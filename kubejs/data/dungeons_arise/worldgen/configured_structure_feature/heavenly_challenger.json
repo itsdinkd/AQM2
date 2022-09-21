@@ -1,0 +1,13 @@
+{
+  "type": "dungeons_arise:heavenly_challenger",
+
+  "config": {
+    "start_pool": "dungeons_arise:eerie/heavenly_challenger/heavenly_challenger_start",
+    "size": 7
+  },
+  "biomes": "#dungeons_arise:has_structure/heavenly_challenger_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {
+
+  }
+}

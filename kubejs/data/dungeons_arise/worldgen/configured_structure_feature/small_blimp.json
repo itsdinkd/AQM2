@@ -1,0 +1,13 @@
+{
+  "type": "dungeons_arise:small_blimp",
+
+  "config": {
+    "start_pool": "dungeons_arise:enigmatic/small_blimp/small_blimp_start",
+    "size": 7
+  },
+  "biomes": "#dungeons_arise:has_structure/small_blimp_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {
+
+  }
+}

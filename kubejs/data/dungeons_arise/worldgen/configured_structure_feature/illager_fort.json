@@ -1,0 +1,13 @@
+{
+  "type": "dungeons_arise:illager_fort",
+
+  "config": {
+    "start_pool": "dungeons_arise:fortified/illager_fort/illager_fort_main",
+    "size": 7
+  },
+  "biomes": "#dungeons_arise:has_structure/illager_fort_biomes",
+  "adapt_noise": true,
+  "spawn_overrides": {
+
+  }
+}

@@ -121,7 +121,7 @@ onEvent("recipes", event => {
     }
 })
 
-invnames = new Set([
+let invnames = new Set([
     "net.minecraft.inventory.container.PlayerContainer",
     "net.minecraft.class_1723",
     "net.minecraft.world.inventory.InventoryMenu"

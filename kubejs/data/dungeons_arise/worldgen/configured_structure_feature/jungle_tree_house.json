@@ -1,0 +1,13 @@
+{
+  "type": "dungeons_arise:jungle_tree_house",
+
+  "config": {
+    "start_pool": "dungeons_arise:jungle/jungle_tree_house/jungle_tree_house_main",
+    "size": 7
+  },
+  "biomes": "#dungeons_arise:has_structure/jungle_tree_house_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {
+
+  }
+}

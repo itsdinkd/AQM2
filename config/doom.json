@@ -28,6 +28,7 @@
     "shotgun_damage": 12.9,
     "unmaykr_damage": 1.75,
     "grenade_damage": 20.0,
+    "chainsaw_damage": 2.2,
     "max_meathook_distance": 32.0,
     "imp_biomes": [
       "#nether"

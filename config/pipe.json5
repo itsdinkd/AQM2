@@ -1,9 +1,0 @@
-//Hit F3 + M to edit configs client side in game
-{
-  //Whether items should be rendered inside pipes.
-  "render_items": true,
-  //How far the player can see items rendered in the pipe from.
-  "max_item_render_distance": 16,
-  //If an item has to move more than this many blocks through pipes to reach its destination inventory, it won't be rendered.
-  "max_render_pipe_length": 50
-}

@@ -21,6 +21,6 @@
 		// The chance of a trade locking itself (1.12 default: 20)
 		"lock_chance": 20.0,
 		// The chance of a trade unlocking all other trades (1.12 default: 20)
-		"unlock_chance": 2
+		"unlock_chance": 10
 	}
 }

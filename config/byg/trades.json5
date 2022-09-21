@@ -462,6 +462,97 @@ to make editing this file much easier.
 			"3": [],
 			"4": [],
 			"5": []
+		},
+		"morevillagers:enderian": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"morevillagers:engineer": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"morevillagers:florist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"morevillagers:hunter": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"morevillagers:miner": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"morevillagers:netherian": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"morevillagers:oceanographer": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"morevillagers:woodworker": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"phonos:technician": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"sandwichable:sandwich_maker": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"techreborn:electrician": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"techreborn:metallurgist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"xxxx:minepopsellerr": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
 		}
 	},
 	// Whether this file appends villager/wandering trader trades.

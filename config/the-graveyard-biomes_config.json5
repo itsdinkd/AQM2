@@ -57,6 +57,6 @@
     "useSoulLanternsInHauntedLakes": false
   },
   "biomeGeneration": {
-    "theGraveyardBiomesWeight": 5
+    "theGraveyardBiomesWeight": 3
   }
 }

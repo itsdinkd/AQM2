@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "dungeons_arise:lighthouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 283742673,
+    "spacing": 133,
+    "separation": 80,
+    "type": "minecraft:random_spread"
+  }
+}

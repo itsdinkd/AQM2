@@ -2,6 +2,23 @@
   "uploadCrashLogTo": "GIST",
   "disableReturnToMainMenu": false,
   "deobfuscateStackTrace": true,
+  "catchInitializationCrashes": true,
   "debugModIdentification": false,
-  "forceCrashScreen": false
+  "forceCrashScreen": false,
+  "crashLimit": 20,
+  "crashlogUpload": {
+    "destination": "BYTEBIN",
+    "hasteUrl": "https://hastebin.com/",
+    "bytebinUrl": "https://bytebin.lucko.me/",
+    "gist": {
+      "accessToken": "",
+      "unlisted": false
+    },
+    "pastebin": {
+      "uploadKey": "",
+      "privacy": "PUBLIC",
+      "expiry": "NEVER"
+    },
+    "customUserAgent": ""
+  }
 }

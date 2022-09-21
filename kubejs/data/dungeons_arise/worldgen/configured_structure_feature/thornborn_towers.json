@@ -1,0 +1,13 @@
+{
+  "type": "dungeons_arise:thornborn_towers",
+
+  "config": {
+    "start_pool": "dungeons_arise:fortified/thornborn_towers/thornborn_towers_start",
+    "size": 7
+  },
+  "biomes": "#dungeons_arise:has_structure/thornborn_towers_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {
+
+  }
+}

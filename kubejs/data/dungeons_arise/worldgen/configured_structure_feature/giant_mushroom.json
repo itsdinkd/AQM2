@@ -1,0 +1,13 @@
+{
+  "type": "dungeons_arise:giant_mushroom",
+
+  "config": {
+    "start_pool": "dungeons_arise:fungi/giant_mushroom/giant_mushroom_start",
+    "size": 7
+  },
+  "biomes": "#dungeons_arise:has_structure/giant_mushroom_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {
+
+  }
+}

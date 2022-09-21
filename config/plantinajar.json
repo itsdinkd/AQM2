@@ -3,5 +3,6 @@
   "growthTime": 60,
   "perItemGrowthTimes": {},
   "growthModifierRegexPatterns": {},
-  "blackList": []
+  "blackList": [],
+  "forceBlackList": []
 }

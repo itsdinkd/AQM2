@@ -55,6 +55,8 @@ key_modifiers_key.agape_space.vehicle_menu:0,0,0
 key_modifiers_key.ftbquests.quests:0,0,0
 key_modifiers_key.autorun.toggle:0,0,0
 key_modifiers_key.besmirchment.familiar_ability:0,0,0
+key_modifiers_keybinds.bettercombat.feint:0,0,0
+key_modifiers_keybinds.bettercombat.toggle_mine_with_weapons:0,0,0
 key_modifiers_key.bewitchment.transformation_ability:0,0,0
 key_modifiers_key.botania_corporea_request:0,0,0
 key_modifiers_key.buildinggadgets.settings_menu:0,0,0

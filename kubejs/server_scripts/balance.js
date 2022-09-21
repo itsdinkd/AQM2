@@ -1473,7 +1473,7 @@ event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'gobbe
   event.shaped("harvest_scythes:star_platinum_machete", ['AA ',' A ',' S '],
   {
     A: "mythicmetals:star_platinum",
-    D: "minecraft:stick"
+    S: "minecraft:stick"
   })
 
   event.remove({output: 'harvest_scythes:star_platinum_scythe'});

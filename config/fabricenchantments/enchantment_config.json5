@@ -20,5 +20,6 @@
   "consumer": false,
   "double_swing": true,
   "poison_aspect": true,
-  "replenish": true
+  "replenish": true,
+  "homing": true
 }

@@ -9,9 +9,9 @@
 	"TopazGeodeMinFixedGenerationHeight": 100,
 	"TopazGeodeMaxBelowTopGenerationHeight": 0,
 	// Every x chunks there is a chance for a geode to generate, Moonstone geodes do not spawn in the Overworld
-	"TopazGeodeChunkChance": 10,
+	"TopazGeodeChunkChance": 8,
 	"CitrineGeodeChunkChance": 50,
-	"MoonstoneGeodeChunkChance": 35,
+	"MoonstoneGeodeChunkChance": 38,
 	// The amount of colored tree patches to generate every X chunks
 	"ColoredTreePatchChanceChunk": 75,
 	/* The chance that an Enderman is holding a special treasure block on spawn
@@ -37,12 +37,16 @@
 	   By default, there is a 0.004 ^= 0.4 % chance at each of those check times. Making it ~1 shooting star spawn
 	   per night per player that unlocked the required progression.
 	*/
-	"ShootingStarChance": 0.003880999283865094,
+	"ShootingStarChance": 0.003950000274926424,
 	"MermaidsBrushChanceChunk": 16,
 	"QuitoxicReedsCountPerChunk": 25,
 	// The biomes where Quitoxic Reeds are growing (usually swamps)
 	"QuitoxicReedsGenerationBiomes": [
-		"minecraft:swamp"
+		"minecraft:swamp",
+		"byg:bayou",
+		"byg:cypress_swamplands",
+		"terralith:orchid_swamp",
+		"terralith:ice_marsh"
 	],
 	// The time in ticks it takes a Pigment Pedestal to autocraft a vanilla crafting table recipe without upgrades
 	"VanillaRecipeCraftingTimeTicks": 100,

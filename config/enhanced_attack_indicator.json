@@ -3,6 +3,7 @@
   "showBlockBreaking": true,
   "showRangeWeaponDraw": true,
   "showItemCooldowns": true,
+  "showFoodAndPotions": true,
   "disablePickaxesAndShovels": true,
   "disableAxes": true
 }

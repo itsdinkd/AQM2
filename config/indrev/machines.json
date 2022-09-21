@@ -270,10 +270,16 @@
     "maxInput": 4096.0
   },
   "miner": {
-    "energyCost": 68.0,
+    "energyCost": 64,
     "processSpeed": 100.0,
-    "maxEnergyStored": 50000.0,
-    "maxInput": 4096.0
+    "maxEnergyStored": 50000,
+    "maxInput": 4096
+  },
+  "dataCardWriter": {
+    "energyCost": 128,
+    "processSpeed": 100.0,
+    "maxEnergyStored": 2500,
+    "maxInput": 4096
   },
   "drill": 256.0,
   "fishingMk2": {
@@ -289,10 +295,16 @@
     "maxInput": 512.0
   },
   "fishingMk4": {
-    "energyCost": 64.0,
+    "energyCost": 64,
     "processSpeed": 500.0,
-    "maxEnergyStored": 50000.0,
-    "maxInput": 4096.0
+    "maxEnergyStored": 50000,
+    "maxInput": 4096
+  },
+  "dirtOxygenator": {
+    "energyCost": 16,
+    "processSpeed": 50.0,
+    "maxEnergyStored": 1000,
+    "maxInput": 64
   },
   "drain": {
     "energyCost": 4.0,
@@ -338,10 +350,34 @@
     "maxInput": 512.0
   },
   "fluidInfuserMk4": {
-    "energyCost": 64.0,
+    "energyCost": 64,
     "processSpeed": 4.0,
-    "maxEnergyStored": 100000.0,
-    "maxInput": 4096.0
+    "maxEnergyStored": 100000,
+    "maxInput": 4096
+  },
+  "electrolyticSeparatorMk1": {
+    "energyCost": 4,
+    "processSpeed": 1.0,
+    "maxEnergyStored": 1000,
+    "maxInput": 64
+  },
+  "electrolyticSeparatorMk2": {
+    "energyCost": 8,
+    "processSpeed": 2.0,
+    "maxEnergyStored": 5000,
+    "maxInput": 128
+  },
+  "electrolyticSeparatorMk3": {
+    "energyCost": 16,
+    "processSpeed": 3.0,
+    "maxEnergyStored": 10000,
+    "maxInput": 512
+  },
+  "electrolyticSeparatorMk4": {
+    "energyCost": 64,
+    "processSpeed": 4.0,
+    "maxEnergyStored": 100000,
+    "maxInput": 4096
   },
   "modularWorkbench": {
     "energyCost": 64.0,
@@ -350,10 +386,16 @@
     "maxInput": 4096.0
   },
   "laser": {
-    "energyCost": 4096.0,
+    "energyCost": 4096,
     "processSpeed": 1.0,
-    "maxEnergyStored": 2500000.0,
-    "maxInput": 16384.0
+    "maxEnergyStored": 2500000,
+    "maxInput": 16384
+  },
+  "distiller": {
+    "energyCost": 64,
+    "processSpeed": 4.0,
+    "maxEnergyStored": 100000,
+    "maxInput": 4096
   },
   "lazuliFluxContainerMk1": {
     "maxEnergyStored": 10000.0,
