@@ -115,7 +115,6 @@
 				"Time to get yourself the Glob. Go ahead and craft it with 9 Globettes"
 			]
 			dependencies: ["40AC615E022379B9"]
-			dependency_requirement: "all_started"
 			id: "333D851BF7D1E900"
 			tasks: [{
 				id: "7BF479E46F246676"

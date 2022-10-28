@@ -1,0 +1,11 @@
+{
+  "type": "magicfungi:magic_condenser",
+
+  "input" : {
+    "item": "gobber2:gobber2_pickaxe_nether"
+  },
+  "utilisEssenceCost": 16,
+  "netherStarFuelCost": 2,
+
+  "outputItem": "magicfungi:utilis_pickaxe"
+}

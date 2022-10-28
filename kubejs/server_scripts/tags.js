@@ -60,7 +60,11 @@
 		"simplyswords:hearthflame",
 		"simplyswords:emberblade",
 		"simplyswords:soulrender",
-		"simplyswords:sword_on_a_stick"
+		"simplyswords:soulkeeper",
+		"simplyswords:soulstealer",
+		"simplyswords:mjolnir",
+		"simplyswords:sword_on_a_stick",
+		"simplyswords:twisted_blade"
 	]
 
 // Fish
@@ -128,9 +132,20 @@
 	'archeology:copper_brush'
 	]
 
-	// const alwaysSoulbound = [
-	// ]
-
+	const BlacklistTravelersBackpack = [
+		"inmis:baby_backpack",
+		"inmis:frayed_backpack",
+		"inmis:ender_pouch",
+		"inmis:endless_backpack",
+		"inmis:gilded_backpack",
+		"inmis:gilded_backpack",
+		"inmis:bejeweled_backpack",
+		"inmis:plated_backpack",
+		"inmis:plated_backpack",
+		"inmis:blazing_backpack",
+		"inmis:withered_backpack"
+	]
+// Item Tags
 onEvent('tags.items', event => {
 
 	SimplyRareSwords.forEach(function (item, index) {
@@ -159,25 +174,38 @@ onEvent('tags.items', event => {
 		event.add('wandering_collector:deny', item)
 	})
 
+	BlacklistTravelersBackpack.forEach(function (item,i) {
+		event.add("travelersbackpack:blacklisted_items", item)
+	})
+
 // Misc
 	event.add('c:wrenches', 'advanced_reborn:config_wrench')
 	event.add('c:wrenches','techreborn:wrench')
 	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
 	event.add("yigd:soulbound_blacklist", /^travelersbackpack:.*/)
-	event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
+	event.add('c:rubies', 'betternether:nether_ruby')
+	event.add('c:ruby_ores', 'betternether:nether_ruby_ore')
 
 	// event.add('grounded_origins:moth/fibrous_foods', '#fabric:grain')
 	// event.add('grounded_origins:moth/fibrous_foods', '#minecraft:fox_food')
 	// event.add('grounded_origins:moth/fibrous_foods', '#c:fruits')
+	
+// Remove
+	event.remove('nourish:vegetables', "croptopia:beef_stew")
+	event.remove('nourish:vegetables', "croptopia:beef_stir_fry")
+	event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
+	
+
+});
+
+// Block Tags
+onEvent("tags.blocks", event => {
 	event.add('c:redstone_ores','minecraft:redstone_ore')
 	event.add('c:redstone_ores','minecraft:deepslate_redstone_ore')
 	event.add('c:emerald_ores','minecraft:emerald_ore')
 	event.add('c:emerald_ores','minecraft:deepslate_emerald_ore')
 	event.add('c:diamond_ores','minecraft:diamond_ore')
 	event.add('c:diamond_ores','minecraft:deepslate_diamond_ore')
-	event.remove('nourish:vegetables', "croptopia:beef_stew")
-	event.remove('nourish:vegetables', "croptopia:beef_stir_fry")
-
 	event.add('c:rubies', 'betternether:nether_ruby')
 	event.add('c:ruby_ores', 'betternether:nether_ruby_ore')
 

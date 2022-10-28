@@ -2,6 +2,7 @@
   "rare_loot_table_weight": 0.004,
   "omen_absorption_amount": 1.0,
   "unique_loot_table_weight": 0.002,
-  "standard_loot_table_weight": 0.05,
-  "watcher_restore_amount": 0.5
+  "standard_loot_table_weight": 0.04,
+  "watcher_restore_amount": 0.39999,
+  "omen_instantkill_threshold": 0.05
 }

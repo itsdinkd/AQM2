@@ -1,0 +1,115 @@
+{
+// -- EFFECTS CONFIGURATION -- 
+
+//Chance range 0-100, where 100 = 100% chance to occur
+//Radius is measured in blocks
+//Duration in ticks, where 20 is equivalent to one second 
+
+// -- Runic Power: Swiftness -- 
+// ---------------------------- 
+  "speed_chance": 14.99,
+  "speed_duration": 120.0,
+
+// -- Runic Power: Slow -- 
+// ----------------------- 
+  "slowness_chance": 35.0,
+  "slowness_duration": 40.0,
+
+// -- Runic Power: Poison -- 
+// ------------------------- 
+  "toxin_chance": 12.0,
+  "toxin_duration": 120.0,
+
+// -- Runic Power: Freeze -- 
+// ------------------------- 
+  "freeze_chance": 15.0,
+  "freeze_duration": 120.0,
+
+// -- Runic Power: Wildfire -- 
+// --------------------------- 
+  "wildfire_chance": 10.0,
+  "wildfire_duration": 80.0,
+  "wildfire_radius": 8.0,
+
+// -- Runic Power: Float -- 
+// ------------------------ 
+  "levitation_chance": 15.0,
+  "levitation_duration": 40.0,
+
+// -- Unique Effect: Watcher -- 
+// -- Restore amount refers to health gained from each enemy in range -- 
+// ---------------------------- 
+  "watcher_chance": 3.0,
+  "watcher_restore_amount": 0.33,
+  "watcher_radius": 4.5,
+
+// -- Unique Effect: Omen -- 
+// -- Absorption amount refers to the tier of regeneration gained on proc -- 
+// -- Instantkill Threshold refers to the % of maxhealth an enemy must be UNDER in order for the effect to proc. Where 1 = 100% -- 
+// ---------------------------- 
+  "omen_chance": 35.0,
+  "omen_absorption_amount": 1.0,
+  "omen_instantkill_threshold": 0.145,
+
+// -- Unique Effect: Soul Steal -- 
+// Duration refers to the haste, slow, and glow effects 
+// ------------------------------- 
+  "steal_chance": 8.0,
+  "steal_duration": 140.0,
+  "steal_invis_duration": 100.0,
+  "steal_blind_duration": 180.0,
+  "steal_radius": 15.0,
+
+// -- Unique Effect: Gravity -- 
+// NOT YET IMPLEMENTED 
+// ---------------------------- 
+  "gravity_chance": 17.5,
+  "gravity_duration": 200.0,
+  "gravity_radius": 7.0,
+
+// -- Unique Effect: Soul Meld -- 
+// ----------------------------- 
+  "soulmeld_chance": 35.0,
+  "soulmeld_duration": 150.0,
+  "soulmeld_radius": 5.0,
+
+// -- Unique Effect: Soul Rend -- 
+// ----------------------------- 
+  "soulrend_chance": 40.0,
+  "soulrend_duration": 200.0,
+  "soulrend_rend_damage_multiplier": 1.3,
+  "soulrend_rend_heal_multiplier": 0.2,
+  "soulrend_radius": 7.0,
+  "soulrend_max_stacks": 5.0,
+
+// -- Unique Effect: Ferocity -- 
+// ----------------------------- 
+  "ferocity_chance": 75.0,
+  "ferocity_duration": 80.0,
+  "ferocity_max_stacks": 11.0,
+  "ferocity_strength_tier": 1.0,
+
+// -- Unique Effect: Ember Ire -- 
+// ------------------------------ 
+  "ember_ire_chance": 5.0,
+  "ember_ire_duration": 100.0,
+
+// -- Unique Effect: Volcanic Fury -- 
+// ---------------------------------- 
+  "volcanic_fury_chance": 17.5,
+
+// -- Unique Effect: Storm -- 
+// -------------------------- 
+  "storm_chance": 13.5,
+  "storm_radius": 8.0,
+
+// -- Unique Effect: Plague -- 
+// --------------------------- 
+  "plague_chance": 33.0,
+
+// -- Unique Effect: Brimstone -- 
+// ------------------------------ 
+  "brimstone_chance": 12.5,
+  "bramble_chance": 31.33,
+  "bramble_radius": 7.5
+}

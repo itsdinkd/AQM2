@@ -12,14 +12,5 @@ onEvent('player.logged_in', event => {
 
   // banned items
   event.player.inventory.clear("doom:daisy");
-  const doomArmorRemInv = [
-    "boots",
-    "chestplate",
-    "leggings",
-    "helmet"
-    ]
-    
-    doomArmorRemInv.forEach(function(item) {
-      event.player.inventory.clear(`/doom:.*${item}/`)
-    })
+
 })

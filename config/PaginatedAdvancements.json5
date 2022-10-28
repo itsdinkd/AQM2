@@ -3,13 +3,13 @@
 	"FadeOutBackgroundOnAdvancementHover": true,
 	// List of pinned Tabs (root advancement identifier)
 	"PinnedTabs": [
-		"earth:earthbounds/root",
-		"spectrum:spectrum"
+		"spectrum:spectrum",
+		"earth:earthbounds/root"
 	],
 	// Save and restore the last selected tab
 	"SaveLastSelectedTab": true,
 	// The identifier of the last opened tab
-	"LastSelectedTab": "betteranimalsplus:root",
+	"LastSelectedTab": "dungeons_arise:wda_root",
 	// Spacing between horizontal tabs (vanilla default: 4)
 	"SpacingBetweenHorizontalTabs": 4,
 	// Spacing between pinned tabs

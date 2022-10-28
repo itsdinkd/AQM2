@@ -13,7 +13,7 @@
   "zombies_enchanted_more": 65.0,
   "zombies_better_gear": true,
   "zombies_runners": true,
-  "zombiepiglin_onsight": true,
+  "zombiepiglin_onsight": false,
   "zombiepiglin_attacks_villagers": true,
   "skeletons_enchanted_more": 60.0,
   "skeletons_attacks_villagers": true,
