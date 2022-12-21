@@ -1,6 +1,6 @@
 {
   "globalSettings": {
-    "configVersion": 10,
+    "configVersion": 9,
     "printBiomes": false,
     "globalDebug": false,
     "enable3rdPersonFlying": false,
@@ -48,7 +48,7 @@
       "byg:ebony_woods",
       "byg:forgotten_forest",
       "byg:aspen_forest",
-      "byg:autumnal_forest"
+			"byg:autumnal_forest"
     ],
     "temperate": [
       "plains",
@@ -58,21 +58,21 @@
       "byg:ebony_woods",
       "byg:forgotten_forest",
       "byg:aspen_forest",
-      "byg:autumnal_forest",
+			"byg:autumnal_forest",
       "terralith:red_oasis",
       "terralith:cloud_forest",
       "byg:cherry_blossom_forest",
       "terralith:lavender_valley",
-      "minecraft:flower_forest",
+			"minecraft:flower_forest",
       "byg:black_forest",
-      "terralith:amethyst_rainforest"
+			"terralith:amethyst_rainforest"
     ],
     "shores": [
       "beach",
       "minecraft:stony_shore",
       "byg:windswept_beach",
       "byg:cypress_swamplands",
-      "byg:bayou",
+			"byg:bayou",
       "terralith:orchid_swamp",
       "terralith:ice_marsh",
       "terralith:granite_cliffs"
@@ -103,9 +103,9 @@
       "terralith:volcanic_crater",
       "terralith:windswept_spires",
       "byg:canadian_shield",
-      "byg:dacite_ridges",
-      "byg:howling_peaks",
-      "byg:skyris_vale",
+			"byg:dacite_ridges",
+			"byg:howling_peaks",
+			"byg:skyris_vale",
       "terralith:volcanic_peaks"
     ],
     "mountains": [
@@ -122,9 +122,9 @@
       "terralith:volcanic_crater",
       "terralith:windswept_spires",
       "byg:canadian_shield",
-      "byg:dacite_ridges",
-      "byg:howling_peaks",
-      "byg:skyris_vale",
+			"byg:dacite_ridges",
+			"byg:howling_peaks",
+			"byg:skyris_vale",
       "terralith:volcanic_peaks"
     ],
     "forests": [
@@ -135,14 +135,14 @@
       "byg:ebony_woods",
       "byg:forgotten_forest",
       "byg:aspen_forest",
-      "byg:autumnal_forest",
+			"byg:autumnal_forest",
       "terralith:red_oasis",
       "terralith:cloud_forest",
       "byg:cherry_blossom_forest",
       "terralith:lavender_valley",
-      "minecraft:flower_forest",
+			"minecraft:flower_forest",
       "byg:black_forest",
-      "terralith:amethyst_rainforest",
+			"terralith:amethyst_rainforest",
       "byg:maple_taiga",
       "byg:frosted_taiga",
       "terralith:siberian_taiga",
@@ -155,7 +155,6 @@
       "byg:tropical_rainforest",
       "byg:forgotten_forest",
       "terralith:amethyst_rainforest",
-      null
     ],
     "oldForests": [
       "minecraft:old_growth_spruce_taiga",

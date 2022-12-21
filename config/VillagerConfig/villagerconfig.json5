@@ -13,7 +13,7 @@
 	},
 	"old_trades": {
 		// Whether or not https://minecraft.gamepedia.com/Trading/Before_Village_%26_Pillage#Mechanics should be used for trade (un)locking
-		"enabled": true,
+		"enabled": 	false,
 		// The minimum amount of trades possible after which it can get locked (1.12 default: 2)
 		"min_uses": 6,
 		// The maximum amount of trades possible, if reached a trade is guaranteed to get locked (1.12 default: 12)

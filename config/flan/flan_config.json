@@ -30,7 +30,11 @@
   "claimingItem": "minecraft:golden_hoe",
   "inspectionItem": "minecraft:stick",
   "claimDisplayTime": 1300,
+  "claimDisplayActionBar": false,
   "permissionLevel": 2,
+  "ftbChunksCheck": true,
+  "gomlReservedCheck": true,
+  "mineColoniesCheck": true,
   "buySellHandler": {
     "buyType": "MONEY",
     "sellType": "MONEY",

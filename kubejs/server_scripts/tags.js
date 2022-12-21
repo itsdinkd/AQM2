@@ -206,7 +206,6 @@ onEvent("tags.blocks", event => {
 	event.add('c:emerald_ores','minecraft:deepslate_emerald_ore')
 	event.add('c:diamond_ores','minecraft:diamond_ore')
 	event.add('c:diamond_ores','minecraft:deepslate_diamond_ore')
-	event.add('c:rubies', 'betternether:nether_ruby')
 	event.add('c:ruby_ores', 'betternether:nether_ruby_ore')
 
 	// alwaysSoulbound.forEach((item,index) => {

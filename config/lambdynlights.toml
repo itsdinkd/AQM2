@@ -233,6 +233,7 @@
 				void_shadow = false
 				blaze_guardian_shield = true
 				mammoth = true
+				blaze_guardian = true
 
 			[light_sources.settings.entities.elementalcreepers]
 				illusion_creeper = false
@@ -311,6 +312,10 @@
 				archvile_firing = true
 				chaingun_mob = true
 				cacodemon = true
+				firebronebaron = true
+				hellknight = true
+				baron2016 = true
+				armoredbaron = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false
@@ -480,4 +485,10 @@
 
 			[light_sources.settings.entities.automobility]
 				automobile = true
+
+			[light_sources.settings.entities.mtmechs]
+				tunnelarmor = true
+
+			[light_sources.settings.entities.capybara]
+				capybara = true
 

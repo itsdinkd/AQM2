@@ -27,6 +27,10 @@ onEvent("lootjs", (event) => {
     SimplySwordsLootRemove.forEach(function(item,index){
     event.addBlockLootModifier("graveyard:vase_block").removeLoot(item);
     })
+
+    // Remove soul cube and daisy from all chests
+    event.addLootTableModifier(/.*/).removeLoot("doom:soulcube");
+    event.addLootTableModifier(/.*/).removeLoot("doom:daisy");
     // Below will be added to aqm2 1.7
     // event.addEntityLootModifier("adventurez:stone_golem").addLoot("#aqm2:weapons/rare");
     // event.addEntityLootModifier("adventurez:stone_golem").addLoot("#aqm2:weapons/rare");

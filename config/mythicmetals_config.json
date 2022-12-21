@@ -29,10 +29,16 @@
     "bottom": 50,
     "top": 69,
     "discardChance": 0.125,
-    "veinSizeVariant": 5,
-    "perChunkVariant": 3,
-    "bottomVariant": 69,
-    "topVariant": 90,
+    "offset": false,
+    "trapezoid": false
+  },
+  "nether_banglum": {
+    "enabled": true,
+    "veinSize": 10,
+    "perChunk": 4,
+    "bottom": 69,
+    "top": 110,
+    "discardChance": 0.125,
     "offset": false,
     "trapezoid": false
   },
@@ -46,17 +52,13 @@
     "offset": false,
     "trapezoid": false
   },
-  "kyber": {
+  "calcite_kyber": {
     "enabled": true,
-    "veinSize": 3,
-    "perChunk": 1,
-    "bottom": 12,
-    "top": 52,
-    "discardChance": 0.5,
-    "veinSizeVariant": 15,
-    "perChunkVariant": 40,
-    "bottomVariant": -62,
-    "topVariant": 40,
+    "veinSize": 16,
+    "perChunk": 40,
+    "bottom": -56,
+    "top": 40,
+    "discardChance": 0.4,
     "offset": false,
     "trapezoid": false
   },
@@ -67,6 +69,16 @@
     "bottom": 28,
     "top": 48,
     "discardChance": 0.25,
+    "offset": false,
+    "trapezoid": false
+  },
+  "kyber": {
+    "enabled": true,
+    "veinSize": 3,
+    "perChunk": 1,
+    "bottom": 12,
+    "top": 52,
+    "discardChance": 0.5,
     "offset": false,
     "trapezoid": false
   },
@@ -177,10 +189,16 @@
     "bottom": 38,
     "top": 52,
     "discardChance": 0.25,
-    "veinSizeVariant": 0,
-    "perChunkVariant": 0,
-    "bottomVariant": 0,
-    "topVariant": 0,
+    "offset": false,
+    "trapezoid": true
+  },
+  "deepslate_runite": {
+    "enabled": true,
+    "veinSize": 4,
+    "perChunk": 2,
+    "bottom": -55,
+    "top": -37,
+    "discardChance": 0.5,
     "offset": false,
     "trapezoid": true
   },
@@ -201,12 +219,18 @@
     "bottom": 50,
     "top": 300,
     "discardChance": 0.3,
-    "veinSizeVariant": 3,
-    "perChunkVariant": 2,
-    "bottomVariant": 30,
-    "topVariant": 90,
     "offset": false,
     "trapezoid": true
+  },
+  "end_starrite": {
+    "enabled": true,
+    "veinSize": 7,
+    "perChunk": 2,
+    "bottom": 30,
+    "top": 90,
+    "discardChance": 0.0,
+    "offset": false,
+    "trapezoid": false
   },
   "stormyx": {
     "enabled": true,
@@ -240,6 +264,7 @@
   },
   "configVersion": 4,
   "disableFunny": false,
+  "banglumNukeCoreRadius": 24,
   "blacklist": [
     "minershorizon:rocky_plains",
     "mining_dims:mining_dim",

@@ -199,9 +199,14 @@ const arrRemove = [
 "travelersbackpack:squid",
 'indrev:rancher_creative',
 "veggie_way:watering_can_copper",
+"advanced_reborn:enchantment_extractor",
 "autoworkstations:gold_auto_experience_orb_vacuum",
 "autoworkstations:iron_auto_experience_orb_vacuum",
 "autoworkstations:auto_enchanting_table_xp_inside",
+"autoworkstations:gold_auto_experience_orb_emitter",
+"autoworkstations:iron_auto_experience_orb_emitter",
+"autoworkstations:gold_auto_brewing_stand",
+"autoworkstations:iron_auto_brewing_stand",
 "createplus:crushed_adamantite_ore",
 "createplus:crushed_aquarium_ore",
 "createplus:crushed_banglum_ore",
@@ -287,4 +292,8 @@ onEvent('recipes', event => {
   bwBoats.forEach(function(item, index) {
     event.remove({output: 'bewitchment:' + item})
   });
+
+  // remove auto workstations netherite recipes
+  event.remove({id: "autoworkstations:netherite_auto_crafting_table_upgrade"})
+  event.remove({id: "autoworkstations:netherite_auto_crafting_table"})
 })
