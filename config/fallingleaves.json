@@ -1,11 +1,14 @@
 {
   "version": 1,
   "displayDebugData": false,
+  "enabled": true,
   "leafSize": 5,
   "leafLifespan": 200,
   "leafSpawnRate": 10,
   "coniferLeafSpawnRate": 0,
+  "snowflakeSpawnRate": 15,
   "dropFromPlayerPlacedBlocks": true,
+  "leavesOnBlockHit": true,
   "minimumFreeSpaceBelow": 1,
   "windEnabled": true,
   "windlessDimensions": [
@@ -1178,6 +1181,66 @@
       "isConiferBlock": false
     },
     "spectrum:jade_vine_petal_block": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:mangrove_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "hexcasting:citrine_edified_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "hexcasting:aventurine_edified_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "dimdoors:driftwood_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "hexcasting:amethyst_edified_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "ad_astra:glacian_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:white_mangrove_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:imparius_vine": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:embur_gel_vines_plant": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:poison_ivy": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:skyris_vine": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:shulkren_vine_plant": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:embur_gel_vines": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:shulkren_vine": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:imparius_vine_plant": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     }

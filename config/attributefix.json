@@ -55,6 +55,17 @@
         "value": 10000000
       }
     },
+    "galosphere:explosion_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10000000
+      }
+    },
     "dml-refabricated:auto_extinguish": {
       "enabled": false,
       "min": {

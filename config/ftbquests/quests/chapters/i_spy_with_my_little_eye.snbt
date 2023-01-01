@@ -53,24 +53,6 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
-			subtitle: "You will come across a rare Mushroom"
-			id: "085D054DC0BA2696"
-			tasks: [{
-				id: "1AC55FDAE3AA75AF"
-				type: "biome"
-				title: "Find the Host Biome"
-				icon: "magicfungi:host_tall_grass"
-				biome: "magicfungi:host_biome"
-			}]
-			rewards: [{
-				id: "4AFF52220D6620E1"
-				type: "item"
-				item: "magicfungi:morbus_mushroom"
-			}]
-		}
-		{
 			title: "Visit Forgotten Forest"
 			x: -1.5d
 			y: 1.5d
@@ -125,23 +107,6 @@
 				}
 			}]
 		}
-		{
-			x: 2.5d
-			y: 1.5d
-			subtitle: "Can you kill the killer bunny?"
-			id: "3D2478E46ED4D56E"
-			tasks: [{
-				id: "0440088B2033AC43"
-				type: "structure"
-				title: "Find the Killer Bunny Castle"
-				icon: "givemehats:bunny_ears"
-				structure: "mostructures:killer_bunny_castle"
-			}]
-			rewards: [{
-				id: "694986F142AAEF4E"
-				type: "item"
-				item: "gobber2:gobber2_gooey_bread_nether"
-			}]
-		}
 	]
+	quest_links: [ ]
 }

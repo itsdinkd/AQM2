@@ -281,6 +281,14 @@
   "CLAIMMESSAGE.desc": [
     "Permission to edit the enter/leave message"
   ],
+  "PLAYERMOBSPAWN.desc": [
+    "Permission for affected players to spawn mobs with interactions",
+    "E.g. wardens, or endermites with enderpearls"
+  ],
+  "SCULK.desc": [
+    "Permission for sculk sensors.",
+    "Shriekers are handled under PLAYERMOBSPAWN"
+  ],
   "HURTPLAYER.desc": [
     "Permission to hurt other players"
   ],

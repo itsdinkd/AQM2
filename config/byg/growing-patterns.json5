@@ -1314,57 +1314,6 @@ to make editing this file much easier.
 				]
 			}
 		],
-		"byg:mangrove_sapling": [
-			{
-				/* Pattern required for this block to spawn a configured feature.
-				   "x" represents a sapling position." " represents air.
-				   Max size is 5x5.
-				*/
-				"pattern": [
-					"  x  ",
-					"x   x",
-					"  x  "
-				],
-				// Configured Feature spawner.
-				"spawners": [
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:mangrove_tree1"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:mangrove_tree2"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:mangrove_tree3"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:mangrove_tree4"
-						},
-						"weight": 1
-					},
-					{
-						"data": {
-							// Registry ID of the configured feature.
-							"featureID": "byg:mangrove_tree5"
-						},
-						"weight": 1
-					}
-				]
-			}
-		],
 		"byg:maple_sapling": [
 			{
 				/* Pattern required for this block to spawn a configured feature.
@@ -2590,6 +2539,57 @@ to make editing this file much easier.
 						"data": {
 							// Registry ID of the configured feature.
 							"featureID": "byg:white_cherry_tree1"
+						},
+						"weight": 1
+					}
+				]
+			}
+		],
+		"byg:white_mangrove_sapling": [
+			{
+				/* Pattern required for this block to spawn a configured feature.
+				   "x" represents a sapling position." " represents air.
+				   Max size is 5x5.
+				*/
+				"pattern": [
+					"  x  ",
+					"x   x",
+					"  x  "
+				],
+				// Configured Feature spawner.
+				"spawners": [
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree1"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree2"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree3"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree4"
+						},
+						"weight": 1
+					},
+					{
+						"data": {
+							// Registry ID of the configured feature.
+							"featureID": "byg:white_mangrove_tree5"
 						},
 						"weight": 1
 					}

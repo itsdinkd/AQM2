@@ -13,8 +13,11 @@
 	"renderTrinkets": true,
 	// Only disables trinket rendering for apples
 	"renderAppleTrinket": true,
+	// Only disables trinket rendering for agglomerations
+	"renderAgglomerationTrinket": true,
 	// Whether container blocks locked by a Container Key should be unbreakable
 	"makeLockedContainersUnbreakable": false,
+	"enableAgglomeration": true,
 	// How many ender pearls the displacement tome uses per teleport
 	"displacementTomeFuelConsumption": 5,
 	// How much walking speed the socks should add per level, base is 0.1, default is 0.02

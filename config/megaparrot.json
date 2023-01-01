@@ -9,10 +9,6 @@
     "desert": true,
     "spawnWeightC": 5,
     "plains": true,
-    "spawnWeightD": 5,
-    "mesa": true,
-    "spawnWeightE": 5,
-    "icy": true,
-    "spawnWeightF": 4
+    "spawnWeightD": 5
   }
 }

@@ -207,6 +207,7 @@
 				"They only support insertion in world, but can be extracted from using pipes and hoppers. They can also be used to lock a large amount of drawers at the same time."
 			]
 			dependencies: ["0C5D2138D83B2B70"]
+			invisible: true
 			id: "15B23D1FCFED7F69"
 			tasks: [{
 				id: "3B890CC5B8CB4E7C"
@@ -651,4 +652,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

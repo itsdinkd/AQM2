@@ -10,12 +10,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Mine Certus Ore"
-			icon: "ae2:quartz_ore"
+			title: "Mine Certus Bud"
+			icon: "spectrum:certus_quartz_cluster"
 			x: 0.0d
 			y: 0.0d
 			subtitle: "You need Certus Quartz for Applied Energistics 2... a lot of it.."
-			description: ["Head to around Y Level 8 for the highest Ore Spawns."]
+			description: ["Head to around Y Level 8 for the highest bud Spawns."]
 			id: "417915745B47F7AB"
 			tasks: [{
 				id: "5FCBD19356DCF510"
@@ -1557,7 +1557,7 @@
 			rewards: [{
 				id: "6A8552EBE63BB87C"
 				type: "item"
-				item: "hyperlighting:orange_colored_water_bucket"
+				item: "gobber2:gobber2_foo"
 			}]
 		}
 		{
@@ -1574,7 +1574,7 @@
 			rewards: [{
 				id: "627AF62BDB32CF73"
 				type: "item"
-				item: "hyperlighting:green_colored_water_bucket"
+				item: "gobber2:gobber2_foo_nether"
 			}]
 		}
 		{
@@ -1608,7 +1608,7 @@
 			rewards: [{
 				id: "41CCBFDB37829652"
 				type: "item"
-				item: "hyperlighting:light_blue_colored_glowing_water_bucket"
+				item: "gobber2:gobber2_foo_end"
 			}]
 		}
 		{
@@ -1814,32 +1814,6 @@
 			}]
 		}
 		{
-			title: "UPC: Tech Reborn to MI Energy"
-			x: 0.0d
-			y: 9.0d
-			subtitle: "Convert Tech Reborn energy to be used with Modern Industrialization"
-			description: [
-				"To use"
-				""
-				"Place down your UPC block. One side should have Tech Reborn (Or Industrial Revolution) cables to either by Sending to UPC, or Receiving from UPC. The other side should have Modern Industrialization Cables sending or receiving energy to or from the UPC block."
-				"This works on a 1:1 ratio"
-				""
-				"You can also send/receive Industrial Revolution to Modern Industrialization using UPC"
-			]
-			size: 2.0d
-			id: "3C52A743A479C3A4"
-			tasks: [{
-				id: "618D4ABB667E4A90"
-				type: "item"
-				item: "upc:upc"
-			}]
-			rewards: [{
-				id: "2243B500D6A6A79B"
-				type: "item"
-				item: "upc:upc"
-			}]
-		}
-		{
 			title: "Fast Augment Pipes"
 			x: -0.5d
 			y: 12.5d
@@ -1925,6 +1899,7 @@
 				id: "450363B11B7032F8"
 				type: "questsadditions:use"
 				icon: "indrev:fluid_infuser_mk1"
+				block_type: 0
 				block: "indrev:fluid_infuser_mk1"
 				value: 1L
 				checkItem: false
@@ -1944,4 +1919,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

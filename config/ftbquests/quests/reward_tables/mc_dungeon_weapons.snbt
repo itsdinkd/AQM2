@@ -3,7 +3,7 @@
 	order_index: 3
 	title: "MC Dungeon Weapons"
 	icon: {
-		id: "magicfungi:impetus_sword"
+		id: "mcdw:sickle_jailors_scythe"
 		Count: 1b
 		tag: {
 			Damage: 0

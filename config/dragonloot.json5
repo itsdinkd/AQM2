@@ -7,8 +7,12 @@
 	"dragon_armor_protection_chest": 10,
 	"dragon_armor_protection_leggings": 9,
 	"dragon_armor_protection_boots": 8,
+	"dragon_armor_toughness": 3.0,
+	"dragon_armor_knockback_resistance": 1.0,
+	"dragon_armor_enchantability": 15,
 	"dragon_armor_durability_multiplier": 90,
 	"dragon_item_durability_multiplier": 65,
 	"dragon_item_base_damage": 8.0,
+	"dragon_tool_enchantability": 20,
 	"dragon_anvil_no_cap": true
 }

@@ -1,11 +1,11 @@
 {
   "globalToggles": {
     "skyFog": "DEFAULT",
-    "terrainFog": "DEFAULT",
-    "thickFog": "DEFAULT",
+    "terrainFog": "TRUE",
+    "thickFog": "TRUE",
     "waterFog": "TRUE",
     "lavaFog": "TRUE",
-    "powderSnowFog": "DEFAULT",
+    "powderSnowFog": "TRUE",
     "blindnessFog": "DEFAULT"
   },
   "dimensionToggles": {

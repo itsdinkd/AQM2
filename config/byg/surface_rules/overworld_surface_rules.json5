@@ -187,7 +187,7 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 													},
 													"then_run": {
 														"result_state": {
-															"Name": "byg:mud_block"
+															"Name": "minecraft:mud"
 														},
 														"type": "minecraft:block"
 													},
@@ -2014,8 +2014,7 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 					{
 						"if_true": {
 							"biome_is": [
-								"byg:windswept_dunes",
-								"byg:windswept_beach",
+								"byg:windswept_desert",
 								"byg:windswept_desert"
 							],
 							"type": "minecraft:biome"

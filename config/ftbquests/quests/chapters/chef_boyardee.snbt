@@ -11,285 +11,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Taco Day"
-			x: -2.5d
-			y: 0.0d
-			subtitle: "Lets make some tacos"
-			id: "5540C5B32D7A1675"
-			tasks: [{
-				id: "0AFCE49EDAFF6427"
-				type: "item"
-				item: "tacocraft:tortilla_dough"
-			}]
-			rewards: [{
-				id: "2104255396213EB5"
-				type: "item"
-				item: "tacocraft:corn_seed"
-			}]
-		}
-		{
-			x: -2.5d
-			y: 1.0d
-			subtitle: "Used to heat Tortilla's"
-			dependencies: ["5540C5B32D7A1675"]
-			id: "487E9C2809CBDCFD"
-			tasks: [{
-				id: "065AEF632CE44338"
-				type: "item"
-				item: "tacocraft:furnace"
-			}]
-			rewards: [{
-				id: "15C4534C69D7A129"
-				type: "item"
-				item: "minecraft:coal"
-				count: 4
-			}]
-		}
-		{
-			x: -1.5d
-			y: 0.0d
-			subtitle: "Place the Tortilla on this bad boy"
-			dependencies: ["487E9C2809CBDCFD"]
-			hide: true
-			id: "0BA1106C6BF0CA51"
-			tasks: [{
-				id: "56398259330DA838"
-				type: "item"
-				item: "tacocraft:comal"
-			}]
-			rewards: [{
-				id: "739E15D6389BEC08"
-				type: "item"
-				item: "tacocraft:tortilla_dough"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 1.0d
-			subtitle: "Grill up some tortilla's"
-			description: [
-				"Place your Brick Furnace down, and sneak right click place the Comal on top"
-				""
-				"Then take your tortilla dough, and place it on your Comal. Make sure to put some fuel in your furnace!"
-			]
-			dependencies: ["0BA1106C6BF0CA51"]
-			hide: true
-			id: "275F4112B24C097F"
-			tasks: [{
-				id: "3C4D58704C52E73A"
-				type: "observation"
-				title: "Heat up your tortilla dough"
-				icon: "tacocraft:tortilla"
-				timer: 0L
-				observe_type: 0
-				to_observe: "tacocraft:tortilla"
-			}]
-			rewards: [{
-				id: "113DF9884401D26C"
-				type: "item"
-				item: "tacocraft:tortilla"
-			}]
-		}
-		{
-			x: -2.5d
-			y: -1.0d
-			subtitle: "Crunch Crunch"
-			dependencies: ["5540C5B32D7A1675"]
-			hide: true
-			id: "506680B4DA94A156"
-			tasks: [{
-				id: "323577A9C523094C"
-				type: "item"
-				item: "tacocraft:empty_shell"
-			}]
-			rewards: [{
-				id: "587388E9FB9DD961"
-				type: "item"
-				item: "tacocraft:empty_shell"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 2.0d
-			subtitle: "Carne Asade?"
-			dependencies: ["275F4112B24C097F"]
-			hide: true
-			id: "38E22FB19BCE3741"
-			tasks: [{
-				id: "42FF75314BEE86A2"
-				type: "item"
-				item: "tacocraft:steak_taco"
-			}]
-			rewards: [{
-				id: "0EF5E59AFEBC009F"
-				type: "item"
-				item: "tacocraft:empty_shell"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 0.0d
-			subtitle: "Yo Quiero Taco Bell"
-			dependencies: ["506680B4DA94A156"]
-			hide: true
-			id: "1815964CD996E094"
-			tasks: [{
-				id: "01DD5578FF07CAC3"
-				type: "item"
-				item: "tacocraft:crunchy_taco"
-			}]
-			rewards: [{
-				id: "193882D76C603D49"
-				type: "item"
-				item: "tacocraft:corn"
-				count: 2
-			}]
-		}
-		{
-			x: -5.0d
-			y: 0.0d
-			subtitle: "Sparkly taco"
-			dependencies: ["1815964CD996E094"]
-			size: 1.77d
-			id: "09FD9EB75A492FAD"
-			tasks: [{
-				id: "5CB6CBEEC6B68BC8"
-				type: "item"
-				item: "tacocraft:golden_taco"
-			}]
-			rewards: [{
-				id: "0D51B367304F1DA7"
-				type: "item"
-				item: "minecraft:golden_carrot"
-			}]
-		}
-		{
-			x: -0.5d
-			y: 2.0d
-			subtitle: "Double Double with Beef"
-			dependencies: ["275F4112B24C097F"]
-			hide: true
-			id: "74C6DD646287242C"
-			tasks: [{
-				id: "253FE502329214F4"
-				type: "item"
-				item: "tacocraft:double_taco"
-			}]
-			rewards: [{
-				id: "2004752F0066ECDB"
-				type: "item"
-				item: "tacocraft:empty_shell"
-			}]
-		}
-		{
-			title: "The Path to Barbacoa (pt2)"
-			icon: "tacocraft:open_pot"
-			x: -4.5d
-			y: 2.0d
-			subtitle: "Stack your pork or beef ontop of this"
-			description: [
-				"Build a 3x3x3 hole (best to do on grass) on flat ground, Place a campfire in the middle. Build 2 layers of cobblestone surrounding the campfire"
-				""
-				"Place your Open Pot on top of the Campfire. Then, place your TWO closed penca's in the open pot. With a EMPTY hand, right click in the open pot again after placing the Penca's, this is needed."
-				""
-				"Once you placed the closed penca's in, cover the top layer of your hole with dirt, so now its flat on top. If you have done this correctly, you will see smoke particles coming through the dirt"
-				""
-				"You will need to wait \"5\" minutes for this to complete. The dirt will turn into Course Dirt after 5 minutes and you can then go get your Barbacoa in the open pot!"
-			]
-			dependencies: ["5540C5B32D7A1675"]
-			hide: true
-			id: "4864A961FDF425A2"
-			tasks: [
-				{
-					id: "3BF5CAE5F6C9776F"
-					type: "item"
-					item: "tacocraft:open_pot"
-				}
-				{
-					id: "0613DCDB53D1DC33"
-					type: "observation"
-					title: "Place Open Pot"
-					icon: "tacocraft:open_pot"
-					timer: 0L
-					observe_type: 0
-					to_observe: "tacocraft:open_pot"
-				}
-			]
-			rewards: [{
-				id: "0A27DB9F14BDBE7E"
-				type: "item"
-				item: "tacocraft:fish_taco"
-			}]
-		}
-		{
-			title: "The Path to Barbacoa "
-			x: -3.5d
-			y: 1.0d
-			subtitle: "Create the best tacos, ever."
-			description: [
-				"These tacos give you 39 Food and Sat, well worth it. This is more of a multi-block process."
-				""
-				"First, craft a Penca.  You will need to then place your Penca on top of anything. Once placed, Stack 4 steaks or 4 cooked porkchops on top of the penca. You will need to do this twice as you need TWO closed Pencas to continue"
-				""
-				"Secondly, after placing the meat down on the Penca, with a open hand, right click it. You will receive a Closed Penca. Make sure you have Two of these. Continue to next quest."
-			]
-			hide: true
-			id: "161E6513AE8B12A3"
-			tasks: [{
-				id: "7002A68B318DC66B"
-				type: "item"
-				item: "tacocraft:penca"
-			}]
-			rewards: [{
-				id: "71260B4D232337DB"
-				type: "item"
-				item: "tacocraft:corn_seed"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 2.0d
-			subtitle: "Go break that grass/dirt and get that barboca from the pot"
-			dependencies: ["4864A961FDF425A2"]
-			hide: true
-			id: "1BC947F8EE81ED7C"
-			tasks: [{
-				id: "396F1CD2A285A829"
-				type: "item"
-				item: "tacocraft:barbacoa"
-			}]
-			rewards: [{
-				id: "50362E56441A718D"
-				type: "item"
-				item: "tacocraft:penca"
-				count: 2
-			}]
-		}
-		{
-			x: -2.5d
-			y: 3.4499999999999993d
-			subtitle: "You're ready to eat"
-			dependencies: ["1BC947F8EE81ED7C"]
-			size: 2.3d
-			id: "7F4B432A397697F6"
-			tasks: [{
-				id: "629983FE74830C16"
-				type: "item"
-				item: "tacocraft:barbacoa_taco"
-			}]
-			rewards: [{
-				id: "4F2861DAFA0F66CE"
-				type: "item"
-				item: {
-					id: "tacocraft:divine_corn_blade"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			x: 5.5d
 			y: -1.0d
 			subtitle: "Congrats! You sliced bread"
@@ -299,6 +20,7 @@
 				id: "30EA1AF3FC4406AA"
 				type: "questsadditions:use"
 				title: "Place Bread on Board and Slice"
+				block_type: 0
 				block: "sandwichable:birch_cutting_board"
 				value: 1L
 				checkItem: true
@@ -310,53 +32,53 @@
 						items: [
 							{
 								id: "sandwichable:stone_kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 132
 										maxSharpness: 132
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 850
 										maxSharpness: 850
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:golden_kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 225
 										maxSharpness: 225
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:diamond_kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 1025
 										maxSharpness: 1025
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:netherite_kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 1984
 										maxSharpness: 1984
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:glass_kitchen_knife"
@@ -411,6 +133,7 @@
 					id: "0F0B0B42562F5DAB"
 					type: "questsadditions:use"
 					icon: "sandwichable:birch_cutting_board"
+					block_type: 0
 					block: "sandwichable:birch_cutting_board"
 					value: 1L
 					checkItem: true
@@ -435,9 +158,10 @@
 				id: "75A314CCF1A3517B"
 				type: "questsadditions:place"
 				disable_toast: true
+				block_type: 0
 				block: "sandwichable:birch_cutting_board"
-				replaced: "minecraft:air"
 				value: 1L
+				replaced: "minecraft:air"
 				replace: false
 			}]
 			rewards: [{
@@ -464,53 +188,53 @@
 						items: [
 							{
 								id: "sandwichable:stone_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 132
 										maxSharpness: 132
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 850
 										maxSharpness: 850
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:golden_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 225
 										maxSharpness: 225
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:diamond_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 1025
 										maxSharpness: 1025
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:netherite_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 1984
 										maxSharpness: 1984
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:glass_kitchen_knife"
@@ -550,9 +274,10 @@
 				id: "6DED7ED3446AFE04"
 				type: "questsadditions:place"
 				icon: "sandwichable:sandwich_table"
+				block_type: 0
 				block: "sandwichable:sandwich_table"
-				replaced: "minecraft:air"
 				value: 1L
+				replaced: "minecraft:air"
 				replace: false
 			}]
 			rewards: [{
@@ -1285,4 +1010,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

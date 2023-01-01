@@ -721,6 +721,7 @@
 				id: "05DC0E36AE87E0BF"
 				type: "questsadditions:break"
 				title: "Fast Farming: Mine Potash Ore"
+				block_type: 0
 				block: "croptosis:potash_ore"
 				value: 1L
 				checkItem: false
@@ -771,6 +772,7 @@
 				id: "68992226992C7485"
 				type: "questsadditions:break"
 				title: "Apatite does the same!"
+				block_type: 0
 				block: "croptosis:apatite_ore"
 				value: 1L
 				checkItem: false
@@ -897,4 +899,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

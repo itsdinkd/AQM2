@@ -1,5 +1,5 @@
 {
-  "configVersion": 3,
+  "configVersion": 4,
   "inventory": {
     "enabled": true,
     "itemCount": false,
@@ -29,8 +29,7 @@
       "advanced_reborn": 7408640,
       "indrev": 3885790,
       "ae2": 6556063,
-      "createaddition": 7408640,
-      "upc": 7408640
+      "createaddition": 7408640
     },
     "units": {
       "megane": "E",
@@ -42,8 +41,7 @@
       "advanced_reborn": "E",
       "indrev": "LF",
       "ae2": "AE",
-      "createaddition": "E",
-      "upc": "E"
+      "createaddition": "E"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -64,7 +62,9 @@
     },
     "blacklist": [
       "minecraft:water",
-      "minecraft:lava"
+      "minecraft:lava",
+      "minecraft:flowing_lava",
+      "minecraft:flowing_water"
     ]
   },
   "progress": {

@@ -1,4 +1,4 @@
-{ 
+{
 	// The energy capacity of the hazmat chestpiece, expressed in E
 	"hazmatChestpieceEnergyCapacity": 80000,
 	// How many ticks of water breathing you can get with the hazmat chestpiece with one compressed air cell

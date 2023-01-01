@@ -14,5 +14,9 @@
     "silver": 1024
   },
   "enableUpdateRecipe": true,
-  "enableAE2Integration": true
+  "enableAE2Integration": true,
+  "enableFluidSupplier": false,
+  "pipeColor": 16777215,
+  "easyRecipe": false,
+  "debug": false
 }

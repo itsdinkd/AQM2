@@ -9,5 +9,23 @@
     "signature": ""
   },
   "// How quickly can player change the skin, in seconds. -1 for no limit. If using this in server environment, -1 is not recommended.": "(default in singleplayer: -1, default for server: 60)",
-  "skin_change_timer": 15
+  "skin_change_timer": 15,
+  "// Custom skin server URL (takes priority over default minecraft usernames).": "",
+  "// Leave empty to use default minecraft usernames (and ely.by fallback).": "",
+  "// Available parameters: {player}. Example: https://skins.samolego.org/{player}.png": "",
+  "custom_skin_server": "",
+  "allowed_texture_domains": [
+    "crafatar.com",
+    "minecraft.net",
+    "minecraftskins.com",
+    "namemc.com",
+    "planetminecraft.com",
+    "mc-heads.net",
+    "nocookie.net",
+    "googleusercontent.com",
+    "imgur.com",
+    "ely.by",
+    "mojang.com",
+    "githubusercontent.com"
+  ]
 }

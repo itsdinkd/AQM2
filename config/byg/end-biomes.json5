@@ -15,7 +15,7 @@ If your settings in this file seem to have to no effect on the generation of the
 	/* Is BYG's End Biome Source used?
 	   BYG's end biome source will automatically add all known end biomes that specify their biome category as "the_end", see "addAllEndBiomeCategoryEntries" comment.
 	*/
-	"forceBYGEndBiomeSource": false,
+	"forceBYGEndBiomeSource": true,
 	// Biomes that spawn where the large end islands/surface generate.
 	"islandLayer": {
 		"biomeSize": 4,
@@ -152,6 +152,38 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "betterend:ice_starfield",
+				"weight": 2
+			},
+			{
+				"data": "betterend:empty_end_cave",
+				"weight": 2
+			},
+			{
+				"data": "betterend:empty_smaragdant_cave",
+				"weight": 2
+			},
+			{
+				"data": "betterend:lush_smaragdant_cave",
+				"weight": 2
+			},
+			{
+				"data": "betterend:empty_aurora_cave",
+				"weight": 2
+			},
+			{
+				"data": "betterend:lush_aurora_cave",
+				"weight": 2
+			},
+			{
+				"data": "betterend:jade_cave",
+				"weight": 2
+			},
+			{
+				"data": "betterend:old_bulbis_gardens",
+				"weight": 2
+			},
+			{
+				"data": "betterend:nightshade_redwoods",
 				"weight": 2
 			}
 		]

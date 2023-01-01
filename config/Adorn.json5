@@ -4,7 +4,9 @@
 		// If true, floating tooltips are shown above trading stations.
 		"showTradingStationTooltips": true,
 		// If true, Adorn items will also be shown in matching vanilla item tabs.
-		"showItemsInStandardGroups": true
+		"showItemsInStandardGroups": true,
+		// The fluid unit to show fluid amounts in. Options: [litres, droplets]
+		"displayedFluidUnit": "droplets"
 	},
 	// Default values for game rules in new worlds
 	"gameRuleDefaults": {

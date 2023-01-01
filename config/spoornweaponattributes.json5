@@ -11,6 +11,8 @@
 	"upgradeItem": "gobber2:gobber2_ingot_end",
 	// Upgrade level cost [default = 1]
 	"upgradeLevelCost": 10,
+	// Apply Attributes Automatically on Inventory Tick [default = true]
+	"applyOnInventoryTick": true,
 	// Critical Hit attribute config
 	"critConfig": {
 		// Chance for a weapon to have critical hit property [0 = never, 1 = always] [default = 0.1]

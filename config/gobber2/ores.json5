@@ -2,21 +2,13 @@
 	/* 
 	   
 	   ***********************
-	   No worldgen options
-	   ***********************
-	*/
-	"enableGobberAlternateDrops": false,
-	"diamondGobberDropChance": 0.15000000596046448,
-	"netherGoldGobberDropChance": 0.15000000596046448,
-	/* 
-	   
-	   ***********************
 	   Lucky Block
 	   ***********************
 	*/
 	"luckyVeinSize": 2,
 	"luckyMaxLevel": 100,
 	"luckyPerChunk": 11,
+	"luckyExpOrbs": 2,
 	/* 
 	   
 	   ***********************
@@ -38,8 +30,17 @@
 	/* 
 	   
 	   ***********************
+	   Lucky Block - End
+	   ***********************
+	*/
+	"luckyEndVeinSize": 9,
+	"luckyEndMaxLevel": 180,
+	"luckyEndPerChunk": 25,
+	/* 
+	   
+	   ***********************
 	   Lucky Block - Drops
-	   - only use values between .01 to .99
+	   - only use values between .001 to .999
 	   - values cannot overlap
 	   - values should be in decending order from
 	   cutoff, common, uncommon, and rare
@@ -53,6 +54,15 @@
 	"uncommonThreshold": 0.04,
 	"rareThreshold": 0.01,
 	"defaultDrop": "gobbers:gobber2_foo",
+	/* 
+	   
+	   ***********************
+	   Blast Resistance
+	   ***********************
+	*/
+	"oreBlastResistance": 1300,
+	"glassBlastResistance": 1300,
+	"blockBlastResistance": 1300,
 	/* 
 	   
 	   ***********************

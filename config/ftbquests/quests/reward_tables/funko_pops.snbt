@@ -1,0 +1,70 @@
+{
+	id: "47899BEB932F4F5D"
+	order_index: 9
+	title: "Funko Pops"
+	loot_size: 1
+	rewards: [
+		{ item: "minepop:minepop_steve" }
+		{ item: "minepop:minepop_alex" }
+		{ item: "minepop:minepop_zombie" }
+		{ item: "minepop:minepop_skeleton" }
+		{ item: "minepop:minepop_pig" }
+		{ item: "minepop:minepop_gaara" }
+		{ item: "minepop:minepop_obito" }
+		{ item: "minepop:minepop_itachi" }
+		{ item: "minepop:minepop_madara" }
+		{ item: "minepop:minepop_naruto" }
+		{ item: "minepop:minepop_sakura" }
+		{ item: "minepop:minepop_sasuke" }
+		{ item: "minepop:minepop_pain" }
+		{ item: "minepop:minepop_kakashi" }
+		{ item: "minepop:minepop_dream" }
+		{ item: "minepop:minepop_tanjiro" }
+		{ item: "minepop:minepop_zenitsu" }
+		{ item: "minepop:minepop_inosuke" }
+		{ item: "minepop:minepop_nezuko" }
+		{ item: "minepop:minepop_giyu" }
+		{ item: "minepop:minepop_rengoku" }
+		{ item: "minepop:minepop_rio" }
+		{ item: "minepop:minepop_batman" }
+		{ item: "minepop:minepop_superman" }
+		{ item: "minepop:minepop_robin" }
+		{ item: "minepop:minepop_flash" }
+		{ item: "minepop:minepop_aquaman" }
+		{ item: "minepop:minepop_wonder_woman" }
+		{ item: "minepop:minepop_ssj_trunks" }
+		{ item: "minepop:minepop_ssj_goku" }
+		{ item: "minepop:minepop_ssj_gohan" }
+		{ item: "minepop:minepop_ssj_vegeta" }
+		{ item: "minepop:minepop_krillin" }
+		{ item: "minepop:minepop_thanos" }
+		{ item: "minepop:minepop_frieza" }
+		{ item: "minepop:minepop_eren" }
+		{ item: "minepop:minepop_mikasa" }
+		{ item: "minepop:minepop_armin" }
+		{ item: "minepop:minepop_kirito" }
+		{ item: "minepop:minepop_asuna" }
+		{ item: "minepop:minepop_klein" }
+		{ item: "minepop:minepop_leafa" }
+		{ item: "minepop:minepop_luffy" }
+		{ item: "minepop:minepop_zoro" }
+		{ item: "minepop:minepop_sanji" }
+		{ item: "minepop:minepop_nami" }
+		{ item: "minepop:minepop_akainu" }
+		{ item: "minepop:minepop_blackbeard" }
+		{ item: "minepop:minepop_kinemon" }
+		{ item: "minepop:minepop_bigmom" }
+		{ item: "minepop:minepop_kaido" }
+		{ item: "minepop:minepop_darth_vader" }
+		{ item: "minepop:minepop_palpatine" }
+		{ item: "minepop:minepop_r_2_d_2" }
+		{ item: "minepop:minepop_chewbacca" }
+		{ item: "minepop:minepop_princess_leia" }
+		{ item: "minepop:minepop_luke_skywalker" }
+		{ item: "minepop:minepop_obi_wan_kenobi" }
+		{ item: "minepop:minepop_yoda" }
+		{ item: "minepop:minepop_kid_buu" }
+		{ item: "minepop:minepop_cell" }
+		{ item: "minepop:minepop_deathgun" }
+	]
+}

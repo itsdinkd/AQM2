@@ -5,11 +5,9 @@
     "offerFiles [default: true]": true,
     "offerMods [default: true]": true,
     "offerAllMods [default: false]": false,
-    "sendAllModInfo [default: true]": true,
-    "additionalMods [default: []]": [],
     "sendAllModInfo [default: false]": false,
-    "excludeMods [default: []]": [],
     "additionalMods": [],
-    "excludeMods": []
+    "excludeMods": [],
+    "forceBetterXPreset [default: true]": true
   }
 }

@@ -40,6 +40,5 @@
 		{ item: "croparia:croparia" }
 		{ item: "botania:mana_diamond", random_bonus: 1 }
 		{ item: "gobber2:gobber2_foo", random_bonus: 1 }
-		{ item: "valley:fox_food", random_bonus: 2 }
 	]
 }

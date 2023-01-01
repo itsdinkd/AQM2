@@ -41,6 +41,7 @@ key_modifiers_key.emotecraft.fastchoose:0,0,0
 key_modifiers_key.emotecraft.stop:0,0,0
 key_modifiers_Reload Menu | CTRL + ALT + :0,0,0
 key_modifiers_Toggle Customization Overlay | CTRL + ALT + :0,0,0
+key_modifiers_key.ftbteams.open_gui:0,0,0
 key_modifiers_key.wi_zoom.zoom:0,0,0
 key_modifiers_key.adventurez.activatearmor:0,0,0
 key_modifiers_key.adventurez.dragonflydown:0,0,0
@@ -139,6 +140,7 @@ key_modifiers_key.quickshulker.config.keybinding:0,0,0
 key_modifiers_key.rpgstats.open_gui:0,0,0
 key_modifiers_key.things.place_item:0,0,0
 key_modifiers_key.things.openenderchest:0,0,0
+key_modifiers_key.toms_storage.open_terminal:0,0,0
 key_modifiers_key.trashslot.toggle:0,0,0
 key_modifiers_key.trashslot.delete:0,0,0
 key_modifiers_key.trashslot.deleteAll:0,0,0

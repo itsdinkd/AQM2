@@ -1,0 +1,15 @@
+{
+  "oreChances": {
+    "entries": {
+      "minecraft:redstone_ore[lit=false]": 0.15,
+      "minecraft:emerald_ore": 0.06,
+      "minecraft:iron_ore": 0.2,
+      "minecraft:diamond_ore": 0.06,
+      "minecraft:coal_ore": 0.2,
+      "minecraft:lapis_ore": 0.15,
+      "minecraft:gold_ore": 0.15,
+      "gobber2:gobber2_block": 0.03
+    },
+    "defaultBlock": "minecraft:coal_ore"
+  }
+}

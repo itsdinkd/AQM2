@@ -374,7 +374,7 @@
 		}
 		{
 			x: -7.0d
-			y: 1.0d
+			y: 2.0d
 			subtitle: "Recipe component"
 			dependencies: ["1A67A036D38A1A78"]
 			id: "34C9F704E841F1A4"
@@ -392,26 +392,27 @@
 			}]
 		}
 		{
-			x: -6.0d
+			title: "Path to Push Mobs Back"
+			x: -7.0d
 			y: 1.0d
-			subtitle: "Chance to drop from killing a mob during a full moon"
-			dependencies: ["27DC52AA7C9DED7F"]
+			subtitle: "Use the glowstone centrifuge to make this necessity"
+			dependencies: ["7F7F0F2CF58E47EC"]
 			id: "1A67A036D38A1A78"
 			tasks: [{
 				id: "4698712AEE6D4285"
 				type: "item"
-				item: "lightestlamp:moon_shard"
+				item: "lightestlamp:xenon_dust"
 			}]
 			rewards: [{
 				id: "0FC0F4FFD36884E2"
 				type: "item"
-				item: "lightestlamp:moon_shard"
+				item: "lightestlamp:xenon_dust"
 				count: 2
 			}]
 		}
 		{
 			x: -7.0d
-			y: 2.0d
+			y: 3.0d
 			subtitle: "Push mobs away that are within the lamps light"
 			dependencies: ["34C9F704E841F1A4"]
 			id: "61F15F5CD09C630C"
@@ -428,4 +429,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

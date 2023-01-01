@@ -39,7 +39,7 @@ customization {
   y = -32
   delayappearance = true
   alignment = centered
-  value = Loading... Get support at discord.gg/aqm2 and also remember this might take a bit to load
+  value = Loading... Support at https://discord.gg/Js9dxbrh3y
   delayappearanceeverytime = false
 }
 

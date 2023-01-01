@@ -131,6 +131,7 @@ Biome selectors may be inlined or may call a file from "this_file_parent_directo
 	   }
 	*/
 	"swapper": {
+		"minecraft:mangrove_swamp": "byg:white_mangrove_marshes",
 		"minecraft:swamp": "byg:bayou"
 	},
 	/* The weight of this provider/region against all other providers.

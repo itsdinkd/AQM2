@@ -54,8 +54,7 @@
     "system_toast": true,
     "tutorial_toast": true,
     "instant_sneak": false,
-    "prevent_shaders": false,
-    "use_fast_random": true
+    "prevent_shaders": false
   },
   "notification_settings": {
     "hide_r_s_o_recommendation": false

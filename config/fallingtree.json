@@ -19,6 +19,7 @@
     "allowMixedLogs": false,
     "breakNetherTreeWarts": true,
     "instantlyBreakWarts": false,
+    "breakMangroveRoots": true,
     "searchAreaRadius": -1,
     "allowedAdjacentBlocks": [],
     "adjacentStopMode": "STOP_ALL"
@@ -30,7 +31,8 @@
     "ignoreTools": false,
     "damageMultiplicand": 1.0,
     "damageRounding": "ROUND_DOWN",
-    "speedMultiplicand": 0.0
+    "speedMultiplicand": 0.0,
+    "forceToolUsage": false
   },
   "player": {
     "allowedTags": []
@@ -42,5 +44,6 @@
   },
   "sneakMode": "SNEAK_DISABLE",
   "breakInCreative": false,
+  "lootInCreative": true,
   "notificationMode": "ACTION_BAR"
 }

@@ -39,10 +39,14 @@ fancymenu_data/last_world.fmdata
 fancymenu_data/last_world.fmdata
 generated/fabric_loader_dependencies.json
 ghost.png
+replay_*
+hs_err_pid*
+fancymenu_data/*
 hs_err_pid34680.log
 irisUpdateInfo.json
 itemscroller/*
 kubejs - copy/*
+old_config_ignore
 kubejs/assets
 kubejs/exported
 kubejs/jsconfig.json
@@ -63,6 +67,7 @@ mcdw-configs-backup/loot_config.json5
 mcdw-configs-backup/materials_config.json5
 mcdw-configs-backup/range_config.json5
 mods
+config - 1.18.2
 mods.rar
 not-enough-crashes
 options.amecsapi.txt
@@ -103,3 +108,4 @@ options.amecsapi.txt
 .vscode/settings.json
 /config-bk - Copy
 /ModTranslations
+fancymenu_data/last_world.fmdata

@@ -275,12 +275,6 @@
 					entity: "mobz:crip"
 					value: 5L
 				}
-				{
-					id: "5843142E64B28A34"
-					type: "kill"
-					entity: "betteranimalsplus:turkey"
-					value: 5L
-				}
 			]
 			rewards: [{
 				id: "40FEE64E8DCF5987"
@@ -290,4 +284,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

@@ -5,14 +5,14 @@
   "markResourcePackAsForcedByDefault": false,
   "_c3": "Force-enables offset of CustomModelData",
   "forcePackOffset": false,
-  "_c4": "Toggles Polymer's networking globally",
+  "_c4": "Toggles Polymer's networking globally. It's recommended to leave it to true for better experience",
   "enableNetworkSync": true,
   "_c5": "Logs warnings while creating template/filter entities",
-  "enableTemplateEntityWarnings": false,
+  "enableTemplateEntityWarnings": true,
   "_c6": "Enables Polymer dev tools on non-development server",
   "enableDevUtils": false,
   "_c7": "Displays vanilla/modded creatives tabs in /polymer creative",
-  "displayNonPolymerCreativeTabs": false,
+  "displayNonPolymerCreativeTabs": true,
   "_c8": "Toggles pre-play stage Polymer handshake. It's recommended to leave it to true",
   "handleHandshakeEarly": true,
   "_c9": "Makes server send additional block updates around clicked area",
@@ -24,7 +24,5 @@
   "_c11": "Makes polymer report time it's handshake took",
   "logHandshakeTime": false,
   "_c12": "Enables logging of BlockState ids rebuilds",
-  "logBlockStateRebuilds": true,
-  "_cm1": "Enables compatibility with REI mod",
-  "reiCompatibility": true
+  "logBlockStateRebuilds": true
 }

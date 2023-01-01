@@ -14,6 +14,7 @@
 	"enableStatusInflictingArtefact": {
 		"CORRUPTED_SEEDS": false,
 		"GONG_OF_WEAKENING": false,
+		"LOVE_MEDALLION": true,
 		"SATCHEL_OF_ELEMENTS": true,
 		"SHOCK_POWDER": false
 	},

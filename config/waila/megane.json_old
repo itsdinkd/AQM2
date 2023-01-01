@@ -1,0 +1,85 @@
+{
+  "configVersion": 3,
+  "inventory": {
+    "enabled": true,
+    "itemCount": false,
+    "nbt": false,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "entityInventory": {
+    "enabled": false,
+    "itemCount": false,
+    "nbt": false,
+    "maxWidth": 9,
+    "maxHeight": 3,
+    "blacklist": []
+  },
+  "energy": {
+    "enabled": true,
+    "expandWhenSneak": false,
+    "colors": {
+      "megane": 7408640,
+      "techreborn": 8390656,
+      "enhanced_quarries": 7408640,
+      "extragenerators": 7408640,
+      "modern_industrialization": 11993088,
+      "wirelessnetworks": 7408640,
+      "advanced_reborn": 7408640,
+      "indrev": 3885790,
+      "ae2": 6556063,
+      "createaddition": 7408640,
+      "upc": 7408640
+    },
+    "units": {
+      "megane": "E",
+      "techreborn": "E",
+      "enhanced_quarries": "E",
+      "extragenerators": "E",
+      "modern_industrialization": "EU",
+      "wirelessnetworks": "E",
+      "advanced_reborn": "E",
+      "indrev": "LF",
+      "ae2": "AE",
+      "createaddition": "E",
+      "upc": "E"
+    },
+    "blacklist": [
+      "appliedenergistics2:energy_acceptor"
+    ]
+  },
+  "fluid": {
+    "enabled": true,
+    "expandWhenSneak": false,
+    "colors": {
+      "megane:default": 855385,
+      "minecraft:water": 4159204,
+      "kibe:liquid_xp": 5635925,
+      "modern_industrialization:steam": 15658734,
+      "modern_industrialization:crude_oil": 4077624,
+      "modern_industrialization:sulfuric_naphtha": 10852190,
+      "modern_industrialization:hydrogen": 1788620,
+      "modern_industrialization:lubricant": 16761856
+    },
+    "blacklist": [
+      "minecraft:water",
+      "minecraft:lava"
+    ]
+  },
+  "progress": {
+    "enabled": true,
+    "showWhenZero": false,
+    "blacklist": []
+  },
+  "effect": {
+    "enabled": true,
+    "level": true,
+    "roman": false,
+    "hidden": false,
+    "blacklist": []
+  },
+  "catchServerErrors": true,
+  "spawnEgg": true,
+  "playerHead": true
+}

@@ -323,7 +323,7 @@ customization {
   action = addbutton
   y = -28
   backgroundnormal = config\fancymenu\assets\bhamdiscord.png
-  value = https://discord.gg/y6Sby9BGVe
+  value = https://discord.gg/Js9dxbrh3y
   height = 14
 }
 

@@ -1,8 +1,6 @@
 {
   // Welcome to The Graveyard Biomes Config!
   //
-  // Set "theGraveyardBiomesWeight" to 0 to disable The Graveyard biomes.
-  // This may be necessary to reduce incompatibilities with other biome mods that don't use TerraBlender, especially Terralith.
   // Configure the weight of the biomes by changing "theGraveyardBiomesWeight".
   // Configure which minecraft biomes can be replaced by The Graveyard biomes.
   // A full list of all the biomes can be found here https:minecraft.fandom.com/wiki/Biome#Biome_IDs.
@@ -30,6 +28,12 @@
       "canGenerate": true,
       "replaceableBiomes": [
         "beach"
+      ]
+    },
+    "deep_dark_forest": {
+      "canGenerate": true,
+      "replaceableBiomes": [
+        "dark_forest"
       ]
     }
   },

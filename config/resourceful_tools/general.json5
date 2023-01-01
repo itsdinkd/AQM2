@@ -2,10 +2,21 @@
 	/* 
 	   
 	   ******************************
-	   SPRING BLOCKS
+	   Furnace fueling Sources
 	   ******************************
 	*/
 	"laveSpringPowerFurnace": true,
+	"campfirePowerFurnace": false,
+	"lavaSourcePowerFurnace": false,
+	/* 
+	   
+	   ******************************
+	   BrewingStand fueling Sources
+	   ******************************
+	*/
+	"lavaSpringPowerBrewingStand": true,
+	"campfirePowerBrewingStand": false,
+	"lavaSourcePowerBrewingStand": false,
 	/* 
 	   
 	   ******************************
@@ -36,8 +47,9 @@
 	   - drop chance value between 0.0-1.0
 	   ******************************
 	*/
-	"clayDropChance": 0.2,
-	"gravelDropChance": 0.2,
+	"clayInkDropChance": 0.2,
+	"gravelBoneDropChance": 0.2,
+	"rootedDirtlimeDropChance": 0.2,
 	/* 
 	   
 	   ******************************
@@ -63,6 +75,22 @@
 	"kelpDropChance": 0.05,
 	"eggDropChance": 0.35,
 	"phantomMembraneDropChance": 0.15,
+	"acornDropChance": 0.05,
+	"acornDarkDropChance": 0.05,
+	/* 
+	   
+	   ******************************
+	   Food Settings
+	   ******************************
+	*/
+	"jerky_hunger": 4,
+	"jerky_saturation": 0.4000000059604645,
+	"cooked_clam_hunger": 5,
+	"cooked_clam_saturation": 0.699999988079071,
+	"acorn_hunger": 6,
+	"acorn_saturation": 0.8999999761581421,
+	"acorn_dark_hunger": 6,
+	"acorn_dark_saturation": 0.8999999761581421,
 	/* 
 	   
 	   ******************************

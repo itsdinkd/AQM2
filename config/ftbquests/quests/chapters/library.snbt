@@ -46,24 +46,6 @@
 		}
 		{
 			disable_toast: true
-			x: -2.5d
-			y: -2.0d
-			subtitle: "Travel to.. space!"
-			id: "4D11462A9C5D6301"
-			tasks: [{
-				id: "3E2E9AA54A966FAB"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "agape_space:space_guide"
-					}
-				}
-			}]
-		}
-		{
-			disable_toast: true
 			x: -8.0d
 			y: -1.0d
 			subtitle: "Store XP and stuff"
@@ -120,18 +102,6 @@
 				id: "0754FB21E505579C"
 				type: "item"
 				item: "modern_industrialization:guidebook"
-			}]
-		}
-		{
-			disable_toast: true
-			x: -10.5d
-			y: -1.0d
-			subtitle: "Magic Fungi, Magical Mushrooms"
-			id: "4492F769DAEA1263"
-			tasks: [{
-				id: "643AE3DBB9D878D5"
-				type: "item"
-				item: "magicfungi:guide_book"
 			}]
 		}
 		{
@@ -217,7 +187,8 @@
 			tasks: [{
 				id: "6FF23824F2ADD9B3"
 				type: "item"
-				item: "spectrum:manual"
+				icon: "spectrum:guidebook"
+				item: "spectrum:guidebook"
 			}]
 		}
 		{
@@ -284,7 +255,7 @@
 		{
 			disable_toast: true
 			x: -10.5d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "Cast spells by drawing their patterns"
 			description: [
 				"This mod is similar to Ars Nouveau how it has multiple spells you can cast and combine, though with Hex, you draw the spell with your mouse while holding your wand. Read the book."
@@ -322,5 +293,18 @@
 				}
 			}]
 		}
+		{
+			title: "Ad Astra: Space Adventures!"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Build rocketships and fly into space"
+			id: "63CFE504A5825771"
+			tasks: [{
+				id: "700992138FA57484"
+				type: "item"
+				item: "ad_astra:astrodux"
+			}]
+		}
 	]
+	quest_links: [ ]
 }

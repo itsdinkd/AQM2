@@ -25,7 +25,7 @@
 	// Buffed mobs are highlighted after being damaged
 	"turnOnGlowingMobs": true,
 	// Turn off loot for buffed mobs
-	"disableLootDrops": false,
+	"disableLootDrops": true,
 	// If true, buffed mobs only drop loot when killed by players
 	"onlyDropLootIfKilledByPlayers": true,
 	// Buffed mobs also drop the loot of the tier below them + the loot of their tier.
@@ -76,7 +76,7 @@
 		"name": "Drowning",
 		"disabled": false,
 		"drowningDamage": 0.009999999776482582,
-		"waterBreatingDuration": 100
+		"waterBreathingDuration": 100
 	},
 	"duplicatorConfig": {
 		"name": "Duplicator",

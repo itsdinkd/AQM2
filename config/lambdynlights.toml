@@ -3,6 +3,7 @@
 	entities = true
 	block_entities = true
 	water_sensitive_check = true
+	self = true
 
 	[light_sources.settings]
 
@@ -103,6 +104,7 @@
 				wither_skeleton = true
 				llama_spit = true
 				silverfish = true
+				allay = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				badger = true
@@ -345,6 +347,7 @@
 				geckotoalizard = true
 				griffon = true
 				ridinglizard = true
+				moth = true
 
 			[light_sources.settings.entities.archon]
 				skelt = true
@@ -367,6 +370,26 @@
 			[light_sources.settings.entities.earthtojavamobs]
 				moolip = true
 				skewbald_chicken = true
+				bold_striped_rabbit = true
+				piebald_pig = true
+				flecked_sheep = true
+				dairy_cow = true
+				fancy_chicken = true
+				fuzzy_sheep = true
+				pink_footed_pig = true
+				mottled_pig = true
+				rainbow_sheep = true
+				midnight_chicken = true
+				sunset_cow = true
+				muddy_pig = true
+				long_nosed_sheep = true
+				cream_cow = true
+				freckled_rabbit = true
+				sooty_pig = true
+				cookie_cow = true
+				pinto_cow = true
+				jolly_llama = true
+				gold_crested_chicken = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
@@ -463,11 +486,6 @@
 			[light_sources.settings.entities.luggage]
 				luggage = true
 
-			[light_sources.settings.entities.hoverpets]
-				enderman_pet = true
-				cow_pet = true
-				ocelot_pet = true
-
 			[light_sources.settings.entities.lavajava]
 				wither_barista = true
 
@@ -491,4 +509,37 @@
 
 			[light_sources.settings.entities.capybara]
 				capybara = true
+
+			[light_sources.settings.entities.spectrum]
+				invisible_item_frame = true
+
+			[light_sources.settings.entities.wildlife]
+				bluegill = true
+				catfish = true
+				lark = true
+				bettafish = true
+				koi = true
+				clam = true
+				sparrow = true
+				goldfish = true
+				sanddollar = true
+				rainbow_trout = true
+				prawn = true
+				hermitcrab = true
+				horseshoecrab = true
+				starfish = true
+				seaurchin = true
+				crab = true
+				shrimp = true
+				jellyfish = true
+				glow_jellyfish = true
+				anglerfish = true
+
+			[light_sources.settings.entities.galosphere]
+				spectre = true
+
+			[light_sources.settings.entities.crittersandcompanions]
+				otter = true
+				koi_fish = true
+				dragonfly = true
 

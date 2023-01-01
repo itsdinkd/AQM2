@@ -1,10 +1,9 @@
 {
-  "data_fixer": {
+  "patches": {
+    "applyPatches [default: true]": true,
     "repairBiomesOnLoad [default: false]": false
   },
-  "patches": {
-    "applyPatches [default: true]": false,
-    "repairBiomesOnLoad [default: false]": false,
-    "repairBiomesOnLoad [default: true]": false
+  "infos": {
+    "verbose [default: true]": true
   }
 }
