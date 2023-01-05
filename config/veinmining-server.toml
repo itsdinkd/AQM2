@@ -13,51 +13,7 @@
 	#Whether or not to stop vein mining when the tool can no longer be used
 	limitedByDurability = true
 	#List of whitelisted/blacklisted blocks or block tags
-	blocks = [
-			"agape_space:fluid_pipe",
-			"agape_space:wire",
-			"agape_space:copper_wire",
-			"agape_space:gold_wire",
-			"agape_space:fluid_tank",
-			"techreborn:insulated_copper_cable",
-			"techreborn:insulated_gold_cable",
-			"techreborn:insulated_hv_cable",
-			"techreborn:hv_cable",
-			"techreborn:tin_cable",
-			"techreborn:copper_cable",
-			"techreborn:gold_cable",
-			"techreborn:glassfiber_cable",
-			"techreborn:superconductor_cable",
-			"minecraft:chest",
-			"kibe:tank",
-			"kibe:entangled_tank",
-			"indrev:item_pipe_mk1",
-			"indrev:item_pipe_mk2",
-			"indrev:item_pipe_mk3",
-			"indrev:item_pipe_mk4",
-			"indrev:cable_mk1",
-			"indrev:cable_mk2",
-			"indrev:cable_mk3",
-			"indrev:cable_mk4",
-			"modern_industrialization:pipe",
-			"moderndynamics:fluid_pipe",
-			"moderndynamics:item_pipe",
-			"toms_storage:ts.inventory_cable",
-			"toms_storage:ts.inventory_cable_framed",
-			"toms_storage:ts.inventory_cable_connector",
-			"toms_storage:ts.inventory_cable_connector_filtered",
-			"toms_storage:ts.inventory_proxy",
-			"toms_storage:ts.crafting_terminal",
-			"toms_storage:ts.hopper_basic",
-			"toms_storage:ts.level_emitter",
-			"toms_storage:ts.painted_trim",
-			"toms_storage:ts.trim",
-			"toms_storage:ts.open_crate",
-			"toms_storage:ts.storage_terminal",
-			"toms_storage:ts.inventory_connector",
-			"toms_storage:ts.wireless_terminal",
-			"adorn:trading_station"
-		]
+	blocks = ["agape_space:fluid_pipe", "agape_space:wire", "agape_space:copper_wire", "agape_space:gold_wire", "agape_space:fluid_tank", "techreborn:insulated_copper_cable", "techreborn:insulated_gold_cable", "techreborn:insulated_hv_cable", "techreborn:hv_cable", "techreborn:tin_cable", "techreborn:copper_cable", "techreborn:gold_cable", "techreborn:glassfiber_cable", "techreborn:superconductor_cable", "minecraft:chest", "kibe:tank", "kibe:entangled_tank", "indrev:item_pipe_mk1", "indrev:item_pipe_mk2", "indrev:item_pipe_mk3", "indrev:item_pipe_mk4", "indrev:cable_mk1", "indrev:cable_mk2", "indrev:cable_mk3", "indrev:cable_mk4", "modern_industrialization:pipe", "moderndynamics:fluid_pipe", "moderndynamics:item_pipe", "toms_storage:ts.inventory_cable", "toms_storage:ts.inventory_cable_framed", "toms_storage:ts.inventory_cable_connector", "toms_storage:ts.inventory_cable_connector_filtered", "toms_storage:ts.inventory_proxy", "toms_storage:ts.crafting_terminal", "toms_storage:ts.hopper_basic", "toms_storage:ts.level_emitter", "toms_storage:ts.painted_trim", "toms_storage:ts.trim", "toms_storage:ts.open_crate", "toms_storage:ts.storage_terminal", "toms_storage:ts.inventory_connector", "toms_storage:ts.wireless_terminal", "adorn:trading_station"]
 	#The maximum number of blocks to mine without the enchantment
 	#Range: 0 ~ 1000
 	maxBlocksBase = 0

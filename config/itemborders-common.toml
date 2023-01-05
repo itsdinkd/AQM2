@@ -22,37 +22,19 @@
 		# If automatic borders (based on item rarity) should be enabled.
 		auto_borders = true
 
-	[client.options.manual_borders]
+		# Custom border colors for specific items. Format: { <color> = ["list of selectors"] }. Selectors supported:
+		#    Item name - Use item name for vanilla items or include mod name for modded items.  Examples: minecraft:stick, iron_ore
+		#    Tag - $ followed by tag name.  Examples: $forge:stone or $planks
+		#    Mod name - @ followed by mod identifier.  Examples: @spoiledeggs
+		#    Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: !uncommon, !rare, !epic
+		#    Item name color - # followed by color hex code, the hex code must match exactly.  Examples: #23F632
+		#    Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: %[Uncommon]
+		#    Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: ^Rarity: Legendary
+		[client.options.manual_borders]
+			0xFF6963 = ["kibe:angel_ring", "techreborn:quantum_helmet", "techreborn:quantum_chestplate", "techreborn:quantum_leggings", "techreborn:quantum_boots"]
+			0xFFAD63 = ["@bosses_of_mass_destruction", "gobber2:gobber2_boots_dragon", "gobber2:gobber2_leggings_dragon", "gobber2:gobber2_chestplate_dragon", "gobber2:gobber2_helmet_dragon", "gobber2:gobber2_paxel_stars", "$tooltiprareness:legendary_item"]
+			0xB873FF = ["!epic", "magicfungi:morbus_scythe", "techreborn:industrial_grinder", "$tooltiprareness:epic_item", "$c:very_rare_loot"]
+			0x4A15FF = ["!rare", "$c:rare_loot"]
+			0x8EFF93 = ["!uncommon", "origins:orb_of_origin", "$tooltiprareness:uncommon_item", "$c:uncommon_loot"]
+			0xADADAD = ["!common", "$tooltiprareness:common_item", "$c:common_loot"]
 
-		0xFF6963 = ["kibe:angel_ring","techreborn:quantum_helmet","techreborn:quantum_chestplate","techreborn:quantum_leggings","techreborn:quantum_boots"]
-		0xFFAD63 = [
-			"@bosses_of_mass_destruction",
-			"gobber2:gobber2_boots_dragon",
-			"gobber2:gobber2_leggings_dragon",
-			"gobber2:gobber2_chestplate_dragon",
-			"gobber2:gobber2_helmet_dragon",
-			"gobber2:gobber2_paxel_stars",
-			"$tooltiprareness:legendary_item"
-		]
-		0xB873FF = [
-			"!epic",
-			"magicfungi:morbus_scythe",
-			"techreborn:industrial_grinder",
-			"$tooltiprareness:epic_item",
-			"$c:very_rare_loot"
-		]
-		0x4A15FF = [
-			"!rare",
-			"$c:rare_loot"
-		]
-		0x8EFF93 = [
-			"!uncommon",
-			"origins:orb_of_origin",
-			"$tooltiprareness:uncommon_item",
-			"$c:uncommon_loot"
-		]
-		0xADADAD = [
-			"!common",
-			"$tooltiprareness:common_item",
-			"$c:common_loot"
-		]

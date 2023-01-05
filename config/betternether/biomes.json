@@ -3133,7 +3133,8 @@
             "naga": {
               "weight [default: 8]": 8,
               "minGroupSize [default: 3]": 3,
-              "maxGroupSize [default: 5]": 5
+              "maxGroupSize [default: 5]": 5,
+              "weight [default: 0]": 0
             },
             "jungle_skeleton": {
               "weight [default: 0]": 0,
@@ -3156,7 +3157,8 @@
             "firefly": {
               "weight [default: 5]": 5,
               "minGroupSize [default: 1]": 1,
-              "maxGroupSize [default: 3]": 3
+              "maxGroupSize [default: 3]": 3,
+              "weight [default: 15]": 15
             },
             "hydrogen_jellyfish": {
               "weight [default: 5]": 5,

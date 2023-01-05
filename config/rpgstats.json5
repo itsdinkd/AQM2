@@ -49,7 +49,7 @@
 	// Config for how HP scaling works with defense
 	"defenseHP": { 
 		// Will only grant HP every X levels
-		"everyXLevels": 3,
+		"everyXLevels": 7,
 		// How much HP to grant on trigger
 		"addAmount": 1,
 		// Minimum level before you start getting HP (Exclusive)
@@ -62,13 +62,13 @@
 	"damageBlacklist": { 
 		"inFire": false,
 		"lightning": false,
-		"onFire": true,
+		"onFire": false,
 		"lava": false,
 		"hotFloor": false,
 		"inWall": false,
 		"cramming": false,
-		"drown": true,
-		"starve": true,
+		"drown": false,
+		"starve": false,
 		"cactus": false,
 		"fall": true,
 		"flyIntoWall": true,

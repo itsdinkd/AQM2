@@ -105,6 +105,7 @@
 				llama_spit = true
 				silverfish = true
 				allay = true
+				small_fireball = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				badger = true
@@ -236,6 +237,8 @@
 				blaze_guardian_shield = true
 				mammoth = true
 				blaze_guardian = true
+				stone_golem = true
+				thrown_rock = true
 
 			[light_sources.settings.entities.elementalcreepers]
 				illusion_creeper = false
@@ -318,6 +321,7 @@
 				hellknight = true
 				baron2016 = true
 				armoredbaron = true
+				chaingunbullets = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false
@@ -390,6 +394,9 @@
 				pinto_cow = true
 				jolly_llama = true
 				gold_crested_chicken = true
+				rocky_sheep = true
+				stormy_chicken = true
+				bronzed_chicken = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
@@ -534,6 +541,41 @@
 				jellyfish = true
 				glow_jellyfish = true
 				anglerfish = true
+				mantaray = true
+				stingray = true
+				seahorse = true
+				hammerhead_shark = true
+				deer = true
+				monarch_butterfly = true
+				spicebush_butterfly = true
+				flycatcher = true
+				rhino_beetle = true
+				spider = true
+				robin = true
+				ferret = true
+				gecko = true
+				hedgehog = true
+				bluebird = true
+				ladybug = true
+				stickbug = true
+				staghorn_beetle = true
+				glasswing_butterfly = true
+				wren = true
+				dragonfly = true
+				boar = true
+				june_beetle = true
+				cricket = true
+				sunflowerbeetle = true
+				meadowlark = true
+				iguana = true
+				chameleon = true
+				alligator = true
+				anteater = true
+				python = true
+				king_snake = true
+				oriole = true
+				milk_snake = true
+				ant = true
 
 			[light_sources.settings.entities.galosphere]
 				spectre = true
@@ -542,4 +584,36 @@
 				otter = true
 				koi_fish = true
 				dragonfly = true
+				red_panda = true
+
+			[light_sources.settings.entities.creatures_from_the_snow]
+				narwhal = true
+				beluga = true
+				giraffe = true
+				penguin = true
+				snow_trover = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				wildfire = true
+				mauler = true
+
+			[light_sources.settings.entities.chubbystuff]
+				quagsire = true
+
+			[light_sources.settings.entities.minecells]
+				tentacle_weapon = true
+				elevator = true
+				leaping_zombie = true
+				shieldbearer = true
+				undead_archer = true
+				conjunctivius = true
+				sewers_tentacle = true
+				grenadier = true
+				shocker = true
+				disgusting_worm = true
+				kamikaze = true
+				protector = true
+				inquisitor = true
+				runner = true
+				scorpion = true
 

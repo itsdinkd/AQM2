@@ -13,11 +13,11 @@
   },
   "logintimeout": {
     "desc:": "Set the max login timeout in ticks. 20 ticks \u003d 1 sec, default \u003d 2400 ticks",
-    "logintimeout": 2400
+    "logintimeout": 3200
   },
   "disconnectTimeout": {
     "desc:": "Set the ingame disconnect timeout for disconnecting players. Default \u003d 60sec",
-    "disconnectTimeout": 60
+    "disconnectTimeout": 120
   },
   "packetHistoryMinutes": {
     "desc:": "Set the amount of minutes for which network packet history data is saved. Default \u003d 5 minutes",

@@ -42,7 +42,7 @@
   "structureConfigEntries": {
     "small_grave": {
       "enabled": true,
-      "separation": 10,
+      "separation": 18,
       "spacing": 28,
       "salt": 240451934,
       "biomeWhitelist": [
@@ -60,7 +60,7 @@
     "crypt": {
       "enabled": true,
       "separation": 22,
-      "spacing": 34,
+      "spacing": 44,
       "salt": 893183913,
       "biomeWhitelist": [
         "#c:caves"
@@ -74,8 +74,8 @@
     },
     "small_graveyard": {
       "enabled": true,
-      "separation": 18,
-      "spacing": 40,
+      "separation": 24,
+      "spacing": 60,
       "salt": 598017285,
       "biomeWhitelist": [
         "#c:plains",
@@ -91,7 +91,7 @@
     "small_desert_grave": {
       "enabled": true,
       "separation": 12,
-      "spacing": 28,
+      "spacing": 29,
       "salt": 681236914,
       "biomeWhitelist": [
         "#c:desert"
@@ -103,8 +103,8 @@
     },
     "memorial_tree": {
       "enabled": true,
-      "separation": 12,
-      "spacing": 30,
+      "separation": 20,
+      "spacing": 40,
       "salt": 529239621,
       "biomeWhitelist": [
         "minecraft:old_growth_birch_forest",
@@ -119,7 +119,7 @@
     "small_desert_graveyard": {
       "enabled": true,
       "separation": 30,
-      "spacing": 50,
+      "spacing": 56,
       "salt": 598017285,
       "biomeWhitelist": [
         "#c:desert"
@@ -131,8 +131,8 @@
     },
     "large_graveyard": {
       "enabled": true,
-      "separation": 60,
-      "spacing": 120,
+      "separation": 90,
+      "spacing": 180,
       "salt": 304812394,
       "biomeWhitelist": [
         "minecraft:taiga",
@@ -184,8 +184,8 @@
     },
     "haunted_house": {
       "enabled": true,
-      "separation": 30,
-      "spacing": 60,
+      "separation": 40,
+      "spacing": 66,
       "salt": 451235912,
       "biomeWhitelist": [
         "minecraft:dark_forest",
@@ -203,8 +203,8 @@
     },
     "giant_mushroom": {
       "enabled": true,
-      "separation": 25,
-      "spacing": 50,
+      "separation": 20,
+      "spacing": 80,
       "salt": 365012356,
       "biomeWhitelist": [
         "#c:mushroom"
@@ -216,8 +216,8 @@
     },
     "altar": {
       "enabled": true,
-      "separation": 28,
-      "spacing": 40,
+      "separation": 30,
+      "spacing": 50,
       "salt": 1093123913,
       "biomeWhitelist": [
         "minecraft:snowy_plains",
@@ -230,8 +230,8 @@
     },
     "ruins": {
       "enabled": true,
-      "separation": 20,
-      "spacing": 60,
+      "separation": 38,
+      "spacing": 70,
       "salt": 467108394,
       "biomeWhitelist": [
         "#c:forest"
@@ -243,8 +243,8 @@
     },
     "medium_graveyard": {
       "enabled": true,
-      "separation": 50,
-      "spacing": 99,
+      "separation": 60,
+      "spacing": 120,
       "salt": 1690192399,
       "biomeWhitelist": [
         "minecraft:forest",
@@ -270,23 +270,22 @@
       ],
       "biomeBlacklist": [
         "byg:dead_sea",
-					"byg:lush_stacks",
-					"minecraft:cold_ocean",
-					"minecraft:deep_cold_ocean",
-					"minecraft:deep_frozen_ocean",
-					"minecraft:deep_lukewarm_ocean",
-					"minecraft:deep_ocean",
-					"minecraft:deep_warm_ocean",
-					"minecraft:frozen_ocean",
-					"minecraft:lukewarm_ocean",
-					"minecraft:ocean",
-					"minecraft:warm_ocean",
-					"terralith:skylands",
-					"terralith:skylands_autumn",
-					"terralith:skylands_summer",
-					"terralith:skylands_winter",
-					"terralith:skylands_spring"
-        @
+        "byg:lush_stacks",
+        "minecraft:cold_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_frozen_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:deep_warm_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:ocean",
+        "minecraft:warm_ocean",
+        "terralith:skylands",
+        "terralith:skylands_autumn",
+        "terralith:skylands_summer",
+        "terralith:skylands_winter",
+        "terralith:skylands_spring"
       ],
       "terrainCheckRadius": 1,
       "maxTerrainHeightDifference": 1,
@@ -338,7 +337,7 @@
       "enabled": true,
       "weight": 15,
       "minGroup": 3,
-      "maxGroup": 5,
+      "maxGroup": 4,
       "canBurnInSunlight": true,
       "canBeWithered": false,
       "whitelist": [

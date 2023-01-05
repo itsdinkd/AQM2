@@ -1,0 +1,30 @@
+{
+	id: "7189D2731FC1B342"
+	group: "7DDA60A5DB5F9F6C"
+	order_index: 4
+	filename: "dead_cells_what"
+	title: "Dead Cells, What?"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Find a Mine Cells Portal"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "You must have acquired a diamond for the portal to activate"
+		description: ["Once you acquired diamonds, the portal will be active. Step inside if you dare"]
+		id: "2716031A85838BF2"
+		tasks: [{
+			id: "532C08B6A815CB0D"
+			type: "structure"
+			icon: {
+				id: "minecells:tentacle"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			structure: "minecells:portal"
+		}]
+	}]
+	quest_links: [ ]
+}

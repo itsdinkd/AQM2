@@ -1,2 +1,2 @@
 #Change this to no to prevent mod translation downloads
-download=no
+download=yes

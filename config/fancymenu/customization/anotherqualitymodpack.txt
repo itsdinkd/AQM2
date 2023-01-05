@@ -253,7 +253,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 533
   width = 13
   action = deep_customization_element:title_screen_realms_notification

@@ -1,0 +1,30 @@
+{
+  "ignoredRecipeTypes": [],
+  "ignoredRecipes": [],
+  "defaultDuplicateRules": {
+    "ignoredFields": [
+      "fabric:conditions",
+      "group",
+      "cookingTime"
+    ],
+    "rules": {
+      "cookingtime": "HigherRule",
+      "energy": "HigherRule",
+      "experience": "HigherRule"
+    },
+    "shouldSanitize": false
+  },
+  "overrideDuplicateRules": {
+    "minecraft:crafting_shaped": {
+      "ignoredFields": [
+        "fabric:conditions",
+        "pattern",
+        "key",
+        "group"
+      ],
+      "rules": {},
+      "shouldSanitize": false
+    }
+  },
+  "strictMode": false
+}

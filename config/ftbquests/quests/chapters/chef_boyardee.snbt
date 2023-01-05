@@ -32,53 +32,53 @@
 						items: [
 							{
 								id: "sandwichable:stone_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 132
 										maxSharpness: 132
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 850
 										maxSharpness: 850
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:golden_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 225
 										maxSharpness: 225
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:diamond_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 1025
 										maxSharpness: 1025
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:netherite_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 1984
 										maxSharpness: 1984
 									}
 								}
+								Count: 1b
 							}
 							{
 								id: "sandwichable:glass_kitchen_knife"
@@ -188,53 +188,53 @@
 						items: [
 							{
 								id: "sandwichable:stone_kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 132
 										maxSharpness: 132
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 850
 										maxSharpness: 850
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:golden_kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 225
 										maxSharpness: 225
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:diamond_kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 1025
 										maxSharpness: 1025
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:netherite_kitchen_knife"
+								Count: 1b
 								tag: {
 									KnifeData: {
 										sharpness: 1984
 										maxSharpness: 1984
 									}
 								}
-								Count: 1b
 							}
 							{
 								id: "sandwichable:glass_kitchen_knife"

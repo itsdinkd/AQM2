@@ -633,7 +633,11 @@
 			x: 10.0d
 			y: -1.0d
 			subtitle: "The best companion one can have, the true UHaul"
-			description: ["This guy here will follow you throughout the world and pick up any item that is near you. "]
+			description: [
+				"This guy here will follow you throughout the world and pick up any item that is near you. "
+				""
+				"Use Keybind: \" , \" to whistle for your luggage!"
+			]
 			size: 2.0d
 			id: "516BFF00696F10B3"
 			tasks: [{

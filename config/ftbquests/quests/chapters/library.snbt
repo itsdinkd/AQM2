@@ -266,6 +266,7 @@
 			tasks: [{
 				id: "0D5BE6DA23E5F597"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "patchouli:guide_book"
 					Count: 1b

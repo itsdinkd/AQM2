@@ -2,7 +2,7 @@
 	"opBreakHarvestLevel": 3,
 	"maxRecurseDepth": 512,
 	"maxSpellCircleLength": 1024,
-	"actionDenyList": ["create_lava", "summon_lightning", "flight",  "teleport"],
+	"actionDenyList": [],
 	"circleActionDenyList": [],
 	"villagersOffendedByMindMurder": true,
 	"tpDimDenylist": [

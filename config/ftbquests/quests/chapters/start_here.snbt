@@ -646,8 +646,8 @@
 				id: "botania:twig_wand"
 				Count: 1b
 				tag: {
-					color1: 3
 					color2: 3
+					color1: 3
 				}
 			}
 			x: -0.5d
@@ -655,21 +655,28 @@
 			subtitle: "You level via XP"
 			description: ["Acolytes unlock the Fireball skill. Use your Primary origin key to cast"]
 			id: "7F89FD818EBFB6C9"
-			tasks: [{
-				id: "238AC6907B05BE68"
-				type: "advancement"
-				title: "Unlock Acolyte"
-				icon: {
-					id: "botania:twig_wand"
-					Count: 1b
-					tag: {
-						color1: 0
-						color2: 0
+			tasks: [
+				{
+					id: "238AC6907B05BE68"
+					type: "advancement"
+					title: "Unlock Acolyte"
+					icon: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
 					}
+					advancement: "arcanite:acolyte"
+					criterion: ""
 				}
-				advancement: "arcanite:acolyte"
-				criterion: ""
-			}]
+				{
+					id: "4696124C6209FB8A"
+					type: "questsadditions:playernbt"
+					nbt: { }
+				}
+			]
 			rewards: [{
 				id: "557F24BD35D4A901"
 				type: "xp"

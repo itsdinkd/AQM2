@@ -261,12 +261,12 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
-  x = 343
+  hidden = true
+  x = 426
   width = 13
   action = deep_customization_element:title_screen_realms_notification
   actionid = 77a55182-8c33-4c56-9e87-670b39ae9bd61658853972863
-  y = 175
+  y = 167
   height = 13
 }
 
