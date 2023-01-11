@@ -1,0 +1,7 @@
+{
+    "values": {
+        "minecraft:creeper": {
+            "additionalentityattributes:water_speed": 0.7
+        }
+    }
+}

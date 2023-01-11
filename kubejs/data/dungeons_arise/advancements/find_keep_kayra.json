@@ -1,0 +1,38 @@
+{
+  "display": {
+    "title": {
+      "text": "Distant Dreamer",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Find Keep Kayra"
+    },
+    "icon": {
+      "item": "minecraft:lily_pad"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:keep_kayra"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:wda_root"
+}

@@ -1,5 +1,5 @@
-artifactRarity = 60.0
+artifactRarity = 30.0
 
 [campsite]
 campsiteRarity = 5
-mimicChance = 0.15
+mimicChance = 0.0

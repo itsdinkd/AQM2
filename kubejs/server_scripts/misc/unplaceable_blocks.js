@@ -19,16 +19,18 @@ const greenhouseColorsPlacement =[
   "black"
 ];
 
-onEvent('block.place', event => {
+BlockEvents.placed( event => {
 
   greenhouseColorsPlacement.forEach(function(item,index) {
       if (event.block.id == 'croparia:greenhouse_' + item) {
       event.cancel()
+      Utils.server.runCommand(`tell @a You cannot place Greenhouses!`)
     }
   })
 
   if (event.block.id == 'croparia:greenhouse') {
     event.cancel()
+    Utils.server.runCommand(`tell @a You cannot place Greenhouses!`)
   }
 
   // if (event.block.id == "twilightforest:uncrafting_table") {

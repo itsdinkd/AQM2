@@ -141,7 +141,11 @@
     "modern_industrialization:lignite_coal_block",
     "techreborn:refined_iron_ingot",
     "techreborn:refined_iron_nugget",
-    "bewitchment:salt_ore"
+    "bewitchment:salt_ore",
+    "bewitchment:salt",
+    "modern_industrialization:tungsten_dust",
+    "modern_industrialization:tin_dust",
+    "deeperdarker:sculk_stone_redstone_ore"
   ],
   "ignoredRecipeTypes": [],
   "ignoredRecipes": [],

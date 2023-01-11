@@ -9,14 +9,14 @@ const indrevArmor = [
 
 
 // var getNum = Math.floor(Math.random() * 2 + 2);
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
 
 //Recycler
 event.custom({
   "type": "indrev:recycle",
   "ingredients": [
     {
-      "tag": "nourish:vegetable",
+      "tag": "nourish:vegetables",
       "count": 2
     }
   ],

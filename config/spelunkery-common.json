@@ -1,0 +1,10 @@
+{
+  "general": {
+    "creative_tab": false,
+    "cross_section_world_mode": false
+  },
+  "examples": {
+    "integer_config": 4,
+    "double_config": 0.06
+  }
+}

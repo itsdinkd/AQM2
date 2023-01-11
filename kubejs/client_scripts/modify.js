@@ -1,6 +1,6 @@
 // Another Quality Modpack 2 //
 //////////////////////////////
-onEvent('rei.hide.items', event => { 
+REIEvents.hide('item', (event) => { 
 
 var aqmClientRemove = [
 'advanced_reborn:advanced_forge_hammer',
@@ -22,6 +22,7 @@ var aqmClientRemove = [
 'agape_space:enhanced_helmet',
 'artifacts:cross_necklace',
 'artifacts:eternal_steak',
+"artifacts:everlasting_beef",
 'artifacts:scarf_of_invisibility',
 'artifacts:villager_hat',
 'bewitchment:prickly_belt',
@@ -56,6 +57,7 @@ var aqmClientRemove = [
 'botania:terraform_rod',
 'botania:thor_ring',
 'botania:tornado_rod',
+"gearreborn:nv_goggles",
 'botania:water_ring',
 'buildinggadgets:gadget_exchanging',
 'coxinhautilities:diamond_coxinha',
@@ -144,6 +146,7 @@ var aqmClientRemove = [
 'kibe:stone_spikes',
 'kibe:water_ring',
 'mcdw:sword_the_starless_night',
+'spelunkery:portal_fluid_bottle',
 'mining_dims:caving_teleporter',
 'mining_dims:climbing_teleporter',
 'mining_dims:diamond_nugget',
@@ -220,13 +223,14 @@ var aqmClientRemove = [
 'things:moss_necklace',
 'twilightforest:uncrafting_table',
 'valley:copper_nugget',
-'waystones:void_totem',
+'fwaystones:void_totem',
 'winged:heart_of_the_sky_25',
 'winged:heart_of_the_sky_50',
 'winged:heart_of_the_sky_75',
 'winged:heart_of_the_sky',
 "hoverpets:blaze_pet",
 "hoverpets:cow_pet",
+"archon:combustion_charge",
 "hoverpets:creeper_pet",
 "hoverpets:enderman_pet",
 "hoverpets:ocelot_pet",
@@ -234,9 +238,16 @@ var aqmClientRemove = [
 "modern_industrialization:wrench",
 "techreborn:rock_cutter",
 "travelersbackpack:bat",
+"travelersbackpack:cow",
+"travelersbackpack:villager",
+"travelersbackpack:crepper",
+"travelersbackpack:cake",
+"travelersbackpack:lapis",
+"travelersbackpack:blaze",
 "travelersbackpack:dragon",
 "travelersbackpack:magma_cube",
 "travelersbackpack:squid",
+'travelersbackpack:standard',
 "veggie_way:watering_can_copper",
 "xps:xp_berries_seeds",
 "xps:xp_berries",
@@ -267,11 +278,6 @@ var aqmClientRemove = [
 aqmClientRemove.forEach(function(item, index) {
   event.hide(item)
 });
-
-  // event.hide('lacrimis:rune/spawner',;
-  // event.hide('croptosis:feather_meal',;
-  // event.hide('croptosis:rotten_pile',;
-  // event.hide('battletowers:boss_key',;
 
 var k_g = ['mk1','mk2','mk3','mk4','mk5',];var kcg = 'kibe:cobblestone_generator_';var kbg = 'kibe:basalt_generator_';k_g.forEach(function(item,index){event.hide(kbg + item);event.hide(kcg + item)})
   // bewitchment boats (causes crash)
@@ -337,14 +343,14 @@ var k_g = ['mk1','mk2','mk3','mk4','mk5',];var kcg = 'kibe:cobblestone_generator
 
   nullGear.forEach(function(item, index) {
     event.hide('techreborn:ruby_' + item);
-  //   event.hide('indrev:silver_' + item);
-  //   event.hide('indrev:steel_' + item);
-  //   event.hide('indrev:copper_' + item);
-  //   event.hide('techreborn:bronze_' + item);
-  //   event.hide('techreborn:ruby_' + item);
+     event.hide('indrev:silver_' + item);
+     event.hide('indrev:steel_' + item);
+     event.hide('indrev:copper_' + item);
+     event.hide('indrev:bronze_' + item);
+     event.hide('mythicmetals:bronze_' + item)
+     event.hide('mythicmetals:silver_' + item)
+     event.hide('mythicmetals:steel_' + item)
   })
-
-  // event.hide('crookedcrooks:ir_bronze_crook');
 
   const tanksRemRei =[
     "stone",

@@ -1,0 +1,57 @@
+{
+    "values": {
+        "rottencreatures:dead_beard": {
+            "minecraft:generic.max_health": 260.0,
+            "minecraft:generic.armor": 12.0,
+            "minecraft:generic.attack_damage": 18.0
+        },
+        "rottencreatures:burned": {
+            "minecraft:generic.max_health": 40.0,
+            "minecraft:generic.armor": 4.5,
+            "minecraft:generic.attack_damage": 10.1
+        },
+        "rottencreatures:frostbitten": {
+            "minecraft:generic.max_health": 30.0,
+            "minecraft:generic.armor": 7.0,
+            "minecraft:generic.attack_damage": 9.0
+        },
+        "rottencreatures:zombie_lackey": {
+            "minecraft:generic.max_health": 36.0,
+            "minecraft:generic.armor": 7.0
+        },
+        "rottencreatures:glacial_hunter": {
+            "minecraft:generic.max_health": 26.0,
+            "minecraft:generic.armor": 4.0,
+            "minecraft:generic.attack_damage": 9.33
+        },
+        "rottencreatures:immortal": {
+            "minecraft:generic.max_health": 36.0,
+            "minecraft:generic.armor": 3.0,
+            "minecraft:generic.attack_damage": 9.77
+        },
+        "rottencreatures:mummy": {
+            "minecraft:generic.max_health": 32.0,
+            "minecraft:generic.armor": 2.0,
+            "minecraft:generic.attack_damage": 10.0
+        },
+        "rottencreatures:flying_scarab": {
+            "minecraft:generic.max_health": 4.0,
+            "minecraft:generic.attack_damage": 10.0
+        },
+        "rottencreatures:skeleton_lackey": {
+            "minecraft:generic.max_health": 20.0,
+            "minecraft:generic.armor": 1.0,
+            "minecraft:generic.attack_damage": 12.0
+        },
+        "rottencreatures:swampy": {
+            "minecraft:generic.max_health": 23.0,
+            "minecraft:generic.armor": 2.0,
+            "minecraft:generic.attack_damage": 11.0
+        },
+        "rottencreatures:undead_miner": {
+            "minecraft:generic.max_health": 33.0,
+            "minecraft:generic.armor": 6.0,
+            "minecraft:generic.attack_damage": 11.0
+        }
+    }
+}

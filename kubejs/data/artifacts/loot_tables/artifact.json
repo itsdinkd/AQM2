@@ -12,11 +12,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "name": "artifacts:night_vision_goggles"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 6,
           "name": "artifacts:panic_necklace"
         },
@@ -159,11 +154,6 @@
           "type": "minecraft:item",
           "weight": 1,
           "name": "artifacts:helium_flamingo"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "artifacts:everlasting_beef"
         }
       ]
     }

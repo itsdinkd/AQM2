@@ -54,18 +54,6 @@
               "experience": 5,
               "multiplier": 0.05,
               "type": "SellItemFactory"
-            },
-            {
-              "sell": {
-                "id": "magicfungi:vivifica_mushroom",
-                "count": 1
-              },
-              "price": 3,
-              "count": 1,
-              "maxUses": 8,
-              "experience": 8,
-              "multiplier": 0.05,
-              "type": "SellItemFactory"
             }
           ]
         }
@@ -162,18 +150,6 @@
               "count": 1,
               "maxUses": 12,
               "experience": 30,
-              "multiplier": 0.05,
-              "type": "SellItemFactory"
-            },
-            {
-              "sell": {
-                "id": "magicfungi:vivifica_essence",
-                "count": 1
-              },
-              "price": 6,
-              "count": 2,
-              "maxUses": 3,
-              "experience": 25,
               "multiplier": 0.05,
               "type": "SellItemFactory"
             }

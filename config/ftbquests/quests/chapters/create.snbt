@@ -62,15 +62,15 @@
 			id: "095F29176A318C65"
 			tasks: [
 				{
-					id: "49C7F0B3115F2DC2"
-					type: "item"
-					item: "techreborn:zinc_nugget"
-					count: 3L
-				}
-				{
 					id: "3FD0EA762F6D810C"
 					type: "item"
 					item: "techreborn:zinc_dust"
+				}
+				{
+					id: "1022F7292B2E84FB"
+					type: "item"
+					item: "techreborn:zinc_nugget"
+					count: 3L
 				}
 			]
 			rewards: [{
@@ -96,31 +96,21 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: -4.5d
+			subtitle: "Using an Alloy Smelter or Mixer you can receive a brass ingot using a zinc ingot"
 			min_required_dependencies: 1
-			dependencies: [
-				"32DACA012BABEEE3"
-				"1DC466269F356713"
-			]
+			dependencies: ["32DACA012BABEEE3"]
 			id: "397657CCABF487A4"
 			tasks: [{
 				id: "47148370DAD36056"
 				type: "item"
 				item: "techreborn:brass_ingot"
 			}]
-		}
-		{
-			x: -4.5d
-			y: -3.0d
-			subtitle: "Journey to Brass Ingots"
-			dependencies: ["095F29176A318C65"]
-			optional: true
-			id: "1DC466269F356713"
-			tasks: [{
-				id: "1D3E30508D19EBF6"
-				type: "item"
-				item: "techreborn:brass_dust"
+			rewards: [{
+				id: "5716DCB77D191AB4"
+				type: "random"
+				table_id: 5154822684591214429L
 			}]
 		}
 	]

@@ -16,7 +16,7 @@ const remAllThese = [
 'blockus:polished_basalt_bricks'
 ];
 
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
   calciteRem.forEach(function(item, index) {
     event.remove({output: 'consistency_plus:' + item})
     event.remove({output: 'twigs:' + item})

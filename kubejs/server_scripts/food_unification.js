@@ -11,8 +11,7 @@ global["RECIPE_UNIFY"] = true
 global["unifypriorities"] = [
     "farmersdelight",
     "sandwichable",
-    "croptopia",
-    "valley"
+    "croptopia"
 ]
 global["unifyexclude"] = new Set(["farmersdelight:tomato"])
 
@@ -55,7 +54,7 @@ function tryTag(tag) {
 }
 
 // Create custom tags
-onEvent('tags.items', event => {
+ServerEvents.tags('item', event => {
     let root = "unifytags:tag"
     let i = 0
     for (let ctag of customtags) {
@@ -71,7 +70,7 @@ onEvent('tags.items', event => {
 })
 
 // Replace input and output of recipes (and iterate over tags!)
-onEvent("recipes", event => {
+ServerEvents.recipes(event => {
     // Iterate over tags to generate tagitemfood and remove bad tags (they should be loaded)
     let truetags = []
     let tagitemfood = new Map()
@@ -130,7 +129,7 @@ let invnames = new Set([
 // Handle inventory change (to check for unificaiton)
 // Unfortunately it gets called twice due to setting the inventory.
 if (global["INVENTORY_UNIFY"]) {
-    onEvent("player.inventory.changed", event => {
+    PlayerEvents.inventoryChange( event => {
         let ename = String(event.getEntity().getOpenInventory().getClass().getName())
         if (invnames.has(ename)) {
             // Get held item
@@ -164,7 +163,7 @@ if (global["INVENTORY_UNIFY"]) {
 
 // Items on ground
 if (global["ITEM_UNIFY"]) {
-    onEvent("entity.spawned", event => {
+    EntityEvents.spawned( event => {
         let entity = event.getEntity()
         if (entity.getType() == "minecraft:item") {
             let gItem = entity.getItem()
@@ -191,7 +190,6 @@ if (global["ITEM_UNIFY"]) {
 }
 
 
-onEvent('recipes', event => {
-    event.remove({id: 'valley:bacon_raw'})
+ServerEvents.recipes(event => {
     event.shapeless('2x farmersdelight:cabbage_leaf', ['farmersdelight:cabbage', 'croptopia:knife'])
 })

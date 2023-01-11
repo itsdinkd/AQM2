@@ -10,27 +10,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Travel to the Nether"
-			icon: "additionaladditions:mysterious_bundle"
-			x: 2.5d
-			y: 0.0d
-			subtitle: "Its time to visit Hell to progress further. Good luck, its hard as hell."
-			id: "051C81A88B70C303"
-			tasks: [{
-				id: "61D9C9F28ECD2FE2"
-				type: "dimension"
-				dimension: "minecraft:the_nether"
-			}]
-			rewards: [{
-				id: "41AF2426EA4C9350"
-				type: "item"
-				item: "additionaladditions:mysterious_bundle"
-			}]
-		}
-		{
 			title: "Visit The Better Stronghold"
-			x: 0.5d
-			y: 0.0d
+			x: 1.0d
+			y: 2.5d
 			subtitle: "It's Better"
 			description: ["You can find lots here, including Arcanus spell books in the libraries"]
 			id: "21789090F6D9D027"
@@ -54,8 +36,8 @@
 		}
 		{
 			title: "Visit Forgotten Forest"
-			x: -1.5d
-			y: 1.5d
+			x: -0.5d
+			y: 0.5d
 			subtitle: "It's beautiful at night"
 			id: "6DA08A9E3135D056"
 			tasks: [{
@@ -83,8 +65,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: -0.5d
+			y: 2.5d
 			subtitle: "An improved desert temple thanks to Better Desert Temples"
 			description: ["This gigantic new structure has traps, loots, and scary mobs. Can you loot it all?"]
 			id: "2B4A869598C3C703"
@@ -96,15 +78,10 @@
 				structure: "betterdeserttemples:desert_temple"
 			}]
 			rewards: [{
-				id: "66C0125F76B3DB24"
-				type: "item"
-				item: {
-					id: "minecraft:iron_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "672CCDBC107B9B83"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1140926682852401208L
 			}]
 		}
 	]

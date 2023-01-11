@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "dungeons_arise:bandit/bandit_towers/bandit_towers_start",
+  "size": 7,
+  "biomes": "#dungeons_arise:has_structure/bandit_towers_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "max_distance_from_center": 100,
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 135
+  },
+  "use_expansion_hack": false
+}

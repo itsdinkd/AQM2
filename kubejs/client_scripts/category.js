@@ -1,6 +1,6 @@
-//Another Quality Modpack 2
+// //Another Quality Modpack 2
 
 
-// onEvent('rei.remove.categories', event => {
+// REIEvents.removeCategories(event => {
 //     event.yeet('twilightforest:uncrafting')
 //   })

@@ -2,7 +2,7 @@
 ///////////////////////////////
 
 // Macerator Recipes
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
   event.custom(
   {
     "type": "modern_industrialization:macerator",

@@ -20,24 +20,35 @@
     "location0": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "feature": "dungeons_arise:illager_corsair"
-        }
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:illager_corsair"
+              }
+            }
+          }
+        ]
       }
     },
     "location1": {
       "trigger": "minecraft:location",
       "conditions": {
-        "location": {
-          "feature": "dungeons_arise:illager_galley"
-        }
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:illager_galley"
+              }
+            }
+          }
+        ]
       }
     }
   },
-  "requirements": [
-    [
-      "location0",
-      "location1"
-    ]
-  ]
+  "requirements": [["location0", "location1"]]
 }

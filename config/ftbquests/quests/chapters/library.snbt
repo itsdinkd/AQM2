@@ -5,6 +5,7 @@
 	filename: "library"
 	title: "Library (All Mod Guides)"
 	icon: "minecraft:bookshelf"
+	subtitle: ["Easy way to find all mods that have a guide"]
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
@@ -304,6 +305,35 @@
 				id: "700992138FA57484"
 				type: "item"
 				item: "ad_astra:astrodux"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			subtitle: "Deeper and Darker Dimension!"
+			id: "58735B4271B15F89"
+			tasks: [{
+				id: "4532BE52CA2F3888"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "deeperdarker:wanderers_notebook"
+					}
+				}
+			}]
+		}
+		{
+			title: "Grimiore -- Archon"
+			x: -10.5d
+			y: 0.0d
+			subtitle: "Cast Spells, Mobs, Transmute Items, and more.."
+			id: "32364D204FDCC014"
+			tasks: [{
+				id: "470C706BBA54297D"
+				type: "item"
+				item: "archon:grimoire"
 			}]
 		}
 	]

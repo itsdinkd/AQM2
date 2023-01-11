@@ -1,32 +1,38 @@
 {
-    "display": {
-        "title": {
-            "text": "Jaws",
-            "color": "dark_aqua"
-        },
-        "description": {
-            "text": "Find a Typhon"
-        },
-        "icon": {
-            "item": "minecraft:fire_coral"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "title": {
+      "text": "Jaws",
+      "color": "dark_aqua"
     },
-    "criteria": {
-        "location0": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "feature": "dungeons_arise:typhon"
+    "description": {
+      "text": "Find a Typhon"
+    },
+    "icon": {
+      "item": "minecraft:fire_coral"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "location0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:typhon"
+              }
             }
-        }
-    },
-    "requirements": [
-        [
-            "location0"
+          }
         ]
-    ],
-    "parent": "dungeons_arise:find_ceryneian_hind"
+      }
+    }
+  },
+  "requirements": [["location0"]],
+  "parent": "dungeons_arise:find_ceryneian_hind"
 }

@@ -1,11 +1,9 @@
 // Another Quality Modpack 2
 
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
     event.custom({
         "type": "artis:end_game_crafting_shapeless",
         "ingredients": [{
-            "item": "agape_space:aluminum_ingot"
-        }, {
             "item": "archon:glisteel_ingot"
         }, {
             "item": "betterend:aeternium_ingot"
@@ -33,9 +31,9 @@ onEvent('recipes', event => {
             "item": "gobber2:gobber2_ingot_end"
         }, {
             "item": "gobber2:gobber2_ingot_nether"
-        }, {
+        },/* { Add when adding graveyard back
             "item": "graveyard:dark_iron_ingot"
-        }, {
+        },*/ {
             "item": "indrev:enriched_nikolite_ingot"
         }, {
             "item": "indrev:nikolite_ingot"
@@ -67,8 +65,6 @@ onEvent('recipes', event => {
             "item": "modern_industrialization:le_mox_ingot"
         }, {
             "item": "modern_industrialization:le_uranium_ingot"
-        }, {
-            "item": "modern_industrialization:manganese_ingot"
         }, {
             "item": "modern_industrialization:plutonium_ingot"
         }, {
@@ -158,6 +154,12 @@ onEvent('recipes', event => {
         }, {
             "item": "techreborn:zinc_ingot"
         }, {
+            "item": "ad_astra:desh_ingot"
+        }, {
+            "item": "ad_astra:ostrum_ingot"
+        }, {
+            "item": "ad_astra:calorite_ingot"
+        }, {            
             "item": "xps:soul_copper_ingot"
         }],
         "result": {

@@ -8,7 +8,7 @@
 	"luckyVeinSize": 2,
 	"luckyMaxLevel": 100,
 	"luckyPerChunk": 11,
-	"luckyExpOrbs": 2,
+	"luckyExpOrbs": 1,
 	/* 
 	   
 	   ***********************
@@ -26,16 +26,16 @@
 	*/
 	"luckyNetherVeinSize": 2,
 	"luckyNetherMaxLevel": 128,
-	"luckyNetherPerChunk": 11,
+	"luckyNetherPerChunk": 9,
 	/* 
 	   
 	   ***********************
 	   Lucky Block - End
 	   ***********************
 	*/
-	"luckyEndVeinSize": 9,
+	"luckyEndVeinSize": 2,
 	"luckyEndMaxLevel": 180,
-	"luckyEndPerChunk": 25,
+	"luckyEndPerChunk": 9,
 	/* 
 	   
 	   ***********************
@@ -48,11 +48,11 @@
 	   ***********************
 	*/
 	"enableExtraLoot": false,
-	"enableFortune": true,
+	"enableFortune": false,
 	"cutoffThreshold": 0.2,
 	"commonThreshold": 0.1,
-	"uncommonThreshold": 0.04,
-	"rareThreshold": 0.01,
+	"uncommonThreshold": 0.01,
+	"rareThreshold": 0.001,
 	"defaultDrop": "gobbers:gobber2_foo",
 	/* 
 	   
@@ -71,7 +71,7 @@
 	*/
 	"gobberVeinSize": 3,
 	"gobberMaxLevel": 40,
-	"gobberPerChunk": 13,
+	"gobberPerChunk": 11,
 	/* 
 	   
 	   ***********************

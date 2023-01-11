@@ -1,5 +1,5 @@
-// Listen to player login event
-onEvent('player.logged_in', event => {
+// Another Quality Modpack 2
+PlayerEvents.loggedIn( event => {
   // Check if player doesn't have "starting_items" stage yet
   if (!event.player.stages.has('starting_items')) {
     // Add the stage
@@ -7,10 +7,29 @@ onEvent('player.logged_in', event => {
     // give items
     event.player.give('ftbquests:book')
     // clear item
-    event.player.inventory.clear('prefab:item_start_house');
+    event.player.inventory.clear('prefab:item_house');
   }
 
-  // banned items
+  //  banned items
   event.player.inventory.clear("doom:daisy");
-
+  event.player.inventory.clear("doom:soulcube");
 })
+
+// let bannedItems = {
+//   'doom:soulcube': "Not allowed due to Overpowered",
+//   'doom:daisy': "Not allowed due to Overpowered"
+// }
+
+// bannedItems.forEach((item, reason) => {
+//   PlayerEvents.inventoryChanged(item, event => {
+//     event.player.tell([
+//         "Item ",
+//         Text.yellow(item),
+//         " has been ",
+//         Text.red("removed"),
+//         ".\nReason: ",
+//         Text.red(reason),
+//       ]);
+//     event.player.inventory.removeItem(event.getSlot(), event.item.count)
+//   })
+// })

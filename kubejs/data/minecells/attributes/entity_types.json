@@ -1,0 +1,56 @@
+{
+    "values": {
+        "minecells:shieldbearer": {
+            "minecraft:generic.max_health": 40.0,
+            "minecraft:generic.armor": 14.0,
+            "minecraft:generic.attack_damage": 14.0
+        },
+        "minecells:leaping_zombie": {
+            "minecraft:generic.max_health": 30.0,
+            "minecraft:generic.armor": 3.0,
+            "minecraft:generic.attack_damage": 16.5
+        },
+        "minecells:grenadier": {
+            "minecraft:generic.max_health": 36.0,
+            "minecraft:generic.armor": 7.0
+        },
+        "minecells:grenade": {
+            "minecraft:generic.attack_damage": 20.0
+        },
+        "minecells:protector": {
+            "minecraft:generic.max_health": 28.0,
+            "minecraft:generic.armor": 12.0,
+            "minecraft:generic.attack_damage": 17.0
+        },
+        "minecells:disgusting_worm": {
+            "minecraft:generic.max_health": 40.0,
+            "minecraft:generic.armor": 5.5,
+            "minecraft:generic.attack_damage": 17.0
+        },
+        "minecells:inquisitor": {
+            "minecraft:generic.max_health": 44.0,
+            "minecraft:generic.armor": 7.0,
+            "minecraft:generic.attack_damage": 19.0
+        },
+        "minecells:runner": {
+            "minecraft:generic.max_health": 20.0,
+            "minecraft:generic.armor": 2.0,
+            "minecraft:generic.attack_damage": 18.0
+        },
+        "minecells:shocker": {
+            "minecraft:generic.max_health": 36.0,
+            "minecraft:generic.armor": 6.0,
+            "minecraft:generic.attack_damage": 17.8
+        },
+        "minecells:undead_archer": {
+            "minecraft:generic.max_health": 30.0,
+            "minecraft:generic.armor": 6.0,
+            "minecraft:generic.attack_damage": 15.85
+        },
+        "minecells:conjunctivius": {
+            "minecraft:generic.max_health": 1100.0,
+            "minecraft:generic.armor": 19.0,
+            "minecraft:generic.attack_damage": 29.0
+        }
+    }
+}

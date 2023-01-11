@@ -1,0 +1,9 @@
+{
+    "values": {
+        "guardvillagers:guard": {
+            "minecraft:generic.attack_damage": 9.0,
+            "minecraft:generic.max_health": 36,
+            "minecraft:generic.armor": 6.0
+        }
+    }
+}

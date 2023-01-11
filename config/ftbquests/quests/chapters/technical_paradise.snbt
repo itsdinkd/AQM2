@@ -1767,8 +1767,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 12.5d
+			x: -3.5d
+			y: 11.0d
 			subtitle: "Early Stage Power"
 			id: "4FFC268637249F04"
 			tasks: [{
@@ -1783,8 +1783,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 14.5d
+			x: -3.5d
+			y: 12.5d
 			subtitle: "Grab a bucket and get your infinite lava"
 			description: ["Holding your bucket out, right click the spring to fill up the bucket with lava. You can then use this lava bucket with the generator"]
 			dependencies: ["4FFC268637249F04"]

@@ -108,7 +108,7 @@
             }
           ]
         },
-         {
+        {
           "type": "minecraft:item",
           "weight": 8,
           "name": "minecraft:iron_ingot",

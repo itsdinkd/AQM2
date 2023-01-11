@@ -1,4 +1,4 @@
-onEvent('client.debug_info.left', event => {
+ClientEvents.leftDebugInfo(event => {
     let lines = event.getLines()
     lines.addAll([
         '--------------------------',

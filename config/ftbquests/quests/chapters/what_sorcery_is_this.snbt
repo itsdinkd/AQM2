@@ -289,8 +289,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 4.5d
+			x: -2.0d
+			y: 1.5d
+			subtitle: "Cast spells by Drawing!"
+			description: ["This mod is really challenging so I wish you the best"]
 			id: "73A7CDB6E789A107"
 			tasks: [{
 				id: "18A1610341D2B5F6"

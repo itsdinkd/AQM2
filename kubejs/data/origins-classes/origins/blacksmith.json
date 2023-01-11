@@ -1,9 +1,0 @@
-{
-    "powers": [
-    ],
-    "icon": "minecraft:iron_ingot",
-    "order": 6,
-    "impact": 0,
-    "unchoosable": true,
-    "loading_priority": 100
-  }

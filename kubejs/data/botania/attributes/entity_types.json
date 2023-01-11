@@ -1,0 +1,9 @@
+{
+    "values": {
+        "botania:doppleganger": {
+            "minecraft:generic.attack_damage": 15.0,
+            "minecraft:generic.armor_toughness": 6.0,
+            "minecraft:generic.armor": 6.0
+        }
+    }
+}

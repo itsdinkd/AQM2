@@ -1,0 +1,12 @@
+{
+  "mobSpawns": {
+    "burned_weight": 12,
+    "frostbitten_weight": 50,
+    "glacial_hunter_weight": 12,
+    "swampy_weight": 50,
+    "undead_miner_weight": 12,
+    "mummy_weight": 12,
+    "dead_beard_weight": 1,
+    "immortal_chance": 0.02
+  }
+}

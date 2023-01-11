@@ -68,6 +68,7 @@
     "//forbiddenTiles": "Blocks that cannot be picked up",
     "forbiddenTiles": [
       "#forge:immovable",
+      "chisel:*",
       "#forge:relocation_not_supported",
       "minecraft:end_portal",
       "minecraft:piston_head",

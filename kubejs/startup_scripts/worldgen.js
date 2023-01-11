@@ -1,4 +1,4 @@
-// onEvent('worldgen.add', event => {
+// WorldgenEvents.add(event => {
 //     event.addOre(ore => {
 //     ore.block = 'minecraft:glowstone' // Block ID (Use [] syntax for properties)
 //     ore.spawnsIn.blacklist = false // Inverts spawn whitelist

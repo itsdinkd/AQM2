@@ -11,7 +11,11 @@
 		x: 0.0d
 		y: 0.0d
 		subtitle: "You must have acquired a diamond for the portal to activate"
-		description: ["Once you acquired diamonds, the portal will be active. Step inside if you dare"]
+		description: [
+			"Once you acquired diamonds, the portal will be active. Step inside if you dare"
+			""
+			"More will be added to the questline as soon as the developer adds in Mine Cell drops"
+		]
 		id: "2716031A85838BF2"
 		tasks: [{
 			id: "532C08B6A815CB0D"

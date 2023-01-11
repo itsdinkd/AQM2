@@ -5,7 +5,7 @@
 	filename: "start_here"
 	title: "Start Here"
 	icon: "minecraft:oak_log"
-	subtitle: ["The Basics"]
+	subtitle: ["Read the quests here to learn about the modpack, what it offers, and where to start."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -355,10 +355,15 @@
 			]
 			id: "4071CC2AEF557C8F"
 			tasks: [{
-				id: "13BEE17022D37FA7"
-				type: "item"
+				id: "0E941E17AC71C629"
+				type: "questsadditions:use"
+				title: "Interact with Waystone"
 				icon: "fwaystones:waystone"
-				item: "waystones:waystone"
+				block_type: 0
+				block: "fwaystones:waystone"
+				value: 1L
+				checkItem: false
+				isItemInteraction: false
 			}]
 		}
 		{
@@ -608,8 +613,8 @@
 		{
 			title: "Free House!"
 			icon: "prefab:item_house"
-			x: 0.8d
-			y: 7.2d
+			x: 4.8d
+			y: 6.4d
 			subtitle: "Introducing... Prefab Structures"
 			description: [
 				"Your first Prefab structure is on us. PS: Do yourself a favor and if youre in a server, do not build next to spawn :)"
@@ -735,7 +740,7 @@
 			title: "Unlock Thaumaturge"
 			x: 1.5d
 			y: 4.5d
-			subtitle: "You're now immune to fire and lightning"
+			subtitle: "You're now immune to lightning"
 			dependencies: ["4FDB3FE002A62B8C"]
 			id: "31C4605E2A02A311"
 			tasks: [{
@@ -836,8 +841,8 @@
 		}
 		{
 			title: "Why are Vanilla Mobs Hard?"
-			x: 6.050000000000004d
-			y: 7.242857142857147d
+			x: 11.375d
+			y: 2.625d
 			subtitle: "What's going on?"
 			description: [
 				"By now you realized vanilla zombies run faster, creepers are charged and do not stop, and also several vanilla mobs are attacking villagers.."
@@ -852,15 +857,17 @@
 					id: "45D00E0C0A7CD31D"
 					type: "kill"
 					icon: "mobz:fasthead"
+					secret: true
 					entity: "minecraft:zombie"
-					value: 2L
+					value: 666L
 				}
 				{
 					id: "29BD4D497ABEF967"
 					type: "kill"
 					icon: "minecraft:creeper_head"
+					secret: true
 					entity: "minecraft:creeper"
-					value: 2L
+					value: 666L
 				}
 			]
 			rewards: [{
@@ -965,20 +972,23 @@
 		}
 		{
 			title: "Mining Dimension"
-			x: 6.5d
-			y: 1.0d
+			x: 7.2d
+			y: 6.4d
+			subtitle: "Craft a AQM2 Token and turn it in here to teleport to mining dimension"
 			description: [
 				"to craft a mining dimension portal you need 8 emeralds and cracked stone bricks for each portal block, and you can light it with a diamond pickaxe"
 				""
 				"Gobber and Mythic Metal ores do not generate in this dimension."
 			]
+			size: 1.6d
+			secret: true
 			id: "5980863B80617D30"
 			tasks: [{
 				id: "7EBA7BF3AF4019DC"
 				type: "item"
 				title: "Pure Mining Dimension"
 				disable_toast: true
-				item: "spectrum:end_portal_cracker"
+				item: "kubejs:aqm2"
 			}]
 		}
 		{
@@ -994,8 +1004,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 6.5d
+			y: 1.0d
 			subtitle: "Funko Pops!"
 			description: ["Convert a villager into a Funko Pop villager that sells Mine Pops"]
 			id: "75974D9C410B0EED"
@@ -1040,6 +1050,260 @@
 				type: "item"
 				item: "minecraft:emerald"
 				count: 2
+			}]
+		}
+		{
+			title: "Rough Diamond"
+			icon: "minecraft:diamond_ore"
+			x: 1.5d
+			y: 6.0d
+			subtitle: "Diamond ores now drop Rough Diamonds. Use it on a grindstone to get XP and Diamonds"
+			id: "39679CF126BC77D8"
+			tasks: [{
+				id: "4F25B4CC68E4589A"
+				type: "item"
+				title: "You found a rough diamond!"
+				item: "spelunkery:rough_diamond"
+			}]
+			rewards: [{
+				id: "5C18BC015FD99B88"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 5154822684591214429L
+			}]
+		}
+		{
+			icon: "minecraft:redstone_ore"
+			x: 1.5d
+			y: 8.0d
+			subtitle: "Redstone ores now drop Rough Cinnabar. Use it on a grindstone to get XP and Redstone"
+			id: "44C0CB2B73F3D208"
+			tasks: [{
+				id: "400284952FC9BF24"
+				type: "item"
+				item: "spelunkery:rough_cinnabar"
+			}]
+			rewards: [{
+				id: "3BA990E5DEB06F10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "minecraft:lapis_ore"
+			x: -0.5d
+			y: 6.0d
+			subtitle: "Lapis ores now drop Rough Lapis. Use it on a grindstone to get XP and Lapis"
+			id: "0E707452E54861F5"
+			tasks: [{
+				id: "28997BD8301B866B"
+				type: "item"
+				item: "spelunkery:rough_lazurite"
+			}]
+			rewards: [{
+				id: "1525D2D9EE2C0EE8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			subtitle: "Emerald ores now drop Rough Emeralds. Use it on a grindstone to get XP and Emeralds"
+			id: "52BDD1C6FE1A5B30"
+			tasks: [{
+				id: "69559696D28E5C41"
+				type: "item"
+				icon: "minecraft:emerald_ore"
+				item: "spelunkery:rough_emerald"
+			}]
+			rewards: [{
+				id: "1E4B596033098F94"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5154822684591214429L
+			}]
+		}
+		{
+			icon: "minecraft:grindstone"
+			x: 0.5d
+			y: 7.0d
+			subtitle: "Once you have rough materials, grind them on a grindstone"
+			description: [
+				"The Spelunkery mod changes vanilla drops to these rough materials that must be grinded to get the original material."
+				""
+				"This method gives you more XP than you would normally receive, as well as provides geodes, especially in nether."
+			]
+			dependencies: [
+				"44C0CB2B73F3D208"
+				"52BDD1C6FE1A5B30"
+				"39679CF126BC77D8"
+				"0E707452E54861F5"
+			]
+			id: "49C6A70BF7817773"
+			tasks: [
+				{
+					id: "09576A98BF4757D9"
+					type: "questsadditions:use"
+					title: "Grind 2 Rough Diamonds"
+					icon: "spelunkery:rough_diamond"
+					block_type: 0
+					block: "minecraft:grindstone"
+					value: 2L
+					checkItem: true
+					isItemInteraction: true
+					item: "spelunkery:rough_diamond"
+				}
+				{
+					id: "1D9993B3BD3C1FE1"
+					type: "questsadditions:use"
+					title: "Grind 2 Rough Cinnabars"
+					icon: "spelunkery:rough_cinnabar"
+					block_type: 0
+					block: "minecraft:grindstone"
+					value: 2L
+					checkItem: true
+					isItemInteraction: true
+					item: "spelunkery:rough_cinnabar"
+				}
+				{
+					id: "373558E503542D2A"
+					type: "questsadditions:use"
+					title: "Grind 2 Lapis Lazurite"
+					icon: "spelunkery:rough_lazurite"
+					block_type: 0
+					block: "minecraft:grindstone"
+					value: 2L
+					checkItem: true
+					isItemInteraction: true
+					item: "spelunkery:rough_lazurite"
+				}
+				{
+					id: "2A0B660775515126"
+					type: "questsadditions:use"
+					title: "Grind 2 Rough Emeralds"
+					block_type: 0
+					block: "minecraft:grindstone"
+					value: 2L
+					checkItem: true
+					isItemInteraction: true
+					item: "spelunkery:rough_emerald"
+				}
+			]
+			rewards: [{
+				id: "6C0F8E10566E42ED"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			subtitle: "Fast Torches Fast Coals"
+			id: "6BEAC575277C497D"
+			tasks: [{
+				id: "749CE86353C79DAB"
+				type: "item"
+				item: "teenycoal:teeny_coal"
+			}]
+			rewards: [{
+				id: "7E87F23A59FCEE0C"
+				type: "item"
+				item: "teenycoal:teeny_torch"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 6.0d
+			dependencies: ["6BEAC575277C497D"]
+			id: "0C5B1DD23C6BCD20"
+			tasks: [{
+				id: "3CD6E629AE3057AF"
+				type: "item"
+				item: "teenycoal:teeny_charcoal"
+			}]
+			rewards: [{
+				id: "34B46B2C97C8D675"
+				type: "item"
+				item: "teenycoal:teeny_torch"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 7.0d
+			subtitle: "Slingshot those torches!"
+			dependencies: ["0C5B1DD23C6BCD20"]
+			id: "547057AACB668F85"
+			tasks: [{
+				id: "6458BC41A852E576"
+				type: "item"
+				item: "kibe:torch_sling"
+			}]
+			rewards: [{
+				id: "33ED46D7E380D657"
+				type: "item"
+				item: "minecraft:torch"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 5.0d
+			subtitle: "Another torch like item but instead you can throw them!"
+			dependencies: ["0C5B1DD23C6BCD20"]
+			id: "0D1257FDCD7E8522"
+			tasks: [{
+				id: "4E7E9D1843B2B2B6"
+				type: "item"
+				item: "spelunkery:glowstick"
+			}]
+			rewards: [{
+				id: "685F36D9551EA54A"
+				type: "item"
+				item: "spelunkery:pink_glowstick"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.5d
+			subtitle: "Grind Rock Salt for Special Salt"
+			dependencies: ["49C6A70BF7817773"]
+			id: "53B4A10244A98681"
+			tasks: [{
+				id: "54273296B05C691F"
+				type: "item"
+				item: "spelunkery:rock_salt"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.0d
+			subtitle: "Use this on the ground as you would redstone to block mob paths"
+			description: ["{image:kubejs:textures/gui/presets/salt_circle.png width:150 height:150 align:1}"]
+			dependencies: ["53B4A10244A98681"]
+			id: "0EE58CAB2A0B4594"
+			tasks: [{
+				id: "62EECE7DF778BC32"
+				type: "item"
+				item: "spelunkery:salt"
+			}]
+			rewards: [{
+				id: "412ED8C93C5A956C"
+				type: "item"
+				item: "spelunkery:salt"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			subtitle: "Damage stats will appear when striking"
+			id: "36276AEB56B46325"
+			tasks: [{
+				id: "5247B8C6F37DC4DA"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
 			}]
 		}
 	]

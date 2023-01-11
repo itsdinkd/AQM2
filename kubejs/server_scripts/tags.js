@@ -1,6 +1,7 @@
 // Another Quality Modpack 2 //
 ///////////////////////////////
 
+priority: 100
 // Wandering Collector blacklist
 	const blacklistTrader = [
 		"bosses_of_mass_destruction:ancient_anima",
@@ -56,15 +57,20 @@
 		"simplyswords:bramblethorn",
 		"simplyswords:brimstone_claymore",
 		"simplyswords:storms_edge",
+		"simplyswords:sword_on_a_stick",
 		"simplyswords:bramblethorn",
 		"simplyswords:hearthflame",
 		"simplyswords:emberblade",
-		"simplyswords:soulrender",
+		"simplyswords:mjolnir",
+		"simplyswords:twisted_blade",
 		"simplyswords:soulkeeper",
 		"simplyswords:soulstealer",
-		"simplyswords:mjolnir",
-		"simplyswords:sword_on_a_stick",
-		"simplyswords:twisted_blade"
+		"simplyswords:frostfall",
+		"simplyswords:soulpyre",
+		"simplyswords:runic_tablet",
+		"simplyswords:molten_edge",
+		"simplyswords:livyatan",
+		"simplyswords:soulrender"
 	]
 
 // Fish
@@ -87,9 +93,7 @@
 	"#c:fruits/elderberries",
 	"#c:fruits/pineapples",
 	"#c:fruits/raspberries",
-	"#c:fruits/strawberries",
-	"valley:spicy_berries",
-	"valley:bitter_berries"
+	"#c:fruits/strawberries"
 ]
 
 // Meats
@@ -119,6 +123,7 @@
 	'mcdar:wonderful_wheat',
 	'mcdar:tasty_bone',
 	'mcdar:buzzy_nest',
+	"mcdar:love_medallion",
 	'mcdar:satchel_of_elements',
 	'mcdar:updraft_tome',
 	'bewitchment:protection_poppet',
@@ -128,8 +133,7 @@
 	'bewitchment:curse_poppet',
 	'bewitchment:vampiric_poppet',
 	'bewitchment:judgment_poppet',
-	'bewitchment:fatigue_poppet',
-	'archeology:copper_brush'
+	'bewitchment:fatigue_poppet'
 	]
 
 	const BlacklistTravelersBackpack = [
@@ -146,7 +150,7 @@
 		"inmis:withered_backpack"
 	]
 // Item Tags
-onEvent('tags.items', event => {
+ServerEvents.tags('item', event => {
 
 	SimplyRareSwords.forEach(function (item, index) {
 		event.add('aqm2:weapons/rare', item)
@@ -184,6 +188,13 @@ onEvent('tags.items', event => {
 	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
 	event.add("yigd:soulbound_blacklist", /^travelersbackpack:.*/)
 	event.add('c:rubies', 'betternether:nether_ruby')
+	event.add('c:silver_ingots', 'galosphere:silver_ingot')
+	event.add('c:silver_nuggets', 'galosphere:silver_nugget')
+	event.add('c:silver_blocks', 'galosphere:silver_block')
+	event.add('c:raw_silver_blocks', 'galosphere:raw_silver_block')
+	event.add('c:silver_ores', 'galosphere:silver_ore')
+	event.add('c:raw_silver_ores', 'galosphere:raw_silver')
+	event.add('c:silver_ores', 'galosphere:deepslate_silver_ore')
 	event.add('c:ruby_ores', 'betternether:nether_ruby_ore')
 
 	// event.add('grounded_origins:moth/fibrous_foods', '#fabric:grain')
@@ -193,13 +204,13 @@ onEvent('tags.items', event => {
 // Remove
 	event.remove('nourish:vegetables', "croptopia:beef_stew")
 	event.remove('nourish:vegetables', "croptopia:beef_stir_fry")
-	event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
+	// event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
 	
 
 });
 
 // Block Tags
-onEvent("tags.blocks", event => {
+ServerEvents.tags('block', event => {
 	event.add('c:redstone_ores','minecraft:redstone_ore')
 	event.add('c:redstone_ores','minecraft:deepslate_redstone_ore')
 	event.add('c:emerald_ores','minecraft:emerald_ore')

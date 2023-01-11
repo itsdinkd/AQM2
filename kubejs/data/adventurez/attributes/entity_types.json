@@ -1,0 +1,19 @@
+{
+    "values": {
+        "adventurez:void_shadow": {
+            "minecraft:generic.max_health": 4337.0,
+            "minecraft:generic.attack_damage": 40.0,
+            "minecraft:generic.armor": 22.0,
+            "minecraft:generic.armor_toughness": 12.0
+        },
+        "adventurez:void_bullet": {
+            "minecraft:generic.attack_damage": 17.0
+        },
+        "adventurez:enderwarthog": {
+            "minecraft:generic.max_health": 145.0,
+            "minecraft:generic.attack_damage": 20.0,
+            "minecraft:generic.armor": 10.0,
+            "minecraft:generic.armor_toughness": 6.0
+        }
+    }
+}

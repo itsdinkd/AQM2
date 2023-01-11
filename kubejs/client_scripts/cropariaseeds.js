@@ -1,9 +1,9 @@
 // Another Quality Modpack 2 //
 //////////////////////////////
 
-onEvent("rei.hide.items", event => {
+REIEvents.hide('item', (event) => {
 
-    var cropariaSeedsHide = ["blaze", "dragon", "diamond", "emerald", "ender", "eye", "foot", "ghast", "goat", "goldenapple", "lead2", "magma", "nautilus", "netherite", "phantom", "totem", "redstone", "scute", "sea", "shard", "crystal", "shell", "star", "wither", "xp"];
+    var cropariaSeedsHide = ["blaze", "silver", "dragon", "diamond", "emerald", "ender", "eye", "foot", "ghast", "goat", "goldenapple", "lead2", "magma", "nautilus", "netherite", "phantom", "totem", "redstone", "scute", "sea", "shard", "crystal", "shell", "star", "wither", "xp"];
 
     cropariaSeedsHide.forEach(function (item) {
         event.hide('croparia:seed_crop_' + item);

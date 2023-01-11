@@ -1,0 +1,20 @@
+{
+    "values": {
+        "doom:motherdemon": {
+            "minecraft:generic.armor_toughness": 7.0,
+            "minecraft:generic.armor": 6.0
+        },
+        "doom:arch_maykr": {
+          "minecraft:generic.armor_toughness": 5.0,
+          "minecraft:generic.armor": 6.0
+        },
+        "doom:gladiator": {
+            "minecraft:generic.armor_toughness": 8.0,
+            "minecraft:generic.armor": 8.0
+        },
+        "doom:iconofsin": {
+            "minecraft:generic.armor_toughness": 6.0,
+            "minecraft:generic.armor": 12.0
+        }
+    }
+}

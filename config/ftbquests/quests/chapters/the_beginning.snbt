@@ -1,11 +1,14 @@
 {
 	id: "020030C7EAE53A6E"
 	group: "2B2D8A5BD664DEFC"
-	order_index: 1
+	order_index: 0
 	filename: "the_beginning"
-	title: "Gobber this Gobber that"
+	title: "Gobber Questline - Vital"
 	icon: "gobber2:gobber2_globette"
-	subtitle: ["You sound silly talking about Gobber"]
+	subtitle: [
+		"Gobber is a MUST HAVE in this modpack"
+		"From Rings, Swords, Armor to Medallions and 5x5 Hammers"
+	]
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	quests: [

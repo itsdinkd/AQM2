@@ -15,14 +15,20 @@
     "location0": {
       "trigger": "minecraft:location",
       "conditions": {
-        "feature": "dungeons_arise:thornborn_towers"
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dungeons_arise:thornborn_towers"
+              }
+            }
+          }
+        ]
       }
     }
   },
-  "requirements": [
-    [
-      "location0"
-    ]
-  ],
+  "requirements": [["location0"]],
   "parent": "dungeons_arise:find_small_prairie_house"
 }

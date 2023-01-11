@@ -47,7 +47,7 @@ const greenhouseColors =[
     "black"
   ];
 
-onEvent('rei.information', event => {
+  REIEvents.information(event => {
 
   event.addItem('croparia:greenhouse', 'WARNING', ['You will crash and corrupt chunk if you use this on modded crops'])
 
@@ -56,7 +56,7 @@ onEvent('rei.information', event => {
   });
 });
 
-onEvent('rei.hide.items', event => { 
+REIEvents.hide('item', (event) => { 
   event.hide("croparia:greenhouse")
   greenhouseColors.forEach(function(item,index) {
     event.hide( "croparia:greenhouse_" + item)

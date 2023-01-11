@@ -35,7 +35,7 @@ const arRemoveOutput = [
 "advanced_reborn:ray_generator_9",
 "advanced_reborn:ray_generator_10",
 ]
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
 
   arRemove.forEach(function(item,index) {
     event.remove({id: item})

@@ -2,7 +2,7 @@
 ///////////////////////////////
 
 // itemtype, input, output, count, power = 5, time = 200
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
 const trGrinder = function(event, input, output, c, p, t) {
   event.custom({
     "type": "techreborn:grinder",

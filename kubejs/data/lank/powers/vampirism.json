@@ -2,7 +2,7 @@
     "name": "Vampirism",
     "description": "You cannot heal normally, instead suck blood from your enemies to heal yourelf. Excess blood goos to the BLOOD METER",
     "type": "origins:multiple",
-    "entity_action": {
+    "weak": {
         "condition": {
             "inverted": false,
             "type": "origins:relative_health",
@@ -10,6 +10,11 @@
             "compare_to": 1
         },
         "type": "origins:self_action_on_hit",
+        "damage_condition": {
+            "type": "origins:amount",
+            "comparison": "<=",
+            "compare_to": 8
+        },
         "entity_action": {
             "type": "origins:heal",
             "amount": 1
@@ -20,7 +25,28 @@
             "sprite_location": "origins:textures/gui/resource_bar.png"
         }
     },
-    "o___1": {
+    "strong": {
+        "condition": {
+            "type": "origins:relative_health",
+            "comparison": "<",
+            "compare_to": 1
+        },
+        "type": "origins:self_action_on_hit",
+        "damage_condition": {
+            "type": "origins:amount",
+            "comparison": ">",
+            "compare_to": 8
+        },
+        "entity_action": {
+            "type": "origins:heal",
+            "amount": 1
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "full_health": {
         "condition": {
             "inverted": false,
             "type": "origins:relative_health",
@@ -31,7 +57,8 @@
         "entity_action": {
             "type": "origins:change_resource",
             "resource": "lank:blood_meter",
-            "change": 1
+            "change": 1,
+            "operation": "add"
         },
         "cooldown": 0
     }

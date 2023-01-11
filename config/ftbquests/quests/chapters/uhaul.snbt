@@ -1,9 +1,9 @@
 {
 	id: "4DD12AFABD21AAEE"
 	group: "2B2D8A5BD664DEFC"
-	order_index: 2
+	order_index: 1
 	filename: "uhaul"
-	title: "UHaul"
+	title: "UHaul (Storage Quests)"
 	subtitle: ["Storage Capabilities"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -630,6 +630,7 @@
 			}]
 		}
 		{
+			title: "Moving Luggage"
 			x: 10.0d
 			y: -1.0d
 			subtitle: "The best companion one can have, the true UHaul"
@@ -653,6 +654,7 @@
 				id: "35015819EDB2D391"
 				type: "item"
 				item: "minecraft:emerald"
+				count: 2
 			}]
 		}
 	]

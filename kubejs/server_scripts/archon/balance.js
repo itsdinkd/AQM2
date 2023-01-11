@@ -1,4 +1,5 @@
-onEvent('recipes', event=> {
+// Another Quality Modpack 2
+ServerEvents.recipes(event => {
     event.remove({id: 'archon:channeling/diamond'})
     event.custom(
         {

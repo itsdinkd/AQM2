@@ -2,7 +2,7 @@
 ///////////////////////////////
 
 // Assembler Recipes
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
   event.remove({output: "gobber2:dragon_star"})
   event.custom(
   {

@@ -12,15 +12,12 @@
         "gobber2:gobber2_gooey_bread_nether",
         "sandwichable:bread_slice",
         "sandwichable:toasted_bread_slice",
-        "valley:bread_dough",
-        "cacao:chocolate_cake",
         "croptopia:tres_leche_cake",
         "croptopia:fruit_cake",
         "croptopia:chjeese_cake",
         "duckling:holiday_fruit_cake",
         "farmersdelight:sweet_berry_cheese",
         "farmersdelight:cake_slice",
-        "farmersdelight:sweet_berry_cheesecake_slice",
-        "valley:cake_slice"
+        "farmersdelight:sweet_berry_cheesecake_slice"
     ]
 }

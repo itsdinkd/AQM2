@@ -1,6 +1,6 @@
 {
   "loot_table": "minecraft:chests/simple_dungeon",
-  "max_result_itemcount": 13,
+  "max_result_itemcount": 10,
   "integrated_loot_tables": {
     "goblinsanddungeons:chests/camp_loot_table": 4,
     "goblinsanddungeons:chests/keep_loot_table": 7,
@@ -68,9 +68,9 @@
     "betterdungeons:skeleton_dungeon/chests/middle": 9,
     "betterdungeons:spider_dungeon/chests/egg_room": 6,
     "betterdungeons:zombie_dungeon/chests/common": 3,
-    "betterstrongholds:chests/crypt": 9,
+    "betterstrongholds:chests/crypt": 7,
     "betterstrongholds:chests/common": 3,
-    "betterstrongholds:chests/armoury": 6,
+    "betterstrongholds:chests/armoury": 5,
     "dungeoncrawl:chests/stage_3": 3,
     "dungeoncrawl:chests/stage_6": 6,
     "dungeoncrawl:chests/stage_9": 9,
@@ -92,6 +92,9 @@
     "dungeons_arise:chests/scorched_mines/scorched_mines_normal": 6,
     "dungeons_arise:chests/scorched_mines/scorched_mines_hub": 6,
     "illagers_plus:structure/illager_mine": 6,
-    "stoneholm:crypt": 3
+    "stoneholm:crypt": 3,
+    "archon:chests/spire": 1,
+    "aqm2:weapons_easy": 2,
+    "aqm2:gobber_easy": 2
   }
 }

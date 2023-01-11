@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "dungeons_arise:underworld/mining_system/mining_system_main",
+  "size": 7,
+  "biomes": "#dungeons_arise:has_structure/mining_system_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "max_distance_from_center": 104,
+  "step": "underground_structures",
+  "start_height": {
+    "absolute": 5
+  },
+  "terrain_adaptation": "bury",
+  "use_expansion_hack": false
+}

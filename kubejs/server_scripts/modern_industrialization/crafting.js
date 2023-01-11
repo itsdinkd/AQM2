@@ -12,7 +12,7 @@
 // "ingot_to_plate"
 // ]
 
-// onEvent('recipes' => {
+// ServerEvents.recipes(event => {
 // 	hammerDouble.forEach(function(material,i) => {
 // 		hammerRecipes.forEach(function(recipe,index) {
 // 			event.remove({id: 'modern_industrialization:materials/'+material+'/forge_hammer/'+recipe })

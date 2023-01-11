@@ -29,4 +29,12 @@ adjustHeightForCarpetLikeBlocks:true
 onlyCurrentMapWaypoints:false
 minZoomForLocalWaypoints:0.0
 arrowColour:-2
+minimapRadar:true
+renderWaypoints:true
+partialYTeleportation:true
+displayStainedGlass:true
+pacPlayers:true
+displayClaims:true
+claimsFillOpacity:46
+claimsBorderOpacity:80
 globalVersion:1

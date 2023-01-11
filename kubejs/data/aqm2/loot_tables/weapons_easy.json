@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 0,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:tag",
+            "weight": 2,
+            "name": "aqm2:weapons/rare",
+            "expand": true,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.125
+              }
+            ]
+          },
+          {
+            "type": "minecraft:tag",
+            "weight": 10,
+            "name": "aqm2:mcdw",
+            "expand": true
+          }
+        ]
+      }
+    ]
+  }  

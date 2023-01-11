@@ -36,6 +36,8 @@
     "dungeons_enhanced:large_dungeon_treasury": 6,
     "dungeons_enhanced:chests/monster_maze/treasure": 6,
     "dungeons_arise:chests/mines_treasure_big": 6,
-    "dungeons_arise:chests/scorched_mines/scorched_mines_treasure": 6
+    "dungeons_arise:chests/scorched_mines/scorched_mines_treasure": 6,
+    "ad_astra:chests/dungeon/moon/large_dungeon_chest": 1,
+    "aqm2:weapons_rare": 1
   }
 }

@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "farmersdelight:rice",
-    "croptopia:rice",
-    "valley:rice"
+    "croptopia:rice"
   ]
 }

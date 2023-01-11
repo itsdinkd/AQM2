@@ -1255,6 +1255,10 @@
     "minecells:red_wilted_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "deeperdarker:echo_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

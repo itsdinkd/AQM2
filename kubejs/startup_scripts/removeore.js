@@ -1,4 +1,4 @@
-onEvent('worldgen.remove',event => {
+WorldgenEvents.remove(event => {
   event.removeOres(ores => {
     ores.blocks = [ 
       'betternether:nether_lapis_ore',
@@ -18,11 +18,14 @@ onEvent('worldgen.remove',event => {
       'indrev:tungsten_ore',
       'indrev:silver_ore',
       'indrev:deepslate_silver_ore',
+      "modern_industrialization:nickel_ore",
       'modern_industrialization:deepslate_salt_ore',
       'modern_industrialization:salt_ore',
       'techreborn:deepslate_ruby_ore',
       'techreborn:ruby_ore',
-      'croptopia:salt_ore'
+      'croptopia:salt_ore',
+      'galosphere:silver_ore',
+      'galosphere:deepslate_silver_ore'
       ]
   })
 

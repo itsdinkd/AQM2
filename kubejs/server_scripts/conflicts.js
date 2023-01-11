@@ -2,7 +2,7 @@
 ///////////////////////////////
 
 
-onEvent('tags.item', event => {
+ServerEvents.tags('item', event => {
   event.add('c:food/bacon', 'croptopia:bacon');
   event.add('c:food/bacon', 'farmersdelight:bacon');
   event.add('c:onion', 'farmersdelight:onion');
@@ -10,65 +10,21 @@ onEvent('tags.item', event => {
   event.add('c:crops', 'farmersdelight:rice');
   event.add('c:rice', 'farmersdelight:rice');
   event.add('c:tomato', 'farmersdelight:tomato');
-  // event.add('c:salts', 'expandeddelight:ground_salt'); - Expanded Delight removed on v1.6
-	// event.add('c:salt_dusts', 'expandeddelight:ground_salt');
-	// event.add('c:salt_dusts', 'expandeddelight:ground_salt');
 })
 
 // settings.useOriginalRecipeForFilters = true;
-onEvent('recipes', event => {
-
+ServerEvents.recipes(event => {
+event.replaceOutput({}, "ae2:ender_dust", "techreborn:ender_pearl_dust")
   // salt
    event.replaceInput({}, "#c:salts", "bewitchment:salt");
-   event.replaceInput({}, "valley:onion", "farmersdelight:onion");
-   event.replaceOutput({}, "valley:tomato", "farmersdelight:tomato");
+  //  event.replaceInput({}, "valley:onion", "farmersdelight:onion");
+  //  event.replaceOutput({}, "valley:tomato", "farmersdelight:tomato");
    event.replaceInput({}, "#c:salt_dusts", "bewitchment:salt");
    event.replaceInput({}, "techreborn:ruby_gem", "betternether:nether_ruby");
    event.replaceOutput({}, "techreborn:ruby_gem", "betternether:nether_ruby");
    event.replaceInput({}, "techreborn:ruby_ore", "betternether:nether_ruby_ore");
    event.shapeless("bewitchment:salt", ['#c:salts']);
-  // event.shapeless("croptopia:rice", ['valley:rice_item']);
-  // // rice
-  // event.shapeless("croptopia:rice", ['farmersdelight:rice']);
-  // event.shapeless("croptopia:rice", ['valley:rice_item']);
-  // event.shapeless("farmersdelight:rice", ['croptopia:rice']);
-  // event.shapeless("farmersdelight:rice", ['valley:rice_item']);
-  // event.shapeless("valley:rice_item", ['croptopia:rice']);
-  // event.shapeless("#c:grains/rice", ['farmersdelight:rice']);
-  // // event.replaceInput({}, "#c:grains/rice", "farmersdelight:rice");
-  // event.replaceOutput({}, "#c:grains/rice", "farmersdelight:rice");
-  // // // onion
-  // // event.shapeless("croptopia:onion", ['farmersdelight:onion']);
-  // // event.shapeless("croptopia:onion", ['valley:onion']);
-  // // event.shapeless("farmersdelight:onion", ['croptopia:onion']);
-  // // event.shapeless("farmersdelight:onion", ['valley:onion']);
-  // // event.shapeless("valley:onion", ['croptopia:onion']);
-  // event.shapeless("#c:vegetables/onion", ['farmersdelight:onion']);
-  // event.replaceInput({}, "#c:vegetables/onion", "farmersdelight:onion");
-  // event.replaceOutput({}, "#c:vegetables/onion", "farmersdelight:onion");
-  // tomato
-  // // event.shapeless("croptopia:tomato", ['farmersdelight:tomato']);
-  // // event.shapeless("croptopia:tomato", ['sandwichable:tomato']);
-  // // event.shapeless("farmersdelight:tomato", ['croptopia:tomato']);
-  // // event.shapeless("farmersdelight:tomato", ['sandwichable:tomato']);
-  // // event.shapeless("sandwichable:tomato", ['croptopia:tomato']);
-  // // event.shapeless("sandwichable:tomato", ['farmersdelight:tomato']);
-//   event.replaceInput({}, "farmersdelight:tomato", "sandwichable:tomato");
-  // event.replaceOutput({}, "#c:vegetables/tomatoes", "sandwichable:tomato");
 
-  // // Cabbage
-  // event.replaceInput({}, "#c:vegetables/cabbage", "farmersdelight:cabbage");
-  // event.replaceOutput({}, "#c:vegetables/cabbage", "farmersdelight:cabbage");
-
-  // // Dough
-  // event.replaceInput({}, "#c:dough", "farmersdelight:wheat_dough");
-  // event.replaceOutput({}, "#c:dough", "farmersdelight:wheat_dough");
-
-  // // Bacon
-  // event.replaceInput({}, "#c:food/bacon", "farmersdelight:bacon");
-  // event.replaceOutput({}, "#c:food/bacon", "farmersdelight:bacon");
-
-  // Blockus QoL
   event.remove({ output: "blockus:oak_small_logs" });
   event.shaped("3x blockus:oak_small_logs", [
     ["minecraft:oak_log", "minecraft:oak_log", "minecraft:oak_log"],
@@ -121,6 +77,7 @@ onEvent('recipes', event => {
 // Conflicting Recipes
   event.remove({id: "modern_industrialization:materials/salt/unpacker/dust"});
   event.shapeless("bewitchment:salt", ["2x modern_industrialization:salt_dust"]);
+
 // mcdw:dagger_dagger
 event.remove({output: 'mcdw:dagger_dagger'});
 event.shaped('mcdw:dagger_dagger', [
@@ -147,11 +104,12 @@ event.shaped('bitsandchisels:iron_chisel', [
 //Blockus Golden bars
 event.remove({ output: "blockus:golden_bars" });
 
-// event.shapeless('blockus:golden_bars', ['charm:gold_bars'])
-// event.shapeless('charm:gold_bars', ['blockus:golden_bars'])
-
 // event.replaceInput({type: 'minecraft:crafting_shapeless'}, 'minecraft:copper_ingot', '#c:copper_ingots')
-
+event.remove({ output: "ad_astra:steel_ingot"})
+event.blasting("techreborn:refined_iron_ingot", 'ad_astra:steel_ingot')
 // Garlic Choice
-event.replaceInput('croptopia:garlic', 'bewitchment:garlic')
+event.replaceInput({}, 'croptopia:garlic', 'bewitchment:garlic')
+
+event.remove({id: 'consistency_plus:black_dye1'})
+event.remove({id: "ad_astra:recipes/copper_ingot_from_blasting_glacio_copper_ore"})
 });

@@ -3,7 +3,7 @@
     "configVersion": 5, 
     "printBiomes": false, 
     "globalDebug": false, 
-    "mobCap": 100, 
+    "mobCap": 50, 
     "mobCapRange": 192 
   }, 
   "biomeGroups": { 
@@ -56,42 +56,42 @@
     "birdSpawnSettings": { 
       "shouldSpawn": true, 
       "spawnDebug": false, 
-      "spawnWeight": 3, 
+      "spawnWeight": 10, 
       "spawnRandomChance": 50, 
-      "chunkFreq": 2, 
+      "chunkFreq": 5, 
       "chunkOffset": 0, 
       "spawnType": "overworld", 
       "minSpawnGroupSize": 2, 
-      "maxSpawnGroupSize": 4 
+      "maxSpawnGroupSize": 3 
     }, 
     "bugSpawnSettings": { 
       "shouldSpawn": true, 
       "spawnDebug": false, 
-      "spawnWeight": 3, 
+      "spawnWeight": 10, 
       "spawnRandomChance": 50, 
-      "chunkFreq": 2, 
+      "chunkFreq": 4, 
       "chunkOffset": 1, 
       "spawnType": "overworld", 
       "minSpawnGroupSize": 2, 
-      "maxSpawnGroupSize": 4 
+      "maxSpawnGroupSize": 3 
     }, 
     "smallAnimalSpawnSettings": { 
       "shouldSpawn": true, 
       "spawnDebug": false, 
-      "spawnWeight": 4, 
+      "spawnWeight": 10, 
       "spawnRandomChance": 50, 
-      "chunkFreq": 3, 
+      "chunkFreq": 4, 
       "chunkOffset": 0, 
       "spawnType": "overworld", 
       "minSpawnGroupSize": 2, 
-      "maxSpawnGroupSize": 4 
+      "maxSpawnGroupSize": 3 
     }, 
     "mediumAnimalSpawnSettings": { 
       "shouldSpawn": true, 
       "spawnDebug": false, 
-      "spawnWeight": 4, 
+      "spawnWeight": 12, 
       "spawnRandomChance": 50, 
-      "chunkFreq": 3, 
+      "chunkFreq": 5, 
       "chunkOffset": 0, 
       "spawnType": "overworld", 
       "minSpawnGroupSize": 2, 
@@ -101,34 +101,34 @@
       "shouldSpawn": true, 
       "spawnDebug": false, 
       "spawnWeight": 40, 
-      "spawnRandomChance": 100, 
+      "spawnRandomChance": 80, 
       "chunkFreq": 1, 
-      "chunkOffset": 0, 
+      "chunkOffset": 1, 
       "spawnType": "overworld", 
-      "minSpawnGroupSize": 4, 
-      "maxSpawnGroupSize": 6 
+      "minSpawnGroupSize": 2, 
+      "maxSpawnGroupSize": 5 
     }, 
     "seaFloorSpawnSettings": { 
       "shouldSpawn": true, 
       "spawnDebug": false, 
       "spawnWeight": 20, 
       "spawnRandomChance": 100, 
-      "chunkFreq": 1, 
+      "chunkFreq": 2, 
       "chunkOffset": 0, 
       "spawnType": "water", 
       "minSpawnGroupSize": 2, 
-      "maxSpawnGroupSize": 4 
+      "maxSpawnGroupSize": 3 
     }, 
     "fishSpawnSettings": { 
       "shouldSpawn": true, 
       "spawnDebug": false, 
       "spawnWeight": 10, 
       "spawnRandomChance": 100, 
-      "chunkFreq": 1, 
+      "chunkFreq": 2, 
       "chunkOffset": 0, 
       "spawnType": "water", 
-      "minSpawnGroupSize": 3, 
-      "maxSpawnGroupSize": 6 
+      "minSpawnGroupSize": 2, 
+      "maxSpawnGroupSize": 5 
     } 
   }, 
   "mobConfig": { 

@@ -304,19 +304,18 @@ const mcdwWeapons = [
 "sword_rapier",
 "sword_sinister",
 "sword_sponge_striker",
-"sword_the_starless_night",
 "sword_truthseeker",
 "whip_vine_whip",
 "whip_whip"
 ];
 
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {
 mcdwWeapons.forEach(function(item) {
   event.remove({output: "mcdw:" + item})
 });
 })
 
-onEvent('tags.items', event => {
+ServerEvents.tags('item', event => {
 
 	mcdwWeapons.forEach(function (item, index) {
 		event.add('aqm2:mcdw', "mcdw:" + item)
@@ -327,8 +326,6 @@ onEvent('tags.items', event => {
   mcdwBows.forEach(function (item, index) {
 		event.add('aqm2:bows/mcdw', "mcdw:" + item)
   });
-
-  event.remove('aqm2:mcdw', 'mcdw:sword_the_starless_night');
   
 
 });

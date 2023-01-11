@@ -29,7 +29,7 @@
       "conditions": [
         {
           "condition": "artifacts:configurable_random_chance",
-          "default_probability": 0.001111559
+          "default_probability": 0.000001559
         },
         {
           "condition": "minecraft:killed_by_player"

@@ -1,7 +1,5 @@
-// Another Quality Modpack 2 //
-///////////////////////////////
-
-  onEvent("recipes", function(event) {
+// Another Quality Modpack 2
+ServerEvents.recipes(event => {
 
       var cropariaColors = ["black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple", "red", "white", "yellow"];
 
@@ -10,7 +8,7 @@
       "jar", "cage", "depth_generator", "mob_farm", "solar_panel", "wind_generator", "seed_recycler", "magic_rope", "soul_dagger", "soul_spawner", "soul_in_jar", "deepslate_elematilius_ore", "elematilius_ore"
       ];
 
-      var cropariaSeeds = ["blaze", "dragon", "diamond", "emerald", "ender", "eye", "foot", "ghast", "goat", "goldenapple", "lead2", "magma", "nautilus", "netherite", "phantom", "totem", "quartz", "redstone", "scute", "sea", "shard", "crystal", "shell", "star", "wither", "xp"];
+      var cropariaSeeds = ["blaze", "silver", "dragon", "diamond", "emerald", "ender", "eye", "foot", "ghast", "goat", "goldenapple", "lead2", "magma", "nautilus", "netherite", "phantom", "totem", "quartz", "redstone", "scute", "sea", "shard", "crystal", "shell", "star", "wither", "xp"];
 
       var cropariaMats = [
           "gold",

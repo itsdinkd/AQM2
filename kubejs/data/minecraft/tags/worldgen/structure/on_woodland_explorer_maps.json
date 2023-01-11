@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "dungeons_arise:shiraz_palace",
+    "dungeons_arise:bandit_towers",
+    "dungeons_arise:foundry",
+    "dungeons_arise:keep_kayra",
+    "dungeons_arise:infested_temple",
+    "dungeons_arise:plague_asylum"
+  ]
+}

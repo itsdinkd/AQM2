@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "farmersdelight:bacon",
-    "croptopia:bacon",
-    "valley:raw_bacon"
+    "croptopia:bacon"
   ]
 }

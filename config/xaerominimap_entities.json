@@ -4,28 +4,30 @@
   "includeListInSuperCategory": false,
   "excludeMode": "ONLY",
   "excludeList": [
+    "artifacts:mimic",
     "minecraft:item_frame",
     "minecraft:player_heads",
+    "myloot:loot_chest_minecart",
     "yigd:grave"
   ],
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
     "displayed": true,
-    "heightBasedFade": true,
+    "heightBasedFade": false,
     "renderOrder": 0.0,
     "color": 13.0,
     "displayNameWhenIconFails": false,
     "entityNumber": 100.0,
-    "alwaysDisplayNametags": false,
+    "alwaysDisplayNametags": true,
     "dotSize": 2.0,
     "startFadingAt": 0.0,
-    "renderOverMinimapFrame": 1.0,
     "displayY": false,
+    "renderOverMinimapFrame": 0.0,
     "icons": 1.0,
-    "heightLimit": 35.0,
+    "heightLimit": 15.0,
     "names": 0.0,
-    "iconScale": 0.25
+    "iconScale": 0.45
   },
   "subCategories": [
     {

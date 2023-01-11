@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "dungeons_arise:underworld/foundry/foundry_start",
+  "size": 6,
+  "biomes": "#dungeons_arise:has_structure/foundry_biomes",
+  "adapt_noise": false,
+  "spawn_overrides": {},
+  "max_distance_from_center": 106,
+  "step": "underground_structures",
+  "start_height": {
+    "absolute": -10
+  },
+  "use_expansion_hack": false
+}

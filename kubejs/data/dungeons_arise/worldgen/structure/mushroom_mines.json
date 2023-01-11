@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "dungeons_arise:fungi/mushroom_mines/mushroom_mines_main",
+  "size": 7,
+  "biomes": "#dungeons_arise:has_structure/mushroom_mines_biomes",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "max_distance_from_center": 114,
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": -8
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "use_expansion_hack": false
+}

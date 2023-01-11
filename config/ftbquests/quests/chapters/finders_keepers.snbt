@@ -305,6 +305,36 @@
 				xp_levels: 3
 			}]
 		}
+		{
+			title: "Unique SimplySwords"
+			x: -5.0d
+			y: -1.5d
+			subtitle: "Congrats you found a Unique SimplySword"
+			description: [
+				"Each one of these weapons have special abilities. "
+				""
+				"If you hover over the weapon you will see exactly what it does"
+			]
+			id: "2436430F36C026E9"
+			tasks: [{
+				id: "468F60B8FDE1337C"
+				type: "item"
+				title: "Any #aqm2:weapons/rare"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "aqm2:weapons/rare"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CCC819D1890300B"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1830006897849082013L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

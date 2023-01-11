@@ -288,7 +288,7 @@
 	"effectDurationNetherArrow": 100,
 	"enableNetherArrowFire": true,
 	"secondsEntityOnFireDuration": 30,
-	"extraDamageNetherArrow": 5,
+	"extraDamageNetherArrow": 4,
 	"piercingLevelNetherArrow": 0,
 	"punchLevelNetherArrow": 0,
 	/* 
@@ -304,7 +304,7 @@
 	"enablEndArrowCloud": true,
 	"enableEndArrowGlassCage": false,
 	"enableLevitationEndArrow": false,
-	"extraDamageEndArrow": 7,
+	"extraDamageEndArrow": 5,
 	"piercingLevelEndArrow": 1,
 	"punchLevelEndArrow": 1,
 	/* 
@@ -324,7 +324,7 @@
 	*/
 	"gobberDurability": 3800,
 	"gobberMiningSpeed": 9.0,
-	"gobberAttackDamage": 7.0,
+	"gobberAttackDamage": 8.0,
 	"gobberSwordAttackSpeed": 1.7000000476837158,
 	"gobberEnchantability": 8,
 	/* 
@@ -337,7 +337,7 @@
 	"gobberNetherDurability": 5200,
 	"gobberNetherMiningSpeed": 11.0,
 	"gobberNetherAttackDamage": 8.0,
-	"gobberNetherSwordAttackSpeed": 1.9000000953674316,
+	"gobberNetherSwordAttackSpeed": 1.8000000715255737,
 	"gobberNetherEnchantability": 11,
 	/* 
 	   
@@ -349,8 +349,8 @@
 	"unbreakableEndTools": false,
 	"gobberEndDurability": 9001,
 	"gobberEndMiningSpeed": 13.0,
-	"gobberEndAttackDamage": 9.0,
-	"gobberEndSwordAttackSpeed": 2.200000047683716,
+	"gobberEndAttackDamage": 8.0,
+	"gobberEndSwordAttackSpeed": 2.0,
 	"gobberEndEnchantability": 14,
 	/* 
 	   

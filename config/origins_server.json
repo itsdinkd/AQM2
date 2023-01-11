@@ -44,7 +44,7 @@
       "genesis:dragonkin/dragon_fireball": true,
       "genesis:dragonkin/grounded": true,
       "genesis:dragonkin/carnivore": true,
-      "genesis:dragonkin/immunity": true,
+      "genesis:dragonkin/immunity": false,
       "origins:ender_particles": true
     },
     "libra:libra_arachnid": {
@@ -182,9 +182,9 @@
       "libra:curse_reiteration_create": true
     },
     "origins-classes:blacksmith": {
-      "enabled": true,
-      "origins-classes:quality_equipment": true,
-      "origins-classes:efficient_repairs": true
+      "enabled": false,
+      "origins-classes:quality_equipment": false,
+      "origins-classes:efficient_repairs": false
     },
     "origins-classes:nitwit": {
       "enabled": true
@@ -231,7 +231,7 @@
     "mythical_origins:werewolf": {
       "enabled": true,
       "mythical_origins:werewolf_activate": true,
-      "mythical_origins:darkness_vision": true,
+      "mythical_origins:darkness_vision": false,
       "mythical_origins:moon_strength": true,
       "mythical_origins:overwhelming_heat": true,
       "mythical_origins:transform": true,
@@ -265,7 +265,7 @@
       "libra:wolf_secondary_active": true
     },
     "genesis:golem": {
-      "enabled": true,
+      "enabled": false,
       "genesis:golem/ironskin": true,
       "genesis:golem/forceful": true,
       "genesis:golem/colossus": true,
@@ -434,7 +434,7 @@
       "voyager:power_particles": true
     },
     "extraorigins:piglin": {
-      "enabled": true,
+      "enabled": false,
       "extraorigins:all_that_glitters": true,
       "extraorigins:piglin_neutrality": true,
       "extraorigins:crossbow_master": true,
@@ -452,7 +452,7 @@
       "mythical_origins:enhanced_swimming": true,
       "mythical_origins:flammable": true,
       "mythical_origins:no_legs": true,
-      "mythical_origins:ocean_home": true,
+      "mythical_origins:ocean_home": false,
       "mythical_origins:trident_grip": true,
       "mythical_origins:vegetarian": true,
       "mythical_origins:water_sight": true,
@@ -505,7 +505,7 @@
       "libra:curse_reiteration_create": true
     },
     "origins:merling": {
-      "enabled": true,
+      "enabled": false,
       "origins:water_breathing": true,
       "origins:water_vision": true,
       "origins:aqua_affinity": true,
@@ -741,7 +741,7 @@
       "genesis:arcanite/mana_wither": true,
       "genesis:arcanite/mana_respawn": true,
       "genesis:arcanite/mana_regen": true,
-      "genesis:arcanite/fire_immune": true,
+      "genesis:arcanite/fire_immune": false,
       "genesis:arcanite/mana_lightning": true,
       "genesis:arcanite/mana_area_regen": true,
       "genesis:arcanite/lightning_immune": true,
@@ -872,19 +872,19 @@
       "grounded_origins:moth/insect": true,
       "grounded_origins:moth/winged": true,
       "grounded_origins:moth/flutter": true,
-      "grounded_origins:moth/pollinator": true,
+      "grounded_origins:moth/pollinator": false,
       "grounded_origins:moth/fibrous_diet": true,
-      "grounded_origins:moth/nectar_production": true,
+      "grounded_origins:moth/nectar_production": false,
       "grounded_origins:moth/four_arms": true,
       "grounded_origins:moth/water_vulnerability": true,
       "grounded_origins:moth/flammable": true,
-      "grounded_origins:moth/phototactic": true,
+      "grounded_origins:moth/phototactic": false,
       "grounded_origins:moth/nocturnal": true,
       "origins:vegetarian": true,
       "grounded_origins:moth/moth_skin": true
     },
     "genesis:silverfish": {
-      "enabled": true,
+      "enabled": false,
       "genesis:silverfish/burrow": true,
       "genesis:silverfish/silverfriend": true,
       "genesis:silverfish/silverteam": true,
@@ -925,7 +925,7 @@
     },
     "origins-classes:lumberjack": {
       "enabled": true,
-      "origins-classes:tree_felling": true,
+      "origins-classes:tree_felling": false,
       "origins-classes:more_planks_from_logs": true
     },
     "libra:libra": {
@@ -944,7 +944,7 @@
     "origins-classes:cleric": {
       "enabled": true,
       "origins-classes:longer_potions": true,
-      "origins-classes:better_enchanting": true
+      "origins-classes:better_enchanting": false
     },
     "libra:curse_enderian": {
       "enabled": true,
@@ -1058,13 +1058,14 @@
       "lank:no_regen": true,
       "lank:toss": true,
       "lank:toss_toggle": true,
+      "lank:village_affininty": true,
       "lank:iron_healing": true,
       "lank:sturdy_legs": true,
       "origins:no_shield": true,
       "lank:heavy": true
     },
     "lank:zombified": {
-      "enabled": true,
+      "enabled": false,
       "lank:undead": true,
       "lank:burn_in_daylight": true,
       "lank:drown": true,
@@ -1078,6 +1079,7 @@
       "lank:drown": true,
       "lank:burn_in_daylight": true,
       "origins:cat_vision": true,
+      "lank:pillager_aligned": true,
       "lank:blood_meter": true,
       "lank:blood_reset": true,
       "lank:strenght": true,
@@ -1085,10 +1087,14 @@
       "lank:bat_bool": true,
       "lank:bat_drain": true,
       "lank:bat_flight": true,
-      "lank:bat_power": true
+      "lank:bat_power": true,
+      "lank:tag": true,
+      "lank:shadow_dash": true,
+      "lank:shadow_bool": true,
+      "lank:shadow_power": true
     },
     "lank:fairy": {
-      "enabled": true,
+      "enabled": false,
       "lank:fairy_wings": true,
       "lank:flight_toggle": true,
       "lank:forager": true,
@@ -1097,7 +1103,8 @@
       "lank:fragile": true,
       "lank:mining_speed": true,
       "origins:vegetarian": true,
-      "origins:weak_arms": true
+      "origins:weak_arms": true,
+      "lank:bee_rider": true
     },
     "jump:platformer": {
       "enabled": true,
@@ -1108,6 +1115,81 @@
       "jump:arodynamic": true,
       "jump:sturdy_legs": true,
       "jump:less_damage": true
+    },
+    "cham:chameleon": {
+      "enabled": true,
+      "cham:cham_invis": true,
+      "cham:cham_size": true,
+      "origins:climbing": true,
+      "origins:fall_immunity": true,
+      "origins:fresh_air": true,
+      "origins:extra_reach": true,
+      "origins:carnivore": true,
+      "cham:cham_natarmor": true
+    },
+    "monke:monkey": {
+      "enabled": true,
+      "monke:monke_grapple": true,
+      "monke:monke_climb": true,
+      "monke:monke_size": true,
+      "origins:tailwind": true,
+      "peng:extra_jump": true,
+      "monke:monke_stamina": true,
+      "monke:staminarefill": true,
+      "monke:monke_velocity": true,
+      "monke:staminawaste": true,
+      "monke:staminawaste2": true,
+      "monke:monke_drown": true,
+      "monke:monke_lunge": true,
+      "monke:monke_frhand": true
+    },
+    "rr:roadrunner": {
+      "enabled": true,
+      "rr:rr_fast": true,
+      "rr:rr_speed": true,
+      "rr:rr_noslow": true,
+      "rr:rr_hunger": true,
+      "rr:rr_low": true,
+      "rr:rr_noswim": true,
+      "rr:rr_waterhover": true,
+      "rr:rr_nobow": true
+    },
+    "rept:reptilian": {
+      "enabled": true,
+      "rept:rept_freeze": true,
+      "rept:rept_natarmor": true,
+      "origins:tailwind": true,
+      "rept:rept_size": true,
+      "origins:no_shield": true,
+      "origins:more_exhaustion": true,
+      "rept:rept_poison": true,
+      "rept:rept_immune": true,
+      "rept:rept_nonfreeze": true
+    },
+    "kang:kangaroo": {
+      "enabled": true,
+      "kang:kang_pouch": true,
+      "kang:kang_longjump": true,
+      "origins:tailwind": true,
+      "origins:vegetarian": true,
+      "kang:kang_dodge": true,
+      "kang:kang_nobow": true,
+      "kang:kang_health": true,
+      "origins:fall_immunity": true
+    },
+    "peng:penguin": {
+      "enabled": false,
+      "peng:peng_swimspeed": true,
+      "peng:peng_waterbreath": true,
+      "peng:hunter_vision": true,
+      "peng:pescetarian": true,
+      "peng:peng_size": true,
+      "peng:peng_slide": true,
+      "peng:heat": true,
+      "peng:ice_speed": true,
+      "peng:toggle": true,
+      "peng:peng_health": true,
+      "peng:extra_jump": true
     }
   }
 }

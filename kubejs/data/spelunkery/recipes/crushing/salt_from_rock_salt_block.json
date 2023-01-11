@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spelunkery:rock_salt_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "spelunkery:rock_salt",
+      "count": 2
+    },
+    {
+      "item": "spelunkery:salt",
+      "count": 2
+    }
+  ],
+  "processingTime": 350
+}

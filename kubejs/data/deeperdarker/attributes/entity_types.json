@@ -1,0 +1,12 @@
+{
+    "values": {
+        "deeperdarker:stalker": {
+            "minecraft:generic.max_health": 550.0,
+            "minecraft:generic.armor": 16.0
+        },
+        "deeperdarker:shriek_worm": {
+            "minecraft:generic.max_health": 877.0,
+            "minecraft:generic.armor": 19.0
+        }
+    }
+}

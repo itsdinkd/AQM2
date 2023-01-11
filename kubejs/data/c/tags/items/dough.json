@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "veggie_way:dough",
     "croptopia:dough",
     "farmersdelight:wheat_dough"
   ]

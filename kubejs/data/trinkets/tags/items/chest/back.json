@@ -1,0 +1,46 @@
+{
+  "replace": true,
+  "values": [
+    "travelersbackpack:standard",
+    "travelersbackpack:netherite",
+    "travelersbackpack:diamond",
+    "travelersbackpack:gold",
+    "travelersbackpack:emerald",
+    "travelersbackpack:iron",
+    "travelersbackpack:redstone",
+    "travelersbackpack:coal",
+
+    "travelersbackpack:quartz",
+    "travelersbackpack:bookshelf",
+    "travelersbackpack:end",
+    "travelersbackpack:nether",
+    "travelersbackpack:sandstone",
+    "travelersbackpack:snow",
+    "travelersbackpack:sponge",
+
+    "travelersbackpack:cactus",
+    "travelersbackpack:hay",
+    "travelersbackpack:melon",
+    "travelersbackpack:pumpkin",
+
+    "travelersbackpack:enderman",
+    "travelersbackpack:ghast",
+    "travelersbackpack:skeleton",
+    "travelersbackpack:spider",
+    "travelersbackpack:wither",
+
+    "travelersbackpack:bee",
+    "travelersbackpack:wolf",
+    "travelersbackpack:fox",
+    "travelersbackpack:ocelot",
+    "travelersbackpack:horse",
+    "travelersbackpack:pig",
+    "travelersbackpack:sheep",
+    "travelersbackpack:chicken",
+    "travelersbackpack:iron_golem",
+    "ae2:wireless_crafting_terminal",
+    "ae2wtlib:wireless_pattern_encoding_terminal",
+    "ae2wtlib:wireless_pattern_access_terminal",
+    "ae2wtlib:wireless_universal_terminal"
+  ]
+}

@@ -32,7 +32,6 @@
 		{ item: "artifacts:snorkel" }
 		{ item: "artifacts:novelty_drinking_hat" }
 		{ item: "artifacts:plastic_drinking_hat" }
-		{ item: "artifacts:everlasting_beef" }
 		{ item: "artifacts:umbrella" }
 	]
 }

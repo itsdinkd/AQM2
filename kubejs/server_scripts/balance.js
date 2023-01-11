@@ -1,41 +1,15 @@
 // Another Quality Modpack 2          //
 ////////////////////////////////////////
 
-onEvent('recipes', event => {
-
-//template
-// event.remove({ output: "" });
-// event.shaped(Item.of(""), [
-// ["","", ""],
-// ["", "",""],
-// ["","", ""],
-// ]);
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Prefabs Balancing//
-
-// Starter Farm
-// event.remove({ output: "prefab:item_starter_farm" });
-// event.shaped(Item.of("prefab:item_starter_farm"), [
-// ["minecraft:wheat_seeds","croptopia:corn_seed", "minecraft:wheat_seeds"],
-// ["prefab:item_bundle_of_timber", "prefab:block_compressed_dirt","prefab:item_bundle_of_timber"],
-// ["minecraft:white_wool","minecraft:water_bucket", "minecraft:white_wool"],
-// ]);
+ServerEvents.recipes(event => {
 
 event.remove({output: 'quarryplus:marker'})
- event.shaped('quarryplus:marker', ['cQc', ' s '],
+event.shaped('quarryplus:marker', ['cQc', ' s '],
  {
    c: 'gobber2:gobber2_glob_end',
    Q: 'botania:cosmetic_questgiver_mark',
    s: 'betterend:leather_wrapped_stick'
  });
-
-//  event.replaceInput({id: 'magehand:mage_hand_copper'}, 'minecraft:copper_ingot', 'indrev:copper_chunk')
-// event.replaceInput({id: 'magehand:mage_hand_gold'}, 'minecraft:gold_ingot', 'indrev:gold_chunk')
-// event.replaceInput({id: 'magehand:mage_hand_diamond'}, 'minecraft:diamond', 'techreborn:diamond_plate')
-// event.replaceInput({id: 'magehand:mage_hand_iron'}, 'minecraft:iron_ingot', 'indrev:iron_chunk')
-// event.replaceInput({id: 'magehand:mage_hand_iron'}, 'minecraft:iron_ingot', 'indrev:iron_chunk')
-
 
  event.shaped('artis:end_game_crafting', ['gs ', ' ge', 'c g'],
  {
@@ -44,75 +18,40 @@ event.remove({output: 'quarryplus:marker'})
    e: 'betterend:elytra_crystalite',
    g: 'gobber2:dragon_star'
  })
-//  });
-// event.remove({output:'miniminer:minimineritem'})
-// event.shaped('miniminer:minimineritem', ['D d','nCn', 'g v'],
-// {
-//   g: "goldenhopper:goldenhopper",
-//   D: "techreborn:advanced_drill",
-//   d: "indrev:mining_drill_mk2",
-//   n: 'gobber2:gobber2_ingot_nether',
-//   C: 'wirelessnetworks:entangled_capacitor',
-//   v: 'kibe:vacuum_hopper'
-// })
 
 event.replaceInput({id: 'modern_industrialization:armor/diesel_jetpack'}, 'modern_industrialization:aluminum_tank', 'techreborn:quantum_tank_unit')
 
-event.remove({ output: "prefab:item_starter_farm" });
-event.shaped("prefab:item_starter_farm", [
+event.remove({ output: "prefab:item_farm" });
+event.shaped("prefab:item_farm", [
 ["minecraft:wheat_seeds","croptopia:corn_seed", "minecraft:wheat_seeds"],
 ["prefab:item_bundle_of_timber", "prefab:block_compressed_dirt","prefab:item_bundle_of_timber"],
 ["prefab:white_wool","minecraft:water_bucket", "minecraft:white_wool"],
 ]);
 
-event.shaped('kubejs:aqm2', [
-['minecraft:apple', 'minecraft:apple', 'minecraft:apple'],
-['minecraft:apple', 'minecraft:apple', 'minecraft:apple'],
-['minecraft:apple', 'minecraft:white_wool', 'minecraft:apple'],
-]);
+// event.shaped('kubejs:aqm2', [
+// ['minecraft:apple', 'minecraft:apple', 'minecraft:apple'],
+// ['minecraft:apple', 'minecraft:apple', 'minecraft:apple'],
+// ['minecraft:apple', 'minecraft:white_wool', 'minecraft:apple'],
+// ]);
 
 
 
 // // Moderate Farm
- event.remove({ output: "prefab:item_moderate_farm" });
- event.shaped("prefab:item_moderate_farm", [
+ event.remove({ output: "prefab:item_farm_improved" });
+ event.shaped("prefab:item_farm_improved", [
  ["prefab:block_double_compressed_dirt","prefab:block_compressed_obsidian", "prefab:block_double_compressed_dirt"],
- ["prefab:item_heap_of_timber", "prefab:item_starter_farm","prefab:item_heap_of_timber"],
+ ["prefab:item_heap_of_timber", "prefab:item_farm","prefab:item_heap_of_timber"],
  ["prefab:item_pallet_of_bricks","prefab:item_compressed_chest", "prefab:item_pallet_of_bricks"],
  ]);
 
 // // Advance Farm
- event.remove({ output: "prefab:item_advanced_farm" });
- event.shaped("prefab:item_advanced_farm", [
+ event.remove({ output: "prefab:item_farm_advanced" });
+ event.shaped("prefab:item_farm_advanced", [
  ["prefab:block_triple_compressed_stone","prefab:block_double_compressed_obsidian", "prefab:block_triple_compressed_stone"],
- ["prefab:item_ton_of_timber", "prefab:item_moderate_farm","prefab:item_ton_of_timber"],
+ ["prefab:item_ton_of_timber", "prefab:item_farm_improved","prefab:item_ton_of_timber"],
  ["prefab:item_coil_of_lanterns","inmis:withered_backpack", "prefab:item_pallet_of_bricks"],
  ]);
 
-// //snowblock to ice -> packed ice -> blue ice
-// event.shaped(Item.of("minecraft:ice"), [
-// ["minecraft:snow_block","minecraft:snow_block", "minecraft:snow_block"],
-// ["minecraft:snow_block", "minecraft:snow_block","minecraft:snow_block"],
-// ["minecraft:snow_block","minecraft:snow_block", "minecraft:snow_block"],
-// ]);
-
-// event.replaceInput({ id: ""}, "", "");
-
-// End of Prefab Balancing//
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Block Placing -- Ban
-//
-// const banBlock = ["minecraft:iron_ore", "minecraft:gold_ore"];
-//
-// onEvent("block.place", (event) => {
-//   banBlock.forEach((e) => {
-//     if (event.getBlock() == e) {
-//       event.cancel();
-//       console.log("test");
-//     }
-//   });
-// });
-//
 ///// Tech Reborn, Gobber, Kibe Recipe Changes
 //
 // Quantum Suit
@@ -126,7 +65,7 @@ event.shaped("techreborn:quantum_chestplate", [
 // Light Ring
 event.remove({ output: "kibe:light_ring" });
 event.shaped("kibe:light_ring", [
- ['agape_space:rocket_ship_box_v3',"techreborn:data_storage_chip", 'agape_space:rocket_ship_box_v3'],
+ ['',"techreborn:data_storage_chip", ''],
  ["gobber2:dragon_star", "kibe:diamond_ring", "gobber2:dragon_elytra"],
  ['techreborn:iridum_plate',"techreborn:data_storage_chip", 'techreborn:iridum_plate'],
  ]);
@@ -145,7 +84,7 @@ event.remove({ output: "luggage:luggage" });
 event.shaped("luggage:luggage", ['123', 'd d'], {
   1: "inmis:plated_backpack",
   2: "minecraft:chest",
-  3: "earth:pertilyo_rod",
+  3: "minecraft:fishing_rod",
   d: "botania:pixie_dust"
 }
   );
@@ -166,7 +105,7 @@ event.shaped("luggage:luggage", ['123', 'd d'], {
   })
 
   // Abyss Watcher
-  event.remove({output: 'waystones:abyss_watcher'});
+  event.remove({output: 'fwaystones:abyss_watcher'});
   event.custom({
       "type": "minecraft:crafting_shaped",
       "pattern": [
@@ -181,13 +120,13 @@ event.shaped("luggage:luggage", ['123', 'd d'], {
         }
       },
       "result": {
-        "item": "waystones:abyss_watcher",
+        "item": "fwaystones:abyss_watcher",
         "count": 1
       }
     });
 
   // Pocket Wormhole
-  event.remove({output: 'waystones:pocket_wormhole'});
+  event.remove({output: 'fwaystones:pocket_wormhole'});
   event.custom({
           "type": "minecraft:crafting_shaped",
       "pattern": [
@@ -200,14 +139,14 @@ event.shaped("luggage:luggage", ['123', 'd d'], {
           "item": "gobber2:dragon_star"
         },
         "A": {
-          "item": "waystones:abyss_watcher"
+          "item": "fwaystones:abyss_watcher"
         },
         "S": {
           "item": "gobber2:dragon_star"
         }
       },
       "result": {
-        "item": "waystones:pocket_wormhole",
+        "item": "fwaystones:pocket_wormhole",
         "count": 1
       }
     });
@@ -241,7 +180,7 @@ event.custom({
       "item": "spectrum:neolith"
     },
     "w": {
-      "item": "magicfungi:impetus_sword"
+      "item": "mobz:boss_ingot"
     },
     "c": {
       "item": "techreborn:lapotron_crystal"
@@ -264,11 +203,11 @@ event.custom({
    "pattern": [
      "@NyCHCyN@",
      "gMAAaAAMg",
-     "^I1DDD4I^",
+     " I1DDD4I ",
      "g82DND58g",
-     "&I1DDD6I&",
+     " I1DDD6I ",
      "gMAA7AAMg",
-     "!NsCECsN!",
+     " NsCECsN ",
      "    3    "
    ],
    "key": {
@@ -328,15 +267,6 @@ event.custom({
      },
      "@": {
        "item": "bewitchment:heaven_extract"
-     },
-     "!": {
-       "item": "magicfungi:morbus_essence"
-     },
-     "^": {
-       "item": "magicfungi:utilis_essence"
-     },
-     "&": {
-       "item": "magicfungi:vivifica_essence"
      },
      "a": {
        "item": "minecraft:apple"
@@ -436,6 +366,7 @@ event.replaceInput(
 )
 
 // Resourceful Tools - Diamond Hammer
+event.remove({id: 'resourceful_tools:crack_hammer_leather_diamond'})
 event.replaceInput(
 { id: "resourceful_tools:crack_hammer_diamond" },
 "minecraft:stick",
@@ -621,32 +552,48 @@ event.replaceInput(
 ////// Bewitchment
 
 // Juniper Brooms
-event.replaceInput(
-{ id: "bewitchment:juniper_broom" },
-"bewitchment:juniper_log",
-"magicfungi:magical_fungi_alloy"
-);
+event.remove({id: "bewitchment:juniper_broom"})
+event.shaped("bewitchment:juniper_broom", [" d ", "h 1", "ses"],
+{
+  d: "kubejs:demon_pearl",
+  h: "bewitchment:demon_heart",
+  1: "spectrum:spectral_shard",
+  s: "bewitchment:juniper_sapling",
+  e: "bewitchment:heaven_extract"
+})
 
 // // Cypress Brooms
-event.replaceInput(
-{ id: "bewitchment:cypress_broom" },
-"bewitchment:cypress_log",
-"magicfungi:magical_fungi_alloy"
-);
+event.remove({id: "bewitchment:cypress_broom"})
+event.shaped("bewitchment:cypress_broom", [" d ", "h 1", "ses"],
+{
+  d: "kubejs:demon_pearl",
+  h: "bewitchment:demon_heart",
+  1: "spectrum:spectral_shard",
+  s: "bewitchment:cypress_sapling",
+  e: "bewitchment:heaven_extract"
+})
 
 // // Elder Broom
-event.replaceInput(
-{ id: "bewitchment:elder_broom" },
-"bewitchment:elder_log",
-"magicfungi:magical_fungi_alloy"
-);
+event.remove({id: "bewitchment:elder_broom"})
+event.shaped("bewitchment:elder_broom", [" d ", "h 1", "ses"],
+{
+  d: "kubejs:demon_pearl",
+  h: "bewitchment:demon_heart",
+  1: "spectrum:spectral_shard",
+  s: "bewitchment:elder_sapling",
+  e: "bewitchment:heaven_extract"
+})
 
 // // Dragon Blood Broom
-event.replaceInput(
-{ id: "bewitchment:dragons_blood_broom" },
-"bewitchment:dragons_blood_log",
-"magicfungi:magical_fungi_alloy"
-);
+event.remove({id: "bewitchment:dragons_blood_broom"})
+event.shaped("bewitchment:dragons_blood_broom", [" d ", "h 1", "ses"],
+{
+  d: "kubejs:demon_pearl",
+  h: "bewitchment:demon_heart",
+  1: "spectrum:spectral_shard",
+  s: "bewitchment:dragons_blood_sapling",
+  e: "bewitchment:heaven_extract"
+})
 
 // Final Broom
 event.replaceInput({id: "besmirchment:final_broom"}, "minecraft:nether_star", "gobber2:dragon_star")
@@ -694,6 +641,8 @@ event.replaceInput(
 "minecraft:netherite_scrap",
 "techreborn:tungstensteel_plate"
 );
+event.remove({id: "doom:sentinelhammer"})
+event.custom({"type":"doom:gun_table","pattern":"abcd","key":{"a":{"item":"doom:argent_energy","count":20},"b":{"item":"doom:argent_plate","count":4},"c":{"item":"kubejs:corrupted_emerald","count":1},"d":{"item":"kubejs:demon_pearl","count":1}},"result":{"item":"doom:sentinelhammer"}})
 
 // temp gold dim door removal until fix
 event.remove({output:"dimdoors:gold_dimensional_door"})
@@ -816,7 +765,7 @@ event.replaceInput(
 event.replaceInput(
 { id: "gobber2:gobber2_ring_return" },
 "minecraft:ender_pearl",
-"waystones:abyss_watcher"
+"fwaystones:abyss_watcher"
 );
 
 // Gobber2 - Ring of Explorer
@@ -871,8 +820,8 @@ event.shaped("gobber2:gobber2_ring_miner", ['123', '456', '789'],
 event.remove({ output: "gobber2:gobber2_ring_swiftness" });
 event.shaped("gobber2:gobber2_ring_swiftness", [
 ["","mcdar:boots_of_swiftness", ""],
-["magicfungi:morbus_mushroom","gobber2:gobber2_ring","magicfungi:vivifica_mushroom"],
-["","magicfungi:vivifica_mushroom", ""],
+["lightestlamp:lanthanum_ore","gobber2:gobber2_ring","adventurez:warthog_shell_piece"],
+["","botania:rune_water", ""],
 ]);
 
 // Kibe Escape Rope
@@ -926,22 +875,6 @@ event.replaceInput(
   );
 });
 
-  ///// Extra Alchemy
-
-  // Empty Ring
-  // event.replaceInput(
-  //   { id: "extraalchemy:empty_ring" },
-  //   "minecraft:gold_ingot",
-  //   "gobber2:gobber2_ingot_end"
-  // );
-
-  // event.replaceInput(
-  //   { id: "extraalchemy:empty_ring_mirror" },
-  //   "minecraft:gold_ingot",
-  //   "gobber2:gobber2_ingot_end"
-  // );
-
-
   // Quarry Plus
    event.replaceInput(
      { id: "quarryplus:quarry" },
@@ -960,6 +893,12 @@ event.replaceInput(
      "minecraft:redstone_block",
      "modern_industrialization:advanced_upgrade"
      );
+
+    event.replaceInput(
+      { id: "quarryplus:quarry" },
+      "minecraft:golden_pickaxe",
+      "gobber2:gobber2_pickaxe_nether"
+    );
 
 
   // kibe gliders
@@ -1021,7 +960,7 @@ const tanksRem =[
   "bronze",
   "silver",
   "lead",
-  "tin"
+  "tin" 
 ];
 
 tanksRem.forEach(function(item,index) {
@@ -1043,7 +982,7 @@ event.shaped("fluidtank:tank_copper", ["iti", "tit", "iti"],
 
 event.shaped("fluidtank:tank_iron", ["iti", "tit", "iti"],
 {
-  i: "create:iron_sheet",
+  i: "techreborn:iron_plate",
   t: "fluidtank:tank_copper"
 })
 
@@ -1262,44 +1201,69 @@ event.custom({
     }
     ]
   });
-  event.remove({output:Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}')})
-  event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}'), ['minecraft:book', 'minecraft:amethyst_shard'])
+  // event.remove({output:Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}')})
+  // event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}'), ['minecraft:book', 'minecraft:amethyst_shard'])
 
   event.remove({output:"things:arm_extender"})
-  event.custom({
-      "type": "create:mechanical_crafting",
-      "pattern": [
-          " L ",
-          " R ",
-          "ASA",
-          " G ",
-          " H "
-      ],
-      "key": {
-          "L": {
-              "item": "techreborn:lead_ingot"
-          },
-          "R": {
-              "item": "things:gleaming_compound"
-          },
-          "H": {
-              "item": "create:brass_hand"
-          },
-          "A": {
-              "item": "earth:pertilyo_rod"
-          },
-          "S": {
-            "item": "lightestlamp:xenon_rod"
-          },
-          "G": {
-            "item": "bosses_of_mass_destruction:ancient_anima"
-        }
-      },
-      "result": {
-          "item": "things:arm_extender"
-      },
-      "acceptMirrored": false
-  })
+  // event.custom({
+  //   "type": "botania:runic_altar",
+  //   "output": {
+  //     "item": "things:arm_extender"
+  //   },
+  //   "mana": 25000,
+  //   "ingredients": [
+  //     {
+  //       "item": "techreborn:lead_ingot"
+  //     },
+  //     {
+  //       "item": "things:gleaming_compound"
+  //     },
+  //     {
+  //       "item": "minecraft:fishing_rod"
+  //     },
+  //     {
+  //       "item": "bosses_of_mass_destruction:ancient_anima"
+  //     },
+  //     {
+  //       "item": "lightestlamp:xenon_rod"
+  //     }
+  //     ]
+  //   });
+  
+   event.custom({ 
+       "type": "create:mechanical_crafting",
+       "pattern": [
+           " L ",
+           " R ",
+           "ASA",
+           " G ",
+           " H "
+       ],
+       "key": {
+           "L": {
+               "item": "techreborn:lead_ingot"
+           },
+           "R": {
+               "item": "things:gleaming_compound"
+           },
+           "H": {
+               "item": "create:brass_hand"
+           },
+           "A": {
+               "item": "minecraft:fishing_rod"
+           },
+           "S": {
+             "item": "lightestlamp:xenon_rod"
+           },
+           "G": {
+             "item": "bosses_of_mass_destruction:ancient_anima"
+         }
+       },
+       "result": {
+           "item": "things:arm_extender"
+       },
+       "acceptMirrored": false
+   })
 
 event.remove({output:"things:hardening_catalyst"})
 event.custom({
@@ -1333,8 +1297,9 @@ event.custom({
     ]
   });
 
-event.remove({output:"things:displacement_tome"})
-event.custom({
+event.remove({ output: Item.of('things:displacement_tome')})
+event.custom(
+  {
   "type": "botania:runic_altar",
   "output": {
     "item": "things:displacement_tome"
@@ -1342,16 +1307,16 @@ event.custom({
   "mana": 50000,
   "ingredients": [
     {
-      "item": "waystones:pocket_wormhole"
+      "item": "fwaystones:pocket_wormhole"
     },
     {
-      "item": "waystones:pocket_wormhole"
+      "item": "fwaystones:pocket_wormhole"
     },
     {
       "item": "kubejs:cursed_gem"
     }
-    ]
-  });
+  ]
+});
 
 event.remove({output:"things:displacement_page"})
 event.shaped("things:displacement_page", ["123", "4  "],
@@ -1362,7 +1327,7 @@ event.shaped("things:displacement_page", ["123", "4  "],
     4: "betternether:soul_vein"
 });
 
-event.remove({ output: "tempad:tempad" });
+event.remove({ id: "tempad:tempad" });
 event.custom({
   "type": "botania:runic_altar",
   "output": {
@@ -1387,18 +1352,14 @@ event.custom({
     }
     ]
   })
-
-  event.remove({ id: "nomadbooks:craft_nomad_book"});
-  event.shaped("nomadbooks:nomad_book", ["ppp", " b ", " B "],
-  {
-    p: "nomadbooks:grass_page",
-    b: "minecraft:campfire",
-    B: "inmis:bejeweled_backpack"
-  });
-
-//quarryplus pickaxes
-event.replaceInput({id: 'quarryplus:quarry'}, 'minecraft:golden_pickaxe', 'gobber2:gobber2_pickaxe_nether')
-//end
+  // mod is not ported to 1.19.2
+  // event.remove({ id: "nomadbooks:craft_nomad_book"});
+  // event.shaped("nomadbooks:nomad_book", ["ppp", " b ", " B "],
+  // {
+  //   p: "nomadbooks:grass_page",
+  //   b: "minecraft:campfire",
+  //   B: "inmis:bejeweled_backpack"
+  // });
 
 
   // Travelers Backpack

@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "farmersdelight:onion",
-    "croptopia:onion",
-    "valley:onion"
+    "croptopia:onion"
   ]
 }

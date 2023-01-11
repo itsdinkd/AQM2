@@ -42,7 +42,7 @@ waypointsDistanceExp:0
 waypointsDistanceMin:10.0
 defaultWaypointTPCommandFormat:/tp @s {x} {y} {z}
 defaultWaypointTPCommandRotationFormat:/tp @s {x} {y} {z} {yaw} ~
-arrowScale:1.5
+arrowScale:1.2000000178813934
 arrowColour:2
 smoothDots:true
 worldMap:true
@@ -62,7 +62,7 @@ showTime:1
 biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
-centeredEnlarged:false
+centeredEnlarged:true
 zoomOnEnlarged:0
 minimapTextAlign:2
 showAngles:false
@@ -72,7 +72,7 @@ compassScale:1
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
-playerArrowOpacity:100
+playerArrowOpacity:91
 waypointsBottom:true
 minimapShape:0
 lightOverlayType:0
@@ -82,11 +82,11 @@ lightOverlayColor:3
 uiScale:1
 bossHealthPushBox:1
 potionEffectPushBox:1
-minimapFrame:0
+minimapFrame:3
 minimapFrameColor:5
 compassColor:0
 northCompassColor:-1
-showDimensionName:false
+showDimensionName:true
 displayMultipleWaypointInfo:1
 entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
