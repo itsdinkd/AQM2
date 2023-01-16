@@ -29,6 +29,7 @@ config/iris.properties
 config/polymer/client.json
 craftpresence
 crash-reports
+kubejs - 1.18.2
 deaths.dat
 debug
 fancymenu_data/last_world.fmdata
@@ -110,3 +111,4 @@ options.amecsapi.txt
 /config-bk - Copy
 /ModTranslations
 fancymenu_data/last_world.fmdata
+kubejs/.vscode/probe.code-snippets

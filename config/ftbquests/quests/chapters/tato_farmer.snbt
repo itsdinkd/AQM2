@@ -884,7 +884,11 @@
 			x: -2.5d
 			y: -1.0d
 			subtitle: "Place it above a chest and watch it grow"
-			description: ["This plant in a jar will automate sapling growth and place the logs and leaves in a chest that is underneath the block. "]
+			description: [
+				"This plant in a jar will automate sapling growth and place the logs and leaves in a chest that is underneath the block. "
+				""
+				"It also works with crops!"
+			]
 			size: 2.5d
 			id: "25FD6F0F8BD22566"
 			tasks: [{

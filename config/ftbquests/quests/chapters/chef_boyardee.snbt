@@ -6,8 +6,7 @@
 	title: "Chef Boyardee"
 	icon: "croptopia:cooking_pot"
 	subtitle: ["Cooking Foods, duh"]
-	always_invisible: true
-	default_quest_shape: ""
+	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -1007,6 +1006,380 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "Cooking For Blockheads"
+			x: -5.0d
+			y: 4.0d
+			subtitle: "Show all Food Recipes"
+			dependencies: ["41E39371AD53171E"]
+			optional: true
+			id: "701D1396B67827CA"
+			tasks: [{
+				id: "0FAE76907D14A2B2"
+				type: "item"
+				item: "cookingforblockheads:no_filter_edition"
+			}]
+			rewards: [{
+				id: "0F23F91E145BD5D2"
+				type: "item"
+				item: "minecraft:bread"
+				count: 3
+			}]
+		}
+		{
+			title: "Cooking for Blockheads Quest Line"
+			x: -4.0d
+			y: 5.0d
+			subtitle: "Food crafting made easy!"
+			description: [
+				"These books are very important if you want to easily craft food"
+				""
+				"After retrieving the reward once complete, open this book and it will show you what you can craft with the reward items"
+				""
+				"Place the cooking table down and connect it with other kitchen blocks, such as the Fridge or Kitchen Counters."
+				""
+				"Right-clicking the cooking table with a #NoFilter edition will turn it into a #NoFilter Cooking Table, making it so it always shows all recipes rather than just the ones you can cook right now"
+			]
+			size: 1.5d
+			id: "41E39371AD53171E"
+			tasks: [{
+				id: "5DCAD5D97E682B1E"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [
+				{
+					id: "3D2CA2537968F7B8"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 2
+				}
+				{
+					id: "6FED2BCAA8DC79C4"
+					type: "item"
+					item: "minecraft:egg"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			subtitle: "Crafts foods with whats in your inventory"
+			dependencies: ["41E39371AD53171E"]
+			id: "1D6CEA0845DECC92"
+			tasks: [{
+				id: "62A24E18DBA14E7A"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [{
+				id: "7DA4F230EFE137D3"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			title: "Cooking Table (Core Block for Mod)"
+			x: -4.0d
+			y: 1.0d
+			subtitle: "Place the cooking table down and connect it with other kitchen blocks, such as the Fridge or Kitchen Counters."
+			description: [
+				"The Cooking Table is the core of a multiblock kitchen. Right-clicking it will bring up the interface of the recipe book, in which you can quickly craft items using the ingredients in your kitchen."
+				""
+				"In order for a kitchen to count as connected, blocks must be touching each other. The Kitchen Floor can be used to connect blocks that are further apart."
+			]
+			dependencies: ["1D6CEA0845DECC92"]
+			id: "36D6DAD12ECE69C0"
+			tasks: [{
+				id: "035C141BB4748F46"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [{
+				id: "40F527EDA2BE543E"
+				type: "item"
+				item: "cookingforblockheads:white_kitchen_floor"
+				count: 3
+			}]
+		}
+		{
+			title: "Kitchen Floor (Connect Blocks)"
+			x: -5.0d
+			y: 0.0d
+			subtitle: "Kitchen Floors are used to connect other CFBH Blocks"
+			description: ["The kitchen floor can be used to connect kitchen blocks to each other even when they're not directly touching."]
+			dependencies: ["36D6DAD12ECE69C0"]
+			id: "73A48269636AF27E"
+			tasks: [{
+				id: "79B95402E4D3C3E1"
+				type: "item"
+				item: "cookingforblockheads:white_kitchen_floor"
+			}]
+			rewards: [{
+				id: "3EE710E897F97E60"
+				type: "item"
+				item: "minecraft:black_concrete"
+				count: 4
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			subtitle: "Ingredients within the fridge will be made available for recipes in the Cooking Table"
+			description: [
+				"Right-click to open the fridge's interface. It's basically like a chest."
+				""
+				"If you shift-right-click the door it will open the fridge without opening the interface, allowing you to put items in by simply right-clicking them into the front side."
+				""
+				"Place your ingredients into the Fridge (or another kitchen block) and right-click the cooking table. The Cooking Table will also consider ingredients that you have in your inventory right now."
+			]
+			dependencies: ["36D6DAD12ECE69C0"]
+			id: "1D8E8F60359023F0"
+			tasks: [{
+				id: "6E971E512473145C"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+			}]
+			rewards: [{
+				id: "5FC55524D65160A9"
+				type: "item"
+				item: "minecraft:terracotta"
+				count: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			subtitle: "Ingredients within the counter will be made available for recipes in the Cooking Table."
+			description: [
+				"Right-click to open the kitchen counter's interface. It's basically like a chest."
+				""
+				"If you shift-right-click the door it will open the counter without opening the interface, allowing you to put items in by simply right-clicking them into the front side."
+				""
+				"The Kitchen Counter, like many kitchen blocks, can be dyed by right-clicking it with a dye."
+			]
+			dependencies: ["1D8E8F60359023F0"]
+			id: "306415086D016BA5"
+			tasks: [{
+				id: "49AE19A00BC011DB"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+			rewards: [{
+				id: "07E579D8891D3972"
+				type: "item"
+				item: "minecraft:terracotta"
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			subtitle: "Pump water into this bad boy for recipes to have water or to use it for water buckets"
+			description: [
+				"The Sink comes with two functions: by itself, it can be right-clicked to fill buckets with water, clean dyed wool or armor, or just make fun water splashes. When it is used as part of a multiblock kitchen, recipes that require water buckets will automatically use water from the sink (some may still require a bucket though)."
+				""
+				"Right-click with a bucket to fill the bucket with water. Right-click with dyed wool or armor to clean the color off."
+			]
+			dependencies: ["306415086D016BA5"]
+			id: "55ABD8CAB40F2AE3"
+			tasks: [{
+				id: "07F7F4A4ED7323FB"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [{
+				id: "1EC939FCDD272BC2"
+				type: "item"
+				item: "minecraft:black_stained_glass"
+				count: 3
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			subtitle: "Used for cornering your multi-block so it doesnt look odd"
+			dependencies: ["306415086D016BA5"]
+			id: "08522A9B957F00C5"
+			tasks: [{
+				id: "1A875920499D92A4"
+				type: "item"
+				item: "cookingforblockheads:corner"
+			}]
+			rewards: [{
+				id: "6A9CD34DBEDCCC69"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 9
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			subtitle: "The Spice Rack holds up to nine ingredients that will be made available to your multiblock kitchen."
+			description: [
+				"Right-click the spice rack with an item in your hand to put the item on the spice rack. Right-clicking the spice rack when it already has an item in that spot will retrieve or swap the item out."
+				""
+				"You can also open the interface of the spice rack by right-clicking it with an empty hand and manage its content that way."
+			]
+			dependencies: ["7B2148D1860FB977"]
+			id: "1F39963B52A803FE"
+			tasks: [{
+				id: "5CEE770154A772C4"
+				type: "item"
+				item: "cookingforblockheads:spice_rack"
+			}]
+			rewards: [{
+				id: "472AB5DAFE286343"
+				type: "item"
+				item: "minecraft:iron_nugget"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "The Toaster possesses magical heating powers to convert Untoasted Toast to Toast."
+			description: [
+				"It acts as a standalone block and does not provide any further functionality to a Multiblock Kitchen."
+				""
+				"Right-click the toaster with a supported type of bread to put it in. You can put two pieces of bread into the toaster at once."
+				""
+				"Right-clicking the toaster again when it's full (or with an empty hand) will start the toasting process. After a little time has passed, the finished toast will pop out at the top."
+			]
+			dependencies: ["1F39963B52A803FE"]
+			id: "2F1B85B169DEA436"
+			tasks: [{
+				id: "1E62EB9C62D84C6D"
+				type: "item"
+				item: "cookingforblockheads:toaster"
+			}]
+			rewards: [{
+				id: "7523DF25AD75EEEC"
+				type: "item"
+				item: "minecraft:bread"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "The Tool Rack holds up to two tools that will be made available to your multiblock kitchen. You can also just use it by itself as a ... well, tool rack."
+			description: ["Right-click the tool rack with an item in your hand to put the item on the tool rack. Right-clicking the tool rack when it already has an item in that spot will retrieve or swap the item out."]
+			dependencies: ["1F39963B52A803FE"]
+			id: "176A2B5439AFC1C0"
+			tasks: [{
+				id: "402546A551D5B93D"
+				type: "item"
+				item: "cookingforblockheads:tool_rack"
+			}]
+			rewards: [{
+				id: "7CC318CEAAACFC76"
+				type: "item"
+				item: "minecraft:glass"
+				count: 7
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			subtitle: "The Oven can cook large amounts of food efficiently and fast. When used as part of a Multiblock Kitchen, it will unlock smelting recipes in the Cooking Table."
+			description: [
+				"Place coal in the fuel slot on the left. Place uncooked food in the three slots at the top. The oven will automatically pull nine items into its internal buffer, cook them, and them move them over to the output slots on the right."
+				""
+				"If you shift-right-click the door it will open the oven without opening the interface, allowing you to put items in by simply right-clicking them into the front side."
+			]
+			dependencies: ["55ABD8CAB40F2AE3"]
+			id: "7B2148D1860FB977"
+			tasks: [{
+				id: "4BE244330E7B80C3"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [{
+				id: "5C1F68C851BA5B7F"
+				type: "item"
+				item: "minecraft:oak_slab"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "The Milk Jar is a small container able to hold eight buckets of milk. If used as part of a multiblock kitchen, it will provide its milk to recipes that need it."
+			description: ["Right-click with a bucket of milk to put milk into the milk jar. Right-click with an empty bucket to take it back out."]
+			dependencies: ["176A2B5439AFC1C0"]
+			id: "06F8A73446A62424"
+			tasks: [{
+				id: "730F7446E55E2D65"
+				type: "item"
+				item: "cookingforblockheads:milk_jar"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			subtitle: "This cow jar of milk will continously produce milk"
+			description: [
+				"{image:kubejs:textures/gui/presets/cow_jar.png width:200 height:200 align:1}"
+				"Follow the image above to a cow milk jar using an anvil, a cow, and a milk jar. Smash the cow down into the jar using an anvil (Anvil should be above 1 empty block above cow)"
+				""
+				"Right-click with a bucket of milk to put milk into the milk jar. Right-click with an empty bucket to take it back out"
+			]
+			dependencies: ["06F8A73446A62424"]
+			id: "148CD79857AA05E3"
+			tasks: [{
+				id: "18D4D7BDB4AD3289"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [
+				{
+					id: "37567669B413B16F"
+					type: "item"
+					item: "plushies:cow_plushie"
+				}
+				{
+					id: "3F250568467D38D1"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			subtitle: "This is just like a kitchen counter however its a cabinet. Has the same multi-block usage"
+			dependencies: ["306415086D016BA5"]
+			id: "358C2AB8B756DA30"
+			tasks: [{
+				id: "75E7B2FA06A2BB20"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+			}]
+			rewards: [{
+				id: "4E22BBC1348891BD"
+				type: "item"
+				item: "croptopia:raisin_oatmeal_cookie"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "The Fruit Basket is a multi-block part of the kitchen that will store fruits for recipes"
+			dependencies: ["176A2B5439AFC1C0"]
+			id: "05813BEB39BC7FC2"
+			tasks: [{
+				id: "3E8D963C932069F1"
+				type: "item"
+				item: "cookingforblockheads:fruit_basket"
+			}]
+			rewards: [{
+				id: "067DE5A1FFEEAEBE"
+				type: "item"
+				item: "croptopia:banana"
+				random_bonus: 3
 			}]
 		}
 	]

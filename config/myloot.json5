@@ -73,6 +73,7 @@
   "disabledLootTables": [
     "bosses_of_mass_destruction:chests/gauntlet",
     "bosses_of_mass_destruction:chests/obsidilith",
-    "bosses_of_mass_destruction:chests/lich_tower"
+    "bosses_of_mass_destruction:chests/lich_tower",
+    "bosses_of_mass_destruction:chests/void_blossom"
   ]
 }

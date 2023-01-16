@@ -8,6 +8,111 @@
 	subtitle: ["Everything Monsters"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Friends and Foes - Experience Mob"
+			description: [
+				"Maulers hunt chickens, rabbits, frogs, baby zombies and small slimes, maulers also becomes hostile to a player or other mob that attacks it."
+				""
+				"Sometimes maulers can burrow down to the ground bellow and wait there for its prey."
+				""
+				"You can feed maulers by right clicking it with enchanted item/book. It will eat the given item/book and store the experience points in it. When mauler does have stored any experience points you can right click on it with an empty glass bottle(s) and fill it with experience, thus getting the Bottle o' Enchanting."
+			]
+			id: "7F8E95D2DB42B56D"
+			tasks: [{
+				id: "5E7A23DEFC7E3631"
+				type: "observation"
+				title: "You spotted a Mauler!"
+				icon: "friendsandfoes:mauler_spawn_egg"
+				timer: 0L
+				observe_type: 0
+				to_observe: "friendsandfoes:mauler"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Friends and Foes - Copper Friend"
+			description: [
+				"Copper golems are created by first placing any waxed or unwaxed variant of copper block as a bottom block, carved pumpkin or jack o'lantern as a middle block, and then placing a lightning rod on top of the pumpkin block."
+				""
+				"- Using an axe on a waxed copper golem turns it into the respective unaffected copper golem. In addition, using an axe on an exposed, weathered, or oxidized copper golem- reverts it one stage to an unaffected, exposed, or weathered copper button respectively."
+				"- Using a copper ingot on a copper golem restores its health by 5"
+			]
+			id: "226BF7C999FA34D6"
+			tasks: [{
+				id: "32ED237E0253918B"
+				type: "observation"
+				title: "You spotted a Copper Golem!"
+				icon: "friendsandfoes:copper_golem_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "friendsandfoes:copper_golem"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "Friends and Foes - Light Detector"
+			description: [
+				"Tamed glares will occasionally fly to the dark areas withing a 8 block radius and become grumpy, letting owner know that monsters can spawn there."
+				""
+				"Glares can be tamed by feeding them glow berries with 1⁄3 chance of success."
+				""
+				"Like tamed wolves and cats, a tamed glare follows the player unless it is leashed to the fence, and may teleport if there is a sufficient distance between them and the player. Like all tamed animals upon death, a death message is displayed to its owner."
+			]
+			id: "56DFA9EF1C8D818D"
+			tasks: [{
+				id: "461BA9C1F9A11E2D"
+				type: "observation"
+				title: "You spotted a Glare!"
+				icon: "friendsandfoes:glare_spawn_egg"
+				timer: 0L
+				observe_type: 0
+				to_observe: "friendsandfoes:glare"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			subtitle: "Friends and Foes - Flowery Cow"
+			description: [
+				"Breeding: A pair of mooblooms can breed after being given wheat. A moobloom cannot be bred with a cow unless the moobloom has been sheared."
+				""
+				"Shearing a mooblooms drops 5 buttercups and turns the moobloom into a normal cow, emitting a smaller version of the explosion particle. The mooblooms don't grow back."
+				""
+				"Behavior: When walking, there is a chance that flower will spawn on the ground. With each flower they plant having an 40% chance of beign a buttercup, 40% chance of beign a dandelion, or a 20% chance of being a sunflower. Otherwise, mooblooms mostly had the same AI behavior as mooshrooms and cows. They wandered aimlessly, mooing and huffing constantly, avoiding lava and cliffs high enough to cause fall damage."
+			]
+			id: "0293263B2512A00E"
+			tasks: [
+				{
+					id: "06939B31A5584BFE"
+					type: "observation"
+					title: "You spotted a Moobloom!"
+					icon: "friendsandfoes:moobloom_spawn_egg"
+					timer: 0L
+					observe_type: 0
+					to_observe: "friendsandfoes:moobloom"
+				}
+				{
+					id: "61DA3072CB70A2DE"
+					type: "questsadditions:interaction"
+					entity: "friendsandfoes:moobloom"
+					nbt: { }
+					value: 100L
+					checkItem: true
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
 	quest_links: [ ]
 }

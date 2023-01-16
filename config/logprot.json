@@ -1,7 +1,7 @@
 {
   "invulTime": {
     "desc:": "Time in ticks the logging player is invulnerable, 20 ticks is 1sec. Default is 5secs so 100 ticks",
-    "invulTime": 100
+    "invulTime": 300
   },
   "maxDist": {
     "desc:": "Max distance in blocks(2d) the invulnerability lasts, default: 4",

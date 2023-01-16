@@ -29,6 +29,17 @@
 			}
 			structure: "minecells:portal"
 		}]
+		rewards: [{
+			id: "60D689ACEE33C984"
+			type: "item"
+			item: {
+				id: "minecraft:wooden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}]
 	}]
 	quest_links: [ ]
 }

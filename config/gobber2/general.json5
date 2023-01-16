@@ -254,11 +254,11 @@
 	   Global Bow Settings
 	   ******************************
 	*/
-	"projectileSpeed": 6.5,
-	"projectileDivergence": 0.0,
+	"projectileSpeed": 6.75,
+	"projectileDivergence": 0.10000000149011612,
 	"projectileRoll": 0.0,
-	"projectilePowerDamageBonus": 0.75,
-	"projectileFlameBurnSeconds": 60,
+	"projectilePowerDamageBonus": 0.8,
+	"projectileFlameBurnSeconds": 3,
 	"projectileExtraDamage": 0.0,
 	"projectileDropRange": 45,
 	/* 
@@ -269,13 +269,13 @@
 	   - cobweb and explode are mutually exclusive
 	   ***********************
 	*/
-	"enableEffectsGobberArrow": true,
-	"effectDurationGobberArrow": 300,
-	"enableGobberArrowCobweb": false,
+	"enableEffectsGobberArrow": false,
+	"effectDurationGobberArrow": 40,
+	"enableGobberArrowCobweb": true,
 	"enableGobberArrowExplode": false,
 	"explosionFactorGobberArrow": 2,
 	"extraDamageGobberArrow": 3,
-	"piercingLeveGobberArrow": 0,
+	"piercingLeveGobberArrow": 1,
 	"punchLevelGobberArrow": 0,
 	/* 
 	   
@@ -284,12 +284,12 @@
 	   - effects - slowing, wither, glowing
 	   ***********************
 	*/
-	"enableEffectsNetherArrow": true,
-	"effectDurationNetherArrow": 100,
+	"enableEffectsNetherArrow": false,
+	"effectDurationNetherArrow": 50,
 	"enableNetherArrowFire": true,
-	"secondsEntityOnFireDuration": 30,
+	"secondsEntityOnFireDuration": 3,
 	"extraDamageNetherArrow": 4,
-	"piercingLevelNetherArrow": 0,
+	"piercingLevelNetherArrow": 1,
 	"punchLevelNetherArrow": 0,
 	/* 
 	   
@@ -300,7 +300,7 @@
 	   ***********************
 	*/
 	"enableEffectsEndArrow": true,
-	"effectDurationEndArrow": 100,
+	"effectDurationEndArrow": 70,
 	"enablEndArrowCloud": true,
 	"enableEndArrowGlassCage": false,
 	"enableLevitationEndArrow": false,

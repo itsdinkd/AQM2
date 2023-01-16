@@ -1973,7 +1973,7 @@
               "maxGroupSize [default: 2]": 2
             },
             "piglin_brute": {
-              "weight [default: 0]": 0,
+              "weight [default: 0]": 5,
               "minGroupSize [default: 1]": 1,
               "maxGroupSize [default: 1]": 1
             }
@@ -2061,7 +2061,7 @@
               "maxGroupSize [default: 2]": 2
             },
             "piglin_brute": {
-              "weight [default: 0]": 0,
+              "weight [default: 0]": 1,
               "minGroupSize [default: 1]": 1,
               "maxGroupSize [default: 1]": 1
             }
@@ -2119,9 +2119,9 @@
         "monster": {
           "minecraft": {
             "ghast": {
-              "weight [default: 0]": 0,
-              "minGroupSize [default: 4]": 4,
-              "maxGroupSize [default: 4]": 4
+              "weight [default: 0]": 10,
+              "minGroupSize [default: 4]": 1,
+              "maxGroupSize [default: 4]": 3
             },
             "zombified_piglin": {
               "weight [default: 0]": 0,
@@ -2207,9 +2207,9 @@
         "monster": {
           "minecraft": {
             "ghast": {
-              "weight [default: 0]": 0,
-              "minGroupSize [default: 4]": 4,
-              "maxGroupSize [default: 4]": 4
+              "weight [default: 0]": 10,
+              "minGroupSize [default: 4]": 2,
+              "maxGroupSize [default: 4]": 2
             },
             "zombified_piglin": {
               "weight [default: 0]": 0,
@@ -2237,7 +2237,7 @@
               "maxGroupSize [default: 2]": 2
             },
             "piglin_brute": {
-              "weight [default: 0]": 0,
+              "weight [default: 0]": 1,
               "minGroupSize [default: 1]": 1,
               "maxGroupSize [default: 1]": 1
             }
@@ -2383,8 +2383,8 @@
         "monster": {
           "minecraft": {
             "ghast": {
-              "weight [default: 0]": 0,
-              "minGroupSize [default: 4]": 4,
+              "weight [default: 0]": 20,
+              "minGroupSize [default: 4]": 2,
               "maxGroupSize [default: 4]": 4
             },
             "zombified_piglin": {
@@ -2501,7 +2501,7 @@
               "maxGroupSize [default: 2]": 2
             },
             "piglin_brute": {
-              "weight [default: 0]": 0,
+              "weight [default: 0]": 2,
               "minGroupSize [default: 1]": 1,
               "maxGroupSize [default: 1]": 1
             }
@@ -2735,9 +2735,9 @@
         "monster": {
           "minecraft": {
             "ghast": {
-              "weight [default: 0]": 0,
-              "minGroupSize [default: 4]": 4,
-              "maxGroupSize [default: 4]": 4
+              "weight [default: 0]": 10,
+              "minGroupSize [default: 4]": 1,
+              "maxGroupSize [default: 4]": 2
             },
             "zombified_piglin": {
               "weight [default: 0]": 0,
@@ -2911,8 +2911,8 @@
         "monster": {
           "minecraft": {
             "ghast": {
-              "weight [default: 0]": 0,
-              "minGroupSize [default: 4]": 4,
+              "weight [default: 0]": 15,
+              "minGroupSize [default: 4]": 2,
               "maxGroupSize [default: 4]": 4
             },
             "zombified_piglin": {
@@ -2941,7 +2941,7 @@
               "maxGroupSize [default: 2]": 2
             },
             "piglin_brute": {
-              "weight [default: 0]": 0,
+              "weight [default: 0]": 1,
               "minGroupSize [default: 1]": 1,
               "maxGroupSize [default: 1]": 1
             }
@@ -3267,8 +3267,8 @@
         "monster": {
           "minecraft": {
             "ghast": {
-              "weight [default: 0]": 0,
-              "minGroupSize [default: 4]": 4,
+              "weight [default: 0]": 20,
+              "minGroupSize [default: 4]": 2,
               "maxGroupSize [default: 4]": 4
             },
             "zombified_piglin": {

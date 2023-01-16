@@ -1259,6 +1259,10 @@
     "deeperdarker:echo_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "culturaldelights:avocado_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

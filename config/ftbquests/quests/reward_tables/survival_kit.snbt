@@ -1,0 +1,82 @@
+{
+	id: "07F5894FC61B129C"
+	order_index: 12
+	title: "Survival Kit"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:torch", weight: 12 }
+		{ item: "kibe:big_torch", only_one: true }
+		{ item: "kibe:torch_sling" }
+		{ item: "minecraft:coal", count: 12, random_bonus: 4 }
+		{
+			item: {
+				id: "kibe:slime_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "kibe:white_sleeping_bag" }
+		{ item: "coxinhautilities:wooden_hopper" }
+		{ item: "coxinhautilities:aquatic_torch", count: 6 }
+		{ item: "sandwichable:burnt_food" }
+		{ item: "betternether:herbal_medicine", count: 2, random_bonus: 1 }
+		{ item: "byg:rainbow_eucalyptus_crafting_table" }
+		{ item: "fabric-furnaces:fabric_furnace" }
+		{ item: "minecraft:golden_apple", count: 2, random_bonus: 4 }
+		{
+			item: {
+				id: "harvest_scythes:golden_scythe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "harvest_scythes:golden_machete"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "lavajava:lava_java"
+				Count: 1b
+				tag: { }
+			}
+			count: 6
+		}
+		{
+			item: {
+				id: "lilwings:butterfly_net"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "simplyswords:iron_chakram"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "simplyswords:iron_claymore"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

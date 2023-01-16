@@ -1,0 +1,21 @@
+{
+  //True to disable the "...moved too quickly!..." error message on servers when players move too fast, along with the teleport.  [default = true]
+  "disableMovedTooQuickly": true,
+  //True to disable vehicle "...moved too quickly!..." error message on servers when players in vehicles move too fast, along with the teleport.  [default = true]
+  "disableVehicleMovedTooQuickly": true,
+  //True to replace Criterion sets in the AbstractCriterion class with a Concurrent Hash Set to make it thread safe.  [default = true]
+  //This prevents issues such as https://github.com/Draylar/inmis/issues/117
+  "useThreadSafeAbstractCriterionProgressions": true,
+  //Makes various ShulkerEntity code NPE safe.  False to disable.  [default = true]
+  "useNPESafeShulkerEntity": true,
+  //Changes some items to have max ItemStack size of 64 instead of their lower vanilla values [default = true]
+  //Applies for: Saddle, Bucket, Milk Bucket, Entity Buckets, Powdered Snow Buckets, Snowball, Boats, Ender Pearls,
+  //	Eggs, Enchanted Books, Honey Bottles, Potions, Music Discs, Horse Armor, Stews
+  "increaseMaxItemStackSizeForLowerOnes": true,
+  //Fixes ConcurrentModificationException with StructureTemplate.PalettedBLockInfoList [default = true]
+  "fixCMEPalettedBlockInfoList": true,
+  //Set to true to prevent kicking clients off when Sound packets are invalid on the server.  [default = false]
+  //It will instead print the error along with the sound ID that caused the error, and continue on.
+  //If set to false, this at least adds extra error logging to print the sound ID so you can locate the mod that's causing it.
+  "preventClientKickOnBadSoundPacket": false
+}

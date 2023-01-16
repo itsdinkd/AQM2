@@ -34,6 +34,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2A7A6BD4FD70D92A"
+				type: "item"
+				item: "archon:mana_berries"
+			}]
 		}
 		{
 			x: -9.0d
@@ -50,6 +55,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5448B13A60C31F17"
+				type: "item"
+				item: "archon:mana_berries"
 			}]
 		}
 		{
@@ -68,6 +78,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2CEA26D6172E3DB8"
+				type: "item"
+				item: "archon:mana_berries"
+			}]
 		}
 		{
 			x: -7.0d
@@ -84,6 +99,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "21684992DBB02AB1"
+				type: "item"
+				item: "archon:mana_berries"
 			}]
 		}
 		{
@@ -1013,6 +1033,12 @@
 						value: "archon:essences"
 					}
 				}
+			}]
+			rewards: [{
+				id: "59991EC5E4662F52"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8994734502158028496L
 			}]
 		}
 	]

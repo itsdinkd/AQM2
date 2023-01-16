@@ -8,7 +8,7 @@
 	"EliteXpMultiplier": 4,
 	"UltraXpMultiplier": 8,
 	"EldritchXpMultiplier": 12,
-	"EliteMinModifiers": 2,
+	"EliteMinModifiers": 3,
 	"UltraMinModifiers": 5,
 	"EldritchMinModifiers": 9,
 	"EliteMaxModifiers": 4,
@@ -35,9 +35,9 @@
 	"alchemistConfig": {
 		"name": "Alchemist",
 		"disabled": false,
-		"cooldown": 240,
+		"cooldown": 450,
 		"useStrongHealing": false,
-		"useStrongHarming": false
+		"useStrongHarming": true
 	},
 	"berserkConfig": {
 		"name": "Berserk",
@@ -54,7 +54,7 @@
 	"burningConfig": {
 		"name": "Burning",
 		"disabled": false,
-		"cooldown": 500,
+		"cooldown": 600,
 		"fireDuration": 6
 	},
 	"cloakedConfig": {
@@ -90,18 +90,18 @@
 	"ghastlyConfig": {
 		"name": "Ghastly",
 		"disabled": false,
-		"cooldown": 900,
-		"fireballPower": 1
+		"cooldown": 700,
+		"fireballPower": 2
 	},
 	"gravityConfig": {
 		"name": "Gravity",
 		"disabled": false,
-		"cooldown": 600
+		"cooldown": 500
 	},
 	"lethargicConfig": {
 		"name": "Lethargic",
 		"disabled": false,
-		"cooldown": 250,
+		"cooldown": 300,
 		"duration": 100,
 		"amplifier": 1
 	},
@@ -123,13 +123,13 @@
 	"resistantConfig": {
 		"name": "Resistant",
 		"disabled": false,
-		"amplifier": 0
+		"amplifier": 1
 	},
 	"starvingConfig": {
 		"name": "Starving",
 		"disabled": false,
-		"cooldown": 300,
-		"duration": 160,
+		"cooldown": 380,
+		"duration": 200,
 		"amplifier": 1
 	},
 	"stormyConfig": {
@@ -145,35 +145,35 @@
 	"sprinterConfig": {
 		"name": "Sprinter",
 		"disabled": false,
-		"cooldown": 600,
-		"duration": 100,
+		"cooldown": 500,
+		"duration": 150,
 		"amplifier": 4
 	},
 	"thornyConfig": {
 		"name": "Thorny",
 		"disabled": false,
-		"thornyReturnDamage": 0.255555999
+		"thornyReturnDamage": 0.205555999
 	},
 	"toxicConfig": {
 		"name": "Toxic",
 		"disabled": false,
 		"duration": 100,
-		"amplifier": 1
+		"amplifier": 2
 	},
 	"undyingConfig": {
 		"name": "Undying",
 		"disabled": false,
-		"regenerationDuration": 900,
+		"regenerationDuration": 700,
 		"regenerationAmplifier": 1,
 		"absorptionDuration": 1200,
 		"absorptionAmplifier": 5,
-		"fireResistanceDuration": 800
+		"fireResistanceDuration": 600
 	},
 	"weaknessConfig": {
 		"name": "Weakness",
 		"disabled": false,
-		"cooldown": 250,
-		"duration": 100,
+		"cooldown": 340,
+		"duration": 130,
 		"amplifier": 1
 	},
 	"webslingingConfig": {

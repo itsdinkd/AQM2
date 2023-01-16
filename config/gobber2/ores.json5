@@ -7,8 +7,8 @@
 	*/
 	"luckyVeinSize": 2,
 	"luckyMaxLevel": 100,
-	"luckyPerChunk": 11,
-	"luckyExpOrbs": 1,
+	"luckyPerChunk": 9,
+	"luckyExpOrbs": 4,
 	/* 
 	   
 	   ***********************
@@ -60,7 +60,7 @@
 	   Blast Resistance
 	   ***********************
 	*/
-	"oreBlastResistance": 1300,
+	"oreBlastResistance": 2000,
 	"glassBlastResistance": 1300,
 	"blockBlastResistance": 1300,
 	/* 
@@ -71,14 +71,14 @@
 	*/
 	"gobberVeinSize": 3,
 	"gobberMaxLevel": 40,
-	"gobberPerChunk": 11,
+	"gobberPerChunk": 10,
 	/* 
 	   
 	   ***********************
 	   Deepslate Gobber Ore
 	   ***********************
 	*/
-	"gobberDeepslateVeinSize": 2,
+	"gobberDeepslateVeinSize": 1,
 	"gobberDeepslateMaxLevel": 30,
 	"gobberDeepslatePerChunk": 2,
 	/* 

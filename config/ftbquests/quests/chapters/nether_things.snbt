@@ -501,10 +501,10 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -5.5d
+			x: -4.0d
+			y: -6.0d
 			subtitle: "Click Click, Boom"
-			dependencies: ["165629457163130E"]
+			dependencies: ["22C8D9B3F097EA88"]
 			id: "19E8F02178F9E006"
 			tasks: [{
 				id: "51F1B9F8D329E07B"
@@ -521,7 +521,7 @@
 				id: "616DFDB72454B0A6"
 				type: "item"
 				item: "doom:shotgun_shells"
-				random_bonus: 1
+				random_bonus: 2
 			}]
 		}
 		{
@@ -596,10 +596,10 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -6.0d
+			x: -3.0d
+			y: -5.5d
 			subtitle: "The third shotgun lol"
-			dependencies: ["19E8F02178F9E006"]
+			dependencies: ["165629457163130E"]
 			id: "22C8D9B3F097EA88"
 			tasks: [{
 				id: "3718A1963F7AA7F5"
@@ -616,7 +616,7 @@
 				id: "02770BEC63A25DFB"
 				type: "item"
 				item: "doom:shotgun_shells"
-				random_bonus: 2
+				random_bonus: 1
 			}]
 		}
 		{

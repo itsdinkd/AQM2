@@ -145,7 +145,7 @@
 			"showCraftableOnlyButton": true
 		},
 		// Declares the appearance of recipe's border.
-		"recipeBorder": "LIGHTER",
+		"recipeBorder": "DEFAULT",
 		// Declares whether entry panel is scrolled.
 		"scrollingEntryListWidget": false,
 		"horizontalEntriesBoundaries": 1.0,

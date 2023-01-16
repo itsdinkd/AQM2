@@ -108,6 +108,10 @@
 				small_fireball = true
 				zombie_horse = true
 				warden = true
+				ender_pearl = true
+				wither_skull = true
+				frog = true
+				shulker = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				badger = true
@@ -188,6 +192,10 @@
 				illusioner = true
 				knight5 = true
 				skeli1 = true
+				ender = true
+				enderzombie = true
+				knight3 = true
+				screeper = true
 
 			[light_sources.settings.entities.whisperwoods]
 				moth = true
@@ -241,6 +249,14 @@
 				blaze_guardian = true
 				stone_golem = true
 				thrown_rock = true
+				skeleton_vanguard = true
+				the_eye = true
+				gilded_stone = true
+				nightmare = true
+				soul_reaper = true
+				enderwarthog = true
+				ender_whale = true
+				necromancer = true
 
 			[light_sources.settings.entities.elementalcreepers]
 				illusion_creeper = false
@@ -267,6 +283,7 @@
 				werewolf = true
 				toad = true
 				hellhound = true
+				baphomet = true
 
 			[light_sources.settings.entities.valley]
 				perch = false
@@ -325,6 +342,10 @@
 				armoredbaron = true
 				chaingunbullets = true
 				arch_maykr = true
+				blood_maykr = true
+				maykr_drone = true
+				bloodbolt_mob = true
+				dronebolt_mob = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false
@@ -355,6 +376,8 @@
 				griffon = true
 				ridinglizard = true
 				moth = true
+				direwolf = true
+				dragon = true
 
 			[light_sources.settings.entities.archon]
 				skelt = true
@@ -362,6 +385,8 @@
 				tar = true
 				ayla = true
 				water_bolt = true
+				ice_ball = true
+				leven = true
 
 			[light_sources.settings.entities.duckling]
 				duck = true
@@ -408,6 +433,7 @@
 				horned_sheep = true
 				inky_sheep = true
 				patched_sheep = true
+				ashen_cow = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
@@ -490,6 +516,8 @@
 				naga = true
 				skull = true
 				flying_pig = true
+				firefly = true
+				jungle_skeleton = true
 
 			[light_sources.settings.entities.allay]
 				allay = true
@@ -521,6 +549,8 @@
 				grayling_butterfly = true
 				swallow_tail_butterfly = true
 				aponi_butterfly = true
+				swamp_hopper_butterfly = true
+				cloudy_puff_butterfly = true
 
 			[light_sources.settings.entities.automobility]
 				automobile = true
@@ -601,6 +631,8 @@
 			[light_sources.settings.entities.galosphere]
 				spectre = true
 				sparkle = true
+				glow_flare = true
+				silver_bomb = true
 
 			[light_sources.settings.entities.crittersandcompanions]
 				otter = true
@@ -622,6 +654,7 @@
 				mauler = true
 				glare = true
 				copper_golem = true
+				moobloom = true
 
 			[light_sources.settings.entities.chubbystuff]
 				quagsire = true
@@ -667,4 +700,29 @@
 				shriek_worm = true
 				shattered = true
 				sculk_snapper = true
+
+			[light_sources.settings.entities.immersive_aircraft]
+				gyrodyne = true
+				airship = true
+				biplane = true
+
+			[light_sources.settings.entities.hookshot]
+				hookshot = true
+
+			[light_sources.settings.entities.labels]
+				label = true
+
+			[light_sources.settings.entities.supplementaries]
+				red_merchant = true
+
+			[light_sources.settings.entities.gobber2]
+				gobber2_arrow_end = true
+				gobber2_arrow_nether = true
+
+			[light_sources.settings.entities.chococraft]
+				chocobo = true
+
+			[light_sources.settings.entities.betterend]
+				end_slime = true
+				end_fish = true
 

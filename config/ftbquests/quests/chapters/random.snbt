@@ -1,0 +1,865 @@
+{
+	id: "16DDF5210F9D327C"
+	group: "332CF3EA95B49108"
+	order_index: 4
+	filename: "random"
+	title: "Random"
+	subtitle: ["Vehicles, Special Gear, Blocks, and more"]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Magitek Mech"
+			icon: "mtmechs:ma_whole_item"
+			x: -2.0d
+			y: -3.0d
+			shape: "rsquare"
+			description: [
+				"Craft the parts."
+				""
+				"To run this mech, it needs fuel in the fuel slot. Shift + Rightclick the mech when its placed in the world. The core in the second slot to the left, and then a blaze rod (for fire beam) or snow ball (ice beam) in the last slot."
+				""
+				"Make sure you check keybindings!"
+			]
+			dependencies: ["665C302804F82839"]
+			id: "3FBEF45541CE33CE"
+			tasks: [
+				{
+					id: "7E48D9F2573A2124"
+					type: "item"
+					item: "mtmechs:ma_leg_item"
+				}
+				{
+					id: "1DD92490341A3C1B"
+					type: "item"
+					item: "mtmechs:ma_arm_item"
+				}
+				{
+					id: "29BE9384F25325EA"
+					type: "item"
+					item: "mtmechs:ma_chassis_item"
+				}
+				{
+					id: "5E7CAB0E7DA41525"
+					type: "item"
+					item: "mtmechs:ma_whole_item"
+				}
+			]
+			rewards: [{
+				id: "63969204FAE4C1EC"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+				count: 3
+			}]
+		}
+		{
+			title: "Tunnel Mech"
+			icon: "mtmechs:ta_whole_item"
+			x: -2.0d
+			y: -4.5d
+			shape: "rsquare"
+			description: [
+				"Craft the Tunnel Mech and dig some holes."
+				""
+				"This mech is fairly simple to use, Shift + Right click to input all the required items, which are its core, and fuel. It has an inventory as well!"
+			]
+			dependencies: ["665C302804F82839"]
+			id: "2A2008C87CF9239C"
+			tasks: [
+				{
+					id: "67F58B72E97552D5"
+					type: "item"
+					item: "mtmechs:ta_wheel_item"
+				}
+				{
+					id: "60A46BF122906B91"
+					type: "item"
+					item: "mtmechs:ta_arm_item"
+				}
+				{
+					id: "76A533C168F43412"
+					type: "item"
+					item: "mtmechs:ta_chassis_item"
+				}
+				{
+					id: "07F43326B8C6075F"
+					type: "item"
+					item: "mtmechs:ta_stack_item"
+				}
+				{
+					id: "4117DB79BB56C629"
+					type: "item"
+					item: "mtmechs:ta_whole_item"
+				}
+			]
+			rewards: [{
+				id: "34877C7271A50B1F"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+				count: 3
+			}]
+		}
+		{
+			title: "Proto Mech"
+			icon: "mtmechs:pa_whole_item"
+			x: -2.0d
+			y: -6.0d
+			shape: "rsquare"
+			description: [
+				"This mech is pretty much the same as the Magitek Mech, however, it requires a charged item, such as a battery to power it. "
+				""
+				"Once the mech is crafted, place it in the world. Shift + Right click to open its storage to where you put the parts. "
+				""
+				"You need to put the Core on the second slot from the left, and the charged item on the far left. The far right slot is either going to be a Blaze Rod (for fire beam), or Snow Ball (for ice beam). "
+			]
+			dependencies: ["665C302804F82839"]
+			id: "2A4BA9D513C799D6"
+			tasks: [
+				{
+					id: "48368D3C49C62D09"
+					type: "item"
+					item: "mtmechs:pa_chassis_item"
+				}
+				{
+					id: "7F53EE6FCE5A7B97"
+					type: "item"
+					item: "mtmechs:pa_leg_item"
+				}
+				{
+					id: "327CB29D194B5E25"
+					type: "item"
+					item: "mtmechs:pa_whole_item"
+				}
+			]
+			rewards: [{
+				id: "515C0EDA3201F9F2"
+				type: "choice"
+				table_id: 6198591403997276360L
+			}]
+		}
+		{
+			title: "Get Magitek (Mechs)"
+			x: -3.5d
+			y: -4.5d
+			shape: "rsquare"
+			subtitle: "First things first.... You need this core to even make the mech run."
+			description: [
+				"We have three Mechs, The Proto, Tunnel, and Magitek."
+				""
+				"Magitek shoots laser beams and attacks with its arms, and Proto does the same. The Tunnel mech is a miner, which mines 3x3 areas."
+				""
+				"Magitek and Tunnel are powered by fuel, Proto is required by energy."
+			]
+			size: 1.5d
+			id: "665C302804F82839"
+			tasks: [{
+				id: "2995E1AE2FF6C59C"
+				type: "item"
+				item: "mtmechs:magicite_item"
+			}]
+		}
+		{
+			title: "Create Race Cars, Tracks, and More"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "These cars are mountable, have an engine, and can do special things"
+			description: [
+				"You can add attachments like having a chest on your vehicle, smelter, harvest crops while driving, auto mechanic tables, and so much more."
+				""
+				"Once crafted, place the block down and right click to open its menu. You will see a lot of craftable options, and menus that you can switch for other parts"
+				""
+				""
+				"Different engines have different stats such as acceleration, speed, etc. The same goes for the assortment of tires."
+			]
+			size: 1.5d
+			id: "59B41AF90427E3C6"
+			tasks: [{
+				id: "58BC888CC281927B"
+				type: "item"
+				item: "automobility:auto_mechanic_table"
+			}]
+			rewards: [{
+				id: "7FE7F145F88D7673"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 3
+			}]
+		}
+		{
+			title: "Craft and Place 4 Tires"
+			x: 5.0d
+			y: -2.0d
+			subtitle: "You will then need 4 tires"
+			description: [
+				"After crafting the tires, you will need to then hold out your tires and right click the assembler."
+				""
+				"Do this four times. You should see the tires get added on each side"
+			]
+			dependencies: ["61F6FA4A9F5B40E0"]
+			id: "2CC476BC1EE26021"
+			tasks: [{
+				id: "0C7C6BD342964920"
+				type: "item"
+				title: "Craft Any 4 Tires"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "automobility:automobile_wheel"
+								tag: {
+									wheel: "automobility:standard"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_wheel"
+								tag: {
+									wheel: "automobility:off_road"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_wheel"
+								tag: {
+									wheel: "automobility:steel"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_wheel"
+								tag: {
+									wheel: "automobility:tractor"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_wheel"
+								tag: {
+									wheel: "automobility:carriage"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_wheel"
+								tag: {
+									wheel: "automobility:plated"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_wheel"
+								tag: {
+									wheel: "automobility:street"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_wheel"
+								tag: {
+									wheel: "automobility:gilded"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_wheel"
+								tag: {
+									wheel: "automobility:bejeweled"
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "53E6A22FB378065D"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			title: "Craft and Place your Attachment"
+			x: 7.0d
+			y: -4.0d
+			subtitle: "Get this attachment to auto harvest crops while driving"
+			description: [
+				"Boom! with your engine on your car should be ready to go! Before you drive off though, right click this attachment to the assembler"
+				""
+				"Now you are done! enjoy!"
+			]
+			dependencies: ["14DFDCE5EA013F6C"]
+			id: "0838B7AD88149AC5"
+			tasks: [{
+				id: "57586B40D13CF65B"
+				type: "item"
+				title: "Craft Any Attachment"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "automobility:front_attachment"
+								tag: {
+									attachment: "automobility:mob_controller"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:front_attachment"
+								tag: {
+									attachment: "automobility:crop_harvester"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:front_attachment"
+								tag: {
+									attachment: "automobility:grass_cutter"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:passenger_seat"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:crafting_table"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:loom"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:cartography_table"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:smithing_table"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:paver"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:backhoe"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:banner_post"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:saddled_barrel"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:ender_chest"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:chest"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:auto_mechanic_table"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:stonecutter"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:rear_attachment"
+								tag: {
+									attachment: "automobility:grindstone"
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A97F3B9833D4CF3"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 2
+			}]
+		}
+		{
+			title: "Craft and Place your Engine"
+			x: 5.0d
+			y: -4.0d
+			subtitle: "Lastly we need to add the engine"
+			description: ["Same as before, hold out the engine and right click that assembler."]
+			dependencies: ["2CC476BC1EE26021"]
+			id: "14DFDCE5EA013F6C"
+			tasks: [{
+				id: "2D7A75474B342E73"
+				type: "item"
+				title: "Craft Any Engine"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "automobility:automobile_engine"
+								Count: 1b
+								tag: {
+									engine: "automobility:iron"
+								}
+							}
+							{
+								id: "automobility:automobile_engine"
+								Count: 1b
+								tag: {
+									engine: "automobility:copper"
+								}
+							}
+							{
+								id: "automobility:automobile_engine"
+								Count: 1b
+								tag: {
+									engine: "automobility:gold"
+								}
+							}
+							{
+								id: "automobility:automobile_engine"
+								Count: 1b
+								tag: {
+									engine: "automobility:diamond"
+								}
+							}
+							{
+								id: "automobility:automobile_engine"
+								Count: 1b
+								tag: {
+									engine: "automobility:stone"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "484588470301C16B"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "Craft and Place your Frame"
+			x: 7.0d
+			y: -2.0d
+			subtitle: "In the mechanic menu, build this frame"
+			description: ["Once built, hold out your frame and right click the assembler to set your frame in place"]
+			dependencies: ["22BE9D47CEAA9B43"]
+			id: "61F6FA4A9F5B40E0"
+			tasks: [{
+				id: "6416303BBC21A84A"
+				type: "item"
+				title: "Craft Any of These Frames"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:wooden_motorcar"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:copper_motorcar"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:steel_motorcar"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:golden_motorcar"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:bejeweled_motorcar"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_white"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_orange"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_magenta"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:blue_tractor"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:shopping_cart"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:c_arr"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:pineapple"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_gray"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_pink"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_lime"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_yellow"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_light_blue"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_red"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_black"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:amethyst_rickshaw"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:quartz_rickshaw"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:prismarine_rickshaw"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:echo_rickshaw"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:red_tractor"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:yellow_tractor"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:green_tractor"
+								}
+								Count: 1b
+							}
+							{
+								id: "automobility:automobile_frame"
+								tag: {
+									frame: "automobility:standard_light_gray"
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "26C6FB02F6DD4AF8"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
+		}
+		{
+			title: "Automatic Assembler (Place parts on this)"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Youll need this if you want to build your car"
+			dependencies: ["59B41AF90427E3C6"]
+			id: "50F45256989D1FE7"
+			tasks: [{
+				id: "58506D57D6B44207"
+				type: "item"
+				item: "automobility:automobile_assembler"
+			}]
+			rewards: [{
+				id: "4A6EAE12BCB78F1B"
+				type: "item"
+				item: "minecraft:iron_bars"
+				count: 3
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "Once placed down you can then get to the good part"
+			dependencies: ["50F45256989D1FE7"]
+			id: "22BE9D47CEAA9B43"
+			tasks: [{
+				id: "05834E1232E2AD8B"
+				type: "questsadditions:place"
+				title: "Place your Assembler down"
+				icon: "automobility:automobile_assembler"
+				block_type: 0
+				block: "automobility:automobile_assembler"
+				value: 1L
+				replaced: "minecraft:air"
+				replace: false
+			}]
+		}
+		{
+			title: "Crowbar - The Part Remover"
+			x: 5.0d
+			y: 2.0d
+			subtitle: "Remove parts from assembler using this crowbar"
+			dependencies: ["50F45256989D1FE7"]
+			id: "017E505DDA6EFBE4"
+			tasks: [{
+				id: "3C8826CD66482B29"
+				type: "item"
+				item: "automobility:crowbar"
+			}]
+			rewards: [{
+				id: "61C732CD49FA31CF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			title: "Place Launch Gels and Drive on top of them"
+			x: 9.0d
+			y: -4.0d
+			subtitle: "Use on blocks to launch your car while driving"
+			description: ["This will help you get up cliffs as once you place it down and drive over it, it launches your car up a bit in the air"]
+			dependencies: ["0838B7AD88149AC5"]
+			id: "12F8D87B9AA12374"
+			tasks: [{
+				id: "1BFAB4E747062B44"
+				type: "item"
+				item: "automobility:launch_gel"
+			}]
+		}
+		{
+			title: "Build a course with Off Road Pathing"
+			x: 9.0d
+			y: -5.0d
+			subtitle: "You dont have to use this but you can set offroad paths"
+			dependencies: ["0838B7AD88149AC5"]
+			id: "1166514BF411D992"
+			tasks: [{
+				id: "4DDDC976A615C74E"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "automobility:sand_off_road"
+								Count: 1b
+							}
+							{
+								id: "automobility:dirt_off_road"
+								Count: 1b
+							}
+							{
+								id: "automobility:grass_off_road"
+								Count: 1b
+							}
+							{
+								id: "automobility:snow_off_road"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "635B37A2C273E859"
+				type: "item"
+				item: "automobility:grass_off_road"
+			}]
+		}
+		{
+			title: "Dash Panels go Boosty"
+			x: 9.0d
+			y: -6.0d
+			subtitle: "Place on the ground or slopes to boost like mario kart"
+			dependencies: ["0838B7AD88149AC5"]
+			id: "23115351F85EBD6D"
+			tasks: [{
+				id: "7ED9B04A7754B4E6"
+				type: "item"
+				item: "automobility:dash_panel"
+			}]
+		}
+		{
+			title: "Build and Place some Slopes"
+			x: 9.0d
+			y: -3.0d
+			subtitle: "Build slopes to go.... up"
+			id: "044F9BF9998A028D"
+			tasks: [
+				{
+					id: "4E4F1208C10F134D"
+					type: "item"
+					item: "automobility:steep_slope"
+				}
+				{
+					id: "606CDF34EFEEA977"
+					type: "item"
+					item: "automobility:slope"
+				}
+			]
+			rewards: [{
+				id: "55CABC8F063655F9"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 6
+			}]
+		}
+	]
+	quest_links: [ ]
+}

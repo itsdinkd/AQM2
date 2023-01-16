@@ -4,9 +4,9 @@
 	title: "Common"
 	loot_size: 1
 	rewards: [
-		{ item: "minecraft:iron_ingot", count: 2, random_bonus: 2 }
-		{ item: "minecraft:gold_ingot", count: 2, random_bonus: 1 }
-		{ item: "minecraft:diamond", random_bonus: 1 }
+		{ item: "minecraft:iron_ingot", count: 2, random_bonus: 2, weight: 2 }
+		{ item: "minecraft:gold_ingot", count: 2, random_bonus: 1, weight: 2 }
+		{ item: "minecraft:diamond", random_bonus: 3 }
 		{
 			item: {
 				id: "minecraft:lingering_potion"
@@ -24,6 +24,7 @@
 					Potion: "minecraft:strong_strength"
 				}
 			}
+			weight: 2
 		}
 		{
 			item: {
@@ -33,12 +34,23 @@
 					Potion: "minecraft:night_vision"
 				}
 			}
+			weight: 2
 		}
 		{ item: "gobber2:gobber2_gooey_bread", count: 2 }
-		{ item: "minecraft:bread", count: 9 }
-		{ item: "farmersdelight:roasted_mutton_chops", random_bonus: 1 }
+		{ item: "minecraft:bread", count: 9, weight: 4 }
+		{ item: "farmersdelight:roasted_mutton_chops", random_bonus: 1, weight: 2 }
 		{ item: "croparia:croparia" }
-		{ item: "botania:mana_diamond", random_bonus: 1 }
-		{ item: "gobber2:gobber2_foo", random_bonus: 1 }
+		{ item: "botania:mana_diamond", random_bonus: 1, weight: 2 }
+		{ item: "gobber2:gobber2_foo", random_bonus: 1, weight: 2 }
+		{ item: "betternether:herbal_medicine", weight: 2 }
+		{ item: "betternether:agave_medicine", random_bonus: 2, weight: 2 }
+		{ item: "cacao:white_chocolate", weight: 2 }
+		{ item: "minecraft:enchanted_golden_apple", weight: 2 }
+		{ item: "minecraft:oak_planks", count: 18, weight: 2 }
+		{ item: "minecraft:cobblestone", count: 16, weight: 2 }
+		{ item: "minecraft:sunflower", weight: 2 }
+		{ item: "minecraft:torch", count: 6, weight: 2 }
+		{ item: "teenycoal:teeny_torch", count: 12, weight: 2 }
+		{ item: "teenycoal:teeny_coal", count: 18, weight: 2 }
 	]
 }

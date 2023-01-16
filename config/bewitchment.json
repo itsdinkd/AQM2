@@ -22,9 +22,9 @@
   "vampireWeight": 10,
   "vampireMinGroupCount": 1,
   "vampireMaxGroupCount": 1,
-  "werewolfWeight": 10,
-  "werewolfMinGroupCount": 1,
-  "werewolfMaxGroupCount": 1,
+  "werewolfWeight": 0,
+  "werewolfMinGroupCount": 0,
+  "werewolfMaxGroupCount": 0,
   "hellhoundWeight": 0,
   "hellhoundMinGroupCount": 0,
   "hellhoundMaxGroupCount": 0

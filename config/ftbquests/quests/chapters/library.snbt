@@ -336,6 +336,16 @@
 				item: "archon:grimoire"
 			}]
 		}
+		{
+			x: -5.0d
+			y: -1.0d
+			id: "1F0FB5CE6666ED83"
+			tasks: [{
+				id: "60DD63D4A5DEE9B7"
+				type: "item"
+				item: "tr-patchouli:guide"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

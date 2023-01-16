@@ -94,7 +94,7 @@
     "quiver": false,
     "slingshot": true,
     "rope_arrow": true,
-    "bomb": true,
+    "bomb": false,
     "pancake": true
   }
 }

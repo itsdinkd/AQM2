@@ -632,7 +632,7 @@
 		{
 			title: "Moving Luggage"
 			x: 10.0d
-			y: -1.0d
+			y: -3.0d
 			subtitle: "The best companion one can have, the true UHaul"
 			description: [
 				"This guy here will follow you throughout the world and pick up any item that is near you. "
@@ -654,6 +654,32 @@
 				id: "35015819EDB2D391"
 				type: "item"
 				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			title: "Storage Labels!"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Better than item frames"
+			description: [
+				"Labels functions similar to item frames but can adapt to all surfaces and be physically connected to any solid block no matter the shape"
+				"{image:kubejs:textures/gui/presets/storage_labels.png width:100 height:100 align:1}"
+				"- By shift-clicking on a label with an item you'll be able to change its image, showing that item you selected"
+				"- Can accept glow ink sacks to make then glow in the dark or be colored with any dye"
+				"- Using a feather on them will display the item name"
+			]
+			size: 2.0d
+			id: "5C5BBEBB64C24731"
+			tasks: [{
+				id: "6B07006C5122FBF5"
+				type: "item"
+				item: "labels:label"
+			}]
+			rewards: [{
+				id: "7708AE804B07293A"
+				type: "item"
+				item: "labels:label"
 				count: 2
 			}]
 		}

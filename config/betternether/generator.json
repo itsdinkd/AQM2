@@ -39,7 +39,7 @@
         }
       },
       "cities": {
-        "distance [default: 64]": 64,
+        "distance [default: 64]": 80,
         "overworld [default: false]": false
       }
     }

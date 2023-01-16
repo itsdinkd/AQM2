@@ -13,7 +13,7 @@
   //Chance for a soul to drop when killing players and creatures using a soul scythe (bosses always drop a soul)
   //The number should follow these bounds: 0 <= x <= 1.0
   //Default: 0.05 (1/20)
-  "soulDropChance": 0.025,
+  "soulDropChance": 0.0333,
   //Weight/Chance for the Wizard Village House to spawn in villages
   //Default: 10
   "wizard_village_weight": 10,

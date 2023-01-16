@@ -1053,7 +1053,7 @@
 			}]
 		}
 		{
-			title: "Rough Diamond"
+			title: "How to get Diamonds from Ore"
 			icon: "minecraft:diamond_ore"
 			x: 1.5d
 			y: 6.0d
@@ -1073,8 +1073,9 @@
 			}]
 		}
 		{
+			title: "How to get Redstone from Ore"
 			icon: "minecraft:redstone_ore"
-			x: 1.5d
+			x: -0.5d
 			y: 8.0d
 			subtitle: "Redstone ores now drop Rough Cinnabar. Use it on a grindstone to get XP and Redstone"
 			id: "44C0CB2B73F3D208"
@@ -1090,6 +1091,7 @@
 			}]
 		}
 		{
+			title: "How to get Lapis from Ore"
 			icon: "minecraft:lapis_ore"
 			x: -0.5d
 			y: 6.0d
@@ -1098,6 +1100,7 @@
 			tasks: [{
 				id: "28997BD8301B866B"
 				type: "item"
+				title: "Found Rough Lazurite"
 				item: "spelunkery:rough_lazurite"
 			}]
 			rewards: [{
@@ -1108,7 +1111,8 @@
 			}]
 		}
 		{
-			x: -0.5d
+			title: "How to get Emeralds from Ore"
+			x: 1.5d
 			y: 8.0d
 			subtitle: "Emerald ores now drop Rough Emeralds. Use it on a grindstone to get XP and Emeralds"
 			id: "52BDD1C6FE1A5B30"
@@ -1126,6 +1130,7 @@
 			}]
 		}
 		{
+			title: "Polish For Lapis and Redstone"
 			icon: "minecraft:grindstone"
 			x: 0.5d
 			y: 7.0d
@@ -1134,27 +1139,15 @@
 				"The Spelunkery mod changes vanilla drops to these rough materials that must be grinded to get the original material."
 				""
 				"This method gives you more XP than you would normally receive, as well as provides geodes, especially in nether."
+				""
+				"Hold your Rough material and right click the grindstone"
 			]
 			dependencies: [
 				"44C0CB2B73F3D208"
-				"52BDD1C6FE1A5B30"
-				"39679CF126BC77D8"
 				"0E707452E54861F5"
 			]
 			id: "49C6A70BF7817773"
 			tasks: [
-				{
-					id: "09576A98BF4757D9"
-					type: "questsadditions:use"
-					title: "Grind 2 Rough Diamonds"
-					icon: "spelunkery:rough_diamond"
-					block_type: 0
-					block: "minecraft:grindstone"
-					value: 2L
-					checkItem: true
-					isItemInteraction: true
-					item: "spelunkery:rough_diamond"
-				}
 				{
 					id: "1D9993B3BD3C1FE1"
 					type: "questsadditions:use"
@@ -1179,23 +1172,11 @@
 					isItemInteraction: true
 					item: "spelunkery:rough_lazurite"
 				}
-				{
-					id: "2A0B660775515126"
-					type: "questsadditions:use"
-					title: "Grind 2 Rough Emeralds"
-					block_type: 0
-					block: "minecraft:grindstone"
-					value: 2L
-					checkItem: true
-					isItemInteraction: true
-					item: "spelunkery:rough_emerald"
-				}
 			]
 			rewards: [{
 				id: "6C0F8E10566E42ED"
 				type: "item"
 				item: "gobber2:gobber2_globette"
-				count: 2
 			}]
 		}
 		{
@@ -1267,9 +1248,10 @@
 		}
 		{
 			x: 0.5d
-			y: 8.5d
+			y: 9.0d
 			subtitle: "Grind Rock Salt for Special Salt"
 			dependencies: ["49C6A70BF7817773"]
+			optional: true
 			id: "53B4A10244A98681"
 			tasks: [{
 				id: "54273296B05C691F"
@@ -1279,10 +1261,11 @@
 		}
 		{
 			x: 0.5d
-			y: 10.0d
+			y: 10.5d
 			subtitle: "Use this on the ground as you would redstone to block mob paths"
 			description: ["{image:kubejs:textures/gui/presets/salt_circle.png width:150 height:150 align:1}"]
 			dependencies: ["53B4A10244A98681"]
+			optional: true
 			id: "0EE58CAB2A0B4594"
 			tasks: [{
 				id: "62EECE7DF778BC32"
@@ -1304,6 +1287,82 @@
 				id: "5247B8C6F37DC4DA"
 				type: "item"
 				item: "dummmmmmy:target_dummy_placer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			subtitle: "Once you have rough materials, polish them on a diamond grindstone"
+			description: [
+				"The Spelunkery mod changes vanilla drops to these rough materials that must be grinded to get the original material."
+				""
+				"This method gives you more XP than you would normally receive, as well as provides geodes, especially in nether."
+				""
+				"Hold your Rough material and right click the diamond grindstone"
+			]
+			dependencies: [
+				"52BDD1C6FE1A5B30"
+				"39679CF126BC77D8"
+			]
+			id: "1B005CAF738D27D7"
+			tasks: [
+				{
+					id: "43FEE59AFAFED185"
+					type: "questsadditions:use"
+					title: "Polish Rough Diamonds"
+					block_type: 0
+					block: "spelunkery:diamond_grindstone"
+					value: 2L
+					checkItem: true
+					isItemInteraction: true
+					item: "spelunkery:rough_diamond"
+				}
+				{
+					id: "6651CE8A0F46B13D"
+					type: "questsadditions:use"
+					title: "Polish Rough Emeralds"
+					block_type: 0
+					block: "spelunkery:diamond_grindstone"
+					value: 2L
+					checkItem: true
+					isItemInteraction: true
+					item: "spelunkery:rough_emerald"
+				}
+				{
+					id: "4F4ED62B64550427"
+					type: "questsadditions:place"
+					title: "Place Diamond Grindstone"
+					block_type: 0
+					block: "spelunkery:diamond_grindstone"
+					value: 1L
+					replaced: "minecraft:air"
+					replace: false
+				}
+			]
+			rewards: [{
+				id: "49CD837D1C690654"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "Customize Your Armor Stand"
+			x: 6.0d
+			y: 7.0d
+			subtitle: "Change Pose, Size, and More"
+			description: ["Place the armor stand, and then sneak + right click to open the modification screen"]
+			id: "2C9EAC8FF3841CB4"
+			tasks: [{
+				id: "14F793FDF8968F22"
+				type: "item"
+				item: "minecraft:armor_stand"
+			}]
+			rewards: [{
+				id: "1F6C66D69B8239CA"
+				type: "item"
+				item: "minecraft:wheat"
+				random_bonus: 5
 			}]
 		}
 	]

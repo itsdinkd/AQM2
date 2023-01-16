@@ -29,7 +29,8 @@
       "advanced_reborn": 7408640,
       "indrev": 3885790,
       "ae2": 6556063,
-      "createaddition": 7408640
+      "createaddition": 7408640,
+      "alloy_forgery": 15684178
     },
     "units": {
       "megane": "E",
@@ -41,7 +42,8 @@
       "advanced_reborn": "E",
       "indrev": "LF",
       "ae2": "AE",
-      "createaddition": "E"
+      "createaddition": "E",
+      "alloy_forgery": ""
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -50,16 +52,6 @@
   "fluid": {
     "enabled": true,
     "expandWhenSneak": false,
-    "colors": {
-      "megane:default": 855385,
-      "minecraft:water": 4159204,
-      "kibe:liquid_xp": 5635925,
-      "modern_industrialization:steam": 15658734,
-      "modern_industrialization:crude_oil": 4077624,
-      "modern_industrialization:sulfuric_naphtha": 10852190,
-      "modern_industrialization:hydrogen": 1788620,
-      "modern_industrialization:lubricant": 16761856
-    },
     "blacklist": [
       "minecraft:water",
       "minecraft:lava",
