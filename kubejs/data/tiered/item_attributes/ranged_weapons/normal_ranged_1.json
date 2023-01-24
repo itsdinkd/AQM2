@@ -1,0 +1,16 @@
+{
+    "id": "tiered:normal_ranged_1",
+    "verifiers": [
+        {
+            "tag": "c:bows"
+        },
+        {
+            "tag": "c:crossbows"
+        }
+    ],
+    "weight": 90,
+    "style": {
+        "color": "white"
+    },
+    "attributes": []
+}

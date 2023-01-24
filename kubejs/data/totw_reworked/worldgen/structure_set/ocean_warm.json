@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "totw_reworked:ocean_warm",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 300,
+        "separation": 80,
+        "salt": 1689782
+    }
+}

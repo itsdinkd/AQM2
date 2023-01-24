@@ -14,8 +14,8 @@
       "type": "generic.luck",
       "modifier": {
         "name": "tiered:lucky",
-        "operation": "MULTIPLY_TOTAL",
-        "amount": 0.175
+        "operation": "ADDITION",
+        "amount": 1
       },
       "optional_equipment_slots": [
         "MAINHAND"

@@ -7,10 +7,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "artifacts:night_vision_goggles"
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:pocket_piston"
         },
         {

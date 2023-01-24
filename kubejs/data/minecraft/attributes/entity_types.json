@@ -2,6 +2,16 @@
     "values": {
         "minecraft:creeper": {
             "additionalentityattributes:water_speed": 0.7
+        },
+        "minecraft:wither_skeleton": {
+            "minecraft:generic.max_health": 40,
+            "minecraft:generic.attack_damage": 8.5
+
+        },
+        "minecraft:blaze": {
+            "minecraft:generic.max_health": 30,
+            "minecraft:generic.attack_damage": 8.0
+
         }
     }
 }

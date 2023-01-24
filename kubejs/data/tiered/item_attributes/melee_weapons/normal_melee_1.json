@@ -1,0 +1,13 @@
+{
+    "id": "tiered:normal_melee_1",
+    "verifiers": [
+        {
+            "tag": "c:swords"
+        }
+    ],
+    "weight": 100,
+    "style": {
+        "color": "white"
+    },
+    "attributes": []
+}

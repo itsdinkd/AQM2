@@ -7,15 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "artifacts:night_vision_goggles"
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:panic_necklace"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:obsidian_skull"
         },
         {
           "type": "minecraft:item",

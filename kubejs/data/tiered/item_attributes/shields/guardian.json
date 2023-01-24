@@ -15,7 +15,7 @@
       "modifier": {
         "name": "tiered:guardian",
         "operation": "ADDITION",
-        "amount": 2
+        "amount": 1.5
       },
       "optional_equipment_slots": [
         "MAINHAND",

@@ -12,40 +12,44 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 1,
           "name": "artifacts:thorn_pendant"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 1,
           "name": "artifacts:whoopee_cushion"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 1,
           "name": "artifacts:charm_of_sinking"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "name": "artifacts:shock_pendant"
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
           "name": "artifacts:umbrella"
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
           "name": "artifacts:universal_attractor"
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
           "name": "artifacts:vampiric_glove"
         }
       ],
       "conditions": [
         {
           "condition": "artifacts:configurable_random_chance",
-          "default_probability": 0.2
+          "default_probability": 0.167
         }
       ]
     }

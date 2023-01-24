@@ -25,7 +25,14 @@ const arrRemove = [
 "botania:super_lava_pendant",
 "botania:terraform_rod",
 "botania:tornado_rod",
+"friendsandfoes:wildfire_crown",
 "botania:water_ring",
+"supplementaries:bomb_spiky_projectile",
+"supplementaries:bomb_blue",
+"supplementaries:bomb_projectile",
+"supplementaries:bomb_blue_projectile",
+"supplementaries:bomb_spiky",
+"supplementaries:bomb",
 "buildinggadgets:gadget_exchanging",
 "byg:lignite_block",
 "byg:lignite_ore",
@@ -274,13 +281,22 @@ const arrRemove = [
 "galosphere:silver_block",
 "galosphere:silver_ingot",
 "galosphere:silver_nugget",
+"soulsweapons:lost_soul",
 "galosphere:silver_ore",
+"fluidtank:fluid_source",
 "galosphere:deepslate_silver_ore",
 "galosphere:raw_silver_block",
 "ad_astra:steel_block",
 "ad_astra:steel_nugget",
 "ad_astra:steel_ingot",
+"soulsweapons:withered_wabbajack",
 "ad_astra:steel_plate",
+"archon:wither_stave",
+"archon:heat_ranger",
+"soulsweapons:mjolnir",
+"mythicmetals:carmot_nuke_core",
+"mythicmetals:banglum_nuke_core",
+"mythicmetals:quadrillum_nuke_core",
 "gearreborn:nv_goggles"
 ];
 
@@ -317,7 +333,9 @@ var removeTypeGear = [
 
 var idRemove = [
   "indrev:pulverizer/sulfur_dust_from_gunpowder",
-  "indrev:pulverizer/sulfur_dust"
+  "indrev:pulverizer/sulfur_dust",
+  "soulsweapons:bewitchment_molten_demon_heart",
+  "soulsweapons:moonstone_ring_2"
 ]
 
 ServerEvents.recipes( event => {

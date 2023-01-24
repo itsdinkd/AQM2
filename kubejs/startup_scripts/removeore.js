@@ -19,13 +19,18 @@ WorldgenEvents.remove(event => {
       'indrev:silver_ore',
       'indrev:deepslate_silver_ore',
       "modern_industrialization:nickel_ore",
+      "modern_industrialization:deepslate_nickel_ore",
       'modern_industrialization:deepslate_salt_ore',
       'modern_industrialization:salt_ore',
       'techreborn:deepslate_ruby_ore',
       'techreborn:ruby_ore',
       'croptopia:salt_ore',
       'galosphere:silver_ore',
-      'galosphere:deepslate_silver_ore'
+      'galosphere:deepslate_silver_ore',
+      "soulsweapons:moonstone_ore",
+      "soulsweapons:moonstone_ore_deepslate",
+      "soulsweapons:verglas_ore_deepslate",
+      "soulsweapons:verglas_ore"
       ]
   })
 

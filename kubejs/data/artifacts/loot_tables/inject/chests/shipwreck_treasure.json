@@ -33,10 +33,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "artifacts:night_vision_goggles"
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:running_shoes"
         },
         {

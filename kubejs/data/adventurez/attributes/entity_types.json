@@ -7,7 +7,13 @@
             "minecraft:generic.armor_toughness": 12.0
         },
         "adventurez:void_bullet": {
-            "minecraft:generic.attack_damage": 17.0
+            "minecraft:generic.attack_damage": 33.0
+        },
+        "adventurez:the_eye": {
+            "minecraft:generic.attack_damage": 36,
+            "minecraft:generic.armor": 20,
+            "minecraft:generic.knockback_resistance": 9.0,
+            "minecraft:generic.attack_knockback": 4.0
         },
         "adventurez:enderwarthog": {
             "minecraft:generic.max_health": 145.0,

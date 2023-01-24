@@ -1,1 +1,0 @@
-{"fabric:load_conditions":[{"condition":"fabric:all_mods_loaded","values":["modern_industrialization"]}],"results":[{"count":1,"item":"modern_industrialization:lead_dust"}],"type":"create:crushing","ingredients":[{"tag":"c:lead_ingots"}],"processingTime":500}

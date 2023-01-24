@@ -18,7 +18,7 @@
       "modifier": {
         "name": "tiered:berserk",
         "operation": "MULTIPLY_TOTAL",
-        "amount": 0.2
+        "amount": 0.15
       },
       "optional_equipment_slots": [
         "MAINHAND"

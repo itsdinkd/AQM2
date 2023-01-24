@@ -1,0 +1,40 @@
+{
+    "values": {
+        "soulsweapons:big_chungus": {
+            "minecraft:generic.max_health": 25.0
+        },
+        "soulsweapons:soulmass": {
+            "minecraft:generic.max_health": 90.0,
+            "minecraft:generic.armor": 8.0,
+            "minecraft:generic.attack_damage": 11.5
+        },
+        "soulsweapons:night_shade": {
+            "minecraft:generic.max_health": 500.0,
+            "minecraft:generic.armor": 15.0
+        },
+        "soulsweapons:dark_sorcerer": {
+            "minecraft:generic.max_health": 20.0,
+            "minecraft:generic.armor": 12.0,
+            "minecraft:generic.attack_damage": 4.55
+        },
+        "soulsweapons:withered_demon": {
+            "minecraft:generic.max_health": 150.0,
+            "minecraft:generic.armor": 10.0,
+            "minecraft:generic.attack_damage": 17.0
+        },
+        "soulsweapons:forlorn": {
+            "minecraft:generic.max_health": 20.0,
+            "minecraft:generic.attack_damage": 12.0
+        },
+        "soulsweapons:evil_forlorn": {
+            "minecraft:generic.max_health": 20.0,
+            "minecraft:generic.attack_damage": 12.0
+        },
+        "soulsweapons:remnant": {
+            "minecraft:generic.attack_damage": 4.2
+        },
+        "soulsweapons:returning_knight": {
+            "minecraft:generic.armor": 18.0
+        }
+    }
+}

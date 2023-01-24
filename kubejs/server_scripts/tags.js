@@ -41,15 +41,6 @@ priority: 100
 	];
 
 	const SimplyRareSwords = [
-		"simplyswords:runic_katana",
-		"simplyswords:runic_sai",
-		"simplyswords:runic_rapier",
-		"simplyswords:runic_twinblade",
-		"simplyswords:runic_glaive",
-		"simplyswords:runic_longsword",
-		"simplyswords:runic_spear",
-		"simplyswords:runic_cutlass",
-		"simplyswords:runic_claymore",
 		"simplyswords:watcher_claymore",
 		"simplyswords:watching_warglaive",
 		"simplyswords:toxic_longsword",
@@ -115,6 +106,9 @@ priority: 100
 	'doom:bfg_eternal',
 	'doom:bfg9000',
 	'doom:rocketlauncher',
+	'doom:sentinelhammer',
+	'doom:darklordcrucible',
+	'doom:cruciblesword',
 	'mcdar:wind_horn',
 	'mcdar:iron_hide_amulet',
 	'mcdar:ghost_cloak',
@@ -149,6 +143,35 @@ priority: 100
 		"inmis:blazing_backpack",
 		"inmis:withered_backpack"
 	]
+
+	const missingFishes = [
+		"wildlife:raw_bettafish",
+		"wildlife:raw_bluegill",
+		"wildlife:raw_catfish",
+		"wildlife:raw_anglerfish",
+		"wildlife:raw_stingray",
+		"wildlife:raw_koi",
+		"wildlife:raw_rainbow_trout",
+		"wildlife:raw_goldfish",
+		"wildlife:raw_shrimp",
+		"wildlife:raw_prawn",
+		"wildlife:raw_clam",
+		"wildlife:raw_mantaray",
+		"wildlife:rainbow_trout",
+		"wildlife:cooked_catfish",
+		"wildlife:cooked_rainbow_trout",
+		"wildlife:cooked_shrimp",
+		"wildlife:cooked_bettafish",
+		"wildlife:cooked_prawn",
+		"wildlife:cooked_stingray",
+		"wildlife:cooked_mantaray",
+		"wildlife:cooked_anglerfish",
+		"wildlife:cooked_bluegill",
+		"wildlife:cooked_goldfish",
+		"wildlife:cooked_clam",
+		"wildlife:cooked_koi"
+	]
+
 // Item Tags
 ServerEvents.tags('item', event => {
 
@@ -182,11 +205,23 @@ ServerEvents.tags('item', event => {
 		event.add("travelersbackpack:blacklisted_items", item)
 	})
 
+	missingFishes.forEach(function (item, index) {
+		event.add('minecraft:fishes', item)
+	})
+
 // Misc
 	event.add('c:wrenches', 'advanced_reborn:config_wrench')
 	event.add('c:wrenches','techreborn:wrench')
 	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
 	event.add("yigd:soulbound_blacklist", /^travelersbackpack:.*/)
+	event.add("aqm2:butterflies/cotton_balls", /^lilwings:.*_cotton_ball/)
+	event.add("aqm2:butterflies/elytra", /^lilwings:.*_elytra/)
+	event.add("aqm2:butterflies/wings", /^lilwings:.*_wings/)
+	event.add('things:hardening_catalyst_blacklist', /^spectrum:.*/)
+	event.add('things:hardening_catalyst_blacklist', /^artifacts:.*/)
+	event.add('things:hardening_catalyst_blacklist', /^kibe:.*/)
+	event.add('things:hardening_catalyst_blacklist', /^conjuring:.*/)
+	event.add('things:hardening_catalyst_blacklist', /^soulweapons:.*/)
 	event.add('c:rubies', 'betternether:nether_ruby')
 	event.add('c:silver_ingots', 'galosphere:silver_ingot')
 	event.add('c:silver_nuggets', 'galosphere:silver_nugget')

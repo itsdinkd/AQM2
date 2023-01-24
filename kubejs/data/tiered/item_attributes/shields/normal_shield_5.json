@@ -1,0 +1,13 @@
+{
+    "id": "tiered:normal_shield_1",
+    "verifiers": [
+        {
+            "tag": "c:shields"
+        }
+    ],
+    "weight": 100,
+    "style": {
+        "color": "white"
+    },
+    "attributes": []
+}

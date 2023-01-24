@@ -35,8 +35,22 @@ const SimplySwordsLootRemove = [
     "simplyswords:soulrender"
 ]
 
-const doomBossesLootJS = ['doom:motherdemon','doom:gladiator','doom:iconofsin','doom:arch_maykr', "adventurez:void_shadow"];
-const tagStacksWpns = Ingredient.of('aqm2:weapons_guarantee').stacks;
+const TYPE_DISABLED_ITEMS = [
+    "travelersbackpack:bat",
+    "travelersbackpack:cow",
+    "travelersbackpack:villager",
+    "travelersbackpack:crepper",
+    "travelersbackpack:cake",
+    "travelersbackpack:lapis",
+    "travelersbackpack:blaze",
+    "travelersbackpack:dragon",
+    "travelersbackpack:magma_cube",
+    "travelersbackpack:squid",
+    'travelersbackpack:standard',
+]
+
+const doomBossesLootJS = ['doom:motherdemon','doom:gladiator','doom:iconofsin','doom:arch_maykr', "adventurez:void_shadow", "soulsweapons:returning_knight", "soulsweapons:accursed_lord_boss", "soulsweapons:chaos_monarch", "soulsweapons:draugr_boss"];
+const tagStacksWpns = Ingredient.of('aqm2:weapons/rare').stacks;
 const tagStacksMCDW = Ingredient.of('aqm2:mcdw').stacks;
 
 const EquipmentSlot = Java.loadClass('net.minecraft.world.entity.EquipmentSlot');
@@ -47,25 +61,39 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("graveyard:vase_block").removeLoot(item);
     });
 
-    event.addLootTypeModifier(LootType.CHEST).removeLoot("mobz:boss_ingot")
+    TYPE_DISABLED_ITEMS.forEach(function(item,index){
+        event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY).removeLoot(item);
+        });    
 
+    event.addLootTypeModifier(LootType.CHEST).removeLoot("mobz:boss_ingot")
+    event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY).removeLoot("galosphere:silver_ingot")
     event.addLootTypeModifier(LootType.CHEST).removeLoot("gobber2:gobber2_arrow_end")
     event.addLootTypeModifier(LootType.CHEST).removeLoot("gobber2:gobber2_arrow_nether")
     event.addLootTypeModifier(LootType.CHEST).removeLoot("gobber2:gobber2_arrow")
+    event.addLootTypeModifier(LootType.CHEST).removeLoot("archon:glisteel_ingot")
+    event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:withered_wabbajack")
+    event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:soul_ingot")
+    event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("chococraft:gold_gysahl")
+    event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("soulsweapons:verglas")
+    event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("soulsweapons:moonstone")
+    event.addLootTableModifier('chococraft:blocks/gysahl_green').removeLoot("chococraft:gold_gysahl")
 
 
     // Chest Loot
     event.addLootTypeModifier(LootType.CHEST)
     .pool((pool) => {
-        pool.rolls([2, 6])
-        pool.randomChance(0.133)
+        pool.rolls([0, 6])
+        pool.randomChance(0.15)
     .addLoot("spelunkery:glowstick");
     });
 
     
     // Entity Loot
-    event.addLootTypeModifier(LootType.ENTITY).randomChance(0.08).addLoot("2x spelunkery:glowstick")
-    event.addLootTypeModifier(LootType.ENTITY).randomChance(0.05).addLoot("2x teenycoal:teeny_coal")
+    event.addLootTypeModifier(LootType.ENTITY).randomChance(0.05).pool((p) => {p.addLoot("spelunkery:glowstick").p.limitCount([0, 1], [2, 3])});
+    event.addLootTypeModifier(LootType.ENTITY).randomChance(0.03).pool((p) => {p.addLoot("teenycoal:teeny_coal").p.limitCount([0, 1], [3, 4])});
+    event.addEntityLootModifier("adventurez:void_shadow").addLoot("friendsandfoes:wildfire_crown")
+    event.addEntityLootModifier("soulsweapons:night_shade").addLoot("soulsweapons:moonstone")
+    event.addEntityLootModifier("soulsweapons:night_shade", "soulsweapons:chaos_monarch", "soulsweapons:draugr_boss", "soulsweapons:accursed_lord_boss", "soulsweapons:returning_knight").pool((p) => {p.addLoot("soulsweapons:verglas").p.limitCount([0, 1], [2, 3])});
 
     // Doom Drop Rare Wpns
     doomBossesLootJS.forEach(mob => {
@@ -74,6 +102,9 @@ LootJS.modifiers((event) => {
             let item = tagStacksWpns[Math.floor(Math.random() * tagStacksWpns.length)];
             ctx.addLoot(item);
           });
+
+          event.addEntityLootModifier(mob).randomChance(0.8).pool((p) => {p.addLoot("soulsweapons:moonstone").p.limitCount([1, 4], [5, 7])});
+
    });
 
    // Drop MCDW chance
@@ -85,6 +116,7 @@ LootJS.modifiers((event) => {
         })
     .apply(ctx => {
             let item = tagStacksMCDW[Math.floor(Math.random() * tagStacksMCDW.length)];
+            // let wpn = tagStacksMCDW[Math.floor(Math.random() * tagStacksMCDW.length)];
             ctx.addLoot(item);
     });
 });

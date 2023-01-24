@@ -79,6 +79,7 @@ event.shaped("gobber2:gobber2_ring_vision", [
  ['bewitchment:demon_horn',"modern_industrialization:highly_advanced_upgrade", 'bewitchment:harbinger'],
  ]);
 
+ event.replaceInput({output: "gobber2:gobber2_ring_teleport"}, "minecraft:ender_pearl", "minecraft:ender_eye")
 // Luggage
 event.remove({ output: "luggage:luggage" });
 event.shaped("luggage:luggage", ['123', 'd d'], {
@@ -383,10 +384,16 @@ event.replaceInput(
 // Steam drill
 
 event.replaceInput(
-{ id: "modern_industrialization:steam_mining_drill" },
+{ id: "modern_industrialization:tools/steam_mining_drill" },
 "minecraft:furnace",
 "gobber2:gobber2_rod"
 );
+
+event.replaceInput(
+  { id: "modern_industrialization:tools/steam_mining_drill" },
+  "minecraft:diamond",
+  "techreborn:red_garnet_plate"
+  );
 
 // Building Gadgets - Destruction Gadget, end game. its too destructive.
 event.replaceInput(
@@ -641,8 +648,15 @@ event.replaceInput(
 "minecraft:netherite_scrap",
 "techreborn:tungstensteel_plate"
 );
+
+event.remove({id: "doom:axe_marauder_open"})
+event.custom({"type":"doom:gun_table","pattern":"abcd","key":{"a":{"item":"doom:argent_plate","count":20},"b":{"item":"gobber2:dragon_star","count":6},"c":{"item":"doom:axe_marauder_closed","count":1},"d":{"item":"kubejs:cursed_gem","count":1}},"result":{"item":"doom:axe_marauder_open"}})
+
+event.remove({id: "doom:cruciblesword_closed"})
+event.custom({"type":"doom:gun_table","pattern":"abc","key":{"a":{"item":"doom:argent_plate","count":20},"b":{"item":"gobber2:gobber2_ingot_nether","count":10},"c":{"item":"kubejs:star_of_icon","count":1}},"result":{"item":"doom:cruciblesword_closed"}})
+
 event.remove({id: "doom:sentinelhammer"})
-event.custom({"type":"doom:gun_table","pattern":"abcd","key":{"a":{"item":"doom:argent_energy","count":20},"b":{"item":"doom:argent_plate","count":4},"c":{"item":"kubejs:corrupted_emerald","count":1},"d":{"item":"kubejs:demon_pearl","count":1}},"result":{"item":"doom:sentinelhammer"}})
+event.custom({"type":"doom:gun_table","pattern":"abcd","key":{"a":{"item":"doom:argent_energy","count":20},"b":{"item":"doom:argent_plate","count":10},"c":{"item":"kubejs:corrupted_emerald","count":1},"d":{"item":"kubejs:demon_pearl","count":1}},"result":{"item":"doom:sentinelhammer"}})
 
 // temp gold dim door removal until fix
 event.remove({output:"dimdoors:gold_dimensional_door"})
@@ -712,6 +726,19 @@ event.replaceInput(
 "gofish:slimefish"
 );
 
+// comet spear soulsweapon
+event.replaceInput({output: "soulsweapons:comet_spear"}, "minecraft:gold_ingot", "gobber2:dragon_star")
+event.replaceInput({output: "soulsweapons:bloodthirster"}, "minecraft:iron_ingot", "soulsweapons:soul_ingot")
+event.replaceInput({output: "soulsweapons:soul_ingot"}, "minecraft:iron_ingot", "gobber2:gobber2_ingot_end")
+event.replaceInput({output: "soulsweapons:lord_soul_red"}, "minecraft:nether_star", "gobber2:dragon_star")
+event.replaceInput({output: "soulsweapons:dragon_staff"}, "minecraft:blaze_rod", "gobber2:gobber2_rod_end")
+event.replaceInput({output: "soulsweapons:dragon_staff"}, "minecraft:dragon_head", "adventurez:stone_golem_heart")
+event.replaceInput({output: "soulsweapons:dragonslayer_swordspear"}, "minecraft:gold_ingot", "dragonloot:dragon_scale")
+event.replaceInput({output: "soulsweapons:galeforce"}, "minecraft:string", "botania:mana_string")
+event.replaceInput({output: "soulsweapons:rageblade"}, "minecraft:blaze_rod", "gobber2:gobber2_rod_end")
+event.replaceInput({output: "soulsweapons:lich_bane"}, "minecraft:blaze_rod", "gobber2:gobber2_rod_end")
+event.replaceInput({output: "soulsweapons:whirligig_sawblade"}, "minecraft:iron_ingot", "mobz:boss_ingot")
+event.replaceInput({output: "soulsweapons:lich_bane"}, "minecraft:diamond", "botania:mana_diamond")
 // Gobber2 - Ring of haste
 event.replaceInput(
 { id: "gobber2:gobber2_ring_haste" },
@@ -831,33 +858,33 @@ event.replaceInput(
 "adventurez:gilded_stone"
 );
 
-// Compact Machine
-event.remove({id: "compactmachines:wall"})
-event.custom({
-  "type": "indrev:fluid_infuse",
-  "ingredients": [
-    {
-      "item": "dml-refabricated:soot_redstone",
-      "count": 1
-    }
-  ],
-  "fluidInput": {
-    "fluid": "indrev:coolant_still",
-    "amount": 81000
-  },
-  "output": {
-    "item": "compactmachines:wall",
-    "count": 1
-  },
-  "processTime": 200
-})
+// Compact Machine - Removed from AQM2 v1.2 - 1.19.2
+// event.remove({id: "compactmachines:wall"})
+// event.custom({
+//   "type": "indrev:fluid_infuse",
+//   "ingredients": [
+//     {
+//       "item": "dml-refabricated:soot_redstone",
+//       "count": 1
+//     }
+//   ],
+//   "fluidInput": {
+//     "fluid": "indrev:coolant_still",
+//     "amount": 81000
+//   },
+//   "output": {
+//     "item": "compactmachines:wall",
+//     "count": 1
+//   },
+//   "processTime": 200
+// })
 
-event.replaceInput({id: "compactmachines:machine_tiny"}, "#minecraft:planks", "indrev:plank_block")
-event.replaceInput({id: "compactmachines:machine_small"}, "minecraft:iron_block", "compactmachines:machine_tiny")
-event.replaceInput({id: "compactmachines:machine_normal"}, "minecraft:gold_block", "compactmachines:machine_small")
-event.replaceInput({id: "compactmachines:machine_large"}, "minecraft:obsidian", "compactmachines:machine_normal")
-event.replaceInput({id: "compactmachines:machine_giant"}, "minecraft:diamond_block", "compactmachines:machine_large")
-event.replaceInput({id: "compactmachines:machine_maximum"}, "minecraft:emerald_block", "compactmachines:machine_giant")
+// event.replaceInput({id: "compactmachines:machine_tiny"}, "#minecraft:planks", "indrev:plank_block")
+// event.replaceInput({id: "compactmachines:machine_small"}, "minecraft:iron_block", "compactmachines:machine_tiny")
+// event.replaceInput({id: "compactmachines:machine_normal"}, "minecraft:gold_block", "compactmachines:machine_small")
+// event.replaceInput({id: "compactmachines:machine_large"}, "minecraft:obsidian", "compactmachines:machine_normal")
+// event.replaceInput({id: "compactmachines:machine_giant"}, "minecraft:diamond_block", "compactmachines:machine_large")
+// event.replaceInput({id: "compactmachines:machine_maximum"}, "minecraft:emerald_block", "compactmachines:machine_giant")
 
 // Tools and Sword
 
@@ -922,13 +949,19 @@ event.replaceInput(
     "black"
   ];
 
-  kibeGlidersX.forEach(function (item, index) {
+  // kibeGlidersX.forEach(function (item, index) {
     event.replaceInput(
-      { id: "kibe:" + item + "_glider" },
-      "minecraft:iron_ingot",
+      { id: "kibe:glider_left_wing"},
+      "minecraft:white_wool",
       "gobber2:gobber2_rod"
       )
-    });
+
+    event.replaceInput(
+      { id: "kibe:glider_right_wing"},
+      "minecraft:white_wool",
+      "gobber2:gobber2_rod"
+      )
+    // });
 
   // Remove Doom OP items
 event.remove({output: 'doom:daisy'});
@@ -969,7 +1002,7 @@ tanksRem.forEach(function(item,index) {
 
 event.shaped("fluidtank:tank_stone", ["iti", "tit", "iti"],
 {
-  i: "#minecraft:stone_bricks",
+  i: "minecraft:cracked_stone_bricks",
   t: "fluidtank:tank_wood"
 })
 
@@ -1179,6 +1212,36 @@ event.replaceInput(
 "gobber2:dragon_star"
 );
 
+event.remove({id:"things:socks"})
+event.custom({
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "things:socks"
+   },
+  "mana": 10000,
+  "ingredients": [
+    {
+      "item": "winged:phoenix_feather"
+    },
+    {
+      "item": "winged:phoenix_feather"
+    },
+    {
+      "item": "things:gleaming_compound"
+    },
+    {
+      "item": "things:gleaming_compound"
+    },
+    {
+      "item": "things:gleaming_compound"
+    },
+    {
+      "item": "spectrum:upgrade_speed2"
+    }
+    ]
+  });
+
+
 event.remove({output:"things:rabbit_foot_charm"})
 event.custom({
   "type": "botania:runic_altar",
@@ -1205,65 +1268,65 @@ event.custom({
   // event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}'), ['minecraft:book', 'minecraft:amethyst_shard'])
 
   event.remove({output:"things:arm_extender"})
-  // event.custom({
-  //   "type": "botania:runic_altar",
-  //   "output": {
-  //     "item": "things:arm_extender"
-  //   },
-  //   "mana": 25000,
-  //   "ingredients": [
-  //     {
-  //       "item": "techreborn:lead_ingot"
-  //     },
-  //     {
-  //       "item": "things:gleaming_compound"
-  //     },
-  //     {
-  //       "item": "minecraft:fishing_rod"
-  //     },
-  //     {
-  //       "item": "bosses_of_mass_destruction:ancient_anima"
-  //     },
-  //     {
-  //       "item": "lightestlamp:xenon_rod"
-  //     }
-  //     ]
-  //   });
+   event.custom({
+     "type": "botania:runic_altar",
+     "output": {
+       "item": "things:arm_extender"
+      },
+     "mana": 25000,
+     "ingredients": [
+       {
+         "item": "techreborn:lead_ingot"
+       },
+       {
+         "item": "things:gleaming_compound"
+       },
+       {
+         "item": "minecraft:fishing_rod"
+       },
+       {
+         "item": "bosses_of_mass_destruction:ancient_anima"
+       },
+       {
+         "item": "lightestlamp:xenon_rod"
+       }
+       ]
+     });
   
-   event.custom({ 
-       "type": "create:mechanical_crafting",
-       "pattern": [
-           " L ",
-           " R ",
-           "ASA",
-           " G ",
-           " H "
-       ],
-       "key": {
-           "L": {
-               "item": "techreborn:lead_ingot"
-           },
-           "R": {
-               "item": "things:gleaming_compound"
-           },
-           "H": {
-               "item": "create:brass_hand"
-           },
-           "A": {
-               "item": "minecraft:fishing_rod"
-           },
-           "S": {
-             "item": "lightestlamp:xenon_rod"
-           },
-           "G": {
-             "item": "bosses_of_mass_destruction:ancient_anima"
-         }
-       },
-       "result": {
-           "item": "things:arm_extender"
-       },
-       "acceptMirrored": false
-   })
+  //  event.custom({ 
+  //      "type": "create:mechanical_crafting",
+  //      "pattern": [
+  //          " L ",
+  //          " R ",
+  //          "ASA",
+  //          " G ",
+  //          " H "
+  //      ],
+  //      "key": {
+  //          "L": {
+  //              "item": "techreborn:lead_ingot"
+  //          },
+  //          "R": {
+  //              "item": "things:gleaming_compound"
+  //          },
+  //          "H": {
+  //              "item": "create:brass_hand"
+  //          },
+  //          "A": {
+  //              "item": "minecraft:fishing_rod"
+  //          },
+  //          "S": {
+  //            "item": "lightestlamp:xenon_rod"
+  //          },
+  //          "G": {
+  //            "item": "bosses_of_mass_destruction:ancient_anima"
+  //        }
+  //      },
+  //      "result": {
+  //          "item": "things:arm_extender"
+  //      },
+  //      "acceptMirrored": false
+  //  })
 
 event.remove({output:"things:hardening_catalyst"})
 event.custom({
@@ -1422,25 +1485,36 @@ event.custom({
 
   event.remove({output: 'autoworkstations:iron_auto_anvil'});
   event.shaped("autoworkstations:iron_auto_anvil", ['121','2A2','3B3'],
-  {
-    1: "minecraft:chain",
-    2: "spectrum:onyx_block",
-    A: "dragonloot:dragon_anvil",
-    3: "techreborn:zinc_plate",
-    B: "gobber2:gobber2_block_nether"
-  })
+    {
+      1: "minecraft:chain",
+      2: "spectrum:onyx_block",
+      A: "dragonloot:dragon_anvil",
+      3: "techreborn:zinc_plate",
+      B: "gobber2:gobber2_block_nether"
+    })
 
   event.remove({output: "harvest_scythes:star_platinum_machete"});
   event.shaped("harvest_scythes:star_platinum_machete", ['AA ',' A ',' S '],
-  {
-    A: "mythicmetals:star_platinum",
-    S: "minecraft:stick"
-  })
+    {
+      A: "mythicmetals:star_platinum",
+      S: "minecraft:stick"
+    })
 
   event.remove({output: 'harvest_scythes:star_platinum_scythe'});
   event.shaped("harvest_scythes:star_platinum_scythe", ['AAA','  S','  S'],
-  {
-    A: "mythicmetals:star_platinum",
-    S: "minecraft:stick"
-  })
-})
+    {
+      A: "mythicmetals:star_platinum",
+      S: "minecraft:stick"
+    })
+
+  event.remove({output: "immersive_aircraft:engine"})
+  event.shaped("immersive_aircraft:engine", [" C ","PFP","CIC"],
+    {
+      C: "techreborn:uu_matter",
+      P: "modern_industrialization:turbo_upgrade",
+      F: "gobber2:dragon_star",
+      I: "immersive_aircraft:boiler"
+    });
+  event.replaceInput({id: "immersive_aircraft:gyrodyne"}, "immersive_aircraft:propeller", "immersive_aircraft:engine");
+
+  });

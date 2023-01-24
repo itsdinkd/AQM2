@@ -1,0 +1,25 @@
+{
+    "values": {
+        "archon:ayla": {
+            "minecraft:generic.max_health": 300.0,
+            "minecraft:generic.attack_damage": 22.0,
+            "minecraft:generic.armor": 20.0,
+            "minecraft:generic.armor_toughness": 8.0,
+            "minecraft:generic.knockback_resistance": 8.0
+        },
+        "archon:tar": {
+            "minecraft:generic.max_health": 266.0,
+            "minecraft:generic.attack_damage": 26.0,
+            "minecraft:generic.armor": 14.0,
+            "minecraft:generic.armor_toughness": 8.0,
+            "minecraft:generic.knockback_resistance": 8.0
+        },
+        "archon:leven": {
+            "minecraft:generic.max_health": 400.0,
+            "minecraft:generic.attack_damage": 24.0,
+            "minecraft:generic.armor": 13.0,
+            "minecraft:generic.armor_toughness": 8.0,
+            "minecraft:generic.knockback_resistance": 8.0
+        }
+    }
+}

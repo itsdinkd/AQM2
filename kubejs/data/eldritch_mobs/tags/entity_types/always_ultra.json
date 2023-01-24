@@ -2,6 +2,9 @@
   "values": [
     "minecraft:ender_dragon",
     "minecraft:wither",
-    "minecraft:warden"
+    "minecraft:warden",
+    "minecells:conjunctivius",
+    "soulsweapons:night_prowler",
+    "soulsweapons:day_stalker"
   ]
 }

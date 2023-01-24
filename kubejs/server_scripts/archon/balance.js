@@ -58,5 +58,19 @@ ServerEvents.recipes(event => {
                             },
                             "manaCost": 45
                           });
-      
+event.remove({id: 'archon:channeling/pixie_leaves'})
+event.custom(
+  {
+    "type": "archon:channeling",
+    "tag": "minecraft:leaves",
+    "result": {
+      "item": "archon:pixie_leaves",
+      "count": 1
+    },
+    "manaCost": 30
+  });
+
+event.replaceInput({id: "archon:ender_blade"}, "minecraft:ender_pearl", "fwaystones:pocket_wormhole")
+event.replaceInput({id: "archon:void_scepter"}, "minecraft:ender_eye", "archon:ender_blade")
+
 })

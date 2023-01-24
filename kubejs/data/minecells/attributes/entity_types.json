@@ -33,8 +33,8 @@
             "minecraft:generic.attack_damage": 19.0
         },
         "minecells:runner": {
-            "minecraft:generic.max_health": 20.0,
-            "minecraft:generic.armor": 2.0,
+            "minecraft:generic.max_health": 15.0,
+            "minecraft:generic.armor": 0.0,
             "minecraft:generic.attack_damage": 18.0
         },
         "minecells:shocker": {
@@ -48,7 +48,7 @@
             "minecraft:generic.attack_damage": 15.85
         },
         "minecells:conjunctivius": {
-            "minecraft:generic.max_health": 1100.0,
+            "minecraft:generic.max_health": 400.0,
             "minecraft:generic.armor": 19.0,
             "minecraft:generic.attack_damage": 29.0
         }

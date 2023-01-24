@@ -1,12 +1,15 @@
 // Another Quality Modpack 2 //
 //////////////////////////////
 REIEvents.hide('item', (event) => { 
-
+"lilwings:grayling_butterfly"
 var aqmClientRemove = [
 'advanced_reborn:advanced_forge_hammer',
+'advanced_reborn:industrial_dynamite',
 'advanced_reborn:dynamite',
+'advanced_reborn:sticky_dynamite',
 'advanced_reborn:forge_hammer',
 'advanced_reborn:freq_trans',
+'advanced_reborn:industrial_tnt',
 'advanced_reborn:ray_generator_10',
 'advanced_reborn:ray_generator_2',
 'advanced_reborn:ray_generator_3',
@@ -17,14 +20,16 @@ var aqmClientRemove = [
 'advanced_reborn:ray_generator_8',
 'advanced_reborn:ray_generator_9',
 'advanced_reborn:ray_generator',
-'advanced_reborn:sticky_dynamite',
+'advanced_reborn:industrial_sticky_dynamite',
 'advanced_reborn:teleporter',
 'agape_space:enhanced_helmet',
 'artifacts:cross_necklace',
 'artifacts:eternal_steak',
+"coxinhautilities:ender_orchid_seeds",
 "artifacts:everlasting_beef",
 'artifacts:scarf_of_invisibility',
 'artifacts:villager_hat',
+"artifacts:night_vision_goggles",
 'bewitchment:prickly_belt',
 'bewitchment:specter_bangle',
 'bno:copper_nugget',
@@ -142,7 +147,19 @@ var aqmClientRemove = [
 'kibe:gold_spikes',
 'kibe:golden_kibe',
 'kibe:iron_spikes',
+"additionaladditions:gilded_netherite_leggings",
+"additionaladditions:gilded_netherite_shovel",
+"additionaladditions:gilded_netherite_sword",
+"additionaladditions:gilded_netherite_axe",
+"additionaladditions:gilded_netherite_pickaxe",
+"additionaladditions:gilded_netherite_chestplate",
+"additionaladditions:gilded_netherite_hoe",
+"additionaladditions:gilded_netherite_helmet",
+"additionaladditions:gilded_netherite_boots",
+"archon:wither_stave",
+"archon:heat_ranger",
 'kibe:magma_ring',
+"gobber2:gobber2_special_item",
 'kibe:stone_spikes',
 'kibe:water_ring',
 'mcdw:sword_the_starless_night',
@@ -251,6 +268,10 @@ var aqmClientRemove = [
 "veggie_way:watering_can_copper",
 "xps:xp_berries_seeds",
 "xps:xp_berries",
+"mythicmetals:carmot_nuke_core",
+"mythicmetals:banglum_nuke_core",
+"mythicmetals:quadrillum_nuke_core",
+"fluidtank:fluid_source",
 "advanced_reborn:enchantment_extractor",
 "autoworkstations:gold_auto_experience_orb_vacuum",
 "autoworkstations:iron_auto_experience_orb_vacuum",
@@ -272,7 +293,13 @@ var aqmClientRemove = [
 "createplus:crushed_prometheum_ore",
 "createplus:crushed_quadrillum_ore",
 "createplus:crushed_runite_ore",
-"createplus:crushed_stormyx_ore"
+"createplus:crushed_stormyx_ore",
+"supplementaries:bomb_spiky_projectile",
+"supplementaries:bomb_blue",
+"supplementaries:bomb_projectile",
+"supplementaries:bomb_blue_projectile",
+"supplementaries:bomb_spiky",
+"supplementaries:bomb"
 ];
 
 aqmClientRemove.forEach(function(item, index) {
@@ -353,7 +380,6 @@ var k_g = ['mk1','mk2','mk3','mk4','mk5',];var kcg = 'kibe:cobblestone_generator
   })
 
   const tanksRemRei =[
-    "stone",
     "bronze",
     "silver",
     "lead",
