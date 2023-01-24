@@ -4,8 +4,7 @@
     "dispensers": true,
     "jar_tab": false,
     "custom_configured_screen": true,
-    "debug_save_dynamic_pack": false,
-    "pack_dependant_assets": true
+    "debug_save_dynamic_pack": false
   },
   "blocks": {
     "planter": true,

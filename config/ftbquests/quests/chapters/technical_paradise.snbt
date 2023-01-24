@@ -53,42 +53,6 @@
 			}]
 		}
 		{
-			title: "Grow Crystals"
-			icon: "ae2:fluix_crystal"
-			x: 4.0d
-			y: 2.0d
-			subtitle: "Just add water...And wait for the POP"
-			description: [
-				"Crystals are grown from Crystal seeds. Craft a piece of sand with Certus Quartz dust or Fluix Dust. Throw in water and wait for it to grow. "
-				""
-				"This takes a while (20 mins), we can speed it up later on."
-			]
-			dependencies: ["06E70622D9F330EC"]
-			id: "47FBE6421F89965A"
-			tasks: [
-				{
-					id: "51E6EDC63711B6FD"
-					type: "item"
-					item: "ae2:certus_crystal_seed"
-				}
-				{
-					id: "3C609F2384B9F88D"
-					type: "item"
-					item: "ae2:fluix_crystal_seed"
-				}
-				{
-					id: "0A1A13660643AD11"
-					type: "item"
-					item: "ae2:certus_quartz_crystal"
-				}
-				{
-					id: "414E7F8949BA27E8"
-					type: "item"
-					item: "ae2:fluix_crystal"
-				}
-			]
-		}
-		{
 			title: "Fluix Dust"
 			x: 2.0d
 			y: 2.0d
@@ -156,7 +120,7 @@
 			description: ["Presses are used in an Inscriber to make the various Circuits"]
 			dependencies: [
 				"5612740453389204"
-				"47FBE6421F89965A"
+				"06E70622D9F330EC"
 				"03DC791EC5F5BEBA"
 			]
 			id: "737F2F2D5BB68057"
@@ -289,7 +253,7 @@
 				""
 				"A cable has a specific number of channels, each device on a cable uses one channel. When a cable is full of channels a new device can not be connected."
 			]
-			dependencies: ["47FBE6421F89965A"]
+			dependencies: ["06E70622D9F330EC"]
 			id: "3924F8E793EADD9B"
 			tasks: [
 				{
@@ -446,7 +410,7 @@
 				"4 = 30 sec"
 				"5 = 24 sec"
 			]
-			dependencies: ["47FBE6421F89965A"]
+			dependencies: ["06E70622D9F330EC"]
 			id: "17FCC308019B1F2E"
 			tasks: [{
 				id: "35603272BF65799D"

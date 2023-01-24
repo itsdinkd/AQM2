@@ -30,7 +30,7 @@
 		#    Item name color - # followed by color hex code, the hex code must match exactly.  Examples: #23F632
 		#    Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: %[Uncommon]
 		#    Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: ^Rarity: Legendary
-		[client.options.manual_borders]	
+		[client.options.manual_borders]
 			0xFF6963 = ["kibe:angel_ring", "techreborn:quantum_helmet", "techreborn:quantum_chestplate", "techreborn:quantum_leggings", "techreborn:quantum_boots", "doom:axe_marauder_open", "doom:sentinelhammer", "doom:cruciblesword", "doom:darklordcrucible"]
 			0xFFAD63 = ["@bosses_of_mass_destruction", "gobber2:gobber2_boots_dragon", "gobber2:gobber2_leggings_dragon", "gobber2:gobber2_chestplate_dragon", "gobber2:gobber2_helmet_dragon", "gobber2:gobber2_paxel_stars", "$tooltiprareness:legendary_item"]
 			0xB873FF = ["!epic", "magicfungi:morbus_scythe", "techreborn:industrial_grinder", "$tooltiprareness:epic_item", "$c:very_rare_loot"]

@@ -1263,6 +1263,14 @@
     "culturaldelights:avocado_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "vinery:cherry_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "vinery:grapevine_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

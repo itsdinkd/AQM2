@@ -68,6 +68,7 @@
     "//forbiddenTiles": "Blocks that cannot be picked up",
     "forbiddenTiles": [
       "#forge:immovable",
+      "#c:must_not_be_moved",
       "chisel:*",
       "#forge:relocation_not_supported",
       "minecraft:end_portal",
@@ -283,7 +284,15 @@
       "automobility:*",
       "minecells:*",
       "deeperdarker:*",
-      "immersive_aircraft:*"
+      "immersive_aircraft:*",
+      "conjuring:blackstone_pedestal",
+      "conjuring:gem_tinkerer",
+      "conjuring:soul_weaver",
+      "conjuring:soul_funnel",
+      "spelunkery:*",
+      "dimdoors:*",
+      "supplementaries:*",
+      "bitsandchisels:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -295,6 +304,7 @@
       "minecraft:armor_stand",
       "minecraft:item_frame",
       "minecraft:painting",
+      "dimdoors:*",
       "minecraft:shulker_bullet",
       "minecraft:wandering_trader",
       "minecraft:llama",
@@ -324,11 +334,17 @@
       "crittersandcompanions:*",
       "vehicle:*",
       "automobility:*",
-      "immersive_aircraft:*"
+      "immersive_aircraft:*",
+      "bosses_of_mass_destruction:*",
+      "adventurez:*",
+      "create:*",
+      "bitsandchisels:*",
+      "supplementaries:*"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
-      "minecraft:horse"
+      "minecraft:horse",
+      "wildlife:*"
     ]
   },
   "customPickupConditions": {

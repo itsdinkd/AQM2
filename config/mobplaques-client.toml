@@ -4,7 +4,7 @@
 	plaque_background = false
 	#Distance to the mob at which plaques will still be visible. The distance is halved when the mob is crouching.
 	#Range: > 0
-	max_render_distance = 32
+	max_render_distance = 64
 	#Selectors for choosing mobs to render plaques for.
 	#Allowed Values: ALL, TAMED, TAMED_ONLY_OWNER, PLAYER, MONSTER, BOSS, MOUNT
 	allowed_mob_selectors = ["ALL"]
@@ -13,14 +13,14 @@
 	height_offset = 0
 	#Entities blacklisted from showing any plaques.
 	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. Path may use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*shulker_box" to match all shulker boxes no matter of color.
-	mob_blacklist = ["minecraft:armor_stand"]
+	mob_blacklist = ["minecraft:armor_stand", "automobility:automobile", "immersive_aircraft:*", "doom:iconofsin", "doom:motherdemon", "doom:gladiator", "doom:arch_maykr", "soulsweapons:freyr_sword_entity", "soulsweapons:comet_spear_entity", "soulsweapons:leviathan_axe_entity", "soulsweapons:big_moonlight_projectile", "soulsweapons:charged_arrow_entity"]
 	#Show plaques from mobs obstructed by walls the player cannot see through.
 	behind_walls = false
 	#Are mob plaques enabled, toggleable in-game using the 'J' key by default.
 	allow_rendering = true
 	#Selectors for choosing mobs to prevent rendering plaques for, takes priority over allowed list.
 	#Allowed Values: ALL, TAMED, TAMED_ONLY_OWNER, PLAYER, MONSTER, BOSS, MOUNT
-	disallowed_mob_selectors = []
+	disallowed_mob_selectors = ["BOSS"]
 	#Amount of pixels a row of plaques may take up, when exceeding this value a new row will be started.
 	#Range: > 0
 	max_plaque_row_width = 108
