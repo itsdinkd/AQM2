@@ -1,0 +1,794 @@
+{
+	id: "3EB81455ED32A16B"
+	group: "7DDA60A5DB5F9F6C"
+	order_index: 4
+	filename: "create_a_vinery"
+	title: "Create a Vinery"
+	subtitle: ["Who doesn't want their own vinery to make their own wine?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "You Spotted Cherry Leaves"
+			x: -12.75d
+			y: 2.25d
+			subtitle: "Located on Cherry Trees"
+			dependencies: ["6DF4CA576368F188"]
+			id: "4672DA9AAD537CB7"
+			tasks: [{
+				id: "136427C61391F86A"
+				type: "observation"
+				title: "Spot a Cherry Bush"
+				icon: "vinery:cherry_leaves"
+				timer: 10L
+				observe_type: 0
+				to_observe: "vinery:cherry_leaves"
+			}]
+			rewards: [{
+				id: "66F5D1D97E56147B"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -10.75d
+			y: 1.25d
+			subtitle: "Create your own vinery with different wines and effects"
+			size: 1.5d
+			id: "6DF4CA576368F188"
+			tasks: [{
+				id: "7622842BCEF7BD00"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "vinery:vinery"
+					}
+				}
+			}]
+		}
+		{
+			title: "Shear Cherry Leaves for Cherries"
+			x: -14.25d
+			y: 1.5d
+			dependencies: ["4672DA9AAD537CB7"]
+			hide: true
+			id: "06B0C0BDEB877F22"
+			tasks: [{
+				id: "1E4C447C794513DB"
+				type: "questsadditions:use"
+				title: "Shear Cherry Leaves"
+				block_type: 0
+				block: "vinery:cherry_leaves"
+				value: 100L
+				checkItem: true
+				isItemInteraction: true
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2DE4BCE6A023E9E4"
+					type: "item"
+					item: "vinery:cherry"
+				}
+				{
+					id: "51D6277A1133A279"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "73E9644862D006BB"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 15
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 2.25d
+			subtitle: "Grab 3 Cherries"
+			dependencies: ["06B0C0BDEB877F22"]
+			id: "31736F4629CDFE6B"
+			tasks: [{
+				id: "60550B3AAAB79197"
+				type: "item"
+				item: "vinery:cherry"
+				count: 3L
+			}]
+			rewards: [{
+				id: "1B84D827CBBF0D0C"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Find White or Purple Grapes (Next Step)"
+			x: -12.75d
+			y: -0.75d
+			subtitle: "Found on Red Grape Bushes or Red Grapevines"
+			dependencies: ["6DF4CA576368F188"]
+			size: 1.33d
+			id: "15968F214CD2BDC1"
+			tasks: [{
+				id: "66DF04D3025FC669"
+				type: "item"
+				title: "Any #vinery:grape"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "vinery:grape"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0385ECB6215328BB"
+				type: "item"
+				item: "vinery:red_grape"
+				count: 2
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "Making our first Grape Juice"
+			x: -12.75d
+			y: -3.0d
+			description: ["You will need this to make your juice!"]
+			dependencies: ["15968F214CD2BDC1"]
+			id: "77E6B7E15E4C6115"
+			tasks: [{
+				id: "3E7E6F1C188DB079"
+				type: "item"
+				item: "vinery:grapevine_pot"
+			}]
+			rewards: [{
+				id: "630490281F5CCE1A"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "Grape Seeds"
+			x: -14.5d
+			y: -2.5d
+			subtitle: "Found in Grapevines and Grape Bushes"
+			description: [
+				"You have a chance to receive seeds from Grapevines and Grape Bushes. You'll want to use these with your own Grapevine Stems"
+				""
+			]
+			dependencies: ["15968F214CD2BDC1"]
+			hide: true
+			id: "67A02FBD5FE69721"
+			tasks: [{
+				id: "5062A04C90AD5E95"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "vinery:white_grape_seeds"
+								Count: 1b
+							}
+							{
+								id: "vinery:red_grape_seeds"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7AEB57E9A04456DE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4A512E76A8ACD935"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1140926682852401208L
+				}
+			]
+		}
+		{
+			title: "Plant Seeds on Grapevine Stems"
+			x: -15.5d
+			y: -1.25d
+			subtitle: "Used with Grape Seeds"
+			description: ["Craft two, stack one on top of the other, and right click your grape seed on the top stem to add your grape crop to the stem"]
+			dependencies: ["67A02FBD5FE69721"]
+			id: "5831A01403284812"
+			tasks: [{
+				id: "386B8B25388CFD32"
+				type: "item"
+				item: "vinery:grapevine_stem"
+				count: 2L
+			}]
+			rewards: [{
+				id: "4F4D1975E1223957"
+				type: "item"
+				item: {
+					id: "vinery:red_grape_seeds"
+					Count: 1b
+					tag: { }
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -12.75d
+			y: -5.0d
+			subtitle: "Hold out your grapes and right click the pot once placed"
+			description: [
+				"{image:kubejs:textures/gui/presets/grape_pot.png width:100 height:100 align:1}"
+				"After placing your grapes you will need to go into your pot and jump up and down!!"
+				"{image:kubejs:textures/gui/presets/grape_pot_filled.png width:100 height:100 align:1}"
+			]
+			dependencies: ["77E6B7E15E4C6115"]
+			id: "53526AA74B8A2364"
+			tasks: [{
+				id: "474D1AA90627D3F3"
+				type: "questsadditions:use"
+				title: "Place Grapes in Grapevine Pot"
+				block_type: 0
+				block: "vinery:grapevine_pot"
+				value: 3L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "vinery:white_grape"
+								Count: 1b
+							}
+							{
+								id: "vinery:red_grape"
+								tag: { }
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4CA4A57819CB2F63"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "68C562E223A81FC9"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 15
+				}
+			]
+		}
+		{
+			x: -10.75d
+			y: -3.0d
+			subtitle: "Used to mash apples and also convert villagers into Winemakers"
+			description: [
+				"Instead of relying on wandering winemakers, you can convert a villager into a winemaker, who sells wine!"
+				""
+				"This is also used to mash apples which is a crafting ingredient for other foods"
+			]
+			dependencies: ["6DF4CA576368F188"]
+			hide: true
+			id: "24EF25CAEFDF7D1C"
+			tasks: [{
+				id: "3D6432B7EA723B4B"
+				type: "item"
+				item: "vinery:wine_press"
+			}]
+			rewards: [
+				{
+					id: "60F91B2AFBBE5715"
+					type: "item"
+					item: "vinery:wine_bottle"
+				}
+				{
+					id: "5A446433B9E2BDCC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1140926682852401208L
+				}
+			]
+		}
+		{
+			x: -9.75d
+			y: 0.0d
+			description: ["These guys come with their fancy llamas to sell you wine from all over the overworld"]
+			dependencies: ["6DF4CA576368F188"]
+			secret: true
+			id: "70FEAC9D77FED444"
+			tasks: [{
+				id: "51D24B9605E730D0"
+				type: "observation"
+				title: "You spotted a Wandering Winemaker!"
+				icon: "spectrum:villager_head"
+				timer: 0L
+				observe_type: 5
+				to_observe: "vinery:wandering_winemaker"
+			}]
+			rewards: [{
+				id: "72E1E092E1CCC8F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			subtitle: "To be a winemaker you need to look like a winemaker"
+			description: [
+				"With the full armor equipped, you will not lose any bone meal and your efficiency will be reward higher return rates"
+				""
+				"Durability loses faster when having this set equipped and making wine"
+			]
+			dependencies: ["6C6BB05E865835EB"]
+			hide: true
+			id: "21D7670053DA7EAB"
+			tasks: [
+				{
+					id: "50190033FF21E42F"
+					type: "item"
+					item: {
+						id: "vinery:straw_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ADC071AE4DB38BA"
+					type: "item"
+					item: {
+						id: "vinery:vinemaker_apron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03AC10D3FAB7975F"
+					type: "item"
+					item: {
+						id: "vinery:vinemaker_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56C624B7D4FADE22"
+					type: "item"
+					item: {
+						id: "vinery:vinemaker_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0CF8928A84E00AD0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 573515503278690972L
+				}
+				{
+					id: "4408C7DE6CA24B56"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 15
+				}
+				{
+					id: "25986A0444AE937D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "You made Red Grape Juice!"
+			x: -12.75d
+			y: -7.0d
+			subtitle: "Congrats you made your first wine"
+			dependencies: ["53526AA74B8A2364"]
+			id: "5CD91363F5D625C2"
+			tasks: [{
+				id: "434A96B8254F37C3"
+				type: "item"
+				item: {
+					id: "vinery:red_grapejuice_wine_bottle"
+					Count: 1b
+					tag: {
+						Year: 77
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.25d
+			subtitle: "Needed for Winemaker gear for full set bonuses"
+			description: ["Gloves are found with a small chance from chests, otherwise sold by the Winemaker"]
+			dependencies: ["6DF4CA576368F188"]
+			id: "6C6BB05E865835EB"
+			tasks: [{
+				id: "36110D3BE0E6168C"
+				type: "item"
+				item: "vinery:gloves"
+			}]
+			rewards: [{
+				id: "2413D515F4F9D79D"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 10
+			}]
+		}
+		{
+			x: -13.5d
+			y: -7.5d
+			subtitle: "Storage options for Wine Bottles (ages wine, yum)"
+			description: ["Not all wine bottles can fit in (depending on their size). This will age your wine perfectly over time! "]
+			dependencies: ["5CD91363F5D625C2"]
+			size: 0.75d
+			optional: true
+			id: "34AB7619B28A1917"
+			tasks: [{
+				id: "6F92EDF0D454BDB0"
+				type: "item"
+				item: "vinery:wine_rack_2"
+			}]
+			rewards: [{
+				id: "58E8300553AA7664"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -13.6875d
+			y: -6.75d
+			subtitle: "Storage options for Wine Bottles (ages wine, yum)"
+			description: ["Not all wine bottles can fit in (depending on their size). This will age your wine perfectly over time! "]
+			dependencies: ["5CD91363F5D625C2"]
+			size: 0.75d
+			optional: true
+			id: "3280CB8D20654032"
+			tasks: [{
+				id: "56CE24ADF2D9AA9F"
+				type: "item"
+				item: "vinery:wine_rack_1"
+			}]
+			rewards: [{
+				id: "21B416F456DEE364"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -13.3125d
+			y: -6.1875d
+			subtitle: "Storage options for Wine Bottles"
+			description: ["Once placed, with a empty hand, Sneak + Right Click the case to open it. Then while you hold a wine bottle, right click it into the case. Then close via empty hand, shift right click"]
+			dependencies: ["5CD91363F5D625C2"]
+			size: 0.75d
+			optional: true
+			id: "5AD915AC358CE24E"
+			tasks: [{
+				id: "68A22672FE04C054"
+				type: "item"
+				item: "vinery:wine_box"
+			}]
+			rewards: [{
+				id: "35EB471D61F6DF7C"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "Make other wines with your Aging Barrel"
+			x: -12.767857142857146d
+			y: -8.995884353741495d
+			description: [
+				"This is one of the most important blocks to use for advanced wine recipes"
+				""
+				"Make sure you view REI Usage on Aged Barrel to see all the available wine recipes"
+			]
+			dependencies: ["5CD91363F5D625C2"]
+			size: 1.33d
+			id: "6F787E98EBE66BFE"
+			tasks: [{
+				id: "2E148F01F8684280"
+				type: "item"
+				item: "vinery:fermentation_barrel"
+			}]
+			rewards: [
+				{
+					id: "6EC95A7ADD41F083"
+					type: "item"
+					item: {
+						id: "vinery:red_grapejuice_wine_bottle"
+						Count: 1b
+						tag: {
+							Year: 77
+						}
+					}
+					count: 3
+				}
+				{
+					id: "27DFDFD85FA24801"
+					type: "item"
+					item: "vinery:wine_bottle"
+				}
+			]
+		}
+		{
+			x: -10.75d
+			y: -5.0d
+			subtitle: "Mash Apples"
+			dependencies: ["24EF25CAEFDF7D1C"]
+			hide: true
+			id: "45EECE3AE6EEE65B"
+			tasks: [{
+				id: "253A4C241E68CFA4"
+				type: "item"
+				item: "vinery:apple_mash"
+			}]
+			rewards: [{
+				id: "6ADF66F8B216477F"
+				type: "item"
+				item: "minecraft:apple"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -10.75d
+			y: -7.0d
+			subtitle: "2 Mashes Apples in a Aged Barrel"
+			dependencies: [
+				"6F787E98EBE66BFE"
+				"45EECE3AE6EEE65B"
+			]
+			hide: true
+			id: "0B6CE229DBFC4409"
+			tasks: [{
+				id: "0A820D97C04C9F82"
+				type: "item"
+				item: {
+					id: "vinery:apple_juice"
+					Count: 1b
+					tag: {
+						Year: 77
+					}
+				}
+			}]
+			rewards: [{
+				id: "5344E009122AC950"
+				type: "item"
+				item: "vinery:apple_mash"
+				count: 2
+			}]
+		}
+		{
+			x: -14.0d
+			y: -10.25d
+			subtitle: "Age 2 wine bottles for this fancy Noir wine"
+			dependencies: ["6F787E98EBE66BFE"]
+			id: "0BD7332774E5C7AC"
+			tasks: [{
+				id: "2FD07BBEF2A69624"
+				type: "item"
+				item: {
+					id: "vinery:noir_wine"
+					Count: 1b
+					tag: {
+						Year: 77
+					}
+				}
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "475A3E45811D46D6"
+				type: "item"
+				item: {
+					id: "vinery:noir_wine"
+					Count: 1b
+					tag: {
+						Year: 77
+					}
+				}
+			}]
+		}
+		{
+			x: -10.75d
+			y: -9.0d
+			subtitle: "Needed to bake goods"
+			description: ["Place open, open via right click, insert fuel and ingredients."]
+			dependencies: ["6F787E98EBE66BFE"]
+			id: "537BB208FF90B1F5"
+			tasks: [{
+				id: "40668616BCADA506"
+				type: "item"
+				item: "vinery:wood_fired_oven"
+			}]
+			rewards: [{
+				id: "27604045DD32483A"
+				type: "item"
+				item: "minecraft:coal"
+				count: 5
+				random_bonus: 5
+			}]
+		}
+		{
+			title: "Make some Dough"
+			x: -8.5d
+			y: -9.0d
+			subtitle: "Important ingredient"
+			dependencies: ["537BB208FF90B1F5"]
+			hide: true
+			id: "64295AC288BCABE0"
+			tasks: [{
+				id: "4B8A428F86AE443B"
+				type: "item"
+				item: "vinery:dough"
+			}]
+			rewards: [
+				{
+					id: "0A2710EA7BE4CF95"
+					type: "item"
+					item: "vinery:dough"
+					random_bonus: 3
+				}
+				{
+					id: "42ED1FB870B2CD6C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -7.0d
+			dependencies: [
+				"0B6CE229DBFC4409"
+				"64295AC288BCABE0"
+			]
+			id: "02D4F87093A3B062"
+			tasks: [{
+				id: "153475E55746BE38"
+				type: "item"
+				item: "vinery:apple_pie"
+			}]
+			rewards: [{
+				id: "25412A9B4314B8EF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: -7.75d
+			y: -9.375d
+			dependencies: ["64295AC288BCABE0"]
+			size: 0.5d
+			id: "7E32D4BA9BDD106F"
+			tasks: [{
+				id: "079B3F98E4D6310B"
+				type: "item"
+				item: "vinery:toast"
+			}]
+			rewards: [{
+				id: "5F6FED014ADBDF55"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -7.75d
+			y: -8.875d
+			dependencies: ["64295AC288BCABE0"]
+			size: 0.5d
+			id: "757F67D4A255E5AA"
+			tasks: [{
+				id: "1F961B67B669102B"
+				type: "item"
+				item: "vinery:donut"
+			}]
+			rewards: [{
+				id: "5E09B5A8A6A67F2C"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -8.0d
+			y: -9.75d
+			dependencies: ["64295AC288BCABE0"]
+			size: 0.5d
+			id: "61A7311212882BB2"
+			tasks: [{
+				id: "3E7AD0A32D51B392"
+				type: "item"
+				item: "vinery:milk_bread"
+			}]
+			rewards: [{
+				id: "7E021A300C417F10"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -8.5d
+			y: -9.75d
+			dependencies: ["64295AC288BCABE0"]
+			size: 0.5d
+			id: "484AEFD0E1D87FC5"
+			tasks: [{
+				id: "0646A90B80581FBD"
+				type: "item"
+				item: "vinery:crusty_bread"
+			}]
+			rewards: [{
+				id: "147B58E894D1B53B"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			x: -10.75d
+			y: -11.0d
+			subtitle: "Craft some foods in the cooking pot"
+			description: [
+				"Can also be used for other modded recipes"
+				"Check REI Usage"
+			]
+			dependencies: ["6F787E98EBE66BFE"]
+			id: "79F02C1A42721F15"
+			tasks: [{
+				id: "4C862EC61ACB3B4F"
+				type: "item"
+				item: "vinery:cooking_pot"
+			}]
+			rewards: [
+				{
+					id: "7EA251C145596560"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4B26F5169AAF149E"
+					type: "item"
+					item: "vinery:cherry_jar"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

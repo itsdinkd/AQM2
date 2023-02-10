@@ -24,7 +24,7 @@
             "modifier": {
                 "name": "tiered:uncommon_tool_4",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.1
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "MAINHAND"

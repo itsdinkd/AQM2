@@ -1,0 +1,17 @@
+{
+    "block_states": {
+      "gobber2:gobber2_ore_nether": "minecraft:netherrack"
+    },
+    "items": {
+      "gobber2:gobber2_glob_nether": "minecraft:gunpowder",
+      "gobber2:gobber2_globette_nether": "minecraft:coal"
+    },
+    "block_name_replacements": {
+        "gobber2:gobber2_ore_nether": "block.minecraft.netherrack"
+    },
+    "item_name_replacements": {
+        "gobber2:gobber2_glob_nether": "Gunpowder?",
+        "gobber2:gobber2_globette_nether": "Coal?"
+    },
+    "advancement": "gobber2:gobber2_pickaxe"
+  }

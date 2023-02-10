@@ -20,11 +20,11 @@
     },
     "attributes": [
         {
-            "type": "tiered:generic.durable",
+            "type": "generic.max_health",
             "modifier": {
                 "name": "tiered:common_armor_3",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.75
+                "operation": "ADDITION",
+                "amount": -1
             },
             "optional_equipment_slots": [
                 "FEET",

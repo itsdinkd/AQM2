@@ -1,7 +1,7 @@
 [spawning]
 chocoboSpawnWeight = 10
 chocoboPackSizeMin = 1
-chocoboPackSizeMax = 3
+chocoboPackSizeMax = 2
 [chocobo]
 tameChance = 0.15
 [naming]

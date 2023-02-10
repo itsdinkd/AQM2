@@ -1,0 +1,15 @@
+{
+  "loot_table": "stoneholm:bedroom",
+  "max_result_itemcount": 4,
+  "integrated_loot_tables": {
+    "dungeons_arise:chests/bandit_village/bandit_village_normal": 6,
+    "dungeons_arise:chests/bandit_village/bandit_village_supply": 6,
+    "dungeons_arise:chests/monastery/monastery_bridges": 6,
+    "dungeons_arise:chests/monastery/monastery_map": 6,
+    "dungeons_arise:chests/mushroom_village/mushroom_village_normal": 6,
+    "dungeons_arise:chests/mushroom_village/mushroom_village_weaponry": 6,
+    "dungeons_arise:chests/small_prairie_house/small_prairie_house_normal": 6,
+    "mostructures:barnhouse_3": 6,
+    "towers_of_the_wild:tower_chest": 6
+  }
+}

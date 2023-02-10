@@ -32,20 +32,6 @@
                 "CHEST",
                 "HEAD"
             ]
-        },
-        {
-            "type": "tiered:generic.durable",
-            "modifier": {
-                "name": "tiered:common_armor_4",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.3
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
         }
     ]
 }

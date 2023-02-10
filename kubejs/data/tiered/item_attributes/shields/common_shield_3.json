@@ -20,28 +20,6 @@
             "optional_equipment_slots": [
                 "OFFHAND"
             ]
-        },
-        {
-            "type": "tiered:generic.durable",
-            "modifier": {
-                "name": "tiered:common_shield_3",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.3
-            },
-            "optional_equipment_slots": [
-                "OFFHAND"
-            ]
-        },
-        {
-            "type": "generic.movement_speed",
-            "modifier": {
-                "name": "tiered:common_shield_3",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.2
-            },
-            "optional_equipment_slots": [
-                "OFFHAND"
-            ]
         }
     ]
 }

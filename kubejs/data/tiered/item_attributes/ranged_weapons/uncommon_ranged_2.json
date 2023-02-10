@@ -29,18 +29,7 @@
             "modifier": {
                 "name": "tiered:uncommon_ranged_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.1
-            },
-            "optional_equipment_slots": [
-                "MAINHAND"
-            ]
-        },
-        {
-            "type": "generic.movement_speed",
-            "modifier": {
-                "name": "tiered:uncommon_ranged_2",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.1
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "MAINHAND"

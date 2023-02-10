@@ -18,7 +18,7 @@
 			x: 0.0d
 			y: 0.0d
 			subtitle: "You need Certus Quartz for Applied Energistics 2... a lot of it.."
-			description: ["Head to around Y Level 8 for the highest bud Spawns."]
+			description: ["Found in Meteorites"]
 			id: "417915745B47F7AB"
 			tasks: [{
 				id: "5FCBD19356DCF510"
@@ -61,15 +61,15 @@
 			dependencies: ["34A45EEBE143A514"]
 			id: "06E70622D9F330EC"
 			tasks: [{
-				id: "63F7F17E6D43B015"
+				id: "793CD5482FECD47C"
 				type: "item"
-				item: "ae2:fluix_dust"
+				item: "ae2:fluix_crystal"
 			}]
 			rewards: [{
 				id: "68D8FB24BE2EB265"
 				type: "item"
 				item: "ae2:fluix_dust"
-				count: 8
+				count: 3
 			}]
 		}
 		{
@@ -420,8 +420,8 @@
 			rewards: [{
 				id: "47775B51C467E881"
 				type: "item"
-				item: "ae2:fluix_crystal"
-				count: 4
+				item: "ae2:fluix_dust"
+				count: 2
 			}]
 		}
 		{
@@ -852,7 +852,7 @@
 			icon: "ae2:wireless_terminal"
 			x: 14.0d
 			y: -4.0d
-			description: ["Access your system remotly with a wireless terminal. To link it to your system place it in the security terminal."]
+			description: ["Access your system remotely with a wireless terminal. To link it to your system place it in the security terminal."]
 			dependencies: ["0BB3693761D1C488"]
 			id: "464435E041196D6B"
 			tasks: [
@@ -976,7 +976,7 @@
 				id: "38972406B9FB0CD5"
 				type: "item"
 				item: "ae2:cable_anchor"
-				count: 64
+				count: 32
 			}]
 		}
 		{
@@ -1228,117 +1228,6 @@
 				id: "6675D939BEBA4A82"
 				type: "item"
 				item: "wirelessnetworks:entangled_capacitor"
-			}]
-		}
-		{
-			x: -7.0d
-			y: 1.5d
-			subtitle: "A better portable pocket dimension"
-			dependencies: ["1CA75D7D445EFFDF"]
-			hide: true
-			id: "25C2ECB313ABAA62"
-			tasks: [{
-				id: "0E16C0892C6BA174"
-				type: "item"
-				item: "dimdoors:quartz_dimensional_door"
-			}]
-			rewards: [{
-				id: "11BD98BCCE00FF3B"
-				type: "item"
-				item: {
-					id: "dimdoors:rift_remover"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -8.5d
-			y: 1.5d
-			subtitle: "Your own pocket dimension"
-			description: ["Hint: Build a base inside of it, or a storage, or a farm. the options are limitless"]
-			dependencies: ["239ECC2B7F3A3AD8"]
-			hide: true
-			id: "1CA75D7D445EFFDF"
-			tasks: [{
-				id: "1AB79CF8FFAE99AD"
-				type: "item"
-				item: "dimdoors:iron_dimensional_door"
-			}]
-			rewards: [{
-				id: "4574051BB3C80D75"
-				type: "item"
-				item: "dimdoors:oak_dimensional_door"
-			}]
-		}
-		{
-			title: "???"
-			icon: "dimdoors:monolith_spawner"
-			x: -10.0d
-			y: 1.5d
-			subtitle: "You'll randomly unlock this"
-			description: [
-				"You may ask yourself how you exit..."
-				""
-				"Beat a monolith or find the liquid and jump in it"
-			]
-			hide: true
-			secret: true
-			id: "239ECC2B7F3A3AD8"
-			tasks: [
-				{
-					id: "09A17ED7E4D26B41"
-					type: "location"
-					title: "Some Dimension"
-					dimension: "dimdoors:limbo"
-					ignore_dimension: false
-					position: [I;
-						0
-						0
-						0
-					]
-					size: [I;
-						1
-						1
-						1
-					]
-				}
-				{
-					id: "7A628DBE88D2A415"
-					type: "observation"
-					title: "You saw fabric of reality"
-					icon: "botania:cosmetic_questgiver_mark"
-					timer: 1L
-					observe_type: 0
-					to_observe: "dimdoors:black_fabric"
-				}
-			]
-		}
-		{
-			x: -10.0d
-			y: 2.5d
-			subtitle: "Stop that Rift!"
-			description: ["When you see a rift, you can use the rift remover to close it. Closing a rift is a smart as it will stop the spread of unstable fabric"]
-			dependencies: ["239ECC2B7F3A3AD8"]
-			hide: true
-			id: "1CBAE85D6CEDCC7C"
-			tasks: [{
-				id: "670D1873F6D801A0"
-				type: "item"
-				item: {
-					id: "dimdoors:rift_remover"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "021CC1628C40AD3B"
-				type: "item"
-				item: "dimdoors:white_void_record"
 			}]
 		}
 		{
@@ -1678,6 +1567,7 @@
 				""
 				"Once you have 9 Redstone Soot's, Turn them into this quest by clicking the Redstone Soot task and clicking Submit"
 			]
+			secret: true
 			id: "3202E121B821C163"
 			tasks: [{
 				id: "7A0B5106EE1891DE"
@@ -1708,6 +1598,7 @@
 			subtitle: "Use Fluid Infuser MK1 with Water and Lapis"
 			description: ["Input 1000mb of Water, Add a Lapis. Export the Coolant (preferably into another fluid infuser)"]
 			dependencies: ["3202E121B821C163"]
+			secret: true
 			id: "499B15FC9C4ACFC0"
 			tasks: [{
 				id: "450363B11B7032F8"

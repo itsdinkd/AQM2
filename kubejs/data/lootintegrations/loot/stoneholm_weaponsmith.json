@@ -1,0 +1,8 @@
+{
+  "loot_table": "stoneholm:weaponsmith",
+  "max_result_itemcount": 3,
+  "integrated_loot_tables": {
+    "minecraft:chests/village/village_weaponsmith": 3,
+    "minecraft:chests/village/village_plains_house": 1
+  }
+}

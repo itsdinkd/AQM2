@@ -1,0 +1,25 @@
+{
+  "modId": "botania",
+  "group": {
+    "name": "Botania Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "botania:grass_seeds"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "botania:dry_seeds"
+    },
+    {
+      "output": "botania:golden_seeds"
+    },
+    {
+      "output": "botania:vivid_seeds"
+    },
+    {
+      "output": "botania:mutated_seeds"
+    }
+  ]
+}

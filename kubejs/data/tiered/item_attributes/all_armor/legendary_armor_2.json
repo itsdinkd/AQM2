@@ -60,6 +60,20 @@
                 "CHEST",
                 "HEAD"
             ]
+        },
+        {
+            "type": "combatroll:count",
+            "modifier": {
+                "name": "tiered:legendary_armor_1",
+                "operation": "ADDITION",
+                "amount": 1
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
         }
     ]
 }

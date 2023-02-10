@@ -132,7 +132,9 @@
     "dynamicIcons": {
       "default": "https://media.discordapp.net/attachments/933583171725951056/1062211235153711154/pack.png",
       "DaddyDanked": "https://minotar.net/cube/f2ff48109a324e04ac5ca25e3ebf916c/100",
-      "aqm21182.minecraft.best": "https://api.mcsrvstat.us/icon/aqm21182.minecraft.best"
+      "aqm21182.minecraft.best": "https://api.mcsrvstat.us/icon/aqm21182.minecraft.best",
+      "BbyDanked": "https://minotar.net/cube/bdf209bfacd341168f07caf14928db7c/100",
+      "localhost": "https://api.mcsrvstat.us/icon/<map>"
     },
     "dynamicVariables": {
       "default": "Example Text",

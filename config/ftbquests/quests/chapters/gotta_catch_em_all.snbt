@@ -19,6 +19,7 @@
 				""
 				"Theres 12 pets, each with 4-7 skin variations, and they will rest at the anchor until you get back and then move around."
 			]
+			size: 1.4d
 			id: "1065CAB5189B3DD4"
 			tasks: [{
 				id: "114DC90B3A5D2DA8"
@@ -126,105 +127,11 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 6.5d
-			subtitle: "Use the feather it drops to create the whistle"
-			description: ["Whistles will call your bird over to you"]
-			dependencies: ["3559B91785D78067"]
-			optional: true
-			id: "5BDECDBCDB7E4DAE"
-			tasks: [{
-				id: "2BA4E78217DA5D65"
-				type: "kill"
-				title: "Slay the Pretty MegaParrot"
-				icon: "plushies:parrot_plushie"
-				entity: "megaparrot:megaparrot"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "03BC53B721A2870D"
-					type: "item"
-					item: "minecraft:bamboo"
-				}
-				{
-					id: "7DF1EC222092911A"
-					type: "item"
-					item: "minecraft:red_dye"
-				}
-			]
-		}
-		{
-			x: 0.5d
-			y: 6.5d
-			dependencies: ["5BDECDBCDB7E4DAE"]
-			id: "0D1393862B57EFE1"
-			tasks: [{
-				id: "629FF7DBBEE4B708"
-				type: "item"
-				item: {
-					id: "megaparrot:bird_whistle"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "49AD6F76386C9A1B"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
-			title: "Name Tag Skin Variants"
-			icon: "minecraft:name_tag"
-			x: -2.5d
-			y: 4.5d
-			subtitle: "Use one of these names on a name tag for your parrot"
-			description: [
-				"Skylorbeck"
-				"Commissargrey"
-				"Mordecai"
-				"Chone"
-			]
-			dependencies: ["3559B91785D78067"]
-			optional: true
-			id: "062F1569E0891602"
-			tasks: [{
-				id: "18DD8FA079302D12"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "1EEF98A97670DF42"
-				type: "item"
-				item: "minecraft:name_tag"
-			}]
-		}
-		{
-			x: -1.0d
-			y: 4.5d
-			subtitle: "And now tame it!"
-			id: "3559B91785D78067"
-			tasks: [{
-				id: "2E8050CE3656B4E8"
-				type: "observation"
-				title: "Find a Mega Parrot"
-				icon: "plushies:parrot_plushie"
-				timer: 1L
-				observe_type: 5
-				to_observe: "megaparrot:megaparrot"
-			}]
-			rewards: [{
-				id: "4403EB7D2066DF31"
-				type: "item"
-				item: "minecraft:pumpkin_seeds"
-				count: 5
-			}]
-		}
-		{
 			x: -8.5d
 			y: 6.0d
 			subtitle: "Start your journey and craft this to catch butterflies that automate certain tasks"
 			description: ["While holding, right click on a butterfly to capture them"]
+			size: 1.4d
 			id: "71C4B847C3F14758"
 			tasks: [{
 				id: "19CE4DB9C1BD23B1"
@@ -788,6 +695,546 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "Find and Look at a Chocobo"
+			x: -1.5d
+			y: 6.0d
+			subtitle: "Wanna ride a chocobo?"
+			description: ["Each chocobo color has a special set of skills. Breeding different colors with one another can reap these skill sets. Check the Guide for more details"]
+			size: 1.4d
+			id: "334D03E86951F1E6"
+			tasks: [{
+				id: "1869FD8C81AE2490"
+				type: "observation"
+				icon: "chococraft:gold_chocobo_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "chococraft:chocobo"
+			}]
+			rewards: [{
+				id: "6A4FD6E6BF99A746"
+				type: "item"
+				item: "chococraft:gysahl_green"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			subtitle: "An occasional drop from Chocos"
+			description: ["They can shed it or you can slay them for it.. Please be kind to my Choco's"]
+			dependencies: ["334D03E86951F1E6"]
+			id: "2E90E67AC2943729"
+			tasks: [{
+				id: "6D4B5AECDDD34402"
+				type: "item"
+				item: "chococraft:chocobo_feather"
+			}]
+			rewards: [{
+				id: "784DC35B3E24C103"
+				type: "item"
+				item: "chococraft:chocobo_drumstick_raw"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			subtitle: "Disguise yourself to make chocobos less skiddish"
+			dependencies: ["2E90E67AC2943729"]
+			id: "1C0A35A11BFF4079"
+			tasks: [
+				{
+					id: "35D02867EFAE94D5"
+					type: "item"
+					item: {
+						id: "chococraft:choco_disguise_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "31691D75D8CD7AA4"
+					type: "item"
+					item: {
+						id: "chococraft:choco_disguise_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F9DAB64639B3CE5"
+					type: "item"
+					item: {
+						id: "chococraft:choco_disguise_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "325C48D55CBD3A8E"
+					type: "item"
+					item: {
+						id: "chococraft:choco_disguise_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "631A81EFCD05BF76"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 573515503278690972L
+				}
+				{
+					id: "7845B4388C08FC5E"
+					type: "item"
+					item: "chococraft:gysahl_green"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			subtitle: "Tame your Chocobo with Gyashls and also breed them with it"
+			description: ["The chance is low but it can take up to 10-20 Gyashls to be successful"]
+			dependencies: ["283868E45D3BAC91"]
+			id: "684BB056AABAAA1E"
+			tasks: [{
+				id: "0400E992CA56BD34"
+				type: "questsadditions:interaction"
+				title: "Tame with Gyashl"
+				icon: "chococraft:gysahl_green"
+				entity: "chococraft:chocobo"
+				nbt: { }
+				value: 3L
+				checkItem: true
+				item: "chococraft:gysahl_green"
+			}]
+			rewards: [{
+				id: "7E47727C6A27DC20"
+				type: "item"
+				item: "chococraft:chocobo_drumstick_cooked"
+			}]
+		}
+		{
+			title: "Harvest Gyashl's"
+			x: 0.5d
+			y: 4.0d
+			subtitle: "Found in Gyashl Patches"
+			description: ["These wonderful crops can be found usually in plains"]
+			dependencies: ["2E90E67AC2943729"]
+			id: "283868E45D3BAC91"
+			tasks: [{
+				id: "0ECD73B3CE0D4102"
+				type: "item"
+				item: "chococraft:gysahl_green"
+			}]
+			rewards: [{
+				id: "228612B50A248CA5"
+				type: "item"
+				item: "chococraft:gysahl_green"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			subtitle: "Use on Chicos to grow "
+			description: [
+				"After breeding a set of chocobo's, a baby chico will be bred."
+				""
+				"Feed the Chicobo a cake to have them grow up"
+			]
+			dependencies: ["684BB056AABAAA1E"]
+			id: "32782A629C2FC176"
+			tasks: [{
+				id: "4C2B5B0044DC331A"
+				type: "item"
+				item: "chococraft:gysahl_cake"
+			}]
+			rewards: [{
+				id: "1973F377790F8F60"
+				type: "item"
+				item: "chococraft:chocobo_drumstick_cooked"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			subtitle: "Advanced Taming and Breeding Item used for 20% chance to get abilities"
+			description: ["This item allows a higher success rate when taming / breeding"]
+			dependencies: ["684BB056AABAAA1E"]
+			id: "679BB57858010CC4"
+			tasks: [{
+				id: "4A01E0F4516D134E"
+				type: "item"
+				item: "chococraft:loverly_gysahl_green"
+			}]
+			rewards: [{
+				id: "53530B8BAA287E9D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 573515503278690972L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			subtitle: "Command Chocobo"
+			description: ["Wonder, Follow, Stay are commands you can use for your Chocobo"]
+			dependencies: ["684BB056AABAAA1E"]
+			id: "5F30EAA1BAC9D791"
+			tasks: [{
+				id: "36C907C8786497AA"
+				type: "item"
+				item: "chococraft:chocobo_whistle"
+			}]
+			rewards: [{
+				id: "7EAAA8A8A0E9768B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			subtitle: "Place on Chocobo to ride"
+			dependencies: ["684BB056AABAAA1E"]
+			id: "1D6A17933AA9DDBC"
+			tasks: [{
+				id: "0DF7996FB0D48333"
+				type: "item"
+				item: "chococraft:chocobo_saddle"
+			}]
+			rewards: [
+				{
+					id: "645A1C268E8AD25E"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "2E03B587D272E25A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			subtitle: "Adds storage to your chocobo with 18 slots"
+			dependencies: ["1D6A17933AA9DDBC"]
+			optional: true
+			id: "7AADD27E7613F776"
+			tasks: [{
+				id: "765066C5008F8F9B"
+				type: "item"
+				item: "chococraft:chocobo_saddle_bags"
+			}]
+			rewards: [
+				{
+					id: "6D3309B81F70DB6F"
+					type: "item"
+					item: "minecraft:leather"
+				}
+				{
+					id: "46DCB29AC7B6936C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			subtitle: "Upgrades slots to 45"
+			dependencies: ["7AADD27E7613F776"]
+			optional: true
+			id: "01803E761057965F"
+			tasks: [{
+				id: "77959D074BB70D54"
+				type: "item"
+				item: "chococraft:chocobo_saddle_pack"
+			}]
+			rewards: [
+				{
+					id: "7FE85A6C57839F36"
+					type: "item"
+					item: "chococraft:gysahl_green"
+					random_bonus: 3
+				}
+				{
+					id: "0BB05AF399623AB7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 573515503278690972L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 10.0d
+			subtitle: "Mythical Mounts - Taming, Breeding, Amazing."
+			description: [
+				"Featuring land, aquatic, and flying creatures that you can tame and ride."
+				""
+				"Once found, tame the creature via its taming item or tame via attempting to ride continously (depending on the creature this can take longer, and also change their attitude)"
+				""
+				"Reading the book is highly suggeted."
+			]
+			size: 1.4d
+			id: "666501EEF3D9647A"
+			tasks: [{
+				id: "45D20E91DF55B4E5"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "mythicmounts:mythical_mounts"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A792EC37A13A4CB"
+					type: "item"
+					item: "minecraft:bone"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "3B394A040E266F2E"
+					type: "item"
+					item: "minecraft:salmon"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "6AA8DDF1AD7315B0"
+					type: "item"
+					item: "minecraft:rabbit"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "72B0C74530A04E6B"
+					type: "item"
+					item: "minecraft:melon"
+					count: 2
+					random_bonus: 4
+				}
+				{
+					id: "27C44AB98AF4CC5F"
+					type: "item"
+					item: "minecraft:feather"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 12.5d
+			subtitle: "Used to summon your linked creature in a certain range"
+			dependencies: ["666501EEF3D9647A"]
+			id: "76BAFBA41BD55129"
+			tasks: [{
+				id: "4BA5F12FF1B076FD"
+				type: "item"
+				item: {
+					id: "mythicmounts:summoning_staff"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 10.0d
+			subtitle: "Youll need this to actually ride your tamed creature"
+			dependencies: ["666501EEF3D9647A"]
+			id: "0481580D9812BB8B"
+			tasks: [{
+				id: "3587EC9E10F4889B"
+				type: "item"
+				item: "minecraft:saddle"
+			}]
+			rewards: [{
+				id: "75A90C373CF2C491"
+				type: "item"
+				item: "minecraft:potato"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.0d
+			subtitle: "Some tames accept chests to increase storage size"
+			dependencies: ["0481580D9812BB8B"]
+			id: "6648B4D9ADA65408"
+			tasks: [{
+				id: "0F91E89475F33B83"
+				type: "item"
+				item: "minecraft:chest"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "35E0B645FC523148"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "See Sprout, Tame Sprout"
+			x: -23.0d
+			y: 9.5d
+			subtitle: "This little guy will water your plants if you tame it"
+			description: ["Found in the Meadows"]
+			size: 1.33d
+			id: "5B8AE5AABD9ED3D7"
+			tasks: [{
+				id: "3ECBBEC37B6C803A"
+				type: "observation"
+				title: "You spotted Sprout, the Elephant"
+				icon: "sprout:elephant_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "sprout:elephant"
+			}]
+			rewards: [{
+				id: "1398101C2D8B0FCD"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -17.5d
+			y: 9.5d
+			description: ["Once tamed, if your sprout is by a water source, it will fill up and water your plants and crops"]
+			dependencies: ["62297AA4F8453CD0"]
+			id: "12398FA13C864E41"
+			tasks: [{
+				id: "66ACBC5525A11674"
+				type: "questsadditions:interaction"
+				title: "Tame Using Peanuts"
+				entity: "sprout:elephant"
+				nbt: { }
+				value: 4L
+				checkItem: true
+				item: "sprout:peanut"
+			}]
+			rewards: [{
+				id: "3487DA551E3E2131"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 10
+			}]
+		}
+		{
+			title: "Find and Look at Bounce Bugs"
+			x: -23.0d
+			y: 7.5d
+			subtitle: "These bugs can be captured and used to help grow nether warts and mushrooms"
+			size: 1.33d
+			id: "6FB2B471474BF7EE"
+			tasks: [{
+				id: "5FBACF2A4D88EF09"
+				type: "observation"
+				title: "You saw Bounce Bugs"
+				icon: "wildlife:stickbug"
+				timer: 20L
+				observe_type: 5
+				to_observe: "sprout:bounce_bug"
+			}]
+			rewards: [{
+				id: "710550B0DF4E1B9D"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			title: "Capture your Bounce Bug"
+			x: -20.0d
+			y: 6.0d
+			subtitle: "Craft a bottle, and then use it to capture the bug"
+			dependencies: ["6FB2B471474BF7EE"]
+			id: "4C6476A42C036209"
+			tasks: [
+				{
+					id: "001C1DBFDC808802"
+					type: "item"
+					item: "minecraft:glass_bottle"
+				}
+				{
+					id: "3A0AE63BD71C25B0"
+					type: "questsadditions:interaction"
+					title: "Capture the bug with this bottle"
+					entity: "sprout:bounce_bug"
+					nbt: { }
+					value: 1L
+					checkItem: true
+					item: "minecraft:glass_bottle"
+				}
+			]
+		}
+		{
+			x: -17.5d
+			y: 7.5d
+			subtitle: "Success!"
+			dependencies: ["4C6476A42C036209"]
+			id: "269243A0338FD239"
+			tasks: [{
+				id: "706F76ECA52B57BB"
+				type: "item"
+				item: "sprout:bounce_bug_jar"
+			}]
+			rewards: [{
+				id: "45AF5AA6E6F12FC8"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 10
+			}]
+		}
+		{
+			x: -20.0d
+			y: 8.0d
+			subtitle: "Peanut Crops are found in Meadows biome"
+			description: ["These can be harvested and grown"]
+			dependencies: ["5B8AE5AABD9ED3D7"]
+			id: "62297AA4F8453CD0"
+			tasks: [{
+				id: "355385939329F95B"
+				type: "item"
+				item: "sprout:peanut"
+			}]
+			rewards: [
+				{
+					id: "7827F1292041EF68"
+					type: "item"
+					item: "sprout:peanut"
+					random_bonus: 1
+				}
+				{
+					id: "3CFD38E625408813"
+					type: "xp"
+					xp: 40
+				}
+			]
 		}
 	]
 	quest_links: [ ]

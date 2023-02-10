@@ -1,0 +1,25 @@
+{
+  "demandOnServer": false,
+  "showServerSafety": true,
+  "hideRedChatIndicators": true,
+  "hideYellowChatIndicators": true,
+  "hideGrayChatIndicators": true,
+  "hideWarningToast": true,
+  "alwaysHideReportButton": false,
+  "disableTelemetry": true,
+  "showReloadButton": true,
+  "whitelistAllServers": false,
+  "verifiedIconEnabled": false,
+  "showNCRButton": false,
+  "enableMod": true,
+  "skipRealmsWarning": false,
+  "verifiedIconOffsetX": 5,
+  "verifiedIconOffsetY": 0,
+  "reconnectAwaitSeconds": 4,
+  "postDisconnectAwaitSeconds": 10,
+  "signingCheckDelaySeconds": 43200,
+  "serverSigningChecks": {
+    "161.129.180.223:25599": 1674924158,
+    "aqm21182.minecraft.best:25565": 1674925475
+  }
+}

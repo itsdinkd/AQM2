@@ -6,7 +6,7 @@
     "gold": 4096,
     "diamond": 16384,
     "emerald": 65536,
-    "star": 1048576,
+    "star": 4048576,
     "copper": 32,
     "tin": 64,
     "bronze": 512,

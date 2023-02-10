@@ -27,7 +27,7 @@
   //Each TREASURE enchantment's cost is multiplied by this value.
   //TREASURE Enchantments will show up as blue on the Dark Enchanter.
   //Default: 4.0
-  "treasureFactor": 4.8988,
+  "treasureFactor": 4.6988,
   //
   //How much an enchantment's inverted weight should be multiplied with.
   //Each enchantment has a Rarity, and each Rarity has a weight.
@@ -38,7 +38,7 @@
   //This weightFactor allows you to modify the inverted weight.
   //
   //Default: 3.0
-  "weightFactor": 1.6,
+  "weightFactor": 2.0,
   //
   //Repairing any item will have its cost multiplied by this value.
   //Default: 1.0
@@ -138,7 +138,7 @@
     {
       "enchantmentId": "veinmining:vein_mining",
       "activated": true,
-      "personalFactor": 6.5,
+      "personalFactor": 6.0,
       "personalReceiveFactor": 0.4
     },
     {
@@ -588,7 +588,7 @@
     {
       "enchantmentId": "minecraft:fire_aspect",
       "activated": true,
-      "personalFactor": 3.815,
+      "personalFactor": 3.515,
       "personalReceiveFactor": 0.0
     },
     {
@@ -910,6 +910,12 @@
       "personalReceiveFactor": 0.0
     },
     {
+      "enchantmentId": "gobber2:apotropaic",
+      "activated": false,
+      "personalFactor": 3.499,
+      "personalReceiveFactor": 0.0
+    },
+    {
       "enchantmentId": "charm:collection",
       "activated": false,
       "personalFactor": 3.499,
@@ -1024,7 +1030,73 @@
       "personalReceiveFactor": 0.0
     },
     {
-      "enchantmentId": "magiccombatwands:magic_wind",
+      "enchantmentId": "mcdw:dynamo",
+      "activated": true,
+      "personalFactor": 5.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spell_engine:spell_infinity",
+      "activated": false,
+      "personalFactor": 8.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spell_power:haste",
+      "activated": true,
+      "personalFactor": 3.88541,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spell_power:spell_power",
+      "activated": true,
+      "personalFactor": 4.34,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spell_power:soulfrost",
+      "activated": true,
+      "personalFactor": 3.96,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spell_power:magic_protection",
+      "activated": true,
+      "personalFactor": 3.6742,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spell_power:energize",
+      "activated": true,
+      "personalFactor": 3.96,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spell_power:critical_chance",
+      "activated": true,
+      "personalFactor": 3.85554,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spell_power:critical_damage",
+      "activated": true,
+      "personalFactor": 3.65554,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "spell_power:sunfire",
+      "activated": true,
+      "personalFactor": 3.96,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "betternether:ruby_fire",
+      "activated": false,
+      "personalFactor": 6.0,
+      "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "gobber2:exp_boost",
       "activated": false,
       "personalFactor": 4.02,
       "personalReceiveFactor": 0.0

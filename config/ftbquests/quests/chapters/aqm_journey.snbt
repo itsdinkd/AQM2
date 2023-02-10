@@ -1,0 +1,433 @@
+{
+	id: "5059F34C90282176"
+	group: ""
+	order_index: 1
+	filename: "aqm_journey"
+	title: "AQM Journey (WIP)"
+	subtitle: ["From Start to End. Go through the AQM Journey"]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Beginning Path: Break 4 Logs"
+			x: -24.75d
+			y: 0.0d
+			size: 1.5d
+			id: "396A0B88301C8CA1"
+			tasks: [{
+				id: "3D002906CA9CAB03"
+				type: "questsadditions:break"
+				title: "Break 4 Logs"
+				block_type: 1
+				block: "byg:all/logs"
+				value: 4L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "3D0CED9D2F6E55AA"
+				type: "item"
+				item: "minecraft:stick"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Break Twigs for Sticks"
+			x: -25.5d
+			y: -1.5d
+			subtitle: "Twigs generate on the ground throughout dimensions"
+			dependencies: ["396A0B88301C8CA1"]
+			size: 0.5d
+			id: "7AE795257E1BBC08"
+			tasks: [{
+				id: "07457C72E61D2E46"
+				type: "questsadditions:break"
+				title: "Break some Twigs"
+				icon: "twigs:twig"
+				block_type: 1
+				block: "aqm:material/twigs"
+				value: 3L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "407F95E6DF70A96E"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -24.5d
+			y: -2.5d
+			subtitle: "Rocks generate on the ground throughout dimensions"
+			dependencies: ["396A0B88301C8CA1"]
+			size: 0.5d
+			id: "181FC2E00DFF9F7E"
+			tasks: [{
+				id: "05F09FACB6DA2BB1"
+				type: "questsadditions:break"
+				title: "Destroy Rocks for Stone"
+				icon: "twigs:pebble"
+				block_type: 0
+				block: "aqm2:material/rocks"
+				value: 3L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "0390441E62A2DD42"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -22.5d
+			y: 0.0d
+			dependencies: ["396A0B88301C8CA1"]
+			id: "1E1F1240123A8672"
+			tasks: [{
+				id: "0A0D159DA67145D2"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [
+				{
+					id: "56CE2C5903C78C44"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "04629A39C6C5E5E9"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 3
+					random_bonus: 1
+				}
+				{
+					id: "5011E8CAF9694372"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 573515503278690972L
+				}
+			]
+		}
+		{
+			x: -19.5d
+			y: 0.0d
+			dependencies: ["1E1F1240123A8672"]
+			id: "224A7439CB6E82A8"
+			tasks: [{
+				id: "16659E954C72A81C"
+				type: "questsadditions:break"
+				title: "Mine 4 Cobblestone"
+				block_type: 0
+				block: "minecraft:cobblestone"
+				value: 3L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "06AAA0393DE11681"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "39F0A7EA3A8C8A01"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: -1.0d
+			subtitle: "Climb up caves faster"
+			dependencies: ["224A7439CB6E82A8"]
+			size: 0.5d
+			id: "7691FA95440CB3FB"
+			tasks: [{
+				id: "6C09F1929E6EBE21"
+				type: "item"
+				item: "additionaladditions:rope"
+			}]
+			rewards: [{
+				id: "72169AD33DC1DAD3"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -21.25d
+			y: 1.5d
+			subtitle: "Fast Torches Fast Coals"
+			hide_dependency_lines: true
+			dependencies: [
+				"4722AD71A3677FB3"
+				"2FDE45442E61788E"
+			]
+			hide: true
+			dependency_requirement: "all_started"
+			size: 0.5d
+			id: "6BEAC575277C497D"
+			tasks: [{
+				id: "749CE86353C79DAB"
+				type: "item"
+				item: "teenycoal:teeny_coal"
+			}]
+			rewards: [{
+				id: "46D645C4D3D340C5"
+				type: "item"
+				item: "teenycoal:teeny_coal"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -21.5d
+			y: 2.25d
+			dependencies: ["6BEAC575277C497D"]
+			size: 0.5d
+			id: "0C5B1DD23C6BCD20"
+			tasks: [{
+				id: "3CD6E629AE3057AF"
+				type: "item"
+				item: "teenycoal:teeny_charcoal"
+			}]
+			rewards: [{
+				id: "303473665185D708"
+				type: "item"
+				item: "teenycoal:teeny_charcoal"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -19.5d
+			y: 2.0d
+			subtitle: "Slingshot those torches!"
+			dependencies: ["4722AD71A3677FB3"]
+			size: 0.5d
+			id: "547057AACB668F85"
+			tasks: [{
+				id: "6458BC41A852E576"
+				type: "item"
+				item: "kibe:torch_sling"
+			}]
+			rewards: [{
+				id: "33ED46D7E380D657"
+				type: "item"
+				item: "minecraft:torch"
+				count: 2
+			}]
+		}
+		{
+			title: "Sleeping Bags"
+			x: -18.5d
+			y: -1.5d
+			subtitle: "Go to sleep virtually anywhere"
+			dependencies: ["224A7439CB6E82A8"]
+			size: 0.66d
+			id: "27EC6B9A644FE363"
+			tasks: [{
+				id: "7E0F3350B8846069"
+				type: "item"
+				item: "kibe:sleeping_bag"
+			}]
+			rewards: [{
+				id: "52B9883026120C73"
+				type: "item"
+				item: "minecraft:white_wool"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -20.79d
+			y: -1.32d
+			subtitle: "Escape to the top"
+			description: [
+				"You won't get this until later but its worth it. it will teleport you to the lowest point ABOVE ground"
+				""
+				"Kill Piglin Brutes to get one of the required recipe items"
+			]
+			dependencies: ["7691FA95440CB3FB"]
+			size: 0.66d
+			id: "01C2F30070F63E63"
+			tasks: [{
+				id: "5B08ED6DC5135AF2"
+				type: "item"
+				item: {
+					id: "kibe:escape_rope"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "522A7CDD71F978E1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -19.25d
+			y: 0.75d
+			subtitle: "Basically a throwable torch"
+			dependencies: ["224A7439CB6E82A8"]
+			size: 0.5d
+			id: "64B73A30F7F53D2B"
+			tasks: [{
+				id: "22682561F507D80F"
+				type: "item"
+				item: "additionaladditions:glow_stick"
+			}]
+			rewards: [
+				{
+					id: "3C0C13FBB4B231F7"
+					type: "item"
+					item: "additionaladditions:glow_stick"
+				}
+				{
+					id: "7F032AAF849C218F"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			title: "Coal Ore"
+			x: -20.5d
+			y: 1.0d
+			dependencies: ["224A7439CB6E82A8"]
+			id: "4722AD71A3677FB3"
+			tasks: [{
+				id: "7535CBDCBBC61202"
+				type: "questsadditions:break"
+				block_type: 1
+				block: "c:coal_ores"
+				value: 8L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "1F6342CF5D129CB8"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -20.25d
+			y: 2.5d
+			subtitle: "Cheaper torch"
+			min_required_dependencies: 1
+			dependencies: [
+				"6BEAC575277C497D"
+				"0C5B1DD23C6BCD20"
+			]
+			size: 0.5d
+			id: "5C7A491BAC8A6281"
+			tasks: [{
+				id: "4918D150FD8F47C0"
+				type: "item"
+				item: "teenycoal:teeny_torch"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "360BE1A90B4BEF73"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -26.0d
+			y: -2.5d
+			subtitle: "Used for Teeny Torches later. Unlocks Teeny Coal quest once complete"
+			dependencies: ["7AE795257E1BBC08"]
+			size: 0.5d
+			id: "2FDE45442E61788E"
+			tasks: [{
+				id: "14F11BDCB59EB63F"
+				type: "item"
+				item: "teenycoal:teeny_stick"
+			}]
+			rewards: [{
+				id: "4CBFA9719E4F115B"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 2
+			}]
+		}
+		{
+			x: -24.25d
+			y: 1.25d
+			description: ["Use the seeds, get the flax, craft some string."]
+			dependencies: ["396A0B88301C8CA1"]
+			size: 0.5d
+			id: "3AEFA400F1DD4E62"
+			tasks: [{
+				id: "6322035D82F8B08A"
+				type: "questsadditions:break"
+				title: "Break Flax, Get Seeds, Make Strings"
+				block_type: 0
+				block: "supplementaries:wild_flax"
+				value: 3L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "32C6E6138B7CE71C"
+					type: "item"
+					item: "supplementaries:flax_seeds"
+				}
+				{
+					id: "765EC396B33F82C9"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -22.77d
+			y: -0.99d
+			subtitle: "Put in food, automatically consume it."
+			description: ["Right click while not looking at a block (so you dont place) to open the inventory. place the stacked food inside and youll automatically eat it when needed."]
+			dependencies: ["1E1F1240123A8672"]
+			size: 0.66d
+			id: "109A8298F0CE002F"
+			tasks: [{
+				id: "0797F0E866C173A7"
+				type: "item"
+				item: "kibe:cooler"
+			}]
+			rewards: [
+				{
+					id: "24D13D564011B3FA"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 3
+				}
+				{
+					id: "2EC5AF58E497395A"
+					type: "xp"
+					xp: 15
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 0.0d
+			id: "4B4F012CE0054C65"
+			tasks: [{
+				id: "4675A15E4E0A05DE"
+				type: "questsadditions:break"
+				block_type: 1
+				block: "c:iron_ores"
+				value: 9L
+				checkItem: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -4,7 +4,7 @@
     "name": "Farming for Blockheads Fertlizer",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "gobber2:gobber2_glob"
+      "item": "minecraft:gold_ingot"
     },
     "defaultCategory": "farmingforblockheads:other"
   },

@@ -9,11 +9,11 @@
 	"UltraXpMultiplier": 8,
 	"EldritchXpMultiplier": 12,
 	"EliteMinModifiers": 3,
-	"UltraMinModifiers": 5,
-	"EldritchMinModifiers": 9,
+	"UltraMinModifiers": 4,
+	"EldritchMinModifiers": 7,
 	"EliteMaxModifiers": 4,
-	"UltraMaxModifiers": 8,
-	"EldritchMaxModifiers": 12,
+	"UltraMaxModifiers": 7,
+	"EldritchMaxModifiers": 9,
 	// Prevent named mobs from becoming Elite, Ultra, and Eldritch
 	"ignoreNamedMobs": true,
 	// Turn off titles for mobs
@@ -25,7 +25,7 @@
 	// Buffed mobs are highlighted after being damaged
 	"turnOnGlowingMobs": true,
 	// Turn off loot for buffed mobs
-	"disableLootDrops": true,
+	"disableLootDrops": false,
 	// If true, buffed mobs only drop loot when killed by players
 	"onlyDropLootIfKilledByPlayers": true,
 	// Buffed mobs also drop the loot of the tier below them + the loot of their tier.
@@ -35,9 +35,9 @@
 	"alchemistConfig": {
 		"name": "Alchemist",
 		"disabled": false,
-		"cooldown": 450,
+		"cooldown": 550,
 		"useStrongHealing": false,
-		"useStrongHarming": true
+		"useStrongHarming": false
 	},
 	"berserkConfig": {
 		"name": "Berserk",
@@ -47,7 +47,7 @@
 	"blindingConfig": {
 		"name": "Blinding",
 		"disabled": false,
-		"cooldown": 300,
+		"cooldown": 400,
 		"duration": 80,
 		"amplifier": 1
 	},
@@ -55,7 +55,7 @@
 		"name": "Burning",
 		"disabled": false,
 		"cooldown": 600,
-		"fireDuration": 6
+		"fireDuration": 5
 	},
 	"cloakedConfig": {
 		"name": "Cloaked",
@@ -68,7 +68,7 @@
 	"drainingConfig": {
 		"name": "Draining",
 		"disabled": false,
-		"cooldown": 300,
+		"cooldown": 400,
 		"duration": 125,
 		"amplifier": 1
 	},
@@ -95,20 +95,20 @@
 	},
 	"gravityConfig": {
 		"name": "Gravity",
-		"disabled": false,
+		"disabled": true,
 		"cooldown": 500
 	},
 	"lethargicConfig": {
 		"name": "Lethargic",
-		"disabled": false,
-		"cooldown": 300,
+		"disabled": true,
+		"cooldown": 400,
 		"duration": 100,
 		"amplifier": 1
 	},
 	"lifestealConfig": {
 		"name": "Lifesteal",
 		"disabled": false,
-		"lifestealHealProportion": 0.12999999
+		"lifestealHealProportion": 0.11999999
 	},
 	"regeneratingConfig": {
 		"name": "Regenerating",
@@ -118,7 +118,7 @@
 	"rustConfig": {
 		"name": "Rust",
 		"disabled": false,
-		"equipmentDamage": 30
+		"equipmentDamage": 25
 	},
 	"resistantConfig": {
 		"name": "Resistant",
@@ -128,8 +128,8 @@
 	"starvingConfig": {
 		"name": "Starving",
 		"disabled": false,
-		"cooldown": 380,
-		"duration": 200,
+		"cooldown": 500,
+		"duration": 160,
 		"amplifier": 1
 	},
 	"stormyConfig": {
@@ -147,7 +147,7 @@
 		"disabled": false,
 		"cooldown": 500,
 		"duration": 150,
-		"amplifier": 4
+		"amplifier": 3
 	},
 	"thornyConfig": {
 		"name": "Thorny",
@@ -162,17 +162,17 @@
 	},
 	"undyingConfig": {
 		"name": "Undying",
-		"disabled": false,
-		"regenerationDuration": 700,
+		"disabled": true,
+		"regenerationDuration": 500,
 		"regenerationAmplifier": 1,
-		"absorptionDuration": 1200,
-		"absorptionAmplifier": 5,
+		"absorptionDuration": 1000,
+		"absorptionAmplifier": 4,
 		"fireResistanceDuration": 600
 	},
 	"weaknessConfig": {
 		"name": "Weakness",
 		"disabled": false,
-		"cooldown": 340,
+		"cooldown": 400,
 		"duration": 130,
 		"amplifier": 1
 	},
@@ -184,12 +184,12 @@
 	"witheringConfig": {
 		"name": "Withering",
 		"disabled": false,
-		"duration": 100,
+		"duration": 90,
 		"amplifier": 1
 	},
 	"yeeterConfig": {
 		"name": "Yeeter",
 		"disabled": false,
-		"yeetAmount": 5.0
+		"yeetAmount": 4.75
 	}
 }

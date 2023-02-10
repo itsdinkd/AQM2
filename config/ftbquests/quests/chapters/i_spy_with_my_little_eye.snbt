@@ -84,6 +84,117 @@
 				table_id: 1140926682852401208L
 			}]
 		}
+		{
+			title: "You visited a Dim Door! Now read me!"
+			icon: "dimdoors:monolith_spawner"
+			x: -7.0d
+			y: 2.5d
+			subtitle: "You visited a dimensional door... now read me"
+			description: [
+				"You may ask yourself how you exit..."
+				""
+				"Beat a monolith or find the liquid and jump in it"
+			]
+			hide: true
+			secret: true
+			id: "239ECC2B7F3A3AD8"
+			tasks: [
+				{
+					id: "09A17ED7E4D26B41"
+					type: "location"
+					title: "Some Dimension"
+					dimension: "dimdoors:limbo"
+					ignore_dimension: false
+					position: [I;
+						0
+						0
+						0
+					]
+					size: [I;
+						1
+						1
+						1
+					]
+				}
+				{
+					id: "7A628DBE88D2A415"
+					type: "observation"
+					title: "You saw fabric of reality"
+					icon: "botania:cosmetic_questgiver_mark"
+					timer: 1L
+					observe_type: 0
+					to_observe: "dimdoors:black_fabric"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			subtitle: "Stop that Rift!"
+			description: ["When you see a rift, you can use the rift remover to close it. Closing a rift is a smart as it will stop the spread of unstable fabric"]
+			dependencies: ["239ECC2B7F3A3AD8"]
+			hide: true
+			id: "1CBAE85D6CEDCC7C"
+			tasks: [{
+				id: "670D1873F6D801A0"
+				type: "item"
+				item: {
+					id: "dimdoors:rift_remover"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "021CC1628C40AD3B"
+				type: "item"
+				item: "dimdoors:white_void_record"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			subtitle: "Your own pocket dimension"
+			description: ["Hint: Build a base inside of it, or a storage, or a farm. the options are limitless"]
+			dependencies: ["239ECC2B7F3A3AD8"]
+			hide: true
+			id: "1CA75D7D445EFFDF"
+			tasks: [{
+				id: "1AB79CF8FFAE99AD"
+				type: "item"
+				item: "dimdoors:iron_dimensional_door"
+			}]
+			rewards: [{
+				id: "4574051BB3C80D75"
+				type: "item"
+				item: "dimdoors:oak_dimensional_door"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			subtitle: "A better portable pocket dimension"
+			dependencies: ["1CA75D7D445EFFDF"]
+			hide: true
+			id: "25C2ECB313ABAA62"
+			tasks: [{
+				id: "0E16C0892C6BA174"
+				type: "item"
+				item: "dimdoors:quartz_dimensional_door"
+			}]
+			rewards: [{
+				id: "11BD98BCCE00FF3B"
+				type: "item"
+				item: {
+					id: "dimdoors:rift_remover"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

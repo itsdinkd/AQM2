@@ -20,20 +20,6 @@
     },
     "attributes": [
         {
-            "type": "tiered:generic.durable",
-            "modifier": {
-                "name": "tiered:common_armor_2",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.3
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
             "type": "generic.movement_speed",
             "modifier": {
                 "name": "tiered:common_armor_2",

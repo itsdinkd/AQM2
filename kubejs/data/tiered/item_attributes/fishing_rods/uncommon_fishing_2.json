@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:uncommon_fishing_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.2
+                "amount": 0.2
             },
             "optional_equipment_slots": [
                 "MAINHAND"

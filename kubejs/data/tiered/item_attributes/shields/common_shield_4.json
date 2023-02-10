@@ -11,36 +11,14 @@
     },
     "attributes": [
         {
-            "type": "generic.armor",
-            "modifier": {
-                "name": "tiered:common_shield_4",
-                "operation": "ADDITION",
-                "amount": -2
-            },
-            "optional_equipment_slots": [
-                "OFFHAND"
-            ]
-        },
-        {
-            "type": "generic.max_health",
-            "modifier": {
-                "name": "tiered:common_shield_4",
-                "operation": "ADDITION",
-                "amount": -4
-            },
-            "optional_equipment_slots": [
-                "OFFHAND"
-            ]
-        },
-        {
-            "type": "generic.movement_speed",
+            "type": "tiered:generic.durable",
             "modifier": {
                 "name": "tiered:common_shield_4",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.2
+                "amount": -0.15
             },
             "optional_equipment_slots": [
-                "OFFHAND"
+                "MAINHAND"
             ]
         }
     ]

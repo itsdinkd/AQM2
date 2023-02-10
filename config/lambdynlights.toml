@@ -112,6 +112,11 @@
 				wither_skull = true
 				frog = true
 				shulker = true
+				mooshroom = true
+				spectral_arrow = true
+				experience_bottle = true
+				egg = true
+				fishing_bobber = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				badger = true
@@ -257,6 +262,7 @@
 				enderwarthog = true
 				ender_whale = true
 				necromancer = true
+				dragon = true
 
 			[light_sources.settings.entities.elementalcreepers]
 				illusion_creeper = false
@@ -434,6 +440,7 @@
 				inky_sheep = true
 				patched_sheep = true
 				ashen_cow = true
+				amber_chicken = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
@@ -449,6 +456,7 @@
 				spruce_creeper = true
 				mushroom_creeper = true
 				snowy_creeper = true
+				ocean_creeper = true
 
 			[light_sources.settings.entities.biomemakeover]
 				moth = true
@@ -461,6 +469,7 @@
 
 			[light_sources.settings.entities.botania]
 				mana_burst = true
+				spark = true
 
 			[light_sources.settings.entities.farmingforblockheads]
 				merchant = true
@@ -551,6 +560,8 @@
 				aponi_butterfly = true
 				swamp_hopper_butterfly = true
 				cloudy_puff_butterfly = true
+				butter_gold_butterfly = true
+				shroom_skipper_butterfly = true
 
 			[light_sources.settings.entities.automobility]
 				automobile = true
@@ -639,6 +650,7 @@
 				koi_fish = true
 				dragonfly = true
 				red_panda = true
+				sea_bunny = true
 
 			[light_sources.settings.entities.creatures_from_the_snow]
 				narwhal = true
@@ -655,6 +667,7 @@
 				glare = true
 				copper_golem = true
 				moobloom = true
+				iceologer = true
 
 			[light_sources.settings.entities.chubbystuff]
 				quagsire = true
@@ -675,6 +688,7 @@
 				inquisitor = true
 				runner = true
 				scorpion = true
+				conjunctivius_obelisk = true
 
 			[light_sources.settings.entities.rottencreatures]
 				burned = true
@@ -725,4 +739,45 @@
 			[light_sources.settings.entities.betterend]
 				end_slime = true
 				end_fish = true
+
+			[light_sources.settings.entities.soulsweapons]
+				dark_sorcerer = true
+				withered_demon = true
+				accursed_lord_boss = true
+				chaos_monarch = true
+				soulmass = true
+				big_chungus = true
+				day_stalker = true
+				night_prowler = true
+				returning_knight = true
+				forlorn = true
+				evil_forlorn = true
+				soul_reaper_ghost = true
+				draugr_boss = true
+				remnant = true
+				moonlight_projectile = true
+				charged_arrow_entity = true
+				swordspear_entity = true
+				mjolnir_entity = true
+				night_shade = true
+				comet_spear_entity = true
+				freyr_sword_entity = true
+				big_moonlight_projectile = true
+				silver_bullet_entity = true
+				leviathan_axe_entity = true
+				cannonball_entity_type = true
+
+			[light_sources.settings.entities.takesapillage]
+				clay_golem = true
+				skirmisher = true
+
+			[light_sources.settings.entities.ad_astra]
+				tier_1_rocket = true
+				lander = true
+				corrupted_lunarian = true
+				star_crawler = true
+				ice_spit = true
+
+			[light_sources.settings.entities.spell_engine]
+				spell_projectile = true
 

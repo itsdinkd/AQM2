@@ -1,12 +1,24 @@
 {
 	id: "16DDF5210F9D327C"
 	group: "332CF3EA95B49108"
-	order_index: 4
+	order_index: 3
 	filename: "random"
-	title: "Random"
-	subtitle: ["Vehicles, Special Gear, Blocks, and more"]
+	title: "Cars, Mechs, Aircrafts, and More"
+	subtitle: ["Craft Aircrafts, Vehicles that can harvest, Mechs that can tunnel mine, and more"]
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 3.5d
+		y: -1.5d
+		width: 35.0d
+		height: 25.0d
+		rotation: 0.0d
+		image: "kubejs:textures/gui/presets/scroll.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Magitek Mech"
@@ -14,6 +26,7 @@
 			x: -2.0d
 			y: -3.0d
 			shape: "rsquare"
+			subtitle: "Another battle mech"
 			description: [
 				"Craft the parts."
 				""
@@ -58,6 +71,7 @@
 			x: -2.0d
 			y: -4.5d
 			shape: "rsquare"
+			subtitle: "A huge miner"
 			description: [
 				"Craft the Tunnel Mech and dig some holes."
 				""
@@ -105,6 +119,7 @@
 			x: -2.0d
 			y: -6.0d
 			shape: "rsquare"
+			subtitle: "A battle mech"
 			description: [
 				"This mech is pretty much the same as the Magitek Mech, however, it requires a charged item, such as a battery to power it. "
 				""
@@ -858,6 +873,16 @@
 				type: "item"
 				item: "minecraft:iron_ingot"
 				count: 6
+			}]
+		}
+		{
+			x: -12.5d
+			y: 1.0d
+			id: "1F52DA0EE482E09D"
+			tasks: [{
+				id: "230029F1FB3BCB25"
+				type: "item"
+				item: "immersive_aircraft:engine"
 			}]
 		}
 	]

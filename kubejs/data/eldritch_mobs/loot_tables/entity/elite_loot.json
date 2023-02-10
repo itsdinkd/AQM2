@@ -72,57 +72,6 @@
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:golden_sword",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "sharpness",
-                "smite",
-                "bane_of_arthropods",
-                "fire_aspect",
-                "knockback",
-                "sweeping"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_shovel",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "efficiency"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_pickaxe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "efficiency",
-                "fortune"
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.35
-                }
-              ]
-            }
-          ]
-        },
-        {
           "type": "minecraft:tag",
           "weight": 1,
           "name": "aqm2:weapons/mcdw",

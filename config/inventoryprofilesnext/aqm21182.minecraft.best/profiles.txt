@@ -1,0 +1,20 @@
+
+
+
+
+profile Saved activate HOT6
+	HOT1
+		"minecraft:lilac"
+	HOT2
+		"twigs:polished_amethyst_brick_slab"
+	HOT3
+		"vinery:stackable_log"
+	HOT4
+		"minecraft:flint_and_steel"
+	HOT5
+		"patchouli:guide_book"
+	HOT6
+		"vinery:white_grape"
+	HOT7
+		"vinery:grapevine_leaves"
+

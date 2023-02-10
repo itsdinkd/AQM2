@@ -29,28 +29,6 @@
             "optional_equipment_slots": [
                 "MAINHAND"
             ]
-        },
-        {
-            "type": "tiered:generic.dig_speed",
-            "modifier": {
-                "name": "tiered:common_tool_4",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.2
-            },
-            "optional_equipment_slots": [
-                "MAINHAND"
-            ]
-        },
-        {
-            "type": "generic.movement_speed",
-            "modifier": {
-                "name": "tiered:common_tool_4",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.1
-            },
-            "optional_equipment_slots": [
-                "MAINHAND"
-            ]
         }
     ]
 }

@@ -8,6 +8,14 @@
     "techreborn:quantum_chestplate",
     "techreborn:quantum_helmet",
     "techreborn:quantum_boots",
-    "techreborn:quantum_leggings"
+    "techreborn:quantum_leggings",
+    "spectrum:bedrock_boots",
+    "spectrum:bedrock_helmet",
+    "spectrum:bedrock_leggings",
+    "spectrum:bedrock_chestplate",
+    "gobber2:gobber2_boots_dragon",
+    "gobber2:gobber2_chestplate_dragon",
+    "gobber2:gobber2_helmet_dragon",
+    "gobber2:gobber2_leggings_dragon"
   ]
 }

@@ -1271,6 +1271,14 @@
     "vinery:grapevine_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "rusticated:ironwood_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "rusticated:olive_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

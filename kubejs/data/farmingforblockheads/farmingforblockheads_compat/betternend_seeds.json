@@ -1,0 +1,25 @@
+{
+  "modId": "betterend",
+  "group": {
+    "name": "BetterEnd Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "betterend:amber_gem"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "betterend:lanceleaf_seed"
+    },
+    {
+      "output": "betterend:blue_vine_seed"
+    },
+    {
+      "output": "betterend:glowing_pillar_seed"
+    },
+    {
+      "output": "betterend:cave_pumpkin_seed"
+    }
+  ]
+}

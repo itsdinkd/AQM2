@@ -11,28 +11,6 @@
     },
     "attributes": [
         {
-            "type": "tiered:generic.crit_chance",
-            "modifier": {
-                "name": "tiered:common_melee_3",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.15
-            },
-            "optional_equipment_slots": [
-                "MAINHAND"
-            ]
-        },
-        {
-            "type": "tiered:generic.durable",
-            "modifier": {
-                "name": "tiered:common_melee_3",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.3
-            },
-            "optional_equipment_slots": [
-                "MAINHAND"
-            ]
-        },
-        {
             "type": "generic.luck",
             "modifier": {
                 "name": "tiered:common_melee_3",

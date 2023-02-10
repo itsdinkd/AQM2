@@ -1,0 +1,15 @@
+{
+  "doSightChecksFlag": true,
+  "rotatePlayer": false,
+  "excludeTab": [
+    "tiered:reforging_station",
+    "#techreborn:block_entities_without_inventories",
+    "#inventorytabs:mod_compat_blacklist",
+    "rusticated:condenser",
+    "rusticated:drying_basin",
+    "#spectrum:unbreakable",
+    "minecells:prison_torch"
+  ],
+  "includeTab": [],
+  "debugEnabled": false
+}

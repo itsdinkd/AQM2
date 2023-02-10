@@ -1,7 +1,9 @@
 {
   "dropItems": true,
-  "growthTime": 60,
-  "perItemGrowthTimes": {},
+  "growthTime": 120,
+  "perItemGrowthTimes": {
+    "croparia:block_crop_pufferfish": -1
+  },
   "growthModifierRegexPatterns": {},
   "blackList": [],
   "forceBlackList": []

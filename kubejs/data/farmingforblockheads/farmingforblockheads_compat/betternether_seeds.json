@@ -4,7 +4,7 @@
     "name": "BetterNether Seeds",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "minecraft:emerald"
+      "item": "betternether:cincinnasite"
     },
     "defaultCategory": "farmingforblockheads:seeds"
   },

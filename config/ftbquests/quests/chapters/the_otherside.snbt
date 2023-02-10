@@ -1,9 +1,10 @@
 {
 	id: "739AE87BF04427CC"
 	group: "7DDA60A5DB5F9F6C"
-	order_index: 5
+	order_index: 6
 	filename: "the_otherside"
-	title: "The Otherside"
+	title: "The Otherside Dimension"
+	subtitle: ["Deep Dark - Extended content dimension"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -316,6 +317,179 @@
 				exclude_from_claim_all: true
 				table_id: 1830006897849082013L
 			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["5AE24B697512B4B5"]
+			optional: true
+			id: "75CE0575E0852990"
+			tasks: [{
+				id: "24D2CAD9BAE746B0"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "66205F738675E05D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["5AE24B697512B4B5"]
+			optional: true
+			id: "2B4A7933704D5411"
+			tasks: [{
+				id: "2F8A17E4A8385BF7"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D95D400C66395F8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			dependencies: ["5AE24B697512B4B5"]
+			optional: true
+			id: "27AE900491714D87"
+			tasks: [{
+				id: "2099A15A6B6D4192"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C686B8EA96E84EC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			dependencies: ["5AE24B697512B4B5"]
+			optional: true
+			id: "6EE25D63E7BF1625"
+			tasks: [{
+				id: "158417231E6D3151"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F98961FD74D4960"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			dependencies: ["5AE24B697512B4B5"]
+			optional: true
+			id: "4F7A7CB92990A698"
+			tasks: [{
+				id: "058AC55AF39D54E7"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5664AD6CD6AB201E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			dependencies: [
+				"1F4065E9618508B3"
+				"3CA6E9C02D04E387"
+			]
+			hide: true
+			optional: true
+			id: "46D69096DD4E2749"
+			tasks: [
+				{
+					id: "5AA1011D36235303"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C31C59B4D6A6F8C"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0CBA35FB87B5B141"
+					type: "item"
+					item: {
+						id: "deeperdarker:warden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "417E7286E0315B8F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "712CC90D758CC123"
+					type: "item"
+					item: "kubejs:silver_coin"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

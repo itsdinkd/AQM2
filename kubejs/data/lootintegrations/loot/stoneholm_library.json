@@ -1,0 +1,13 @@
+{
+  "loot_table": "stoneholm:library",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "structory:library/junk": 6,
+    "structory:library/high": 3,
+    "structory:library/low": 4,
+    "terralith:village/desert/library": 6,
+    "terralith:village/fortified/library": 2,
+    "byg:chests/village/village_skyris_library": 6,
+    "minecraft:chests/village/village_plains_house": 1
+  }
+}

@@ -1,0 +1,179 @@
+{
+	id: "165083CE26A95070"
+	group: ""
+	order_index: 2
+	filename: "quest_shop"
+	title: "-QUEST SHOP-"
+	icon: "kubejs:gold_coin"
+	disable_toast: true
+	subtitle: ["Use those quest coins"]
+	always_invisible: true
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -12.5d
+			y: -3.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/copper_coin.png"
+			hover: ["Copper Coin Shop"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/silver_coin.png"
+			hover: ["Silver Coin Shop"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/gold_coin.png"
+			hover: ["Gold Coin Shop"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			width: 1.0d
+			height: 5.0d
+			rotation: 90.0d
+			image: "bewitchment:textures/block/salt_line_line0.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			width: 1.0d
+			height: 5.0d
+			rotation: 90.0d
+			image: "bewitchment:textures/block/salt_line_line0.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Orc Skin (2 Silver Coins)"
+			icon: "adventurez:orc_skin"
+			x: -1.5d
+			y: 0.5d
+			dependency_requirement: "one_completed"
+			repeatable: true
+			id: "565E474E41B29E57"
+			tasks: [{
+				id: "3F9C7FB086ACD181"
+				type: "item"
+				item: "kubejs:silver_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6ED10DB63D3AFCB7"
+				type: "item"
+				item: "adventurez:orc_skin"
+			}]
+		}
+		{
+			title: "Heartstone (5 Silver Coins)"
+			icon: "heartstone:heartstone"
+			x: 0.5d
+			y: 0.5d
+			repeatable: true
+			id: "1C653C467308BE45"
+			tasks: [{
+				id: "5F5C745A30399AA9"
+				type: "item"
+				item: "kubejs:silver_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7991EA3F199E16C2"
+				type: "item"
+				item: "heartstone:heartstone"
+				count: 2
+			}]
+		}
+		{
+			title: "Oak Planks (20 Copper Coins)"
+			icon: "minecraft:oak_planks"
+			x: -13.5d
+			y: 0.5d
+			id: "1C0B56116BBDE06A"
+			tasks: [{
+				id: "120F2F5A30408D78"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 20L
+			}]
+			rewards: [{
+				id: "24AF70E053D9D72C"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 9
+				random_bonus: 9
+			}]
+		}
+		{
+			title: "Common Loot (25 Copper Coins)"
+			icon: "kibe:entangled_bag"
+			x: -11.5d
+			y: 0.5d
+			subtitle: "Test your luck on the common loot table"
+			id: "1ADE6564D588B164"
+			tasks: [{
+				id: "5C5D35256DFD6FA5"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 25L
+			}]
+			rewards: [{
+				id: "13E78FB9C8A42983"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			title: "Coal (7 Copper Coins)"
+			icon: "minecraft:coal"
+			x: -13.5d
+			y: 2.0d
+			id: "2B73160E8D8167C3"
+			tasks: [{
+				id: "65529F1BE1B89698"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 7L
+			}]
+			rewards: [{
+				id: "15F0B729694271FA"
+				type: "item"
+				item: "minecraft:coal"
+				count: 5
+			}]
+		}
+	]
+	quest_links: [ ]
+}

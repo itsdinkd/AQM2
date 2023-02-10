@@ -1,45 +1,103 @@
 {
 	id: "7189D2731FC1B342"
 	group: "7DDA60A5DB5F9F6C"
-	order_index: 4
+	order_index: 5
 	filename: "dead_cells_what"
 	title: "Dead Cells, What?"
+	subtitle: ["A difficult content mod with its own dimensional dungeons"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Find a Mine Cells Portal"
-		x: 0.0d
-		y: 0.0d
-		subtitle: "You must have acquired a diamond for the portal to activate"
-		description: [
-			"Once you acquired diamonds, the portal will be active. Step inside if you dare"
-			""
-			"More will be added to the questline as soon as the developer adds in Mine Cell drops"
-		]
-		id: "2716031A85838BF2"
-		tasks: [{
-			id: "532C08B6A815CB0D"
-			type: "structure"
-			icon: {
-				id: "minecells:tentacle"
-				Count: 1b
-				tag: {
-					Damage: 0
+	quests: [
+		{
+			title: "Find a Mine Cells Portal"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "You must have acquired a diamond for the portal to activate"
+			description: [
+				"Once you acquired diamonds, the portal will be active. Step inside if you dare"
+				""
+				"More will be added to the questline as soon as the developer adds in Mine Cell drops"
+			]
+			id: "2716031A85838BF2"
+			tasks: [{
+				id: "532C08B6A815CB0D"
+				type: "structure"
+				icon: {
+					id: "minecells:tentacle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-			structure: "minecells:portal"
-		}]
-		rewards: [{
-			id: "60D689ACEE33C984"
-			type: "item"
-			item: {
-				id: "minecraft:wooden_sword"
-				Count: 1b
-				tag: {
-					Damage: 0
+				structure: "minecells:portal"
+			}]
+			rewards: [{
+				id: "60D689ACEE33C984"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
 				}
-			}
-		}]
-	}]
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "You need at least... Nether Gobber to survive"
+			dependencies: ["2716031A85838BF2"]
+			size: 2.0d
+			id: "760B5E063030439B"
+			tasks: [{
+				id: "536A86A469A36D6E"
+				type: "dimension"
+				title: "Enter Minecells Prison"
+				dimension: "minecells:prison"
+			}]
+			rewards: [{
+				id: "04BCBA8E54994F7B"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Oof"
+			dependencies: ["760B5E063030439B"]
+			id: "2402324C0B3C335E"
+			tasks: [{
+				id: "5C382B0BCFA7A605"
+				type: "kill"
+				title: "Kill the Boss, Conjunctivius"
+				icon: "minecells:corpse"
+				entity: "minecells:conjunctivius"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "62A76F27AA9582D0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 172378784714914766L
+				}
+				{
+					id: "4B22C81CFA90EB16"
+					type: "item"
+					item: "soulsweapons:moonstone"
+					random_bonus: 2
+				}
+				{
+					id: "0CABF3D81A0A954D"
+					type: "item"
+					item: "soulsweapons:verglas"
+					random_bonus: 2
+				}
+			]
+		}
+	]
 	quest_links: [ ]
 }

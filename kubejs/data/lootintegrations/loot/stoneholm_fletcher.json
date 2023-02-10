@@ -1,0 +1,8 @@
+{
+  "loot_table": "stoneholm:fletcher",
+  "max_result_itemcount": 5,
+  "integrated_loot_tables": {
+    "minecraft:chests/village/village_fletcher": 3,
+    "minecraft:chests/village/village_plains_house": 1
+  }
+}

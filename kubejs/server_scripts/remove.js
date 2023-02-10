@@ -23,6 +23,7 @@ const arrRemove = [
 "botania:smelt_rod",
 "botania:spawner_claw",
 "botania:super_lava_pendant",
+"skylorlib:golden_bread",
 "botania:terraform_rod",
 "botania:tornado_rod",
 "friendsandfoes:wildfire_crown",
@@ -38,13 +39,7 @@ const arrRemove = [
 "byg:lignite_ore",
 "byg:lignite",
 "consistency_plus:copper_nugget",
-"create:crushed_zinc_ore",
-"create:deepslate_zinc_ore",
 "create:extendo_grip",
-"create:raw_zinc_block",
-"create:raw_zinc",
-"create:zinc_ore",
-"createdeco:zinc_sheet",
 "croptosis:feather_meal",
 "croptosis:rotten_pile",
 "darkutils:damage_plate_maim",
@@ -129,8 +124,8 @@ const arrRemove = [
 "indrev:slaughter_mk4",
 "kibe:angel_ring",
 "kibe:chunk_loader",
-"kibe:cursed_lasso",
 "kibe:diamond_kibe",
+"kibe:cursed_lasso",
 "kibe:diamond_lasso",
 "kibe:diamond_spikes",
 "kibe:gold_spikes",
@@ -225,7 +220,6 @@ const arrRemove = [
 "techreborn:steel_leggings", 
 "things:hades_crystal",
 "things:monocle",
-"things:moss_necklace",
 "twilightforest:uncrafting_table",
 "valley:copper_nugget",
 "archon:combustion_charge",
@@ -282,7 +276,11 @@ const arrRemove = [
 "galosphere:silver_ingot",
 "galosphere:silver_nugget",
 "soulsweapons:lost_soul",
+"soulsweapons:draugr",
 "galosphere:silver_ore",
+"chococraft:pink_gysahl",
+"chococraft:red_gysahl",
+"things:recall_potion",
 "fluidtank:fluid_source",
 "galosphere:deepslate_silver_ore",
 "galosphere:raw_silver_block",
@@ -335,7 +333,8 @@ var idRemove = [
   "indrev:pulverizer/sulfur_dust_from_gunpowder",
   "indrev:pulverizer/sulfur_dust",
   "soulsweapons:bewitchment_molten_demon_heart",
-  "soulsweapons:moonstone_ring_2"
+  "soulsweapons:moonstone_ring_2",
+  "byg:brown_dye"
 ]
 
 ServerEvents.recipes( event => {
@@ -398,3 +397,12 @@ ServerEvents.recipes( event => {
   event.remove({id: "autoworkstations:netherite_auto_crafting_table_upgrade"})
   event.remove({id: "autoworkstations:netherite_auto_crafting_table"})
 })
+
+
+// Blacklist
+
+ItemEvents.pickedUp(event => {
+  if (event.item.id == Item.of('soulsweapons:withered_wabbajack')) {
+      event.cancel()
+  }
+});

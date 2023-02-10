@@ -3,13 +3,14 @@
 	group: "50115579257378EC"
 	order_index: 1
 	filename: "monster_and_sprites"
-	title: "Monster and Sprites"
+	title: "Monsters and Things"
 	icon: "minecraft:zombie_head"
-	subtitle: ["Everything Monsters"]
+	subtitle: ["Everything Monsters, Blocks, and Misc"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Spot a Mauler"
 			x: -2.5d
 			y: 0.0d
 			subtitle: "Friends and Foes - Experience Mob"
@@ -32,6 +33,7 @@
 			}]
 		}
 		{
+			title: "Spot a Copper Golem"
 			x: -4.0d
 			y: 0.0d
 			subtitle: "Friends and Foes - Copper Friend"
@@ -53,6 +55,7 @@
 			}]
 		}
 		{
+			title: "Spot a Glare"
 			x: -5.5d
 			y: 0.0d
 			subtitle: "Friends and Foes - Light Detector"
@@ -75,6 +78,7 @@
 			}]
 		}
 		{
+			title: "Spot a Moobloom"
 			x: -7.0d
 			y: 0.0d
 			subtitle: "Friends and Foes - Flowery Cow"
@@ -101,7 +105,7 @@
 					type: "questsadditions:interaction"
 					entity: "friendsandfoes:moobloom"
 					nbt: { }
-					value: 100L
+					value: 3L
 					checkItem: true
 					item: {
 						id: "minecraft:shears"
@@ -112,6 +116,315 @@
 					}
 				}
 			]
+		}
+		{
+			icon: "minepop:minepop_zombie"
+			x: -7.0d
+			y: 4.5d
+			subtitle: "MmMMhmmmM"
+			description: ["Death To Zombies"]
+			id: "67B329232D256049"
+			tasks: [{
+				id: "66BA604DFD9EDC5F"
+				type: "kill"
+				title: "Kill 100 Zombies"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+			rewards: [{
+				id: "7E339F5A25C961F4"
+				type: "item"
+				item: "minepop:minepop_zombie"
+			}]
+		}
+		{
+			icon: "minepop:minepop_creeper"
+			x: -6.0d
+			y: 4.5d
+			subtitle: "Kaboom"
+			id: "75BFEA5A6091146D"
+			tasks: [{
+				id: "19DC23695178CD4C"
+				type: "kill"
+				title: "Kill 100 Creepers"
+				entity: "minecraft:creeper"
+				value: 100L
+			}]
+			rewards: [{
+				id: "2D4ED24FA69B2EE8"
+				type: "item"
+				item: "minepop:minepop_creeper"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			subtitle: "What are you looking at?"
+			id: "3D72B6CCE9541889"
+			tasks: [{
+				id: "020C7F7E0806B7B3"
+				type: "kill"
+				title: "Kill 100 Endermen"
+				icon: "minepop:minepopenderman"
+				entity: "minecraft:enderman"
+				value: 100L
+			}]
+			rewards: [{
+				id: "4670954B7E019B6D"
+				type: "item"
+				item: "minepop:minepopenderman"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			subtitle: "Got Gold?"
+			id: "50FC16585CAA8707"
+			tasks: [{
+				id: "550FB7ACA013B1F9"
+				type: "kill"
+				title: "Kill 100 Piglins"
+				icon: "minepop:minepop_pigman"
+				entity: "minecraft:piglin"
+				value: 100L
+			}]
+			rewards: [{
+				id: "5B55D824D82C97E1"
+				type: "item"
+				item: "minepop:minepop_pigman"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			subtitle: "Poor Piggies"
+			id: "14861309CAA12134"
+			tasks: [{
+				id: "377664C98BDE474B"
+				type: "kill"
+				title: "Kill 100 Pigs"
+				icon: "minepop:minepop_pig"
+				entity: "minecraft:pig"
+				value: 100L
+			}]
+			rewards: [{
+				id: "0BBEDA1EF889D3A8"
+				type: "item"
+				item: "minepop:minepop_pig"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			subtitle: "Jones the Bones"
+			id: "3B5A65B0181E751A"
+			tasks: [{
+				id: "2B4134D926E5AE86"
+				type: "kill"
+				title: "Kill 100 Skeletons"
+				icon: "minepop:minepop_skeleton"
+				entity: "minecraft:skeleton"
+				value: 100L
+			}]
+			rewards: [{
+				id: "25AF4FD7C00DF630"
+				type: "item"
+				item: "minepop:minepop_skeleton"
+			}]
+		}
+		{
+			icon: "minepop:minepop_mr_beast"
+			x: -1.0d
+			y: 4.5d
+			subtitle: "Dig it?"
+			id: "4222E9BC7B52E4BD"
+			tasks: [{
+				id: "7785D42F53EDCAF9"
+				type: "questsadditions:break"
+				title: "Break 1000 Dirt Blocks"
+				block_type: 0
+				block: "minecraft:dirt"
+				value: 1000L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "523651F65AFF0998"
+				type: "item"
+				item: "minepop:minepop_mr_beast"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 4.5d
+			subtitle: "Call Ender Whales to your position in The End"
+			description: ["Did you know you can ride Ender Whales? Thats right. Call them, and then use the next item in the quest to guide them"]
+			id: "36974183399FE0DE"
+			tasks: [{
+				id: "58D416B1CC43E10A"
+				type: "item"
+				item: {
+					id: "adventurez:ender_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "75677100F1B07771"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+				count: 3
+			}]
+		}
+		{
+			x: -15.0d
+			y: 4.5d
+			subtitle: "Guide the whale... while you're on its back"
+			dependencies: ["36974183399FE0DE"]
+			id: "0686EC73272302EB"
+			tasks: [{
+				id: "34B1E1BC52E1AF2F"
+				type: "item"
+				item: {
+					id: "adventurez:chorus_fruit_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 4.5d
+			subtitle: "Okay Look at it and then jump on its back"
+			dependencies: ["0686EC73272302EB"]
+			id: "223F0C91ABA26EEE"
+			tasks: [{
+				id: "4E1328D0DFD35B98"
+				type: "observation"
+				title: "Look at a Ender Whale"
+				icon: "adventurez:spawn_ender_whale"
+				timer: 100L
+				observe_type: 5
+				to_observe: "adventurez:ender_whale"
+			}]
+			rewards: [{
+				id: "621AC89B4257FAFA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Kill Piglin Beast for a Piglin Flag"
+			x: -16.0d
+			y: -1.5d
+			subtitle: "Piglin Flag is dropped by the Piglin Beast"
+			description: [
+				"Killing many piglins will cause them to call the Beast.... or if you mine too much gold in the nether."
+				""
+				"The flag will calm piglins down"
+			]
+			dependencies: ["3D981930F9D68A53"]
+			id: "5A863EE7DFCB9657"
+			tasks: [
+				{
+					id: "64DCD6F196D6C87C"
+					type: "item"
+					item: "adventurez:piglin_flag_block"
+				}
+				{
+					id: "6777EF46D94D9AEE"
+					type: "kill"
+					entity: "adventurez:piglin_beast"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "55EA4B6E37DE5EC6"
+					type: "command"
+					title: "RPGStats Combat +2 Levels"
+					command: "/rpgcheat @p rpgstats:melee add levels 2"
+					player_command: false
+				}
+				{
+					id: "73235DB138AB4901"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 50
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: -0.5d
+			description: ["Found in Nether Fortresses, the Blaze Guardian protects fellow blazes and will also prevent blaze spawners from spawning any if one is nearby."]
+			id: "5CAEF5A350A97E4E"
+			tasks: [{
+				id: "79FE81F454BB2A92"
+				type: "observation"
+				title: "You found a Blaze Guardian"
+				icon: "adventurez:spawn_blaze_guardian"
+				timer: 50L
+				observe_type: 5
+				to_observe: "adventurez:blaze_guardian"
+			}]
+			rewards: [{
+				id: "576D024B80D02615"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: -15.0d
+			y: -1.5d
+			dependencies: ["5CAEF5A350A97E4E"]
+			id: "73343574EBA65759"
+			tasks: [{
+				id: "43A35BFC6B883DDD"
+				type: "kill"
+				title: "Slay the Blaze Guardian"
+				entity: "adventurez:blaze_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "258ED961ACF8F233"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "09D758C21E4B0982"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 40
+				}
+			]
+		}
+		{
+			title: "Look at a Piglin Beast"
+			x: -16.0d
+			y: -0.5d
+			subtitle: "You're gluttonous!"
+			id: "3D981930F9D68A53"
+			tasks: [{
+				id: "230ACE9C7ABE5C58"
+				type: "observation"
+				title: "Find a Piglin Beast"
+				icon: "adventurez:spawn_piglin_beast"
+				timer: 50L
+				observe_type: 5
+				to_observe: "adventurez:piglin_beast"
+			}]
+			rewards: [{
+				id: "25C05D456DDA2514"
+				type: "command"
+				title: "RPGStats Combat +2 Levels"
+				command: "/rpgcheat @p rpgstats:melee add levels 2"
+				player_command: false
+			}]
 		}
 	]
 	quest_links: [ ]

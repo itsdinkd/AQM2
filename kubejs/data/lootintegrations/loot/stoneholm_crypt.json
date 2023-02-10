@@ -1,0 +1,8 @@
+{
+  "loot_table": "stoneholm:crypt",
+  "max_result_itemcount": 3,
+  "integrated_loot_tables": {
+    "graveyard:chests/crypt_urn_loot": 3,
+    "graveyard:chests/crypt_loot": 2
+  }
+}

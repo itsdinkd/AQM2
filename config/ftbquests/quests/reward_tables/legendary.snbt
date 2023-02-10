@@ -1,0 +1,149 @@
+{
+	id: "32D5B1AF6FF59854"
+	order_index: 13
+	title: "Legendary"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:pocket_piston" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:helium_flamingo" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:universal_attractor" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:umbrella" }
+			{
+			item: {
+				id: "mcdar:wind_horn"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdar:iron_hide_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdar:ghost_cloak"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdar:death_cap_mushroom"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdar:boots_of_swiftness"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdar:wonderful_wheat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdar:tasty_bone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdar:buzzy_nest"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdar:satchel_of_elements"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcdar:updraft_tome"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "givemehats:woolrus_hat" }
+		{ item: "givemehats:wolf_ears" }
+		{ item: "givemehats:witch_hat" }
+		{ item: "givemehats:topest_hat" }
+		{ item: "givemehats:top_hat" }
+		{ item: "givemehats:tater_hat" }
+		{ item: "givemehats:slime_hat" }
+		{ item: "givemehats:santa_hat" }
+		{ item: "givemehats:sailor_hat" }
+		{ item: "givemehats:russian_hat" }
+		{ item: "givemehats:jojo_hat" }
+		{ item: "givemehats:golem_bucket" }
+		{ item: "givemehats:fox_ears" }
+		{ item: "givemehats:floating_hat" }
+		{ item: "givemehats:fez_hat" }
+		{ item: "givemehats:electric_mouse_ears" }
+		{ item: "givemehats:crown" }
+		{ item: "givemehats:cowboy_hat" }
+		{ item: "givemehats:cat_ears" }
+		{ item: "givemehats:bunny_ears" }
+		{ item: "givemehats:bowler_hat" }
+		
+	]
+}

@@ -1,23 +1,30 @@
 // Another Qaulity Modpack 2
 
-// onEvent('recipes', event => {
-//  event.custom({
-//     "type": "techreborn:grinder",
-//     "power": 4,
-//     "time": 270,
-//     "ingredients": [
-//         {
-//             "item": Item.of('ae2:fluix_crystal_seed').ignoreNBT()
-//         },
-//         {
-//             "item": Item.of('ae2:fluix_crystal_seed').ignoreNBT()
-//         }
-//     ],
-//     "results": [
-//         {
-//             "item": "techreborn:andesite_dust",
-//             "count": 2
-//         }
-//     ]
-// })
-// })
+
+// itemtype, input, output, count, power = 5, time = 200
+ServerEvents.recipes(event => {
+    const trGrinder = function(event, input, output, c, p, t) {
+      event.custom({
+        "type": "techreborn:grinder",
+        "power": p,
+        "time": t,
+        "ingredients": [{ "item": input }],
+        "results": [{ "item": output, "count": c }]
+      });
+    };
+    
+    event.remove({input: "gobber2:gobber2_ore" });
+    trGrinder(event, 'gobber2:gobber2_ore', 'gobber2:gobber2_globette', 2, 5, 260 )
+    
+    event.remove({input: "gobber2:gobber2_ore_deepslate" });
+    trGrinder(event, 'gobber2:gobber2_ore_deepslate', 'gobber2:gobber2_globette', 2, 5, 260 )
+    
+    event.remove({input: "gobber2:gobber2_ore_nether" });
+    trGrinder(event, 'gobber2:gobber2_ore_nether', 'gobber2:gobber2_globette_nether', 2, 6, 260 )
+    
+    event.remove({input: "gobber2:gobber2_ore_end" });
+      trGrinder(event, 'gobber2:gobber2_ore_end', 'gobber2:gobber2_globette_end', 2, 7, 260 )
+
+      trGrinder(event, 'mythicmetals:manganese_ore', "mythicmetals:raw_manganese", 2, 5, 200 )
+    
+})

@@ -1,0 +1,17 @@
+{
+    "block_states": {
+      "gobber2:gobber2_ore_end": "minecraft:end_stone"
+    },
+    "items": {
+      "gobber2:gobber2_glob_end": "minecraft:ender_pearl",
+      "gobber2:gobber2_globette_end": "minecraft:cookie"
+    },
+    "block_name_replacements": {
+        "gobber2:gobber2_ore_end": "End Stone"
+    },
+    "item_name_replacements": {
+        "gobber2:gobber2_glob_end": "Ender Pearl?",
+        "gobber2:gobber2_globette_end": "Cookie?"
+    },
+    "advancement": "gobber2:gobber2_pickaxe_nether"
+  }

@@ -47,6 +47,7 @@
     "netherite_trapdoor": true,
     "lock_block": true,
     "flax": true,
+    "rope": true,
     "pulley_block": true,
     "fodder": true,
     "crimson_lantern": true,

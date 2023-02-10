@@ -6,7 +6,7 @@
     "defaultPayment": {
       "item": "minecraft:diamond"
     },
-    "defaultCategory": "sandwichable:seeds"
+    "defaultCategory": "farmingforblockheads:seeds"
   },
   "customEntries": [
     {

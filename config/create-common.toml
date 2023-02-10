@@ -42,7 +42,7 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 0
+			frequency = 14
 
 		[worldgen.v2.striated_ores_nether]
 			#.

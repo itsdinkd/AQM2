@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bewitchment"
+      ]
+		}
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "bewitchment:salt_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:salt",
+      "count": 4
+    },
+    {
+      "item": "bewitchment:salt",
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 100
+}

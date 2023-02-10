@@ -4,7 +4,7 @@
     "name": "BetterNether Mushrooms",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "minecraft:emerald"
+      "item": "betternether:cincinnasite"
     },
     "defaultCategory": "farmingforblockheads:other"
   },
@@ -13,10 +13,13 @@
       "output": "betternether:orange_mushroom"
     },
     {
-      "output": "betternether:wall_mushroom_brown"
+      "output": "betternether:bone_mushroom"
     },
     {
-      "output": "betternether:wall_mushroom_red"
+      "output": "betternether:neon_equisetum"
+    },
+    {
+      "output": "betternether:hook_mushroom"
     }
   ]
 }

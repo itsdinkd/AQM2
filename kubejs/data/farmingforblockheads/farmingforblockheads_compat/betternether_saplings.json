@@ -4,7 +4,7 @@
     "name": "Better Nether Saplings",
     "enabledByDefault": true,
     "defaultPayment": {
-      "item": "minecraft:diamond"
+      "item": "betternether:cincinnasite"
     },
     "defaultCategory": "farmingforblockheads:saplings"
   },

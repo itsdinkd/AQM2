@@ -44,3 +44,33 @@ onEvent("recipes", event => {
 //     event.recipes.botania.runic_altar("magehand:diamond_spawner_item", ["magehand:gold_spawner_item", "magehand:iron_spawner_item", "magehand:copper_spawner_item", "techreborn:diamond_plate", "techreborn:diamond_plate", "techreborn:diamond_plate", "techreborn:diamond_plate", "techreborn:diamond_plate", "techreborn:diamond_plate", ], 10000);
 //     event.recipes.botania.runic_altar("magehand:amethyst_spawner_item", ["magehand:copper_spawner_item", "mcda:gemstone_purple", "mcda:gemstone_purple", "mcda:gemstone_purple", "mcda:gemstone_purple", "mcda:gemstone_purple", "mcda:gemstone_purple", "mcda:gemstone_purple", "mcda:gemstone_purple", ], 4000);
 // });
+
+ServerEvents.recipes(event => {
+event.replaceInput(
+    { id: "botania:cloud_pendant" },
+    "botania:manasteel_ingot",
+    "botania:terrasteel_ingot"
+  );
+  event.replaceInput(
+    { id: "botania:thunder_sword" },
+    "botania:mana_diamond",
+    "gobber2:dragon_star"
+  );
+  event.replaceInput(
+    { id: "botania:clip" },
+    "botania:dreamwood",
+    "gobber2:dragon_star"
+  );
+  
+  event.replaceInput(
+    { id: "botania:mana_gun" },
+    "botania:mana_diamond",
+    Item.of("arcanus:master_wand").ignoreNBT()
+  );
+  
+  event.replaceInput(
+    { id: "botania:reach_ring" },
+    "botania:elementium_ingot",
+    "botania:gaia_ingot"
+  );
+})

@@ -26,18 +26,7 @@
             "modifier": {
                 "name": "tiered:uncommon_melee_3",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.15
-            },
-            "optional_equipment_slots": [
-                "MAINHAND"
-            ]
-        },
-        {
-            "type": "generic.luck",
-            "modifier": {
-                "name": "tiered:uncommon_melee_3",
-                "operation": "ADDITION",
-                "amount": -1
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "MAINHAND"

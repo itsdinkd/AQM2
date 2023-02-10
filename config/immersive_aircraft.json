@@ -1,4 +1,6 @@
 {
+  "separateCamera": true,
+  "useThirdPersonByDefault": true,
   "enableTrails": true,
   "enableAnimatedSails": true,
   "renderDistance": 192.0,

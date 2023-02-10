@@ -40,6 +40,20 @@ priority: 100
 		"modern_industrialization:quantum_circuit"
 	];
 
+	const soulsweaponsMatBosses = [
+		'doom:motherdemon',
+		'doom:gladiator',
+		'doom:iconofsin',
+		'doom:arch_maykr', 
+		"adventurez:void_shadow", 
+		"soulsweapons:returning_knight", 
+		"soulsweapons:accursed_lord_boss", 
+		"soulsweapons:chaos_monarch", 
+		"soulsweapons:night_shade",
+		"bosses_of_mass_destruction:void_blossom",
+		"bosses_of_mass_destruction:lich",
+	]
+
 	const SimplyRareSwords = [
 		"simplyswords:watcher_claymore",
 		"simplyswords:watching_warglaive",
@@ -172,6 +186,32 @@ priority: 100
 		"wildlife:cooked_koi"
 	]
 
+	const Twigs = [
+		"rocks:oak_stick",
+		"rocks:birch_stick",
+		"rocks:acacia_stick",
+		"rocks:jungle_stick",
+		"rocks:warped_stick",
+		"rocks:spruce_stick",
+		"rocks:crimson_stick",
+		"rocks:dark_oak_stick",
+		"twigs:twig"
+	]
+
+	const Rocks = [
+		"rocks:rock",
+		"rocks:sand_rock",
+		"rocks:gravel_rock",
+		"rocks:diorite_rock",
+		"rocks:granite_rock",
+		"rocks:andesite_rock",
+		"rocks:red_sand_rock",
+		"rocks:end_stone_rock",
+		"rocks:soul_soil_rock",
+		"rocks:netherrack_rock",
+		"twigs:pebble"
+	]
+
 // Item Tags
 ServerEvents.tags('item', event => {
 
@@ -193,6 +233,14 @@ ServerEvents.tags('item', event => {
 		event.add('origins:meat', item)
 	})
 
+	Rocks.forEach(function (item, index) {
+		event.add('aqm2:material/rocks', item)
+	})
+	
+	Twigs.forEach(function (item, index) {
+		event.add('aqm2:material/twigs', item)
+	})
+
 	catalystBlacklist.forEach(function(item) { 
 		event.add('things:hardening_catalyst_blacklist', item)
     });	
@@ -209,6 +257,10 @@ ServerEvents.tags('item', event => {
 		event.add('minecraft:fishes', item)
 	})
 
+	soulsweaponsMatBosses.forEach(item => {
+		event.add('aqm:bosses/soulweapoons', item)
+	})
+	
 // Misc
 	event.add('c:wrenches', 'advanced_reborn:config_wrench')
 	event.add('c:wrenches','techreborn:wrench')

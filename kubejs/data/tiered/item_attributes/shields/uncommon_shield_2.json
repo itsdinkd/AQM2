@@ -11,22 +11,11 @@
     },
     "attributes": [
         {
-            "type": "tiered:generic.durable",
-            "modifier": {
-                "name": "tiered:uncommon_shield_2",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.1
-            },
-            "optional_equipment_slots": [
-                "OFFHAND"
-            ]
-        },
-        {
             "type": "generic.max_health",
             "modifier": {
                 "name": "tiered:uncommon_shield_2",
                 "operation": "ADDITION",
-                "amount": -2
+                "amount": 2
             },
             "optional_equipment_slots": [
                 "OFFHAND"
@@ -37,7 +26,7 @@
             "modifier": {
                 "name": "tiered:uncommon_shield_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.1
+                "amount": -0.15
             },
             "optional_equipment_slots": [
                 "OFFHAND"

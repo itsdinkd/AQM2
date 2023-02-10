@@ -1,6 +1,6 @@
 {
-    "replace": false,
+    "replace": true,
     "values": [
-        "minecraft:amethyst_shard"
+        "minecraft:netherite_scrap"
     ]
 }

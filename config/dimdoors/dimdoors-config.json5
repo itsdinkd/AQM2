@@ -41,7 +41,7 @@
 	},
 	"limbo": {
 		"universalLimbo": false,
-		"hardcoreLimbo": true,
+		"hardcoreLimbo": false,
 		"decaySpreadChance": 1.0,
 		"limboDecay": 40,
 		"limboBlocksCorruptingOverworldAmount": 5.0

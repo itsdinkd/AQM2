@@ -15,18 +15,7 @@
             "modifier": {
                 "name": "tiered:uncommon_shield_1",
                 "operation": "ADDITION",
-                "amount": -1
-            },
-            "optional_equipment_slots": [
-                "OFFHAND"
-            ]
-        },
-        {
-            "type": "tiered:generic.durable",
-            "modifier": {
-                "name": "tiered:uncommon_shield_1",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.1
+                "amount": 2
             },
             "optional_equipment_slots": [
                 "OFFHAND"

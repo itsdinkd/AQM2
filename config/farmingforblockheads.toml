@@ -1,4 +1,4 @@
-merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson", "Dinkds Wares", "DaddyDanked Mart", "Jini Sales", "SebaHut"]
+merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson", "Dinkds Wares", "DaddyDanked Mart", "Jini Sales"]
 feedingTroughRange = 8
 feedingTroughMaxAnimals = 10
 chickenNestRange = 8

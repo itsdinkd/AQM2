@@ -60,6 +60,20 @@
                 "CHEST",
                 "HEAD"
             ]
+        },
+        {
+            "type": "combatroll:recharge",
+            "modifier": {
+                "name": "tiered:legendary_armor_1",
+                "operation": "MULTIPLY_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
         }
     ]
 }

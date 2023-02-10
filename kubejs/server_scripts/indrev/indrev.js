@@ -11,18 +11,34 @@ const indrevArmor = [
 // var getNum = Math.floor(Math.random() * 2 + 2);
 ServerEvents.recipes(event => {
 
+
+// Pulverizing
+event.custom({
+    "type": "indrev:pulverize",
+    "ingredients": {
+      "tag": "c:manganese_ores",
+      "count": 1
+    },
+    "output": {
+      "item": "mythicmetals:raw_manganese",
+      "count": 2
+    },
+    "processTime": 200
+});
+
+
 //Recycler
 event.custom({
   "type": "indrev:recycle",
   "ingredients": [
     {
       "tag": "nourish:vegetables",
-      "count": 2
+      "count": 1
     }
   ],
   "output": {
     "item": "indrev:biomass",
-    "count": 1
+    "count": 2
   },
   "processTime": 170
   });
@@ -32,15 +48,45 @@ event.custom({
   "ingredients": [
     {
       "tag": "nourish:protein",
-      "count": 2
+      "count": 1
     }
   ],
   "output": {
     "item": "indrev:biomass",
-    "count": 1
+    "count": 2
   },
   "processTime": 220
   });
+
+  event.custom({
+    "type": "indrev:recycle",
+    "ingredients": [
+      {
+        "item": "kubejs:copper_coin",
+        "count": 99
+      }
+    ],
+    "output": {
+      "item": "kubejs:silver_coin",
+      "count": 1
+    },
+    "processTime": 170
+    });
+
+    event.custom({
+      "type": "indrev:recycle",
+      "ingredients": [
+        {
+          "item": "kubejs:silver_coin",
+          "count": 99
+        }
+      ],
+      "output": {
+        "item": "kubejs:gold_coin",
+        "count": 1
+      },
+      "processTime": 170
+      });
 
 // Modular Armor
 indrevArmor.forEach(function(item,i) {
@@ -49,6 +95,12 @@ indrevArmor.forEach(function(item,i) {
   'indrev:battery',
   'better_batpack:batpack4')
 })
+
+event.replaceInput({
+  id: "indrev:shaped/compressor_mk1" },
+  'techreborn:copper_plate',
+  'techreborn:iron_plate')
+
 
 // Mining Drill
   event.remove({id: 'indrev:shaped/mining_drill_mk4'});

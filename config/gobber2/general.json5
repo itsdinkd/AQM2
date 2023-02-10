@@ -29,7 +29,7 @@
 	"ringPhoenixHealAmount": 5,
 	"ringHasteLevel": 2,
 	"ringLuckLevel": 4,
-	"ringMinerCooldown": 400,
+	"ringMinerCooldown": 300,
 	"ringMinerRange": 4,
 	"ringMinerVerticalRange": 5,
 	"ringMinerCentralizedBreaking": false,

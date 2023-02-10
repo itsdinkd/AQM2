@@ -1,0 +1,16 @@
+{
+  "modId": "culturaldelights",
+  "group": {
+    "name": "Cultural Delights Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:diamond"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "culturaldelights:avocado_sapling"
+    }
+  ]
+}

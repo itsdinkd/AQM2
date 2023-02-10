@@ -1,0 +1,7 @@
+{
+  "loot_table": "stoneholm:fisherman",
+  "max_result_itemcount": 3,
+  "integrated_loot_tables": {
+    "structory:mood/fisherman": 3
+  }
+}
