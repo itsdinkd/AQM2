@@ -1,0 +1,35 @@
+{
+    "type": "origins:multiple",
+    "yrden": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 14,
+        "start_value": 14,
+        "hud_render": {
+            "sprite_location": "witcheroriginaddon:textures/gui/witcher_resource_bars.png",
+            "bar_index": 9,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_yrden",
+                "comparison": "<",
+                "compare_to": 14
+            }
+        }
+    },
+    "yrden_recharge": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_yrden",
+            "change": 1
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_yrden",
+            "comparison": "<",
+            "compare_to": 14
+        }
+    },
+    "hidden": true
+}

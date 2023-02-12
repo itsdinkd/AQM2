@@ -48,7 +48,7 @@
             "minecraft:generic.attack_damage": 16.25
         },
         "minecells:conjunctivius": {
-            "minecraft:generic.max_health": 400.0,
+            "minecraft:generic.max_health": 375.0,
             "minecraft:generic.armor": 19.0,
             "minecraft:generic.attack_damage": 29.0
         }

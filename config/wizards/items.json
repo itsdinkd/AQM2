@@ -261,6 +261,198 @@
           }
         ]
       }
+    },
+    "arcane_robe": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 1,
+        "spell_attributes": [
+          {
+            "name": "arcane",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "critical_damage",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 3,
+        "spell_attributes": [
+          {
+            "name": "arcane",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "critical_damage",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 2,
+        "spell_attributes": [
+          {
+            "name": "arcane",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "critical_damage",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 1,
+        "spell_attributes": [
+          {
+            "name": "arcane",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "critical_damage",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "fire_robe": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 1,
+        "spell_attributes": [
+          {
+            "name": "fire",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "critical_chance",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 3,
+        "spell_attributes": [
+          {
+            "name": "fire",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "critical_chance",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 2,
+        "spell_attributes": [
+          {
+            "name": "fire",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "critical_chance",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 1,
+        "spell_attributes": [
+          {
+            "name": "fire",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "critical_chance",
+            "value": 0.02,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "frost_robe": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 1,
+        "spell_attributes": [
+          {
+            "name": "frost",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "haste",
+            "value": 0.03,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 3,
+        "spell_attributes": [
+          {
+            "name": "frost",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "haste",
+            "value": 0.03,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 2,
+        "spell_attributes": [
+          {
+            "name": "frost",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "haste",
+            "value": 0.03,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 1,
+        "spell_attributes": [
+          {
+            "name": "frost",
+            "value": 0.25,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "name": "haste",
+            "value": 0.03,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
     }
   }
 }

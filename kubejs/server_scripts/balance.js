@@ -152,6 +152,40 @@ event.shaped("luggage:luggage", ['123', 'd d'], {
       }
     });
 
+event.remove({output: "kibe:chunk_loader"})
+event.custom({
+  "type": "artis:end_game_crafting_shaped",
+  "pattern": [
+    "D B D B",
+    "PPPPPPP",
+    "G     G",
+    "  R R  ",
+    "   A   "
+  ],
+  "key": {
+    "D": {
+      "item": "prefab:block_compressed_obsidian"
+    },
+    "B": {
+      "item": "prefab:block_triple_compressed_stone"
+    },
+    "P": {
+      "item": "create:polished_rose_quartz"
+    },
+    "G": {
+      "item": "techreborn:red_garnet_plate"
+    },
+    "R": {
+      "item": "brewinandchewin:pickled_pickles"
+    },
+    "A": {
+      "item": "lightestlamp:lanthanum_ingot"
+    }
+  },
+  "result": {
+    "item": "kibe:chunk_loader"
+  }
+})
 // Quantum Sword
 event.custom({
   "type": "artis:end_game_crafting_shaped",
@@ -414,7 +448,7 @@ event.replaceInput(
   { id: "modern_industrialization:tools/steam_mining_drill" },
   "minecraft:diamond",
   "techreborn:ruby_plate"
-  );sa
+  );
 
 // Building Gadgets - Destruction Gadget, end game. its too destructive.
 event.replaceInput(
@@ -774,6 +808,16 @@ event.replaceInput(
 "gofish:slimefish"
 );
 
+  // event.remove({id: "techreborn:crafting_table/tool/nanosaber"})
+  // event.shaped("techreborn:nanosaber", ["p S", "paS", "1 2"],
+  //   {
+  //     1: "soulsweapons:verglas",
+  //     2: "techreborn:lapotronic_orbpack",
+  //     p: "modern_industrialization:invar_large_plate",
+  //     a: "mythicmetals:unobtainium_block",
+  //     S: "gobber2:dragon_star"
+  //   })
+
 // comet spear soulsweapon
 // event.replaceInput({output: "soulsweapons:comet_spear"}, "minecraft:gold_ingot", "gobber2:dragon_star")
 event.remove({id: "soulsweapons:comet_spear"})
@@ -792,18 +836,36 @@ event.shaped("soulsweapons:bloodthirster", ["121", "121", " s "],
     s: "minecraft:stick"
   })
 event.replaceInput({output: "soulsweapons:soul_ingot"}, "minecraft:iron_ingot", "gobber2:gobber2_ingot_end")
-event.replaceInput({output: "soulsweapons:leviathan_axe"}, "#soulsweapons:lord_soul", "soulsweapons:lord_soul_purple")
-event.replaceInput({output: "soulsweapons:lich_bane"}, "#soulsweapons:lord_soul", "soulsweapons:lord_soul_dark")
+event.remove({id: "soulsweapons:leviathan_axe"})
+event.shaped("soulsweapons:leviathan_axe", ["21 ", "s1 ", "1  "],
+  {
+    1: "soulsweapons:moonstone",
+    2: "soulsweapons:lord_soul_purple",
+    s: "minecraft:stick"
+  })
+  event.remove({id: "soulsweapons:lich_bane"})
+event.shaped("soulsweapons:lich_bane", ["  r", "12 ", "i1 "],
+  {
+    1: "botania:mana_diamond",
+    r: "gobber2:gobber2_rod_end",
+    2: "soulsweapons:lord_soul_dark",
+    i: "minecraft:copper_ingot"
+  })
 event.replaceInput({output: "soulsweapons:lord_soul_red"}, "minecraft:nether_star", "soulsweapons:verglas")
 event.remove({id: "soulsweapons:dragon_staff"})
-event.shaped("soulsweapons:dragonslayer_swordspear", ["r  ", "g  ", "gim"],
+event.shaped("soulsweapons:dragon_staff", ["r  ", "g  ", "gim"],
   {
     g: "gobber2:gobber2_rod_end",
     r: "adventurez:stone_golem_heart",
     i: "soulsweapons:soul_ingot",
     m: "soulsweapons:moonstone"
   })
-event.replaceInput({output: "soulsweapons:guts_sword"}, "minecraft:iron_block", "mythicmetals:osmium_block")
+event.remove({id: "soulsweapons:guts_sword"})
+event.shaped("soulsweapons:guts_sword", [" o ", "ooo", "oso"],
+  {
+    o: "mythicmetals:osmium_block",
+    s: "minecraft:stick"
+  })
 // event.replaceInput({output: "soulsweapons:dragonslayer_swordspear"}, "minecraft:gold_ingot", "dragonloot:dragon_scale")
 event.remove({id: "soulsweapons:dragonslayer_swordspear"})
 event.shaped("soulsweapons:dragonslayer_swordspear", [" 1 ", "121", "1s1"],
@@ -813,8 +875,6 @@ event.shaped("soulsweapons:dragonslayer_swordspear", [" 1 ", "121", "1s1"],
     s: "minecraft:stick"
   })
 event.replaceInput({output: "soulsweapons:galeforce"}, "minecraft:string", "botania:mana_string")
-event.replaceInput({output: "soulsweapons:lich_bane"}, "minecraft:blaze_rod", "gobber2:gobber2_rod_end")
-event.replaceInput({output: "soulsweapons:lich_bane"}, "minecraft:diamond", "botania:mana_diamond")
 event.replaceInput({output: "soulsweapons:rageblade"}, "minecraft:blaze_rod", "gobber2:gobber2_rod_end")
 // event.replaceInput({output: "soulsweapons:whirligig_sawblade"}, "minecraft:iron_ingot", "mobz:boss_ingot")
 event.remove({id: "soulsweapons:whirligig_sawblade"})

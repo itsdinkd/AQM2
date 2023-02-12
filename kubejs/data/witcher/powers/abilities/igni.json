@@ -1,0 +1,235 @@
+{
+    "type": "origins:multiple",
+    "aoe": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:area_of_effect",
+            "radius": 5,
+            "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:set_on_fire",
+                            "duration": 5
+                        },
+                        {
+                            "type": "origins:damage",
+                            "amount": 1,
+                            "source": {
+                                "name": "onFire.player",
+                                "fire": true,
+                                "bypasses_armor": true
+                            }
+                        }
+                    ]
+                }
+            },
+            "bientity_condition": {
+                "type": "origins:can_see"
+            }
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/igni_resource_igni",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "particles": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:flame ~ ~ ~ 2 0.1 2 0 100 normal"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:lava ~ ~0.5 ~ 2 0.1 2 0 100 normal"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/igni_resource_igni",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "replace_blocks": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:water[level=0] replace minecraft:powder_snow"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:water[level=0] replace minecraft:ice"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:water[level=0] replace minecraft:frosted_ice"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:water[level=0] replace minecraft:packed_ice"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:water[level=0] replace minecraft:blue_ice"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:fire replace minecraft:cobweb"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:fire replace minecraft:sweet_berry_bush"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:fire replace minecraft:fern"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:fire replace minecraft:grass"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:fire replace minecraft:large_fern"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:fire replace minecraft:tall_grass"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:fire replace minecraft:vine"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/igni_resource_igni",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "raycast_blockstate": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:raycast",
+            "distance": 5,
+            "block": true,
+            "entity": false,
+            "shape_type": "visual",
+            "fluid_handling": "any",
+            "block_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:modify_block_state",
+                        "property": "lit",
+                        "value": true
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "playsound minecraft:item.flintandsteel.use neutral @a ~ ~ ~ 1 0.8"
+                    }
+                ]
+            },
+            "block_condition": {
+                "type": "origins:in_tag",
+                "tag": "witcher:unlit_blocks"
+            },
+            "command_step": 0.25,
+            "command_along_ray_only_on_hit": "particle minecraft:flame ~ ~ ~ 0.1 0.1 0.1 0 1 normal"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/igni_resource_igni",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "sound": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "playsound witcheroriginaddon:igni_sign neutral @a ~ ~ ~ 2 1"
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/igni_resource_igni",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "cooldown": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:delay",
+            "ticks": 1,
+            "action": {
+                "type": "origins:change_resource",
+                "resource": "witcher:abilities/igni_resource_igni",
+                "change": -10
+            }
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/igni_resource_igni",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "name": "§c§nIgni",
+    "description": "Cast a wave of fire in a radius around you, igniting and damaging mobs caught in the area of effect.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "witcheroriginaddon:textures/gui/igni.png",
+            "text": "Active ability, use %s to cast."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Igni can also affect blocks in different ways. Check the Witcher's Journal for more info."
+        }
+    ]
+}

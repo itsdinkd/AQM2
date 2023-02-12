@@ -123,8 +123,8 @@
 						id: "botania:twig_wand"
 						Count: 1b
 						tag: {
-							color2: 0
 							color1: 0
+							color2: 0
 						}
 					}
 				}
@@ -326,8 +326,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
 						spell: "arcanus:lunge"
-						title: "book.arcanus.lunge.title"
 						author: "book.arcanus.06.author"
+						title: "book.arcanus.lunge.title"
 					}
 				}
 			}]
@@ -347,8 +347,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
 						spell: "arcanus:magic_missile"
-						title: "book.arcanus.magic_missile.title"
 						author: "book.arcanus.19.author"
+						title: "book.arcanus.magic_missile.title"
 					}
 				}
 			}]
@@ -368,8 +368,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-L\"}],\"translate\":\"book.arcanus.telekinetic_shock.description\"}"]
 						spell: "arcanus:telekinetic_shock"
-						title: "book.arcanus.telekinetic_shock.title"
 						author: "book.arcanus.01.author"
+						title: "book.arcanus.telekinetic_shock.title"
 					}
 				}
 			}]
@@ -389,8 +389,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
 						spell: "arcanus:discombobulate"
-						title: "book.arcanus.discombobulate.title"
 						author: "book.arcanus.17.author"
+						title: "book.arcanus.discombobulate.title"
 					}
 				}
 			}]
@@ -410,8 +410,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
 						spell: "arcanus:heal"
-						title: "book.arcanus.heal.title"
 						author: "book.arcanus.05.author"
+						title: "book.arcanus.heal.title"
 					}
 				}
 			}]
@@ -431,8 +431,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
 						spell: "arcanus:solar_strike"
-						title: "book.arcanus.solar_strike.title"
 						author: "book.arcanus.14.author"
+						title: "book.arcanus.solar_strike.title"
 					}
 				}
 			}]
@@ -452,8 +452,8 @@
 					tag: {
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
 						spell: "arcanus:arcane_barrier"
-						title: "book.arcanus.arcane_barrier.title"
 						author: "book.arcanus.04.author"
+						title: "book.arcanus.arcane_barrier.title"
 					}
 				}
 			}]
@@ -493,84 +493,60 @@
 			]
 		}
 		{
-			x: 19.0d
+			title: "Wizard Robes"
+			x: 20.5d
 			y: -8.5d
-			subtitle: "Wizard Stats"
-			hide_dependency_lines: true
+			subtitle: "Increases All Stat Powers by 1"
 			dependencies: ["0FCD7757E0E0A667"]
 			hide: true
-			id: "3C13E918382D437D"
-			tasks: [{
-				id: "41A70559FC36DE2F"
-				type: "item"
-				item: {
-					id: "wizards:wizard_robe_feet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 18.5d
-			y: -7.5d
-			subtitle: "Wizard Stats"
-			hide_dependency_lines: true
-			dependencies: ["0FCD7757E0E0A667"]
-			hide: true
-			id: "3D501D9981801574"
-			tasks: [{
-				id: "1A9FF368FC526E95"
-				type: "item"
-				item: {
-					id: "wizards:wizard_robe_legs"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 19.5d
-			y: -7.5d
-			subtitle: "Wizard Stats"
-			hide_dependency_lines: true
-			dependencies: ["0FCD7757E0E0A667"]
-			hide: true
+			optional: true
 			id: "2866225EE27DCBFC"
-			tasks: [{
-				id: "75037DFFF9402D6A"
-				type: "item"
-				item: {
-					id: "wizards:wizard_robe_head"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "75037DFFF9402D6A"
+					type: "item"
+					item: {
+						id: "wizards:wizard_robe_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		}
-		{
-			x: 19.0d
-			y: -6.5d
-			subtitle: "Wizard Stats"
-			hide_dependency_lines: true
-			dependencies: ["0FCD7757E0E0A667"]
-			hide: true
-			id: "140129CC50FF194C"
-			tasks: [{
-				id: "1AA497FC1FC51A9C"
-				type: "item"
-				item: {
-					id: "wizards:wizard_robe_chest"
-					Count: 1b
-					tag: {
-						Damage: 0
+				{
+					id: "0D154974007D5609"
+					type: "item"
+					item: {
+						id: "wizards:wizard_robe_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "39099425BF092BC9"
+					type: "item"
+					item: {
+						id: "wizards:wizard_robe_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3CD8C4E01A6ECF7F"
+					type: "item"
+					item: {
+						id: "wizards:wizard_robe_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 16.0d
@@ -797,7 +773,7 @@
 		}
 		{
 			x: 17.5d
-			y: -12.0d
+			y: -11.5d
 			description: [
 				"Used to craft runes. Each rune is used as 'ammo' for that spell type. Ie; you need a fire rune to cast a firespell."
 				""
@@ -1921,6 +1897,174 @@
 				exclude_from_claim_all: true
 				table_id: 8994734502158028496L
 			}]
+		}
+		{
+			title: "Fire Robes"
+			x: 21.5d
+			y: -8.5d
+			subtitle: "Increases Fire Power"
+			dependencies: ["0FCD7757E0E0A667"]
+			hide: true
+			optional: true
+			id: "005F44ADF1F6E173"
+			tasks: [
+				{
+					id: "1B6B39221A14F565"
+					type: "item"
+					item: {
+						id: "wizards:fire_robe_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CFA8586DE55116B"
+					type: "item"
+					item: {
+						id: "wizards:fire_robe_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "369E0F3342C8FDC6"
+					type: "item"
+					item: {
+						id: "wizards:fire_robe_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "168C332ED218B579"
+					type: "item"
+					item: {
+						id: "wizards:fire_robe_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Arcane Robes"
+			x: 18.5d
+			y: -8.5d
+			subtitle: "Increases Arcane Power"
+			dependencies: ["0FCD7757E0E0A667"]
+			hide: true
+			optional: true
+			id: "4BBE16345CB24F0A"
+			tasks: [
+				{
+					id: "1EA2A7EFF9E332DF"
+					type: "item"
+					item: {
+						id: "wizards:arcane_robe_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "414F86D043F82E65"
+					type: "item"
+					item: {
+						id: "wizards:arcane_robe_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7023976EE7AD7B92"
+					type: "item"
+					item: {
+						id: "wizards:arcane_robe_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75DFA1529C8C10B6"
+					type: "item"
+					item: {
+						id: "wizards:arcane_robe_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Frost Robes"
+			x: 19.5d
+			y: -8.5d
+			subtitle: "Increases Frost Power"
+			dependencies: ["0FCD7757E0E0A667"]
+			hide: true
+			optional: true
+			id: "7B258BB91145CC05"
+			tasks: [
+				{
+					id: "4E566A84765F7FB2"
+					type: "item"
+					item: {
+						id: "wizards:frost_robe_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61272138D8764221"
+					type: "item"
+					item: {
+						id: "wizards:frost_robe_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3AA4BEA58D8EF43D"
+					type: "item"
+					item: {
+						id: "wizards:frost_robe_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A93B6EA9A31A50B"
+					type: "item"
+					item: {
+						id: "wizards:frost_robe_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]

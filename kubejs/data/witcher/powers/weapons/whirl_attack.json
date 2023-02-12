@@ -1,0 +1,57 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:area_of_effect",
+        "radius": 5,
+        "bientity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 2,
+                        "source": {
+                            "name": "player",
+                            "bypasses_armor": true
+                        }
+                    }
+                },
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "playsound minecraft:entity.player.attack.sweep neutral @a ~ ~ ~ 0.5 0.8"
+                    }
+                },
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "particle minecraft:sweep_attack ~ ~0.8 ~ 0.2 0.1 0.2 0 1 normal"
+                    }
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:can_see"
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:living"
+                    }
+                }
+            ]
+        }
+    },
+    "interval": 2,
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "witcheroriginaddon:whirl"
+    },
+    "hidden": true
+}

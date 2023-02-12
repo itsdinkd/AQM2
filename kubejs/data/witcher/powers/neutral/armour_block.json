@@ -1,0 +1,45 @@
+{
+    "type": "origins:multiple",
+    "armour_block": {
+        "type": "origins:conditioned_restrict_armor",
+        "head": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "witcher:witcher_armour"
+            }
+        },
+        "chest": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "witcher:witcher_armour"
+            }
+        },
+        "legs": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "witcher:witcher_armour"
+            }
+        },
+        "feet": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "witcher:witcher_armour"
+            }
+        },
+        "condition": {
+            "type": "origins:predicate",
+            "predicate": "origins:iswitcher",
+            "inverted": true
+        },
+        "tick_rate": 4
+    },
+    "spread_effect": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power grant @a witcher:neutral/armour_block"
+        },
+        "interval": 20
+    },
+    "hidden": true
+}

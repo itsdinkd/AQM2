@@ -162,7 +162,8 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			subtitle: "Nether Globettes, scary."
+			subtitle: "Nether Globettes, scary. (Not really.. coal)"
+			description: ["If you see coal here its because you have yet to craft the Gobber Pickaxe."]
 			dependencies: [
 				"7340447646BC18C6"
 				"429FF0A596FA0C23"
@@ -184,7 +185,7 @@
 			x: 1.5d
 			y: 7.5d
 			subtitle: "Are you tired of this yet?"
-			dependencies: ["79F4D4DA705033B9"]
+			dependencies: ["43699963081B4C23"]
 			id: "35B3650C5AC1562F"
 			tasks: [{
 				id: "081FC071BD83F56E"
@@ -201,7 +202,8 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			subtitle: "You know what to do"
+			subtitle: "You know what to do (not really.. gunpowder)"
+			description: ["If you see charcoal here its because you have yet to craft the Gobber Pickaxe."]
 			dependencies: ["79F4D4DA705033B9"]
 			id: "454CCF93166E73EF"
 			tasks: [{
@@ -637,6 +639,7 @@
 			x: 0.0d
 			y: 0.0d
 			subtitle: "Nether only"
+			description: ["In order to see Nether Gobber Ore, you must first have crafted a Gobber Pickaxe"]
 			dependencies: ["17A156D8BEA3B103"]
 			hide: true
 			id: "429FF0A596FA0C23"
@@ -655,34 +658,22 @@
 			x: 0.0d
 			y: 7.5d
 			subtitle: "You're ready to mine some end globettes"
-			description: ["These guys are much faster than the previous version"]
+			description: [
+				"These guys are much faster than the previous version"
+				""
+			]
 			dependencies: ["4727F254D09DAE2A"]
 			id: "43699963081B4C23"
 			tasks: [{
-				id: "6FB72CD69070A376"
+				id: "2EF9C88DE593B6A4"
 				type: "item"
-				title: "Nether Pickaxe/Hammer/Paxel"
 				item: {
-					id: "itemfilters:or"
+					id: "gobber2:gobber2_pickaxe_nether"
 					Count: 1b
 					tag: {
-						items: [
-							{
-								id: "gobber2:gobber2_pickaxe_nether"
-								Count: 1b
-							}
-							{
-								id: "gobber2:gobber2_paxel_nether"
-								Count: 1b
-							}
-							{
-								id: "gobber2:gobber2_hammer_nether"
-								Count: 1b
-							}
-						]
+						Damage: 0
 					}
 				}
-				only_from_crafting: true
 			}]
 			rewards: [{
 				id: "6EE14CD4027AD198"
@@ -694,29 +685,17 @@
 			title: "Gobber Pickaxe/Hammer/Paxel"
 			x: 0.0d
 			y: -1.5d
+			subtitle: "Gobber has Pickaxes, Paxels, and Hammers (3x3 Mining)"
 			dependencies: ["61495D4F54FE2978"]
 			id: "17A156D8BEA3B103"
 			tasks: [{
-				id: "7733ABAB3ED3C89A"
+				id: "38C08EE37B837E9D"
 				type: "item"
 				item: {
-					id: "itemfilters:or"
+					id: "gobber2:gobber2_pickaxe"
 					Count: 1b
 					tag: {
-						items: [
-							{
-								id: "gobber2:gobber2_pickaxe"
-								Count: 1b
-							}
-							{
-								id: "gobber2:gobber2_paxel"
-								Count: 1b
-							}
-							{
-								id: "gobber2:gobber2_hammer"
-								Count: 1b
-							}
-						]
+						Damage: 0
 					}
 				}
 			}]
@@ -1033,6 +1012,80 @@
 				id: "712A358430B55C3E"
 				type: "item"
 				item: "gobber2:gobber2_globette_nether"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.0d
+			subtitle: "Fast Paxels"
+			dependencies: ["43699963081B4C23"]
+			optional: true
+			id: "4D4691C76848AA49"
+			tasks: [{
+				id: "1E708EE39C37825B"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_paxel_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			subtitle: "3x3 Mining"
+			dependencies: ["43699963081B4C23"]
+			optional: true
+			id: "3C778262416940D5"
+			tasks: [{
+				id: "4EDA70E6CEA0295D"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_hammer_nether"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["17A156D8BEA3B103"]
+			optional: true
+			id: "730D617083F5D5AE"
+			tasks: [{
+				id: "3B5C50DAE187E100"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["17A156D8BEA3B103"]
+			optional: true
+			id: "6A6A89C0F37B4CBB"
+			tasks: [{
+				id: "5E9C66DBA8A5822C"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

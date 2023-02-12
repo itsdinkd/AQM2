@@ -1,0 +1,51 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_526
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  path = config/fancymenu/assets/sounds/menuclick.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=424972%
+  path = config/fancymenu/assets/sounds/menuclick.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=504972%
+  path = config/fancymenu/assets/sounds/menuclick.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=504948%
+  path = config/fancymenu/assets/sounds/menuclick.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=582972%
+  path = config/fancymenu/assets/sounds/menuclick.wav
+  action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=346972%
+  path = config/fancymenu/assets/sounds/menuclick.wav
+  action = setbuttonclicksound
+}
+

@@ -1,0 +1,158 @@
+{
+    "type": "extraorigins:radial_menu",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "swap_time": 10,
+    "sprite_location": "witcheroriginaddon:textures/gui/wheel_icon.png",
+    "up_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:grant_power",
+                "power": "witcher:abilities/igni",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/aard",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/axii",
+                "source": "witcher:abilities/selection_wheel"
+            },
+			{
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/yrden",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound witcheroriginaddon:select_sign neutral @s ~ ~ ~ 1 1"
+            }
+        ]
+    },
+    "left_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:grant_power",
+                "power": "witcher:abilities/aard",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/igni",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/axii",
+                "source": "witcher:abilities/selection_wheel"
+            },
+			{
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/yrden",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound witcheroriginaddon:select_sign neutral @s ~ ~ ~ 1 1"
+            }
+        ]
+    },
+    "right_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:grant_power",
+                "power": "witcher:abilities/axii",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/aard",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/igni",
+                "source": "witcher:abilities/selection_wheel"
+            },
+			{
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/yrden",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound witcheroriginaddon:select_sign neutral @s ~ ~ ~ 1 1"
+            }
+        ]
+    },
+	"down_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:grant_power",
+                "power": "witcher:abilities/yrden",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/aard",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/axii",
+                "source": "witcher:abilities/selection_wheel"
+            },
+			{
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/igni",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound witcheroriginaddon:select_sign neutral @s ~ ~ ~ 1 1"
+            }
+        ]
+    },
+    "lost_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/igni",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/aard",
+                "source": "witcher:abilities/selection_wheel"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/axii",
+                "source": "witcher:abilities/selection_wheel"
+            },
+			{
+                "type": "origins:revoke_power",
+                "power": "witcher:abilities/yrden",
+                "source": "witcher:abilities/selection_wheel"
+            }
+        ]
+    },
+    "name": "§a§nWitcher Signs",
+    "description": "Open a radial menu to select Igni, Aard, Axii or Yrden as your active sign.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Active ability, hold %s to open the radial menu. Drag your mouse towards the sign you want to set as your active sign."
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+	"type": "origins:multiple",
+    "silver_sword": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "witcher:silver_sword",
+			"pattern": [
+				" # ",
+				" # ",
+				"LSL"
+			],
+			"key": {
+				"#": {
+					"item": "witcheroriginaddon:dimeritium_ingot"
+				},
+                "L": {
+					"item": "minecraft:leather"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				}
+			},
+			"result": {
+				"item": "witcheroriginaddon:silver_sword",
+				"count": 1
+			}
+		}
+	},
+    "enhanced_silver_sword": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "witcher:enhanced_silver_sword",
+			"pattern": [
+				"###",
+				"#S#",
+				"L#L"
+			],
+			"key": {
+				"#": {
+					"item": "witcheroriginaddon:enriched_dimeritium_ingot"
+				},
+                "L": {
+					"item": "minecraft:leather"
+				},
+				"S": {
+					"item": "witcheroriginaddon:silver_sword"
+				}
+			},
+			"result": {
+				"item": "witcheroriginaddon:enhanced_silver_sword",
+				"count": 1
+			}
+		}
+	},
+	"name": "Silver For Monsters...",
+	"description": "You can craft Silver Swords, capable of taking trophies from monsters.",
+	"badges": [
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/silver_sword.png",
+			"prefix": "Silver Sword (shaped):",
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"id": "witcher:silver_sword",
+				"pattern": [
+					" # ",
+					" # ",
+					"LSL"
+				],
+				"key": {
+					"#": {
+						"item": "witcheroriginaddon:dimeritium_ingot"
+					},
+					"L": {
+						"item": "minecraft:leather"
+					},
+					"S": {
+						"item": "minecraft:stick"
+					}
+				},
+				"result": {
+					"item": "witcheroriginaddon:silver_sword",
+					"count": 1
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/enhanced_silver_sword.png",
+			"prefix": "Enhanced Silver Sword (shaped):",
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"id": "witcher:enhanced_silver_sword",
+				"pattern": [
+					"###",
+					"#S#",
+					"L#L"
+				],
+				"key": {
+					"#": {
+						"item": "witcheroriginaddon:enriched_dimeritium_ingot"
+					},
+					"L": {
+						"item": "minecraft:leather"
+					},
+					"S": {
+						"item": "witcheroriginaddon:silver_sword"
+					}
+				},
+				"result": {
+					"item": "witcheroriginaddon:enhanced_silver_sword",
+					"count": 1
+				}
+			}
+			
+		}
+	]
+}

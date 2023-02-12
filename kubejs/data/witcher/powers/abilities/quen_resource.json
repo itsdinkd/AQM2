@@ -1,0 +1,217 @@
+{
+    "type": "origins:multiple",
+    "quen": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "start_value": 0,
+        "min_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound witcheroriginaddon:quen_sign_break neutral @a ~ ~ ~ 2 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:crit ~ ~0.5 ~ 0.2 0.5 0.2 0 10 normal"
+                }
+            ]
+        },
+        "hud_render": {
+            "sprite_location": "witcheroriginaddon:textures/gui/witcher_resource_bars.png",
+            "bar_index": 11,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_quen",
+                "comparison": ">=",
+                "compare_to": 1
+            }
+        }
+    },
+    "damage_block": {
+        "type": "origins:modify_damage_taken",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_quen",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "modifier": {
+            "name": "No Damage",
+            "operation": "multiply_base_additive",
+            "value": -1
+        },
+        "self_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "element": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:change_resource",
+                                            "resource": "*:*_quen",
+                                            "change": 100
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "tellraw @s [\"\",{\"text\":\"[Ursine Armour]\",\"color\":\"light_purple\"},{\"text\":\" Your Quen sign was recasted for free.\",\"italic\":true}]"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "playsound witcheroriginaddon:quen_sign_break neutral @a ~ ~ ~ 2 1"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "particle minecraft:crit ~ ~0.5 ~ 0.2 0.5 0.2 0 10 normal"
+                                        }
+                                    ]
+                                },
+                                "weight": 30
+                            },
+                            {
+                                "element": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:change_resource",
+                                            "resource": "*:*_quen",
+                                            "change": -100
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "playsound witcheroriginaddon:quen_sign_break neutral @a ~ ~ ~ 2 1"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "particle minecraft:crit ~ ~0.5 ~ 0.2 0.5 0.2 0 10 normal"
+                                        }
+                                    ]
+                                },
+                                "weight": 70
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "*:*_quen",
+                                "comparison": "!=",
+                                "compare_to": 0
+                            },
+                            {
+                                "type": "origins:and",
+                                "conditions": [
+                                    {
+                                        "type": "origins:equipped_item",
+                                        "equipment_slot": "chest",
+                                        "item_condition": {
+                                            "type": "origins:ingredient",
+                                            "ingredient": {
+                                                "item": "witcheroriginaddon:ursine_chestplate"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "origins:equipped_item",
+                                        "equipment_slot": "legs",
+                                        "item_condition": {
+                                            "type": "origins:ingredient",
+                                            "ingredient": {
+                                                "item": "witcheroriginaddon:ursine_greaves"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "origins:equipped_item",
+                                        "equipment_slot": "feet",
+                                        "item_condition": {
+                                            "type": "origins:ingredient",
+                                            "ingredient": {
+                                                "item": "witcheroriginaddon:ursine_boots"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_quen",
+                                "change": -100
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "playsound witcheroriginaddon:quen_sign_break neutral @a ~ ~ ~ 2 1"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "particle minecraft:crit ~ ~0.5 ~ 0.2 0.5 0.2 0 10 normal"
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "*:*_quen",
+                                "comparison": "!=",
+                                "compare_to": 0
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "cooldown": 0
+    },
+    "quen_decay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_quen",
+            "change": -5
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_quen",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "quen_particles": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "particle witcheroriginaddon:quen_particle ~ ~0.5 ~ 0.2 0.5 0.2 0 3 normal"
+        },
+        "interval": 30,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_quen",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "hidden": true
+}

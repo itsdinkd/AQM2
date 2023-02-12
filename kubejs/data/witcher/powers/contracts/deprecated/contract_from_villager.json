@@ -1,0 +1,68 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:area_of_effect",
+    	"radius": 2,
+    	"bientity_action": {
+        	"type": "origins:actor_action",
+        	"action": {
+				"type": "origins:and",
+				"actions": [
+					{
+						"type": "origins:execute_command",
+						"command": "loot give @s loot witcherorigin:gameplay/contracts/contract"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "playsound witcheroriginaddon:new_quest music @s ~ ~ ~ 1.5 1"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "tellraw @s [\"\",{\"text\":\"NEW QUEST \",\"color\":\"white\"},{\"text\":\"(Check your inventory for details)\",\"italic\":true,\"color\":\"white\"},{\"text\":\".\",\"color\":\"white\"}]"
+					},
+					{
+						"type": "origins:change_resource",
+        				"resource": "witcher:contracts/new_contract_cooldown_new_contract",
+        				"change": -1440
+					}
+				]
+			} 
+    	},
+		"bientity_condition": {
+        	"type": "origins:either",
+    		"condition": {
+        		"type": "origins:entity_type",
+				"entity_type": "minecraft:villager"
+    		}
+		}
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:sneaking"
+		},
+		{
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:empty"
+			}
+		},
+		{
+			"type": "origins:resource",
+            "resource": "witcher:contracts/new_contract_cooldown_new_contract",
+            "comparison": "==",
+            "compare_to": 1440
+		}
+		]
+	},
+	"cooldown": 80,
+	"hud_render": {
+		"should_render": false
+	},
+	"key": {
+		"key": "key.use",
+		"continuous": true
+	}
+}

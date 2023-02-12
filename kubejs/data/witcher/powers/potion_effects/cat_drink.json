@@ -1,0 +1,28 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "witcheroriginaddon:cat",
+                    "duration": 3000,
+                    "amplifier": 0
+                }
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "witcher:neutral/toxicity_toxicity",
+                "change": 20
+            }
+        ]
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "witcheroriginaddon:cat_potion"
+        }
+    },
+    "hidden": true
+}

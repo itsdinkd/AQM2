@@ -1,0 +1,50 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 0,
+    "hud_render": {
+        "should_render": false
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:spawn_effect_cloud",
+                "radius": 6.0,
+                "wait_time": 2,
+                "effect":
+                {
+                    "effect": "witcheroriginaddon:impeded",
+                    "amplifier": 0,
+                    "duration": 100
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound witcheroriginaddon:yrden_sign neutral @a ~ ~ ~ 2 1"
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "witcher:abilities/yrden_resource_yrden",
+                "change": -14
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "witcher:abilities/yrden_resource_yrden",
+        "comparison": "==",
+        "compare_to": 14
+    },
+    "key": {
+        "key": "key.origins.ternary_active"
+    },
+    "name": "\u00a7d\u00a7nYrden",
+    "description": "Inscribe a circle of runes that impedes mobs that pass through it. The Witcher will not be affected by Yrden's effects.",
+    "badges": [
+		{
+			"type": "origins:keybind",
+			"sprite": "witcheroriginaddon:textures/gui/yrden.png",
+			"text": "Active ability, use %s to cast."
+		}
+	]
+}

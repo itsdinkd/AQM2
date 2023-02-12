@@ -1,0 +1,23 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "witcher:neutral/toxicity_toxicity",
+        "change": -100
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:milk_bucket"
+        }
+    },
+    "name": "White Honey",
+    "description": "As well as removing all potion effects, drinking milk will now empty your toxicity gauge.",
+    "hidden": true,
+    "badges": [
+        {
+            "type": "origins:sprite",
+            "sprite": "minecraft:textures/item/milk_bucket.png"   
+        }
+    ]
+}

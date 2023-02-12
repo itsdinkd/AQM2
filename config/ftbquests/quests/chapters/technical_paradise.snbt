@@ -1471,8 +1471,8 @@
 		}
 		{
 			x: -3.5d
-			y: 11.0d
-			subtitle: "Early Stage Power"
+			y: 12.5d
+			subtitle: "Early Stage Power -- Power of Lava"
 			id: "4FFC268637249F04"
 			tasks: [{
 				id: "4DC431BBFD744A54"
@@ -1483,24 +1483,6 @@
 				id: "3E72B1398C2F9B7E"
 				type: "item"
 				item: "minecraft:bucket"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 12.5d
-			subtitle: "Grab a bucket and get your infinite lava"
-			description: ["Holding your bucket out, right click the spring to fill up the bucket with lava. You can then use this lava bucket with the generator"]
-			dependencies: ["4FFC268637249F04"]
-			id: "1A3A8818DA57B23B"
-			tasks: [{
-				id: "7E0B3178B50483FB"
-				type: "item"
-				item: "resourceful_tools:lavaspring"
-			}]
-			rewards: [{
-				id: "507C59E50418618E"
-				type: "item"
-				item: "minecraft:lava_bucket"
 			}]
 		}
 		{
@@ -1518,7 +1500,7 @@
 		}
 		{
 			title: "Fast Augment Pipes"
-			x: -0.5d
+			x: 1.0d
 			y: 12.5d
 			subtitle: "Fluid and Item Pipes by Modern Dynamics (Similar to Thermal Dynamics)"
 			description: [

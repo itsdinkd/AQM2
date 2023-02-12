@@ -16,7 +16,7 @@
 		rotation: 0.0d
 		image: "kubejs:textures/gui/presets/aqm2.png"
 		hover: ["Click here to join the AQM Discord"]
-		click: "https://discord.gg/y6Sby9BGVe"
+		click: "https://discord.gg/TmqVme7Pb5"
 		dev: false
 		corner: false
 	}]
@@ -487,8 +487,8 @@
 				id: "botania:twig_wand"
 				Count: 1b
 				tag: {
-					color2: 3
 					color1: 3
+					color2: 3
 				}
 			}
 			x: -5.5d
@@ -504,8 +504,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color1: 0
 						color2: 0
+						color1: 0
 					}
 				}
 				advancement: "arcanite:acolyte"
@@ -887,9 +887,9 @@
 			subtitle: "Damage stats will appear when striking"
 			id: "36276AEB56B46325"
 			tasks: [{
-				id: "5247B8C6F37DC4DA"
+				id: "6DC71DD8FBD8748F"
 				type: "item"
-				item: "dummmmmmy:target_dummy_placer"
+				item: "dummmmmmy:target_dummy"
 			}]
 			rewards: [{
 				id: "2964E37DB47DA5D6"
@@ -1107,6 +1107,113 @@
 				id: "7D2A2B266A403B48"
 				type: "item"
 				item: "minecraft:apple"
+			}]
+		}
+		{
+			title: "Vanity Slots and Transparent Armor"
+			x: 11.5d
+			y: -1.0d
+			subtitle: "How to utilize Vanity Slots or show skin instead"
+			description: [
+				"When you hover over your armor slots you will see a Vanity Slot (it is the lighter colored slot on the right). "
+				""
+				"What you put here is what is shown, while your regular armor slots are what will be truly equipped for stats and such."
+				""
+				"If you want to wear armor while only showing your skin, you can craft these Familiar armor pieces and place them in your vanity slot as they are transparent, so only your skin will show."
+			]
+			id: "24FF30A34AF02705"
+			tasks: [
+				{
+					id: "0A6E5145C4879517"
+					type: "item"
+					item: {
+						id: "vanityslots:familiar_wig"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C72800B38457079"
+					type: "item"
+					item: {
+						id: "vanityslots:familiar_shirt"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18B3D96FA6C96BCE"
+					type: "item"
+					item: {
+						id: "vanityslots:familiar_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76215166464435A8"
+					type: "item"
+					item: {
+						id: "vanityslots:familiar_sneakers"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3D1EA0256A00F04B"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			subtitle: "How to Disenchant"
+			description: [
+				" The Disenchanter is a deceptively simple device for recovering enchantments from items. Use it by itself, and the first enchantment will be returned and the item destroyed. Use one of the Catalysts however and you will get a different set of enchantments back. Some of them will even preserve the item in the process!"
+				" The rightmost slot takes books onto which the enchantments are transferred. The center slot is for the Catalysts"
+				""
+				" - Amethyst Shard (9x): Recovers the first enchantment and preserves the item"
+				" - Diamond (4x): Recovers two random enchantments and the first one "
+				" - Emerald (2x): Recovers two random enchantments"
+				" - Ender Pearl (4x): Recovers one random enchantment. Here, the item is also preserved but will take 500 durability damage"
+				" - Heart Of The Sea (4x): Recovers all enchantments but reduces them by one level"
+				" - Nether Star (16x): Recovers all enchantments and preserves the item"
+			]
+			id: "07D09F348C4A887E"
+			tasks: [{
+				id: "7AF682B3FB7C9CEC"
+				type: "item"
+				item: "disenchanter:disenchanter"
+			}]
+		}
+		{
+			title: "Mining Dimension"
+			x: 2.25d
+			y: 2.25d
+			subtitle: "How to go to the Mining Dimension"
+			description: ["Build this portal block, place it, right click it. there will be one placed automatically in the mining dimension so you can return"]
+			size: 1.5d
+			id: "626B8957A3D2C5B1"
+			tasks: [{
+				id: "500468AE6424C9DC"
+				type: "item"
+				item: "jamd:mine_portal_block"
+			}]
+			rewards: [{
+				id: "4EE9571DD4C50D10"
+				type: "xp"
+				xp: 5
 			}]
 		}
 	]

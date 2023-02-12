@@ -1,0 +1,47 @@
+{
+    "type": "origins:multiple",
+    "trade_contract": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 300,
+		"start_value": 300,
+		"hud_render": 
+		{
+			"sprite_location": "witcheroriginaddon:textures/gui/witcher_resource_bars.png",
+			"bar_index": 6,
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:resource",
+                        "resource": "*:*_trade_contract",
+                        "comparison": ">=",
+                        "compare_to": 240
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "*:*_trade_contract",
+                        "comparison": "<=",
+                        "compare_to": 299
+                    }
+                ]
+            }
+		}
+	},
+    "trade_contract_cooldown": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+					"resource": "*:*_trade_contract",
+					"change": 1
+            },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_trade_contract",
+            "comparison": "<=",
+            "compare_to": 299
+        }
+    },
+    "hidden": true
+}

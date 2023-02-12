@@ -1,0 +1,14 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "magic"
+    },
+    "modifier": {
+        "name": "Weak to magic damage",
+        "operation": "multiply_total_multiplicative",
+        "value": 0.5
+    },
+    "name": "Magic Vulnerability",
+    "description": "Though you are a powerful combatant, you still find yourself more easily defeated by damage from magical sources."
+}

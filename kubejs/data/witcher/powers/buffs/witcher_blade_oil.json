@@ -1,0 +1,61 @@
+{	
+	"type": "origins:multiple",
+	"oil": {
+		"type": "origins:recipe",
+		"recipe": {
+		"type": "minecraft:crafting_shapeless",
+		"id": "witcher:oil",
+		"ingredients": [
+			{
+				"tag": "witcher:monster_loot"
+			},
+			{
+				"item": "minecraft:gunpowder"
+			},
+			{
+				"tag": "minecraft:flowers"
+			}
+		],
+		"result": {
+			"item": "witcheroriginaddon:blade_oil",
+			"count": 2
+		}
+	}
+	},
+	"name": "Preparation",
+	"description": "You can craft Blade Oil. Holding Blade Oil in your offhand will empower your next strike with a Witcher weapon, giving it additional damage.",
+	"badges": [
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/blade_oil.png",
+			"prefix": "Blade Oil (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:oil",
+				"ingredients": [
+					{
+						"tag": "witcher:monster_loot"
+					},
+					{
+						"item": "minecraft:gunpowder"
+					},
+					{
+						"tag": "minecraft:flowers"
+					}
+				],
+				"result": {
+					"item": "witcheroriginaddon:blade_oil"
+				}
+			}
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You may hold up to 10 Blade Oil in one inventory slot."
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "Each craft produces 2 Blade Oil."
+		}
+	]
+	
+}

@@ -1,0 +1,12 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "witcher:armour_restrict"
+        }
+    },
+    "name": "Witcher Armour",
+    "description": "To match your fighting style, you choose not to wear helmets, or any armour heavier than chainmail",
+    "hidden": false
+}

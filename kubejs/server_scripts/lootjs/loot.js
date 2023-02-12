@@ -32,7 +32,12 @@ const SimplySwordsLootRemove = [
     "simplyswords:runic_tablet",
     "simplyswords:molten_edge",
     "simplyswords:livyatan",
-    "simplyswords:soulrender"
+    "simplyswords:soulrender",
+    "simplyswords:icewhisper",
+    "simplyswords:arcanethyst",
+    "simplyswords:thunderbrand",
+    "simplyswords:slumbering_lichblade",
+    "simplyswords:shadowsting"
 ]
 
 const TYPE_DISABLED_ITEMS = [
@@ -66,7 +71,8 @@ const TYPE_DISABLED_ITEMS = [
     "mcda:blue_mystery_armor_helmet",
     "mcda:blue_mystery_armor_leggings",
     "mcda:blue_mystery_armor_boots",
-    "mcda:blue_mystery_armor_chestplate"
+    "mcda:blue_mystery_armor_chestplate",
+    "farmersdelight:rope"
 ]
 
 const doomBossesLootJS = [
@@ -79,8 +85,11 @@ const doomBossesLootJS = [
     "soulsweapons:accursed_lord_boss", 
     "soulsweapons:chaos_monarch", 
     "soulsweapons:night_shade",
+    "soulsweapons:moonknight",
     "bosses_of_mass_destruction:void_blossom",
     "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:obsidilith"
     ];
 
 const tagStacksWpns = Ingredient.of('aqm2:weapons/rare').stacks;
@@ -116,6 +125,21 @@ LootJS.modifiers((event) => {
 
     event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:withered_wabbajack")
     event.addEntityLootModifier("soulsweapons:chaos_monarch").removeLoot("soulsweapons:withered_wabbajack")
+    event.addEntityLootModifier("minecraft:ender_dragon").removeLoot("dragonloot:dragon_scale")
+    event.addEntityLootModifier("minecraft:ender_dragon").pool((p) => { 
+        p.addLoot("dragonloot:dragon_scale");
+        p.limitCount([0, 1], [1, 1])
+    });
+    event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_white")
+    event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_red")
+    event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_dark")
+    event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_rose")
+    event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_void")
+    event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_purple")
+
+    // gems
+    event.addEntityLootModifier("minecraft:ender_dragon").addLoot("kubejs:epic_gem")
+    event.addEntityLootModifier("minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").addLoot("kubejs:rare_gem")
 
     event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:soul_ingot")
 
@@ -158,11 +182,15 @@ LootJS.modifiers((event) => {
 
     // Boss Drop Rare Wpns
     doomBossesLootJS.forEach(mob => {
+
+        // Unique Simply Swords
         event.addEntityLootModifier(mob)
           .apply(ctx => {
             let item = tagStacksWpns[Math.floor(Math.random() * tagStacksWpns.length)];
             ctx.addLoot(item);
           });
+
+        // Moonstones
 
           event.addEntityLootModifier(mob).pool((p) => {
             p.addLoot("soulsweapons:moonstone"); 

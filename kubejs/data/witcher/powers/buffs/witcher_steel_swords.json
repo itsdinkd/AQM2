@@ -1,0 +1,120 @@
+{
+	"type": "origins:multiple",
+    "steel_sword": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "witcher:steel_sword",
+			"pattern": [
+				" # ",
+				" # ",
+				"LSL"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:iron_ingot"
+				},
+                "L": {
+					"item": "minecraft:leather"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				}
+			},
+			"result": {
+				"item": "witcheroriginaddon:steel_sword",
+				"count": 1
+			}
+		}
+	},
+    "enhanced_steel_sword": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "witcher:enhanced_steel_sword",
+			"pattern": [
+				"###",
+				"#S#",
+				"L#L"
+			],
+			"key": {
+				"#": {
+					"item": "witcheroriginaddon:enriched_dimeritium_ingot"
+				},
+                "L": {
+					"item": "minecraft:leather"
+				},
+				"S": {
+					"item": "witcheroriginaddon:steel_sword"
+				}
+			},
+			"result": {
+				"item": "witcheroriginaddon:enhanced_steel_sword",
+				"count": 1
+			}
+		}
+	},
+	"name": "...Steel For Humans",
+	"description": "You can craft Steel Swords, capable of taking trophies from humans and non-humans.",
+	"badges": [
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/steel_sword.png",
+			"prefix": "Steel Sword (shaped):",
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"id": "witcher:steel_sword",
+				"pattern": [
+					" # ",
+					" # ",
+					"LSL"
+				],
+				"key": {
+					"#": {
+						"item": "minecraft:iron_ingot"
+					},
+					"L": {
+						"item": "minecraft:leather"
+					},
+					"S": {
+						"item": "minecraft:stick"
+					}
+				},
+				"result": {
+					"item": "witcheroriginaddon:steel_sword",
+					"count": 1
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/enhanced_steel_sword.png",
+			"prefix": "Enhanced Steel Sword (shaped):",
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"id": "witcher:enhanced_steel_sword",
+				"pattern": [
+					"###",
+					"#S#",
+					"L#L"
+				],
+				"key": {
+					"#": {
+						"item": "witcheroriginaddon:enriched_dimeritium_ingot"
+					},
+					"L": {
+						"item": "minecraft:leather"
+					},
+					"S": {
+						"item": "witcheroriginaddon:steel_sword"
+					}
+				},
+				"result": {
+					"item": "witcheroriginaddon:enhanced_steel_sword",
+					"count": 1
+				}
+			}
+			
+		}
+	]
+}

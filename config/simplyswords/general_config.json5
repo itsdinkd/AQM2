@@ -15,5 +15,8 @@
   "rare_loot_table_weight": 0.00875,
 
 // Unique Loot: Unique Weapons. Default: 0.002 
-  "unique_loot_table_weight": 0.003
+  "unique_loot_table_weight": 0.0,
+
+// -- General Options -- 
+  "impact_sound_effect_volume": 0.3
 }

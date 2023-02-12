@@ -1,0 +1,65 @@
+{
+    "name": "Relic Weapons",
+    "icon": "witcheroriginaddon:iris_sword",
+    "category": "witcheroriginaddon:weapon_category",
+    "pages": [
+        {
+            "anchor": "page_relic_weapons",
+            "type": "patchouli:text",
+            "text": "Relic weapons are unique heirlooms a Witcher has discovered in their years of adventuring. They are challenging to obtain, but each one provides a unique effect that the Witcher can wield."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/relic_weapon_image.png"
+            ],
+            "text": "Turn the page to learn more..."
+        },
+        {
+            "anchor": "page_aerondight",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:aerondight_sword",
+            "link_recipe": true,
+            "text": "A blade awarded by the Lady of the Lake to a knight she deems virtous and good. While holding $(c)[Aerondight]$() in your mainhand, press $(6)$(l)[$(k:use)]$() to imbue 1 XP level into the weapon, empowering it with 30 charges (600 charges maximum). While empowered, $(c)[Aerondight]$() will deal bonus damage, summon lightning on enemies exposed to the sky, and make the wielder immune to lightning. Each hit will deplete 1 charge."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine a $(l:weapons_armour/silver_sword_entry#page_grandmaster_silver_sword)Grandmaster Silver Sword$() with the $(l:crafting/ladys_favour#page_ladys_favour)Lady's Favour$() in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/aerondight_sword_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_iris",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:iris_sword",
+            "link_recipe": true,
+            "text": "The blade of Olgierd Von Everec, named after his betrothed. Unlocks $(l)Adrenaline$(). Each strike with $(c)[Iris]$() will generate 1 $(l)Adrenaline$() point (3 charges maximum, depletes over time). When your $(l)Adrenaline$() meter is full, strike an opponent to rend them, dealing high damage with a low chance to set their health to 1. Alternatively, press $(6)$(l)[$(k:use)]$() to whirl, dealing damage to enemies in your attack radius passively and destroying any arrows that enter the radius. Both abilities will set your $(l)Adrenaline$() to 0 when used."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine a $(l:weapons_armour/steel_sword_entry#page_grandmaster_steel_sword)Grandmaster Steel Sword$() with the $(l:crafting/violet_rose#page_violet_rose)Violet Rose$() in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/iris_sword_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_winters_blade",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:winters_blade",
+            "link_recipe": true,
+            "text": "A blade once belonging to King Erlend Stonefist, with deep ties to Skellige. Whilst holding $(c)[Winter's Blade]$() in your mainhand, you are granted the $(l:potions/blizzard#page_blizzard)Blizzard$() effect. Press $(6)$(l)[$(k:use)]$() while holding $(c)[Winter's Blade]$() in your mainhand to summon the White Frost, turning water sources into ice, and weak ground blocks into powdered snow."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine a $(l:weapons_armour/steel_sword_entry#page_grandmaster_steel_sword)Grandmaster Steel Sword$() with the $(l:crafting/tedd_sample#page_tedd_sample)Tedd Deireadh Sample$() in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/winters_blade_recipe.png"
+            ]
+        }
+
+    ]
+}

@@ -1100,6 +1100,12 @@
       "activated": false,
       "personalFactor": 4.02,
       "personalReceiveFactor": 0.0
+    },
+    {
+      "enchantmentId": "soulsweapons:stagger",
+      "activated": true,
+      "personalFactor": 4.02,
+      "personalReceiveFactor": 0.0
     }
   ]
 }

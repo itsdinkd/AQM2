@@ -1,0 +1,74 @@
+{
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "execute as @p at @s run function witcher:refill_potion"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute as @p at @s run function witcher:refill_potion"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute as @p at @s run function witcher:refill_potion"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run tellraw @s [\"\",{\"text\":\"[Alcohest]\",\"color\":\"yellow\"},{\"text\":\" - \"},{\"text\":\"Strong alcohol was used to replenish alchemy items.\",\"italic\":true}]"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run playsound witcheroriginaddon:witcher_potion_refill neutral @a ~ ~ ~ 2 1"
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 2,
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "clear @s witcheroriginaddon:alcohest 1"
+                }
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:block_in_radius",
+                "block_condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:in_tag",
+                            "tag": "minecraft:campfires"
+                        },
+                        {
+                            "type": "origins:block_state",
+                            "property": "lit",
+                            "value": "true"
+                        }
+                    ]
+                },
+                "radius": 5,
+                "shape": "cube",
+                "comparison": ">=",
+                "compare_to": 1
+            }
+        ]
+    },
+    "name": "Meditate",
+    "description": "Sleeping in a bed in range of a campfire will consume one Alcohest to replenish your empty Witcher Potions.",
+    "badges": [
+        {
+            "sprite": "witcheroriginaddon:textures/items/alcohest.png",
+            "text": "Passive ability, sleep within 5 blocks of a lit campfire with Alcohest in your inventory to activate."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "You can only replenish up to 3 potions of each type per night."
+        }
+    ]
+}

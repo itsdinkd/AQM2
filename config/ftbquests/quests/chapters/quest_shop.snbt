@@ -71,6 +71,66 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: -3.5d
+			y: -13.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/rare_gem.png"
+			hover: [
+				"Rare Gem Shop"
+				"(Boss Drops)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: -13.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/epic_gem.png"
+			hover: [
+				"Epic Gem Shop"
+				"(Boss Drops)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -9.0d
+			y: -13.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/common_gem.png"
+			hover: [
+				"Common Gem Shop"
+				"(Boss Drops)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.5d
+			y: -13.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/legendary_gem.png"
+			hover: [
+				"Legendary Gem Shop"
+				"(Boss Drops)"
+			]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
@@ -172,6 +232,43 @@
 				type: "item"
 				item: "minecraft:coal"
 				count: 5
+			}]
+		}
+		{
+			title: "Dragon Loot (2x Epic Gem)"
+			icon: "dragonloot:dragon_scale"
+			x: 1.0d
+			y: -10.5d
+			id: "25A5D81BCCA4A1A1"
+			tasks: [{
+				id: "5E8855B0DF12B4FF"
+				type: "item"
+				item: "kubejs:epic_gem"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3EACDD106EB1421E"
+				type: "item"
+				title: "Dragon Scale"
+				item: "dragonloot:dragon_scale"
+			}]
+		}
+		{
+			title: "Mineshaft Entrance (1x Epic Gem)"
+			icon: "prefab:item_mineshaft_entrance"
+			x: 3.0d
+			y: -10.5d
+			subtitle: "This will automatically dig a verticle tunnel to bottom floor and place ladders"
+			id: "28F759A5005403EC"
+			tasks: [{
+				id: "7260E3CB0A0596EE"
+				type: "item"
+				item: "kubejs:epic_gem"
+			}]
+			rewards: [{
+				id: "01CF37E886E35E09"
+				type: "item"
+				item: "prefab:item_mineshaft_entrance"
 			}]
 		}
 	]

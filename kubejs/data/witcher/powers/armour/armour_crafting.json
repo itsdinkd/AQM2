@@ -1,0 +1,85 @@
+{
+    "type": "origins:multiple",
+    "kaer_morhen_chest": {
+        "type": "origins:recipe",
+        "recipe": {
+            "type": "minecraft:crafting_shaped",
+			"id": "witcher:kaer_morhen_chest",
+            "pattern": [
+                "# #",
+                "LCL",
+                "###"
+            ],
+            "key": {
+                "#": {
+                    "item": "witcheroriginaddon:chainmail"
+                },
+                "L": {
+                    "item": "minecraft:leather"
+                },
+                "C": {
+                    "item": "minecraft:chainmail_chestplate"
+                }
+            },
+            "result": {
+                "item": "witcheroriginaddon:kaer_morhen_chestplate",
+                "count": 1
+            }
+        }
+    },
+    "kaer_morhen_legs": {
+        "type": "origins:recipe",
+        "recipe": {
+            "type": "minecraft:crafting_shaped",
+			"id": "witcher:kaer_morhen_legs",
+            "pattern": [
+                "#C#",
+                "L L",
+                "L L"
+            ],
+            "key": {
+                "#": {
+                    "item": "witcheroriginaddon:chainmail"
+                },
+                "C": {
+                    "item": "minecraft:chainmail_leggings"
+                },
+                "L": {
+                    "item": "minecraft:leather"
+                }
+            },
+            "result": {
+                "item": "witcheroriginaddon:kaer_morhen_greaves",
+                "count": 1
+            }
+        }
+    },
+    "kaer_morhen_boots": {
+        "type": "origins:recipe",
+        "recipe": {
+            "type": "minecraft:crafting_shaped",
+			"id": "witcher:kaer_morhen_boots",
+            "pattern": [
+                "#C#",
+                "L L"
+            ],
+            "key": {
+                "#": {
+                    "item": "witcheroriginaddon:chainmail"
+                },
+                "C": {
+                    "item": "minecraft:chainmail_boots"
+                },
+                "L": {
+                    "item": "minecraft:leather"
+                }
+            },
+            "result": {
+                "item": "witcheroriginaddon:kaer_morhen_boots",
+                "count": 1
+            }
+        }
+    },
+    "name": "Witcher Armour",
+    "description": "You can craft Witcher armours, that only Witchers can wear. Learn more in the Witcher's Journal."
+}

@@ -134,7 +134,9 @@
       "DaddyDanked": "https://minotar.net/cube/f2ff48109a324e04ac5ca25e3ebf916c/100",
       "aqm21182.minecraft.best": "https://api.mcsrvstat.us/icon/aqm21182.minecraft.best",
       "BbyDanked": "https://minotar.net/cube/bdf209bfacd341168f07caf14928db7c/100",
-      "localhost": "https://api.mcsrvstat.us/icon/<map>"
+      "localhost": "https://api.mcsrvstat.us/icon/<map>",
+      "161.129.180.223": "https://api.mcsrvstat.us/icon/<map>",
+      "aqm2zion.minecraft.best": "https://api.mcsrvstat.us/icon/<map>"
     },
     "dynamicVariables": {
       "default": "Example Text",

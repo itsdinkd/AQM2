@@ -3,9 +3,24 @@
     "hidden": true,
     "condition": {
         "inverted": false,
-        "type": "origins:health",
-        "comparison": "<",
-        "compare_to": 30
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:health",
+                "comparison": "<",
+                "compare_to": 30
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:iron_ingot"
+                    }
+                }
+            }
+        ]
     },
     "type": "origins:active_self",
     "entity_action": {
@@ -36,6 +51,12 @@
                 {
                     "type": "origins:heal",
                     "amount": 6
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.anvil.use",
+                    "volume": 1,
+                    "pitch": 1
                 }
             ]
         }

@@ -12,6 +12,7 @@ EntityEvents.spawned(event => {
         "soulsweapons:returning_knight",
         "soulsweapons:accursed_lord_boss",
         "soulsweapons:draugr_boss",
+        "soulsweapons:moonknight",
         "doom:motherdemon",
         "doom:gladiator",
         "doom:iconofsin",
@@ -43,7 +44,7 @@ EntityEvents.spawned(event => {
      eldritchMobsHealth.forEach(mob => {
         let nbt = event.entity.fullNBT
         if (event.entity.type == mob && nbt.cardinal_components && nbt.cardinal_components['eldritch_mobs:eldritch_modifiers']?.numMaxAbilities > 0) {
-            entity.setMaxHealth('generic.max_health', entity.getAttributeBaseValue('generic.max_health'))
+            entity.setMaxHealth(entity.getAttributeBaseValue('generic.max_health'))
         }
      })
     // const attributes = ['generic.max_health', entity.getAttributeBaseValue([0])]

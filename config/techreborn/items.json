@@ -2,7 +2,7 @@
   "power": {
     "nanoSaberDamage": {
       "comment": "Damage value for the Nano Saber",
-      "value": 20
+      "value": 3
     },
     "industrialJackhammerCost": {
       "comment": "Energy Cost for Industrial Jackhammer",

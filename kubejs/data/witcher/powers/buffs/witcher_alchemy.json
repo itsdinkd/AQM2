@@ -1,0 +1,388 @@
+{
+	"type": "origins:multiple",
+    "swallow": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shapeless",
+			"id": "witcher:swallow",
+			"ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+				{
+                    "item": "witcheroriginaddon:alcohest"
+                },
+                {
+                    "item": "minecraft:glow_berries"
+                },
+                {
+                    "item": "minecraft:ghast_tear"
+                }
+                
+                
+            ],
+			"result": {
+				"item": "witcheroriginaddon:swallow_potion",
+				"count": 1
+			}
+		}
+	},
+	"cat": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shapeless",
+			"id": "witcher:cat",
+			"ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+				{
+                    "item": "witcheroriginaddon:alcohest"
+                },
+                {
+                    "item": "minecraft:fermented_spider_eye"
+                },
+                {
+                    "item": "minecraft:golden_carrot"
+                }
+                
+                
+            ],
+			"result": {
+				"item": "witcheroriginaddon:cat_potion",
+				"count": 1
+			}
+		}
+	},
+	"blizzard": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shapeless",
+			"id": "witcher:blizzard",
+			"ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+				{
+                    "item": "witcheroriginaddon:alcohest"
+                },
+                {
+                    "item": "minecraft:soul_lantern"
+                },
+                {
+                    "item": "minecraft:blue_ice"
+                }
+                
+                
+            ],
+			"result": {
+				"item": "witcheroriginaddon:blizzard_potion",
+				"count": 1
+			}
+		}
+	},
+	"black_blood": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shapeless",
+			"id": "witcher:black_blood",
+			"ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+				{
+                    "item": "witcheroriginaddon:alcohest"
+                },
+                {
+                    "item": "minecraft:wither_rose"
+                },
+                {
+                    "item": "minecraft:magma_cream"
+                }
+                
+                
+            ],
+			"result": {
+				"item": "witcheroriginaddon:black_blood_potion",
+				"count": 1
+			}
+		}
+	},
+	"thunderbolt": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shapeless",
+			"id": "witcher:thunderbolt",
+			"ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+				{
+                    "item": "witcheroriginaddon:alcohest"
+                },
+                {
+                    "item": "minecraft:raw_gold"
+                },
+                {
+                    "item": "minecraft:blaze_powder"
+                }
+                
+                
+            ],
+			"result": {
+				"item": "witcheroriginaddon:thunderbolt_potion",
+				"count": 1
+			}
+		}
+	},
+	"maribor_forest": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shapeless",
+			"id": "witcher:maribor_forest",
+			"ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+				{
+                    "item": "witcheroriginaddon:alcohest"
+                },
+                {
+                    "item": "minecraft:honey_bottle"
+                },
+                {
+                    "item": "minecraft:cake"
+                }
+                
+                
+            ],
+			"result": {
+				"item": "witcheroriginaddon:maribor_forest_potion",
+				"count": 1
+			}
+		}
+	},
+	"full_moon": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shapeless",
+			"id": "witcher:full_moon",
+			"ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+				{
+                    "item": "witcheroriginaddon:alcohest"
+                },
+                {
+                    "item": "minecraft:scute"
+                },
+                {
+                    "item": "minecraft:diamond"
+                }
+                
+                
+            ],
+			"result": {
+				"item": "witcheroriginaddon:full_moon_potion",
+				"count": 1
+			}
+		}
+	},
+	"name": "Alchemy",
+	"description": "You can craft Witcher Potions, which are refillable and add Toxicity when used.",
+	"badges": [
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/swallow_potion.png",
+			"prefix": "Swallow (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:swallow",
+				"ingredients": [
+					{
+						"item": "minecraft:glass_bottle"
+					},
+					{
+						"item": "witcheroriginaddon:alcohest"
+					},
+					{
+						"item": "minecraft:glow_berries"
+					},
+					{
+						"item": "minecraft:ghast_tear"
+					}		
+				],
+				"result": {
+					"item": "witcheroriginaddon:swallow_potion"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/cat_potion.png",
+			"prefix": "Cat (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:cat",
+				"ingredients": [
+					{
+						"item": "minecraft:glass_bottle"
+					},
+					{
+						"item": "witcheroriginaddon:alcohest"
+					},
+					{
+						"item": "minecraft:fermented_spider_eye"
+					},
+					{
+						"item": "minecraft:golden_carrot"
+					}
+				],
+				"result": {
+					"item": "witcheroriginaddon:cat_potion"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/blizzard_potion.png",
+			"prefix": "Blizzard (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:blizzard",
+				"ingredients": [
+					{
+						"item": "minecraft:glass_bottle"
+					},
+					{
+						"item": "witcheroriginaddon:alcohest"
+					},
+					{
+						"item": "minecraft:soul_lantern"
+					},
+					{
+						"item": "minecraft:blue_ice"
+					}
+					
+					
+				],
+				"result": {
+					"item": "witcheroriginaddon:blizzard_potion"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/black_blood_potion.png",
+			"prefix": "Black Blood (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:black_blood",
+				"ingredients": [
+					{
+						"item": "minecraft:glass_bottle"
+					},
+					{
+						"item": "witcheroriginaddon:alcohest"
+					},
+					{
+						"item": "minecraft:wither_rose"
+					},
+					{
+						"item": "minecraft:magma_cream"
+					}
+				],
+				"result": {
+					"item": "witcheroriginaddon:black_blood_potion"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/thunderbolt_potion.png",
+			"prefix": "Thunderbolt (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:thunderbolt",
+				"ingredients": [
+					{
+						"item": "minecraft:glass_bottle"
+					},
+					{
+						"item": "witcheroriginaddon:alcohest"
+					},
+					{
+						"item": "minecraft:raw_gold"
+					},
+					{
+						"item": "minecraft:blaze_powder"
+					}
+				],
+				"result": {
+					"item": "witcheroriginaddon:thunderbolt_potion"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/maribor_forest_potion.png",
+			"prefix": "Maribor Forest (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:maribor_forest",
+				"ingredients": [
+					{
+						"item": "minecraft:glass_bottle"
+					},
+					{
+						"item": "witcheroriginaddon:alcohest"
+					},
+					{
+						"item": "minecraft:honey_bottle"
+					},
+					{
+						"item": "minecraft:cake"
+					}
+				],
+				"result": {
+					"item": "witcheroriginaddon:maribor_forest_potion"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/full_moon_potion.png",
+			"prefix": "Full Moon (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:full_moon",
+				"ingredients": [
+					{
+						"item": "minecraft:glass_bottle"
+					},
+					{
+						"item": "witcheroriginaddon:alcohest"
+					},
+					{
+						"item": "minecraft:scute"
+					},
+					{
+						"item": "minecraft:diamond"
+					}	
+				],
+				"result": {
+					"item": "witcheroriginaddon:full_moon_potion"
+				}
+				}
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "You may hold up to 3 potions of the same type in one inventory slot."
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "More information on potion mechanics are found in the Witcher's Journal."
+		}
+	]
+}

@@ -142,7 +142,6 @@
 				"Kill the Arch Makyr to obtain a Corupted Emerald."
 				""
 			]
-			dependencies: ["5C3324C5094EA33B"]
 			id: "5DCBAD24802E5735"
 			tasks: [{
 				id: "4FBDD2D101709C3D"
@@ -155,7 +154,6 @@
 			y: -0.5d
 			subtitle: "Gladiator drop"
 			description: ["Kill the Gladiator to obtain a Demon Pearl."]
-			dependencies: ["3D8C6E7D44891F51"]
 			id: "13426EC067660B5B"
 			tasks: [{
 				id: "378C30CAED064F38"
@@ -173,7 +171,6 @@
 			y: -1.5d
 			subtitle: "Icon of Sin drop"
 			description: ["Get a Star Of Icon by killing the Icon of Sin."]
-			dependencies: ["075E9ED31928FCFA"]
 			id: "54356D1908BAB423"
 			tasks: [{
 				id: "54CF1CFE643B05AA"

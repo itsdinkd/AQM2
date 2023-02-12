@@ -1,0 +1,24 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "amplifier": 0,
+            "duration": 120
+        },
+        {
+            "effect": "minecraft:weakness",
+            "amplifier": 0,
+            "duration": 120
+        }
+    ]
+    },
+    "cooldown": 20,
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "witcheroriginaddon:blizzard"
+    },
+    "hidden": true
+}

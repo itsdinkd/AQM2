@@ -33,7 +33,7 @@
 		{ item: "artifacts:novelty_drinking_hat" }
 		{ item: "artifacts:plastic_drinking_hat" }
 		{ item: "artifacts:umbrella" }
-			{
+		{
 			item: {
 				id: "mcdar:wind_horn"
 				Count: 1b
@@ -144,6 +144,5 @@
 		{ item: "givemehats:cat_ears" }
 		{ item: "givemehats:bunny_ears" }
 		{ item: "givemehats:bowler_hat" }
-		
 	]
 }

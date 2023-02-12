@@ -11,15 +11,16 @@
   "speed_chance": 14.99,
   "speed_duration": 120.0,
 
+// ----------------------- 
 // -- Runic Power: Slow -- 
 // ----------------------- 
-  "slowness_chance": 35.0,
+  "slowness_chance": 40.0,
   "slowness_duration": 40.0,
 
 // ------------------------- 
 // -- Runic Power: Poison -- 
 // ------------------------- 
-  "toxin_chance": 12.0,
+  "toxin_chance": 14.0,
   "toxin_duration": 120.0,
 
 // ------------------------- 
@@ -45,7 +46,7 @@
 // -- Runic Power: Zephyr -- 
 // ------------------------- 
   "zephyr_chance": 15.0,
-  "zephyr_duration": 120.0,
+  "zephyr_duration": 180.0,
 
 // ---------------------------- 
 // -- Runic Power: Shielding -- 
@@ -81,22 +82,22 @@
 // -- Runic Power: Active Defence -- 
 // --------------------------------- 
   "active_defence_frequency": 20.0,
-  "active_defence_radius": 4.0,
+  "active_defence_radius": 5.0,
 
 // ----------------------------- 
 // -- Runic Power: Frost Ward -- 
 // ----------------------------- 
   "frostward_frequency": 20.0,
-  "frostward_radius": 4.33,
+  "frostward_radius": 4.5,
   "frostward_slow_duration": 50.0,
 
 // ---------------------------- 
 // -- Unique Effect: Watcher -- 
 // -- Restore amount refers to health gained from each enemy in range -- 
 // ---------------------------- 
-  "watcher_chance": 3.0,
+  "watcher_chance": 4.0,
   "watcher_restore_amount": 0.33,
-  "watcher_radius": 4.5,
+  "watcher_radius": 5.5,
 
 // ------------------------- 
 // -- Unique Effect: Omen -- 
@@ -115,7 +116,7 @@
   "steal_duration": 200.0,
   "steal_invis_duration": 100.0,
   "steal_blind_duration": 160.0,
-  "steal_radius": 17.0,
+  "steal_radius": 50.0,
 
 // ---------------------------- 
 // -- Unique Effect: Gravity -- 
@@ -153,7 +154,7 @@
 // ------------------------------ 
 // -- Unique Effect: Ember Ire -- 
 // ------------------------------ 
-  "ember_ire_chance": 9.75,
+  "ember_ire_chance": 12.75,
   "ember_ire_duration": 100.0,
 
 // ---------------------------------- 
@@ -168,12 +169,12 @@
 // -- Unique Effect: Storm -- 
 // -------------------------- 
   "storm_chance": 13.5,
-  "storm_radius": 8.0,
+  "storm_radius": 9.0,
 
 // --------------------------- 
 // -- Unique Effect: Plague -- 
 // --------------------------- 
-  "plague_chance": 33.0,
+  "plague_chance": 45.0,
 
 // ------------------------------ 
 // -- Unique Effect: Brimstone -- 
@@ -183,7 +184,7 @@
 // ---------------------------- 
 // -- Unique Effect: Bramble -- 
 // ---------------------------- 
-  "bramble_chance": 37.5,
+  "bramble_chance": 40.5,
   "bramble_radius": 7.5,
 
 // -------------------------------- 
@@ -250,5 +251,32 @@
 // -- Unique Effect: Storm Jolt -- 
 // ------------------------------- 
   "stormjolt_cooldown": 180.0,
-  "stormjolt_chance": 14.0
+  "stormjolt_chance": 14.0,
+
+// --------------------------------- 
+// -- Unique Effect: Soul Anguish -- 
+// --------------------------------- 
+  "soulanguish_radius": 3.0,
+  "soulanguish_damage": 1.0,
+  "soulanguish_cooldown": 700.0,
+  "soulanguish_duration": 500.0,
+  "soulanguish_heal": 0.3,
+  "soulanguish_range": 20.0,
+
+// ---------------------------------- 
+// -- Unique Effect: Shock Deflect -- 
+// ---------------------------------- 
+  "shockdeflect_block_duration": 35.0,
+  "shockdeflect_damage": 12.0,
+  "shockdeflect_cooldown": 115.0,
+  "shockdeflect_parry_duration": 10.0,
+
+// ------------------------------- 
+// -- Unique Effect: Shadowmist -- 
+// ------------------------------- 
+  "shadowmist_cooldown": 200.0,
+  "shadowmist_chance": 40.0,
+  "shadowmist_damage_multiplier": 1.0,
+  "shadowmist_blind_duration": 50.0,
+  "shadowmist_radius": 4.0
 }

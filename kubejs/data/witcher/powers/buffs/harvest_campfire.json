@@ -1,0 +1,42 @@
+{
+    "type": "origins:multiple",
+    "campfire": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:blocks/campfire": "witcher:blocks/unlit_campfire"
+        },
+        "bientity_condition": {
+            "type": "origins:actor_condition",
+            "condition": {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "witcher:axe"
+                    }
+                }
+            }
+        }
+    },
+    "soul_campfire": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:blocks/soul_campfire": "witcher:blocks/unlit_soul_campfire"
+        },
+        "bientity_condition": {
+            "type": "origins:actor_condition",
+            "condition": {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "witcher:axe"
+                    }
+                }
+            }
+        }
+    },
+    "hidden": true
+}

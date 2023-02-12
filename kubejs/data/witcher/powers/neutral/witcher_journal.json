@@ -1,0 +1,38 @@
+{
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "patchouli:guide_book",
+            "tag": "{\"patchouli:book\":\"witcheroriginaddon:witcher_journal\"}"
+        }
+    ],
+    "name": "Witcher's Journal",
+    "description": "You start with a journal written by the legendary White Wolf.",
+    "badges": [
+        {
+			"sprite": "witcheroriginaddon:textures/items/witcher_journal.png",
+			"text": "All information about the Witcher origin is found here. It is highly recommended to read this instead of the Origins GUI menu for detailed info."
+		},
+        {
+            "type": "origins:crafting_recipe",
+			"sprite": "origins:textures/gui/badge/recipe.png",
+			"prefix": "Witcher's Journal (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:journal",
+				"ingredients": [
+					{
+						"item": "minecraft:book"
+					},
+					{
+						"item": "witcheroriginaddon:dimeritium_ingot"
+					}
+				],
+				"result": {
+					"item": "patchouli:guide_book",
+                    "tag": "{\"patchouli:book\":\"witcheroriginaddon:witcher_journal\"}"
+				}
+			}
+        }
+    ]
+}

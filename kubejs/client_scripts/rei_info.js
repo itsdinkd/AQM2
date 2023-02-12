@@ -54,6 +54,8 @@ const greenhouseColors =[
   event.addItem("ae2:calculation_processor_press", 'How to Craft', ['No Meteors in AQM2. Use the Botania Mana Pool to Craft this Press. Check Recipe in REI'])
   event.addItem("ae2:logic_processor_press", 'How to Craft', ['No Meteors in AQM2. Use the Botania Mana Pool to Craft this Press. Check Recipe in REI'])
   event.addItem("ae2:engineering_processor_press", 'How to Craft', ['No Meteors in AQM2. Use the Botania Mana Pool to Craft this Press. Check Recipe in REI'])
+  event.addItem("soulsweapons:verglas", 'How to Obtain', ['Drops from all Soul weapons bosses'])
+  event.addItem("soulsweapons:moonstone", 'How to Obtain', ['Drops from Bosses from', 'Soul Weapons', 'Doom', 'BOMD Void Shadow, Void Blossom, Gauntlet, Obsidilith, Lich Bosses'])
 
   greenhouseColors.forEach(function(item, index) {
     event.addItem('croparia:greenhouse_' + item, 'WARNING', ['You will crash and corrupt chunk if you use this on modded crops'])

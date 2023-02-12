@@ -1,0 +1,263 @@
+{
+    "type": "origins:multiple",
+    "tag": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute positioned ^ ^0.5 ^2 run tag @e[distance=..3] add aard",
+            "permission_level": 4
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/aard_resource_aard",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "sound": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "playsound witcheroriginaddon:aard_sign neutral @a ~ ~ ~ 3 1"
+        },
+		"condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/aard_resource_aard",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "effect": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:area_of_effect",
+            "radius": 5,
+            "include_target": false,
+            "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:spawn_particles",
+                    "particle": "minecraft:sweep_attack",
+                    "count": 1
+                }
+            },
+            "bientity_condition": {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:nbt",
+                    "nbt": "{Tags: ['aard']}"
+                }
+            }
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/aard_resource_aard",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "damage": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:area_of_effect",
+            "radius": 5,
+            "include_target": false,
+            "bientity_action": {
+                "type": "origins:damage",
+                "amount": 1,
+                "source": {
+                    "name": "player"
+                }
+            },
+            "bientity_condition": {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:nbt",
+                    "nbt": "{Tags: ['aard']}"
+                }
+            }
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/aard_resource_aard",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "push": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:delay",
+            "ticks": 1,
+            "action": {
+                "type": "origins:area_of_effect",
+                "radius": 5,
+                "include_target": false,
+                "bientity_action": {
+                    "type": "origins:add_velocity",
+                    "z": 1
+                },
+                "bientity_condition": {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:nbt",
+                        "nbt": "{Tags: ['aard']}"
+                    }
+                }
+            }
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/aard_resource_aard",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "removetag": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:delay",
+            "ticks": 3,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "tag @e[tag=aard] remove aard",
+                "permission_level": 4
+            }
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/aard_resource_aard",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "replace_blocks": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:basalt replace minecraft:lava"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:air replace minecraft:fire"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:water[level=0] replace minecraft:frosted_ice"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/aard_resource_aard",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "raycast_blockstate": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:raycast",
+            "distance": 5,
+            "block": true,
+            "entity": false,
+            "shape_type": "visual",
+            "fluid_handling": "any",
+            "block_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:modify_block_state",
+                        "property": "lit",
+                        "value": false
+                    }
+                ]
+            },
+            "block_condition": {
+                "type": "origins:in_tag",
+                "tag": "witcher:unlit_blocks"
+            }
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/aard_resource_aard",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "cooldown": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:delay",
+            "ticks": 1,
+            "action": {
+                "type": "origins:change_resource",
+                "resource": "witcher:abilities/aard_resource_aard",
+                "change": -10
+            }
+        },
+        "cooldown": 0,
+        "hud_render": {
+            "should_render": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:abilities/aard_resource_aard",
+            "comparison": "==",
+            "compare_to": 10
+        },
+        "key": "key.origins.ternary_active"
+    },
+    "name": "§9§nAard",
+    "description": "Cast a telekinetic shockwave in a cone in front of you, pushing back all mobs caught in the area of effect.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "witcheroriginaddon:textures/gui/aard.png",
+            "text": "Active ability, use %s to cast."
+        }
+    ]
+}

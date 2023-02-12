@@ -1,0 +1,19 @@
+{
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:mineable/pickaxe"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.2
+    },
+    "name": "Side-Questing",
+    "description": "You prefer taking contracts to hunt monsters over mining.",
+	"badges": [
+		{
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "You break blocks mined by a pickaxe 20% slower than a human."
+        }
+	]
+}

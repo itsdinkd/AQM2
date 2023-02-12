@@ -1,0 +1,28 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "witcheroriginaddon:black_blood",
+                    "duration": 1500,
+                    "amplifier": 0
+                }
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "witcher:neutral/toxicity_toxicity",
+                "change": 20
+            }
+        ]
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "witcheroriginaddon:black_blood_potion"
+        }
+    },
+    "hidden": true
+}

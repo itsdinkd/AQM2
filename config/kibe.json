@@ -8,7 +8,7 @@
   },
   "chunkLoaderModule": {
     "checkForPlayer": true,
-    "maxPerPlayer": 0,
-    "maxOfflineTime": 1
+    "maxPerPlayer": 3,
+    "maxOfflineTime": 5
   }
 }

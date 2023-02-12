@@ -3,8 +3,10 @@
     "minecraft:ender_dragon",
     "minecraft:wither",
     "minecraft:warden",
-    "minecells:conjunctivius",
     "soulsweapons:night_shade",
-    "soulsweapons:day_stalker"
+    "soulsweapons:day_stalker",
+    "doom:motherdemon",
+    "doom:gladiator",
+    "doom:iconofsin"
   ]
 }

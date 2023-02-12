@@ -1,0 +1,71 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 0,
+    "hud_render": {
+        "should_render": false
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:raycast",
+                "shape_type": "visual",
+                "fluid_handling": "none",
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "minecraft:blindness",
+                                    "duration": 140,
+                                    "amplifier": 0
+                                }
+                            },
+                            {
+                                "type": "origins:apply_effect",
+                                "effect": {
+                                    "effect": "witcheroriginaddon:stunned",
+                                    "duration": 140,
+                                    "amplifier": 0
+                                }
+                            }
+                        ]
+                    }
+                },
+                "distance": 10,
+                "command_step": 1,
+                "command_along_ray": "particle witcheroriginaddon:axii_particle ~ ~ ~ 0.1 0.1 0.1 0 1 normal"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound witcheroriginaddon:axii_sign neutral @a ~ ~ ~ 2 1"
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "witcher:abilities/axii_resource_axii",
+                "change": -14
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "witcher:abilities/axii_resource_axii",
+        "comparison": "==",
+        "compare_to": 14
+    },
+    "key": {
+        "key": "key.origins.ternary_active"
+    },
+    "name": "§a§nAxii",
+    "description": "Cast a hypnotic sign that will hex a target, temporarily stunning them in place and blinding them.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "witcheroriginaddon:textures/gui/axii.png",
+            "text": "Active ability, use %s to cast."
+        }
+    ]
+}

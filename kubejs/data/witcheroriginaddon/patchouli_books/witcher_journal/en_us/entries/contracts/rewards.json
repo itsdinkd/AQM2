@@ -1,0 +1,43 @@
+{
+    "name": "Rewards",
+    "icon": "witcheroriginaddon:trophy_player",
+    "category": "witcheroriginaddon:contract_category",
+    "pages": [
+        {
+            "anchor": "page_rewards",
+            "type": "patchouli:text",
+            "text": "Witchers will recieve rewards for handing in $(l:contracts/trophies#page_trophies)trophies$() they have collected. Press $(6)$(l)[$(k:saveToolbarActivator)]$() $(l)(Creative: Save Hotbar Activator)$() while holding a trophy and looking at a Villager in close range to recieve a reward."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:villager",
+            "name": " ",
+            "text": "Any Villager can be a trophy recipient. Trophies will be consumed upon handing them in."
+        },
+        {
+            "anchor": "page_reward_types",
+            "type": "patchouli:text",
+            "title": "Reward Types",
+            "text": "Turning in a trophy will yield several possible types of loot:$(br)$(li)$(l)XP$(): Experience points will always be granted based on the rarity and difficulty of the target.$(br)$(li)$(l)Trophy Loot$(): Useful loot related to the target will always drop. For example, Creepers will reward a large amount of Gunpowder."
+        },
+        {
+            "anchor": "page_bonus_stash",
+            "type": "patchouli:text",
+            "title": " ",
+            "text": "$(li)$(l)Bonus Stashes$(): Each time you turn in a trophy, there is a 30% chance to recieve a bonus chest containing useful loot related to a mob group. They are the only way to obtain $(l:crafting/medallions)Witcher Medallions$(). They include:$(li2)$(l)Overworld$()$(li2)$(l)Nether$()$(li2)$(l)Aquatic$()$(li2)$(l)Dimensional$()$(li2)$(l)Monster$()$(li2)$(l)Illager$()$(li2)$(l)Piglin$()$(li2)$(l)Boss$()"
+        },
+        {
+            "type": "patchouli:text",
+            "title": " ",
+            "text": "$(li)$(l)Relic Materials$(): Materials used to craft the strongest Witcher weapons, which drop at a low chance from boss trophies:$(li2)$(l:crafting/elder_blood#page_elder_blood)Ender Dragon$()$(li2)$(l:crafting/ladys_favour#page_ladys_favour)Wither$()$(li2)$(l:crafting/tedd_sample#page_tedd_sample)Elder Guardian$()$(li2)$(l:crafting/violet_rose#page_violet_rose)Warden$()"
+        },
+        {
+            "type": "patchouli:image",
+            "title": " ",
+            "text": " ",
+            "images": [
+                "witcheroriginaddon:textures/gui/reward_image.png"
+            ]
+        }
+    ]
+}

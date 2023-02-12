@@ -1,0 +1,200 @@
+{
+    "type": "origins:multiple",
+    "adrenaline": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "start_value": 0,
+        "hud_render": {
+            "sprite_location": "witcheroriginaddon:textures/gui/witcher_resource_bars.png",
+            "bar_index": 10,
+            "condition": {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "witcheroriginaddon:iris_sword"
+                    }
+                }
+            }
+        }
+    },
+    "adrenaline_decay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_adrenaline",
+            "change": -1
+        },
+        "interval": 100,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_adrenaline",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "adrenaline_gain": {
+        "type": "origins:action_on_hit",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_adrenaline",
+                "change": 1
+            }
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:iris_sword"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "witcheroriginaddon:whirl",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "witcheroriginaddon:rend",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "apply_whirl": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "witcheroriginaddon:whirl",
+                        "duration": 100,
+                        "amplifier": 0
+                    }
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_adrenaline",
+                    "change": -3
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:iris_sword"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_adrenaline",
+                    "comparison": "==",
+                    "compare_to": 3
+                }
+            ]
+        },
+        "key": {
+            "key": "key.use",
+            "continuous": true
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "apply_rend": {
+        "type": "origins:modify_damage_dealt",
+        "bientity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_adrenaline",
+                        "change": -3
+                    }
+                },
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "witcheroriginaddon:rend",
+                            "duration": 100,
+                            "amplifier": 0
+                        }
+                    }
+                },
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "playsound witcheroriginaddon:witcher_rend neutral @a ~ ~ ~ 2 1"
+                    }
+                },
+                {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:chance",
+                        "action": {
+                            "type": "origins:execute_command",
+                            "command": "attribute @s minecraft:generic.max_health base set 1"
+                        },
+                        "chance": 0.2
+                    },
+                    "condition": {
+                      "type": "origins:in_tag",
+                      "tag": "witcher:rend_blacklist",
+                      "inverted": true
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:iris_sword"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_adrenaline",
+                    "comparison": "==",
+                    "compare_to": 3
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 6
+        }
+    },
+    "hidden": true
+}

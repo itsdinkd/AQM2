@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 45,
+          "name": "witcherorigin:gameplay/contracts/uncommon_contract"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 35,
+          "name": "witcherorigin:gameplay/contracts/rare_contract"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "name": "witcherorigin:gameplay/contracts/epic_contract"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "witcherorigin:gameplay/contracts/legendary_contract"
+        }
+      ]
+    }
+  ]
+}

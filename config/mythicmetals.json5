@@ -153,7 +153,7 @@
 		"trapezoid": true
 	},
 	"platinum": {
-		"enabled": true,
+		"enabled": false,
 		"veinSize": 6,
 		"perChunk": 2,
 		"bottom": -8,
@@ -203,7 +203,7 @@
 		"trapezoid": true
 	},
 	"silver": {
-		"enabled": true,
+		"enabled": false,
 		"veinSize": 8,
 		"perChunk": 4,
 		"bottom": 25,
@@ -270,6 +270,8 @@
     "mining_dims:mining_dim",
     "mining_dims:caving_dim",
     "mining_dims:climbing_dim",
-    "mining_dims:nethering_dim"
+    "mining_dims:nethering_dim",
+	"aqm2:mining_dimension",
+	"jamd:mining"
 	]
 }

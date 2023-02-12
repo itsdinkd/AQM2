@@ -1,0 +1,34 @@
+{
+    "type": "origins:multiple",
+    "lethal_effect": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:damage",
+            "amount": 1000,
+            "source": {
+                "name": "magic",
+                "bypasses_armor": true
+            }
+        },
+        "condition": {
+            "type": "origins:predicate",
+            "predicate": "origins:iswitcher",
+            "inverted": true
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "witcher:potions"
+            }
+        }
+    },
+    "spread_effect": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power grant @a witcher:neutral/lethality"
+        },
+        "interval": 20
+    },
+    "hidden": true
+}

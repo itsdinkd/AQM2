@@ -1,0 +1,110 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:delay",
+		"ticks": 1,
+		"action": {
+			"type": "origins:if_else_list",
+			"actions": [
+			{
+				"condition": {
+					"type": "origins:resource",
+					"resource": "witcher:contracts/new_contract_cooldown_new_contract",
+					"comparison": "==",
+					"compare_to": 1440
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "loot give @s loot witcherorigin:gameplay/contracts/contract"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "playsound witcheroriginaddon:new_quest block @s ~ ~ ~ 1.5 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s [\"\",{\"text\":\"[!]\",\"color\":\"yellow\"},{\"text\":\" NEW QUEST\",\"bold\":true},{\"text\":\" (check your inventory for details).\",\"italic\":true}]"
+						},
+						{
+							"type": "origins:change_resource",
+							"resource": "witcher:contracts/new_contract_cooldown_new_contract",
+							"change": -1440
+						}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:resource",
+					"resource": "witcher:contracts/new_contract_cooldown_new_contract",
+					"comparison": "<",
+					"compare_to": 1440
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "playsound minecraft:block.note_block.pling block @s ~ ~ ~ 2 0.6"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "tellraw @s [\"\",{\"text\":\"[!]\",\"color\":\"yellow\"},{\"text\":\" You must wait before accepting a new quest.\"}]"
+						}
+					]
+				}
+			}
+		]
+		}
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:empty"
+			}
+		},
+		{
+			"type": "origins:block_in_radius",
+				"block_condition": {
+					  "type": "origins:block",
+					  "block": "witcheroriginaddon:contract_board"
+				},
+				"radius": "2",
+				"shape": "cube",
+				"comparison": ">=",
+				"compare_to": 1
+		}
+		]
+	},
+	"cooldown": 80,
+	"hud_render": {
+		"should_render": false
+	},
+	"key": {
+		"key": "key.saveToolbarActivator",
+		"continuous": true
+	},
+	"name": "Witcher For Hire",
+	"description": "Witchers can recieve contracts to hunt monsters and foes on behalf of the villagers in return for goods.",
+    "badges": [
+        {
+			"sprite": "witcheroriginaddon:textures/gui/new_contract.png",
+			"text": "Active ability, recieve a contract by pressing %s with an empty mainhand in range of a contract board."
+		},
+        {
+			"sprite": "witcheroriginaddon:textures/gui/exchange.png",
+			"text": "Active ability, exchange a contract for another of the same rarity by pressing %s while holding the contract in your mainhand in range of a contract board. 5 minute cooldown."
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "A new contract can be recieved once a full in-game day has passed (ignoring sleeping). The contract cooldown will appear at 5 minutes remaining."
+		}
+    ]
+}

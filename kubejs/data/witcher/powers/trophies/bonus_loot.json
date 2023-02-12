@@ -1,0 +1,11 @@
+{
+    "type": "origins:simple",
+    "name": "Law of Surprise",
+    "description": "On returning a trophy to a villager, you have a chance to recieve bonus payment in the form of loot related to the monster you hunted.",
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Information on contract loot can be found in the Witcher's Journal."
+        }
+    ]
+}

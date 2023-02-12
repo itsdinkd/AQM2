@@ -1,0 +1,45 @@
+{
+    "type": "origins:multiple",
+    "speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": 0.03,
+            "name": "Increased movement speed"
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:status_effect",
+            "effect": "witcheroriginaddon:cat"
+        }
+    },
+    "night_vision": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:night_vision",
+                "duration": 300,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": false
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:status_effect",
+                    "effect": "witcheroriginaddon:cat"
+                },
+                {
+                    "type": "origins:exposed_to_sun",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "hidden": true
+}

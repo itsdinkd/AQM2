@@ -1,0 +1,35 @@
+{
+    "type": "origins:multiple",
+    "aard": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 10,
+        "start_value": 10,
+        "hud_render": {
+            "sprite_location": "witcheroriginaddon:textures/gui/witcher_resource_bars.png",
+			"bar_index": 1,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_aard",
+                "comparison": "<",
+                "compare_to": 10
+            }
+        }
+    },
+    "aard_recharge": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_aard",
+            "change": 1
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_aard",
+            "comparison": "<",
+            "compare_to": 10
+        }
+    },
+    "hidden": true
+}

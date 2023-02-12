@@ -1,0 +1,143 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:sentinel_report_uncommon"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "loot give @s loot witcherorigin:gameplay/contracts/uncommon_contract"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "playsound witcheroriginaddon:new_quest block @s ~ ~ ~ 1.5 1"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "tellraw @s [\"\",{\"text\":\"[!]\",\"color\":\"yellow\"},{\"text\":\" NEW QUEST\",\"bold\":true},{\"text\":\" (check your inventory for details).\",\"italic\":true}]"
+                        },
+						{
+                            "type": "origins:equipped_item_action",
+                            "equipment_slot": "mainhand",
+                            "action": {
+                                "type": "origins:consume",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:sentinel_report_rare"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "loot give @s loot witcherorigin:gameplay/contracts/rare_contract"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "playsound witcheroriginaddon:new_quest block @s ~ ~ ~ 1.5 1"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "tellraw @s [\"\",{\"text\":\"[!]\",\"color\":\"yellow\"},{\"text\":\" NEW QUEST\",\"bold\":true},{\"text\":\" (check your inventory for details).\",\"italic\":true}]"
+                        },
+						{
+                            "type": "origins:equipped_item_action",
+                            "equipment_slot": "mainhand",
+                            "action": {
+                                "type": "origins:consume",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:sentinel_report_epic"
+                        }
+                    }
+                },
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "loot give @s loot witcherorigin:gameplay/contracts/epic_contract"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "playsound witcheroriginaddon:new_quest block @s ~ ~ ~ 1.5 1"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "tellraw @s [\"\",{\"text\":\"[!]\",\"color\":\"yellow\"},{\"text\":\" NEW QUEST\",\"bold\":true},{\"text\":\" (check your inventory for details).\",\"italic\":true}]"
+                        },
+                        {
+                            "type": "origins:equipped_item_action",
+                            "equipment_slot": "mainhand",
+                            "action": {
+                                "type": "origins:consume",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "witcher:report"
+                    }
+                }
+            }
+        ]
+    },
+    "cooldown": 5,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use",
+        "continuous": true
+    },
+    "hidden": true
+}

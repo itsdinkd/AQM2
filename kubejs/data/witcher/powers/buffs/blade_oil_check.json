@@ -1,0 +1,572 @@
+{
+    "type": "origins:multiple",
+    "silver_blade_oil": {
+        "type": "origins:modify_damage_dealt",
+        "bientity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "element": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:actor_action",
+                                                    "action": {
+                                                        "type": "origins:execute_command",
+                                                        "command": "tellraw @s [\"\",{\"text\":\"[Wolven Armour]\",\"color\":\"light_purple\"},{\"text\":\" A random Witcher potion effect has been applied.\",\"italic\":true}]"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "origins:actor_action",
+                                                    "action": {
+                                                        "type": "origins:execute_command",
+                                                        "command": "playsound minecraft:block.brewing_stand.brew neutral @s ~ ~ ~ 2 1"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "origins:actor_action",
+                                                    "action": {
+                                                        "type": "origins:equipped_item_action",
+                                                        "equipment_slot": "offhand",
+                                                        "action": {
+                                                            "type": "origins:consume",
+                                                            "amount": 1
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "origins:actor_action",
+                                                    "action": {
+                                                        "type": "origins:choice",
+                                                        "actions": [
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:swallow",
+                                                                        "duration": 200,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:blizzard",
+                                                                        "duration": 200,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:cat",
+                                                                        "duration": 400,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:black_blood",
+                                                                        "duration": 200,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:full_moon",
+                                                                        "duration": 400,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:swallow",
+                                                                        "duration": 200,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:whirl",
+                                                                        "duration": 100,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 5
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "weight": 40
+                            },
+                            {
+                                "element": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:actor_action",
+                                            "action": {
+                                                "type": "origins:equipped_item_action",
+                                                "equipment_slot": "offhand",
+                                                "action": {
+                                                    "type": "origins:consume",
+                                                    "amount": 1
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "origins:actor_action",
+                                            "action": {
+                                                "type": "origins:execute_command",
+                                                "command": "playsound minecraft:item.bottle.empty neutral @s ~ ~ ~ 1.3 0.8"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "weight": 60
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:actor_condition",
+                        "condition": {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "chest",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:wolven_chestplate"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "legs",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:wolven_greaves"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "feet",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:wolven_boots"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:actor_action",
+                                "action": {
+                                    "type": "origins:equipped_item_action",
+                                    "equipment_slot": "offhand",
+                                    "action": {
+                                        "type": "origins:consume",
+                                        "amount": 1
+                                    }
+                                }
+                            },
+                            {
+                                "type": "origins:actor_action",
+                                "action": {
+                                    "type": "origins:execute_command",
+                                    "command": "playsound minecraft:item.bottle.empty neutral @s ~ ~ ~ 1.3 0.8"
+                                }
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:actor_condition",
+                        "condition": {
+                            "type": "origins:equipped_item",
+                            "equipment_slot": "offhand",
+                            "item_condition": {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "witcheroriginaddon:blade_oil"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:equipped_item",
+                                "equipment_slot": "offhand",
+                                "item_condition": {
+                                    "type": "origins:ingredient",
+                                    "ingredient": {
+                                        "item": "witcheroriginaddon:blade_oil"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "origins:equipped_item",
+                                "equipment_slot": "mainhand",
+                                "item_condition": {
+                                    "type": "origins:ingredient",
+                                    "ingredient": {
+                                        "tag": "witcher:silver_sword"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:in_tag",
+                        "tag": "witcher:monsters"
+                    }
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 3
+        }
+    },
+    "steel_blade_oil": {
+        "type": "origins:modify_damage_dealt",
+        "bientity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "element": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:and",
+                                            "actions": [
+                                                {
+                                                    "type": "origins:actor_action",
+                                                    "action": {
+                                                        "type": "origins:execute_command",
+                                                        "command": "tellraw @s [\"\",{\"text\":\"[Wolven Armour]\",\"color\":\"light_purple\"},{\"text\":\" A random Witcher potion effect has been applied.\",\"italic\":true}]"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "origins:actor_action",
+                                                    "action": {
+                                                        "type": "origins:execute_command",
+                                                        "command": "playsound minecraft:block.brewing_stand.brew neutral @s ~ ~ ~ 2 1"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "origins:actor_action",
+                                                    "action": {
+                                                        "type": "origins:equipped_item_action",
+                                                        "equipment_slot": "offhand",
+                                                        "action": {
+                                                            "type": "origins:consume",
+                                                            "amount": 1
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "origins:actor_action",
+                                                    "action": {
+                                                        "type": "origins:choice",
+                                                        "actions": [
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:swallow",
+                                                                        "duration": 200,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:blizzard",
+                                                                        "duration": 200,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:cat",
+                                                                        "duration": 400,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:black_blood",
+                                                                        "duration": 200,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:full_moon",
+                                                                        "duration": 400,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:swallow",
+                                                                        "duration": 200,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 10
+                                                            },
+                                                            {
+                                                                "element": {
+                                                                    "type": "origins:apply_effect",
+                                                                    "effect": {
+                                                                        "effect": "witcheroriginaddon:whirl",
+                                                                        "duration": 100,
+                                                                        "amplifier": 0
+                                                                    }
+                                                                },
+                                                                "weight": 5
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "weight": 40
+                            },
+                            {
+                                "element": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:actor_action",
+                                            "action": {
+                                                "type": "origins:equipped_item_action",
+                                                "equipment_slot": "offhand",
+                                                "action": {
+                                                    "type": "origins:consume",
+                                                    "amount": 1
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "origins:actor_action",
+                                            "action": {
+                                                "type": "origins:execute_command",
+                                                "command": "playsound minecraft:item.bottle.empty neutral @s ~ ~ ~ 1.3 0.8"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "weight": 60
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:actor_condition",
+                        "condition": {
+                            "type": "origins:and",
+                            "conditions": [
+                                {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "chest",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:wolven_chestplate"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "legs",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:wolven_greaves"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "feet",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:wolven_boots"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:actor_action",
+                                "action": {
+                                    "type": "origins:equipped_item_action",
+                                    "equipment_slot": "offhand",
+                                    "action": {
+                                        "type": "origins:consume",
+                                        "amount": 1
+                                    }
+                                }
+                            },
+                            {
+                                "type": "origins:actor_action",
+                                "action": {
+                                    "type": "origins:execute_command",
+                                    "command": "playsound minecraft:item.bottle.empty neutral @s ~ ~ ~ 1.3 0.8"
+                                }
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:actor_condition",
+                        "condition": {
+                            "type": "origins:equipped_item",
+                            "equipment_slot": "offhand",
+                            "item_condition": {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "witcheroriginaddon:blade_oil"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:equipped_item",
+                                "equipment_slot": "offhand",
+                                "item_condition": {
+                                    "type": "origins:ingredient",
+                                    "ingredient": {
+                                        "item": "witcheroriginaddon:blade_oil"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "origins:equipped_item",
+                                "equipment_slot": "mainhand",
+                                "item_condition": {
+                                    "type": "origins:ingredient",
+                                    "ingredient": {
+                                        "tag": "witcher:steel_sword"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:in_tag",
+                        "tag": "witcher:non_humans"
+                    }
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 3
+        }
+    },
+    "hidden": true
+}

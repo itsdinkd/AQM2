@@ -1,0 +1,23 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "witcheroriginaddon:blizzard",
+            "duration": 120,
+            "amplifier": 0
+        }
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "witcheroriginaddon:winters_blade"
+          }
+        }
+    },
+    "hidden": true
+}

@@ -1,0 +1,1387 @@
+{
+    "type": "origins:multiple",
+    "creeper_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_creeper\"}]}] run give @s witcheroriginaddon:trophy_creeper 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_creeper\"}]}] run clear @s witcheroriginaddon:contract_creeper 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:creeper"
+        }
+    },
+    "drowned_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_drowned\"}]}] run give @s witcheroriginaddon:trophy_drowned 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_drowned\"}]}] run clear @s witcheroriginaddon:contract_drowned 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:drowned"
+        }
+    },
+    "enderman_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_enderman\"}]}] run give @s witcheroriginaddon:trophy_enderman 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_enderman\"}]}] run clear @s witcheroriginaddon:contract_enderman 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:enderman"
+        }
+    },
+    "hoglin_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_hoglin\"}]}] run give @s witcheroriginaddon:trophy_hoglin 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_hoglin\"}]}] run clear @s witcheroriginaddon:contract_hoglin 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:steel_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:hoglin"
+        }
+    },
+    "husk_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_husk\"}]}] run give @s witcheroriginaddon:trophy_husk 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_husk\"}]}] run clear @s witcheroriginaddon:contract_husk 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:husk"
+        }
+    },
+    "phantom_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_phantom\"}]}] run give @s witcheroriginaddon:trophy_phantom 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_phantom\"}]}] run clear @s witcheroriginaddon:contract_phantom 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:phantom"
+        }
+    },
+    "piglin_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_piglin\"}]}] run give @s witcheroriginaddon:trophy_piglin 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_piglin\"}]}] run clear @s witcheroriginaddon:contract_piglin 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:steel_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:piglin"
+        }
+    },
+    "skeleton_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_skeleton\"}]}] run give @s witcheroriginaddon:trophy_skeleton 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_skeleton\"}]}] run clear @s witcheroriginaddon:contract_skeleton 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:skeleton"
+        }
+    },
+    "spider_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_spider\"}]}] run give @s witcheroriginaddon:trophy_spider 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_spider\"}]}] run clear @s witcheroriginaddon:contract_spider 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:spider"
+        }
+    },
+    "stray_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_stray\"}]}] run give @s witcheroriginaddon:trophy_stray 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_stray\"}]}] run clear @s witcheroriginaddon:contract_stray 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:stray"
+        }
+    },
+    "strider_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_strider\"}]}] run give @s witcheroriginaddon:trophy_strider 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_strider\"}]}] run clear @s witcheroriginaddon:contract_strider 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:strider"
+        }
+    },
+    "wolf_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_wolf\"}]}] run give @s witcheroriginaddon:trophy_wolf 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_wolf\"}]}] run clear @s witcheroriginaddon:contract_wolf 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:steel_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:wolf"
+        }
+    },
+    "zombie_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_zombie\"}]}] run give @s witcheroriginaddon:trophy_zombie 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_zombie\"}]}] run clear @s witcheroriginaddon:contract_zombie 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:zombie"
+        }
+    },
+    "zombified_piglin_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_zombified_piglin\"}]}] run give @s witcheroriginaddon:trophy_zombified_piglin 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_zombified_piglin\"}]}] run clear @s witcheroriginaddon:contract_zombified_piglin 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:zombified_piglin"
+        }
+    },
+    "blaze_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_blaze\"}]}] run give @s witcheroriginaddon:trophy_blaze 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_blaze\"}]}] run clear @s witcheroriginaddon:contract_blaze 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:blaze"
+        }
+    },
+    "cave_spider_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_cave_spider\"}]}] run give @s witcheroriginaddon:trophy_cave_spider 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_cave_spider\"}]}] run clear @s witcheroriginaddon:contract_cave_spider 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:cave_spider"
+        }
+    },
+    "endermite_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_endermite\"}]}] run give @s witcheroriginaddon:trophy_endermite 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_endermite\"}]}] run clear @s witcheroriginaddon:contract_endermite 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:endermite"
+        }
+    },
+    "ghast_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_ghast\"}]}] run give @s witcheroriginaddon:trophy_ghast 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_ghast\"}]}] run clear @s witcheroriginaddon:contract_ghast 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:ghast"
+        }
+    },
+    "guardian_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_guardian\"}]}] run give @s witcheroriginaddon:trophy_guardian 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_guardian\"}]}] run clear @s witcheroriginaddon:contract_guardian 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:guardian"
+        }
+    },
+    "magma_cube_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_magma_cube\"}]}] run give @s witcheroriginaddon:trophy_magma_cube 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_magma_cube\"}]}] run clear @s witcheroriginaddon:contract_magma_cube 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:and",
+            "conditions": [
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:magma_cube"
+            },
+            {
+                "type": "origins:nbt",
+                "nbt": "{Size:0}"
+            }
+            ]
+        }
+    },
+    "slime_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_slime\"}]}] run give @s witcheroriginaddon:trophy_slime 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_slime\"}]}] run clear @s witcheroriginaddon:contract_slime 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:and",
+            "conditions": [
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:slime"
+            },
+            {
+                "type": "origins:nbt",
+                "nbt": "{Size:0}"
+            }
+            ]
+        }
+    },
+    "piglin_brute_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_piglin_brute\"}]}] run give @s witcheroriginaddon:trophy_piglin_brute 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_piglin_brute\"}]}] run clear @s witcheroriginaddon:contract_piglin_brute 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:steel_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:piglin_brute"
+        }
+    },
+    "pillager_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_pillager\"}]}] run give @s witcheroriginaddon:trophy_pillager 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_pillager\"}]}] run clear @s witcheroriginaddon:contract_pillager 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:steel_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:pillager"
+        }
+    },
+    "silverfish_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_silverfish\"}]}] run give @s witcheroriginaddon:trophy_silverfish 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_silverfish\"}]}] run clear @s witcheroriginaddon:contract_silverfish 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:silverfish"
+        }
+    },
+    "vindicator_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_vindicator\"}]}] run give @s witcheroriginaddon:trophy_vindicator 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_vindicator\"}]}] run clear @s witcheroriginaddon:contract_vindicator 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:steel_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:vindicator"
+        }
+    },
+    "witch_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_witch\"}]}] run give @s witcheroriginaddon:trophy_witch 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_witch\"}]}] run clear @s witcheroriginaddon:contract_witch 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:steel_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:witch"
+        }
+    },
+    "wither_skeleton_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_wither_skeleton\"}]}] run give @s witcheroriginaddon:trophy_wither_skeleton 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_wither_skeleton\"}]}] run clear @s witcheroriginaddon:contract_wither_skeleton 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:wither_skeleton"
+        }
+    },
+    "zoglin_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_zoglin\"}]}] run give @s witcheroriginaddon:trophy_zoglin 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_zoglin\"}]}] run clear @s witcheroriginaddon:contract_zoglin 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:zoglin"
+        }
+    },
+    "zombie_villager_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_zombie_villager\"}]}] run give @s witcheroriginaddon:trophy_zombie_villager 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_zombie_villager\"}]}] run clear @s witcheroriginaddon:contract_zombie_villager 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:zombie_villager"
+        }
+    },
+    "elder_guardian_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_elder_guardian\"}]}] run give @s witcheroriginaddon:trophy_elder_guardian 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_elder_guardian\"}]}] run clear @s witcheroriginaddon:contract_elder_guardian 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:elder_guardian"
+        }
+    },
+    "evoker_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_evoker\"}]}] run give @s witcheroriginaddon:trophy_evoker 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_evoker\"}]}] run clear @s witcheroriginaddon:contract_evoker 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:steel_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:evoker"
+        }
+    },
+    "player_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_player\"}]}] run give @s witcheroriginaddon:trophy_player 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_player\"}]}] run clear @s witcheroriginaddon:contract_player 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:steel_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+        }
+    },
+    "ravager_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_ravager\"}]}] run give @s witcheroriginaddon:trophy_ravager 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_ravager\"}]}] run clear @s witcheroriginaddon:contract_ravager 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:ravager"
+        }
+    },
+    "shulker_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_shulker\"}]}] run give @s witcheroriginaddon:trophy_shulker 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_shulker\"}]}] run clear @s witcheroriginaddon:contract_shulker 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:shulker"
+        }
+    },
+    "skeleton_horse_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_skeleton_horse\"}]}] run give @s witcheroriginaddon:trophy_skeleton_horse 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_skeleton_horse\"}]}] run clear @s witcheroriginaddon:contract_skeleton_horse 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:skeleton_horse"
+        }
+    },
+    "vex_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_vex\"}]}] run give @s witcheroriginaddon:trophy_vex 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_vex\"}]}] run clear @s witcheroriginaddon:contract_vex 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:vex"
+        }
+    },
+    "warden_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_warden\"}]}] run give @s witcheroriginaddon:trophy_warden 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_warden\"}]}] run clear @s witcheroriginaddon:contract_warden 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:warden"
+        }
+    },
+    "ender_dragon_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_ender_dragon\"}]}] run give @s witcheroriginaddon:trophy_ender_dragon 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_ender_dragon\"}]}] run clear @s witcheroriginaddon:contract_ender_dragon 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:ender_dragon"
+        }
+    },
+    "wither_check": {
+        "type": "origins:self_action_on_kill",
+        "cooldown": 0,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_wither\"}]}] run give @s witcheroriginaddon:trophy_wither 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:contract_wither\"}]}] run clear @s witcheroriginaddon:contract_wither 1"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:silver_sword"
+                }
+            }
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:wither"
+        }
+    },
+    "hidden": true
+}

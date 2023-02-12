@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_zombie_villager"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_zoglin"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_wither_skeleton"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_witch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_vindicator"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_slime"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_silverfish"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_pillager"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_piglin_brute"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_magma_cube"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_guardian"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_ghast"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_endermite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_cave_spider"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:contract_blaze"
+        }
+      ]
+    }
+  ]
+}

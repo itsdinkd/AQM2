@@ -1,0 +1,104 @@
+{
+    "type": "origins:multiple",
+    "chain_value": {
+        "type": "origins:restrict_armor",
+        "head": {
+            "type": "origins:armor_value",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "chest": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:armor_value",
+                    "comparison": ">",
+                    "compare_to": 5
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "witcher:witcher_armour"
+                    },
+                    "inverted": true
+                }
+            ]
+        },
+        "legs": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:armor_value",
+                    "comparison": ">",
+                    "compare_to": 4
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "witcher:witcher_armour"
+                    },
+                    "inverted": true
+                }
+            ]
+        },
+        "feet": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:armor_value",
+                    "comparison": ">",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "witcher:witcher_armour"
+                    },
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "fringe_cases": {
+        "type": "origins:restrict_armor",
+        "head": {
+            "type": "origins:ingredient",
+            "ingredient": [
+                {
+                    "item": "minecraft:golden_helmet"
+                },
+                {
+                    "item": "minecraft:iron_helmet"
+                },
+                {
+                    "item": "minecraft:leather_helmet"
+                },
+                {
+                    "item": "minecraft:chainmail_helmet"
+                },
+                {
+                    "item": "minecraft:turtle_helmet"
+                }
+            ]
+        },
+        "chest": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:golden_chestplate"
+            }
+        },
+        "legs": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:golden_leggings"
+            }
+        },
+        "feet": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:golden_boots"
+            }
+        }
+    },
+    "hidden": true
+}

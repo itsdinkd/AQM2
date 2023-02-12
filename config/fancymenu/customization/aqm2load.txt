@@ -1,0 +1,115 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 333
+  width = 480
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 62069e82-b8b2-4401-ac42-c1e449daa9eb1676080467434
+  y = 180
+  height = 120
+}
+
+customization {
+  custom_color_hex = #000000
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 9c011edf-1e83-48e0-8b24-264e8dedcf0b1676080467434
+  y = -1000000
+  height = 0
+}
+
+customization {
+  custom_color_hex = #931fe0
+  orientation = top-left
+  hidden = false
+  x = 345
+  width = 456
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = dd654d21-87e2-4324-959a-41def3ebbc341676080467434
+  y = 375
+  height = 10
+}
+
+customization {
+  path = config/fancymenu/assets/bhamlogo.png
+  orientation = top-centered
+  x = -122
+  width = 244
+  action = addtexture
+  actionid = a76d2602-1921-4a44-8bcf-53d3e29d2af51676080486048
+  y = 51
+  height = 102
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Mods Loaded: {"placeholder":"totalmods"}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 4
+  width = 244
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d6b6fe7a-5a1f-4335-a8b3-1d2bad9bc1ef1676081067997
+  y = -14
+  alignment = left
+  height = 47
+}
+
+customization {
+  orientation = top-right
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = Ram Used/Max: {"placeholder":"usedram"}mb({"placeholder":"percentram"}%)/{"placeholder":"maxram"}mb
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -162
+  width = 491
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c8a270c4-1a02-4094-a88e-a67be1b0547c1676081219604
+  y = 8
+  alignment = left
+  height = 13
+}
+
+customization {
+  orientation = bottom-centered
+  basecolor = #ffffff
+  shadow = true
+  rotation = 0.0
+  scale = 0.75
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = -20
+  actionid = 493bce9b-9aa6-4e30-a54e-19eb4ad091541676081838901
+  action = addsplash
+  y = -18
+  text = {"placeholder":"drippy_gl_percent"}% Loaded
+}
+

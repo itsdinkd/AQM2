@@ -117,6 +117,17 @@
 				experience_bottle = true
 				egg = true
 				fishing_bobber = true
+				chest_boat = true
+				marker = true
+				command_block_minecart = true
+				spawner_minecart = true
+				mule = true
+				tnt = true
+				shulker_bullet = true
+				snow_golem = true
+				tadpole = true
+				wither = true
+				zoglin = true
 
 			[light_sources.settings.entities.betteranimalsplus]
 				badger = true
@@ -263,6 +274,20 @@
 				ender_whale = true
 				necromancer = true
 				dragon = true
+				small_stone_golem = true
+				piglin_beast = true
+				wither_puppet = true
+				tiny_eye = true
+				red_fungus = true
+				brown_fungus = true
+				void_fragment = true
+				void_shade = true
+				void_bullet = true
+				fire_breath = true
+				amethyst_shard = true
+				desert_rhino = true
+				void_cloud = true
+				shaman = true
 
 			[light_sources.settings.entities.elementalcreepers]
 				illusion_creeper = false
@@ -290,6 +315,16 @@
 				toad = true
 				hellhound = true
 				baphomet = true
+				juniper_broom = true
+				cypress_broom = true
+				elder_broom = true
+				dragons_blood_broom = true
+				silver_arrow = true
+				horned_spear = true
+				demon = true
+				leonard = true
+				lilith = true
+				herne = true
 
 			[light_sources.settings.entities.valley]
 				perch = false
@@ -352,12 +387,14 @@
 				maykr_drone = true
 				bloodbolt_mob = true
 				dronebolt_mob = true
+				iconofsin = true
 
 			[light_sources.settings.entities.creeperspores]
 				creeperling = false
 
 			[light_sources.settings.entities.byg]
 				boat = false
+				chest_boat = true
 
 			[light_sources.settings.entities.additionaladditions]
 				glow_stick = true
@@ -370,6 +407,7 @@
 
 			[light_sources.settings.entities.advanced_reborn]
 				dynamite = true
+				industrial_tnt = true
 
 			[light_sources.settings.entities.mythicmounts]
 				acencia = false
@@ -393,6 +431,13 @@
 				water_bolt = true
 				ice_ball = true
 				leven = true
+				wind_ball = true
+				spell_projectile = true
+				hellbeam = true
+				cloudshot = true
+				terrain = true
+				prime_skelt = true
+				mana_leech = true
 
 			[light_sources.settings.entities.duckling]
 				duck = true
@@ -457,6 +502,7 @@
 				mushroom_creeper = true
 				snowy_creeper = true
 				ocean_creeper = true
+				badlands_creeper = true
 
 			[light_sources.settings.entities.biomemakeover]
 				moth = true
@@ -470,6 +516,23 @@
 			[light_sources.settings.entities.botania]
 				mana_burst = true
 				spark = true
+				pixie = true
+				flame_ring = true
+				vine_ball = true
+				doppleganger = true
+				magic_landmine = true
+				thrown_item = true
+				magic_missile = true
+				thorn_chakram = true
+				corporea_spark = true
+				ender_air_bottle = true
+				pool_minecart = true
+				pink_wither = true
+				player_mover = true
+				mana_storm = true
+				babylon_weapon = true
+				falling_star = true
+				ender_air = true
 
 			[light_sources.settings.entities.farmingforblockheads]
 				merchant = true
@@ -508,6 +571,10 @@
 
 			[light_sources.settings.entities.besmirchment]
 				werepyre = true
+				final_broom = true
+				witchy_dye = true
+				infectious_spit = true
+				beelzebub = true
 
 			[light_sources.settings.entities.ratsmischief]
 				rat = true
@@ -527,6 +594,8 @@
 				flying_pig = true
 				firefly = true
 				jungle_skeleton = true
+				chair = true
+				naga_projectile = true
 
 			[light_sources.settings.entities.allay]
 				allay = true
@@ -535,6 +604,13 @@
 				lich = true
 				void_blossom = true
 				gauntlet = true
+				blue_fireball = true
+				comet = true
+				soul_star = true
+				charged_ender_pearl = true
+				obsidilith = true
+				spore_ball = true
+				petal_blade = true
 
 			[light_sources.settings.entities.halfdoors]
 				door_saw = true
@@ -548,6 +624,13 @@
 
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
+				super_glue = true
+				crafting_blueprint = true
+				contraption = true
+				gantry_contraption = true
+				carriage_contraption = true
+				potato_projectile = true
+				seat = true
 
 			[light_sources.settings.entities.hexcasting]
 				wall_scroll = true
@@ -638,6 +721,7 @@
 				snail = true
 				phoebe = true
 				tiger_butterfly = true
+				goldfinch = true
 
 			[light_sources.settings.entities.galosphere]
 				spectre = true
@@ -651,6 +735,9 @@
 				dragonfly = true
 				red_panda = true
 				sea_bunny = true
+				dumbo_octopus = true
+				ferret = true
+				leaf_insect = true
 
 			[light_sources.settings.entities.creatures_from_the_snow]
 				narwhal = true
@@ -660,6 +747,10 @@
 				snow_trover = true
 				snow_seal = true
 				reindeer = true
+				snow_wyrm = true
+				snikerbosh = true
+				leopard = true
+				orca = true
 
 			[light_sources.settings.entities.friendsandfoes]
 				wildfire = true
@@ -739,6 +830,10 @@
 			[light_sources.settings.entities.betterend]
 				end_slime = true
 				end_fish = true
+				dragonfly = true
+				shadow_walker = true
+				cubozoa = true
+				silk_moth = true
 
 			[light_sources.settings.entities.soulsweapons]
 				dark_sorcerer = true
@@ -766,6 +861,7 @@
 				silver_bullet_entity = true
 				leviathan_axe_entity = true
 				cannonball_entity_type = true
+				moonknight = true
 
 			[light_sources.settings.entities.takesapillage]
 				clay_golem = true
@@ -777,7 +873,45 @@
 				corrupted_lunarian = true
 				star_crawler = true
 				ice_spit = true
+				lunarian = true
+				martian_raptor = true
+				pygro = true
+				zombified_pygro = true
+				pygro_brute = true
+				mogler = true
+				zombified_mogler = true
+				lunarian_wandering_trader = true
+				sulfur_creeper = true
+				glacian_ram = true
+				tier_2_rocket = true
+				tier_3_rocket = true
+				tier_4_rocket = true
+				tier_1_rover = true
+				space_painting = true
 
 			[light_sources.settings.entities.spell_engine]
 				spell_projectile = true
+
+			[light_sources.settings.entities.sandwichable]
+				sandwich_table_minecart = true
+
+			[light_sources.settings.entities.adorn]
+				seat = true
+
+			[light_sources.settings.entities.arcanus]
+				solar_strike = true
+				arcane_barrier = true
+				magic_missile = true
+
+			[light_sources.settings.entities.boatcontainer]
+				chest_boat = true
+				ender_chest_boat = true
+				furnace_boat = true
+
+			[light_sources.settings.entities.conjuring]
+				soul_projectile = true
+				soul_feller = true
+				soul_digger = true
+				soul_magnet = true
+				soul_harvester = true
 

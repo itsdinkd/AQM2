@@ -1,0 +1,165 @@
+{
+    "type": "origins:multiple",
+    "strength_increase_low": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Low STR increase",
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 2,
+            "operation": "addition"
+        },
+		"tick_rate": 1, 
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "witcher:neutral/toxicity_toxicity",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "witcher:neutral/toxicity_toxicity",
+                    "comparison": "<=",
+                    "compare_to": 60
+                }
+            ]
+        }
+    },
+    "strength_increase_med": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "Med STR increase",
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 4,
+            "operation": "addition"
+        },
+		"tick_rate": 1, 
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "witcher:neutral/toxicity_toxicity",
+                    "comparison": ">=",
+                    "compare_to": 61
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "witcher:neutral/toxicity_toxicity",
+                    "comparison": "<=",
+                    "compare_to": 90
+                }
+            ]
+        }
+    },
+    "strength_increase_high": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "name": "High STR increase",
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 8,
+            "operation": "addition"
+        },
+		"tick_rate": 1, 
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "witcher:neutral/toxicity_toxicity",
+                    "comparison": ">=",
+                    "compare_to": 85
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "witcher:neutral/toxicity_toxicity",
+                    "comparison": "<=",
+                    "compare_to": 99
+                }
+            ]
+        }
+    },
+    "nausea_effect": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effects": [
+                {
+                    "effect": "minecraft:nausea",
+                    "duration": 100,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": false
+                },
+                {
+                    "effect": "minecraft:slowness",
+                    "duration": 100,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            ]
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:neutral/toxicity_toxicity",
+            "comparison": ">=",
+            "compare_to": 61
+        }
+    },
+    "tick_damage": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:damage",
+            "amount": 3,
+            "source": {
+                "name": "magic",
+                "bypasses_armor": true
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:neutral/toxicity_toxicity",
+            "comparison": ">=",
+            "compare_to": 85
+        }
+    },
+	"overdose": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:damage",
+            "amount": 1000,
+            "source": {
+                "name": "magic",
+                "bypasses_armor": true
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:neutral/toxicity_toxicity",
+            "comparison": "==",
+            "compare_to": 100
+        }
+    },
+	"death_reset": {
+        "type": "origins:action_on_callback",
+        "entity_action_respawned": {
+            "type": "origins:change_resource",
+            "resource": "witcher:neutral/toxicity_toxicity",
+            "change": -100
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "witcher:neutral/toxicity_toxicity",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+		"execute_chosen_when_orb": true
+    },
+    "hidden": true
+}

@@ -1,0 +1,80 @@
+{
+        "type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:delay",
+    		"ticks": 5,
+			"action": {
+				"type": "origins:and",
+				"actions": [
+				{
+					"type": "origins:execute_command",
+            		"command": "loot give @s loot witcherorigin:gameplay/contracts/contract"
+				},
+				{
+					"type": "origins:execute_command",
+            		"command": "playsound witcheroriginaddon:new_quest music @s ~ ~ ~ 1.5 1"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "tellraw @s [\"\",{\"text\":\"NEW QUEST \",\"color\":\"white\"},{\"text\":\"(Check your inventory for details)\",\"italic\":true,\"color\":\"white\"},{\"text\":\".\",\"color\":\"white\"}]"
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "witcher:contracts/new_contract_cooldown_new_contract",
+					"change": -1440
+				}
+				]
+			},
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+				{
+					"type": "origins:block_in_radius",
+    				"block_condition": {
+      					"type": "origins:block",
+      					"block": "witcheroriginaddon:contract_board"
+    				},
+    				"radius": "2",
+    				"shape": "cube",
+    				"comparison": ">=",
+    				"compare_to": 1
+				},
+				{
+					"type": "origins:resource",
+					"resource": "witcher:contracts/new_contract_cooldown_new_contract",
+					"comparison": "==",
+					"compare_to": 1440
+				}
+				]
+			}
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:sneaking"
+			},
+			{
+				"type": "origins:equipped_item",
+    			"equipment_slot": "mainhand",
+    			"item_condition": {
+        			"type": "origins:empty"
+				}
+			},
+			{
+				"type": "origins:resource",
+				"resource": "witcher:contracts/new_contract_cooldown_new_contract",
+				"comparison": "==",
+				"compare_to": 1440
+			}
+			]
+		},
+        "cooldown": 80,
+        "hud_render": {
+            "should_render": false
+        },
+		"key": {
+			"key": "key.use",
+			"continuous": true
+		}
+}

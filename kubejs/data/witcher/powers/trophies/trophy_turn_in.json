@@ -1,0 +1,1368 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "shape_type": "visual",
+        "fluid_handling": "none",
+        "distance": 3,
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:if_else_list",
+                        "actions": [
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_creeper"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/creeper_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:16}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_drowned"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/drowned_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:16}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_enderman"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/enderman_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:20}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_hoglin"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/hoglin_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:26}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_husk"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/husk_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:16}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_phantom"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/phantom_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:20}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_piglin"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/piglin_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:26}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_skeleton"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/skeleton_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:16}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_spider"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/spider_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:16}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_stray"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/stray_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:26}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_strider"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/strider_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:26}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_wolf"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/wolf_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:26}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_zombie"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/zombie_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:16}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_zombified_piglin"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/zombified_piglin_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:26}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_blaze"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/blaze_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:40}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_cave_spider"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/cave_spider_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:40}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_endermite"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/endermite_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:36}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_ghast"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/ghast_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:48}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_guardian"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/guardian_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:48}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_magma_cube"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/magma_cube_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:40}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_piglin_brute"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/piglin_brute_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:48}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_pillager"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/pillager_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:40}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_silverfish"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/silverfish_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:36}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_slime"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/slime_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:40}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_vindicator"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/vindicator_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:48}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_witch"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/witch_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:36}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_wither_skeleton"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/wither_skeleton_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:48}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_zoglin"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/zoglin_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:48}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_zombie_villager"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/zombie_villager_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:40}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_elder_guardian"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/elder_guardian_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:200}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_evoker"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/evoker_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:140}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_ravager"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/ravager_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:180}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_shulker"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/shulker_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:140}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_skeleton_horse"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/skeleton_horse_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:180}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_vex"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/vex_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:140}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_warden"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/warden_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:240}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_player"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/player_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:140}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_ender_dragon"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/ender_dragon_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:360}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:equipped_item",
+                                    "equipment_slot": "mainhand",
+                                    "item_condition": {
+                                        "type": "origins:ingredient",
+                                        "ingredient": {
+                                            "item": "witcheroriginaddon:trophy_wither"
+                                        }
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:and",
+                                    "actions": [
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "loot give @s loot witcherorigin:gameplay/rewards/wither_reward"
+                                        },
+                                        {
+                                            "type": "origins:execute_command",
+                                            "command": "summon minecraft:experience_orb ~ ~ ~ {Value:360}"
+                                        },
+                                        {
+                                            "type": "origins:equipped_item_action",
+                                            "equipment_slot": "mainhand",
+                                            "action": {
+                                                "type": "origins:consume",
+                                                "amount": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "playsound witcheroriginaddon:complete_quest music @s ~ ~ ~ 2 1"
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "tellraw @s [\"\",{\"text\":\"[!]\",\"color\":\"yellow\"},{\"text\":\" QUEST COMPLETE!\",\"bold\":true}]"
+                    }
+                ]
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:either",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:villager"
+            }
+        }
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "witcher:trophy"
+                    }
+                }
+            }
+        ]
+    },
+    "cooldown": 40,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.saveToolbarActivator",
+        "continuous": true
+    },
+    "name": "Headhunter",
+    "description": "You can take trophies from monsters and non-humans using your witcher swords. Return them to villagers for rewards.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "witcheroriginaddon:textures/items/trophy_zombie_villager.png",
+            "text": "Active ability, use %s while holding a witcher trophy and looking at a villager in close range."
+        },
+        {
+            "sprite": "witcheroriginaddon:textures/items/contract_creeper.png",
+            "text": "Landing the killing blow with the correct witcher sword type while in possession of that mob's contract will guarantee their trophy to drop."
+        },
+        {
+            "sprite": "witcheroriginaddon:textures/items/winters_blade.png",
+            "text": "Information on which sword type to use, as well as more information on contracts, can be found in the Witcher's Journal."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Trophies can still drop naturally at a low chance without being a witcher or holding a contract. Trophies can be dismantled in a crafting table for less loot than the villagers would normally give you."
+        }
+    ]
+}

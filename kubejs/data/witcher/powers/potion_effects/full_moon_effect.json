@@ -1,0 +1,16 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+    	"attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 10.0,
+        "update_health": true,
+        "name": "Increased max health"
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "witcheroriginaddon:full_moon"
+    },
+    "hidden": true
+}

@@ -1,0 +1,644 @@
+{
+	"type": "origins:multiple",
+	
+	"back": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "backdecay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_back",
+            "change": -1
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_back",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "backkey": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_back",
+            "change": 2
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.back",
+            "continuous": true
+        }
+    },
+	
+	"right": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "rightdecay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_right",
+            "change": -1
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_right",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "rightkey": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_right",
+            "change": 2
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.right",
+            "continuous": true
+        }
+    },
+	
+	"forward": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "forwarddecay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_forward",
+            "change": -1
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_forward",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "forwardkey": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_forward",
+            "change": 2
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.forward",
+            "continuous": true
+        }
+    },
+	
+	"left": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "leftdecay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_left",
+            "change": -1
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_left",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "leftkey": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_left",
+            "change": 2
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.left",
+            "continuous": true
+        }
+    },
+	
+	"dash": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type":"origins:and",
+			"actions": [
+				{
+					"type":"origins:if_else_list",
+					"actions": [
+						{
+							"condition": {
+								"type": "origins:and",
+								"conditions": [
+									{
+										"type": "origins:resource",
+										"resource": "*:*_right",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_left",
+										"comparison": "<",
+										"compare_to": 2
+									},
+								{
+										"type": "origins:resource",
+										"resource": "*:*_back",
+										"comparison": "<",
+										"compare_to": 2
+									}
+								]
+							},
+							"action": {
+								"type": "origins:and",
+								"actions": [
+									{
+										"type": "origins:add_velocity",
+										"space": "local_horizontal_normalized",
+										"z": 1
+									},
+									{
+										"type": "origins:delay",
+										"ticks": 2,
+										"action": {
+											"type": "origins:add_velocity",
+											"space": "local_horizontal_normalized",
+											"set": true,
+											"z": 0.4,
+											"y": -0.03
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": {
+								"type": "origins:and",
+								"conditions": [
+									{
+										"type": "origins:resource",
+										"resource": "*:*_right",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_left",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_forward",
+										"comparison": "<",
+										"compare_to": 2
+									}
+								]
+							},
+							"action": {
+								"type": "origins:and",
+								"actions": [
+									{
+										"type": "origins:add_velocity",
+										"space": "local_horizontal_normalized",
+										"z": -1
+									},
+									{
+										"type": "origins:delay",
+										"ticks": 2,
+										"action": {
+											"type": "origins:add_velocity",
+											"space": "local_horizontal_normalized",
+											"set": true,
+											"z": -0.4,
+											"y": -0.03
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": {
+								"type": "origins:and",
+								"conditions": [
+									{
+										"type": "origins:resource",
+										"resource": "*:*_right",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_forward",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_back",
+										"comparison": "<",
+										"compare_to": 2
+									}
+								]
+							},
+							"action": {
+								"type": "origins:and",
+								"actions": [
+									{
+										"type": "origins:add_velocity",
+										"space": "local_horizontal_normalized",
+										"x": 1
+									},
+									{
+										"type": "origins:delay",
+										"ticks": 2,
+										"action": {
+											"type": "origins:add_velocity",
+											"space": "local_horizontal_normalized",
+											"set": true,
+											"x": 0.4,
+											"y": -0.03
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": {
+								"type": "origins:and",
+								"conditions": [
+									{
+										"type": "origins:resource",
+										"resource": "*:*_forward",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_left",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_back",
+										"comparison": "<",
+										"compare_to": 2
+									}
+								]
+							},
+							"action": {
+								"type": "origins:and",
+								"actions": [
+									{
+										"type": "origins:add_velocity",
+										"space": "local_horizontal_normalized",
+										"x": -1
+									},
+									{
+										"type": "origins:delay",
+										"ticks": 2,
+										"action": {
+											"type": "origins:add_velocity",
+											"space": "local_horizontal_normalized",
+											"set": true,
+											"x": -0.4,
+											"y": -0.03
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": {
+								"type": "origins:and",
+								"conditions": [
+									{
+										"type": "origins:resource",
+										"resource": "*:*_forward",
+										"comparison": ">",
+										"compare_to": 1
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_right",
+										"comparison": ">",
+										"compare_to": 1
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_left",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_back",
+										"comparison": "<",
+										"compare_to": 2
+									}
+								]
+							},
+							"action": {
+								"type": "origins:and",
+								"actions": [
+									{
+										"type": "origins:add_velocity",
+										"space": "local_horizontal_normalized",
+										"z": 0.7,
+										"x": -0.7
+									},
+									{
+										"type": "origins:delay",
+										"ticks": 2,
+										"action": {
+											"type": "origins:add_velocity",
+											"space": "local_horizontal_normalized",
+											"set": true,
+											"z": 0.28,
+											"x": -0.28,
+											"y": -0.03
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": {
+								"type": "origins:and",
+								"conditions": [
+									{
+										"type": "origins:resource",
+										"resource": "*:*_forward",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_right",
+										"comparison": ">",
+										"compare_to": 1
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_left",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_back",
+										"comparison": ">",
+										"compare_to": 1
+									}
+								]
+							},
+							"action": {
+								"type": "origins:and",
+								"actions": [
+									{
+										"type": "origins:add_velocity",
+										"space": "local_horizontal_normalized",
+										"z": -0.7,
+										"x": -0.7
+									},
+									{
+										"type": "origins:delay",
+										"ticks": 2,
+										"action": {
+											"type": "origins:add_velocity",
+											"space": "local_horizontal_normalized",
+											"set": true,
+											"z": -0.28,
+											"x": -0.28,
+											"y": -0.03
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": {
+								"type": "origins:and",
+								"conditions": [
+									{
+										"type": "origins:resource",
+										"resource": "*:*_forward",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_right",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_left",
+										"comparison": ">",
+										"compare_to": 1
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_back",
+										"comparison": ">",
+										"compare_to": 1
+									}
+								]
+							},
+							"action": {
+								"type": "origins:and",
+								"actions": [
+									{
+										"type": "origins:add_velocity",
+										"space": "local_horizontal_normalized",
+										"z": -0.7,
+										"x": 0.7
+									},
+									{
+										"type": "origins:delay",
+										"ticks": 2,
+										"action": {
+											"type": "origins:add_velocity",
+											"space": "local_horizontal_normalized",
+											"set": true,
+											"z": -0.28,
+											"x": 0.28,
+											"y": -0.03
+										}
+									}
+								]
+							}
+						},
+						{
+							"condition": {
+								"type": "origins:and",
+								"conditions": [
+									{
+										"type": "origins:resource",
+										"resource": "*:*_forward",
+										"comparison": ">",
+										"compare_to": 1
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_right",
+										"comparison": "<",
+										"compare_to": 2
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_left",
+										"comparison": ">",
+										"compare_to": 1
+									},
+									{
+										"type": "origins:resource",
+										"resource": "*:*_back",
+										"comparison": "<",
+										"compare_to": 2
+									}
+								]
+							},
+							"action": {
+								"type": "origins:and",
+								"actions": [
+									{
+										"type": "origins:add_velocity",
+										"space": "local_horizontal_normalized",
+										"z": 0.7,
+										"x": 0.7
+									},
+									{
+										"type": "origins:delay",
+										"ticks": 2,
+										"action": {
+											"type": "origins:add_velocity",
+											"space": "local_horizontal_normalized",
+											"set": true,
+											"z": 0.28,
+											"x": 0.28,
+											"y": -0.03
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "origins:set_fall_distance",
+					"fall_distance": 0
+				}
+			]
+		},
+		"key": {
+			"key": "key.origins.primary_active",
+			"continuous": true
+		},
+		"cooldown": 44,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "witcheroriginaddon:textures/gui/witcher_resource_bars.png",
+			"bar_index": 0
+		}
+	},
+	"particles": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "execute at @s run particle minecraft:cloud ~ ~1 ~ 0.1 0.2 0.1 0.16 6 force",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 1,
+					"action": {
+						"type": "origins:execute_command",
+						"command": "execute at @s run particle minecraft:cloud ~ ~0.5 ~ 0.1 0.2 0.1 0.1 3 force",
+						"permission_level": 4
+					}
+				}
+			]
+		},
+		"key": {
+			"key": "key.origins.primary_active",
+			"continuous": true
+		},
+		"cooldown": 45,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"sound": {
+		"type": "origins:active_self",
+		"cooldown": 44,
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound witcheroriginaddon:witcher_dash neutral @a ~ ~ ~ 1 1"
+		},
+		"hud_render": {
+			"should_render": false
+		},
+		"key": {
+			"key": "key.origins.primary_active",
+			"continuous": true
+		}
+	},
+	"name": "§a§nWitcher Reflexes",
+	"description": "Your enhanced agility allows you to dodge in 8 different directions.",
+	"badges": [
+		{
+			"sprite": "witcheroriginaddon:textures/gui/witcher_dodge.png",
+			"text": "Active ability, use with [Primary Active] while moving in a direction."
+		}
+	]
+}

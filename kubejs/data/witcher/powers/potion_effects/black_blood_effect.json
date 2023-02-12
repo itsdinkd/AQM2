@@ -1,0 +1,38 @@
+{
+    "type": "origins:attacker_action_when_hit",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:damage",
+                "amount": 6,
+                "source": {
+                "name": "thorns",
+                "bypasses_armor": true,
+                "unblockable": true,
+                "magic": true
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:wither",
+                    "duration": 200,
+                    "amplifier": 0,
+                    "show_particles": false
+                }
+            }
+        ]
+        
+    },
+    "cooldown": 1,
+    "damage_condition": {
+        "type": "origins:projectile",
+        "inverted": true
+    },
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "witcheroriginaddon:black_blood"
+    },
+    "hidden": true
+}

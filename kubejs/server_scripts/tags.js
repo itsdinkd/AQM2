@@ -75,7 +75,12 @@ priority: 100
 		"simplyswords:runic_tablet",
 		"simplyswords:molten_edge",
 		"simplyswords:livyatan",
-		"simplyswords:soulrender"
+		"simplyswords:soulrender",
+		"simplyswords:icewhisper",
+		"simplyswords:arcanethyst",
+		"simplyswords:thunderbrand",
+		"simplyswords:slumbering_lichblade",
+		"simplyswords:shadowsting"
 	]
 
 // Fish
@@ -257,9 +262,9 @@ ServerEvents.tags('item', event => {
 		event.add('minecraft:fishes', item)
 	})
 
-	soulsweaponsMatBosses.forEach(item => {
-		event.add('aqm:bosses/soulweapoons', item)
-	})
+	// soulsweaponsMatBosses.forEach(item => {
+	// 	event.add('aqm:bosses/soulweapoons', item)
+	// })
 	
 // Misc
 	event.add('c:wrenches', 'advanced_reborn:config_wrench')

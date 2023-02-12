@@ -69,7 +69,7 @@
             {
                 "type": "minecraft:tag",
                 "weight": 1,
-                "name": "aqm2:weapons/mcdw",
+                "name": "aqm2:weapons_guarantee",
                 "expand": true,
                 "conditions": [
                   {

@@ -1,0 +1,59 @@
+{
+    "type": "origins:multiple",
+    "toxicity": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "start_value": 0,
+        "hud_render": {
+            "sprite_location": "witcheroriginaddon:textures/gui/witcher_resource_bars.png",
+            "bar_index": 4,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_toxicity",
+                "comparison": ">=",
+                "compare_to": 1
+            }
+        }
+    },
+    "toxicity_decay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_toxicity",
+            "change": -2
+        },
+        "interval": 40,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_toxicity",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "name": "Trial of the Grasses",
+    "description": "Witchers are able to consume normally fatal potions due to their mutations and fast metabolism. Drinking them in succession, however, will cause them harm.",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "witcheroriginaddon:textures/gui/toxicity.png",
+            "text": "Drinking witcher potions will raise your toxicity to a maximum of 100%. Every 2s, 2% of your toxicity will decay."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Gaining toxicity will give you an increasingly higher natural attack damage."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "If your toxicity level is greater than 60%, you will become nauseated and slowed."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "If your toxicity level is above 85%, you will begin rapidly taking damage until death unless you step below the threshold."
+        },
+		{
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "If your toxicity level reaches 100%, you will instantly die."
+        }
+    ]
+}

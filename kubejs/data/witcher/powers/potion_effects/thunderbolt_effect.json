@@ -1,0 +1,15 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+    	"attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 3.0,
+        "name": "Increased attack damage"
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:status_effect",
+        "effect": "witcheroriginaddon:thunderbolt"
+    },
+    "hidden": true
+}

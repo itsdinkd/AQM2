@@ -1,0 +1,32 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "witcheroriginaddon:swallow",
+                    "duration": 600,
+                    "amplifier": 0
+                }
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "witcher:neutral/toxicity_toxicity",
+                "change": 25
+            },
+            {
+                "type": "origins:heal",
+                "amount": 6
+            }
+        ]
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "witcheroriginaddon:swallow_potion"
+        }
+    },
+    "hidden": true
+}

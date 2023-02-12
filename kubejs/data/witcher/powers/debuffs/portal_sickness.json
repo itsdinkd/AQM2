@@ -1,0 +1,40 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:nausea",
+                    "duration": 400,
+                    "amplifier": 0
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:weakness",
+                    "duration": 400,
+                    "amplifier": 0
+                }
+            }
+        ]
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:in_block",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:nether_portal"
+        }
+    },
+    "name": "Portal Sickness",
+    "description": "'Ugh, I hate portals.'",
+    "badges": [
+        {
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "Gain temporary weakness and nausea after leaving a Nether Portal."
+		}
+    ]
+}

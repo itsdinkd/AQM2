@@ -1,0 +1,267 @@
+{
+	"type": "origins:multiple",
+	"alcohest": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shapeless",
+			"id": "witcher:alcohest",
+			"ingredients": [
+                {
+                    "item": "minecraft:glass_bottle"
+                },
+                {
+                    "tag": "witcher:alcohest_base"
+                },
+                {
+                    "tag": "witcher:sweet_material"
+                }
+                
+                
+            ],
+			"result": {
+				"item": "witcheroriginaddon:alcohest",
+				"count": 1
+			}
+		}
+	},
+    "alcohest_campfire": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "witcher:campfire",
+			"pattern": [
+				" S ",
+				"SAS",
+				"###"
+			],
+			"key": {
+				"#": {
+					"tag": "minecraft:logs"
+				},
+                "A": {
+					"item": "witcheroriginaddon:alcohest"
+				},
+				"S": {
+					"item": "minecraft:stick"
+				}
+			},
+			"result": {
+				"item": "minecraft:campfire",
+				"count": 1
+			}
+		}
+	},
+    "ingot": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "witcher:ingot",
+			"pattern": [
+				" # ",
+				"#G#",
+				" # "
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:lapis_lazuli"
+				},
+                "G": {
+					"item": "minecraft:gold_ingot"
+				}
+			},
+			"result": {
+				"item": "witcheroriginaddon:dimeritium_ingot",
+				"count": 1
+			}
+		}
+	},
+    "enriched_ingot": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "witcher:enriched_ingot",
+			"pattern": [
+				" D ",
+				"#G#",
+				" D "
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:lapis_lazuli"
+				},
+                "D": {
+					"item": "minecraft:diamond"
+				},
+                "G": {
+					"item": "witcheroriginaddon:dimeritium_ingot"
+				}
+			},
+			"result": {
+				"item": "witcheroriginaddon:enriched_dimeritium_ingot",
+				"count": 1
+			}
+		}
+	},
+	"contract_board": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "witcher:contract_board",
+			"pattern": [
+				"DD ",
+				"## ",
+				"## "
+			],
+			"key": {
+				"#": {
+					"tag": "minecraft:planks"
+				},
+                "D": {
+					"item": "witcheroriginaddon:enriched_dimeritium_ingot"
+				}
+			},
+			"result": {
+				"item": "witcheroriginaddon:contract_board",
+				"count": 1
+			}
+		}
+	},
+	"name": "Wanderer",
+	"description": "You know how to craft tools that can aid a Witcher on their travels.",
+	"badges": [
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/alcohest.png",
+			"prefix": "Alcohest (shapeless):",
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"id": "witcher:alcohest",
+				"ingredients": [
+					{
+						"item": "minecraft:glass_bottle"
+					},
+					{
+						"tag": "witcher:alcohest_base"
+					},
+					{
+						"tag": "witcher:sweet_material"
+					}
+				],
+				"result": {
+					"item": "witcheroriginaddon:alcohest"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "minecraft:textures/item/campfire.png",
+			"prefix": "Campfire (shaped):",
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"id": "witcher:campfire",
+				"pattern": [
+					" S ",
+					"SAS",
+					"###"
+				],
+				"key": {
+					"#": {
+						"tag": "minecraft:logs"
+					},
+					"A": {
+						"item": "witcheroriginaddon:alcohest"
+					},
+					"S": {
+						"item": "minecraft:stick"
+					}
+				},
+				"result": {
+					"item": "minecraft:campfire"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/dimeritium_ingot.png",
+			"prefix": "Dimeritium Ingot (shaped):",
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"id": "witcher:ingot",
+				"pattern": [
+					" # ",
+					"#G#",
+					" # "
+				],
+				"key": {
+					"#": {
+						"item": "minecraft:lapis_lazuli"
+					},
+					"G": {
+						"item": "minecraft:gold_ingot"
+					}
+				},
+				"result": {
+					"item": "witcheroriginaddon:dimeritium_ingot"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/items/enriched_dimeritium_ingot_static.png",
+			"prefix": "Enriched Dimeritium Ingot (shaped):",
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"id": "witcher:enriched_ingot",
+				"pattern": [
+					" D ",
+					"#G#",
+					" D "
+				],
+				"key": {
+					"#": {
+						"item": "minecraft:lapis_lazuli"
+					},
+					"D": {
+						"item": "minecraft:diamond"
+					},
+					"G": {
+						"item": "witcheroriginaddon:dimeritium_ingot"
+					}
+				},
+				"result": {
+					"item": "witcheroriginaddon:enriched_dimeritium_ingot"
+				}
+			}
+		},
+		{
+			"type": "origins:crafting_recipe",
+			"sprite": "witcheroriginaddon:textures/block/contract_board_front.png",
+			"prefix": "Contract Board (shaped):",
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"id": "witcher:contract_board",
+				"pattern": [
+					"DD ",
+					"## ",
+					"## "
+				],
+				"key": {
+					"#": {
+						"tag": "minecraft:planks"
+					},
+					"D": {
+						"item": "witcheroriginaddon:enriched_dimeritium_ingot"
+					}
+				},
+				"result": {
+					"item": "witcheroriginaddon:contract_board",
+					"count": 1
+				}
+			}
+		},
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "More information on these items is found in the Witcher's Journal."
+		}
+	]
+}

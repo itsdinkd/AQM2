@@ -1,0 +1,317 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:delay",
+		"ticks": 1,
+		"action": {
+			"type": "origins:if_else_list",
+			"actions": [
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:empty_swallow_potion"
+                        }
+                    }
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run give @s witcheroriginaddon:swallow_potion 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run playsound witcheroriginaddon:witcher_potion_refill neutral @a ~ ~ ~ 2 1"
+						},
+                        {
+                            "type": "origins:delay",
+                            "ticks": 1,
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:alcohest 1"
+                            }
+                        },
+						{
+							"type": "origins:execute_command",
+                            "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:empty_swallow_potion 1"
+						}
+					]
+				}
+			},
+            {
+				"condition": {
+					"type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:empty_cat_potion"
+                        }
+                    }
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run give @s witcheroriginaddon:cat_potion 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run playsound witcheroriginaddon:witcher_potion_refill neutral @a ~ ~ ~ 2 1"
+						},
+                        {
+                            "type": "origins:delay",
+                            "ticks": 1,
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:alcohest 1"
+                            }
+                        },
+						{
+							"type": "origins:execute_command",
+                            "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:empty_cat_potion 1"
+						}
+					]
+				}
+			},
+            {
+				"condition": {
+					"type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:empty_blizzard_potion"
+                        }
+                    }
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run give @s witcheroriginaddon:blizzard_potion 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run playsound witcheroriginaddon:witcher_potion_refill neutral @a ~ ~ ~ 2 1"
+						},
+                        {
+                            "type": "origins:delay",
+                            "ticks": 1,
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:alcohest 1"
+                            }
+                        },
+						{
+							"type": "origins:execute_command",
+                            "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:empty_blizzard_potion 1"
+						}
+					]
+				}
+			},
+            {
+				"condition": {
+					"type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:empty_black_blood_potion"
+                        }
+                    }
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run give @s witcheroriginaddon:black_blood_potion 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run playsound witcheroriginaddon:witcher_potion_refill neutral @a ~ ~ ~ 2 1"
+						},
+                        {
+                            "type": "origins:delay",
+                            "ticks": 1,
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:alcohest 1"
+                            }
+                        },
+						{
+							"type": "origins:execute_command",
+                            "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:empty_black_blood_potion 1"
+						}
+					]
+				}
+			},
+            {
+				"condition": {
+					"type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:empty_thunderbolt_potion"
+                        }
+                    }
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run give @s witcheroriginaddon:thunderbolt_potion 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run playsound witcheroriginaddon:witcher_potion_refill neutral @a ~ ~ ~ 2 1"
+						},
+                        {
+                            "type": "origins:delay",
+                            "ticks": 1,
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:alcohest 1"
+                            }
+                        },
+						{
+							"type": "origins:execute_command",
+                            "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:empty_thunderbolt_potion 1"
+						}
+					]
+				}
+			},
+            {
+				"condition": {
+					"type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:empty_maribor_forest_potion"
+                        }
+                    }
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run give @s witcheroriginaddon:maribor_forest_potion 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run playsound witcheroriginaddon:witcher_potion_refill neutral @a ~ ~ ~ 2 1"
+						},
+                        {
+                            "type": "origins:delay",
+                            "ticks": 1,
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:alcohest 1"
+                            }
+                        },
+						{
+							"type": "origins:execute_command",
+                            "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:empty_maribor_forest_potion 1"
+						}
+					]
+				}
+			},
+            {
+				"condition": {
+					"type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "witcheroriginaddon:empty_full_moon_potion"
+                        }
+                    }
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run give @s witcheroriginaddon:full_moon_potion 1"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run playsound witcheroriginaddon:witcher_potion_refill neutral @a ~ ~ ~ 2 1"
+						},
+                        {
+                            "type": "origins:delay",
+                            "ticks": 1,
+                            "action": {
+                                "type": "origins:execute_command",
+                                "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:alcohest 1"
+                            }
+                        },
+						{
+							"type": "origins:execute_command",
+                            "command": "execute if entity @s[nbt={Inventory:[{id:\"witcheroriginaddon:alcohest\"}]}] run clear @s witcheroriginaddon:empty_full_moon_potion 1"
+						}
+					]
+				}
+			}
+		]
+		}
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "witcher:empty_potion"
+                }
+            }
+		},
+		{
+			"type": "origins:block_in_radius",
+				"block_condition": {
+					  "type": "origins:block",
+					  "block": "minecraft:brewing_stand"
+				},
+				"radius": "2",
+				"shape": "cube",
+				"comparison": ">=",
+				"compare_to": 1
+		}
+		]
+	},
+	"cooldown": 40,
+	"hud_render": {
+		"should_render": false
+	},
+	"key": {
+		"key": "key.saveToolbarActivator",
+		"continuous": true
+	},
+	"name": "Refreshment",
+	"description": "You can use Alcohest to refill your empty Witcher Potions at brewing stands.",
+    "badges": [
+        {
+            "sprite": "witcheroriginaddon:textures/items/alcohest.png",
+            "text": "Active ability, use by pressing %s in range of a brewing stand with an empty Witcher potion in your mainhand."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Requires Alcohest, one is consumed on each successful use."
+        }
+    ]
+}

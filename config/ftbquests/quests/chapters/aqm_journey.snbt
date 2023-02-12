@@ -418,6 +418,7 @@
 		{
 			x: -16.5d
 			y: 0.0d
+			dependencies: ["224A7439CB6E82A8"]
 			id: "4B4F012CE0054C65"
 			tasks: [{
 				id: "4675A15E4E0A05DE"
@@ -426,6 +427,12 @@
 				block: "c:iron_ores"
 				value: 9L
 				checkItem: false
+			}]
+			rewards: [{
+				id: "62D2EC17A0AC73A1"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 3
 			}]
 		}
 	]

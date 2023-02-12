@@ -1,0 +1,11 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:shield"
+		}
+		},
+	"name": "Weight Limit",
+	"description": "Witchers do not carry cumbersome gear. You cannot use a shield."
+}

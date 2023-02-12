@@ -1,0 +1,11 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "witcheroriginaddon:impeded"
+    ],
+    "condition": {
+        "type": "origins:predicate",
+        "predicate": "origins:iswitcher"
+    },
+    "hidden": true
+}

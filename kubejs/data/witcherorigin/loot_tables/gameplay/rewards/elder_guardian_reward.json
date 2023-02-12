@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "witcheroriginaddon:tedd_deireadh_sample",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sponge",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 24,
+                "max": 32
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"###\",\"italic\":false,\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Legendary Hoard \",\"color\":\"red\",\"obfuscated\":false},{\"text\":\"###\"}]',Lore:['[{\"text\":\"A hoard of treasure once coveted by a legendary foe.\",\"italic\":false}]','[{\"text\":\"What riches could it contain?\",\"italic\":false}]']},BlockEntityTag:{LootTable:\"witcherorigin:gameplay/rewards/boss_stash\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Aquatic Stash\",\"italic\":false,\"color\":\"blue\"}]',Lore:['[{\"text\":\"Contains treasures and resources scoured from the watery depths.\",\"italic\":false}]']},BlockEntityTag:{LootTable:\"witcherorigin:gameplay/rewards/aquatic_stash\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
