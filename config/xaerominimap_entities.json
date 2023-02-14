@@ -25,8 +25,8 @@
     "renderOverMinimapFrame": 0.0,
     "displayY": false,
     "icons": 1.0,
-    "heightLimit": 15.0,
     "names": 0.0,
+    "heightLimit": 15.0,
     "iconScale": 0.45
   },
   "subCategories": [

@@ -1,7 +1,7 @@
 {
 	id: "16DDF5210F9D327C"
 	group: "332CF3EA95B49108"
-	order_index: 3
+	order_index: 2
 	filename: "random"
 	title: "Cars, Mechs, Aircrafts, and More"
 	subtitle: ["Craft Aircrafts, Vehicles that can harvest, Mechs that can tunnel mine, and more"]
@@ -223,66 +223,66 @@
 						items: [
 							{
 								id: "automobility:automobile_wheel"
-								Count: 1b
 								tag: {
 									wheel: "automobility:standard"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_wheel"
-								Count: 1b
 								tag: {
 									wheel: "automobility:off_road"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_wheel"
-								Count: 1b
 								tag: {
 									wheel: "automobility:steel"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_wheel"
-								Count: 1b
 								tag: {
 									wheel: "automobility:tractor"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_wheel"
-								Count: 1b
 								tag: {
 									wheel: "automobility:carriage"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_wheel"
-								Count: 1b
 								tag: {
 									wheel: "automobility:plated"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_wheel"
-								Count: 1b
 								tag: {
 									wheel: "automobility:street"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_wheel"
-								Count: 1b
 								tag: {
 									wheel: "automobility:gilded"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_wheel"
-								Count: 1b
 								tag: {
 									wheel: "automobility:bejeweled"
 								}
+								Count: 1b
 							}
 						]
 					}
@@ -318,122 +318,122 @@
 						items: [
 							{
 								id: "automobility:front_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:mob_controller"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:front_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:crop_harvester"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:front_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:grass_cutter"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:passenger_seat"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:crafting_table"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:loom"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:cartography_table"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:smithing_table"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:paver"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:backhoe"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:banner_post"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:saddled_barrel"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:ender_chest"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:chest"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:auto_mechanic_table"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:stonecutter"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:rear_attachment"
-								Count: 1b
 								tag: {
 									attachment: "automobility:grindstone"
 								}
+								Count: 1b
 							}
 						]
 					}
@@ -465,38 +465,38 @@
 						items: [
 							{
 								id: "automobility:automobile_engine"
+								Count: 1b
 								tag: {
 									engine: "automobility:iron"
 								}
-								Count: 1b
 							}
 							{
 								id: "automobility:automobile_engine"
+								Count: 1b
 								tag: {
 									engine: "automobility:copper"
 								}
-								Count: 1b
 							}
 							{
 								id: "automobility:automobile_engine"
+								Count: 1b
 								tag: {
 									engine: "automobility:gold"
 								}
-								Count: 1b
 							}
 							{
 								id: "automobility:automobile_engine"
+								Count: 1b
 								tag: {
 									engine: "automobility:diamond"
 								}
-								Count: 1b
 							}
 							{
 								id: "automobility:automobile_engine"
+								Count: 1b
 								tag: {
 									engine: "automobility:stone"
 								}
-								Count: 1b
 							}
 						]
 					}
@@ -528,192 +528,192 @@
 						items: [
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:wooden_motorcar"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:copper_motorcar"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:steel_motorcar"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:golden_motorcar"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:bejeweled_motorcar"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_white"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_orange"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_magenta"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:blue_tractor"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:shopping_cart"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:c_arr"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:pineapple"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_gray"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_pink"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_lime"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_yellow"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_light_blue"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_red"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_black"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:amethyst_rickshaw"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:quartz_rickshaw"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:prismarine_rickshaw"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:echo_rickshaw"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:red_tractor"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:yellow_tractor"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:green_tractor"
 								}
+								Count: 1b
 							}
 							{
 								id: "automobility:automobile_frame"
-								Count: 1b
 								tag: {
 									frame: "automobility:standard_light_gray"
 								}
+								Count: 1b
 							}
 						]
 					}
