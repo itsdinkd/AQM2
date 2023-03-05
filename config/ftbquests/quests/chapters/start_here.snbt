@@ -487,8 +487,8 @@
 				id: "botania:twig_wand"
 				Count: 1b
 				tag: {
-					color2: 3
 					color1: 3
+					color2: 3
 				}
 			}
 			x: -5.5d
@@ -504,8 +504,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color1: 0
 						color2: 0
+						color1: 0
 					}
 				}
 				advancement: "arcanite:acolyte"
@@ -798,27 +798,6 @@
 					item: "improved-stations:cartography_table_slab"
 				}
 			]
-		}
-		{
-			title: "Mining Dimension"
-			x: 18.4d
-			y: 1.6d
-			subtitle: "Craft a AQM2 Token and turn it in here to teleport to mining dimension"
-			description: [
-				"to craft a mining dimension portal you need 8 emeralds and cracked stone bricks for each portal block, and you can light it with a diamond pickaxe"
-				""
-				"Gobber and Mythic Metal ores do not generate in this dimension."
-			]
-			size: 1.6d
-			secret: true
-			id: "5980863B80617D30"
-			tasks: [{
-				id: "7EBA7BF3AF4019DC"
-				type: "item"
-				title: "Pure Mining Dimension"
-				disable_toast: true
-				item: "kubejs:aqm2"
-			}]
 		}
 		{
 			title: "Respawnable Pets"

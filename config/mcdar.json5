@@ -1,63 +1,63 @@
 {
-	"enableEnchantment": {
-		"BEAST_BOSS": false,
-		"BEAST_BURST": false,
-		"BEAST_SURGE": false,
+	"ENABLE_ENCHANTMENT": {
+		"BEAST_BOSS": true,
+		"BEAST_BURST": true,
+		"BEAST_SURGE": true,
 		"COOLDOWN": true
 	},
-	"enableDamagingArtefact": {
-		"BLAST_FUNGUS": false,
-		"HARVESTER": false,
-		"LIGHTNING_ROD": false,
+	"ENABLE_DAMAGING_ARTIFACT": {
+		"BLAST_FUNGUS": true,
+		"HARVESTER": true,
+		"LIGHTNING_ROD": true,
+		"POWERSHAKER": true,
 		"UPDRAFT_TOME": true
 	},
-	"enableStatusInflictingArtefact": {
-		"CORRUPTED_SEEDS": false,
-		"GONG_OF_WEAKENING": false,
+	"ENABLE_STATUS_INFLICTING_ARTIFACT": {
+		"CORRUPTED_SEEDS": true,
+		"GONG_OF_WEAKENING": true,
 		"LOVE_MEDALLION": true,
 		"SATCHEL_OF_ELEMENTS": true,
-		"SHOCK_POWDER": false
+		"SHOCK_POWDER": true
 	},
-	"enableQuiverArtefact": {
-		"FLAMING_QUIVER": false,
-		"HARPOON_QUIVER": false,
-		"THUNDERING_QUIVER": false,
-		"TORMENT_QUIVER": false
+	"ENABLE_QUIVER_ARTIFACT": {
+		"FLAMING_QUIVER": true,
+		"HARPOON_QUIVER": true,
+		"THUNDERING_QUIVER": true,
+		"TORMENT_QUIVER": true
 	},
-	"enableSummoningArtefact": {
+	"ENABLE_SUMMONING_ARTIFACT": {
 		"BUZZY_NEST": true,
-		"ENCHANTED_GRASS": false,
-		"GOLEM_KIT": false,
+		"ENCHANTED_GRASS": true,
+		"GOLEM_KIT": true,
 		"TASTY_BONE": true,
 		"WONDERFUL_WHEAT": true
 	},
-	"enableAgilityArtefact": {
+	"ENABLE_AGILITY_ARTIFACT": {
 		"BOOTS_OF_SWIFTNESS": true,
 		"DEATH_CAP_MUSHROOM": true,
 		"GHOST_CLOAK": true,
-		"LIGHT_FEATHER": false
+		"LIGHT_FEATHER": true
 	},
-	"enableDefenciveArtefact": {
-		"ENCHANTERS_TOME": false,
+	"ENABLE_DEFENSIVE_ARTIFACT": {
+		"ENCHANTERS_TOME": true,
 		"IRON_HIDE_AMULET": true,
-		"POWERSHAKER": false,
-		"SOUL_HEALER": false,
-		"TOTEM_OF_REGENERATION": false,
-		"TOTEM_OF_SHIELDING": false,
-		"TOTEM_OF_SOUL_PROTECTION": false,
+		"SOUL_HEALER": true,
+		"TOTEM_OF_REGENERATION": true,
+		"TOTEM_OF_SHIELDING": true,
+		"TOTEM_OF_SOUL_PROTECTION": true,
 		"WIND_HORN": true
 	},
-	// Artefact Durability
-	"agilityArtefactDurability": 32,
-	"damagingArtefactDurability": 32,
-	"defenciveArtefactDurability": 32,
-	"quiverArtefactDurability": 7,
-	"statusArtefactDurability": 32,
-	"summoningArtefactDurability": 6,
-	// Villager Artefact Spawn Rate (Percentage where 1.0 = 100%)
-	"villagerArtefactSpawnRate": 0.0,
-	// Illager Artefact Spawn Rate (Percentage where 1.0 = 100%)
-	"illagerArtefactSpawnRate": 0.004999999888241291,
-	// Dungeon Artefact Spawn Rate (Percentage where 1.0 = 100%)
-	"dungeonArtefactSpawnRate": 0.010000001639127731
+	// Artifact Durability
+	"AGILITY_ARTIFACT_DURABILITY": 64,
+	"DAMAGING_ARTIFACT_DURABILITY": 64,
+	"DEFENSIVE_ARTIFACT_DURABILITY": 64,
+	"QUIVER_ARTIFACT_DURABILITY": 7,
+	"STATUS_ARTIFACT_DURABILITY": 64,
+	"SUMMONING_ARTIFACT_DURABILITY": 8,
+	// Villager Artifact Spawn Rate (Percentage where 1.0 = 100%)
+	"VILLAGER_ARTIFACT_SPAWN_RATE": 0.25,
+	// Illager Artifact Spawn Rate (Percentage where 1.0 = 100%)
+	"ILLAGER_ARTIFACT_SPAWN_RATE": 0.25,
+	// World Artifact Spawn Rate (Percentage where 1.0 = 100%)
+	"WORLD_ARTIFACT_SPAWN_RATE": 0.10000000149011612
 }

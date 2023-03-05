@@ -7,7 +7,6 @@
 	icon: "kubejs:gold_coin"
 	disable_toast: true
 	subtitle: ["Use those quest coins"]
-	always_invisible: true
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	images: [
@@ -80,7 +79,7 @@
 			image: "kubejs:textures/item/rare_gem.png"
 			hover: [
 				"Rare Gem Shop"
-				"(Boss Drops)"
+				"Drops From; Ender Dragon, Warden"
 			]
 			click: ""
 			dev: false
@@ -95,7 +94,7 @@
 			image: "kubejs:textures/item/epic_gem.png"
 			hover: [
 				"Epic Gem Shop"
-				"(Boss Drops)"
+				"Drops From; Doom, BOMD Bosses"
 			]
 			click: ""
 			dev: false
@@ -110,7 +109,7 @@
 			image: "kubejs:textures/item/common_gem.png"
 			hover: [
 				"Common Gem Shop"
-				"(Boss Drops)"
+				"Drops From; Wither, Elder Guardian"
 			]
 			click: ""
 			dev: false
@@ -125,7 +124,7 @@
 			image: "kubejs:textures/item/legendary_gem.png"
 			hover: [
 				"Legendary Gem Shop"
-				"(Boss Drops)"
+				"Drops from; All Soulslike Bosses"
 			]
 			click: ""
 			dev: false
@@ -180,6 +179,7 @@
 			icon: "minecraft:oak_planks"
 			x: -13.5d
 			y: 0.5d
+			repeatable: true
 			id: "1C0B56116BBDE06A"
 			tasks: [{
 				id: "120F2F5A30408D78"
@@ -199,14 +199,15 @@
 			title: "Common Loot (25 Copper Coins)"
 			icon: "kibe:entangled_bag"
 			x: -11.5d
-			y: 0.5d
+			y: 2.0d
 			subtitle: "Test your luck on the common loot table"
+			repeatable: true
 			id: "1ADE6564D588B164"
 			tasks: [{
 				id: "5C5D35256DFD6FA5"
 				type: "item"
 				item: "kubejs:copper_coin"
-				count: 25L
+				count: 50L
 			}]
 			rewards: [{
 				id: "13E78FB9C8A42983"
@@ -216,16 +217,17 @@
 			}]
 		}
 		{
-			title: "Coal (7 Copper Coins)"
+			title: "5 Coal (7 Copper Coins)"
 			icon: "minecraft:coal"
 			x: -13.5d
 			y: 2.0d
+			repeatable: true
 			id: "2B73160E8D8167C3"
 			tasks: [{
 				id: "65529F1BE1B89698"
 				type: "item"
 				item: "kubejs:copper_coin"
-				count: 7L
+				count: 24L
 			}]
 			rewards: [{
 				id: "15F0B729694271FA"
@@ -235,10 +237,11 @@
 			}]
 		}
 		{
-			title: "Dragon Loot (2x Epic Gem)"
+			title: "Dragon Loot (2 Epic Gems)"
 			icon: "dragonloot:dragon_scale"
 			x: 1.0d
 			y: -10.5d
+			repeatable: true
 			id: "25A5D81BCCA4A1A1"
 			tasks: [{
 				id: "5E8855B0DF12B4FF"
@@ -254,11 +257,12 @@
 			}]
 		}
 		{
-			title: "Mineshaft Entrance (1x Epic Gem)"
+			title: "Mineshaft Entrance (1 Epic Gem)"
 			icon: "prefab:item_mineshaft_entrance"
 			x: 3.0d
 			y: -10.5d
 			subtitle: "This will automatically dig a verticle tunnel to bottom floor and place ladders"
+			repeatable: true
 			id: "28F759A5005403EC"
 			tasks: [{
 				id: "7260E3CB0A0596EE"
@@ -269,6 +273,127 @@
 				id: "01CF37E886E35E09"
 				type: "item"
 				item: "prefab:item_mineshaft_entrance"
+			}]
+		}
+		{
+			title: "Unique Weapons Loot (3 Epic Gems)"
+			icon: {
+				id: "simplyswords:soulstealer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -9.0d
+			subtitle: "Test your luck on the unique weapon loot table"
+			repeatable: true
+			id: "0751CCBB8BA4D1DA"
+			tasks: [{
+				id: "5183989C0CD3EABB"
+				type: "item"
+				item: "kubejs:epic_gem"
+				count: 3L
+			}]
+			rewards: [{
+				id: "7063401A87EB342F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8135751449899826488L
+			}]
+		}
+		{
+			title: "Food Kit (50 Copper Coins)"
+			icon: "croptopia:anchovy_pizza"
+			x: -11.5d
+			y: 0.5d
+			subtitle: "Obtain random groups of food with 50 copper coins"
+			repeatable: true
+			id: "794FEF36AF7C9F5C"
+			tasks: [{
+				id: "3A68BF8003B9D265"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 100L
+			}]
+			rewards: [{
+				id: "59CA3CB55FB415BC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3993333828053565449L
+			}]
+		}
+		{
+			title: "Torches (7 Copper Coins)"
+			icon: "minecraft:torch"
+			x: -13.5d
+			y: 3.5d
+			repeatable: true
+			id: "386ECF56A672B896"
+			tasks: [{
+				id: "006965765E872C07"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 20L
+			}]
+			rewards: [{
+				id: "43BBD785B0D9BBF5"
+				type: "item"
+				item: "minecraft:torch"
+				count: 3
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "Indrev Slaughter (2 Legendary Gems)"
+			icon: "indrev:slaughter_mk1"
+			x: 7.5d
+			y: -10.5d
+			subtitle: "Automate Mob Farm with this block that kills mobs in AoE"
+			repeatable: true
+			id: "60F89A55CC8CC9C3"
+			tasks: [{
+				id: "6A84FF2576A90E46"
+				type: "item"
+				item: "kubejs:legendary_gem"
+				count: 2L
+			}]
+			rewards: [{
+				id: "6F2F3A91ABA7FE7E"
+				type: "item"
+				item: "indrev:slaughter_mk1"
+			}]
+		}
+		{
+			title: "The quest shop is a Work In Progress"
+			x: 0.0d
+			y: -20.0d
+			size: 3.0d
+			id: "526015D8EFC3E19B"
+			tasks: [{
+				id: "6E8F6AAA26856C35"
+				type: "checkmark"
+				title: "This is a work in progres."
+			}]
+		}
+		{
+			title: "Verglas (2 Legendary Gems)"
+			icon: "soulsweapons:verglas"
+			x: 9.5d
+			y: -10.5d
+			subtitle: "Automate Mob Farm with this block that kills mobs in AoE"
+			repeatable: true
+			id: "616759FE831DB84A"
+			tasks: [{
+				id: "15B74A4B67FE581B"
+				type: "item"
+				item: "kubejs:legendary_gem"
+				count: 2L
+			}]
+			rewards: [{
+				id: "64484C10568B6C06"
+				type: "item"
+				item: "soulsweapons:verglas"
 			}]
 		}
 	]

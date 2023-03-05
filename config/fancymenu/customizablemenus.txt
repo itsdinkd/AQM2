@@ -15,9 +15,6 @@ de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 com.bisecthosting.mods.bhmenu.BHMultiplayerScreen {
 }
 
-net.minecraft.class_442 {
-}
-
 net.minecraft.class_526 {
 }
 
@@ -73,5 +70,8 @@ me.axieum.mcmod.authme.impl.gui.AuthMethodScreen {
 }
 
 net.minecraft.class_420 {
+}
+
+net.minecraft.class_442 {
 }
 

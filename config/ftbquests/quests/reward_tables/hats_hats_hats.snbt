@@ -14,7 +14,6 @@
 		{ item: "givemehats:santa_hat" }
 		{ item: "givemehats:sailor_hat" }
 		{ item: "givemehats:russian_hat" }
-		{ item: "givemehats:jojo_hat" }
 		{ item: "givemehats:golem_bucket" }
 		{ item: "givemehats:fox_ears" }
 		{ item: "givemehats:floating_hat" }
@@ -24,6 +23,5 @@
 		{ item: "givemehats:cowboy_hat" }
 		{ item: "givemehats:cat_ears" }
 		{ item: "givemehats:bunny_ears" }
-		{ item: "givemehats:bowler_hat" }
 	]
 }

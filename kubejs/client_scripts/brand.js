@@ -3,6 +3,7 @@ ClientEvents.leftDebugInfo(event => {
     lines.addAll([
         '--------------------------',
         'Another Quality Modpack 2',
+        'Created by diNkd         ',
         '--------------------------'
     ])
 });

@@ -2,13 +2,13 @@
 	/* Reroll item.  Pair a weapon with Spoorn Weapon Attributes on it with this item (vanilla or modded)
 	   in an Anvil to reroll attributes [default = minecraft:lapis_lazuli]
 	*/
-	"rerollItem": "gobber2:gobber2_glob_end",
+	"rerollItem": "gobber2:gobber2_glob",
 	// Reroll level cost [default = 0]
 	"rerollLevelCost": 2,
 	/* Upgrade item.  Pair a weapon with this item in an Anvil to roll bonus attributes and only adds
 	   stats onto the weapon if it is an upgrade [default = minecraft:diamond]
 	*/
-	"upgradeItem": "gobber2:gobber2_ingot_end",
+	"upgradeItem": "gobber2:gobber2_ingot_nether",
 	// Upgrade level cost [default = 1]
 	"upgradeLevelCost": 10,
 	// Apply Attributes Automatically on Inventory Tick [default = true]

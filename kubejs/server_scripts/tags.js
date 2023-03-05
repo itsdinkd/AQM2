@@ -310,6 +310,9 @@ ServerEvents.tags('block', event => {
 	event.add('c:diamond_ores','minecraft:diamond_ore')
 	event.add('c:diamond_ores','minecraft:deepslate_diamond_ore')
 	event.add('c:ruby_ores', 'betternether:nether_ruby_ore')
+	Twigs.forEach(function (item, index) {
+		event.add('aqm2:material/twigs', item)
+	})
 
 	// alwaysSoulbound.forEach((item,index) => {
 	// 	event.add('yigd:soulbound_item', item)

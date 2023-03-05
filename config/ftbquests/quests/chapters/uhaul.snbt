@@ -1051,11 +1051,19 @@
 				type: "item"
 				item: "compact_storage:backpack_white"
 			}]
-			rewards: [{
-				id: "6F74850E04F69E7A"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "6F74850E04F69E7A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "554C42453E2F7E8C"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 15
+				}
+			]
 		}
 		{
 			x: -8.5d

@@ -5,6 +5,6 @@
   "alwaysShowRepairCost": false,
   "showHarvestLevel": true,
   "showEfficiency": false,
-  "showDurability": false,
-  "alwaysShowDurability": false
+  "showDurability": true,
+  "alwaysShowDurability": true
 }

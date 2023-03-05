@@ -63,7 +63,7 @@ event.custom({
     "ingredients": [
       {
         "item": "kubejs:copper_coin",
-        "count": 99
+        "count": 999
       }
     ],
     "output": {
@@ -78,7 +78,7 @@ event.custom({
       "ingredients": [
         {
           "item": "kubejs:silver_coin",
-          "count": 99
+          "count": 999
         }
       ],
       "output": {

@@ -133,7 +133,7 @@
 		"trapezoid": false
 	},
 	"overworldNetherOres": {
-		"enabled": true,
+		"enabled": false,
 		"veinSize": 4,
 		"perChunk": 2,
 		"bottom": 40,

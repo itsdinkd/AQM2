@@ -60,25 +60,6 @@ customization {
 }
 
 customization {
-  orientation = bottom-left
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = Mods Loaded: {"placeholder":"totalmods"}
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 4
-  width = 244
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = d6b6fe7a-5a1f-4335-a8b3-1d2bad9bc1ef1676081067997
-  y = -14
-  alignment = left
-  height = 47
-}
-
-customization {
   orientation = top-right
   enable_scrolling = true
   shadow = true

@@ -189,6 +189,7 @@ const arrRemove = [
 "mythicmetals:tin_ore",
 "prefab:item_swift_blade_bronze",
 "prefab:item_swift_blade_copper",
+"rusticated:copper_nugget",
 "prefab:item_swift_blade_diamond",
 "prefab:item_swift_blade_gold",
 "prefab:item_swift_blade_iron",

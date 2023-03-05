@@ -486,6 +486,8 @@
 				patched_sheep = true
 				ashen_cow = true
 				amber_chicken = true
+				tropical_slime = true
+				albino_cow = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
@@ -805,6 +807,7 @@
 				shriek_worm = true
 				shattered = true
 				sculk_snapper = true
+				sculk_centipede = true
 
 			[light_sources.settings.entities.immersive_aircraft]
 				gyrodyne = true

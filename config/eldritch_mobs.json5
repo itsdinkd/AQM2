@@ -10,10 +10,10 @@
 	"EldritchXpMultiplier": 12,
 	"EliteMinModifiers": 3,
 	"UltraMinModifiers": 4,
-	"EldritchMinModifiers": 7,
-	"EliteMaxModifiers": 4,
-	"UltraMaxModifiers": 7,
-	"EldritchMaxModifiers": 9,
+	"EldritchMinModifiers": 6,
+	"EliteMaxModifiers": 3,
+	"UltraMaxModifiers": 5,
+	"EldritchMaxModifiers": 8,
 	// Prevent named mobs from becoming Elite, Ultra, and Eldritch
 	"ignoreNamedMobs": true,
 	// Turn off titles for mobs
@@ -47,15 +47,15 @@
 	"blindingConfig": {
 		"name": "Blinding",
 		"disabled": false,
-		"cooldown": 400,
-		"duration": 80,
+		"cooldown": 520,
+		"duration": 100,
 		"amplifier": 1
 	},
 	"burningConfig": {
 		"name": "Burning",
 		"disabled": false,
 		"cooldown": 600,
-		"fireDuration": 5
+		"fireDuration": 6
 	},
 	"cloakedConfig": {
 		"name": "Cloaked",
@@ -74,7 +74,7 @@
 	},
 	"drowningConfig": {
 		"name": "Drowning",
-		"disabled": false,
+		"disabled": true,
 		"drowningDamage": 0.009999999776482582,
 		"waterBreathingDuration": 100
 	},
@@ -90,7 +90,7 @@
 	"ghastlyConfig": {
 		"name": "Ghastly",
 		"disabled": false,
-		"cooldown": 700,
+		"cooldown": 360,
 		"fireballPower": 2
 	},
 	"gravityConfig": {
@@ -101,14 +101,14 @@
 	"lethargicConfig": {
 		"name": "Lethargic",
 		"disabled": true,
-		"cooldown": 400,
+		"cooldown": 450,
 		"duration": 100,
 		"amplifier": 1
 	},
 	"lifestealConfig": {
 		"name": "Lifesteal",
 		"disabled": false,
-		"lifestealHealProportion": 0.11999999
+		"lifestealHealProportion": 0.10999999
 	},
 	"regeneratingConfig": {
 		"name": "Regenerating",
@@ -129,13 +129,13 @@
 		"name": "Starving",
 		"disabled": false,
 		"cooldown": 500,
-		"duration": 160,
-		"amplifier": 1
+		"duration": 120,
+		"amplifier": 2
 	},
 	"stormyConfig": {
 		"name": "Stormy",
 		"disabled": false,
-		"cooldown": 1000
+		"cooldown": 700
 	},
 	"speedsterConfig": {
 		"name": "Speedster",
@@ -152,7 +152,7 @@
 	"thornyConfig": {
 		"name": "Thorny",
 		"disabled": false,
-		"thornyReturnDamage": 0.205555999
+		"thornyReturnDamage": 0.175555999
 	},
 	"toxicConfig": {
 		"name": "Toxic",
@@ -163,23 +163,23 @@
 	"undyingConfig": {
 		"name": "Undying",
 		"disabled": true,
-		"regenerationDuration": 500,
+		"regenerationDuration": 300,
 		"regenerationAmplifier": 1,
-		"absorptionDuration": 1000,
+		"absorptionDuration": 700,
 		"absorptionAmplifier": 4,
-		"fireResistanceDuration": 600
+		"fireResistanceDuration": 400
 	},
 	"weaknessConfig": {
 		"name": "Weakness",
 		"disabled": false,
-		"cooldown": 400,
-		"duration": 130,
-		"amplifier": 1
+		"cooldown": 430,
+		"duration": 100,
+		"amplifier": 2
 	},
 	"webslingingConfig": {
 		"name": "Webslinging",
 		"disabled": false,
-		"cooldown": 600
+		"cooldown": 500
 	},
 	"witheringConfig": {
 		"name": "Withering",

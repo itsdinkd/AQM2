@@ -51,7 +51,7 @@ REIEvents.groupEntries(event => {
 
     const useNbtGroups = ['potion', 'enchanted_book', 'splash_potion', 'tipped_arrow', 'lingering_potion']
 
-    useNbtGroups.forEach(id => {
+    useNbtGroups.forEach(id, i => {
       const item = Item.of(id)
       const { namespace, path } = Utils.id(item.id)
       event.groupSameItem(`kubejs:rei_groups/${namespace}/${path}`, item.name, item)
@@ -61,7 +61,6 @@ REIEvents.groupEntries(event => {
     event.groupItems('kubejs:rei_groups/spawn_eggs', 'Spawn Eggs', [
         /spawn_egg/,
         'supplementaries:red_merchant_spawn_egg',
-        /lilwings:.*_egg/,
         /mobz:spawn_.*/,
         /adventurez:spawn_.*/
     ])

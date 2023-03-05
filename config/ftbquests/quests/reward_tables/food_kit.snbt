@@ -1,0 +1,35 @@
+{
+	id: "376B2BF582AF0009"
+	order_index: 15
+	title: "Food Kit"
+	loot_size: 1
+	rewards: [
+		{ item: "croptopia:fruit_salad", random_bonus: 2 }
+		{ item: "minecraft:golden_apple", count: 6, random_bonus: 3 }
+		{ item: "minecraft:bread", count: 9, random_bonus: 9 }
+		{ item: "farmersdelight:hamburger", count: 5, random_bonus: 4 }
+		{ item: "minecraft:enchanted_golden_apple", count: 3, random_bonus: 3 }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_regeneration"
+				}
+			}
+			count: 2
+			random_bonus: 4
+		}
+		{ item: "croptopia:banana_nut_bread", count: 3, random_bonus: 4 }
+		{ item: "farmersdelight:mutton_wrap", count: 4, random_bonus: 3 }
+		{ item: "brewinandchewin:red_rum", count: 2, random_bonus: 3 }
+		{ item: "croptopia:pineapple_pepperoni_pizza", count: 3, random_bonus: 3 }
+		{ item: "croptopia:cooked_shrimp", count: 9, random_bonus: 9 }
+		{ item: "croptopia:rhubarb_pie", count: 7, random_bonus: 4 }
+		{ item: "farmersdelight:pasta_with_meatballs", count: 2, random_bonus: 2 }
+		{ item: "croptopia:sushi", count: 6, random_bonus: 3 }
+		{ item: "farmersdelight:salmon_roll", count: 8, random_bonus: 6 }
+		{ item: "gofish:smokey_salmon", count: 8, random_bonus: 12 }
+		{ item: "croptopia:banana", count: 30, random_bonus: 30 }
+	]
+}

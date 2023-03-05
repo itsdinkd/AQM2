@@ -75,7 +75,7 @@ const TYPE_DISABLED_ITEMS = [
     "farmersdelight:rope"
 ]
 
-const doomBossesLootJS = [
+const EndGameBosses = [
     'doom:motherdemon',
     'doom:gladiator',
     'doom:iconofsin',
@@ -91,6 +91,7 @@ const doomBossesLootJS = [
     "bosses_of_mass_destruction:gauntlet",
     "bosses_of_mass_destruction:obsidilith"
     ];
+
 
 const tagStacksWpns = Ingredient.of('aqm2:weapons/rare').stacks;
 const tagStacksMCDW = Ingredient.of('aqm2:mcdw').stacks;
@@ -138,8 +139,10 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_purple")
 
     // gems
-    event.addEntityLootModifier("minecraft:ender_dragon").addLoot("kubejs:epic_gem")
-    event.addEntityLootModifier("minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").addLoot("kubejs:rare_gem")
+    event.addEntityLootModifier("soulsweapons:returning_knight", "soulsweapons:accursed_lord_boss", "soulsweapons:chaos_monarch", "soulsweapons:night_shade", "soulsweapons:moonknight").addLoot("kubejs:legendary_gem")
+    event.addEntityLootModifier("doom:motherdemon","doom:gladiator","doom:iconofsin","doom:arch_maykr","bosses_of_mass_destruction:void_blossom","bosses_of_mass_destruction:lich","bosses_of_mass_destruction:gauntlet","bosses_of_mass_destruction:obsidilith").addLoot("kubejs:epic_gem")
+    event.addEntityLootModifier("minecraft:warden", "minecraft:ender_dragon","minecells:constructor","adventurez:void_shadow","adventurez:stone_golem").addLoot("kubejs:rare_gem")
+    event.addEntityLootModifier("minecraft:wither", "minecraft:elder_guardian").addLoot("kubejs:common_gem")
 
     event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:soul_ingot")
 
@@ -172,7 +175,7 @@ LootJS.modifiers((event) => {
         p.limitCount([1, 1], [2, 2]); 
     });
 
-    event.addEntityLootModifier("soulsweapons:night_shade", "soulsweapons:chaos_monarch", "soulsweapons:draugr_boss", "soulsweapons:accursed_lord_boss", "soulsweapons:returning_knight").pool((p) => { 
+    event.addEntityLootModifier("soulsweapons:chaos_monarch", "soulsweapons:draugr_boss", "soulsweapons:accursed_lord_boss", "soulsweapons:returning_knight", "soulsweapons:moonknight").pool((p) => { 
         p.addLoot("soulsweapons:verglas");
         p.limitCount([1, 1], [2, 3])
     });
@@ -181,7 +184,7 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("soulsweapons:night_shade").addLoot("soulsweapons:moonstone")
 
     // Boss Drop Rare Wpns
-    doomBossesLootJS.forEach(mob => {
+    EndGameBosses.forEach(mob => {
 
         // Unique Simply Swords
         event.addEntityLootModifier(mob)

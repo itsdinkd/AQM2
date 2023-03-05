@@ -17,7 +17,7 @@
 	items = ["#c:axes", "#c:pickaxes", "#c:shovels", "#c:hoes"]
 	#The number of levels of the enchantment
 	#Range: 1 ~ 5
-	levels = 1
+	levels = 3
 	#Whether or not this enchantment can be applied at the enchanting table
 	canApplyAtEnchantingTable = true
 	#The additional enchantability requirement for each enchantment level after the first

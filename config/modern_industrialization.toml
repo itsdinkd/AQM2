@@ -6,6 +6,7 @@ disableFuelTooltips = true
 disableItemTagTooltips = true
 newVersionMessage = false
 enableHatchPlacementOverlay = true
+enableBarrelContentRendering = true
 colorWaterLava = true
 enableDebugCommands = false
 enableBidirectionalEnergyCompat = false

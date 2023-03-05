@@ -181,8 +181,8 @@
 							}
 							{
 								id: "vinery:red_grape_seeds"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
 					}
@@ -258,8 +258,8 @@
 							}
 							{
 								id: "vinery:red_grape"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}

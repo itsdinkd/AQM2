@@ -640,7 +640,7 @@ event.shaped("bewitchment:juniper_broom", [" d ", "h 1", "ses"],
 {
   d: "kubejs:demon_pearl",
   h: "bewitchment:demon_heart",
-  1: "spectrum:spectral_shard",
+  1: "spectrum:paltaeria_gem",
   s: "bewitchment:juniper_sapling",
   e: "bewitchment:heaven_extract"
 })
@@ -651,7 +651,7 @@ event.shaped("bewitchment:cypress_broom", [" d ", "h 1", "ses"],
 {
   d: "kubejs:demon_pearl",
   h: "bewitchment:demon_heart",
-  1: "spectrum:spectral_shard",
+  1: "spectrum:paltaeria_gem",
   s: "bewitchment:cypress_sapling",
   e: "bewitchment:heaven_extract"
 })
@@ -662,7 +662,7 @@ event.shaped("bewitchment:elder_broom", [" d ", "h 1", "ses"],
 {
   d: "kubejs:demon_pearl",
   h: "bewitchment:demon_heart",
-  1: "spectrum:spectral_shard",
+  1: "spectrum:paltaeria_gem",
   s: "bewitchment:elder_sapling",
   e: "bewitchment:heaven_extract"
 })
@@ -673,7 +673,7 @@ event.shaped("bewitchment:dragons_blood_broom", [" d ", "h 1", "ses"],
 {
   d: "kubejs:demon_pearl",
   h: "bewitchment:demon_heart",
-  1: "spectrum:spectral_shard",
+  1: "spectrum:paltaeria_gem",
   s: "bewitchment:dragons_blood_sapling",
   e: "bewitchment:heaven_extract"
 })
@@ -722,7 +722,7 @@ event.replaceInput(
 event.replaceInput(
 { id: "doom:argent_plate" },
 "minecraft:netherite_scrap",
-"techreborn:tungstensteel_plate"
+"deeperdarker:soul_dust"
 );
 
 event.remove({id: "doom:axe_marauder_open"})
@@ -807,6 +807,14 @@ event.replaceInput(
 "minecraft:slime_ball",
 "gofish:slimefish"
 );
+
+event.shaped("bewitchment:demon_horn", ["12 ", "34 ", "   "],
+  {
+    1: "bewitchment:grim_elixir",
+    2: "bewitchment:fiery_serum",
+    3: "doom:argent_energy",
+    4: "minecraft:blaze_rod"
+  })
 
   // event.remove({id: "techreborn:crafting_table/tool/nanosaber"})
   // event.shaped("techreborn:nanosaber", ["p S", "paS", "1 2"],

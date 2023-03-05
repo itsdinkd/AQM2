@@ -86,6 +86,7 @@
     "compass_right_click": false,
     "placeable_books_glint": false,
     "banner_pattern_tooltip": true,
+    "paintings_tooltip": true,
     "mob_head_shaders": true
   },
   "items": {

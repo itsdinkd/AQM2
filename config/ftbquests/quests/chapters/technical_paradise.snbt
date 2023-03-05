@@ -15,15 +15,16 @@
 		{
 			title: "Mine Certus Bud"
 			icon: "spectrum:certus_quartz_cluster"
-			x: 0.0d
-			y: 0.0d
+			x: -2.0d
+			y: 1.0d
 			subtitle: "You need Certus Quartz for Applied Energistics 2... a lot of it.."
 			description: ["Found in Meteorites"]
+			size: 2.0d
 			id: "417915745B47F7AB"
 			tasks: [{
-				id: "5FCBD19356DCF510"
+				id: "766A83340B204C9A"
 				type: "item"
-				item: "ae2:certus_quartz_dust"
+				item: "ae2:certus_quartz_crystal"
 			}]
 			rewards: [{
 				id: "630E411B5DDC34E0"
@@ -38,7 +39,7 @@
 			y: 0.0d
 			subtitle: "Smelt Certus Dust into Silicon so you can make some presses next."
 			description: ["Make sure you have completed the first four Botania quests from \"What Sorcery is This\" to unlock the next quest."]
-			dependencies: ["417915745B47F7AB"]
+			dependencies: ["568190E51914593D"]
 			id: "5612740453389204"
 			tasks: [{
 				id: "453DF3180905D1F9"
@@ -53,11 +54,11 @@
 			}]
 		}
 		{
-			title: "Fluix Dust"
+			title: "Fluix Crystal"
 			x: 2.0d
 			y: 2.0d
 			subtitle: "Throw it in water?"
-			description: ["Throw Charged Certus Quartz, Redstone, and Nether Quartz into water and it will create Fluix Dust."]
+			description: ["Throw Charged Certus Quartz, Redstone, and Nether Quartz into water and it will create Fluix Crystal."]
 			dependencies: ["34A45EEBE143A514"]
 			id: "06E70622D9F330EC"
 			tasks: [{
@@ -75,12 +76,9 @@
 		{
 			title: "Charged Certus Quartz"
 			x: 0.0d
-			y: 2.0d
+			y: 4.0d
 			description: ["Right click on the charger with a Certus Quartz Crystal to begin charging it. After a moment it will turn into a Charged Certus Quartz Crystal."]
-			dependencies: [
-				"417915745B47F7AB"
-				"3EE872A3E563FBD8"
-			]
+			dependencies: ["3EE872A3E563FBD8"]
 			id: "34A45EEBE143A514"
 			tasks: [{
 				id: "6DF894D19440A251"
@@ -97,8 +95,9 @@
 		{
 			title: "Charger"
 			x: 0.0d
-			y: 4.0d
+			y: 2.0d
 			description: ["Power your charger by connecting it to your Tech Reborn or Modern Industrialization power source."]
+			dependencies: ["417915745B47F7AB"]
 			id: "3EE872A3E563FBD8"
 			tasks: [{
 				id: "59B3FAEC2CBEC1CF"
@@ -123,6 +122,7 @@
 				"06E70622D9F330EC"
 				"03DC791EC5F5BEBA"
 			]
+			size: 1.25d
 			id: "737F2F2D5BB68057"
 			tasks: [
 				{
@@ -1206,33 +1206,45 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -2.0d
+			x: -6.5d
+			y: 0.5d
 			subtitle: "Transfer power wirelessly - Quest coming soon"
 			hide: false
+			size: 1.6d
 			id: "2B5A3FAEFD45FF1C"
 			tasks: [{
 				id: "6B3138344546F600"
 				type: "item"
 				item: "wirelessnetworks:node_block"
 			}]
+			rewards: [{
+				id: "3DABC17A8127F539"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 		}
 		{
-			x: -4.5d
-			y: -3.5d
+			x: -6.5d
+			y: -1.0d
 			subtitle: "Transfer power wirelessly - Quest coming soon"
 			dependencies: ["2B5A3FAEFD45FF1C"]
 			hide_text_until_complete: false
+			size: 1.6d
 			id: "31FEC1D914195281"
 			tasks: [{
 				id: "6675D939BEBA4A82"
 				type: "item"
 				item: "wirelessnetworks:entangled_capacitor"
 			}]
+			rewards: [{
+				id: "772D70A339ACEB1E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 		}
 		{
-			x: -8.5d
-			y: -0.5d
+			x: -9.0d
+			y: 5.0d
 			subtitle: "Tank on the go"
 			id: "1489C5DF4EDE9997"
 			tasks: [{
@@ -1247,8 +1259,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -1.5d
+			x: -9.0d
+			y: 4.0d
 			subtitle: "Tank on the go, tier 2"
 			dependencies: ["1489C5DF4EDE9997"]
 			id: "3ADE65550136F2AC"
@@ -1264,8 +1276,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -1.5d
+			x: -8.0d
+			y: 4.0d
 			subtitle: "Tank on the go, tier 3"
 			dependencies: ["3ADE65550136F2AC"]
 			id: "5424DB42C0B6FDC3"
@@ -1281,8 +1293,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -0.5d
+			x: -8.0d
+			y: 5.0d
 			subtitle: "Tank on the go, tier 4"
 			dependencies: ["5424DB42C0B6FDC3"]
 			id: "4D384344BC41D00B"
@@ -1298,8 +1310,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -1.0d
+			x: -7.0d
+			y: 4.5d
 			subtitle: "Tank on the go, tier 5"
 			dependencies: ["4D384344BC41D00B"]
 			id: "343C5765272310D0"
@@ -1315,164 +1327,10 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 7.0d
-			description: [
-				"You can also input/output the machine block to other machines outside of the compact dimension. Each compact machine tier offers larger sizes. "
-				""
-				"Use the Personal Shrinking Device on the machine to teleport to the Compact Dimension of the machine"
-			]
-			dependencies: ["1608A7D764B07277"]
-			id: "4387560D82D9DA91"
-			tasks: [{
-				id: "48489BC0431382F9"
-				type: "item"
-				item: "compactmachines:machine_tiny"
-			}]
-			rewards: [{
-				id: "4A22D96B979B33BF"
-				type: "item"
-				item: "minecraft:apple"
-			}]
-		}
-		{
-			x: -7.0d
-			y: 7.0d
-			dependencies: ["4387560D82D9DA91"]
-			id: "07AC63277A2681D3"
-			tasks: [{
-				id: "249D09DE06B6268E"
-				type: "item"
-				item: "compactmachines:machine_small"
-			}]
-			rewards: [{
-				id: "057F2C74039284B9"
-				type: "item"
-				item: "kibe:wither_proof_glass"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 7.0d
-			dependencies: ["07AC63277A2681D3"]
-			id: "10B28CE34FB331F7"
-			tasks: [{
-				id: "122639A871EE05C1"
-				type: "item"
-				item: "compactmachines:machine_normal"
-			}]
-			rewards: [{
-				id: "709799D2E9E5C264"
-				type: "item"
-				item: "farmersdelight:smoked_ham"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 8.5d
-			dependencies: ["10B28CE34FB331F7"]
-			id: "0A5B3157B97578D6"
-			tasks: [{
-				id: "1A1B552C129D84F4"
-				type: "item"
-				item: "compactmachines:machine_large"
-			}]
-		}
-		{
-			x: -7.0d
-			y: 8.5d
-			dependencies: ["0A5B3157B97578D6"]
-			id: "1F265BBD16C4EC9E"
-			tasks: [{
-				id: "78FFF2AA68D11A49"
-				type: "item"
-				item: "compactmachines:machine_giant"
-			}]
-		}
-		{
-			x: -8.5d
-			y: 8.5d
-			subtitle: "Well worth it"
-			dependencies: ["1F265BBD16C4EC9E"]
-			id: "7EAF9F74436A4C2F"
-			tasks: [{
-				id: "2501D08705FCCC43"
-				type: "item"
-				item: "compactmachines:machine_maximum"
-			}]
-		}
-		{
-			x: -10.5d
-			y: 5.5d
-			dependencies: ["4387560D82D9DA91"]
-			id: "7152023471C62546"
-			tasks: [{
-				id: "376ACE3E4DF46181"
-				type: "item"
-				item: "compactmachines:personal_shrinking_device"
-			}]
-		}
-		{
-			x: -10.5d
-			y: 7.0d
-			dependencies: ["4387560D82D9DA91"]
-			id: "4705DA3D631CD9B2"
-			tasks: [{
-				id: "6950637C3F17F9D6"
-				type: "item"
-				item: {
-					id: "compactmachines:tunnel"
-					Count: 1b
-					tag: {
-						definition: {
-							id: "compactmachines:item"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -10.5d
-			y: 8.5d
-			dependencies: ["4387560D82D9DA91"]
-			id: "5D24913B073ED9CE"
-			tasks: [{
-				id: "05794CBE2969E817"
-				type: "item"
-				item: {
-					id: "compactmachines:tunnel"
-					Count: 1b
-					tag: {
-						definition: {
-							id: "compactmachines:fluid"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -10.5d
-			y: 10.0d
-			dependencies: ["4387560D82D9DA91"]
-			id: "7A2077BAB882E929"
-			tasks: [{
-				id: "1BDEDE36EF47D535"
-				type: "item"
-				item: {
-					id: "compactmachines:tunnel"
-					Count: 1b
-					tag: {
-						definition: {
-							id: "compactmachines:energy"
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -3.5d
-			y: 12.5d
+			x: -5.0d
+			y: 11.0d
 			subtitle: "Early Stage Power -- Power of Lava"
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
 			id: "4FFC268637249F04"
 			tasks: [{
 				id: "4DC431BBFD744A54"
@@ -1500,8 +1358,8 @@
 		}
 		{
 			title: "Fast Augment Pipes"
-			x: 1.0d
-			y: 12.5d
+			x: -8.5d
+			y: 11.0d
 			subtitle: "Fluid and Item Pipes by Modern Dynamics (Similar to Thermal Dynamics)"
 			description: [
 				"highly augmentable. In REI, look at Used Recipes for either of the three items received from this quest. You can use add these augments to increase speed, max slots, transfer rates of fluids, and more."
@@ -1540,69 +1398,311 @@
 			]
 		}
 		{
-			title: "Create Powerful Compact Machines"
-			x: -8.5d
-			y: 5.5d
-			subtitle: "Build your machines in a compact dimension (To complete: Submit the soot in the task)"
-			description: [
-				"To convert redstone into redstone soot, place a block of coal down, hold out the redstone, and left click the coal. each left click will convert redstone into redstone soot."
-				""
-				"Once you have 9 Redstone Soot's, Turn them into this quest by clicking the Redstone Soot task and clicking Submit"
-			]
-			secret: true
-			id: "3202E121B821C163"
+			x: -4.0d
+			y: 11.5d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "6B8F97CC7195B925"
 			tasks: [{
-				id: "7A0B5106EE1891DE"
+				id: "06BCFF9AED005E29"
 				type: "item"
-				item: "dml-refabricated:soot_redstone"
-				count: 9L
-				consume_items: true
-				only_from_crafting: false
+				item: "extragenerators:burnable_generator"
+			}]
+			rewards: [{
+				id: "762D2F71F8591750"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -5.0d
+			y: 12.0d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "1E7EE7639B22C7D8"
+			tasks: [{
+				id: "670F554978763464"
+				type: "item"
+				item: "extragenerators:icy_generator"
+			}]
+			rewards: [{
+				id: "0ABBF3C246C87F6A"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -4.0d
+			y: 12.5d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "3C43A690182F7724"
+			tasks: [{
+				id: "779E1E00A398916D"
+				type: "item"
+				item: "extragenerators:colorful_generator"
+			}]
+			rewards: [{
+				id: "50A4445AF92FB883"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -4.0d
+			y: 14.5d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "515B25EC25837DD8"
+			tasks: [{
+				id: "19CCB8F2A7DD6B00"
+				type: "item"
+				item: "extragenerators:sludgy_generator"
+			}]
+			rewards: [{
+				id: "50E0619761F5530B"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -5.0d
+			y: 15.0d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "4686C91370E3EE08"
+			tasks: [{
+				id: "78F27F6CCD987F1A"
+				type: "item"
+				item: "extragenerators:teleport_generator"
+			}]
+			rewards: [{
+				id: "60B7CFD3E416C376"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -5.0d
+			y: 14.0d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "6A6E07BD0E622D6C"
+			tasks: [{
+				id: "51E3AABD2CD83F03"
+				type: "item"
+				item: "extragenerators:scalding_generator"
+			}]
+			rewards: [{
+				id: "0F42A13D49EE4BB2"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -4.0d
+			y: 15.5d
+			description: [
+				"You can view usage of recipe to see all items this generator accepts for fuel using REI"
+				"Argeant Energy is great for this"
+			]
+			id: "382F9F268F2F0E95"
+			tasks: [{
+				id: "4FCD5EBF969A0EE2"
+				type: "item"
+				item: "extragenerators:steam_generator"
+			}]
+			rewards: [{
+				id: "0626FE22CF4966F7"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -4.0d
+			y: 17.5d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "07075F93CD88AB5B"
+			tasks: [{
+				id: "4FB69C6C832C751A"
+				type: "item"
+				item: "extragenerators:gluttony_generator"
+			}]
+			rewards: [{
+				id: "49D81AE0AE784BBD"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -5.0d
+			y: 18.0d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "463D7095BC38F7CC"
+			tasks: [{
+				id: "6A6ED19256063AEB"
+				type: "item"
+				item: "extragenerators:brew_generator"
+			}]
+			rewards: [{
+				id: "7AADB993BAE9C01D"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -5.0d
+			y: 17.0d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "35AE1393002AC0C0"
+			tasks: [{
+				id: "5C226F02FEAEE4AA"
+				type: "item"
+				item: "extragenerators:redstone_generator"
+			}]
+			rewards: [{
+				id: "413BBB2D64487098"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -4.0d
+			y: 18.5d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "6C77484ED650C574"
+			tasks: [{
+				id: "643BA37F1D119059"
+				type: "item"
+				item: "extragenerators:blast_generator"
+			}]
+			rewards: [{
+				id: "74D10769E6BAAC74"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -5.0d
+			y: 20.0d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "6BEF6F750A446FDC"
+			tasks: [{
+				id: "415C703EDA853160"
+				type: "item"
+				item: "extragenerators:enchanted_generator"
+			}]
+			rewards: [{
+				id: "521998B610196D37"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -4.0d
+			y: 20.5d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "7C9A63545DACB63A"
+			tasks: [{
+				id: "0555C8ADC71024AE"
+				type: "item"
+				item: "extragenerators:demise_generator"
+			}]
+			rewards: [{
+				id: "0B5FCFEA5CFAA201"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -5.0d
+			y: 22.0d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "0122F68D1F3D851B"
+			tasks: [{
+				id: "53252BB297EB64A2"
+				type: "item"
+				item: "extragenerators:dragon_generator"
+			}]
+			rewards: [{
+				id: "5260588CC8CF24B5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: 22.5d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "580E4E1F1EC528FF"
+			tasks: [{
+				id: "79A1DC437D33FBF2"
+				type: "item"
+				item: "extragenerators:withered_generator"
+			}]
+			rewards: [{
+				id: "04468D8DE05B3BD0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -5.0d
+			y: 24.0d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "0B75B4D7BB5C52BB"
+			tasks: [{
+				id: "5A3EF287EA774619"
+				type: "item"
+				item: "extragenerators:heavenly_generator"
 			}]
 			rewards: [
 				{
-					id: "5A9A4EA503359106"
-					type: "item"
-					item: "minecraft:water_bucket"
+					id: "5A1186000B1C7FA3"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 				{
-					id: "467B68EA32F96722"
+					id: "79C2DC5FFC1EBEA4"
 					type: "item"
-					item: "dml-refabricated:soot_redstone"
-					count: 9
+					item: "kubejs:silver_coin"
 				}
 			]
 		}
 		{
-			title: "Create Coolant"
-			x: -7.0d
-			y: 5.5d
-			subtitle: "Use Fluid Infuser MK1 with Water and Lapis"
-			description: ["Input 1000mb of Water, Add a Lapis. Export the Coolant (preferably into another fluid infuser)"]
-			dependencies: ["3202E121B821C163"]
-			secret: true
-			id: "499B15FC9C4ACFC0"
+			x: -4.0d
+			y: 24.5d
+			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
+			id: "0A30167A717A952F"
 			tasks: [{
-				id: "450363B11B7032F8"
-				type: "questsadditions:use"
-				icon: "indrev:fluid_infuser_mk1"
-				block_type: 0
-				block: "indrev:fluid_infuser_mk1"
-				value: 1L
-				checkItem: false
-				isItemInteraction: false
+				id: "1AB15ED955B42F0A"
+				type: "item"
+				item: "extragenerators:infernal_generator"
 			}]
+			rewards: [
+				{
+					id: "3B5EB8BF341751BF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "31CE912C51F8885C"
+					type: "item"
+					item: "kubejs:silver_coin"
+				}
+			]
 		}
 		{
-			x: -5.5d
-			y: 5.5d
-			subtitle: "Infuse the Coolant with Soot to create this wall"
-			dependencies: ["499B15FC9C4ACFC0"]
-			id: "1608A7D764B07277"
+			title: "Grind Certus Dust"
+			x: 0.0d
+			y: 0.0d
+			description: ["Use any method to grind for dust"]
+			dependencies: ["417915745B47F7AB"]
+			id: "568190E51914593D"
 			tasks: [{
-				id: "472B5CE507F6FECC"
+				id: "6403CC6D8F29ACDF"
 				type: "item"
-				item: "compactmachines:wall"
+				item: "ae2:certus_quartz_dust"
+			}]
+			rewards: [{
+				id: "7410DDECACBC3C95"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+				count: 18
 			}]
 		}
 	]

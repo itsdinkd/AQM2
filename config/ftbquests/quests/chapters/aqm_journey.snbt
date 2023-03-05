@@ -45,7 +45,7 @@
 				title: "Break some Twigs"
 				icon: "twigs:twig"
 				block_type: 1
-				block: "aqm:material/twigs"
+				block: "aqm2:material/twigs"
 				value: 3L
 				checkItem: false
 			}]
