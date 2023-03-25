@@ -19,7 +19,7 @@
 	maxBlocksBase = 0
 	#The multiplier to tool damage from mining additional blocks
 	#Range: 0 ~ 1000
-	toolDamageMultiplier = 10
+	toolDamageMultiplier = 7
 	#Whether or not to move all drops to the same location
 	relocateDrops = true
 	#Whether or not the tool takes damage from mining additional blocks

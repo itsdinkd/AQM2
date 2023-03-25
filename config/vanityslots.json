@@ -1,3 +1,4 @@
 {
-  "itemBlacklist": []
+  "itemBlacklist": [],
+  "disallowBinding": true
 }

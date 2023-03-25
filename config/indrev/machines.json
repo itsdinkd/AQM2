@@ -222,19 +222,19 @@
     "maxInput": 4096.0
   },
   "slaughterMk1": {
-    "energyCost": 32.0,
+    "energyCost": 128.0,
     "processSpeed": 70.0,
-    "maxEnergyStored": 1000.0,
-    "maxInput": 64.0
+    "maxEnergyStored": 1200.0,
+    "maxInput": 160.0
   },
   "slaughterMk2": {
-    "energyCost": 64.0,
+    "energyCost": 128.0,
     "processSpeed": 60.0,
     "maxEnergyStored": 5000.0,
-    "maxInput": 128.0
+    "maxInput": 256.0
   },
   "slaughterMk3": {
-    "energyCost": 128.0,
+    "energyCost": 160.0,
     "processSpeed": 50.0,
     "maxEnergyStored": 25000.0,
     "maxInput": 512.0

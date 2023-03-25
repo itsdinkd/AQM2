@@ -1,12 +1,13 @@
 {
   "thermoelectricGenerator": {
-    "output": 28,
+    "output": 32,
     "storage": 16000
   },
   "burnableGenerator": {
     "output": 24,
     "storage": 8000
   },
+"modern_industrialization:steam"
   "icyGenerator": {
     "output": 64,
     "storage": 16000

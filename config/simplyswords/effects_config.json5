@@ -1,10 +1,8 @@
 {
 // -- EFFECTS CONFIGURATION -- 
-
 //Chance range 0-100, where 100 = 100% chance to occur
 //Radius is measured in blocks
 //Duration in ticks, where 20 is equivalent to one second 
-
 // ---------------------------- 
 // -- Runic Power: Swiftness -- 
 // ---------------------------- 
@@ -25,11 +23,6 @@
 
 // ------------------------- 
 // -- Runic Power: Freeze -- 
-// ------------------------- 
-  "freeze_chance": 15.0,
-  "freeze_duration": 120.0,
-
-// --------------------------- 
 // -- Runic Power: Wildfire -- 
 // --------------------------- 
   "wildfire_chance": 10.0,
@@ -44,17 +37,6 @@
 
 // ------------------------- 
 // -- Runic Power: Zephyr -- 
-// ------------------------- 
-  "zephyr_chance": 15.0,
-  "zephyr_duration": 180.0,
-
-// ---------------------------- 
-// -- Runic Power: Shielding -- 
-// ---------------------------- 
-  "shielding_chance": 15.0,
-  "shielding_duration": 60.0,
-
-// ---------------------------- 
 // -- Runic Power: Stoneskin -- 
 // ---------------------------- 
   "stoneskin_chance": 15.0,
@@ -91,6 +73,16 @@
   "frostward_radius": 4.5,
   "frostward_slow_duration": 50.0,
 
+// --------------------------- 
+// -- Runic Power: Momentum -- 
+// --------------------------- 
+  "momentum_cooldown": 140.0,
+
+// ------------------------- 
+// -- Runic Power: Imbued -- 
+// ------------------------- 
+  "imbued_chance": 15.0,
+
 // ---------------------------- 
 // -- Unique Effect: Watcher -- 
 // -- Restore amount refers to health gained from each enemy in range -- 
@@ -105,13 +97,13 @@
 // -- Instantkill Threshold refers to the % of maxhealth an enemy must be UNDER in order for the effect to proc. Where 1 = 100% -- 
 // ------------------------- 
   "omen_chance": 50.0,
-  "omen_absorption_amount": 1.0,
-  "omen_instantkill_threshold": 0.145,
 
 // ------------------------------- 
 // -- Unique Effect: Soul Steal -- 
 // Duration refers to the haste, slow, and glow effects 
 // ------------------------------- 
+  "omen_absorption_amount": 1.0,
+  "omen_instantkill_threshold": 0.25,
   "steal_chance": 12.5,
   "steal_duration": 200.0,
   "steal_invis_duration": 100.0,
@@ -122,67 +114,68 @@
 // -- Unique Effect: Gravity -- 
 // NOT YET IMPLEMENTED 
 // ---------------------------- 
-  "gravity_chance": 20.0,
-  "gravity_duration": 166.0,
-  "gravity_radius": 7.0,
+  "gravity_chance": 35.0,
+  "gravity_duration": 250.0,
+  "gravity_radius": 10.0,
 
 // ------------------------------ 
 // -- Unique Effect: Soul Meld -- 
 // ------------------------------ 
-  "soulmeld_chance": 38.99,
-  "soulmeld_duration": 190.0,
+  "soulmeld_chance": 75.0,
+  "soulmeld_duration": 250.0,
   "soulmeld_radius": 5.0,
 
 // ------------------------------ 
 // -- Unique Effect: Soul Rend -- 
 // ------------------------------ 
-  "soulrend_chance": 55.0,
-  "soulrend_duration": 300.0,
-  "soulrend_rend_damage_multiplier": 1.55,
-  "soulrend_rend_heal_multiplier": 0.2111,
-  "soulrend_radius": 7.0,
-  "soulrend_max_stacks": 5.0,
+  "soulrend_chance": 85.0,
+  "soulrend_duration": 500.0,
+  "soulrend_rend_damage_multiplier": 3.0,
+  "soulrend_rend_heal_multiplier": 0.5,
+  "soulrend_radius": 10.0,
+  "soulrend_max_stacks": 8.0,
 
 // ----------------------------- 
 // -- Unique Effect: Ferocity -- 
 // ----------------------------- 
-  "ferocity_chance": 70.0,
-  "ferocity_duration": 90.0,
-  "ferocity_max_stacks": 12.0,
-  "ferocity_strength_tier": 1.0,
+  "ferocity_chance": 75.0,
+  "ferocity_duration": 100.0,
+  "ferocity_max_stacks": 15.0,
+  "ferocity_strength_tier": 2.0,
 
 // ------------------------------ 
 // -- Unique Effect: Ember Ire -- 
 // ------------------------------ 
-  "ember_ire_chance": 12.75,
-  "ember_ire_duration": 100.0,
+  "ember_ire_chance": 15.0,
+  "ember_ire_duration": 150.0,
 
 // ---------------------------------- 
 // -- Unique Effect: Volcanic Fury -- 
 // ---------------------------------- 
-  "volcanic_fury_chance": 20.0,
+  "volcanic_fury_chance": 25.0,
   "volcanic_fury_radius": 3.0,
-  "volcanic_fury_cooldown": 375.0,
+  "volcanic_fury_cooldown": 300.0,
   "volcanic_fury_damage": 3.0,
 
 // -------------------------- 
 // -- Unique Effect: Storm -- 
 // -------------------------- 
-  "storm_chance": 13.5,
-  "storm_radius": 9.0,
+  "storm_chance": 15.0,
+  "storm_radius": 10.0,
 
 // --------------------------- 
 // -- Unique Effect: Plague -- 
 // --------------------------- 
-  "plague_chance": 45.0,
+  "plague_chance": 55.0,
 
 // ------------------------------ 
 // -- Unique Effect: Brimstone -- 
 // ------------------------------ 
-  "brimstone_chance": 12.5,
+  "brimstone_chance": 15.0,
 
 // ---------------------------- 
 // -- Unique Effect: Bramble -- 
+// ---------------------------- 
 // ---------------------------- 
   "bramble_chance": 40.5,
   "bramble_radius": 7.5,

@@ -1,0 +1,27 @@
+{
+    "version": 3,
+    "debugLogging": false,
+    "scanner": {
+        "sizeX": 8,
+        "sizeY": 6,
+        "sizeZ": 8,
+        "interval": 20
+    },
+    "ambientEvents": {
+        "enabled": true,
+        "volume": 0.4,
+        "stopSounds": false,
+        "disableWind": false
+    },
+    "effects": {
+        "enabled": true,
+        "sizeX": 36,
+        "sizeY": 18,
+        "sizeZ": 36,
+        "randomTicks": 384
+    },
+    "footsteps": {
+        "enabled": false,
+        "volume": 0.65
+    }
+}

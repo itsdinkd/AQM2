@@ -703,18 +703,25 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "318A8F7D6D07191F"
-				type: "item"
-				item: "ae2:item_cell_housing"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "318A8F7D6D07191F"
+					type: "item"
+					item: "ae2:item_cell_housing"
+					count: 2
+				}
+				{
+					id: "49977058CA271BFC"
+					type: "item"
+					item: "megacells:mega_item_cell_housing"
+				}
+			]
 		}
 		{
 			title: "What are you going to do with this much fluid"
 			x: 10.0d
 			y: 7.0d
-			shape: "circle"
+			shape: "hexagon"
 			description: ["Are you storing the ocean?"]
 			dependencies: ["36EB6E38C860D5F3"]
 			optional: true
@@ -732,7 +739,7 @@
 				id: "57A40BF2D19FDC3D"
 				type: "item"
 				item: "ae2:fluid_cell_housing"
-				count: 2
+				count: 3
 			}]
 		}
 		{
@@ -751,13 +758,11 @@
 			}]
 		}
 		{
-			title: "End Game Crafting"
 			x: 14.0d
-			y: 8.0d
-			shape: "circle"
+			y: 7.0d
+			shape: "hexagon"
 			description: ["If you are autocrafting super complex and expensive recipies you may need this much crafting storage."]
 			dependencies: ["65CC9F873C944D4F"]
-			optional: true
 			id: "4A28F9A12CECAE35"
 			tasks: [{
 				id: "33796E9D0F5208D3"
@@ -774,7 +779,7 @@
 		{
 			title: "Multi-Tasking"
 			x: 16.0d
-			y: 6.0d
+			y: 5.5d
 			description: ["Add Co-Crafting Units to be able to process more than one part of a recipe at a time."]
 			dependencies: ["65CC9F873C944D4F"]
 			id: "6BF072B7BEE0DE34"
@@ -826,7 +831,7 @@
 			}]
 		}
 		{
-			title: "Storage Access from anyhwhere"
+			title: "Storage Access from anywhere"
 			x: 8.0d
 			y: 15.0d
 			shape: "circle"
@@ -1171,7 +1176,7 @@
 		}
 		{
 			x: 16.0d
-			y: 8.0d
+			y: 6.5d
 			subtitle: "What am I crafting?"
 			description: ["Add a crafting monitor to your Crafting multiblock to see what you are crafting at a glance."]
 			dependencies: ["65CC9F873C944D4F"]
@@ -1344,17 +1349,39 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -4.5d
+			x: 7.0d
+			y: -5.5d
+			shape: "circle"
 			subtitle: "Use AE2 Energy with Botania!"
-			description: ["Mana P2P tunnels can be made by right clicking any Botania item on a P2P tunnel. Mana can then instantly travel through to any outputs, such as a Mana pool, Runic Altar, Terrasteel Agglomeration Plate or anything else!"]
+			description: [
+				"Mana P2P tunnels can be made by right clicking any Botania item on a P2P tunnel. Mana can then instantly travel through to any outputs, such as a Mana pool, Runic Altar, Terrasteel Agglomeration Plate or anything else!"
+				""
+				"Make sure you craft MANA Storage cells"
+			]
 			dependencies: ["7EF3EEE918C70377"]
+			optional: true
 			id: "1CD9FBB6F96CAB6F"
 			tasks: [{
 				id: "529559B1E931AF85"
 				type: "item"
 				item: "appbot:mana_p2p_tunnel"
 			}]
+			rewards: [
+				{
+					id: "673E32EB6A66ED99"
+					type: "item"
+					item: "appbot:mana_cell_housing"
+				}
+				{
+					id: "18E29D2FB1C75860"
+					type: "item"
+					item: {
+						id: "appbot:mana_storage_cell_1k"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			title: "Fast Augment Pipes"
@@ -1704,6 +1731,404 @@
 				item: "ae2:certus_quartz_dust"
 				count: 18
 			}]
+		}
+		{
+			title: "&9Crafting Calculators"
+			x: 0.0d
+			y: 9.0d
+			subtitle: "&bCalculates recipe material costs"
+			description: ["Once you open this item it is &c&lHIGHLY RECOMMENDED&r to open the guide on the &cbottom right corner&r of the GUI"]
+			size: 2.0d
+			id: "71C3A8827747EFD7"
+			tasks: [{
+				id: "26752FEAFB937E1B"
+				type: "item"
+				item: "jecalculation:item_calculator_craft"
+			}]
+		}
+		{
+			title: "&9Math Calculator"
+			x: 2.0d
+			y: 9.0d
+			subtitle: "&bStandard calculator"
+			size: 2.0d
+			id: "7FBAA67B510209C4"
+			tasks: [{
+				id: "3E1418E150211CE1"
+				type: "item"
+				item: "jecalculation:item_calculator_math"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.0d
+			subtitle: "Requester Terminal. Must be connected to ME Network"
+			dependencies: ["714B49697C8BFCD1"]
+			id: "011885D720552F1A"
+			tasks: [{
+				id: "50920364F105261F"
+				type: "item"
+				item: "merequester:requester_terminal"
+			}]
+		}
+		{
+			title: "&b&lME Requester"
+			x: 16.0d
+			y: -2.0d
+			subtitle: "Keeps items and fluids in stock by automatically requesting new crafts when needed"
+			description: ["Hover over ME Requester and hold shift for tooltip explanation"]
+			dependencies: ["1FDE492726991561"]
+			size: 1.5d
+			id: "714B49697C8BFCD1"
+			tasks: [{
+				id: "297489669C53131C"
+				type: "item"
+				item: "merequester:requester"
+			}]
+			rewards: [{
+				id: "19979CFF3679467C"
+				type: "item"
+				item: "ae2:semi_dark_monitor"
+			}]
+		}
+		{
+			title: "Wow.. more fluid"
+			x: 10.0d
+			y: 8.0d
+			shape: "hexagon"
+			dependencies: ["1938AF274C8A119D"]
+			optional: true
+			id: "66D2AF6600AC6F16"
+			tasks: [{
+				id: "43E6CCA3AD7982BB"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3C4E1763AF57FFEC"
+				type: "item"
+				item: "megacells:mega_fluid_cell_housing"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 9.0d
+			shape: "circle"
+			description: ["Are you storing the ocean?"]
+			dependencies: ["66D2AF6600AC6F16"]
+			optional: true
+			id: "5E6794D4D75F8299"
+			tasks: [{
+				id: "5DAA61369473CB41"
+				type: "item"
+				item: {
+					id: "megacells:fluid_storage_cell_1m"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "76DE29B3CE8E43F6"
+				type: "item"
+				item: "megacells:mega_fluid_cell_housing"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: 11.0d
+			shape: "circle"
+			subtitle: "Storing multi world fluids eh?"
+			dependencies: ["2695D4864B73A1AD"]
+			optional: true
+			id: "6131B79A2E387D88"
+			tasks: [{
+				id: "13F711FD38E3B75A"
+				type: "item"
+				item: {
+					id: "megacells:fluid_storage_cell_256m"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "661B21CCF7F05A66"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 9.5d
+			y: 10.0d
+			shape: "circle"
+			dependencies: ["670400718F8AEB50"]
+			optional: true
+			id: "3BE1274715491EEB"
+			tasks: [{
+				id: "6A126955FFB9AD10"
+				type: "item"
+				item: {
+					id: "megacells:item_storage_cell_1m"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "27C2DAE677DC8F4C"
+				type: "item"
+				item: "megacells:mega_item_cell_housing"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 11.0d
+			shape: "circle"
+			dependencies: ["3BE1274715491EEB"]
+			optional: true
+			id: "6A4FEFC9BC3ADB06"
+			tasks: [{
+				id: "16B97877978ADC85"
+				type: "item"
+				item: {
+					id: "megacells:item_storage_cell_16m"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2FD4BEA2B8EF9639"
+				type: "item"
+				item: "megacells:mega_item_cell_housing"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 12.0d
+			shape: "circle"
+			subtitle: "You have a lot of items"
+			dependencies: ["6A4FEFC9BC3ADB06"]
+			optional: true
+			id: "757D544A9DC71EC7"
+			tasks: [{
+				id: "1E83D1E62B766FAA"
+				type: "item"
+				item: {
+					id: "megacells:item_storage_cell_256m"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "704BEBB6864238E3"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 6.578571428571443d
+			y: 4.638095238095254d
+			shape: "circle"
+			description: ["(WIP)"]
+			dependencies: ["619B1BEEE8FA52A9"]
+			hide: true
+			size: 0.5d
+			optional: true
+			id: "327C29E82D2FE3B4"
+			tasks: [{
+				id: "258CEC9D598BCBE8"
+				type: "item"
+				item: "ae2:spatial_pylon"
+			}]
+			rewards: [{
+				id: "406E4E4928D87B31"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 11.5d
+			y: 10.0d
+			shape: "circle"
+			description: ["Are you storing the ocean?"]
+			dependencies: ["5E6794D4D75F8299"]
+			optional: true
+			id: "2695D4864B73A1AD"
+			tasks: [{
+				id: "06E5A5D44C59C1BD"
+				type: "item"
+				item: {
+					id: "megacells:fluid_storage_cell_16m"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "79CE2B6F4A681D6A"
+				type: "item"
+				item: "megacells:mega_fluid_cell_housing"
+				count: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: 8.0d
+			shape: "hexagon"
+			subtitle: "Continuing down the path of excessive crafting storage"
+			dependencies: ["4A28F9A12CECAE35"]
+			id: "36AC2034685D31DC"
+			tasks: [{
+				id: "4F3E3D1E5101C053"
+				type: "item"
+				item: "ae2:256k_crafting_storage"
+			}]
+			rewards: [{
+				id: "7393C81D0635EE87"
+				type: "item"
+				item: "megacells:mega_crafting_unit"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 9.0d
+			shape: "circle"
+			subtitle: "Now you are in the MEGA path"
+			dependencies: ["36AC2034685D31DC"]
+			optional: true
+			id: "6BF30C19F1A143EE"
+			tasks: [{
+				id: "76FC9021CACD999D"
+				type: "item"
+				item: "megacells:1m_crafting_storage"
+			}]
+			rewards: [{
+				id: "4D5EBD31C7255EF9"
+				type: "item"
+				item: "megacells:mega_crafting_unit"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 8.5d
+			shape: "circle"
+			subtitle: "4 Co-processing threads per block"
+			dependencies: ["6BF30C19F1A143EE"]
+			optional: true
+			id: "46603BF25C38BDC9"
+			tasks: [{
+				id: "057C71B2A3F91928"
+				type: "item"
+				item: "megacells:mega_crafting_accelerator"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 10.0d
+			shape: "circle"
+			dependencies: ["6BF30C19F1A143EE"]
+			optional: true
+			id: "28A163A821F16823"
+			tasks: [{
+				id: "24AF1FB629B6BC3E"
+				type: "item"
+				item: "megacells:16m_crafting_storage"
+			}]
+			rewards: [{
+				id: "3518F12750DCD653"
+				type: "item"
+				item: "megacells:mega_crafting_unit"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 9.5d
+			shape: "circle"
+			subtitle: "MEGA crafting monitor"
+			dependencies: ["6BF30C19F1A143EE"]
+			optional: true
+			id: "71B52B11CC86AE1B"
+			tasks: [{
+				id: "35D24A5A2579DAE8"
+				type: "item"
+				item: "megacells:mega_crafting_monitor"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 11.0d
+			shape: "circle"
+			subtitle: "oh boy"
+			dependencies: ["28A163A821F16823"]
+			optional: true
+			id: "3E6F98FB87C18AB9"
+			tasks: [{
+				id: "77513AA77FCB5524"
+				type: "item"
+				item: "megacells:256m_crafting_storage"
+			}]
+			rewards: [{
+				id: "42FFDE54D5002DFE"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			x: 16.0d
+			y: 2.5d
+			shape: "circle"
+			dependencies: ["5A098D5D785A0336"]
+			optional: true
+			id: "2B447CE9B85E6830"
+			tasks: [{
+				id: "03E06F9F96977F0E"
+				type: "item"
+				item: "megacells:mega_pattern_provider"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "circle"
+			dependencies: ["16AB80CCFA7E4D64"]
+			optional: true
+			id: "7ED3937C939D08D0"
+			tasks: [{
+				id: "65447B953E033404"
+				type: "item"
+				item: "megacells:greater_energy_card"
+			}]
+		}
+		{
+			title: "Most Powwa Storage"
+			x: 10.0d
+			y: -8.0d
+			dependencies: ["67F17A72A072BFAD"]
+			id: "404FD84C564D17A0"
+			tasks: [{
+				id: "7EC73A3C662EDFCA"
+				type: "item"
+				item: {
+					id: "megacells:mega_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2DD98C67460FD8CF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5302F7AF259AC9D5"
+					type: "item"
+					item: "kubejs:silver_coin"
+					count: 10
+				}
+			]
 		}
 	]
 	quest_links: [ ]

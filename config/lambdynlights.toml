@@ -918,3 +918,9 @@
 				soul_magnet = true
 				soul_harvester = true
 
+			[light_sources.settings.entities.mageflame]
+				mage_flame = true
+				lesser_revelation = true
+				greater_revelation = true
+				winged_torch = true
+

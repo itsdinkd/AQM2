@@ -37,12 +37,6 @@
   //	]
   "blockMapping": [
     {
-      "myLootType": "BARREL",
-      "replaces": [
-        "minecraft:barrel"
-      ]
-    },
-    {
       "myLootType": "CHEST",
       "replaces": [
         ".*chest"

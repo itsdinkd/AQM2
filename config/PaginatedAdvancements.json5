@@ -3,8 +3,7 @@
 	"FadeOutBackgroundOnAdvancementHover": true,
 	// List of pinned Tabs (root advancement identifier)
 	"PinnedTabs": [
-		"spectrum:spectrum",
-		"earth:earthbounds/root"
+		"spectrum:spectrum"
 	],
 	// Save and restore the last selected tab
 	"SaveLastSelectedTab": true,

@@ -435,6 +435,93 @@
 				count: 3
 			}]
 		}
+		{
+			x: -20.75d
+			y: 3.25d
+			subtitle: "Floating torch that follows you and lights the area up around you"
+			min_required_dependencies: 1
+			dependencies: ["5C7A491BAC8A6281"]
+			size: 0.5d
+			id: "6C9696CBC12275FE"
+			tasks: [{
+				id: "74153BEE25EA00BD"
+				type: "item"
+				item: "mageflame:mage_flame_scroll"
+			}]
+			rewards: [{
+				id: "201E32EC445EB05E"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -21.25d
+			y: 3.5d
+			subtitle: "Increased light + lifespan"
+			min_required_dependencies: 1
+			dependencies: ["6C9696CBC12275FE"]
+			size: 0.5d
+			id: "45FF26F41E6FE3D1"
+			tasks: [{
+				id: "729FFE3E5B0A5CA6"
+				type: "item"
+				item: "mageflame:lesser_revelation_scroll"
+			}]
+			rewards: [{
+				id: "4D43A8BF078AD021"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -21.75d
+			y: 3.25d
+			subtitle: "Increased light + lifespan"
+			min_required_dependencies: 1
+			dependencies: ["45FF26F41E6FE3D1"]
+			size: 0.5d
+			id: "345BFADA96F57DD7"
+			tasks: [{
+				id: "18B83DF6F84D073B"
+				type: "item"
+				item: "mageflame:greater_revelation_scroll"
+			}]
+			rewards: [{
+				id: "5B1AF6BB957CF00D"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			x: -22.25d
+			y: 3.5d
+			subtitle: "Increased light + lifespan"
+			min_required_dependencies: 1
+			dependencies: ["345BFADA96F57DD7"]
+			size: 0.5d
+			id: "6E06C45C1E080CAF"
+			tasks: [{
+				id: "3E63CED16E44712F"
+				type: "item"
+				item: "mageflame:winged_torch_scroll"
+			}]
+			rewards: [
+				{
+					id: "5B54D2FA9D6C9DA1"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 25
+				}
+				{
+					id: "70D8EA8E4A48D845"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

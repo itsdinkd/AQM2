@@ -4,5 +4,11 @@
   "enableTrails": true,
   "enableAnimatedSails": true,
   "renderDistance": 192.0,
+  "fuelConsumption": 1.0,
+  "windClearWeather": 1.0,
+  "windRainWeather": 3.0,
+  "windThunderWeather": 3.0,
+  "collisionDamage": true,
+  "onlyPlayerCanDestroyAircraft": true,
   "version": 1
 }
