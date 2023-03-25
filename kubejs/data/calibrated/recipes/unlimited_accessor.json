@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "soulsweapons:verglas"
+  },
+  "base": {
+    "item": "calibrated:expert_accessor"
+  },
+  "result": {
+    "item": "calibrated:unlimited_accessor"
+  }
+}

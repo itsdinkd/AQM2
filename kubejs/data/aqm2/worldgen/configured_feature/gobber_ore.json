@@ -7,7 +7,7 @@
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "indrev:nikolite_ore"
+          "Name": "gobber2:gobber2_ore"
         }
       },
       {
@@ -16,12 +16,12 @@
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "indrev:deepslate_nikolite_ore"
+          "Name": "gobber2:gobber2_ore_deepslate"
         }
       }
     ],
-    "size": 2,
-    "discard_chance_on_air_exposure": 0.99
+    "size": 3,
+    "discard_chance_on_air_exposure": 0.8
   },
   "type": "minecraft:ore"
 }

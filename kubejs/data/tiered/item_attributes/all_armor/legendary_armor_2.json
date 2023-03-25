@@ -64,7 +64,7 @@
         {
             "type": "combatroll:count",
             "modifier": {
-                "name": "tiered:legendary_armor_1",
+                "name": "tiered:legendary_armor_2",
                 "operation": "ADDITION",
                 "amount": 1
             },

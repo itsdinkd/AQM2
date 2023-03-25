@@ -14,7 +14,7 @@
                 "witcheroriginaddon:textures/gui/relic_weapon_image.png"
             ],
             "text": "Turn the page to learn more..."
-        },
+        },"techreborn:titan"
         {
             "anchor": "page_aerondight",
             "type": "patchouli:spotlight",

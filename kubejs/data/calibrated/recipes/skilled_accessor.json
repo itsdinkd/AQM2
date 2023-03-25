@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "modern_industrialization:highly_advanced_upgrade"
+    },
+    "C": {
+      "item": "bewitchment:demon_heart"
+    },
+    "X": {
+      "item": "calibrated:novice_accessor"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CXC",
+    "CCC"
+  ],
+  "result": {
+    "item": "calibrated:skilled_accessor"
+  }
+}

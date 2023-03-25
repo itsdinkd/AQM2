@@ -37,18 +37,7 @@
             "modifier": {
                 "name": "tiered:legendary_melee_1",
                 "operation": "ADDITION",
-                "amount": -3
-            },
-            "optional_equipment_slots": [
-                "MAINHAND"
-            ]
-        },
-        {
-            "type": "generic.movement_speed",
-            "modifier": {
-                "name": "tiered:legendary_armor_3",
-                "operation": "MULTIPLY_TOTAL",
-                "amount": -0.1
+                "amount": -1
             },
             "optional_equipment_slots": [
                 "MAINHAND"

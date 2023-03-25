@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "calibrated:novice_accessor",
+    "calibrated:skilled_accessor",
+    "calibrated:expert_accessor",
+    "calibrated:unlimited_accessor"
+  ]
+}

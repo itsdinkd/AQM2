@@ -48,14 +48,6 @@ REIEvents.groupEntries(event => {
     consistencyPlusGroupings.forEach(id => {
       event.groupItemsByTag(`consistency_plus:rei_groups/` + id, id, 'consistency_plus:materials/'+id)
     })
-
-    const useNbtGroups = ['potion', 'enchanted_book', 'splash_potion', 'tipped_arrow', 'lingering_potion']
-
-    useNbtGroups.forEach(id, i => {
-      const item = Item.of(id)
-      const { namespace, path } = Utils.id(item.id)
-      event.groupSameItem(`kubejs:rei_groups/${namespace}/${path}`, item.name, item)
-    })
     
     // Spawn Eggs grouped
     event.groupItems('kubejs:rei_groups/spawn_eggs', 'Spawn Eggs', [
@@ -133,4 +125,12 @@ event.groupItems('simplyswords:rei_groups/type/gobber', 'Gobber Weapons', [/simp
 event.groupItems('simplyswords:rei_groups/type/gobber_nether', 'Nether Gobber Weapons', [/simplyswords:.*gobber_nether.*/]) 
 event.groupItems('simplyswords:rei_groups/type/gobber_end', 'End Gobber Weapons', [/simplyswords:.*gobber_end.*/]) 
 event.groupItems('simplyswords:rei_groups/type/runic', 'Runic Weapons', [/simplyswords:.*runic.*/]) 
+
+const useNbt = ['potion', 'enchanted_book', 'splash_potion', 'tipped_arrow', 'lingering_potion']
+
+useNbt.forEach(id => {
+  const item = Item.of(id)
+  const { namespace, path } = Utils.id(item.id)
+  event.groupSameItem(`kubejs:rei_groups/${namespace}/${path}`, Text.translate(item.descriptionId), item)
+})  
   });

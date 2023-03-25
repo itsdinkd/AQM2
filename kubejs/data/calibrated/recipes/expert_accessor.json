@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "gobber2:dragon_star"
+    },
+    "C": {
+      "item": "techreborn:uu_matter"
+    },
+    "X": {
+      "item": "calibrated:calibrator"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CXC",
+    "CCC"
+  ],
+  "result": {
+    "item": "calibrated:skilled_accessor"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "soulsweapons:moonstone"
+      },
+      {
+        "item": "jecalculation:item_calculator_craft"
+      },
+      {
+        "fluid": "modern_industrialization:cryofluid",
+        "nbt": {},
+        "amount": 20000
+      }
+    ],
+    "results": [
+      {
+        "item": "calibrated:calibrator",
+        "count": 8
+      }
+    ]
+  }

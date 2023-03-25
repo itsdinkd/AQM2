@@ -1,8 +1,8 @@
 {
-  "feature": "aqm2:mi_mozanite",
+  "feature": "aqm2:mi_mozanite_ore",
   "placement": [
     {
-      "count": 2,
+      "count": 3,
       "type": "minecraft:count"
     },
     {

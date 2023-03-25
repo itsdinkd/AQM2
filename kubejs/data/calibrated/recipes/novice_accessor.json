@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "lightestlamp:lanthanum_ore"
+    },
+    "C": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "X": {
+      "item": "calibrated:calibrator"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CXC",
+    "CCC"
+  ],
+  "result": {
+    "item": "calibrated:novice_accessor"
+  }
+}

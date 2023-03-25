@@ -64,7 +64,7 @@
         {
             "type": "combatroll:recharge",
             "modifier": {
-                "name": "tiered:legendary_armor_1",
+                "name": "tiered:legendary_armor_4",
                 "operation": "MULTIPLY_TOTAL",
                 "amount": 0.5
             },

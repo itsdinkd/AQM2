@@ -40,7 +40,7 @@
             "modifier": {
                 "name": "tiered:legendary_ranged_2",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.05
+                "amount": 0.03
             },
             "optional_equipment_slots": [
                 "MAINHAND"

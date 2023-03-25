@@ -7,7 +7,7 @@
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "gobber2:gobber2_lucky_block"
+          "Name": "modern_industrialization:mozanite_ore"
         }
       },
       {
@@ -16,12 +16,12 @@
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "gobber2:gobber2_lucky_block_deepslate"
+          "Name": "modern_industrialization:deepslate_mozanite_ore"
         }
       }
     ],
-    "size": 2,
-    "discard_chance_on_air_exposure": 0.85
+    "size": 3,
+    "discard_chance_on_air_exposure": 0.3
   },
   "type": "minecraft:ore"
 }

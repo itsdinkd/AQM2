@@ -1,5 +1,5 @@
 {
-  "feature": "aqm2:gobber",
+  "feature": "aqm2:gobber_ore",
   "placement": [
     {
       "count": 3,
@@ -11,10 +11,10 @@
     {
       "height": {
         "min_inclusive": {
-          "absolute": -64
+          "absolute": -20
         },
         "max_inclusive": {
-          "absolute": -10
+          "absolute": 20
         },
         "type": "minecraft:uniform"
       },

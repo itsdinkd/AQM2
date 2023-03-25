@@ -116,6 +116,8 @@ LootJS.modifiers((event) => {
 
     event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY).removeLoot("galosphere:silver_ingot")
 
+    event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY).removeLoot("tempad:he_who_remains_tempad")
+
     event.addLootTypeModifier(LootType.CHEST).removeLoot("gobber2:gobber2_arrow_end")
 
     event.addLootTypeModifier(LootType.CHEST).removeLoot("gobber2:gobber2_arrow_nether")
@@ -129,7 +131,7 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("minecraft:ender_dragon").removeLoot("dragonloot:dragon_scale")
     event.addEntityLootModifier("minecraft:ender_dragon").pool((p) => { 
         p.addLoot("dragonloot:dragon_scale");
-        p.limitCount([0, 1], [1, 1])
+        p.limitCount([0, 1], [2, 2])
     });
     event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_white")
     event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_red")
@@ -172,12 +174,12 @@ LootJS.modifiers((event) => {
 
     event.addLootTableModifier(/.*:entities\/.*zombie.*/).randomChance(0.10).pool((p) => { 
         p.addLoot("mobz:hardenedmetal_ingot"); 
-        p.limitCount([1, 1], [2, 2]); 
+        p.limitCount([0, 1], [2, 3]); 
     });
 
     event.addEntityLootModifier("soulsweapons:chaos_monarch", "soulsweapons:draugr_boss", "soulsweapons:accursed_lord_boss", "soulsweapons:returning_knight", "soulsweapons:moonknight").pool((p) => { 
         p.addLoot("soulsweapons:verglas");
-        p.limitCount([1, 1], [2, 3])
+        p.limitCount([1, 1], [2, 2])
     });
 
     event.addEntityLootModifier("adventurez:void_shadow").addLoot("friendsandfoes:wildfire_crown")
@@ -197,7 +199,7 @@ LootJS.modifiers((event) => {
 
           event.addEntityLootModifier(mob).pool((p) => {
             p.addLoot("soulsweapons:moonstone"); 
-            p.limitCount([2, 2], [3, 4])
+            p.limitCount([2, 3], [3, 3])
         });
 
    });
