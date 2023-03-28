@@ -29,13 +29,13 @@ command_require_creative = true
 #Controls the HTTP API
 [http]
 	#Enable the "http" API on Computers (see "rules" for more fine grained control than this).
-	enabled = false
+	enabled = true
 	#Enable use of http websockets. This requires the "http_enable" option to also be true.
 	websocket_enabled = true
 	#The number of http requests a computer can make at one time. Additional requests will be queued, and sent when the running requests have finished. Set to 0 for unlimited.
-	max_requests = 10
+	max_requests = 16
 	#The number of websockets a computer can have open at one time. Set to 0 for unlimited.
-	max_websockets = 2
+	max_websockets = 4
 
 	#A list of rules which control behaviour of the "http" API for specific domains or IPs.
 	#Each rule is an item with a 'host' to match against, and a series of properties. The host may be a domain name ("pastebin.com"),
@@ -48,10 +48,13 @@ command_require_creative = true
 		#The maximum size (in bytes) that a computer can send or receive in one websocket packet.
 		max_websocket_message = 131072
 		host = "*"
-		#The maximum size (in bytes) that a computer can upload in a single request. This includes headers and POST text.
+		#The maximum size (in bytes) that a computer can upload in a single request. This
+		#includes headers and POST text.
 		max_upload = 4194304
 		action = "allow"
-		#The maximum size (in bytes) that a computer can download in a single request. Note that responses may receive more data than allowed, but this data will not be returned to the client.
+		#The maximum size (in bytes) that a computer can download in a single request.
+		#Note that responses may receive more data than allowed, but this data will not
+		#be returned to the client.
 		max_download = 16777216
 		#The period of time (in milliseconds) to wait before a HTTP request times out. Set to 0 for unlimited.
 		timeout = 30000

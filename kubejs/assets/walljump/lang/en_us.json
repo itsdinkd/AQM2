@@ -1,0 +1,23 @@
+{
+  "key.walljump.walljump": "Wall Jump / Wall Cling",
+  "key.walljump.doublejump": "Double Jump",
+  "category.walljump.walljump": "Wall Jump",
+  "enchantment.walljump.walljump": "Wall-Jump!",
+  "enchantment.walljump.doublejump": "Wall-Jump",
+  "enchantment.walljump.doublejump.desc": "Hold down keybind while jumping onto wall to cling onto wall",
+  "enchantment.walljump.speedboost": "Speed-Boost",
+  "text.autoconfig.walljump.option.allowReclinging": "Allow Reclinging",
+  "text.autoconfig.walljump.option.autoRotation": "Auto Rotation",
+  "text.autoconfig.walljump.option.classicDoubleJump": "Enable Classic Double Jump",
+  "text.autoconfig.walljump.option.enableElytraWallCling": "Enable Elytra Wall Cling",
+  "text.autoconfig.walljump.option.elytraSpeedBoost": "Elytra Speed Boost",
+  "text.autoconfig.walljump.option.exhaustionWallJump": "Exhaustion Wall Jump",
+  "text.autoconfig.walljump.option.minFallDistance": "Minimum Fall Distance",
+  "text.autoconfig.walljump.option.playFallSound": "Play Fall Sound",
+  "text.autoconfig.walljump.option.sprintSpeedBoost": "Sprint Speed Boost",
+  "text.autoconfig.walljump.option.stepAssist": "Step Assist",
+  "text.autoconfig.walljump.option.useDoubleJump": "Use Double Jump",
+  "text.autoconfig.walljump.option.useWallJump": "Use Wall Jump",
+  "text.autoconfig.walljump.option.wallJumpHeight": "Wall Jump Height",
+  "text.autoconfig.walljump.option.wallSlideDelay": "Wall Slide Delay"
+}

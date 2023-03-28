@@ -1,0 +1,56 @@
+{
+    "generic.dig_speed": "Velocidade de escavação",
+    "generic.crit_chance": "Chance Crítica",
+    "generic.durable": "Durabilidade",
+    "generic.range_attack_damage": "Dano de Ataque à Distância",
+  
+    "tiered:common.label": "Comum",
+    "tiered:uncommon.label": "Incomum",
+    "tiered:rare.label": "Raro",
+    "tiered:epic.label": "Épico",
+    "tiered:legendary.label": "Lendário",
+  
+    "tiered:dented.label": "Amassado",
+    "tiered:fortified.label": "Fortificado",
+    "tiered:heavy.label": "Pesado",
+    "tiered:reinforced.label": "Reforçado",
+    "tiered:resilient.label": "Resiliente",
+    "tiered:unchained.label": "Desacorrentado",
+  
+    "tiered:extended.label": "Estendido",
+  
+    "tiered:lucky.label": "Sortudo",
+  
+    "tiered:hasteful.label": "Apressado",
+    "tiered:swift.label": "Rápido",
+  
+    "tiered:berserk.label": "Furioso",
+    "tiered:critical.label": "Crítico",
+    "tiered:dull.label": "Maçante",
+    "tiered:keen.label": "Ansioso",
+    "tiered:sharp.label": "Afiado",
+  
+    "tiered:corrodet.label": "Corroer",
+    "tiered:dawnguard.label": "Dawnguard",
+    "tiered:guardian.label": "Guardião",
+    "tiered:light.label": "Leve",
+    "tiered:mercy.label": "Misericórdia",
+  
+    "tiered:battered.label": "Maltratado",
+    "tiered:hunting.label": "Caçando",
+    "tiered:longshot.label": "Tiro longo",
+    "tiered:revenant.label": "fantasma",
+  
+    "text.autoconfig.tiered.title": "Tiered Configuração",
+    "text.autoconfig.tiered.option.lootContainerModifier": "Modificador de contêiner de saque",
+    "text.autoconfig.tiered.option.xIconPosition": "Posição do ícone X",
+    "text.autoconfig.tiered.option.yIconPosition": "Posição do ícone Y",
+    "text.autoconfig.tiered.option.reforge_modifier": "Modificador de Reforja",
+    "text.autoconfig.tiered.option.levelz_reforge_modifier": "Modificador de Reforja LevelZ",
+  
+    "container.reforge": "Engrenagem de Reforja",
+    "screen.tiered.reforging_screen": "Engrenagem de Reforja",
+  
+    "text.tiered.smithing_info_1_1": "Cada ponto de habilidade aumenta a sorte",
+    "text.tiered.smithing_info_1_2": "de reforjar por %d%%"
+  }

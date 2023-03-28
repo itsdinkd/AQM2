@@ -1,0 +1,50 @@
+{
+    "generic.dig_speed": "挖掘速度",
+    "generic.crit_chance": "暴击几率",
+    "generic.durable": "耐久",
+    "generic.range_attack_damage": "射击距离",
+    "generic.attack_range": "攻击范围",
+    "generic.reach": "触及半径",
+  
+    "tiered:common.label": "普通",
+    "tiered:uncommon.label": "不凡",
+    "tiered:rare.label": "稀有",
+    "tiered:epic.label": "史诗",
+    "tiered:legendary.label": "传说",
+  
+    "tiered:dented.label": "破损",
+    "tiered:fortified.label": "坚厚",
+    "tiered:heavy.label": "沉重",
+    "tiered:reinforced.label": "加固",
+    "tiered:resilient.label": "适应",
+    "tiered:unchained.label": "狂野",
+  
+    "tiered:extended.label": "延展",
+  
+    "tiered:lucky.label": "幸运",
+  
+    "tiered:hasteful.label": "急迫",
+    "tiered:swift.label": "迅捷",
+  
+    "tiered:berserk.label": "嗜血",
+    "tiered:critical.label": "失稳",
+    "tiered:dull.label": "钝化",
+    "tiered:keen.label": "锋锐",
+    "tiered:sharp.label": "锋利",
+  
+    "tiered:corrodet.label": "腐朽",
+    "tiered:dawnguard.label": "磐固",
+    "tiered:guardian.label": "荣耀",
+    "tiered:light.label": "柔韧",
+    "tiered:mercy.label": "宽恕",
+  
+    "tiered:battered.label": "磨损",
+    "tiered:hunting.label": "狩猎",
+    "tiered:longshot.label": "破空",
+    "tiered:revenant.label": "追魂",
+  
+    "text.autoconfig.tiered.title": "Tiered 配置",
+    "text.autoconfig.tiered.option.lootContainerModifier": "战利品宝箱调整器",
+  
+    "container.reforge": "重铸台"
+  }

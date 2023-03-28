@@ -488,6 +488,7 @@
 				amber_chicken = true
 				tropical_slime = true
 				albino_cow = true
+				spotted_pig = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
