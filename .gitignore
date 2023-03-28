@@ -103,3 +103,5 @@ options.amecsapi.txt
 .vscode/settings.json
 /config-bk - Copy
 /ModTranslations
+/automation/secrets.ps1
+/*.zip

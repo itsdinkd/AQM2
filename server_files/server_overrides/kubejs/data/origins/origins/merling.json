@@ -1,0 +1,11 @@
+{
+	"powers": [
+	],
+	"icon": {
+		"item": "minecraft:cod"
+	},
+	"order": 1,
+	"impact": 3,
+	"unchoosable": true,
+	"loading_priority": 100
+}

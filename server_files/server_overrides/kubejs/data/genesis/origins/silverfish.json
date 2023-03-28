@@ -1,0 +1,11 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:infested_stone",
+  "order": 5,
+  "impact": 2,
+  "name":"Infested",
+  "description": "You are descended from the scuttling silverfish. They know you, and come at your call.",
+  "unchoosable": true,
+  "loading_priority": 100
+}
