@@ -1,7 +1,8 @@
 
 ### Another Quality Modpack v1.4.4
 
-_Fabric Loader 0.14.18_ 
+
+_Fabric Loader 0.14.18_  _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.4.4.md)_
 
 ## CHANGED
 - Reworked MEGA Crafting Unit recipe to use stock AE2 crafting units
