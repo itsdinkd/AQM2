@@ -100,3 +100,7 @@ fancymenu_instance_data/
 data/
 Create_Backup_Datapacks/
 fancymenu_data/
+/ModTranslations
+/automation/secrets.ps1
+/*.zip
+/overrides

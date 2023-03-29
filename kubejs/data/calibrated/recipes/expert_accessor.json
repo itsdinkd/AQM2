@@ -8,7 +8,7 @@
       "item": "techreborn:uu_matter"
     },
     "X": {
-      "item": "calibrated:calibrator"
+      "item": "calibrated:skilled_accessor"
     }
   },
   "pattern": [
@@ -17,6 +17,6 @@
     "CCC"
   ],
   "result": {
-    "item": "calibrated:skilled_accessor"
+    "item": "calibrated:expert_accessor"
   }
 }

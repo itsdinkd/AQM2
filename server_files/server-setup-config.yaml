@@ -1,0 +1,198 @@
+_specver: 2
+
+modpack:
+  name: Another Quality Modpack 2
+  description: Largest Fabric 1.18.2 Modpack with 100+ Unique Biomes | Origins, Tech, Magic, Tiered Gear, New Bosses/Mobs/Mounts
+  
+install:
+  mcVersion: 1.19.2
+  loaderVersion: 0.14.18
+  
+  modpackUrl: https://media.forgecdn.net/files/4463/742/AQM2-1.19.2-1.4.4.zip
+  installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.jar
+  
+  ignoreFiles:
+    - mods/optifine*.jar
+    - mods/Overrides.txt
+    - mods/optifine*.jar
+    - mods/optiforge*.jar
+    - mods/fancymenu
+    - resources/
+    - shaderpacks/
+    - kubejs/client_scripts
+    - kubejs/probejs
+    - kubejs/assets
+    - packmenu/
+    - openloader/resources
+    - config/fancymenu
+    - servers.dat
+
+  additionalFiles:
+  localFiles:
+    - from: server_overrides/
+      to: /
+  
+  installerArguments:
+    - "server"
+    - "-downloadMinecraft"
+    - "-mcversion"
+    - "1.19.2"
+    - "-loader"
+    - "0.14.18"
+
+  modpackFormat: curse
+  
+  formatSpecific:
+    ignoreProject: 
+      - 242064 #Item Scroller
+      - 245733 #torohealth
+      - 250419 #enct descriptions
+      - 254284 #AmbientSounds
+      - 262366 #KEyboardWizard+
+      - 271492 #IKWID
+      - 277668 #Armor Sound Tweak
+      - 278476 #CustomCursor
+      - 279429 #Autorun
+      - 291480 #BiomeInfo
+      - 292908 #illuminations
+      - 296468 #NoFog
+      - 297038 #CraftPresence
+      - 306549 #Tips
+      - 308702 #Mod Menu
+      - 308793 #ClearDespawn
+      - 313219 #HealthOverlay
+      - 320163 #AmbientEnvironment
+      - 325492 #Light Overlay
+      - 328166 #BiomeInfo
+      - 331965 #enchantment tooltips
+      - 334259 #Presence Footsteps
+      - 335493 #Dynamic FPS
+      - 349630 #WI Zoom
+      - 355583 #Advancements Enlarger
+      - 356643 #authme
+      - 357540 #InventoryHUD
+      - 365521 #Pling
+      - 374274 #YOSBR
+      - 388252 #Notes
+      - 392805 #cleancut
+      - 393442 #lambdynamiclights
+      - 394468 #Sodium
+      - 396094 #ArmorPoints
+      - 397217 #chesttracker
+      - 400322 #lambdabettergrass
+      - 400929 #cAn i MiNe thIS bLOCk?
+      - 401648 #Better f3
+      - 401978 #Disable Custom Worlds Advice
+      - 405262 #clickthrough
+      - 407206 #Chatheads
+      - 407981 #Precise Block Placement
+      - 411557 #tooltipfix
+      - 415758 #Smooth Boot
+      - 416406 #breakprogress
+      - 416796 #Fancy Menu
+      - 416797 #Konkrete
+      - 417510 #fallingleaves
+      - 433518 #lazydfu
+      - 435044 #better3rdperson
+      - 435141 #No Angled brackets
+      - 437443 #bettersodiumoptions
+      - 444972 #big-items-duh
+      - 446173 #enhanced_attack_indicator
+      - 447673 #Extra sodium
+      - 448233 #Entity Culling
+      - 448311 #DripSounds
+      - 455508 #Iris
+      - 459496 #indium
+      - 463169 #Puddles Bugged
+      - 472772 # Dashloader
+      - 489631 #fuelinfo
+      - 495059 #Just Enough Keys
+      - 495267 #Inventory Profiles Next
+      - 506898 #DetailArmorBar
+      - 511319 #Reeses Sodium Options
+      - 514882 #advancement plaques
+      - 515172 #Drippy Loading
+      - 521126 #visuality
+      - 521480 #3dskinlayers
+      - 521480 #3dSkinLayers
+      - 521594 #WaveyCapes
+      - 530816 #no telemetary
+      - 531351 #continuity
+      - 537653 #End Goblin Traders
+      - 541329 #EquipmentCompare
+      - 541604 #Item borders
+      - 542478 #Legendary Tooltips
+      - 545836 #Mini effects
+      - 545836 #MiniEffects
+      - 547358 #wmitaf
+      - 547474 #PickUpNotifier
+      - 547692 #Client Tweaks
+      - 550387 #otter
+      - 556381 #Effective
+      - 582640 #better fps
+      - 582640 #BetterFPSDist
+      - 585406 #ProbeJS
+      - 585548 #bhmenu
+      - 585548 #BHMENU
+      - 594146 #aofemotes
+      - 613070 #Audioext
+      - 613072 #auudio
+      - 618770 #paginatedadvancements
+      - 619718 #CullLessLeaves
+      - 630620 #FastLoad
+      - 676136 #Model Gap Fix
+
+  baseInstallPath: ~
+  
+  checkFolder: true
+  
+  installLoader: true
+  
+  installPack: true
+  
+  spongeBootstrapper: ~
+
+  connectTimeout: 90
+
+  readTimeout: 90
+
+launch:
+  # specifies the max amount of ram the server is supposed to launch with (Xmx)
+  maxRam: 5G
+  # specifies the minimal amount of ram the server is supposed to launch with (Xms)
+  minRam: 3G
+  # specifies whether the server is supposed to auto restart after crash
+  autoRestart: true
+  javaArgs:
+    - "-XX:+UseG1GC"
+    - "-XX:+ParallelRefProcEnabled"
+    - "-XX:MaxGCPauseMillis=100"
+    - "-XX:+UnlockExperimentalVMOptions"
+    - "-XX:+DisableExplicitGC"
+    - "-XX:+AlwaysPreTouch"
+    - "-XX:G1NewSizePercent=30"
+    - "-XX:G1MaxNewSizePercent=40"
+    - "-XX:G1HeapRegionSize=8M"
+    - "-XX:G1ReservePercent=20"
+    - "-XX:G1HeapWastePercent=5" 
+    - "-XX:G1MixedGCCountTarget=4" 
+    - "-XX:InitiatingHeapOccupancyPercent=15" 
+    - "-XX:G1MixedGCLiveThresholdPercent=90" 
+    - "-XX:G1RSetUpdatingPauseTimePercent=5" 
+    - "-XX:SurvivorRatio=32" 
+    - "-XX:+PerfDisableSharedMem" 
+    - "-XX:MaxTenuringThreshold=1" 
+    
+  spongefix: false
+  ramDisk: false
+  checkOffline: true
+  crashLimit: 10
+  crashTimer: 60min
+  preJavaArgs: ~
+  forcedJavaPath: ~
+  startFile: ""
+  startCommand:
+    - "-jar"
+    - "fabric-server-launch.jar"
+    - "nogui"
+    
