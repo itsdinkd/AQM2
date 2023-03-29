@@ -52,7 +52,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "[The changelogs page](https://github.com/itsdinkd/AQM2/blob/1.18.2/changelogs/changelog.md)"
+$CLIENT_CHANGELOG = "[The changelogs page](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
