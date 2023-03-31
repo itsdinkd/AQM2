@@ -186,6 +186,7 @@
 				type: "item"
 				item: "kubejs:copper_coin"
 				count: 20L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "24AF70E053D9D72C"
@@ -208,6 +209,7 @@
 				type: "item"
 				item: "kubejs:copper_coin"
 				count: 50L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "13E78FB9C8A42983"
@@ -228,6 +230,7 @@
 				type: "item"
 				item: "kubejs:copper_coin"
 				count: 24L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "15F0B729694271FA"
@@ -248,6 +251,7 @@
 				type: "item"
 				item: "kubejs:epic_gem"
 				count: 2L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "3EACDD106EB1421E"
@@ -268,6 +272,7 @@
 				id: "7260E3CB0A0596EE"
 				type: "item"
 				item: "kubejs:epic_gem"
+				consume_items: true
 			}]
 			rewards: [{
 				id: "01CF37E886E35E09"
@@ -294,6 +299,7 @@
 				type: "item"
 				item: "kubejs:epic_gem"
 				count: 3L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "7063401A87EB342F"
@@ -315,6 +321,7 @@
 				type: "item"
 				item: "kubejs:copper_coin"
 				count: 100L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "59CA3CB55FB415BC"
@@ -335,6 +342,7 @@
 				type: "item"
 				item: "kubejs:copper_coin"
 				count: 20L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "43BBD785B0D9BBF5"
@@ -357,6 +365,7 @@
 				type: "item"
 				item: "kubejs:legendary_gem"
 				count: 2L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "6F2F3A91ABA7FE7E"
@@ -373,7 +382,7 @@
 			tasks: [{
 				id: "6E8F6AAA26856C35"
 				type: "checkmark"
-				title: "This is a work in progres."
+				title: "This is a work in progress."
 			}]
 		}
 		{
@@ -389,6 +398,7 @@
 				type: "item"
 				item: "kubejs:legendary_gem"
 				count: 2L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "64484C10568B6C06"

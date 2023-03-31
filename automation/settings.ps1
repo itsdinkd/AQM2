@@ -23,19 +23,19 @@ $CURSEFORGE_PROJECT_ID = 507137
 #  MAIN MODPACK SETTINGS
 # =====================================================================//
 
-# This is the modpack name as seen in it's CurseForge url: https://www.curseforge.com/minecraft/modpacks/[enigmatica6]
+# This is the modpack name as seen in it's CurseForge url: https://www.curseforge.com/minecraft/modpacks/another-quality-modpack-2]
 $MODPACK_NAME = "another-quality-modpack-2"
 
 # Name of the Modpack in the ZIP File
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.4.4"
+$MODPACK_VERSION = "1.4.4hf"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = $null
+$LAST_MODPACK_VERSION = "1.4.4"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -48,11 +48,11 @@ $MODLOADER = "fabric"
 
 # Changelog Type
 # Can be "markdown", "text" or "html"
-$CLIENT_CHANGELOG_TYPE = "markdown"
+$CLIENT_CHANGELOG_TYPE = "html"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "[The changelogs page](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog.md)"
+$CLIENT_CHANGELOG = "https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
@@ -172,7 +172,7 @@ $CLIENT_ZIP_NAME = "$CLIENT_NAME-1.19.2-$MODPACK_VERSION"
 $LAST_MODPACK_ZIP_NAME = "$CLIENT_NAME-1.19.2-$LAST_MODPACK_VERSION"
 
 # Default: "$CLIENT_NAME $MODPACK_VERSION"
-$CLIENT_FILE_DISPLAY_NAME = "Another Quality Modpack 2 - $MODPACK_VERSION"
+$CLIENT_FILE_DISPLAY_NAME = "AQM2 v$MODPACK_VERSION (1.19.2)"
 
 # Can be "markdown", "text" or "html"
 # Default: $CLIENT_CHANGELOG_TYPE
@@ -190,4 +190,4 @@ $SERVER_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 $SERVER_ZIP_NAME = "$CLIENT_NAME`-Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
-$SERVER_FILE_DISPLAY_NAME = "Another Quality Modpack 2 - Server - $MODPACK_VERSION"
+$SERVER_FILE_DISPLAY_NAME = "Server AQM2 v$MODPACK_VERSION (1.19.2)"

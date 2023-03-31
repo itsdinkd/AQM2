@@ -8,6 +8,7 @@ _Fabric Loader 0.14.18_  _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2
 - Reworked MEGA Crafting Unit recipe to use stock AE2 crafting units
 - Bridging Mod is removed because we already have the reach around mod.. doh
 - Re-enabled Indrev Steel equipment recipes so you can now craft modular armor
+- Disabled another lithium mixin as it caused Watchdog fluid crashes. alloc.chunk_ticking
 
 ## FIXED
 - Tiered screen crash
@@ -15,5 +16,5 @@ _Fabric Loader 0.14.18_  _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2
 - EmoteCraft bug with lib
 - no quest editing via keyboard shortcuts when not in edit mode
 - Several bug fixes from Hexal including wisp casting in other dimensions, and a dupe bug
-
+- Unlimited quest shop rewards without consuming payment
 ---
