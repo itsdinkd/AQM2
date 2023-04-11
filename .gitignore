@@ -104,3 +104,4 @@ fancymenu_data/
 /automation/secrets.ps1
 /*.zip
 /overrides
+server_files/serverstarter.log

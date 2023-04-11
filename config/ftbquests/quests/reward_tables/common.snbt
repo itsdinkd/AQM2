@@ -4,8 +4,8 @@
 	title: "Common"
 	loot_size: 1
 	rewards: [
-		{ item: "minecraft:iron_ingot", count: 2, random_bonus: 2, weight: 2 }
-		{ item: "minecraft:gold_ingot", count: 2, random_bonus: 1, weight: 2 }
+		{ item: "minecraft:iron_ingot", count: 2, random_bonus: 2, weight: 2.0f }
+		{ item: "minecraft:gold_ingot", count: 2, random_bonus: 1, weight: 2.0f }
 		{ item: "minecraft:diamond", random_bonus: 3 }
 		{
 			item: {
@@ -24,7 +24,7 @@
 					Potion: "minecraft:strong_strength"
 				}
 			}
-			weight: 2
+			weight: 2.0f
 		}
 		{
 			item: {
@@ -34,23 +34,23 @@
 					Potion: "minecraft:night_vision"
 				}
 			}
-			weight: 2
+			weight: 2.0f
 		}
 		{ item: "gobber2:gobber2_gooey_bread", count: 2 }
-		{ item: "minecraft:bread", count: 9, weight: 4 }
-		{ item: "farmersdelight:roasted_mutton_chops", random_bonus: 1, weight: 2 }
+		{ item: "minecraft:bread", count: 9, weight: 4.0f }
+		{ item: "farmersdelight:roasted_mutton_chops", random_bonus: 1, weight: 2.0f }
 		{ item: "croparia:croparia" }
-		{ item: "botania:mana_diamond", random_bonus: 1, weight: 2 }
-		{ item: "gobber2:gobber2_foo", random_bonus: 1, weight: 2 }
-		{ item: "betternether:herbal_medicine", weight: 2 }
-		{ item: "betternether:agave_medicine", random_bonus: 2, weight: 2 }
-		{ item: "cacao:white_chocolate", weight: 2 }
-		{ item: "minecraft:enchanted_golden_apple", weight: 2 }
-		{ item: "minecraft:oak_planks", count: 18, weight: 2 }
-		{ item: "minecraft:cobblestone", count: 16, weight: 2 }
-		{ item: "minecraft:sunflower", weight: 2 }
-		{ item: "minecraft:torch", count: 6, weight: 2 }
-		{ item: "teenycoal:teeny_torch", count: 12, weight: 2 }
-		{ item: "teenycoal:teeny_coal", count: 18, weight: 2 }
+		{ item: "botania:mana_diamond", random_bonus: 1, weight: 2.0f }
+		{ item: "gobber2:gobber2_foo", random_bonus: 1, weight: 2.0f }
+		{ item: "betternether:herbal_medicine", weight: 2.0f }
+		{ item: "betternether:agave_medicine", random_bonus: 2, weight: 2.0f }
+		{ item: "cacao:white_chocolate", weight: 2.0f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 2.0f }
+		{ item: "minecraft:oak_planks", count: 18, weight: 2.0f }
+		{ item: "minecraft:cobblestone", count: 16, weight: 2.0f }
+		{ item: "minecraft:sunflower", weight: 2.0f }
+		{ item: "minecraft:torch", count: 6, weight: 2.0f }
+		{ item: "teenycoal:teeny_torch", count: 12, weight: 2.0f }
+		{ item: "teenycoal:teeny_coal", count: 18, weight: 2.0f }
 	]
 }

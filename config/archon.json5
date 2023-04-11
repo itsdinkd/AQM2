@@ -58,5 +58,8 @@
   //Whether screen shaking should be enabled or not. Used for players hit with the Rumble spell.
   //Client-Sided, Accepts "true" or "false"
   //Default: true
-  "enableScreenShake": true
+  "enableScreenShake": true,
+  //Whether bonus spell critical damage should be added when Spell Power is installed
+  //Default: true
+  "enableSpellPowerCompat": true
 }

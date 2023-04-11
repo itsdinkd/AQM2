@@ -98,6 +98,34 @@
 				}
 			]
 		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Kill the boss and enter this new dimension from inside the prison"
+			dependencies: ["2402324C0B3C335E"]
+			size: 2.0d
+			id: "7352D51842A54563"
+			tasks: [{
+				id: "60D74882FD8DEAAC"
+				type: "dimension"
+				title: "Enter Insufferable Crypt"
+				dimension: "minecells:insufferable_crypt"
+			}]
+			rewards: [
+				{
+					id: "52A61B89FB22D8A4"
+					type: "item"
+					item: "kubejs:silver_coin"
+					count: 3
+				}
+				{
+					id: "1C2AEFCB811E3810"
+					type: "item"
+					item: "gobber2:gobber2_glob_nether"
+					count: 5
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }

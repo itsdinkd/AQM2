@@ -87,9 +87,7 @@ const EndGameBosses = [
     "soulsweapons:night_shade",
     "soulsweapons:moonknight",
     "bosses_of_mass_destruction:void_blossom",
-    "bosses_of_mass_destruction:lich",
-    "bosses_of_mass_destruction:gauntlet",
-    "bosses_of_mass_destruction:obsidilith"
+    "bosses_of_mass_destruction:lich"
     ];
 
 
@@ -126,6 +124,10 @@ LootJS.modifiers((event) => {
 
     event.addLootTypeModifier(LootType.CHEST).removeLoot("archon:glisteel_ingot")
 
+    event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("soulsweapons:verglas")
+
+    event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("soulsweapons:moonstone")
+
     event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:withered_wabbajack")
     event.addEntityLootModifier("soulsweapons:chaos_monarch").removeLoot("soulsweapons:withered_wabbajack")
     event.addEntityLootModifier("minecraft:ender_dragon").removeLoot("dragonloot:dragon_scale")
@@ -142,17 +144,14 @@ LootJS.modifiers((event) => {
 
     // gems
     event.addEntityLootModifier("soulsweapons:returning_knight", "soulsweapons:accursed_lord_boss", "soulsweapons:chaos_monarch", "soulsweapons:night_shade", "soulsweapons:moonknight").addLoot("kubejs:legendary_gem")
-    event.addEntityLootModifier("doom:motherdemon","doom:gladiator","doom:iconofsin","doom:arch_maykr","bosses_of_mass_destruction:void_blossom","bosses_of_mass_destruction:lich","bosses_of_mass_destruction:gauntlet","bosses_of_mass_destruction:obsidilith").addLoot("kubejs:epic_gem")
+    event.addLootTableModifier("bosses_of_mass_destruction:chests/gauntlet", "bosses_of_mass_destruction:chests/obsidilith").addLoot("kubejs:epic_gem")
+    event.addEntityLootModifier("doom:motherdemon","doom:gladiator","doom:iconofsin","doom:arch_maykr","bosses_of_mass_destruction:void_blossom","bosses_of_mass_destruction:lich").addLoot("kubejs:epic_gem")
     event.addEntityLootModifier("minecraft:warden", "minecraft:ender_dragon","minecells:constructor","adventurez:void_shadow","adventurez:stone_golem").addLoot("kubejs:rare_gem")
     event.addEntityLootModifier("minecraft:wither", "minecraft:elder_guardian").addLoot("kubejs:common_gem")
 
     event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:soul_ingot")
 
     event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("chococraft:gold_gysahl")
-
-    event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("soulsweapons:verglas")
-
-    event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("soulsweapons:moonstone")
     event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("skylorlib:golden_wheat_item")
     event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("skylorlib:golden_seeds_item")
 
@@ -202,6 +201,11 @@ LootJS.modifiers((event) => {
             p.limitCount([2, 3], [3, 3])
         });
 
+   });
+
+   event.addLootTableModifier("bosses_of_mass_destruction:chests/gauntlet", "bosses_of_mass_destruction:chests/obsidilith").pool((p) => {
+    p.addLoot("soulsweapons:moonstone"); 
+    p.limitCount([2, 3], [3, 3])
    });
 
    // Drop MCDW chance on all entities

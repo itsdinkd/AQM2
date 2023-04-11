@@ -51,6 +51,11 @@
             "minecraft:generic.max_health": 375.0,
             "minecraft:generic.armor": 19.0,
             "minecraft:generic.attack_damage": 29.0
+        },
+        "minecells:mutated_bat": {
+            "minecraft:generic.max_health": 14.0,
+            "minecraft:generic.armor": 1.0,
+            "minecraft:generic.attack_damage": 9.85
         }
     }
 }

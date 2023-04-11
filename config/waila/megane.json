@@ -30,7 +30,8 @@
       "indrev": 3885790,
       "ae2": 6556063,
       "createaddition": 7408640,
-      "alloy_forgery": 15684178
+      "alloy_forgery": 15684178,
+      "ad_astra": 7408640
     },
     "units": {
       "megane": "E",
@@ -43,7 +44,8 @@
       "indrev": "LF",
       "ae2": "AE",
       "createaddition": "E",
-      "alloy_forgery": ""
+      "alloy_forgery": "",
+      "ad_astra": "E"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"

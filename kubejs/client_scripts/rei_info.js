@@ -68,3 +68,20 @@ REIEvents.hide('item', (event) => {
     event.hide( "croparia:greenhouse_" + item)
   })
 })
+
+// tooltips
+ItemEvents.tooltip(tooltip => {
+  tooltip.addAdvanced(/artifacts:.*/, (item, advanced, text) => {
+   text.add(1, Text.red('Mimics Disabled!'))
+   text.add(2, Text.green('-=-=--=-=-=-=-=-=-='))
+   text.add(3, Text.darkGray('Very Rare chance to generate in Loot Chests'))
+  })
+
+  tooltip.addAdvanced('soulsweapons:verglas', (item, advanced, text) => {
+    text.add(1, Text.darkGray('Drops from all Souls Weapons Bosses'))
+   })
+
+   tooltip.addAdvanced('soulsweapons:moonstone', (item, advanced, text) => {
+    text.add(1, Text.darkGray('Drops from BOMD, Souls, Doom bosses'))
+   })
+})

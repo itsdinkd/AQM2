@@ -90,7 +90,7 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:arisian_undergrowth",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "betternether:gravel_desert",
@@ -266,7 +266,7 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:arisian_undergrowth",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "betternether:gravel_desert",
@@ -427,7 +427,7 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "byg:arisian_undergrowth",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "betternether:gravel_desert",

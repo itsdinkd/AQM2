@@ -458,7 +458,8 @@
       "mythical_origins:water_sight": true,
       "origins:aquatic": true,
       "origins:like_water": true,
-      "mythical_origins:soft_scales": true
+      "mythical_origins:soft_scales": true,
+      "mythical_origins:evolution": true
     },
     "ratsmischief:rat": {
       "enabled": true
@@ -1105,7 +1106,9 @@
       "origins:vegetarian": true,
       "origins:weak_arms": true,
       "lank:bee_rider": true,
-      "lank:weak_arms": true
+      "lank:weak_arms": true,
+      "lank:fairy_magic": true,
+      "lank:fairy_magic_cooldown": true
     },
     "jump:platformer": {
       "enabled": true,

@@ -22,6 +22,10 @@ const arRemove = [
 'advanced_reborn:crafting/plates/lead_plate',
 'advanced_reborn:crafting/plates/silver_plate',
 'advanced_reborn:crafting/plates/tin_plate',
+'advanced_reborn:crafting/generator/ray_solar_panel_1',
+'advanced_reborn:crafting/generator/ray_solar_panel_2',
+'advanced_reborn:crafting/generator/ray_solar_panel_3',
+'advanced_reborn:crafting/generator/ray_solar_panel_4'
 ];
 
 const arRemoveOutput = [
@@ -36,7 +40,7 @@ const arRemoveOutput = [
 "advanced_reborn:ray_generator_7",
 "advanced_reborn:ray_generator_8",
 "advanced_reborn:ray_generator_9",
-"advanced_reborn:ray_generator_10",
+"advanced_reborn:ray_generator_10"
 ]
 ServerEvents.recipes(event => {
 

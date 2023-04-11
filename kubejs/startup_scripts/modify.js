@@ -16,6 +16,13 @@ ItemEvents.modification(event => {
     item.fireResistant = true
   });
 
+  event.modify("soulsweapons:moonstone", item => {
+    item.fireResistant = true
+  });
+  event.modify("soulsweapons:verglas", item => {
+    item.fireResistant = true
+  });
+
 });
 
 ItemEvents.tooltip(tooltip => {

@@ -24,9 +24,8 @@ Cannot start server locally (only if you want to host server on your computer) -
 
 
 Sections -----------------------------------------------------------
-	i. Creating New World (Changing Seed)                           -
-	ii. Setting Up Server Locally                                   -
-	iii. Setting Up Server for Server Host/Dedicated                -
+	i. Setting Up Server Locally                                   -
+	ii. Setting Up Server for Server Host/Dedicated                -
 	IV. Setting up Ram                                              -
 	V. https://discord.gg/6MdUmwPXgE                                -
                                                                     -
@@ -38,38 +37,19 @@ https://discord.gg/TmqVme7Pb5                 -
 -----------------------------------------------
 
 
-///////////////////////////
-// i. Creating New World //
-///////////////////////////
-
-For a server, you should be able to change seed via server.properties file. If this does not work, see below. 
-NOTE: there is a issue with spawn chunks generating a completely different seed causing ugliness. If this occurs, generate your new world, stop server, delete files in world/region, turn server back on.
-
-BACK UP SEED CHANGE INSTRUCTIONS (due to terralith)
-If you are creating a new world, and you want to use a different seed (I picked a pretty good one for default)
-
-Read the below sections, and then after launching serverstart, exit it when it starts to show typical minecraft server console stuff
-
-1. Browse to newly placed kubejs\data\minecraft\dimension\overworld.json
-2. open in text editor like Notepad++ or Sublime
-3. Scroll to the bottom, change the "Seed" numbers to what you want
-4. Save
-5. Make sure world folder is empty as you need a new world
-5. Run start.ps1 (or start your hosted server)
-
 
 
 /////////////////////////////////////////////
-// ii. How To Setup Server and Run locally //
+// i. How To Setup Server and Run locally //
 /////////////////////////////////////////////
 
 1. If you don't have it, INSTALL Java 17 (Need to install, not unzip)
 WINDOWS: https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.1%2B12/OpenJDK17U-jdk_x64_windows_hotspot_17.0.1_12.msi
 LINUX/MAC: https://adoptium.net/releases.html (Make sure 17 is toggled, and download and install it for your linux distro or mac that you use )
 
-2a. Run start.ps1 (for windows)
+2a. Run startserver.bat (for windows)
 
-2b. Run start.sh (for linux/mac)
+2b. Run startserver.sh (for linux/mac)
 
 3. Everything will download and initialize by itself. the EULA agreement will appear, you must type TRUE to continue once it does
 
@@ -81,7 +61,7 @@ FOR MODPACK UPDATES: Make sure you continue deleting the mods folder, and kubejs
 
 
 ///////////////////////////////////////////////////////////////////
-// iii. How to Setup and Launch Server from dedicated/vps server //
+// ii. How to Setup and Launch Server from dedicated/vps server //
 ///////////////////////////////////////////////////////////////////
 
 1. Follow steps 1-3 above

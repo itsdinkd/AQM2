@@ -20,6 +20,13 @@
             "minecraft:generic.armor": 13.0,
             "minecraft:generic.armor_toughness": 8.0,
             "minecraft:generic.knockback_resistance": 8.0
+        },
+        "archon:inigo": {
+            "minecraft:generic.max_health": 380.0,
+            "minecraft:generic.attack_damage": 25.7,
+            "minecraft:generic.armor": 15.0,
+            "minecraft:generic.armor_toughness": 8.0,
+            "minecraft:generic.knockback_resistance": 8.0
         }
     }
 }

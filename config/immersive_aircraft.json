@@ -10,5 +10,14 @@
   "windThunderWeather": 3.0,
   "collisionDamage": true,
   "onlyPlayerCanDestroyAircraft": true,
+  "burnFuelInCreative": false,
+  "acceptVanillaFuel": true,
+  "useCustomKeybindSystem": true,
+  "fuelList": {
+    "minecraft:blaze_powder": 1200,
+    "gobber2:gobber2_foo": 2500,
+    "gobber2:gobber2_foo_nether": 5000,
+    "gobber2:gobber2_foo_end": 8000
+  },
   "version": 1
 }

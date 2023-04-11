@@ -1004,6 +1004,96 @@
 				item: "mobz:hardenedmetal_ingot"
 			}]
 		}
+		{
+			x: -12.5d
+			y: 5.5d
+			subtitle: "Farm Automation"
+			id: "6B881EA72C3B1236"
+			tasks: [{
+				id: "5447F644EE078200"
+				type: "item"
+				item: "indrev:farmer_mk1"
+			}]
+			rewards: [
+				{
+					id: "028FC4F85BA07AFA"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 5
+				}
+				{
+					id: "70C3C80DBDD69744"
+					type: "item"
+					item: {
+						id: "indrev:battery"
+						Count: 1b
+						tag: {
+							energy: 4096L
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 6.0d
+			dependencies: ["6B881EA72C3B1236"]
+			id: "4F24E70A81E5770B"
+			tasks: [{
+				id: "6BE35FBE0D1FF0F0"
+				type: "item"
+				item: "indrev:farmer_mk2"
+			}]
+			rewards: [
+				{
+					id: "47C8B50277D06112"
+					type: "item"
+					item: "kubejs:copper_coin"
+					count: 25
+				}
+				{
+					id: "6D670E9A80EF3432"
+					type: "item"
+					item: "techreborn:silver_plate"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 6.5d
+			dependencies: ["4F24E70A81E5770B"]
+			id: "445C8CE74372B78E"
+			tasks: [{
+				id: "5C64ED933447490E"
+				type: "item"
+				item: "indrev:farmer_mk3"
+			}]
+			rewards: [{
+				id: "2E1A96499B2AB40C"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 50
+			}]
+		}
+		{
+			x: -11.0d
+			y: 7.5d
+			dependencies: ["445C8CE74372B78E"]
+			id: "01EBEB6E3829EBD4"
+			tasks: [{
+				id: "468AD25A7EFAD99B"
+				type: "item"
+				item: "indrev:farmer_mk4"
+			}]
+			rewards: [{
+				id: "633E53C8D5F1AA46"
+				type: "item"
+				item: "kubejs:copper_coin"
+				count: 80
+			}]
+		}
 	]
 	quest_links: [ ]
 }
