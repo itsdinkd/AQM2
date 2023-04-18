@@ -40,11 +40,11 @@ customization {
   custom_color_hex = #931fe0
   orientation = top-left
   hidden = false
-  x = 345
-  width = 456
+  x = 333
+  width = 480
   action = deep_customization_element:drippy_overlay_progress_bar
   actionid = dd654d21-87e2-4324-959a-41def3ebbc341676080467434
-  y = 375
+  y = 394
   height = 10
 }
 
@@ -90,7 +90,29 @@ customization {
   x = -20
   actionid = 493bce9b-9aa6-4e30-a54e-19eb4ad091541676081838901
   action = addsplash
-  y = -18
+  y = -56
   text = {"placeholder":"drippy_gl_percent"}% Loaded
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = true
+  shadow = true
+  delayappearanceseconds = 15.0
+  scale = 0.9
+  source = You are not stuck at 98%. its loading 400+ mods
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 0
+  x = -153
+  width = 307
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ba526076-98f5-4728-807d-9224e87ebe791681753391513
+  y = -38
+  delayappearance = true
+  alignment = centered
+  delayappearanceeverytime = false
+  height = 37
 }
 

@@ -1,0 +1,50 @@
+{
+  "data_version": 0,
+  "schemas": [
+    {
+      "version": 0,
+      "data_fixes": [
+        {
+          "type": "block",
+          "fixers": [
+            {
+              "old_id": "myloot:loot_chest",
+              "new_id": "minecraft:chest"
+            },
+            {
+              "old_id": "myloot:loot_barrel",
+              "new_id": "minecraft:barrel"
+            },
+            {
+              "old_id": "myloot:loot_shulker_box",
+              "new_id": "lootr:lootr_shulker"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "registry_fixers": [
+    {
+      "registry_key": "minecraft:block",
+      "fixers": [
+        {
+          "old_id": "myloot:loot_chest",
+          "new_id": "lootr:lootr_chest"
+        },
+        {
+          "old_id": "myloot:opened_loot_chest",
+          "new_id": "lootr:lootr_chest"
+        },
+        {
+          "old_id": "myloot:loot_barrel",
+          "new_id": "lootr:lootr_barrel"
+        },
+        {
+          "old_id": "myloot:loot_shulker_box",
+          "new_id": "lootr:lootr_shulker"
+        }
+      ]
+    }
+  ]
+}

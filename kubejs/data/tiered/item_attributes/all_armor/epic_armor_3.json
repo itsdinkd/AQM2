@@ -38,7 +38,7 @@
             "modifier": {
                 "name": "tiered:epic_armor_3",
                 "operation": "ADDITION",
-                "amount": -1
+                "amount": 1
             },
             "optional_equipment_slots": [
                 "FEET",

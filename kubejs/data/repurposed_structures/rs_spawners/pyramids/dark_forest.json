@@ -1,15 +1,23 @@
 {
   "mobs" : [
     {
-      "name" : "minecraft:zombie",
-      "weight" : 50
+      "name" : "rottencreatures:mummy",
+      "weight" : 30
     },
     {
-      "name" : "minecraft:spider",
-      "weight" : 49
+      "name": "rottencreatures:undead_miner",
+      "weight": 25
     },
     {
-      "name" : "minecraft:vex",
+      "name" : "rottencreatures:swampy",
+      "weight" : 20
+    },
+    {
+      "name" : "mobz:spo",
+      "weight" : 24
+    },
+    {
+      "name" : "mobz:tspider",
       "weight" : 1
     }
   ]

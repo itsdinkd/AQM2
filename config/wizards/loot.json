@@ -7,6 +7,7 @@
         "wizards:staff_frost"
       ],
       "chance": 0.1,
+      "bonus_roll_chance": 1.2,
       "weight": 1
     },
     "robes_tier_1": {
@@ -17,6 +18,7 @@
         "wizards:wizard_robe_feet"
       ],
       "chance": 0.2,
+      "bonus_roll_chance": 1.2,
       "weight": 1
     },
     "wands_tier_1": {
@@ -26,6 +28,7 @@
         "wizards:wand_frost"
       ],
       "chance": 0.25,
+      "bonus_roll_chance": 1.2,
       "weight": 1
     },
     "wands_tier_0": {
@@ -33,6 +36,7 @@
         "wizards:wand_novice"
       ],
       "chance": 0.75,
+      "bonus_roll_chance": 1.2,
       "weight": 1
     }
   },

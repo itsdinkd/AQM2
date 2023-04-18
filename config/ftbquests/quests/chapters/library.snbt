@@ -18,6 +18,7 @@
 			tasks: [{
 				id: "0E6643CC16AB8F30"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "patchouli:guide_book"
 					Count: 1b
@@ -36,6 +37,7 @@
 			tasks: [{
 				id: "1C2BDA07A9C69A72"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "patchouli:guide_book"
 					Count: 1b
@@ -54,6 +56,7 @@
 			tasks: [{
 				id: "5F33AE0A451BC4F1"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "patchouli:guide_book"
 					Count: 1b
@@ -73,6 +76,7 @@
 			tasks: [{
 				id: "5A6FCD79BC8FFA92"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "patchouli:guide_book"
 					Count: 1b
@@ -344,6 +348,19 @@
 				id: "60DD63D4A5DEE9B7"
 				type: "item"
 				item: "tr-patchouli:guide"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -6.5d
+			y: 2.5d
+			subtitle: "Power Generation"
+			id: "391CAFD9C4CB597F"
+			tasks: [{
+				id: "3F78C9F6E656BBBF"
+				type: "item"
+				disable_toast: true
+				item: "powah:book"
 			}]
 		}
 	]

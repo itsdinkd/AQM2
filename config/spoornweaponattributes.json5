@@ -4,19 +4,19 @@
 	*/
 	"rerollItem": "gobber2:gobber2_glob",
 	// Reroll level cost [default = 0]
-	"rerollLevelCost": 2,
+	"rerollLevelCost": 0,
 	/* Upgrade item.  Pair a weapon with this item in an Anvil to roll bonus attributes and only adds
 	   stats onto the weapon if it is an upgrade [default = minecraft:diamond]
 	*/
 	"upgradeItem": "gobber2:gobber2_ingot_nether",
 	// Upgrade level cost [default = 1]
-	"upgradeLevelCost": 10,
+	"upgradeLevelCost": 5,
 	// Apply Attributes Automatically on Inventory Tick [default = true]
 	"applyOnInventoryTick": true,
 	// Critical Hit attribute config
 	"critConfig": {
 		// Chance for a weapon to have critical hit property [0 = never, 1 = always] [default = 0.1]
-		"attributeChance": 0.025,
+		"attributeChance": 0.075,
 		// Damage multiplier when critical hit [default = 2.5]
 		"critMultiplier": 2.5,
 		// Minimum crit chance [min = 0, max = 100] [default = 20]
@@ -35,7 +35,7 @@
 	// Fire attribute config
 	"fireConfig": {
 		// Chance for a weapon to have fire damage [0 = never, 1 = always] [default = 0.05]
-		"attributeChance": 0.009,
+		"attributeChance": 0.035,
 		/* Expression for duration in seconds to set target on fire for based on damage
 		   (can just be a scalar value such as '5' for 5 seconds) [0 = don't set on fire] [default = (damage+7)/2]
 		*/
@@ -56,7 +56,7 @@
 	// Cold attribute config
 	"coldConfig": {
 		// Chance for a weapon to have cold damage [0 = never, 1 = always] [default = 0.05]
-		"attributeChance": 0.01,
+		"attributeChance": 0.035,
 		// Expression for duration in seconds to slow target [0 = don't slow] [default = (damage+7)/2]
 		"slowDuration": "5",
 		// Expression for duration in seconds to add frozen effect to target (deals damage over time) [0 = don't freeze] [default = (damage+7)/2]
@@ -77,7 +77,7 @@
 	// Lightning attribute config
 	"lightningConfig": {
 		// Chance for a weapon to have lightning damage [0 = never, 1 = always] [default = 0.03]
-		"attributeChance": 0.007,
+		"attributeChance": 0.0235,
 		// Chance to strike the target with lightning [0 = no lightning strikes] [default = 0.5]
 		"lightningStrikeChance": 0.1,
 		// Minimum bonus damage [default = 1.0]
@@ -96,7 +96,7 @@
 	// Poison attribute config
 	"poisonConfig": {
 		// Chance for a weapon to have poison damage [0 = never, 1 = always] [default = 0.05]
-		"attributeChance": 0.03,
+		"attributeChance": 0.035,
 		// Expression for duration in seconds to poison target [0 = don't poison] [default = (damage+17)/2]
 		"poisonDuration": "(damage+6)/2",
 		// Minimum bonus damage [default = 1.0]
@@ -115,7 +115,7 @@
 	// Lifesteal attribute config
 	"lifestealConfig": {
 		// Chance for a weapon to have lifesteal [0 = never, 1 = always] [default = 0.02]
-		"attributeChance": 0.003,
+		"attributeChance": 0.015,
 		// Minimum lifesteal percentage [default = 1]
 		"minLifesteal": 1,
 		// Maximum lifesteal percentage [default = 100]

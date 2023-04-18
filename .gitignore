@@ -105,3 +105,8 @@ fancymenu_data/
 /*.zip
 /overrides
 server_files/serverstarter.log
+.vscode/probe.registry-definitions.json
+.vscode/probe.lang-schema.json
+.vscode/probe.lang_key-definitions.json
+.vscode/probe.doc-schema.json
+.vscode/probe.class-definitions.json

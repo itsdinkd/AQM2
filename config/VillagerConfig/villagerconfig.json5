@@ -7,7 +7,7 @@
 		// The chance for a villager to convert to a villager-zombie (-1 = vanilla behaviour, 100 = 100%)
 		"conversion_chance": -1.0,
 		// Whether or not villagers trades will change, when their workstation is replaced (true = vanilla)
-		"trade_cycling": false,
+		"trade_cycling": true,
 		// Whether or not villagers need to restock their trades (false = vanilla)
 		"infinite_trades": false
 	},

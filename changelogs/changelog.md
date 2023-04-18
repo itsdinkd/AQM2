@@ -1,3 +1,60 @@
+### Another Quality Modpack v1.5.1
+
+
+_Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.md)_
+
+## ADDITIONS
+- Powah (Better Energy Generation)
+- Companion Bats (Spawn a bat companion and give him a class to do things like attack your mobs with certain skills)
+- Lootr (Replaces MyLoot chests)
+- Configured Data Fixer (Used to switch every MyLoot block into Lootr blocks. Now you can update and not have any chests missing.)
+- Chefs Delight (Add-on for the Farmer's Delight mod. Adds 2 new professions to villagers. Cook and Chef.  To turn a villager into a Cook, you need a Skillet. The Cook trades simple food. To turn a villager into a Chef, you need a Cooking Pot. The Chef trades advanced foods.)
+- BlameMod (Helps debugging)
+- Added custom spawns into every better temple / pyramid
+- Extra Thicc Packets
+- Soulsweaponry adds new Trick weapons. press B while they're in hand to transform the weapon into another. Several trick weapons added. Adds Draupinir spear which can be thrown infinitely. Adds Darkin Scythe, a weapon that collects souls and distinguishes them between
+Blue and Red based on whether they're ranged, hostile or non-hostile. When reaching 100% soul count, the weapon transforms into either the prime Darkin Scythe or the Shadow AssassinScyth.  The prime Darkin Scythe has the Omnivamp ability, making it heal the user post hit or on ability hit as long as it is not on cooldown. The Shadow Assassin Scythe gains the Shadow Step ability, granting the user bonus damage and movement speed post hit for a few seconds before going on cooldown.
+
+## FIXED
+- Crash that occurred with doom mobs and other mobs that use GeckoLib, caused by Chirpy's Wildlife. Removed Chirpy's Wildlife.  
+- Rare Crash that occurred with Spectrum
+- Critical AE2 Dupe Bug
+- over 20 AE2 fixes
+- Supplementary server crash due to bug
+- Xaeros crashes
+- Mine Cells server crash related to particles
+- Traveler Backpack fixed memory slots not accepting items with different durability value
+- Bug where enchants on Freyr Sword were lost
+
+## CHANGED
+- Villager Trade Cycling has been re-enabled. Mainly I enabled this to reduce performance issues when players create multiple villagers to get what they want ie; librarian.
+- Cave mapping is more impactful and shows better details via Minimap / Worldmap
+- Removed Emojiful due to impact on performance when typing commands that require a item name
+- Mine Cells nerfed a few mobs that dashed, adds new weapons including Broadsword (Slow, hard hitting), Frost Blast (Freezes enemies in front of you), Phaser (Teleports you behind an enemy), Balanced Blade (Deals more damage with each consecutive attack), Crowbar (Destroys doors), Nutcracker (Deals crit to frozen and stunned enemies), adds status effects. The Vine Rune (Obtained in Promenande dimension/underground dungeon) is now required to enter the crypt (portal has been moved to another room), and new advancements.
+- Tweaked dungeons arise structures to be less spread out
+- Travelers Backpacks greatly reduces backpack on mob chance
+- Increased Capybara spawn weight
+- Soulsweaponry changes; The Old Champion gains more and more resistant against the player if the player is using the same weapon. This is where the new Trick Weapon comes into play, or just you having several different weapons. When the damage is being reduced, the hurt sound will change to hitting something
+metal like. (Trick Weapons work great here to swiftly change between weapons to refresh the damage reduction!) It also has new attacks which are listed in this mods wiki. FRenzied Shade also has unique attacks and will split in 5 summoning 4 new decoys that have 1/4 life of the original + less damage.
+- Changed Negative EPIC Tiered values to positive values
+- Increased chances to get spoorn weapon attributes (Fire, poison, life leach, etc) by 500-1000% (it was way too low before)
+- Buffed even more souls weaponry weapons
+- re-enabled HP bars
+- Re-enabled lithiums AI Pathing mixin... hopefully no crashes.
+
+## REMOVED
+- MyLoot (great mod however there are some issues that exist when used in this pack. Lootr will replace it.)
+- mAmbience (Causes crashes and performance issues)
+- Chirpys Wildlife (Removed until author fixes geckolib dependency)
+- Just Enough Calculation
+- Emojiful (Caused performance issues)
+- Witcher Origin (This mod caused crashes + performance spikes)
+- More Axolotl Variants Mod (Attempt to reduce spawning pool allowing other mobs to spawn. This mod is not needed)
+- XL Packets
+- VillagerConfig (Trade lock removed)
+---
+
+
 ### Another Quality Modpack v1.5
 
 

@@ -2,15 +2,19 @@
   "mobs" : [
     {
       "name" : "minecraft:bat",
-      "weight" : 98
+      "weight" : 20
     },
     {
-      "name" : "minecraft:mooshroom",
-      "weight" : 1
+      "name" : "rottencreatures:zombie_lackey",
+      "weight" : 40
     },
     {
-      "name" : "minecraft:rabbit",
-      "weight" : 1
+      "name" : "rottencreatures:swampy",
+      "weight" : 30
+    },
+    {
+      "name" : "rottencreatures:mummy",
+      "weight" : 10
     }
   ]
 }

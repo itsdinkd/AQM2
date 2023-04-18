@@ -828,15 +828,23 @@ event.shaped("bewitchment:demon_horn", ["12 ", "34 ", "   "],
 
 // comet spear soulsweapon
 // event.replaceInput({output: "soulsweapons:comet_spear"}, "minecraft:gold_ingot", "gobber2:dragon_star")
-event.remove({id: "soulsweapons:comet_spear"})
+event.remove({output: "soulsweapons:comet_spear"})
 event.shaped("soulsweapons:comet_spear", [" 11", "2s1", "s1 "],
   {
     1: "gobber2:dragon_star",
     2: "soulsweapons:moonstone",
     s: "soulsweapons:lord_soul_void"
   })
+
+  event.remove({id: "soulsweapons:featherlight_recipe"})
+  event.shaped("soulsweapons:featherlight", ["BSB", "BSB", " p "], 
+    {
+      B: "betternether:blue_crying_obsidian",
+      S: "minecraft:echo_shard",
+      p: "minecraft:diamond_pickaxe"
+    })
 // event.replaceInput({output: "soulsweapons:bloodthirster"}, "minecraft:iron_ingot", "soulsweapons:soul_ingot")
-event.remove({id: "soulsweapons:bloodthirster"})
+event.remove({output: "soulsweapons:bloodthirster"})
 event.shaped("soulsweapons:bloodthirster", ["121", "121", " s "],
   {
     1: "soulsweapons:soul_ingot",
@@ -844,14 +852,14 @@ event.shaped("soulsweapons:bloodthirster", ["121", "121", " s "],
     s: "minecraft:stick"
   })
 event.replaceInput({output: "soulsweapons:soul_ingot"}, "minecraft:iron_ingot", "gobber2:gobber2_ingot_end")
-event.remove({id: "soulsweapons:leviathan_axe"})
+event.remove({output: "soulsweapons:leviathan_axe"})
 event.shaped("soulsweapons:leviathan_axe", ["21 ", "s1 ", "1  "],
   {
     1: "soulsweapons:moonstone",
     2: "soulsweapons:lord_soul_purple",
     s: "minecraft:stick"
   })
-  event.remove({id: "soulsweapons:lich_bane"})
+  event.remove({output: "soulsweapons:lich_bane"})
 event.shaped("soulsweapons:lich_bane", ["  r", "12 ", "i1 "],
   {
     1: "botania:mana_diamond",
@@ -859,8 +867,13 @@ event.shaped("soulsweapons:lich_bane", ["  r", "12 ", "i1 "],
     2: "soulsweapons:lord_soul_dark",
     i: "minecraft:copper_ingot"
   })
-event.replaceInput({output: "soulsweapons:lord_soul_red"}, "minecraft:nether_star", "soulsweapons:verglas")
-event.remove({id: "soulsweapons:dragon_staff"})
+event.remove({output: "soulsweapons:lord_soul_red"})
+event.shaped("soulsweapons:lord_soul_red", ["SSS", "SSS", "ASS"],
+  {
+    S: "soulsweapons:lost_soul",
+    A: "soulsweapons:verglas"
+  })
+event.remove({output: "soulsweapons:dragon_staff"})
 event.shaped("soulsweapons:dragon_staff", ["r  ", "g  ", "gim"],
   {
     g: "gobber2:gobber2_rod_end",
@@ -868,14 +881,14 @@ event.shaped("soulsweapons:dragon_staff", ["r  ", "g  ", "gim"],
     i: "soulsweapons:soul_ingot",
     m: "soulsweapons:moonstone"
   })
-event.remove({id: "soulsweapons:guts_sword"})
+event.remove({output: "soulsweapons:guts_sword"})
 event.shaped("soulsweapons:guts_sword", [" o ", "ooo", "oso"],
   {
     o: "mythicmetals:osmium_block",
     s: "minecraft:stick"
   })
 // event.replaceInput({output: "soulsweapons:dragonslayer_swordspear"}, "minecraft:gold_ingot", "dragonloot:dragon_scale")
-event.remove({id: "soulsweapons:dragonslayer_swordspear"})
+event.remove({output: "soulsweapons:dragonslayer_swordspear"})
 event.shaped("soulsweapons:dragonslayer_swordspear", [" 1 ", "121", "1s1"],
   {
     1: "dragonloot:dragon_scale",
@@ -885,14 +898,14 @@ event.shaped("soulsweapons:dragonslayer_swordspear", [" 1 ", "121", "1s1"],
 event.replaceInput({output: "soulsweapons:galeforce"}, "minecraft:string", "botania:mana_string")
 event.replaceInput({output: "soulsweapons:rageblade"}, "minecraft:blaze_rod", "gobber2:gobber2_rod_end")
 // event.replaceInput({output: "soulsweapons:whirligig_sawblade"}, "minecraft:iron_ingot", "mobz:boss_ingot")
-event.remove({id: "soulsweapons:whirligig_sawblade"})
+event.remove({output: "soulsweapons:whirligig_sawblade"})
 event.shaped("soulsweapons:whirligig_sawblade", [" 1 ", "121", "s1 "],
   {
     1: "mobz:boss_ingot",
     2: "#soulsweapons:lord_soul",
     s: "minecraft:stick"
   })
-event.remove({id: "soulsweapons:freyr_sword"})
+event.remove({output: "soulsweapons:freyr_sword"})
 // event.shaped("soulsweapons:freyr_sword", [" 1 ", " 2 ", "s3s"],
 //   {
 //     1: "soulsweapons:moonstone",
@@ -934,7 +947,7 @@ event.remove({id: "soulsweapons:freyr_sword"})
       ]
     })
   
-    event.remove({id: "soulsweapons:mjolnir"})
+    event.remove({output: "soulsweapons:mjolnir"})
     event.custom({
       "type": "botania:runic_altar",
       "output": {

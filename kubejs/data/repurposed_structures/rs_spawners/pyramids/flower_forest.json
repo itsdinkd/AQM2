@@ -2,7 +2,19 @@
   "mobs" : [
     {
       "name" : "minecraft:zombie",
-      "weight" : 90
+      "weight" : 50
+    },
+    {
+      "name" : "rottencreatures:mummy",
+      "weight" : 30
+    },
+    {
+      "name" : "rottencreatures:scarab",
+      "weight" : 5
+    },
+    {
+      "name" : "rottencreatures:flying_scarab",
+      "weight" : 5
     },
     {
       "name" : "minecraft:creeper",

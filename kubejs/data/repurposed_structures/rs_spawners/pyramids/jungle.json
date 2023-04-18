@@ -1,23 +1,23 @@
 {
   "mobs" : [
     {
-      "name" : "minecraft:zombie",
-      "weight" : 34
+      "name" : "rottencreatures:zombie_lackey",
+      "weight" : 35
     },
     {
-      "name" : "minecraft:skeleton",
-      "weight" : 29
+      "name" : "rottencreatures:mummy",
+      "weight" : 35
     },
     {
-      "name" : "minecraft:spider",
-      "weight" : 24
+      "name" : "creeperoverhaul:jungle_creeper",
+      "weight" : 10
     },
     {
-      "name" : "minecraft:cave_spider",
-      "weight" : 12
+      "name" : "mobz:spo",
+      "weight" : 19
     },
     {
-      "name" : "minecraft:silverfish",
+      "name" : "mobz:tspider",
       "weight" : 1
     }
   ]

@@ -20,6 +20,9 @@
     "modern_industrialization": {
       "aztech.modern_industrialization.compat.megane.MIMeganeModule": true
     },
+    "megane-powah": {
+      "lol.bai.megane.module.powah.MeganePowah": true
+    },
     "megane-fast-transfer-lib": {
       "badasintended.megane.impl.FastTransferLib": true
     },

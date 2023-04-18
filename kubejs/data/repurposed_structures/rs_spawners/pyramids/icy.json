@@ -2,7 +2,15 @@
   "mobs" : [
     {
       "name" : "minecraft:stray",
-      "weight" : 100
+      "weight" : 30
+    },
+    {
+      "name" : "rottencreatures:frostbitten",
+      "weight" : 50
+    },
+    {
+      "name" : "rottencreatures:glacial_hunter",
+      "weight" : 20
     }
   ]
 }

@@ -60,8 +60,6 @@ key_modifiers_key.amecs.toggle_right_sleeve:0,0,0
 key_modifiers_key.amecs.toggle_left_pants_leg:0,0,0
 key_modifiers_key.amecs.toggle_right_pants_leg:0,0,0
 key_modifiers_key.amecs.toggle_hat:0,0,0
-key_modifiers_jecalculation.key.gui_craft:0,0,0
-key_modifiers_jecalculation.key.gui_math:0,0,0
 key_modifiers_key.archon.infernal_coat:0,0,0
 key_modifiers_key.autorun.toggle:0,0,1
 key_modifiers_key.besmirchment.familiar_ability:0,0,0
@@ -172,6 +170,8 @@ key_modifiers_Toggle perspective:0,0,0
 key_modifiers_key.soulsweapons.return_freyr_sword:0,0,0
 key_modifiers_key.soulsweapons.freyr_sword_stationary:0,0,0
 key_modifiers_key.soulsweapons.collect_summons_soul_reaper:0,0,0
+key_modifiers_key.soulsweapons.switch_weapon:0,0,0
+key_modifiers_key.soulsweapons.detonate_draupnir_spears:0,0,0
 key_modifiers_keybindings.spell_engine.hotbar_modifier:0,0,0
 key_modifiers_keybindings.spell_engine.hotbar_lock:0,0,0
 key_modifiers_key.things.place_item:0,0,0

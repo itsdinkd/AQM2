@@ -26,7 +26,7 @@
             "modifier": {
                 "name": "tiered:epic_melee_1",
                 "operation": "MULTIPLY_TOTAL",
-                "amount": -0.05
+                "amount": 0.05
             },
             "optional_equipment_slots": [
                 "MAINHAND"

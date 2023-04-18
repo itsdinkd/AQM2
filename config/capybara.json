@@ -1,5 +1,5 @@
 {
-  "spawnWeight": 3,
+  "spawnWeight": 10,
   "minGroupSize": 1,
   "maxGroupSize": 2,
   "animalAttractionGoal": true

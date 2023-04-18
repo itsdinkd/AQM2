@@ -212,6 +212,8 @@
 				enderzombie = true
 				knight3 = true
 				screeper = true
+				spismall = true
+				wasp = true
 
 			[light_sources.settings.entities.whisperwoods]
 				moth = true
@@ -224,6 +226,7 @@
 				revenant = false
 				skeleton_creeper = false
 				nightmare = false
+				lich = true
 
 			[light_sources.settings.entities.earth]
 				rubro = true
@@ -866,6 +869,8 @@
 				leviathan_axe_entity = true
 				cannonball_entity_type = true
 				moonknight = true
+				shadow_orb_entity = true
+				draupnir_spear_entity = true
 
 			[light_sources.settings.entities.takesapillage]
 				clay_golem = true
@@ -924,4 +929,7 @@
 				lesser_revelation = true
 				greater_revelation = true
 				winged_torch = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
 
