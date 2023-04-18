@@ -9,11 +9,11 @@
           "fixers": [
             {
               "old_id": "myloot:loot_chest",
-              "new_id": "minecraft:chest"
+              "new_id": "lootr:lootr_chest"
             },
             {
               "old_id": "myloot:loot_barrel",
-              "new_id": "minecraft:barrel"
+              "new_id": "lootr:lootr_barrel"
             },
             {
               "old_id": "myloot:loot_shulker_box",
@@ -30,10 +30,6 @@
       "fixers": [
         {
           "old_id": "myloot:loot_chest",
-          "new_id": "lootr:lootr_chest"
-        },
-        {
-          "old_id": "myloot:opened_loot_chest",
           "new_id": "lootr:lootr_chest"
         },
         {

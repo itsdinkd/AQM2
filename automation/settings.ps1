@@ -30,12 +30,12 @@ $MODPACK_NAME = "another-quality-modpack-2"
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.5"
+$MODPACK_VERSION = "1.5.1"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "1.4.4hf"
+$LAST_MODPACK_VERSION = "1.5"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -93,10 +93,11 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "shaderpacks",
     "resources",
     "servers.dat",
-    "mods/Crafty-Crashes-1.0.jar"
+    "mods/Crafty-Crashes-1.0.jar",
+    "mods/iris-mc1.19.2-1.6.1.jar"
 )
 
-$CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems", "xaerominimap.txt", "xaerominimap_entities.json", "xaeroworldmap.json", "iris.properties", "sodium-options.json", "sodium-mixins.json", "sodium-extra-options.json", "sodium-extra.json")
+$CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems", "xaerominimap.txt", "xaeroworldmap.json", "iris.properties", "sodium-options.json", "sodium-mixins.json", "sodium-extra-options.json", "sodium-extra.json")
 
 $FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities")
 

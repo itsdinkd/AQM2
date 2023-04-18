@@ -1,7 +1,7 @@
 ### Another Quality Modpack v1.5.1
 
 
-_Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.md)_
+_Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.1.md)_
 
 ## ADDITIONS
 - Powah (Better Energy Generation)
