@@ -95,6 +95,13 @@ const tagStacksWpns = Ingredient.of('aqm2:weapons/rare').stacks;
 const tagStacksMCDW = Ingredient.of('aqm2:mcdw').stacks;
 
 const EquipmentSlot = Java.loadClass('net.minecraft.world.entity.EquipmentSlot');
+
+EntityEvents.checkSpawn(event => {
+    if(event.type == "SPAWNER"){
+        event.entity.addTag("FromSpawner");
+    }
+  })
+
 LootJS.modifiers((event) => {
 
     // Loot Removal
@@ -133,7 +140,7 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("minecraft:ender_dragon").removeLoot("dragonloot:dragon_scale")
     event.addEntityLootModifier("minecraft:ender_dragon").pool((p) => { 
         p.addLoot("dragonloot:dragon_scale");
-        p.limitCount([0, 1], [2, 2])
+        p.limitCount([0, 2])
     });
     event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_white")
     event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_red")
@@ -143,11 +150,11 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_purple")
 
     // gems
-    event.addEntityLootModifier("soulsweapons:returning_knight", "soulsweapons:accursed_lord_boss", "soulsweapons:chaos_monarch", "soulsweapons:night_shade", "soulsweapons:moonknight").addLoot("kubejs:legendary_gem")
-    event.addLootTableModifier("bosses_of_mass_destruction:chests/gauntlet", "bosses_of_mass_destruction:chests/obsidilith").addLoot("kubejs:epic_gem")
-    event.addEntityLootModifier("doom:motherdemon","doom:gladiator","doom:iconofsin","doom:arch_maykr","bosses_of_mass_destruction:void_blossom","bosses_of_mass_destruction:lich").addLoot("kubejs:epic_gem")
-    event.addEntityLootModifier("minecraft:warden", "minecraft:ender_dragon","minecells:constructor","adventurez:void_shadow","adventurez:stone_golem").addLoot("kubejs:rare_gem")
-    event.addEntityLootModifier("minecraft:wither", "minecraft:elder_guardian").addLoot("kubejs:common_gem")
+    event.addEntityLootModifier("soulsweapons:returning_knight", "soulsweapons:accursed_lord_boss", "soulsweapons:chaos_monarch", "soulsweapons:night_shade", "soulsweapons:moonknight").addLoot("aqm2:legendary_gem")
+    event.addLootTableModifier("bosses_of_mass_destruction:chests/gauntlet", "bosses_of_mass_destruction:chests/obsidilith").addLoot("aqm2:epic_gem")
+    event.addEntityLootModifier("doom:motherdemon","doom:gladiator","doom:iconofsin","doom:arch_maykr","bosses_of_mass_destruction:void_blossom","bosses_of_mass_destruction:lich").addLoot("aqm2:epic_gem")
+    event.addEntityLootModifier("minecraft:warden", "minecraft:ender_dragon","minecells:constructor","adventurez:void_shadow","adventurez:stone_golem").addLoot("aqm2:rare_gem")
+    event.addEntityLootModifier("minecraft:wither", "minecraft:elder_guardian").addLoot("aqm2:common_gem")
 
     event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:soul_ingot")
 
@@ -168,12 +175,12 @@ LootJS.modifiers((event) => {
     // Entity Loot
     event.addLootTypeModifier(LootType.ENTITY).randomChance(0.03).pool((p) => { 
         p.addLoot("teenycoal:teeny_coal"); 
-        p.limitCount([0, 1], [3, 4]); 
+        p.limitCount([0, 4]); 
     });
 
     event.addLootTableModifier(/.*:entities\/.*zombie.*/).randomChance(0.10).pool((p) => { 
         p.addLoot("mobz:hardenedmetal_ingot"); 
-        p.limitCount([0, 1], [2, 3]); 
+        p.limitCount([0, 3]); 
     });
 
     event.addEntityLootModifier("soulsweapons:chaos_monarch", "soulsweapons:draugr_boss", "soulsweapons:accursed_lord_boss", "soulsweapons:returning_knight", "soulsweapons:moonknight").pool((p) => { 
@@ -198,18 +205,19 @@ LootJS.modifiers((event) => {
 
           event.addEntityLootModifier(mob).pool((p) => {
             p.addLoot("soulsweapons:moonstone"); 
-            p.limitCount([2, 3], [3, 3])
+            p.limitCount([2, 3])
         });
 
    });
 
    event.addLootTableModifier("bosses_of_mass_destruction:chests/gauntlet", "bosses_of_mass_destruction:chests/obsidilith").pool((p) => {
     p.addLoot("soulsweapons:moonstone"); 
-    p.limitCount([2, 3], [3, 3])
+    p.limitCount([2, 3])
    });
 
    // Drop MCDW chance on all entities
    event.addLootTypeModifier(LootType.ENTITY)
+   .entityPredicate(e => {for(let tag of e.getTags()) {if(tag == "FromSpawner") { return false; }} return true; })
    .randomChance(0.03)
    .matchEntity(entity => {
             return entity.matchSlot(EquipmentSlot.OFFHAND, ItemFilter.ENCHANTED) ||
@@ -220,7 +228,41 @@ LootJS.modifiers((event) => {
             // let wpn = tagStacksMCDW[Math.floor(Math.random() * tagStacksMCDW.length)];
             ctx.addLoot(item);
     });
+
+    event.addEntityLootModifier("minecraft:pig").removeLoot("aqm2:rare_gem")
 });
+
+
+
+
+
+  // Coins drop
+  LootJS.modifiers(event => {
+    event.addLootTypeModifier(LootType.ENTITY)
+      .entityPredicate(e => {
+        for(let tag of e.getTags()) {
+          if(tag == "FromSpawner") {
+            return false;
+          }
+        }
+        return true;
+      })
+      .addLoot(LootEntry.of("aqm2:copper_coin").limitCount([2,20]).when(c => c.randomChance(0.049999)))
+  })
+  
+  // Remove Travelers Backpacks
+  LootJS.modifiers(event => {
+    event.addLootTypeModifier(LootType.ENTITY)
+      .entityPredicate(e => {
+        for(let tag of e.getTags()) {
+          if(tag == "FromSpawner") {
+            return true;
+          }
+        }
+        return false;
+      })
+      .removeLoot(/travelersbackpack.*/)
+  });
 
 // // Logging stuff
 // LootJS.modifiers((event) => {

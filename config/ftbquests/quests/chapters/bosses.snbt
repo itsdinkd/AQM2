@@ -84,7 +84,7 @@
 				{
 					id: "158051B4140A772D"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 				}
 			]
 		}
@@ -193,7 +193,7 @@
 				{
 					id: "59DF4E583E46C916"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 					count: 5
 				}
 			]
@@ -222,7 +222,7 @@
 				{
 					id: "2E27B430C4BCFA74"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 					count: 10
 				}
 			]
@@ -298,7 +298,7 @@
 				{
 					id: "6532B09C63168BD4"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 				}
 			]
 		}
@@ -394,7 +394,7 @@
 				{
 					id: "366C1F814469751C"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 					count: 10
 				}
 			]
@@ -450,7 +450,7 @@
 				{
 					id: "23647077C8FC861B"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 					count: 15
 				}
 			]
@@ -475,7 +475,7 @@
 				{
 					id: "0701AED106D1754B"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 				}
 			]
 		}
@@ -1080,7 +1080,7 @@
 				{
 					id: "01FEBFC3B82D79E2"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 				}
 			]
 		}

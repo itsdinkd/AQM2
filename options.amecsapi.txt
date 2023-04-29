@@ -217,7 +217,4 @@ key_modifiers_gui.xaero_open_settings:0,0,0
 key_modifiers_gui.xaero_map_zoom_in:0,0,0
 key_modifiers_gui.xaero_map_zoom_out:0,0,0
 key_modifiers_gui.xaero_quick_confirm:0,0,0
-key_modifiers_iris.keybind.reload:0,1,0
-key_modifiers_iris.keybind.toggleShaders:0,0,0
-key_modifiers_iris.keybind.shaderPackSelection:0,1,0
 key_modifiers_key.craftpresence.config_keycode.name:0,0,0

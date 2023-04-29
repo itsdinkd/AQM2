@@ -352,7 +352,7 @@
 				{
 					id: "73235DB138AB4901"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 50
 				}
 			]
@@ -398,7 +398,7 @@
 				{
 					id: "09D758C21E4B0982"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 40
 				}
 			]

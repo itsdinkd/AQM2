@@ -3,25 +3,7 @@
   "schemas": [
     {
       "version": 0,
-      "data_fixes": [
-        {
-          "type": "block",
-          "fixers": [
-            {
-              "old_id": "myloot:loot_chest",
-              "new_id": "lootr:lootr_chest"
-            },
-            {
-              "old_id": "myloot:loot_barrel",
-              "new_id": "lootr:lootr_barrel"
-            },
-            {
-              "old_id": "myloot:loot_shulker_box",
-              "new_id": "lootr:lootr_shulker"
-            }
-          ]
-        }
-      ]
+      "data_fixes": []
     }
   ],
   "registry_fixers": [

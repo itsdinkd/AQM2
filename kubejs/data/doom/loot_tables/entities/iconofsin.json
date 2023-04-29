@@ -56,7 +56,7 @@
         "entries": [
         {
             "type": "minecraft:item",
-            "name": "kubejs:star_of_icon"
+            "name": "aqm2:star_of_icon"
         }],
         "conditions": [
         {

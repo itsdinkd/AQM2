@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 // Another Quality Modpack 2 -- Server Instructions                                    //
-// Discord: https://discord.gg/6MdUmwPXgE                                              //
+// Discord: aqm2.cc                                                                    //
 // Shameless donate plug: https://www.paypal.com/donate?hosted_button_id=7R6UYF6EYT9KN //
 /////////////////////////////////////////////////////////////////////////////////////////
 
@@ -23,13 +23,12 @@ Cannot start server locally (only if you want to host server on your computer) -
 -------------------------------------------
 
 
-Sections -----------------------------------------------------------
-	i. Setting Up Server Locally                                   -
-	ii. Setting Up Server for Server Host/Dedicated                -
-	IV. Setting up Ram                                              -
-	V. https://discord.gg/6MdUmwPXgE                                -
-                                                                    -
-	New: You should now be able to change seed via normal methods   -
+Sections ------------------------------------------------------------
+	i. Setting Up Server Locally                                    -
+	ii. Setting Up Server for Server Host/Dedicated                 -
+	iii. Setting up Ram                                             -
+    iv. Java Args and which to use (For high ram or low ram)        -
+    v. Discord: aqm2.cc                                             -
 ---------------------------------------------------------------------
 
 Discord (AQM2 Support) ------------------------
@@ -82,7 +81,7 @@ Need help? Visit our discord https://discord.gg/k88uKwNe6h
 
 
 ///////////////////////////////////////////////////////////////////
-// iv. Allocating Ram to your Server //
+// iii. Allocating Ram to your Server                            //
 ///////////////////////////////////////////////////////////////////
 
 1. Open server-starter-config.yaml
@@ -98,3 +97,36 @@ Need help? Visit our discord https://discord.gg/k88uKwNe6h
 			minRam: 8G
 
 5. Save, Launch. 
+
+
+
+///////////////////////////////////////////////////////////////////
+// Java Args and which to use (For high ram and low ram)         //
+///////////////////////////////////////////////////////////////////
+
+
+By default in server start the java args are set up for you to use Akir's flags. This is a widely supported java arg setup for minecraft, which came out for Minecraft v1.12.2, which used Java 7.
+
+Time has moved on, and now minecraft uses Java 17. Most of the flags in Akirs are no longer used in recent versions of java, meaning, these args are good but not as good as it was. 
+
+You can still use these arguments but it should only be used up to a certain amount of ram as this garbage collector, G1C1 is not made for high ram usage. it has a low heap, and when you give high ram, you are increasing the heap size, making the collector not able to perform as much causing performance issues.
+
+DO NOT use more than 8gb of ram with AKIR's flags, or GC1C garbage collector. Do not use less than 4gb as well as this modpack is not made for anything lower than 4.
+
+If you have 4-8gb of ram to use, then do nothing else. 
+
+
+If you have 14GB+ of ram, then you want to use the newest garbage collector, Shenandoah. 
+Do note that you are unable to use anything less than 14gb, 13gb at the least. You will severely impact your server and performance will be terrible. 
+
+When you use Shenendoah's garbage collector, you will have a 20% increase in performance than using gc1c, and you will also be able to support more players joining than normal. (If you have a good cpu of course)
+
+---
+
+i. For Server Hosts, here is the start up arguments to use. -Xms14000M -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseStringDeduplication -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat
+   
+   a. make sure to change -Xms14000M to the amount of ram you want to use. for 16gb, you would write -Xms16000M or -Xms16GB
+
+
+
+ii. For Local hosting (ie; server start), the JavaArgs are already in the server-start-config file, but commented out. Please check config for steps on how to use. 

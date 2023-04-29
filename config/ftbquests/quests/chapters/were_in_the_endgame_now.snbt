@@ -126,7 +126,7 @@
 			tasks: [{
 				id: "68ECA269A4570723"
 				type: "item"
-				item: "kubejs:cursed_gem"
+				item: "aqm2:cursed_gem"
 			}]
 			rewards: [{
 				id: "6789B02AC607F16C"
@@ -146,7 +146,7 @@
 			tasks: [{
 				id: "4FBDD2D101709C3D"
 				type: "item"
-				item: "kubejs:corrupted_emerald"
+				item: "aqm2:corrupted_emerald"
 			}]
 		}
 		{
@@ -158,7 +158,7 @@
 			tasks: [{
 				id: "378C30CAED064F38"
 				type: "item"
-				item: "kubejs:demon_pearl"
+				item: "aqm2:demon_pearl"
 			}]
 			rewards: [{
 				id: "44E808AFDCC02EC4"
@@ -175,7 +175,7 @@
 			tasks: [{
 				id: "54CF1CFE643B05AA"
 				type: "item"
-				item: "kubejs:star_of_icon"
+				item: "aqm2:star_of_icon"
 			}]
 			rewards: [{
 				id: "6B2E3849276731BD"
@@ -207,7 +207,7 @@
 				{
 					id: "525668A315DBB2C8"
 					type: "item"
-					item: "kubejs:aqm2"
+					item: "aqm2:aqm2"
 				}
 				{
 					id: "26C57E6206318C7B"

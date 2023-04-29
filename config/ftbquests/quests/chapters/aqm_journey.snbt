@@ -52,7 +52,7 @@
 			rewards: [{
 				id: "407F95E6DF70A96E"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 2
 			}]
 		}
@@ -76,7 +76,7 @@
 			rewards: [{
 				id: "0390441E62A2DD42"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 2
 			}]
 		}
@@ -99,7 +99,7 @@
 				{
 					id: "04629A39C6C5E5E9"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 3
 					random_bonus: 1
 				}
@@ -121,7 +121,7 @@
 				type: "questsadditions:break"
 				title: "Mine 4 Cobblestone"
 				block_type: 0
-				block: "minecraft:cobblestone"
+				block: "minecraft:stone"
 				value: 3L
 				checkItem: false
 			}]
@@ -134,7 +134,7 @@
 				{
 					id: "39F0A7EA3A8C8A01"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 5
 				}
 			]
@@ -154,7 +154,7 @@
 			rewards: [{
 				id: "72169AD33DC1DAD3"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 2
 			}]
 		}
@@ -292,7 +292,7 @@
 				{
 					id: "7F032AAF849C218F"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 				}
 			]
 		}
@@ -354,7 +354,7 @@
 			rewards: [{
 				id: "4CBFA9719E4F115B"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 2
 			}]
 		}
@@ -383,7 +383,7 @@
 				{
 					id: "765EC396B33F82C9"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 2
 				}
 			]
@@ -405,7 +405,7 @@
 				{
 					id: "24D13D564011B3FA"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 3
 				}
 				{
@@ -451,7 +451,7 @@
 			rewards: [{
 				id: "201E32EC445EB05E"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 5
 			}]
 		}
@@ -471,7 +471,7 @@
 			rewards: [{
 				id: "4D43A8BF078AD021"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 5
 			}]
 		}
@@ -491,7 +491,7 @@
 			rewards: [{
 				id: "5B1AF6BB957CF00D"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 5
 			}]
 		}
@@ -512,7 +512,7 @@
 				{
 					id: "5B54D2FA9D6C9DA1"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 25
 				}
 				{

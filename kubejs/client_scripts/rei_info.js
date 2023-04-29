@@ -71,6 +71,13 @@ REIEvents.hide('item', (event) => {
 
 // tooltips
 ItemEvents.tooltip(tooltip => {
+
+    tooltip.add('croparia:battery', ["§6Store and Output Energy", "§eMax Storage: §2500000", '§eMax Output: §24400'])
+    tooltip.add("gobber2:gobber2_boots_dragon", ["§c- No Creative Flight"])
+    tooltip.add("gobber2:gobber2_helmet_dragon", ["§c- No Creative Flight"])
+    tooltip.add("gobber2:gobber2_chestplate_dragon", ["§c- No Creative Flight"])
+    tooltip.add("gobber2:gobber2_leggings_dragon", ["§c- No Creative Flight"])  
+
   tooltip.addAdvanced(/artifacts:.*/, (item, advanced, text) => {
    text.add(1, Text.red('Mimics Disabled!'))
    text.add(2, Text.green('-=-=--=-=-=-=-=-=-='))
@@ -80,7 +87,7 @@ ItemEvents.tooltip(tooltip => {
   tooltip.addAdvanced('soulsweapons:verglas', (item, advanced, text) => {
     text.add(1, Text.darkGray('Drops from all Souls Weapons Bosses'))
    })
-
+s
    tooltip.addAdvanced('soulsweapons:moonstone', (item, advanced, text) => {
     text.add(1, Text.darkGray('Drops from BOMD, Souls, Doom bosses'))
    })

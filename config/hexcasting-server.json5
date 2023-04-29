@@ -14,7 +14,7 @@
 		"circleActionDenyList": []
 	},
 	// Resource locations of disallowed actions. Trying to cast one of these will result in a mishap.
-	"actionDenyList": ["create_lava", "summon_lightning", "flight",  "teleport"],
+	"actionDenyList": ["create_lava", "summon_lightning", "flight",  "teleport", "phsblck"],
 	// Should villagers take offense when you flay the mind of their fellow villagers?
 	"villagersOffendedByMindMurder": true,
 	"Scrolls in Loot": {

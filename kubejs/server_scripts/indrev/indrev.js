@@ -13,18 +13,18 @@ ServerEvents.recipes(event => {
 
 
 // Pulverizing
-event.custom({
-    "type": "indrev:pulverize",
-    "ingredients": {
-      "tag": "c:manganese_ores",
-      "count": 1
-    },
-    "output": {
-      "item": "mythicmetals:raw_manganese",
-      "count": 2
-    },
-    "processTime": 200
-});
+// event.custom({
+//     "type": "indrev:pulverize",
+//     "ingredients": {
+//       "tag": "c:manganese_ores",
+//       "count": 1
+//     },
+//     "output": {
+//       "item": "mythicmetals:raw_manganese",
+//       "count": 2
+//     },
+//     "processTime": 200
+// });
 
 
 //Recycler
@@ -62,12 +62,12 @@ event.custom({
     "type": "indrev:recycle",
     "ingredients": [
       {
-        "item": "kubejs:copper_coin",
+        "item": "aqm2:copper_coin",
         "count": 999
       }
     ],
     "output": {
-      "item": "kubejs:silver_coin",
+      "item": "aqm2:silver_coin",
       "count": 1
     },
     "processTime": 170
@@ -77,12 +77,12 @@ event.custom({
       "type": "indrev:recycle",
       "ingredients": [
         {
-          "item": "kubejs:silver_coin",
+          "item": "aqm2:silver_coin",
           "count": 999
         }
       ],
       "output": {
-        "item": "kubejs:gold_coin",
+        "item": "aqm2:gold_coin",
         "count": 1
       },
       "processTime": 170

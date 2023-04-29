@@ -4,7 +4,7 @@
 	order_index: 2
 	filename: "quest_shop"
 	title: "-QUEST SHOP-"
-	icon: "kubejs:gold_coin"
+	icon: "aqm2:gold_coin"
 	disable_toast: true
 	subtitle: ["Use those quest coins"]
 	default_quest_shape: "rsquare"
@@ -16,7 +16,7 @@
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
-			image: "kubejs:textures/item/copper_coin.png"
+			image: "aqm2:textures/item/copper_coin.png"
 			hover: ["Copper Coin Shop"]
 			click: ""
 			dev: false
@@ -28,7 +28,7 @@
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
-			image: "kubejs:textures/item/silver_coin.png"
+			image: "aqm2:textures/item/silver_coin.png"
 			hover: ["Silver Coin Shop"]
 			click: ""
 			dev: false
@@ -40,7 +40,7 @@
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
-			image: "kubejs:textures/item/gold_coin.png"
+			image: "aqm2:textures/item/gold_coin.png"
 			hover: ["Gold Coin Shop"]
 			click: ""
 			dev: false
@@ -76,7 +76,7 @@
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
-			image: "kubejs:textures/item/rare_gem.png"
+			image: "aqm2:textures/item/rare_gem.png"
 			hover: [
 				"Rare Gem Shop"
 				"Drops From; Ender Dragon, Warden"
@@ -91,7 +91,7 @@
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
-			image: "kubejs:textures/item/epic_gem.png"
+			image: "aqm2:textures/item/epic_gem.png"
 			hover: [
 				"Epic Gem Shop"
 				"Drops From; Doom, BOMD Bosses"
@@ -106,7 +106,7 @@
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
-			image: "kubejs:textures/item/common_gem.png"
+			image: "aqm2:textures/item/common_gem.png"
 			hover: [
 				"Common Gem Shop"
 				"Drops From; Wither, Elder Guardian"
@@ -121,7 +121,7 @@
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
-			image: "kubejs:textures/item/legendary_gem.png"
+			image: "aqm2:textures/item/legendary_gem.png"
 			hover: [
 				"Legendary Gem Shop"
 				"Drops from; All Soulslike Bosses"
@@ -143,7 +143,7 @@
 			tasks: [{
 				id: "3F9C7FB086ACD181"
 				type: "item"
-				item: "kubejs:silver_coin"
+				item: "aqm2:silver_coin"
 				count: 2L
 				consume_items: true
 			}]
@@ -158,12 +158,17 @@
 			icon: "heartstone:heartstone"
 			x: 0.5d
 			y: 0.5d
+			description: [
+				"Bind to another player to teleport to one another"
+				""
+				"&l&oSimilar to a &nTPA&r command&r&r"
+			]
 			repeatable: true
 			id: "1C653C467308BE45"
 			tasks: [{
 				id: "5F5C745A30399AA9"
 				type: "item"
-				item: "kubejs:silver_coin"
+				item: "aqm2:silver_coin"
 				count: 5L
 				consume_items: true
 			}]
@@ -184,7 +189,7 @@
 			tasks: [{
 				id: "120F2F5A30408D78"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 20L
 				consume_items: true
 			}]
@@ -197,7 +202,7 @@
 			}]
 		}
 		{
-			title: "Common Loot (25 Copper Coins)"
+			title: "Common Loot (50 Copper Coins)"
 			icon: "kibe:entangled_bag"
 			x: -11.5d
 			y: 2.0d
@@ -207,7 +212,7 @@
 			tasks: [{
 				id: "5C5D35256DFD6FA5"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 50L
 				consume_items: true
 			}]
@@ -228,7 +233,7 @@
 			tasks: [{
 				id: "65529F1BE1B89698"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 24L
 				consume_items: true
 			}]
@@ -249,7 +254,7 @@
 			tasks: [{
 				id: "5E8855B0DF12B4FF"
 				type: "item"
-				item: "kubejs:epic_gem"
+				item: "aqm2:epic_gem"
 				count: 2L
 				consume_items: true
 			}]
@@ -271,7 +276,7 @@
 			tasks: [{
 				id: "7260E3CB0A0596EE"
 				type: "item"
-				item: "kubejs:epic_gem"
+				item: "aqm2:epic_gem"
 				consume_items: true
 			}]
 			rewards: [{
@@ -297,7 +302,7 @@
 			tasks: [{
 				id: "5183989C0CD3EABB"
 				type: "item"
-				item: "kubejs:epic_gem"
+				item: "aqm2:epic_gem"
 				count: 3L
 				consume_items: true
 			}]
@@ -319,7 +324,7 @@
 			tasks: [{
 				id: "3A68BF8003B9D265"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 100L
 				consume_items: true
 			}]
@@ -340,7 +345,7 @@
 			tasks: [{
 				id: "006965765E872C07"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 20L
 				consume_items: true
 			}]
@@ -363,7 +368,7 @@
 			tasks: [{
 				id: "6A84FF2576A90E46"
 				type: "item"
-				item: "kubejs:legendary_gem"
+				item: "aqm2:legendary_gem"
 				count: 2L
 				consume_items: true
 			}]
@@ -396,7 +401,7 @@
 			tasks: [{
 				id: "15B74A4B67FE581B"
 				type: "item"
-				item: "kubejs:legendary_gem"
+				item: "aqm2:legendary_gem"
 				count: 2L
 				consume_items: true
 			}]

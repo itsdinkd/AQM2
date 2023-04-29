@@ -8,12 +8,19 @@ priority: 100
 		"bosses_of_mass_destruction:void_thorn",
 		"bosses_of_mass_destruction:blazing_eye",
 		"bosses_of_mass_destruction:obsidian_heart",
-		"kubejs:cursed_gem",
-		"kubejs:corrupted_emerald",
-		"kubejs:star_of_icon",
-		"kubejs:ultimate_ingot",
-		"kubejs:demon_pearl",
+		"aqm2:cursed_gem",
+		"aqm2:corrupted_emerald",
+		"aqm2:star_of_icon",
+		"aqm2:ultimate_ingot",
+		"aqm2:demon_pearl",
+		"aqm2:lord_soul_ultimate",
 		"kibe:angel_ring",
+		"soulsweapons:lord_soul_white",
+		"soulsweapons:lord_soul_red",
+		"soulsweapons:lord_soul_dark",
+		"soulsweapons:lord_soul_rose",
+		"soulsweapons:lord_soul_purple",
+		"soulsweapons:lord_soul_void",
 		"gobber2:dragon_star",
 		"gobber2:gobber2_ingot",
 		"gobber2:gobber2_ingot_nether",
@@ -258,9 +265,9 @@ ServerEvents.tags('item', event => {
 		event.add("travelersbackpack:blacklisted_items", item)
 	})
 
-	missingFishes.forEach(function (item, index) {
-		event.add('minecraft:fishes', item)
-	})
+	// missingFishes.forEach(function (item, index) {
+	// 	event.add('minecraft:fishes', item)
+	// })
 
 	// soulsweaponsMatBosses.forEach(item => {
 	// 	event.add('aqm:bosses/soulweapoons', item)
@@ -271,9 +278,9 @@ ServerEvents.tags('item', event => {
 	event.add('c:wrenches','techreborn:wrench')
 	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
 	event.add("yigd:soulbound_blacklist", /^travelersbackpack:.*/)
-	event.add("aqm2:butterflies/cotton_balls", /^lilwings:.*_cotton_ball/)
-	event.add("aqm2:butterflies/elytra", /^lilwings:.*_elytra/)
-	event.add("aqm2:butterflies/wings", /^lilwings:.*_wings/)
+	// event.add("aqm2:butterflies/cotton_balls", /^lilwings:.*_cotton_ball/)
+	// event.add("aqm2:butterflies/elytra", /^lilwings:.*_elytra/)
+	// event.add("aqm2:butterflies/wings", /^lilwings:.*_wings/)
 	event.add('things:hardening_catalyst_blacklist', /^spectrum:.*/)
 	event.add('things:hardening_catalyst_blacklist', /^artifacts:.*/)
 	event.add('things:hardening_catalyst_blacklist', /^kibe:.*/)

@@ -210,7 +210,7 @@ event.custom({
       "item": "techreborn:uu_matter"
     },
     "2": {
-      "item": "kubejs:cursed_gem"
+      "item": "aqm2:cursed_gem"
     },
     "s": {
       "item": "spectrum:neolith"
@@ -225,7 +225,7 @@ event.custom({
       "item": "ae2:cell_component_64k"
     },
     "3": {
-      "item": "kubejs:cursed_gem"
+      "item": "aqm2:lord_soul_ultimate"
     },
     "4": {
       "item": "bosses_of_mass_destruction:earthdive_spear"
@@ -251,7 +251,7 @@ event.custom({
      " I1DDD6I ",
      "gMAA7AAMg",
      " NsCECsN ",
-     "    3    "
+     "   3 Z   "
    ],
    "key": {
      "D": {
@@ -267,7 +267,7 @@ event.custom({
        "item": "techreborn:uu_matter"
      },
      "2": {
-       "item": "kubejs:cursed_gem"
+       "item": "aqm2:cursed_gem"
      },
      "4": {
        "item": "bosses_of_mass_destruction:void_thorn"
@@ -314,6 +314,9 @@ event.custom({
      "a": {
        "item": "minecraft:apple"
      },
+     "Z": {
+      "item": "aqm2:lord_soul_ultimate"
+    },
      "3": {
        "item": "soulsweapons:chaos_orb"
       }
@@ -322,7 +325,7 @@ event.custom({
       "item": "kibe:angel_ring"
     },
     "catalyst": {
-      "item": "kubejs:ultimate_ingot"
+      "item": "aqm2:ultimate_ingot"
     },
     "cost": 1
   });
@@ -532,7 +535,7 @@ event.shaped("dark-enchanting:table_upgrade", ['bgb', 'gAg', 'GGG'],
 {
   b: 'botania:mana_diamond',
   g: 'mythicmetals:midas_gold_ingot',
-  A: 'kubejs:aqm2',
+  A: 'aqm2:aqm2',
   G: 'gobber2:gobber2_glob_end'
 })
 
@@ -638,7 +641,7 @@ event.replaceInput(
 event.remove({id: "bewitchment:juniper_broom"})
 event.shaped("bewitchment:juniper_broom", [" d ", "h 1", "ses"],
 {
-  d: "kubejs:demon_pearl",
+  d: "aqm2:demon_pearl",
   h: "bewitchment:demon_heart",
   1: "spectrum:paltaeria_gem",
   s: "bewitchment:juniper_sapling",
@@ -649,7 +652,7 @@ event.shaped("bewitchment:juniper_broom", [" d ", "h 1", "ses"],
 event.remove({id: "bewitchment:cypress_broom"})
 event.shaped("bewitchment:cypress_broom", [" d ", "h 1", "ses"],
 {
-  d: "kubejs:demon_pearl",
+  d: "aqm2:demon_pearl",
   h: "bewitchment:demon_heart",
   1: "spectrum:paltaeria_gem",
   s: "bewitchment:cypress_sapling",
@@ -660,7 +663,7 @@ event.shaped("bewitchment:cypress_broom", [" d ", "h 1", "ses"],
 event.remove({id: "bewitchment:elder_broom"})
 event.shaped("bewitchment:elder_broom", [" d ", "h 1", "ses"],
 {
-  d: "kubejs:demon_pearl",
+  d: "aqm2:demon_pearl",
   h: "bewitchment:demon_heart",
   1: "spectrum:paltaeria_gem",
   s: "bewitchment:elder_sapling",
@@ -671,7 +674,7 @@ event.shaped("bewitchment:elder_broom", [" d ", "h 1", "ses"],
 event.remove({id: "bewitchment:dragons_blood_broom"})
 event.shaped("bewitchment:dragons_blood_broom", [" d ", "h 1", "ses"],
 {
-  d: "kubejs:demon_pearl",
+  d: "aqm2:demon_pearl",
   h: "bewitchment:demon_heart",
   1: "spectrum:paltaeria_gem",
   s: "bewitchment:dragons_blood_sapling",
@@ -726,13 +729,13 @@ event.replaceInput(
 );
 
 event.remove({id: "doom:axe_marauder_open"})
-event.custom({"type":"doom:gun_table","pattern":"abcd","key":{"a":{"item":"doom:argent_plate","count":20},"b":{"item":"gobber2:dragon_star","count":6},"c":{"item":"doom:axe_marauder_closed","count":1},"d":{"item":"kubejs:cursed_gem","count":1}},"result":{"item":"doom:axe_marauder_open"}})
+event.custom({"type":"doom:gun_table","pattern":"abcd","key":{"a":{"item":"doom:argent_plate","count":20},"b":{"item":"gobber2:dragon_star","count":6},"c":{"item":"doom:axe_marauder_closed","count":1},"d":{"item":"aqm2:cursed_gem","count":1}},"result":{"item":"doom:axe_marauder_open"}})
 
 event.remove({id: "doom:cruciblesword_closed"})
-event.custom({"type":"doom:gun_table","pattern":"abc","key":{"a":{"item":"doom:argent_plate","count":20},"b":{"item":"gobber2:gobber2_ingot_nether","count":10},"c":{"item":"kubejs:star_of_icon","count":1}},"result":{"item":"doom:cruciblesword_closed"}})
+event.custom({"type":"doom:gun_table","pattern":"abc","key":{"a":{"item":"doom:argent_plate","count":20},"b":{"item":"gobber2:gobber2_ingot_nether","count":10},"c":{"item":"aqm2:star_of_icon","count":1}},"result":{"item":"doom:cruciblesword_closed"}})
 
 event.remove({id: "doom:sentinelhammer"})
-event.custom({"type":"doom:gun_table","pattern":"abcd","key":{"a":{"item":"doom:argent_energy","count":20},"b":{"item":"doom:argent_plate","count":10},"c":{"item":"kubejs:corrupted_emerald","count":1},"d":{"item":"kubejs:demon_pearl","count":1}},"result":{"item":"doom:sentinelhammer"}})
+event.custom({"type":"doom:gun_table","pattern":"abcd","key":{"a":{"item":"doom:argent_energy","count":20},"b":{"item":"doom:argent_plate","count":10},"c":{"item":"aqm2:corrupted_emerald","count":1},"d":{"item":"aqm2:demon_pearl","count":1}},"result":{"item":"doom:sentinelhammer"}})
 
 // temp gold dim door removal until fix
 event.remove({output:"dimdoors:gold_dimensional_door"})
@@ -974,7 +977,7 @@ event.remove({output: "soulsweapons:freyr_sword"})
           "tag": "soulsweapons:chaos_orb"
         },
         {
-          "item": "kubejs:cursed_gem"
+          "item": "aqm2:cursed_gem"
         },
         {
           "item": "bosses_of_mass_destruction:void_thorn"
@@ -1057,7 +1060,7 @@ event.custom({
       "item": "adventurez:stone_golem_heart"
     },
     {
-      "item": "kubejs:demon_pearl"
+      "item": "aqm2:demon_pearl"
     },
     {
       "item": "gobber2:gobber2_rod_end"
@@ -1531,7 +1534,7 @@ event.custom({
   });
   // event.remove({output:Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}')})
   // event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}'), ['minecraft:book', 'minecraft:amethyst_shard'])
-
+  event.shapeless('aqm2:aqm2', ['minecraft:apple',"minecraft:purple_banner",'minecraft:stick'])
   event.remove({output:"things:arm_extender"})
   //  event.custom({
   //    "type": "botania:runic_altar",
@@ -1666,7 +1669,7 @@ event.custom(
       "item": "fwaystones:pocket_wormhole"
     },
     {
-      "item": "kubejs:cursed_gem"
+      "item": "aqm2:cursed_gem"
     }
   ]
 });
@@ -1767,7 +1770,7 @@ event.custom({
   event.replaceInput({id: "resourceful_tools:wellspring"}, "minecraft:black_concrete", "minecraft:obsidian");
   event.replaceInput({id: "autoworkstations:iron_auto_enchanting_table"}, "minecraft:enchanting_table", "dark-enchanting:dark_enchanter");
   event.replaceInput({id: "autoworkstations:iron_auto_enchanting_table"}, "minecraft:glass", "modern_industrialization:iridium_curved_plate");
-  event.replaceInput({id: "autoworkstations:iron_auto_crafting_table"}, "minecraft:glass", "techreborn:zinc_plate");
+  event.replaceInput({id: "autoworkstations:iron_auto_crafting_table"}, "minecraft:redstone", "techreborn:tungsten_storage_block");
   event.replaceInput({id: "autoworkstations:iron_auto_crafting_table"}, "minecraft:copper_block", "techreborn:auto_crafting_table");
   event.replaceInput({id: "autoworkstations:iron_auto_furnace"}, "minecraft:furnace", "fabric-furnaces:ethereal_furnace");
   event.replaceInput({id: "autoworkstations:iron_auto_furnace"}, "minecraft:copper_block", "blockus:nether_stars_block");

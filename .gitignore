@@ -110,3 +110,8 @@ server_files/serverstarter.log
 .vscode/probe.lang_key-definitions.json
 .vscode/probe.doc-schema.json
 .vscode/probe.class-definitions.json
+config/byg/overworld/biome_selectors/shattered_biomes/shattered_biomes_vanilla.dat
+config/Deftu/deftulib/deftulibStorage.dat
+config/registryDump.txt
+kubejs/server_scripts/misc/attributes.js
+kubejs/server_scripts/misc/attributes.js

@@ -766,7 +766,7 @@
 				{
 					id: "56A0206C8D412BF8"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 5
 				}
 			]
@@ -791,7 +791,7 @@
 				{
 					id: "253849D0F0B08FC7"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 5
 				}
 			]
@@ -816,7 +816,7 @@
 				{
 					id: "502AF96DF991C4A1"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 5
 				}
 			]
@@ -842,7 +842,7 @@
 				{
 					id: "09D29929F384641B"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 15
 				}
 			]
@@ -860,7 +860,7 @@
 			rewards: [{
 				id: "2A9E87CD9320B8B2"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 25
 			}]
 		}
@@ -973,7 +973,7 @@
 				{
 					id: "0686F0EB33306670"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 20
 				}
 			]
@@ -1060,7 +1060,7 @@
 				{
 					id: "554C42453E2F7E8C"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 15
 				}
 			]

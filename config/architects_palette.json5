@@ -9,5 +9,5 @@
 	"enableVillagerTrades": true,
 	"enableWandererTrades": true,
 	//   Adds vertical slabs for the OG builders out there
-	"enableVerticalSlabs": false
+	"enableVerticalSlabs": true
 }

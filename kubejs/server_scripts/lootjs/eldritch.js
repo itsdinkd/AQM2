@@ -26,6 +26,15 @@ EntityEvents.checkSpawn(e => {
     }
   })
 
+//  function checkSpawnType() {
+//   let r;
+//    EntityEvents.checkSpawn(event => {
+//      r = event.type
+//   })
+//   return r
+// } 
+
+
 // LootJS.modifiers(event => {
 //     event
 //         .addLootTableModifier(/eldritchmobs:entities.*/)

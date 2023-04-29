@@ -875,6 +875,8 @@
 			[light_sources.settings.entities.takesapillage]
 				clay_golem = true
 				skirmisher = true
+				legioner = true
+				archer = true
 
 			[light_sources.settings.entities.ad_astra]
 				tier_1_rocket = true
@@ -932,4 +934,7 @@
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
+
+			[light_sources.settings.entities.vinery]
+				mule = true
 

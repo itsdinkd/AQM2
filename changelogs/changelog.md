@@ -1,3 +1,62 @@
+### Another Quality Modpack v1.5.2
+
+
+_Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.2.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.2.md)_
+
+## FIXED
+- Comparators not working
+- Wildlife tags still trying to be set even though the mod was removed
+- ME Requester disconnecting from network after server restart
+- YIGD Graves crashing when restoring with a travelers backpack 
+- YIGD item losses
+- Traveler Backpack crashes on memory slot and dragon backpack
+- Dungeons Arise fixes DataFixerUpper version on structure pieces. This may result in increased performance, and tackle related crashes.
+- Broken Alloy Forgery recipes
+- Pigs dropping rare gems and added a script to remove all your rare gems 
+- AQM Journey quest on mining cobblestone. changed to stone instead of cobblestone. doh.
+- nudibranch death bug and aquatic mount speed
+- Tiered fixed Armor stand and Archery bugs
+- Vinery fixed an issue with the grapevine pot that prevented players to take out grapejuice 
+- Forgot to disable BCLib patches being applied, switched it back to false
+- AQM Journey questline for cobblestone breaking changed to stone
+- Duplicate cursed gem in the quantum sword recipe. replaced with the new ultimate lord soul item
+- Typo in client REI script
+- Fixed missing aqm2 item recipe that is used dark enchanting table upgrade
+- Inmis trinket compatibility 
+
+## CHANGES
+- YIGD Unclaimed Graves will now drop contents
+- Per the community poll results in the aqm discord, Tiered tiers will now have a chance to modify equipment found in chests
+- Auto Workstation Crafting recipe change
+- Blacklisted more dimensions for Flan (modded ones)
+- Disabled Hexal's "Phase Block" action as it can be used to bypass claims
+- Enabled vertical slabs crafting architects palette
+- Blacklisted a lot of blocks from being picked up, including a spawner (use silk touch). Chests will now always be disabled due to griefers. Single players can erase this via CarryOn config
+- Farming for Blockheads merchants will be treated as a baby to prevent infinite blood glitch
+- Tooltip changes for dragon armor
+- Removed manganese ore custom pulverizer recipe
+- Disabled villager traveler backpack trading making it obtainable via loot only
+- Travelers Backpack will not drop from mobs spawned from a spawner
+- Copper Coins now have a chance to drop from mobs (Unless they spawned from a spawner) (Low Chance to drop)
+- Changed kubejs namespace in custom items to aqm2
+- Inmis and Compact Storage backpacks can no longer be placed in a travelers backpack
+- Added Soul Weapon ingot to Ultimate Ingot recipe, removed XPS ingot from it
+
+
+## ADDITIONS
+- Fluix Mana Pool to infusion recipes will show in REI now
+- Created a new custom item; Lord Soul Ultimate. This is a crafting material for Angel Ring and Quantum Sword. Can be crafted in assembler using all 6 lord souls and 1000 UU Matter
+- Oh The Biomes You'll Go items added to Farming for Blockheads Market
+- WTHIT Adds Horse Jump and Speed Tooltip. Adds option to hide mounted entities which is enabled by default
+- Structure Essentials mod which optimizes structures loading faster, reduces lag spikes, adds a timeout to structure locating to prevent watchdog crashes, and more.
+- Added blocks for heat generation to Powah. Architects Palette's Sunstone. will add more as i discover other potential blocks
+- Added fluids for coolant to Powah. MI's Cryofluid 3x the coolant of water, Tech Reborn's helium which is 2x
+- Souls weapons soul ingot added to ultimate ingot recipe
+- New custom item; Ultimate Lord Soul. Collect all lord souls from Souls Weapons bosses to craft into this crafting material required for Angel Ring, and Quantum Sword
+
+---
+
+
 ### Another Quality Modpack v1.5.1
 
 

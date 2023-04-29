@@ -262,6 +262,7 @@ var aqmClientRemove = [
 "travelersbackpack:cow",
 "travelersbackpack:villager",
 "travelersbackpack:crepper",
+"travelersbackpack:creeper",
 "travelersbackpack:cake",
 "travelersbackpack:lapis",
 "travelersbackpack:blaze",

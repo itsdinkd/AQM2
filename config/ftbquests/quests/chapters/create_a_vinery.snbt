@@ -86,7 +86,7 @@
 				{
 					id: "73E9644862D006BB"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 15
 				}
 			]
@@ -181,8 +181,8 @@
 							}
 							{
 								id: "vinery:red_grape_seeds"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
 					}
@@ -258,8 +258,8 @@
 							}
 							{
 								id: "vinery:red_grape"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}
@@ -274,7 +274,7 @@
 				{
 					id: "68C562E223A81FC9"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 15
 				}
 			]
@@ -400,7 +400,7 @@
 				{
 					id: "4408C7DE6CA24B56"
 					type: "item"
-					item: "kubejs:copper_coin"
+					item: "aqm2:copper_coin"
 					count: 15
 				}
 				{
@@ -444,7 +444,7 @@
 			rewards: [{
 				id: "2413D515F4F9D79D"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 10
 			}]
 		}
@@ -703,7 +703,7 @@
 			rewards: [{
 				id: "5F6FED014ADBDF55"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 3
 			}]
 		}
@@ -721,7 +721,7 @@
 			rewards: [{
 				id: "5E09B5A8A6A67F2C"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 3
 			}]
 		}
@@ -739,7 +739,7 @@
 			rewards: [{
 				id: "7E021A300C417F10"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 3
 			}]
 		}
@@ -757,7 +757,7 @@
 			rewards: [{
 				id: "147B58E894D1B53B"
 				type: "item"
-				item: "kubejs:copper_coin"
+				item: "aqm2:copper_coin"
 				count: 3
 			}]
 		}

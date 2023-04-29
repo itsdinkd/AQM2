@@ -5,6 +5,36 @@
 		"enableBackpackBlockQuickEquip": true,
 		// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
 		"invulnerableBackpack": true,
+		// List of items that can be put in tool slots (Use registry names, for example: minecraft:apple)
+		"toolSlotsAcceptableItems": [],
+		// List of items that can't be put in backpack inventory (Use registry names, for example: minecraft:apple)
+		"blacklistedItems": [
+			"inmis:baby_backpack",
+			"inmis:frayed_backpack",
+			"inmis:ender_pouch",
+			"inmis:endless_backpack",
+			"inmis:gilded_backpack",
+			"inmis:plated_backpack",
+			"inmis:blazing_backpack",
+			"inmis:withered_backpack",
+			"inmis:bejeweled_backpack",
+			"compact_storage:backpack_orange",
+			"compact_storage:backpack_black",
+			"compact_storage:backpack_blue",
+			"compact_storage:backpack_brown",
+			"compact_storage:backpack_cyan",
+			"compact_storage:backpack_gray", 
+			"compact_storage:backpack_green",
+			"compact_storage:backpack_light_blue",
+			"compact_storage:backpack_light_gray",
+			"compact_storage:backpack_lime",
+			"compact_storage:backpack_magenta",
+			"compact_storage:backpack_pink",
+			"compact_storage:backpack_purple",
+			"compact_storage:backpack_red",
+			"compact_storage:backpack_white",
+			"compact_storage:backpack_yellow"
+			],
 		"tanksCapacity": 160000,
 		// Prevents backpack disappearing in void
 		"voidProtection": true,
@@ -23,10 +53,58 @@
 		"enableLoot": true,
 		// Enables chance to spawn Zombie, Skeleton, Wither Skeleton, Piglin or Enderman with random backpack equipped
 		"spawnEntitiesWithBackpack": true,
+		// List of overworld entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
+		"possibleOverworldEntityTypes": [
+			"minecraft:zombie",
+			"minecraft:skeleton",
+			"minecraft:enderman"
+		],
+		// List of nether entity types that can spawn with equipped backpack. DO NOT ADD anything to this list, because the game will crash, remove entries if mob should not spawn with backpack
+		"possibleNetherEntityTypes": [
+			"minecraft:wither_skeleton",
+			"minecraft:piglin"
+		],
 		// Defines spawn chance of entity with backpack (1 in [selected value])
-		"spawnChance": 100
+		"spawnChance": 100,
+		// List of backpacks that can spawn on overworld mobs
+		"overworldBackpacks": [
+			"travelersbackpack:diamond",
+			"travelersbackpack:gold",
+			"travelersbackpack:emerald",
+			"travelersbackpack:iron",
+			"travelersbackpack:redstone",
+			"travelersbackpack:coal",
+			"travelersbackpack:bookshelf",
+			"travelersbackpack:sandstone",
+			"travelersbackpack:snow",
+			"travelersbackpack:sponge",
+			"travelersbackpack:cactus",
+			"travelersbackpack:hay",
+			"travelersbackpack:melon",
+			"travelersbackpack:pumpkin",
+			"travelersbackpack:enderman",
+			"travelersbackpack:skeleton",
+			"travelersbackpack:spider",
+			"travelersbackpack:bee",
+			"travelersbackpack:wolf",
+			"travelersbackpack:fox",
+			"travelersbackpack:ocelot",
+			"travelersbackpack:horse",
+			"travelersbackpack:pig",
+			"travelersbackpack:sheep",
+			"travelersbackpack:chicken"
+		],
+		// List of backpacks that can spawn on nether mobs
+		"netherBackpacks": [
+			"travelersbackpack:quartz",
+			"travelersbackpack:nether",
+			"travelersbackpack:ghast",
+			"travelersbackpack:wither"
+		],
+		// Enables trade for Villager Backpack in Librarian villager trades
+		"enableVillagerTrade": false
 	},
-	"abilities": {
+	"backpackAbilities": {
 		"enableBackpackAbilities": true,
 		"forceAbilityEnabled": false
 	},

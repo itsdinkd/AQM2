@@ -8,7 +8,7 @@ install:
   mcVersion: 1.19.2
   loaderVersion: 0.14.18
   
-  modpackUrl: https://media.forgecdn.net/files/4496/117/AQM2-1.19.2-1.5.1.zip
+  modpackUrl: https://media.forgecdn.net/files/4512/864/AQM2-1.19.2-1.5.2.zip
   installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.jar
   
   ignoreFiles:
@@ -29,8 +29,8 @@ install:
 
   additionalFiles:
   localFiles:
-    - from: server_overrides/
-      to: /
+#    - from: server_overrides/
+#      to: /
   
   installerArguments:
     - "server"
@@ -157,12 +157,30 @@ install:
   readTimeout: 90
 
 launch:
-  # specifies the max amount of ram the server is supposed to launch with (Xmx)
+  # specifies the max amount of ram the server is supposed to launch with (Xmx) (Use G1C1 Akirs for anything less than 8. Shenandoah should be used for anything more than 13gb. do not use 9-12gb on anything)
+  # max and min ram should match. if you use 6gb of ram, make maxRam and minRam both 6G)
   maxRam: 5G
-  # specifies the minimal amount of ram the server is supposed to launch with (Xms)
-  minRam: 3G
+  # specifies the minimal amount of ram the server is supposed to launch with (Xms) (Minimum suggested ram is 4gb)
+  minRam: 4G
   # specifies whether the server is supposed to auto restart after crash
   autoRestart: true
+  #
+  # READ -- The following arguments are Akirs args which is widely supported. Most of these commands are made for java 7 so its not as optimized for newer versions of minecraft which uses java 17 
+  #
+  # Another thing is that this garbage collector, G1C1 which akirs uses, DOES NOT WORK WELL WITH HIGH AMOUNTS OF RAM. You will impact server performance if you use more than 8gb.
+  #
+  # HIGH RAM USAGE: (Need to use more than 13gb)
+  # If you want to use high amounts of ram, you need to use a new garbage collector which supports it. THIS COLLECTOR WILL HURT PERFORMACNE IF YOU DO NOT USE MORE THAN AT LEAST 14GB OF RAM. The higher the better. You can support more players as well.
+  #
+  # To use Shenandoah, erase everything under "javaArgs" that are not commented out with #, and then remove all the # below
+  #javaArgs:
+  #- "-XX:+UnlockExperimentalVMOptions"
+  #- "-XX:+UseShenandoahGC"
+  #- "-XX:+AlwaysPreTouch"
+  #- "-XX:+DisableExplicitGC"
+  #- "-XX:+UseStringDeduplication"
+  #- "-XX:-OmitStackTraceInFastThrow"
+  #- "-XX:+OptimizeStringConcat"
   javaArgs:
     - "-XX:+UseG1GC"
     - "-XX:+ParallelRefProcEnabled"
@@ -186,11 +204,12 @@ launch:
   spongefix: false
   ramDisk: false
   checkOffline: false
-  crashLimit: 10
-  crashTimer: 60min
+  crashLimit: 4
+  crashTimer: 20min
   preJavaArgs: ~
   forcedJavaPath: ~
   startFile: ""
+  # If your server host asks you to rename fabric server launch into server.jar, you must also rename it below as well.
   startCommand:
     - "-jar"
     - "fabric-server-launch.jar"

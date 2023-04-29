@@ -53,7 +53,7 @@
         "entries": [
         {
             "type": "minecraft:item",
-            "name": "kubejs:demon_pearl"
+            "name": "aqm2:demon_pearl"
         }],
         "conditions": [
         {

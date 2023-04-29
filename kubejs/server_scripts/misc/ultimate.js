@@ -31,9 +31,9 @@ ServerEvents.recipes(event => {
             "item": "gobber2:gobber2_ingot_end"
         }, {
             "item": "gobber2:gobber2_ingot_nether"
-        },/* { Add when adding graveyard back
+        },{
             "item": "graveyard:dark_iron_ingot"
-        },*/ {
+        }, {
             "item": "indrev:enriched_nikolite_ingot"
         }, {
             "item": "indrev:nikolite_ingot"
@@ -154,16 +154,16 @@ ServerEvents.recipes(event => {
         }, {
             "item": "techreborn:zinc_ingot"
         }, {
+            "item": "soulsweapons:soul_ingot"
+        }, {
             "item": "ad_astra:desh_ingot"
         }, {
             "item": "ad_astra:ostrum_ingot"
         }, {
             "item": "ad_astra:calorite_ingot"
-        }, {            
-            "item": "xps:soul_copper_ingot"
         }],
         "result": {
-            "item": "kubejs:ultimate_ingot"
+            "item": "aqm2:ultimate_ingot"
         }
     });
 })

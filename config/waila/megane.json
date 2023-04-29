@@ -31,7 +31,8 @@
       "ae2": 6556063,
       "createaddition": 7408640,
       "alloy_forgery": 15684178,
-      "ad_astra": 7408640
+      "ad_astra": 7408640,
+      "dml-refabricated": 12588052
     },
     "units": {
       "megane": "E",
@@ -45,7 +46,8 @@
       "ae2": "AE",
       "createaddition": "E",
       "alloy_forgery": "",
-      "ad_astra": "E"
+      "ad_astra": "E",
+      "dml-refabricated": "E"
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"

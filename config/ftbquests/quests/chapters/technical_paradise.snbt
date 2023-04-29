@@ -1686,7 +1686,7 @@
 				{
 					id: "79C2DC5FFC1EBEA4"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 				}
 			]
 		}
@@ -1709,7 +1709,7 @@
 				{
 					id: "31CE912C51F8885C"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 				}
 			]
 		}
@@ -2125,7 +2125,7 @@
 				{
 					id: "5302F7AF259AC9D5"
 					type: "item"
-					item: "kubejs:silver_coin"
+					item: "aqm2:silver_coin"
 					count: 10
 				}
 			]

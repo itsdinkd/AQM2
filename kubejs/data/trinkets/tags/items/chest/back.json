@@ -38,11 +38,22 @@
     "travelersbackpack:sheep",
     "travelersbackpack:chicken",
     "travelersbackpack:iron_golem",
+
     "ae2:wireless_crafting_terminal",
     "ae2wtlib:wireless_pattern_encoding_terminal",
     "ae2wtlib:wireless_pattern_access_terminal",
     "ae2wtlib:wireless_universal_terminal",
-    
+
+    "inmis:baby_backpack",
+    "inmis:frayed_backpack",
+    "inmis:ender_pouch",
+    "inmis:endless_backpack",
+    "inmis:gilded_backpack",
+    "inmis:plated_backpack",
+    "inmis:blazing_backpack",
+    "inmis:withered_backpack",
+    "inmis:bejeweled_backpack",
+
     "compact_storage:backpack_pink",
     "compact_storage:backpack_black",
     "compact_storage:backpack_gray",
