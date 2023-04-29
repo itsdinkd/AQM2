@@ -12,7 +12,7 @@ _Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - Traveler Backpack crashes on memory slot and dragon backpack
 - Dungeons Arise fixes DataFixerUpper version on structure pieces. This may result in increased performance, and tackle related crashes.
 - Broken Alloy Forgery recipes
-- Pigs dropping rare gems and added a script to remove all your rare gems 
+- Pigs dropping rare gems ~~and added a script to remove all your rare gems ~~
 - AQM Journey quest on mining cobblestone. changed to stone instead of cobblestone. doh.
 - nudibranch death bug and aquatic mount speed
 - Tiered fixed Armor stand and Archery bugs
