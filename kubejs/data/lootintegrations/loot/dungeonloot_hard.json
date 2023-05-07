@@ -4,10 +4,6 @@
   "integrated_loot_tables": {
     "endrem:chests/treasure": 3,
     "totw_additions:chests/end_tower/end_tower_chest": 3,
-    "dungeoncrawl:chests/treasure": 3,
-    "dungeoncrawl:chests/stage_5": 3,
-    "doom:chests/doom_end_treasure": 1,
-    "aqm2:weapons_guarantee": 1,
-    "aqm2:gobber_end": 1
+    "doom:chests/doom_end_treasure": 23
   }
 }

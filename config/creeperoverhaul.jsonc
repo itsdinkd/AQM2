@@ -37,6 +37,6 @@
         // Change the Snowy Creeper to spawn or not.
         "allowSnowyCreeperSpawning": true,
         // Change the Ocean Creeper to spawn or not.
-        "allowOceanCreeperSpawning": true
+        "allowOceanCreeperSpawning": false
     }
 }

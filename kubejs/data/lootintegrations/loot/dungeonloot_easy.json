@@ -70,8 +70,6 @@
     "dungeons_arise:chests/scorched_mines/scorched_mines_hub": 6,
     "illagers_plus:structure/illager_mine": 6,
     "stoneholm:crypt": 3,
-    "archon:chests/spire": 1,
-    "aqm2:weapons_easy": 2,
-    "aqm2:gobber_overworld": 1
+    "archon:chests/spire": 1
   }
 }

@@ -103,7 +103,7 @@
 // Duration refers to the haste, slow, and glow effects 
 // ------------------------------- 
   "omen_absorption_amount": 1.0,
-  "omen_instantkill_threshold": 0.25,
+  "omen_instantkill_threshold": 0.125,
   "steal_chance": 12.5,
   "steal_duration": 200.0,
   "steal_invis_duration": 100.0,
@@ -114,80 +114,80 @@
 // -- Unique Effect: Gravity -- 
 // NOT YET IMPLEMENTED 
 // ---------------------------- 
-  "gravity_chance": 35.0,
-  "gravity_duration": 250.0,
+  "gravity_chance": 20.0,
+  "gravity_duration": 185.0,
   "gravity_radius": 10.0,
 
 // ------------------------------ 
 // -- Unique Effect: Soul Meld -- 
 // ------------------------------ 
-  "soulmeld_chance": 75.0,
-  "soulmeld_duration": 250.0,
+  "soulmeld_chance": 40.0,
+  "soulmeld_duration": 200.0,
   "soulmeld_radius": 5.0,
 
 // ------------------------------ 
 // -- Unique Effect: Soul Rend -- 
 // ------------------------------ 
-  "soulrend_chance": 85.0,
-  "soulrend_duration": 500.0,
-  "soulrend_rend_damage_multiplier": 3.0,
-  "soulrend_rend_heal_multiplier": 0.5,
-  "soulrend_radius": 10.0,
-  "soulrend_max_stacks": 8.0,
+  "soulrend_chance": 57.5,
+  "soulrend_duration": 400.0,
+  "soulrend_rend_damage_multiplier": 1.55,
+  "soulrend_rend_heal_multiplier": 0.25,
+  "soulrend_radius": 8.0,
+  "soulrend_max_stacks": 6.0,
 
 // ----------------------------- 
 // -- Unique Effect: Ferocity -- 
 // ----------------------------- 
-  "ferocity_chance": 75.0,
+  "ferocity_chance": 67.0,
   "ferocity_duration": 100.0,
-  "ferocity_max_stacks": 15.0,
+  "ferocity_max_stacks": 10.0,
   "ferocity_strength_tier": 2.0,
 
 // ------------------------------ 
 // -- Unique Effect: Ember Ire -- 
 // ------------------------------ 
   "ember_ire_chance": 15.0,
-  "ember_ire_duration": 150.0,
+  "ember_ire_duration": 100.0,
 
 // ---------------------------------- 
 // -- Unique Effect: Volcanic Fury -- 
 // ---------------------------------- 
-  "volcanic_fury_chance": 25.0,
+  "volcanic_fury_chance": 20.0,
   "volcanic_fury_radius": 3.0,
-  "volcanic_fury_cooldown": 300.0,
+  "volcanic_fury_cooldown": 370.0,
   "volcanic_fury_damage": 3.0,
 
 // -------------------------- 
 // -- Unique Effect: Storm -- 
 // -------------------------- 
-  "storm_chance": 15.0,
+  "storm_chance": 12.5,
   "storm_radius": 10.0,
 
 // --------------------------- 
 // -- Unique Effect: Plague -- 
 // --------------------------- 
-  "plague_chance": 55.0,
+  "plague_chance": 47.5,
 
 // ------------------------------ 
 // -- Unique Effect: Brimstone -- 
 // ------------------------------ 
-  "brimstone_chance": 15.0,
+  "brimstone_chance": 12.75,
 
 // ---------------------------- 
 // -- Unique Effect: Bramble -- 
 // ---------------------------- 
 // ---------------------------- 
-  "bramble_chance": 40.5,
-  "bramble_radius": 7.5,
+  "bramble_chance": 35.5,
+  "bramble_radius": 7.0,
 
 // -------------------------------- 
 // -- Unique Effect: Soul Tether -- 
 // -------------------------------- 
-  "soultether_range": 24.0,
+  "soultether_range": 20.0,
   "soultether_radius": 7.0,
-  "soultether_duration": 100.0,
+  "soultether_duration": 80.0,
   "soultether_ignite_duration": 80.0,
-  "soultether_resistance_duration": 50.0,
+  "soultether_resistance_duration": 60.0,
 
 // ------------------------------- 
 // -- Unique Effect: Frost Fury -- 
@@ -195,7 +195,7 @@
   "frostfury_cooldown": 500.0,
   "frostfury_radius": 2.75,
   "frostfury_damage": 16.0,
-  "frostfury_chance": 13.5,
+  "frostfury_chance": 11.75,
   "frostfury_duration": 70.0,
 
 // -------------------------------- 
@@ -205,7 +205,7 @@
   "moltenroar_radius": 4.0,
   "moltenroar_knockback_strength": 4.0,
   "moltenroar_chance": 13.0,
-  "moltenroar_duration": 75.0,
+  "moltenroar_duration": 65.0,
 
 // ---------------------------------- 
 // -- Unique Effect: Frost Shatter -- 
@@ -229,21 +229,21 @@
   "arcaneassault_radius": 5.5,
   "arcaneassault_damage": 1.5,
   "arcaneassault_cooldown": 300.0,
-  "arcaneassault_chance": 20.0,
-  "arcaneassault_duration": 100.0,
+  "arcaneassault_chance": 17.75,
+  "arcaneassault_duration": 80.0,
 
 // ---------------------------------- 
 // -- Unique Effect: Thunder Blitz -- 
 // ---------------------------------- 
   "thunderblitz_radius": 2.25,
   "thunderblitz_damage": 4.0,
-  "thunderblitz_cooldown": 300.0,
+  "thunderblitz_cooldown": 350.0,
   "thunderblitz_chance": 11.5,
 
 // ------------------------------- 
 // -- Unique Effect: Storm Jolt -- 
 // ------------------------------- 
-  "stormjolt_cooldown": 180.0,
+  "stormjolt_cooldown": 200.0,
   "stormjolt_chance": 14.0,
 
 // --------------------------------- 
@@ -259,17 +259,17 @@
 // ---------------------------------- 
 // -- Unique Effect: Shock Deflect -- 
 // ---------------------------------- 
-  "shockdeflect_block_duration": 35.0,
+  "shockdeflect_block_duration": 27.5,
   "shockdeflect_damage": 12.0,
-  "shockdeflect_cooldown": 115.0,
+  "shockdeflect_cooldown": 125.0,
   "shockdeflect_parry_duration": 10.0,
 
 // ------------------------------- 
 // -- Unique Effect: Shadowmist -- 
 // ------------------------------- 
   "shadowmist_cooldown": 200.0,
-  "shadowmist_chance": 40.0,
+  "shadowmist_chance": 35.0,
   "shadowmist_damage_multiplier": 1.0,
-  "shadowmist_blind_duration": 50.0,
+  "shadowmist_blind_duration": 45.0,
   "shadowmist_radius": 4.0
 }

@@ -268,11 +268,11 @@ ServerEvents.tags('item', event => {
 	// missingFishes.forEach(function (item, index) {
 	// 	event.add('minecraft:fishes', item)
 	// })
-
+o
 	// soulsweaponsMatBosses.forEach(item => {
 	// 	event.add('aqm:bosses/soulweapoons', item)
 	// })
-	
+	"soulsweapons:dar"
 // Misc
 	event.add('c:wrenches', 'advanced_reborn:config_wrench')
 	event.add('c:wrenches','techreborn:wrench')

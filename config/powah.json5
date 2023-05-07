@@ -23,15 +23,25 @@
 		// List of coolant fluids used in the Reactor and the Thermo Generator.
 		"coolant_fluids": {
 			"minecraft:water": 1,
-			"modern_industrialization:cryofluid": 3,
-			"techreborn:helium": 2
+			"modern_industrialization:cryofluid": -20,
+			"techreborn:helium": -10
 		},
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
-			"minecraft:lava": 1000,
+			"powah:blazing_crystal_block": 2000,
 			"minecraft:magma_block": 800,
-			"powah:blazing_crystal_block": 2800,
-			"architects_palette:sunstone": 900
+			"minecraft:lava": 1000,
+			"byg:cryptic_magma_block": 1200,
+			"byg:magmatic_stone": 1100,
+			"byg:brimstone": 1100,
+			"architects_palette:sunstone": 1300,
+			"powah:nitro_crystal_block": 2500,
+			"decorative_blocks:soul_brazier": 1100,
+			"decorative_blocks:soul_bonfire": 800,
+			"decorative_blocks:soul_chandelier": 1000,
+			"blockus:magma_bricks": 1100,
+			"betternether:magma_flower": 1500,
+			"byg:frost_magma": 1300
 		},
 		// Energy produced per fuel tick in the Furnator.
 		"energy_per_fuel_tick": 3,

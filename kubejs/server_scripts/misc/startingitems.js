@@ -14,6 +14,7 @@ PlayerEvents.loggedIn( event => {
   //  banned items
   event.player.inventory.clear("doom:daisy");
   event.player.inventory.clear("doom:soulcube");
+  event.player.inventory.clear("soulsweapons:withered_wabbajack");
 })
 
 //  let bannedItems = {

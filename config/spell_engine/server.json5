@@ -14,15 +14,15 @@
 	// If set true, a Fireball doesn't collide with an ally, a healing projectile doesn't collide with an enemy
 	"projectiles_pass_thru_irrelevant_targets": true,
 	/* Allow actions based on relations:
-	   +----------------+-----------+----------+----------+
-	   |                | FRIENDLY  | NEUTRAL  | HOSTILE  |
-	   +----------------+-----------+----------+----------+
-	   | DIRECT DAMAGE  | 🚫        | ✅      | ✅       |
-	   | AREA DAMAGE    | 🚫        | 🚫      | ✅       |
-	   | DIRECT HEALING | ✅        | ✅      | 🚫       |
-	   | AREA HEALING   | ✅        | 🚫      | 🚫       |
-	   +----------------+-----------+----------+----------+
-	   Entities within the same team are considered FRIENDLY
+	   +----------------+-----------+---------------+----------+----------+--------+
+	   |                | FRIENDLY  | SEMI_FRIENDLY | NEUTRAL  | HOSTILE  | MIXED  |
+	   +----------------+-----------+---------------+----------+----------+--------+
+	   | DIRECT DAMAGE  | 🚫        | ✅            | ✅       | ✅       | ✅    |
+	   | AREA DAMAGE    | 🚫        | 🚫            | 🚫       | ✅       | ✅    |
+	   | DIRECT HEALING | ✅        | ✅            | ✅       | 🚫       | ✅    |
+	   | AREA HEALING   | ✅        | ✅            | 🚫       | 🚫       | ✅    |
+	   +----------------+-----------+---------------+----------+----------+--------+
+	   Any entities within the same team are considered FRIENDLY for each other.
 	*/
 	"player_relation_to_teamless_players": "NEUTRAL",
 	"player_relation_to_villagers": "NEUTRAL",

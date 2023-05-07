@@ -1,3 +1,39 @@
+### Another Quality Modpack v1.5.3
+
+
+_Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.3.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.3.md)_
+
+## FIXED
+- YIGD not dropping contents when grave is destroyed when unclaimed and expired. Now drops items in grave
+- Fixed AQM2 custom loot tables integration into other loot tables (This means now Gobber globs from overworld to end will generate in certain loot tables, and rare weapons as well)
+- Fixed Calibrator recipe
+- Fixed GUI issue with AE2 by removing a texture i added
+- Fixed Arm Extender not working due to Better Combat
+- Zombie Villager chef and cook missing textures
+- Villagers not taking up work of cooking with skillet
+- Several bug fixes for Crafting Tweaks
+- Powah Fix creative reactor placement crash
+- Fixed an issue that caused unwanted player teleportation when multiple players used Frostfall at the same time (Simply swords)
+- Fixed crafting terminal not crafting some items properly or triggering advancements in some cases (Toms)
+- Fixed show recipes in JEI not working correctly with tall terminal mode (Toms)
+- Rod of Plenitful removal. I had a misspelled item name in the recipe removal, but now it is spelled correctly.
+- Fixed again Phase Block in the deny list
+- Fix cables causing crashes when too much energy is sent (Powah)
+
+## CHANGED
+- Disabled Ocean Creepers due to crowding water spawn pools
+- Enabled darkin blade recipe
+- Locked empty drawers reject items unless manually inserted (extended drawers update)
+- You can now socket gems into Simply Swords unique weapons (cool)
+- Re-worked doom bosses
+- Withered wabbajock will now be removed from inventory since the mod continues dropping it even though i forced it to not drop as loot
+
+## ADDED
+- Iris added back (downloaded from Modrinth). Make sure you remove your old iris version you manually downloaded in v1.5.2
+- Healing Rune craftable
+
+---
+
 ### Another Quality Modpack v1.5.2
 
 

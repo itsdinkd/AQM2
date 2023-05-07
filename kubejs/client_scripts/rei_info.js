@@ -79,7 +79,7 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add("gobber2:gobber2_leggings_dragon", ["§c- No Creative Flight"])  
 
   tooltip.addAdvanced(/artifacts:.*/, (item, advanced, text) => {
-   text.add(1, Text.red('Mimics Disabled!'))
+   text.add(1, Text.red('Mimics   !'))
    text.add(2, Text.green('-=-=--=-=-=-=-=-=-='))
    text.add(3, Text.darkGray('Very Rare chance to generate in Loot Chests'))
   })

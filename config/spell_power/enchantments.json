@@ -25,7 +25,7 @@
   },
   "energize": {
     "requires": "MAGICAL_ARMOR",
-    "enabled": false,
+    "enabled": true,
     "max_level": 5,
     "min_cost": 10,
     "step_cost": 9,
@@ -62,5 +62,5 @@
     "step_cost": 6,
     "bonus_per_level": 2.0
   },
-  "schema_version": 1
+  "schema_version": 2
 }

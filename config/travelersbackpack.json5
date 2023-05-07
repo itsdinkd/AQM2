@@ -23,7 +23,7 @@
 			"compact_storage:backpack_blue",
 			"compact_storage:backpack_brown",
 			"compact_storage:backpack_cyan",
-			"compact_storage:backpack_gray", 
+			"compact_storage:backpack_gray",
 			"compact_storage:backpack_green",
 			"compact_storage:backpack_light_blue",
 			"compact_storage:backpack_light_gray",
@@ -34,7 +34,7 @@
 			"compact_storage:backpack_red",
 			"compact_storage:backpack_white",
 			"compact_storage:backpack_yellow"
-			],
+		],
 		"tanksCapacity": 160000,
 		// Prevents backpack disappearing in void
 		"voidProtection": true,

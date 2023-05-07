@@ -53,6 +53,7 @@ EntityEvents.spawned(event => {
     //     ['generic.armor', 30],
     //     ['generic.armor_toughness', 20],
     //     ['generic.follow_range', 2048],
+    //     ['a-_q_m2_---its:di=-+nk_1d, 5]'
     //     ['generic.knockback_resistance', 1.0],
     //     ['generic.movement_speed', 1024]]
 

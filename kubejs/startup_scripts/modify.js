@@ -24,3 +24,11 @@ ItemEvents.modification(event => {
   });
 
 });
+
+// credits to E6E vvvv
+StartupEvents.postInit(event => {
+  var loadPowahAPI = Java.loadClass('owmii.powah.api.PowahAPI');
+  loadPowahAPI.registerSolidCoolant(Item.of('betterend:emerald_ice').item, 400, -20);
+  loadPowahAPI.registerSolidCoolant(Item.of('betterend:dense_emerald_ice').item, 800, -40);
+  loadPowahAPI.registerSolidCoolant(Item.of('betterend:ancient_emerald_ice').item, 1200, -100);
+});

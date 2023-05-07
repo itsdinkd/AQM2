@@ -230,8 +230,8 @@
 		{
 			title: "Loot the Darkin Blade"
 			disable_toast: true
-			x: -4.5d
-			y: 4.0d
+			x: -4.75d
+			y: 3.75d
 			dependencies: ["705B0C194509CC87"]
 			size: 0.5d
 			id: "39907B7BAECA01BA"
@@ -264,8 +264,8 @@
 		{
 			title: "Loot a Lord Soul"
 			disable_toast: true
-			x: -3.75d
-			y: 3.25d
+			x: -4.25d
+			y: 3.0d
 			dependencies: ["705B0C194509CC87"]
 			size: 0.5d
 			id: "66BA93367AD9AC23"
@@ -1056,8 +1056,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 4.5d
+			x: -1.5d
+			y: 3.5d
 			subtitle: "Used to summon The Fallen Knight"
 			description: [
 				"Place your altar down and use your essence on it to summon this beast"
@@ -1087,8 +1087,8 @@
 		{
 			title: "Loot a Lord Soul"
 			disable_toast: true
-			x: -2.0d
-			y: 5.25d
+			x: -1.5d
+			y: 4.25d
 			dependencies: ["13B58FFCDB9B2EFE"]
 			size: 0.5d
 			id: "2139520AA913B3AD"
@@ -1101,8 +1101,8 @@
 		{
 			title: "Loot a Lord Soul"
 			disable_toast: true
-			x: -1.5d
-			y: 4.75d
+			x: -0.75d
+			y: 3.75d
 			dependencies: ["13B58FFCDB9B2EFE"]
 			size: 0.5d
 			id: "7517BCA40986386C"
@@ -1113,8 +1113,8 @@
 			}]
 		}
 		{
-			x: -1.2619047619047592d
-			y: 5.404761904761905d
+			x: 0.0d
+			y: 4.524d
 			dependencies: ["7517BCA40986386C"]
 			size: 0.754d
 			id: "56C793E9028F65A6"
