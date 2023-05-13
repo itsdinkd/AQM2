@@ -93,7 +93,8 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "shaderpacks",
     "resources",
     "servers.dat",
-    "mods/Crafty-Crashes-1.0.jar"
+    "mods/Crafty-Crashes-1.0.jar",
+    "mods/iris-mc1.19.2-1.6.2.jar"
 )
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems", "xaerominimap.txt", "xaeroworldmap.json", "iris.properties", "sodium-options.json", "sodium-mixins.json", "sodium-extra-options.json", "sodium-extra.json")

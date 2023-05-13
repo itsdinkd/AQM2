@@ -1,7 +1,40 @@
+### Another Quality Modpack v1.5.5
+
+
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.5.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.5.md)_
+
+## FIXED
+- Cursed gem recipe
+- typo in kubejs tags script file which broke custom tag changes and additions
+- Serverstart.sh file converted to unix
+- Besirchment packet fix
+- Bewitchment update fixes; Broom crash, ritual crashes, hellbound crashes, leaves not dropping from shears, hitting ghosts causing crashes, coffins not skipping night, ritual duplication
+
+## CHANGES
+- Bewitchment werewolf villagers will no longer despawn
+- Better Statistics Screen is now allowed on servers, bringing in new features for players in servers, also allowing players to view other players statistics. (You can view statistics in ESC Menu)
+---
+
+### Another Quality Modpack v1.5.4
+
+
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.4.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.4.md)_
+
+## FIXED
+- MyLoot being removed. I apologize this was not intentional. some how the mod got removed 
+- AdventureZFixed netty issues
+- AdventureZFixed world generating issue
+
+## ADDED
+- MyLoot added back
+
+---
+
+
 ### Another Quality Modpack v1.5.3
 
 
-_Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.3.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.3.md)_
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.3.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.3.md)_
 
 ## FIXED
 - YIGD not dropping contents when grave is destroyed when unclaimed and expired. Now drops items in grave
