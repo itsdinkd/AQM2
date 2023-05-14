@@ -1,3 +1,17 @@
+### Another Quality Modpack v1.5.6.1
+
+
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.6.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.6.md)_
+
+In 1.5.5 and 1.5.6 i reverted all previously disabled lithium mixins (Due to them having issues with this modpack in 1.19.2). The biggest one is Chunk Access, which i've disabled in this update. I will keep on the lookout of our official servers if there is any other consistent lithium issues. I will post in the AQM Release channel in discord any recommendations on which mixins you should disable. hopefully, this doesn't need to be done as i'm only seeing chunk access crashes.
+
+## FIXED 1.5.6
+- Reverted FTB Quests to fix the issue with the Building Terrain screen when exiting quest book
+- Disabled Lithium's Chunk Access mixin
+
+---
+
+
 ### Another Quality Modpack v1.5.6 and v1.5.5
 
 
