@@ -1,26 +1,18 @@
-### Another Quality Modpack v1.5.6
+### Another Quality Modpack v1.5.6 and v1.5.5
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.5.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.5.md)_
 
 I downgraded Lithium here to where i believe it was in a better state from there last major version which was released in december. It seems with Lithium and AQM2 for 1.19.2, there are tons of Watchdog crashes (Server stalls) since going on lithium v11.0. Hopefully, this solves that. if not, i will revert back to 11.0 
 
-## FIXED
-- Reverted traveler backpack config. (Goes back to not being craftable, not dropping when unalived, enables sleeping bag feature, blacklist back)
-- Doom Smart AI
-- Carry On conflicting with Sandwichable pick ups 
+## FIXED 1.5.6
+- Reverted traveler backpack config. (Goes back to not being craftable, not dropping when unalived, enables sleeping bag feature, blacklist back). in 1.5.4 and 1.5.5 the config was set to its default config for some odd reason, and not customized as previous versions.
+- Carry On conflicting with Sandwichable pick ups
 
----
+## CHANGED 1.5.6
+- Updated doom to new version which brings back Smart AI (main reason why I did not announce 1.5.5 was because i had to temporarily downgrade doom)
 
-
-### Another Quality Modpack v1.5.5
-
-
-_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.5.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.5.md)_
-
-I downgraded Lithium here to where i believe it was in a better state from there last major version which was released in december. It seems with Lithium and AQM2 for 1.19.2, there are tons of Watchdog crashes (Server stalls) since going on lithium v11.0. Hopefully, this solves that. if not, i will revert back to 11.0 
-
-## FIXED
+## FIXED 1.5.5
 - Reverted Doom back to pre v5 due to configs not being read in newer versions. This made the nether 'easy' and gave doom armor sets 80+ armor. this is now fixed, but doom mob ai is no longer smart again. 
 - Cursed gem recipe
 - typo in kubejs tags script file which broke custom tag changes and additions
@@ -34,15 +26,13 @@ I downgraded Lithium here to where i believe it was in a better state from there
 - Traveler Backpacks crashing when brute piglins spawned
 - Twigs sync issue 
 
-## CHANGES
+## CHANGES 1.5.5
 - Bewitchment werewolf villagers will no longer despawn
 - Better Statistics Screen is now allowed on servers, bringing in new features for players in servers, also allowing players to view other players statistics. (You can view statistics in ESC Menu)
 - Soulslike Weaponary; renamed Evil Forlorn to invading forlorn, made darkin weapons fireproof, directional boost to darkin blaude launch, bosses damage slightly buffed, SoulReaper can summon Forlorns instead of Soulmass by sneaking, Hold SHIFT + CTRL on Arkenplate to display lore, Increased spawning for Dark Sorcerers in Cathedral of Ressurection, Frenzied Shade now does higher damage
 - Modern industrialization buffed Carbon Dusts, and changed some default recipes for chainmail and sand
 - Simply Swords added netherfused gems, radiance and onslaught. Added anslaught effect, particles and sounds to immolate effect, self damage method of immolation changed, and weapon abilities no longer affect villagers and armor stands
 - Storage labels can be placed on ceilings and floors
-
-
 ---
 
 ### Another Quality Modpack v1.5.4

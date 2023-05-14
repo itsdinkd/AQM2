@@ -7,117 +7,117 @@
 		"hideCompatWarnings": false
 	},
 	"general": {
-		/*  Show toughness value text next to toughness bar
+		/* Sets the max number of hearts rendered in the tablist
+		    Available: 1 ~ 10 [default: 10]
+		*/
+		"maxTablistHeartCount": 10,
+		/*  Show armor bar when armor is zero
+		    Available: true, false [default: false]
+		*/
+		"showArmorWhenZero": false,
+		/*  Hides the armor bar + armor value text regardless of other config optoins
+		    Available: true, false [default: false]
+		*/
+		"hideArmorBar": false,
+		/*  Disables all easter eggs, which is sad but some want it
+		    Available: true, false [default: false]
+		*/
+		"disableEastereggs": false,
+		/*  Show toughness as overlay over armor or its own bar
 		    Available: true, false [default: true]
 		*/
-		"showToughnessValue": false,
-		/*  Suffix type used for displaying high numeric values
-		    Available: SI, SCI, GER, ENG [default: SI]
+		"enableToughness": false,
+		/*  Show health value text next to health bar
+		    Available: true, false [default: true]
 		*/
-		"suffix": "SI",
-		/*  Frostbite heart display style (full = vanilla)
-		    Available: FULL, ICON, OVERLAY [default: ICON]
+		"showHealthValue": true,
+		/*  Enable custom health bar
+		    Available: true, false [default: true]
 		*/
-		"frostbiteStyle": "ICON",
+		"enableHealthBar": true,
+		/*  Draw shadows for all rendered texts
+		    Available: true, false [default: true]
+		*/
+		"textShadow": true,
+		/*  Show resistance as border around armor
+		    Available: true, false [default: true]
+		*/
+		"showResistance": false,
+		/*  Show absorption as border around health
+		    Available: true, false [default: true]
+		*/
+		"enableAbsorption": true,
+		/*  Hides the health bar + health value text regardless of other config optoins
+		    Available: true, false [default: false]
+		*/
+		"hideHealthBar": false,
 		/*  Determines whether the thoughenss bar should be mirrored
 		    Available: ALWAYS, NEVER, AUTO [default: AUTO]
 		    Only effective if useToughnessBar is set to true!
 		*/
 		"toughnessMirroring": "AUTO",
-		/*  Show protection as overlay over armor
-		    Available: true, false [default: true]
-		*/
-		"showProtection": false,
-		/*  Show absorption as hearts within the health bar
-		    Available: true, false [default: false]
-		*/
-		"useAbsorptionOverlay": false,
-		/*  Show health value text next to health bar
-		    Available: true, false [default: true]
-		*/
-		"showHealthValue": true,
-		/*  Always render 10 heart backgrounds, even if max health is lower
-		    Available: true, false [default: false]
-		*/
-		"alwaysShow10HeartBGs": false,
-		/*  Hides the health bar + health value text regardless of other config optoins
-		    Available: true, false [default: false]
-		*/
-		"hideHealthBar": false,
-		/*  Enable custom tablist health rendering (displaytype health)
-		    Available: true, false [default: true]
-		*/
-		"enableTablistHealth": true,
-		/*  Draw shadows for all rendered texts
-		    Available: true, false [default: true]
-		*/
-		"textShadow": true,
 		/*  Show armor value text next to armor bar
 		    Available: true, false [default: true]
 		*/
 		"showArmorValue": false,
-		/*  Show toughness as it's own bar
-		    Available: true, false [default: false]
-		*/
-		"useToughnessBar": false,
 		/*  Determines the side of the toughness bar
 		    Available: RIGHT, LEFT [default: LEFT]
 		    Only effective if useToughnessBar is set to true!
 		*/
 		"toughnessSide": "LEFT",
-		/*  Show absorption as border around health
-		    Available: true, false [default: true]
+		/*  Frostbite heart display style (full = vanilla)
+		    Available: FULL, ICON, OVERLAY [default: ICON]
 		*/
-		"enableAbsorption": true,
-		/*  Always render max (configured) heart backgrounds in tablist, even if health is lower
-		    Available: true, false [default: true]
-		*/
-		"alwaysShowMaxTablistHearts": true,
-		/*  Disables all easter eggs, which is sad but some want it
-		    Available: true, false [default: false]
-		*/
-		"disableEastereggs": false,
-		/* Sets the max number of hearts rendered in the tablist
-		    Available: 1 ~ 10 [default: 10]
-		*/
-		"maxTablistHeartCount": 10,
-		/*  Enable custom armor bar
-		    Available: true, false [default: true]
-		*/
-		"enableArmorBar": false,
-		/*  Show toughness as overlay over armor or its own bar
-		    Available: true, false [default: true]
-		*/
-		"enableToughness": false,
-		/*  Show frostbite percentage next to health bar
-		    Available: true, false [default: true]
-		*/
-		"showFrostbitePercentage": true,
-		/*  Show toughness bar when toughness is zero
-		    Available: true, false [default: false]
-		*/
-		"showToughnessWhenZero": false,
+		"frostbiteStyle": "ICON",
 		/*  Sets the texture sheet used for rendering
 		    See https://github.com/Cheos137/ArmorpointsPlusplus/wiki/Custom-Texture-Sheets for more information
 		    Builtin: default, hallow, vanilla [default: default]
 		*/
 		"textureSheet": "default",
-		/*  Enable custom health bar
+		/*  Enable custom tablist health rendering (displaytype health)
 		    Available: true, false [default: true]
 		*/
-		"enableHealthBar": true,
-		/*  Show resistance as border around armor
+		"enableTablistHealth": true,
+		/*  Show toughness value text next to toughness bar
 		    Available: true, false [default: true]
 		*/
-		"showResistance": false,
-		/*  Hides the armor bar + armor value text regardless of other config optoins
+		"showToughnessValue": false,
+		/*  Show toughness as it's own bar
 		    Available: true, false [default: false]
 		*/
-		"hideArmorBar": false,
-		/*  Show armor bar when armor is zero
+		"useToughnessBar": false,
+		/*  Suffix type used for displaying high numeric values
+		    Available: SI, SCI, GER, ENG [default: SI]
+		*/
+		"suffix": "SI",
+		/*  Enable custom armor bar
+		    Available: true, false [default: true]
+		*/
+		"enableArmorBar": false,
+		/*  Show frostbite percentage next to health bar
+		    Available: true, false [default: true]
+		*/
+		"showFrostbitePercentage": true,
+		/*  Always render 10 heart backgrounds, even if max health is lower
 		    Available: true, false [default: false]
 		*/
-		"showArmorWhenZero": false,
+		"alwaysShow10HeartBGs": false,
+		/*  Show absorption as hearts within the health bar
+		    Available: true, false [default: false]
+		*/
+		"useAbsorptionOverlay": false,
+		/*  Always render max (configured) heart backgrounds in tablist, even if health is lower
+		    Available: true, false [default: true]
+		*/
+		"alwaysShowMaxTablistHearts": true,
+		/*  Show toughness bar when toughness is zero
+		    Available: true, false [default: false]
+		*/
+		"showToughnessWhenZero": false,
+		/*  Show protection as overlay over armor
+		    Available: true, false [default: true]
+		*/
+		"showProtection": false,
 		"debug": {
 			/*  You don't want this to be on. Believe me
 			    Available: true, false [default: false]
@@ -130,6 +130,10 @@
 		    Available: 0 ~ 10 [default: 2]
 		*/
 		"resistance": 2,
+		/*  Number of pixels to show an absorption of 1
+		    Available: 0 ~ 200 [default: 0.25]
+		*/
+		"absorption": 0,
 		/*  Number of icons to show a armor toughness of 1
 		    Available: 0 ~ 10 [default: 1]
 		    Note: This ONLY affects toughness overlays and NOT the standalone toughness bar
@@ -138,67 +142,95 @@
 		/*  Number of icons to show a protection of 1
 		    Available: 0 ~ 10 [default: 0.5]
 		*/
-		"protection": 0,
-		/*  Number of pixels to show an absorption of 1
-		    Available: 0 ~ 200 [default: 0.25]
-		*/
-		"absorption": 0
+		"protection": 0
 	},
 	"textcolors": {
-		/*  Color when armor < 25
-		    Available: 0x000000 ~ 0xffffff [default: 44ff11]
-		*/
-		"armorLT25": "0x44ff11",
-		/*  Color normal status
-		    Available: 0x000000 ~ 0xffffff [default: ff1313]
-		*/
-		"heart": "0xff1313",
-		/*  Color of separator
-		    Available: 0x000000 ~ 0xffffff [default: 3d3d3d]
-		*/
-		"separator": "0x3d3d3d",
-		/*  Color when resistance > 5
-		    Available: 0x000000 ~ 0xffffff [default: 8a0f0f]
-		*/
-		"resistanceFull": "0x8a0f0f",
 		/*  Color when armor = 0
 		    Available: 0x000000 ~ 0xffffff [default: 3d3d3d]
 		*/
 		"armor0": "0x3d3d3d",
-		/*  Color when fully frozen
-		    Available: 0x000000 ~ 0xffffff [default: 01bef2]
-		*/
-		"heartFrostbite": "0x01bef2",
-		/*  Color when poisoned
-		    Available: 0x000000 ~ 0xffffff [default: 947818]
-		*/
-		"heartPoison": "0x947818",
-		/*  Color when armor > 25
-		    Available: 0x000000 ~ 0xffffff [default: ff3311]
-		*/
-		"armorGT25": "0xff3311",
-		/*  Color when withered
-		    Available: 0x000000 ~ 0xffffff [default: 2b2b2b]
-		*/
-		"heartWither": "0x2b2b2b",
 		/*  Color when armor = 25
 		    Available: 0x000000 ~ 0xffffff [default: ff8811]
 		*/
 		"armorEQ25": "0xff8811",
+		/*  Color when fully frozen
+		    Available: 0x000000 ~ 0xffffff [default: 01bef2]
+		*/
+		"heartFrostbite": "0x01bef2",
+		/*  Color when withered
+		    Available: 0x000000 ~ 0xffffff [default: 2b2b2b]
+		*/
+		"heartWither": "0x2b2b2b",
+		/*  Color when armor > 25
+		    Available: 0x000000 ~ 0xffffff [default: ff3311]
+		*/
+		"armorGT25": "0xff3311",
+		/*  Color of toughness
+		    Available: 0x000000 ~ 0xffffff [default: ff8811]
+		*/
+		"toughness": "0xff8811",
+		/*  Color of separator
+		    Available: 0x000000 ~ 0xffffff [default: 3d3d3d]
+		*/
+		"separator": "0x3d3d3d",
+		/*  Color normal status
+		    Available: 0x000000 ~ 0xffffff [default: ff1313]
+		*/
+		"heart": "0xff1313",
 		/*  Color of absorption
 		    Available: 0x000000 ~ 0xffffff [default: ffc300]
 		*/
 		"absorption": "0xffc300",
-		/*  Color of toughness
-		    Available: 0x000000 ~ 0xffffff [default: ff8811]
+		/*  Color when resistance > 5
+		    Available: 0x000000 ~ 0xffffff [default: 8a0f0f]
 		*/
-		"toughness": "0xff8811"
+		"resistanceFull": "0x8a0f0f",
+		/*  Color when armor < 25
+		    Available: 0x000000 ~ 0xffffff [default: 44ff11]
+		*/
+		"armorLT25": "0x44ff11",
+		/*  Color when poisoned
+		    Available: 0x000000 ~ 0xffffff [default: 947818]
+		*/
+		"heartPoison": "0x947818"
 	},
 	"textconfig": {
+		/*  Enables custom toughness value configuration
+		    Available: true, false [default: false]
+		*/
+		"enableToughnessValueConfig": false,
+		/*  if enabled, custom Y position of the health value text
+		    Available: 0 ~ 32768 [default: 0]
+		*/
+		"healthValueY": 0,
+		/*  if enabled, custom Y position of the toughness value text
+		    Available: 0 ~ 32768 [default: 0]
+		*/
+		"toughnessValueY": 0,
 		/*  if enabled, custom X position of the health value text
 		    Available: 0 ~ 32768 [default: 0]
 		*/
 		"healthValueX": 0,
+		/*  if enabled, custom X position of the toughness value text
+		    Available: 0 ~ 32768 [default: 0]
+		*/
+		"toughnessValueX": 0,
+		/*  if enabled, custom alignment of the toughness value text
+		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
+		*/
+		"toughnessValueAlignment": "RIGHT",
+		/*  if enabled, custom Y position of the armor value text
+		    Available: 0 ~ 32768 [default: 0]
+		*/
+		"armorValueY": 0,
+		/*  if enabled, custom alignment of the armor value text
+		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
+		*/
+		"armorValueAlignment": "RIGHT",
+		/*  Enables custom health value configuration
+		    Available: true, false [default: false]
+		*/
+		"enableHealthValueConfig": false,
 		/*  if enabled, custom X position of the armor value text
 		    Available: 0 ~ 32768 [default: 0]
 		*/
@@ -207,41 +239,9 @@
 		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
 		*/
 		"healthValueAlignment": "RIGHT",
-		/*  Enables custom health value configuration
-		    Available: true, false [default: false]
-		*/
-		"enableHealthValueConfig": false,
-		/*  if enabled, custom Y position of the toughness value text
-		    Available: 0 ~ 32768 [default: 0]
-		*/
-		"toughnessValueY": 0,
-		/*  if enabled, custom alignment of the armor value text
-		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
-		*/
-		"armorValueAlignment": "RIGHT",
-		/*  if enabled, custom alignment of the toughness value text
-		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
-		*/
-		"toughnessValueAlignment": "RIGHT",
-		/*  if enabled, custom X position of the toughness value text
-		    Available: 0 ~ 32768 [default: 0]
-		*/
-		"toughnessValueX": 0,
-		/*  Enables custom toughness value configuration
-		    Available: true, false [default: false]
-		*/
-		"enableToughnessValueConfig": false,
 		/*  Enables custom armor value configuration
 		    Available: true, false [default: false]
 		*/
-		"enableArmorValueConfig": false,
-		/*  if enabled, custom Y position of the health value text
-		    Available: 0 ~ 32768 [default: 0]
-		*/
-		"healthValueY": 0,
-		/*  if enabled, custom Y position of the armor value text
-		    Available: 0 ~ 32768 [default: 0]
-		*/
-		"armorValueY": 0
+		"enableArmorValueConfig": false
 	}
 }
