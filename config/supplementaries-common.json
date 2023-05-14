@@ -111,7 +111,10 @@
     },
     "fodder": true,
     "hourglass": true,
-    "present": true
+    "present": {
+      "enabled": true,
+      "trapped_present": true
+    }
   },
   "building": {
     "blackboard": {

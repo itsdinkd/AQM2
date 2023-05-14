@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
   event.custom(
     {
       "type": "modern_industrialization:assembler",
-      "id": "aqm2:cursedgem",
+      "id": "aqm2:lordsoul",
       "eu": 32,
       "duration": 750,
       "item_inputs": [

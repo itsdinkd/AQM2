@@ -268,7 +268,7 @@ ServerEvents.tags('item', event => {
 	// missingFishes.forEach(function (item, index) {
 	// 	event.add('minecraft:fishes', item)
 	// })
-o
+
 	// soulsweaponsMatBosses.forEach(item => {
 	// 	event.add('aqm:bosses/soulweapoons', item)
 	// })

@@ -35,7 +35,14 @@
 			"compact_storage:backpack_white",
 			"compact_storage:backpack_yellow"
 		],
-		"tanksCapacity": 160000,
+		// Represents tanks capacity for each tier, from left: Leather, Iron, Gold, Diamond, Netherite, 81000 equals 1 Bucket
+		"tanksCapacity": [
+			162000,
+			243000,
+			324000,
+			405000,
+			486000
+		],
 		// Prevents backpack disappearing in void
 		"voidProtection": true,
 		// Places backpack at place where player died
