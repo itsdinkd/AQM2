@@ -5,7 +5,9 @@ const disabledMobSpawns = [
 	"twilightforest:minoshroom",
 	"twilightforest:minotaur",
 	"mobz:toad",
-	"mobz:toad_giant"
+	"mobz:toad_giant",
+	"creeperoverhaul:ocean_creeper",
+	"crittersandcompanions:otter"
 ]
 EntityEvents.spawned( event => {
 	disabledMobSpawns.forEach((mob,i) => {

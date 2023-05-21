@@ -1,874 +1,874 @@
 {
-	id: "00781057BAD827EA"
-	group: "2B2D8A5BD664DEFC"
-	order_index: 2
-	filename: "nether_things"
-	title: "Nether Things"
-	icon: "minecraft:obsidian"
-	subtitle: [
-		"This will be Hell"
-		"All Things Nether"
-	]
-	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "nether_things"
+	group: "2B2D8A5BD664DEFC"
+	icon: "minecraft:obsidian"
+	id: "00781057BAD827EA"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Doom Argent Block"
-			x: 0.5d
-			y: -2.0d
-			subtitle: "With 9 Argent Energies, you can craft a Argent Block"
+			dependencies: ["051C81A88B70C303"]
 			description: [
 				"The main resource of Doom, Argent Energy. You can only get this by slaying doom mobs. Kill some, once you are prepared, and then craft 9 of them into a block."
 				""
 				"Beware! Doom enemies are strong and are not for early game."
 			]
 			hide_dependency_lines: true
-			dependencies: ["051C81A88B70C303"]
 			id: "34F995C13D2E8ECB"
-			tasks: [{
-				id: "5BF157B511F6044B"
-				type: "item"
-				item: "doom:argent_block"
-			}]
 			rewards: [{
 				id: "29CE194086FC2EF0"
-				type: "item"
 				item: "doom:argent_energy"
+				type: "item"
 			}]
+			subtitle: "With 9 Argent Energies, you can craft a Argent Block"
+			tasks: [{
+				id: "5BF157B511F6044B"
+				item: "doom:argent_block"
+				type: "item"
+			}]
+			title: "Doom Argent Block"
+			x: 0.5d
+			y: -2.0d
 		}
 		{
+			dependencies: ["34F995C13D2E8ECB"]
+			description: ["Argent Energy drops from Doom mobs in the Nether. Kill some mobs, and craft this guy."]
+			id: "3A70BC43BE4E80A5"
+			rewards: [{
+				count: 4
+				id: "2C3559C2CE2DC164"
+				item: "doom:argent_energy"
+				type: "item"
+			}]
+			subtitle: "Time to make some guns... If you can survive long enough to get the materials that is.."
+			tasks: [{
+				id: "050A6FF2C031C063"
+				item: "doom:gun_table"
+				type: "item"
+			}]
 			title: "Craft A Gun Table"
 			x: 0.5d
 			y: -4.0d
-			subtitle: "Time to make some guns... If you can survive long enough to get the materials that is.."
-			description: ["Argent Energy drops from Doom mobs in the Nether. Kill some mobs, and craft this guy."]
-			dependencies: ["34F995C13D2E8ECB"]
-			id: "3A70BC43BE4E80A5"
-			tasks: [{
-				id: "050A6FF2C031C063"
-				type: "item"
-				item: "doom:gun_table"
-			}]
-			rewards: [{
-				id: "2C3559C2CE2DC164"
-				type: "item"
-				item: "doom:argent_energy"
-				count: 4
-			}]
 		}
 		{
-			title: "Craft Argent Ingot"
-			x: 0.5d
-			y: -3.0d
-			subtitle: "If you want the stronger weapons, you need better material."
+			dependencies: ["3A70BC43BE4E80A5"]
 			description: [
 				"To craft Argent Ingots, you will need to progress a little through Tech Reborn."
 				""
 				"Smith Argent Ingot using Tungstensteel Plate, and 1 Argent Energy"
 			]
-			dependencies: ["3A70BC43BE4E80A5"]
 			id: "0DC219B06069DC0A"
-			tasks: [{
-				id: "21BE50541E67B592"
-				type: "item"
-				item: "doom:argent_plate"
-			}]
 			rewards: [{
 				id: "69BE89A2D4819269"
-				type: "item"
 				item: "doom:argent_energy"
+				type: "item"
 			}]
+			subtitle: "If you want the stronger weapons, you need better material."
+			tasks: [{
+				id: "21BE50541E67B592"
+				item: "doom:argent_plate"
+				type: "item"
+			}]
+			title: "Craft Argent Ingot"
+			x: 0.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["3A70BC43BE4E80A5"]
+			description: ["Press \"R\" To reload your weapon."]
+			id: "1D5854BD95FF96B8"
+			rewards: [{
+				count: 10
+				id: "5751AD43A65AAD13"
+				item: "doom:bullets"
+				type: "item"
+			}]
+			subtitle: "This is the introduction into doom weapons, the pistol."
+			tasks: [{
+				id: "06C06306130BD729"
+				item: {
+					Count: 1b
+					id: "doom:pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			title: "Craft a Pistol"
 			x: 0.5d
 			y: -5.0d
-			subtitle: "This is the introduction into doom weapons, the pistol."
-			description: ["Press \"R\" To reload your weapon."]
-			dependencies: ["3A70BC43BE4E80A5"]
-			id: "1D5854BD95FF96B8"
-			tasks: [{
-				id: "06C06306130BD729"
-				type: "item"
-				item: {
-					id: "doom:pistol"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "5751AD43A65AAD13"
-				type: "item"
-				item: "doom:bullets"
-				count: 10
-			}]
 		}
 		{
-			x: -4.0d
-			y: 0.0d
-			subtitle: "Light up an Arena with Lightest Lamps questline"
+			dependencies: ["051C81A88B70C303"]
 			description: ["Go mine some Lanthanum Ore which can be found only in The Nether"]
 			hide_dependency_lines: true
-			dependencies: ["051C81A88B70C303"]
 			id: "6C4350CA07B1D6BF"
+			subtitle: "Light up an Arena with Lightest Lamps questline"
 			tasks: [{
 				id: "13DC4BAD6B4FB6CB"
-				type: "item"
 				item: "lightestlamp:lanthanum_ore"
+				type: "item"
 			}]
+			x: -4.0d
+			y: 0.0d
 		}
 		{
-			x: -6.0d
-			y: 0.0d
-			subtitle: "The Centrifuge is a key component "
-			description: ["Use the centrifuge to create dusts that will be used for rods"]
 			dependencies: ["27DC52AA7C9DED7F"]
+			description: ["Use the centrifuge to create dusts that will be used for rods"]
 			id: "7F7F0F2CF58E47EC"
-			tasks: [{
-				id: "6BC0D31F8DD06A9B"
-				type: "item"
-				item: "lightestlamp:glowstone_centrifuge"
-			}]
 			rewards: [{
 				id: "5CA48D6D422FF6B3"
-				type: "item"
 				item: "lightestlamp:neon_pile"
+				type: "item"
 			}]
+			subtitle: "The Centrifuge is a key component "
+			tasks: [{
+				id: "6BC0D31F8DD06A9B"
+				item: "lightestlamp:glowstone_centrifuge"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
 		}
 		{
-			x: -7.0d
-			y: 0.0d
-			subtitle: "Component for Centrifuge, there are several others for other tiers of lamps"
-			description: ["Each filter is for different dusts, make sure you check REI for what color the lamp you want requires"]
 			dependencies: ["7F7F0F2CF58E47EC"]
+			description: ["Each filter is for different dusts, make sure you check REI for what color the lamp you want requires"]
 			id: "5409DE5B4D1A3741"
-			tasks: [{
-				id: "678C01270907E8E5"
-				type: "item"
-				item: {
-					id: "lightestlamp:basic_centrifuge_filter"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "74D27E0E29DAE4D9"
-					type: "item"
 					item: "lightestlamp:glow_lichen_fiber"
+					type: "item"
 				}
 				{
 					id: "67144862A3F74749"
-					type: "item"
 					item: "lightestlamp:neon_pile"
+					type: "item"
 				}
 			]
+			subtitle: "Component for Centrifuge, there are several others for other tiers of lamps"
+			tasks: [{
+				id: "678C01270907E8E5"
+				item: {
+					Count: 1b
+					id: "lightestlamp:basic_centrifuge_filter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
 		}
 		{
-			x: -8.0d
-			y: 0.5d
-			subtitle: "There are numerous dusts, this is one of them"
 			dependencies: ["5409DE5B4D1A3741"]
 			id: "4635E8B6F846664A"
-			tasks: [{
-				id: "2B4ADB9113071B8A"
-				type: "item"
-				item: "lightestlamp:neon_dust"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "5DC83E337FE81184"
-				type: "item"
 				item: "lightestlamp:neon_dust"
+				type: "item"
 			}]
+			subtitle: "There are numerous dusts, this is one of them"
+			tasks: [{
+				id: "2B4ADB9113071B8A"
+				item: "lightestlamp:neon_dust"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
 		}
 		{
-			x: -9.0d
-			y: 0.5d
-			subtitle: "Certain rods are required for certain tiers of lamps"
 			dependencies: ["4635E8B6F846664A"]
 			id: "27DD055D3D9F8595"
-			tasks: [{
-				id: "554B85F2322F7C2D"
-				type: "item"
-				item: "lightestlamp:neon_rod"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "5D5BE1671B37CF7E"
-				type: "item"
 				item: "lightestlamp:neon_block"
+				type: "item"
 			}]
+			subtitle: "Certain rods are required for certain tiers of lamps"
+			tasks: [{
+				id: "554B85F2322F7C2D"
+				item: "lightestlamp:neon_rod"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
 		}
 		{
-			x: -10.0d
-			y: 0.5d
-			subtitle: "Basic lamp, 16 blocks of light, redstone activated"
 			dependencies: ["27DD055D3D9F8595"]
 			id: "474AF34701D09AD4"
+			rewards: [{
+				count: 2
+				id: "45C2052FB19DD3C7"
+				item: "lightestlamp:argon_dust"
+				type: "item"
+			}]
+			subtitle: "Basic lamp, 16 blocks of light, redstone activated"
 			tasks: [{
 				id: "74E687819FFF1D0E"
-				type: "item"
 				item: "lightestlamp:alpha_lamp"
-			}]
-			rewards: [{
-				id: "45C2052FB19DD3C7"
 				type: "item"
-				item: "lightestlamp:argon_dust"
-				count: 2
 			}]
+			x: -10.0d
+			y: 0.5d
 		}
 		{
-			x: -5.0d
-			y: 0.0d
-			subtitle: "Use the raw ore to smelt ingots"
 			dependencies: ["6C4350CA07B1D6BF"]
 			id: "27DC52AA7C9DED7F"
+			subtitle: "Use the raw ore to smelt ingots"
 			tasks: [{
 				id: "00AD2899F3631D14"
-				type: "item"
 				item: "lightestlamp:lanthanum_ingot"
+				type: "item"
 			}]
+			x: -5.0d
+			y: 0.0d
 		}
 		{
-			x: -8.0d
-			y: -0.5d
-			subtitle: "There are numerous dusts, this is one of them"
 			dependencies: ["5409DE5B4D1A3741"]
 			id: "063CBB1D1EC634FB"
-			tasks: [{
-				id: "069931DAFFE1D3B4"
-				type: "item"
-				item: "lightestlamp:argon_dust"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "37C8760BD7252357"
-				type: "item"
 				item: "lightestlamp:argon_dust"
+				type: "item"
 			}]
+			subtitle: "There are numerous dusts, this is one of them"
+			tasks: [{
+				id: "069931DAFFE1D3B4"
+				item: "lightestlamp:argon_dust"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
 		}
 		{
-			x: -9.0d
-			y: -0.5d
-			subtitle: "Certain rods are required for certain tiers of lamps"
 			dependencies: ["063CBB1D1EC634FB"]
 			id: "51631301E0865E64"
-			tasks: [{
-				id: "25BCDDB62E828AB1"
-				type: "item"
-				item: "lightestlamp:argon_rod"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "7873DB77AA58279C"
-				type: "item"
 				item: "lightestlamp:argon_block"
+				type: "item"
 			}]
+			subtitle: "Certain rods are required for certain tiers of lamps"
+			tasks: [{
+				id: "25BCDDB62E828AB1"
+				item: "lightestlamp:argon_rod"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
 		}
 		{
-			x: -10.0d
-			y: -0.5d
-			subtitle: "Underwater Sea Lamp with 16 blocks of Light"
 			dependencies: ["51631301E0865E64"]
 			id: "5CADDB01056E4DA0"
-			tasks: [{
-				id: "57D0706D8D0FBD8E"
-				type: "item"
-				item: "lightestlamp:clear_sea_lantern"
-			}]
 			rewards: [{
 				id: "357F2580C70AAF81"
-				type: "item"
 				item: "lightestlamp:clear_sea_lantern"
+				type: "item"
 			}]
+			subtitle: "Underwater Sea Lamp with 16 blocks of Light"
+			tasks: [{
+				id: "57D0706D8D0FBD8E"
+				item: "lightestlamp:clear_sea_lantern"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
 		}
 		{
-			x: -11.0d
-			y: -0.5d
-			subtitle: "Underwater Sea Lamp with 17 blocks of Light"
 			dependencies: ["5CADDB01056E4DA0"]
 			id: "0AD2321171436C97"
-			tasks: [{
-				id: "5DF760E6BB9A2AF7"
-				type: "item"
-				item: "lightestlamp:deep_sea_lantern"
-			}]
 			rewards: [{
 				id: "465D8DBE5DCA4878"
-				type: "item"
 				item: "lightestlamp:argon_rod"
+				type: "item"
 			}]
+			subtitle: "Underwater Sea Lamp with 17 blocks of Light"
+			tasks: [{
+				id: "5DF760E6BB9A2AF7"
+				item: "lightestlamp:deep_sea_lantern"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
 		}
 		{
-			x: -11.0d
-			y: 0.5d
-			subtitle: "18 Blocks of Light, redstone activated, light penetration"
 			dependencies: [
 				"51631301E0865E64"
 				"474AF34701D09AD4"
 			]
 			hide: true
 			id: "6D29C3F13DC2D225"
+			rewards: [{
+				count: 2
+				id: "160CDB1E1692F38B"
+				item: "lightestlamp:argon_dust"
+				type: "item"
+			}]
+			subtitle: "18 Blocks of Light, redstone activated, light penetration"
 			tasks: [{
 				id: "681F50344723777E"
-				type: "item"
 				item: "lightestlamp:gamma_lamp"
-			}]
-			rewards: [{
-				id: "160CDB1E1692F38B"
 				type: "item"
-				item: "lightestlamp:argon_dust"
-				count: 2
 			}]
+			x: -11.0d
+			y: 0.5d
 		}
 		{
-			x: -12.750000000000014d
-			y: 1.6160714285714306d
-			subtitle: "Ultimate Lamp; Always on, 32 blocks of light"
 			dependencies: ["6D29C3F13DC2D225"]
 			hide: true
-			size: 3.0d
 			id: "20DE5E09F49845BF"
-			tasks: [{
-				id: "20240417D590E51B"
-				type: "item"
-				item: "lightestlamp:omega_lamp"
-			}]
 			rewards: [
 				{
 					id: "689EE788EC5A3240"
-					type: "random"
 					table_id: 1830006897849082013L
+					type: "random"
 				}
 				{
 					id: "0ECC5675B8A4A9DB"
-					type: "item"
 					item: "lightestlamp:radon_rod"
+					type: "item"
 				}
 			]
+			size: 3.0d
+			subtitle: "Ultimate Lamp; Always on, 32 blocks of light"
+			tasks: [{
+				id: "20240417D590E51B"
+				item: "lightestlamp:omega_lamp"
+				type: "item"
+			}]
+			x: -12.750000000000014d
+			y: 1.6160714285714306d
 		}
 		{
-			x: -12.750000000000014d
-			y: -1.241071428571427d
-			subtitle: "Ultimate Sea Lamp; Always on, 24 blocks of light"
 			dependencies: ["0AD2321171436C97"]
 			hide: true
-			size: 3.0d
 			id: "2EACA44FF2240B6B"
-			tasks: [{
-				id: "5B1C78B7221EEB38"
-				type: "item"
-				item: "lightestlamp:abyssal_lantern"
-			}]
 			rewards: [
 				{
 					id: "6F88749059A1A6C0"
-					type: "random"
 					table_id: 172378784714914766L
+					type: "random"
 				}
 				{
 					id: "1DA28DD96E61B761"
-					type: "item"
 					item: "lightestlamp:xenon_rod_block"
+					type: "item"
 				}
 			]
+			size: 3.0d
+			subtitle: "Ultimate Sea Lamp; Always on, 24 blocks of light"
+			tasks: [{
+				id: "5B1C78B7221EEB38"
+				item: "lightestlamp:abyssal_lantern"
+				type: "item"
+			}]
+			x: -12.750000000000014d
+			y: -1.241071428571427d
 		}
 		{
-			x: -7.0d
-			y: 2.0d
-			subtitle: "Recipe component"
 			dependencies: ["1A67A036D38A1A78"]
 			id: "34C9F704E841F1A4"
+			rewards: [{
+				count: 3
+				id: "3ED78E271B1E9BE0"
+				item: "lightestlamp:glow_lichen_fiber"
+				type: "item"
+			}]
+			subtitle: "Recipe component"
 			tasks: [{
 				id: "4FEC64D248B9E81A"
-				type: "item"
 				item: "lightestlamp:alchemical_dust"
 				only_from_crafting: true
-			}]
-			rewards: [{
-				id: "3ED78E271B1E9BE0"
 				type: "item"
-				item: "lightestlamp:glow_lichen_fiber"
-				count: 3
 			}]
+			x: -7.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["7F7F0F2CF58E47EC"]
+			id: "1A67A036D38A1A78"
+			rewards: [{
+				count: 2
+				id: "0FC0F4FFD36884E2"
+				item: "lightestlamp:xenon_dust"
+				type: "item"
+			}]
+			subtitle: "Use the glowstone centrifuge to make this necessity"
+			tasks: [{
+				id: "4698712AEE6D4285"
+				item: "lightestlamp:xenon_dust"
+				type: "item"
+			}]
 			title: "Path to Push Mobs Back"
 			x: -7.0d
 			y: 1.0d
-			subtitle: "Use the glowstone centrifuge to make this necessity"
-			dependencies: ["7F7F0F2CF58E47EC"]
-			id: "1A67A036D38A1A78"
-			tasks: [{
-				id: "4698712AEE6D4285"
-				type: "item"
-				item: "lightestlamp:xenon_dust"
-			}]
-			rewards: [{
-				id: "0FC0F4FFD36884E2"
-				type: "item"
-				item: "lightestlamp:xenon_dust"
-				count: 2
-			}]
 		}
 		{
-			x: -7.0d
-			y: 3.0d
-			subtitle: "Push mobs away that are within the lamps light"
 			dependencies: ["34C9F704E841F1A4"]
 			id: "61F15F5CD09C630C"
-			tasks: [{
-				id: "37C4756A9747A64F"
-				type: "item"
-				item: "lightestlamp:alchemical_lamp"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "4A0FECDD81D9C37F"
-				type: "item"
 				item: "lightestlamp:clear_lamp"
+				type: "item"
 			}]
+			subtitle: "Push mobs away that are within the lamps light"
+			tasks: [{
+				id: "37C4756A9747A64F"
+				item: "lightestlamp:alchemical_lamp"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
 		}
 		{
-			title: "Travel to the Nether"
 			icon: "additionaladditions:mysterious_bundle"
-			x: -7.5d
-			y: -3.0d
-			subtitle: "Its time to visit Hell to progress further. Good luck, its hard as hell."
-			secret: true
 			id: "051C81A88B70C303"
-			tasks: [{
-				id: "61D9C9F28ECD2FE2"
-				type: "dimension"
-				dimension: "minecraft:the_nether"
-			}]
 			rewards: [{
 				id: "41AF2426EA4C9350"
-				type: "item"
 				item: "additionaladditions:mysterious_bundle"
+				type: "item"
 			}]
+			secret: true
+			subtitle: "Its time to visit Hell to progress further. Good luck, its hard as hell."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "61D9C9F28ECD2FE2"
+				type: "dimension"
+			}]
+			title: "Travel to the Nether"
+			x: -7.5d
+			y: -3.0d
 		}
 		{
-			x: -7.5d
-			y: -4.5d
-			subtitle: "Go on and get yourself some java"
 			dependencies: ["051C81A88B70C303"]
 			id: "300E3BABD145AFE1"
+			rewards: [{
+				count: 2
+				id: "3A0D4BCD8A4EB34C"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Go on and get yourself some java"
 			tasks: [{
-				id: "064EFF0F02421DBD"
-				type: "structure"
-				title: "Find the Lava Java Cafe"
 				icon: {
-					id: "lavajava:lava_java"
 					Count: 1b
+					id: "lavajava:lava_java"
 					tag: { }
 				}
+				id: "064EFF0F02421DBD"
 				structure: "lavajava:lava_java_cafe"
+				title: "Find the Lava Java Cafe"
+				type: "structure"
 			}]
-			rewards: [{
-				id: "3A0D4BCD8A4EB34C"
-				type: "item"
-				item: "minecraft:gold_ingot"
-				count: 2
-			}]
+			x: -7.5d
+			y: -4.5d
 		}
 		{
-			x: -7.5d
-			y: -6.0d
-			subtitle: "This guy.... dont attack him, just interact for some lava java"
 			dependencies: ["300E3BABD145AFE1"]
 			id: "35E4BA59AFCD4057"
-			tasks: [{
-				id: "0D23AB6FF10E2D15"
-				type: "questsadditions:interaction"
-				title: "Talk to the Wither Barista"
-				icon: "architects_palette:lit_withered_osseous_skull"
-				entity: "lavajava:wither_barista"
-				nbt: { }
-				value: 1L
-				checkItem: false
-			}]
 			rewards: [{
-				id: "57C4C9C97A438C15"
-				type: "random"
 				exclude_from_claim_all: true
+				id: "57C4C9C97A438C15"
 				table_id: 5154822684591214429L
+				type: "random"
 			}]
+			subtitle: "This guy.... dont attack him, just interact for some lava java"
+			tasks: [{
+				checkItem: false
+				entity: "lavajava:wither_barista"
+				icon: "architects_palette:lit_withered_osseous_skull"
+				id: "0D23AB6FF10E2D15"
+				nbt: { }
+				title: "Talk to the Wither Barista"
+				type: "questsadditions:interaction"
+				value: 1L
+			}]
+			x: -7.5d
+			y: -6.0d
 		}
 		{
-			x: -4.0d
-			y: -6.0d
-			subtitle: "Click Click, Boom"
 			dependencies: ["22C8D9B3F097EA88"]
 			id: "19E8F02178F9E006"
-			tasks: [{
-				id: "51F1B9F8D329E07B"
-				type: "item"
-				item: {
-					id: "doom:supershotgun"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "616DFDB72454B0A6"
-				type: "item"
 				item: "doom:shotgun_shells"
 				random_bonus: 2
+				type: "item"
 			}]
+			subtitle: "Click Click, Boom"
+			tasks: [{
+				id: "51F1B9F8D329E07B"
+				item: {
+					Count: 1b
+					id: "doom:supershotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
 		}
 		{
-			x: -2.0d
-			y: -5.0d
-			subtitle: "Slow but strong Click Click, Boom"
 			dependencies: ["1D5854BD95FF96B8"]
 			id: "165629457163130E"
-			tasks: [{
-				id: "0309E1977989C3F3"
-				type: "item"
-				item: {
-					id: "doom:shotgun"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "229A6BA424B8E68B"
-				type: "item"
 				item: "doom:shotgun_shells"
+				type: "item"
 			}]
+			subtitle: "Slow but strong Click Click, Boom"
+			tasks: [{
+				id: "0309E1977989C3F3"
+				item: {
+					Count: 1b
+					id: "doom:shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
 		}
 		{
-			x: -1.5d
-			y: -6.0d
-			subtitle: "Plasma in the morning"
 			dependencies: ["1D5854BD95FF96B8"]
 			id: "566F1C17D9A0355D"
-			tasks: [{
-				id: "444A086E99BDD37D"
-				type: "item"
-				item: {
-					id: "doom:plasmagun"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "3E2FCA847F0CF2A0"
-				type: "item"
 				item: "doom:energy_cells"
+				type: "item"
 			}]
+			subtitle: "Plasma in the morning"
+			tasks: [{
+				id: "444A086E99BDD37D"
+				item: {
+					Count: 1b
+					id: "doom:plasmagun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
 		}
 		{
-			x: 0.5d
-			y: -6.5d
-			subtitle: "This is pretty heavy"
 			dependencies: ["1D5854BD95FF96B8"]
 			id: "365F5E0C348B9F2F"
+			rewards: [{
+				count: 2
+				id: "6B573B3F69DBC53C"
+				item: "doom:bullets"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "This is pretty heavy"
 			tasks: [{
 				id: "591AEA960B59DF89"
-				type: "item"
 				item: {
-					id: "doom:heavycannon"
 					Count: 1b
+					id: "doom:heavycannon"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "6B573B3F69DBC53C"
 				type: "item"
-				item: "doom:bullets"
-				count: 2
-				random_bonus: 2
 			}]
+			x: 0.5d
+			y: -6.5d
 		}
 		{
-			x: -3.0d
-			y: -5.5d
-			subtitle: "The third shotgun lol"
 			dependencies: ["165629457163130E"]
 			id: "22C8D9B3F097EA88"
-			tasks: [{
-				id: "3718A1963F7AA7F5"
-				type: "item"
-				item: {
-					id: "doom:doomed_shotgun"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "02770BEC63A25DFB"
-				type: "item"
 				item: "doom:shotgun_shells"
 				random_bonus: 1
+				type: "item"
 			}]
+			subtitle: "The third shotgun lol"
+			tasks: [{
+				id: "3718A1963F7AA7F5"
+				item: {
+					Count: 1b
+					id: "doom:doomed_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
 		}
 		{
-			x: -2.5d
-			y: -6.5d
-			subtitle: "Strong Gauss Rifle"
 			dependencies: ["566F1C17D9A0355D"]
 			id: "39EF85712CC95C30"
-			tasks: [{
-				id: "67D6B6AFBAD27A34"
-				type: "item"
-				item: {
-					id: "doom:doomed_gauss"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "56DAA3287882EE27"
-				type: "item"
 				item: "doom:energy_cells"
 				random_bonus: 1
+				type: "item"
 			}]
+			subtitle: "Strong Gauss Rifle"
+			tasks: [{
+				id: "67D6B6AFBAD27A34"
+				item: {
+					Count: 1b
+					id: "doom:doomed_gauss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
 		}
 		{
-			x: 2.5d
-			y: -3.0d
-			subtitle: "This is fun"
 			dependencies: ["1D5854BD95FF96B8"]
 			id: "2271EB516C272450"
+			subtitle: "This is fun"
 			tasks: [{
 				id: "487C1B5CE904FF7A"
-				type: "item"
 				item: "doom:doomed_grenade"
+				type: "item"
 			}]
+			x: 2.5d
+			y: -3.0d
 		}
 		{
-			x: 3.5d
-			y: -2.0d
-			subtitle: "This is funner"
 			dependencies: ["2271EB516C272450"]
 			id: "1A79A2C3792ACA49"
-			tasks: [{
-				id: "6C839B27EE2EB119"
-				type: "item"
-				item: {
-					id: "doom:rocketlauncher"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "20D10E0997707F36"
-				type: "item"
 				item: "doom:rocket"
 				random_bonus: 2
+				type: "item"
 			}]
+			subtitle: "This is funner"
+			tasks: [{
+				id: "6C839B27EE2EB119"
+				item: {
+					Count: 1b
+					id: "doom:rocketlauncher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
 		}
 		{
-			x: 3.0d
-			y: -5.0d
-			subtitle: "Its a sword, duh"
 			dependencies: ["1D5854BD95FF96B8"]
 			id: "2F6CCFF81371B871"
+			rewards: [{
+				count: 2
+				id: "6C31CAB0D955E1CA"
+				item: "doom:argent_energy"
+				type: "item"
+			}]
+			subtitle: "Its a sword, duh"
 			tasks: [{
 				id: "12F3AA17B9CFE5D6"
-				type: "item"
 				item: {
-					id: "doom:argent_sword"
 					Count: 1b
+					id: "doom:argent_sword"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "6C31CAB0D955E1CA"
 				type: "item"
-				item: "doom:argent_energy"
-				count: 2
 			}]
+			x: 3.0d
+			y: -5.0d
 		}
 		{
-			x: 4.0d
-			y: -5.5d
 			dependencies: ["2F6CCFF81371B871"]
 			id: "1497E8DBD4301C2F"
-			tasks: [{
-				id: "6DC5DA324DC8CE6A"
-				type: "item"
-				item: {
-					id: "doom:chainsaw"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "6C48D43238E48117"
-				type: "item"
 				item: "doom:gas_barrel"
+				type: "item"
 			}]
+			tasks: [{
+				id: "6DC5DA324DC8CE6A"
+				item: {
+					Count: 1b
+					id: "doom:chainsaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
 		}
 		{
-			x: 2.5d
-			y: -6.0d
 			dependencies: ["1D5854BD95FF96B8"]
 			id: "455B1F702F3CCFEB"
-			tasks: [{
-				id: "450B7D67DBC450E4"
-				type: "item"
-				item: {
-					id: "doom:ballista"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "103602DB0F8EF59A"
-				type: "item"
 				item: "doom:argent_bolt"
+				type: "item"
 			}]
+			tasks: [{
+				id: "450B7D67DBC450E4"
+				item: {
+					Count: 1b
+					id: "doom:ballista"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
 		}
 		{
-			x: -2.5d
-			y: -2.0d
-			subtitle: "Big F---ing 9000"
 			dependencies: ["5396E93BC62E21C3"]
 			id: "245BAFB61FEF92B7"
-			tasks: [{
-				id: "3D55F47ED3211524"
-				type: "item"
-				item: {
-					id: "doom:bfg9000"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "55BF9B3A7DB2B2FC"
-				type: "item"
 				item: "doom:bfg_cell"
 				random_bonus: 3
+				type: "item"
 			}]
+			subtitle: "Big F---ing 9000"
+			tasks: [{
+				id: "3D55F47ED3211524"
+				item: {
+					Count: 1b
+					id: "doom:bfg9000"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
 		}
 		{
-			x: -1.5d
-			y: -3.0d
-			subtitle: "Big F---"
 			dependencies: ["1D5854BD95FF96B8"]
 			id: "5396E93BC62E21C3"
-			tasks: [{
-				id: "718472691BE25B01"
-				type: "item"
-				item: {
-					id: "doom:bfg_eternal"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "67F0352FBF57173C"
-				type: "item"
 				item: "doom:bfg_cell"
+				type: "item"
 			}]
+			subtitle: "Big F---"
+			tasks: [{
+				id: "718472691BE25B01"
+				item: {
+					Count: 1b
+					id: "doom:bfg_eternal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
 		}
 		{
-			x: 5.0d
-			y: -6.0d
 			dependencies: ["1497E8DBD4301C2F"]
 			id: "11F0EF00B3C45144"
-			tasks: [{
-				id: "5CBD1961A3B8873D"
-				type: "item"
-				item: {
-					id: "doom:chainsaw64"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "4D9F88094A631C85"
-				type: "item"
 				item: "doom:gas_barrel"
 				random_bonus: 2
+				type: "item"
 			}]
+			tasks: [{
+				id: "5CBD1961A3B8873D"
+				item: {
+					Count: 1b
+					id: "doom:chainsaw64"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
 		}
 		{
-			x: 3.5d
-			y: -6.5d
 			dependencies: ["455B1F702F3CCFEB"]
 			id: "3ACB22B9B27F30B5"
-			tasks: [{
-				id: "256AB2342B91ECD6"
-				type: "item"
-				item: {
-					id: "doom:unmaykr"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "0DFE3772F6346AD1"
-				type: "item"
 				item: "doom:unmaykr_bolt"
-			}]
-		}
-		{
-			x: 6.0d
-			y: -6.5d
-			subtitle: "So many chainsaws"
-			dependencies: ["11F0EF00B3C45144"]
-			id: "5DB12534FC5BB4E8"
-			tasks: [{
-				id: "0AC6C16A74A44268"
 				type: "item"
+			}]
+			tasks: [{
+				id: "256AB2342B91ECD6"
 				item: {
-					id: "doom:chainsaweternal"
 					Count: 1b
+					id: "doom:unmaykr"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["11F0EF00B3C45144"]
+			id: "5DB12534FC5BB4E8"
 			rewards: [
 				{
 					id: "0AB2BB602869F87B"
-					type: "item"
 					item: "doom:argent_block"
+					type: "item"
 				}
 				{
 					id: "5B9F24FA9BF290B9"
-					type: "item"
 					item: "doom:gas_barrel"
+					type: "item"
 				}
 			]
+			subtitle: "So many chainsaws"
+			tasks: [{
+				id: "0AC6C16A74A44268"
+				item: {
+					Count: 1b
+					id: "doom:chainsaweternal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
 		}
 	]
-	quest_links: [ ]
+	subtitle: [
+		"This will be Hell"
+		"All Things Nether"
+	]
+	title: "Nether Things"
 }

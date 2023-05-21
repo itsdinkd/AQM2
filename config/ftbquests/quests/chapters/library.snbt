@@ -1,368 +1,368 @@
 {
-	id: "05B7C7F1925179E8"
-	group: "2B2D8A5BD664DEFC"
-	order_index: 3
-	filename: "library"
-	title: "Library (All Mod Guides)"
-	icon: "minecraft:bookshelf"
-	subtitle: ["Easy way to find all mods that have a guide"]
-	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "library"
+	group: "2B2D8A5BD664DEFC"
+	icon: "minecraft:bookshelf"
+	id: "05B7C7F1925179E8"
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
 			disable_toast: true
-			x: -2.5d
-			y: -3.0d
-			subtitle: "Learn about the Mounts in Overworld and how to breed and tame"
 			id: "79EF1312A26CC670"
+			subtitle: "Learn about the Mounts in Overworld and how to breed and tame"
 			tasks: [{
-				id: "0E6643CC16AB8F30"
-				type: "item"
 				disable_toast: true
+				id: "0E6643CC16AB8F30"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "mythicmounts:mythical_mounts"
 					}
 				}
+				type: "item"
 			}]
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			disable_toast: true
-			x: -2.5d
-			y: -1.0d
-			subtitle: "Everything DOOM"
 			id: "7B524123DD883C01"
+			subtitle: "Everything DOOM"
 			tasks: [{
-				id: "1C2BDA07A9C69A72"
-				type: "item"
 				disable_toast: true
+				id: "1C2BDA07A9C69A72"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "doom:doom"
 					}
 				}
+				type: "item"
 			}]
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			disable_toast: true
-			x: -8.0d
-			y: -1.0d
-			subtitle: "Store XP and stuff"
 			id: "397D05BDC219F19F"
+			subtitle: "Store XP and stuff"
 			tasks: [{
-				id: "5F33AE0A451BC4F1"
-				type: "item"
 				disable_toast: true
+				id: "5F33AE0A451BC4F1"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "xps:xps_lexica"
 					}
 				}
+				type: "item"
 			}]
+			x: -8.0d
+			y: -1.0d
 		}
 		{
 			disable_toast: true
-			x: -7.0d
-			y: -2.0d
-			subtitle: "All about Redstone"
-			secret: true
 			id: "43B7A3B4D93DA8A0"
+			secret: true
+			subtitle: "All about Redstone"
 			tasks: [{
-				id: "5A6FCD79BC8FFA92"
-				type: "item"
 				disable_toast: true
+				id: "5A6FCD79BC8FFA92"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "redbits:guide"
 					}
 				}
+				type: "item"
 			}]
+			x: -7.0d
+			y: -2.0d
 		}
 		{
 			disable_toast: true
-			x: -5.0d
-			y: -2.0d
-			subtitle: "Industrial Revolution"
 			id: "334C9F2FE0B42C42"
+			subtitle: "Industrial Revolution"
 			tasks: [{
 				id: "7C0012E298E378C4"
-				type: "item"
 				item: "indrev:guide_book"
+				type: "item"
 			}]
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			disable_toast: true
-			x: -6.0d
-			y: -2.0d
 			id: "617B49CA33BD39B3"
 			tasks: [{
 				id: "0754FB21E505579C"
-				type: "item"
 				item: "modern_industrialization:guidebook"
+				type: "item"
 			}]
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			disable_toast: true
-			x: -8.0d
-			y: -2.0d
 			id: "452D28FFB49139AC"
 			tasks: [{
 				id: "2690C24509367482"
-				type: "item"
-				title: "ComputerCraft Manual"
 				item: "computercraft:printed_book"
+				title: "ComputerCraft Manual"
+				type: "item"
 			}]
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			disable_toast: true
-			x: -1.5d
-			y: -3.0d
-			subtitle: "AdventureZ"
 			id: "2756B16048AD6EC4"
+			subtitle: "AdventureZ"
 			tasks: [{
 				id: "3E32304FE64F4997"
-				type: "item"
 				item: "adventurez:handbook"
+				type: "item"
 			}]
+			x: -1.5d
+			y: -3.0d
 		}
 		{
-			disable_toast: true
-			x: -11.5d
-			y: -1.0d
-			subtitle: "Bewitchment - Magic"
 			description: ["Bewitchment is a magic mod based around curses, voodoo puppets, sacrifices, and demons. You can transform into a werewolf or a vampire, you can fight Lilith and other Demons, and even fly on brooms. "]
+			disable_toast: true
 			id: "3D757CE8D64F794A"
+			subtitle: "Bewitchment - Magic"
 			tasks: [{
 				id: "1EDE29345D65D156"
-				type: "item"
 				item: "bewitchment:book_of_shadows"
+				type: "item"
 			}]
+			x: -11.5d
+			y: -1.0d
 		}
 		{
 			disable_toast: true
-			x: -1.5d
-			y: -2.0d
-			subtitle: "Random fun items"
 			id: "086AE27ABCE20C9B"
+			subtitle: "Random fun items"
 			tasks: [{
 				id: "351DAC9F95137CD3"
-				type: "item"
 				item: "things:things_almanac"
+				type: "item"
 			}]
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			disable_toast: true
-			x: -11.5d
-			y: -2.0d
-			subtitle: "Spicy Magic Mod"
 			id: "35A28E2DAFB2B301"
+			subtitle: "Spicy Magic Mod"
 			tasks: [{
 				id: "33AD3437165BEC31"
-				type: "item"
 				item: "archon:grimoire"
+				type: "item"
 			}]
+			x: -11.5d
+			y: -2.0d
 		}
 		{
 			disable_toast: true
-			x: -10.5d
-			y: -2.0d
-			subtitle: "Magical Tech, Botania. Automate, Destroy, Have fun."
 			id: "6583CBA7754DFB94"
+			subtitle: "Magical Tech, Botania. Automate, Destroy, Have fun."
 			tasks: [{
 				id: "7669ADD54441F5A9"
-				type: "item"
 				item: "botania:lexicon"
+				type: "item"
 			}]
+			x: -10.5d
+			y: -2.0d
 		}
 		{
+			description: ["Craft the Manual to learn how to play through this mod. It also relies heavily on advancements, so be sure to check the Spectrum Advancements if you're stuck (Press \"L\" in game)\""]
 			disable_toast: true
+			id: "6960A07B62E40B02"
+			subtitle: "Spectrum - Explore a Magical World"
+			tasks: [{
+				icon: "spectrum:guidebook"
+				id: "6FF23824F2ADD9B3"
+				item: "spectrum:guidebook"
+				type: "item"
+			}]
 			x: -10.5d
 			y: -3.0d
-			subtitle: "Spectrum - Explore a Magical World"
-			description: ["Craft the Manual to learn how to play through this mod. It also relies heavily on advancements, so be sure to check the Spectrum Advancements if you're stuck (Press \"L\" in game)\""]
-			id: "6960A07B62E40B02"
-			tasks: [{
-				id: "6FF23824F2ADD9B3"
-				type: "item"
-				icon: "spectrum:guidebook"
-				item: "spectrum:guidebook"
-			}]
 		}
 		{
 			disable_toast: true
-			x: -11.5d
-			y: -3.0d
-			subtitle: "Automate Mob Farms, Harvest Trees, Plants, Veinmine, Item Mangets, and more."
 			id: "4967AB6AFE0A6ECC"
+			subtitle: "Automate Mob Farms, Harvest Trees, Plants, Veinmine, Item Mangets, and more."
 			tasks: [{
 				id: "1A934B334A96A378"
-				type: "item"
 				item: {
-					id: "conjuring:enchiridion"
 					Count: 1b
+					id: "conjuring:enchiridion"
 					tag: { }
 				}
+				type: "item"
 			}]
+			x: -11.5d
+			y: -3.0d
 		}
 		{
-			x: -7.5d
-			y: 1.0d
-			subtitle: "Food, trees, tacos."
 			id: "59C1AA932E7BC1B9"
+			subtitle: "Food, trees, tacos."
 			tasks: [{
 				id: "3FD0F68488F1B23F"
-				type: "item"
 				item: "croptopia:guide"
+				type: "item"
 			}]
+			x: -7.5d
+			y: 1.0d
 		}
 		{
-			x: -6.5d
-			y: 1.0d
-			subtitle: "Adorn"
 			description: ["Adorn is a decoration mod. We have Adorn, Macaw's, Consistency Plus for decoration mods"]
 			id: "6935BCB8E4AC030B"
+			subtitle: "Adorn"
 			tasks: [{
 				id: "2CA02A6718757AF5"
-				type: "item"
 				item: "adorn:guide_book"
+				type: "item"
 			}]
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			disable_toast: true
-			x: -1.5d
-			y: -1.0d
 			id: "3193C6157F84E788"
 			tasks: [{
 				id: "2D1A26D64D801D52"
-				type: "item"
 				item: "betterend:guidebook"
+				type: "item"
 			}]
+			x: -1.5d
+			y: -1.0d
 		}
 		{
-			title: "Read Me"
+			description: ["Some of these books will be empty. This is due to you needing to progress a bit through the mod, or find something that creates a journal entry. Better End is a great example of this, as well as Spectrum. "]
 			icon: "botania:cosmetic_questgiver_mark"
+			id: "2C8ECD655EB5D9A3"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "First step into our world of mods"
+			title: "Read Me"
 			x: -6.0d
 			y: -4.5d
-			shape: "diamond"
-			subtitle: "First step into our world of mods"
-			description: ["Some of these books will be empty. This is due to you needing to progress a bit through the mod, or find something that creates a journal entry. Better End is a great example of this, as well as Spectrum. "]
-			size: 3.0d
-			id: "2C8ECD655EB5D9A3"
 		}
 		{
-			disable_toast: true
-			x: -10.5d
-			y: -1.0d
-			subtitle: "Cast spells by drawing their patterns"
 			description: [
 				"This mod is similar to Ars Nouveau how it has multiple spells you can cast and combine, though with Hex, you draw the spell with your mouse while holding your wand. Read the book."
 				""
 				"To escape drawing mode, press ESCAPE key"
 			]
+			disable_toast: true
 			id: "0F13A066988D0616"
+			subtitle: "Cast spells by drawing their patterns"
 			tasks: [{
-				id: "0D5BE6DA23E5F597"
-				type: "item"
 				disable_toast: true
+				id: "0D5BE6DA23E5F597"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "hexcasting:thehexbook"
 					}
 				}
+				type: "item"
 			}]
+			x: -10.5d
+			y: -1.0d
 		}
 		{
 			disable_toast: true
-			x: -5.5d
-			y: 1.0d
-			subtitle: "Guide on how to use Extended Drawers"
 			id: "2D2C13F85CD85D10"
+			subtitle: "Guide on how to use Extended Drawers"
 			tasks: [{
 				id: "3786D222D75FE6EC"
-				type: "item"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "extended_drawers:guide"
 					}
 				}
+				type: "item"
 			}]
+			x: -5.5d
+			y: 1.0d
 		}
 		{
+			id: "63CFE504A5825771"
+			subtitle: "Build rocketships and fly into space"
+			tasks: [{
+				id: "700992138FA57484"
+				item: "ad_astra:astrodux"
+				type: "item"
+			}]
 			title: "Ad Astra: Space Adventures!"
 			x: -2.5d
 			y: -2.0d
-			subtitle: "Build rocketships and fly into space"
-			id: "63CFE504A5825771"
-			tasks: [{
-				id: "700992138FA57484"
-				type: "item"
-				item: "ad_astra:astrodux"
-			}]
 		}
 		{
-			x: -6.5d
-			y: -0.5d
-			subtitle: "Deeper and Darker Dimension!"
 			id: "58735B4271B15F89"
+			subtitle: "Deeper and Darker Dimension!"
 			tasks: [{
 				id: "4532BE52CA2F3888"
-				type: "item"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "deeperdarker:wanderers_notebook"
 					}
 				}
+				type: "item"
 			}]
+			x: -6.5d
+			y: -0.5d
 		}
 		{
+			id: "32364D204FDCC014"
+			subtitle: "Cast Spells, Mobs, Transmute Items, and more.."
+			tasks: [{
+				id: "470C706BBA54297D"
+				item: "archon:grimoire"
+				type: "item"
+			}]
 			title: "Grimiore -- Archon"
 			x: -10.5d
 			y: 0.0d
-			subtitle: "Cast Spells, Mobs, Transmute Items, and more.."
-			id: "32364D204FDCC014"
-			tasks: [{
-				id: "470C706BBA54297D"
-				type: "item"
-				item: "archon:grimoire"
-			}]
 		}
 		{
-			x: -5.0d
-			y: -1.0d
 			id: "1F0FB5CE6666ED83"
 			tasks: [{
 				id: "60DD63D4A5DEE9B7"
-				type: "item"
 				item: "tr-patchouli:guide"
+				type: "item"
 			}]
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			disable_toast: true
+			id: "391CAFD9C4CB597F"
+			subtitle: "Power Generation"
+			tasks: [{
+				disable_toast: true
+				id: "3F78C9F6E656BBBF"
+				item: "powah:book"
+				type: "item"
+			}]
 			x: -6.5d
 			y: 2.5d
-			subtitle: "Power Generation"
-			id: "391CAFD9C4CB597F"
-			tasks: [{
-				id: "3F78C9F6E656BBBF"
-				type: "item"
-				disable_toast: true
-				item: "powah:book"
-			}]
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["Easy way to find all mods that have a guide"]
+	title: "Library (All Mod Guides)"
 }

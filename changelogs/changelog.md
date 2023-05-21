@@ -1,3 +1,37 @@
+### Another Quality Modpack v1.5.7
+
+
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.6.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.6.1.md)_
+
+
+TO DO; REMOVE ENTANGLED RECIPE AND ADD TO QUEST SHOP
+
+## ADDED
+- Blame Log to server pack. This will help debugging logs
+- Friends and Foes added totem of freezing, and illusion
+- Wizards adds new spell books. Arcane, Fire, and Frost.
+
+## CHANGED
+- Ring of curing requires cursed gem instead of demon pearl
+- Disabled ability to apply spell casting to swords. wands only
+- Disabled Traveler Backpack Tier upgrades temporarily
+- Two lithium mixins disabled to prevent crashes
+
+## FIXED
+- Create Fixes a dupe bug, pipe issues, weighted ejector crash, fluid pump crash, and more
+- Botania mana spreaders will now update mana levels real time similar to pools, check full change log here https://botaniamod.net/changelog.html#1-19-2-439-fake
+- Fix issue when opening expanded storage mini storage blocks
+- Guardian Strike applying to bows incorrectly
+- Busy Bee Enchantment not working
+- Mechanised Sawblade not chopping wood
+- Swift Striker enchantment upgrade issues
+
+## REMOVED
+- Duckling Mod (waste of spawning pool resources)
+- Roughly Enough Resources from SERVER pack (Server owners can add this mod back if they'd like. its still in client pack however!)
+- Better Stats from SERVER PACK only (Caused issues, such as a NPE error when logging into a server due to a packet being sent. This was fixed in a newer version but i prefer just removing it completely from servers as there might be other issues)
+---
+
 ### Another Quality Modpack v1.5.6.1
 
 

@@ -1,49 +1,44 @@
 {
-	id: "131BA4C7CD773192"
-	group: "332CF3EA95B49108"
-	order_index: 0
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "what_sorcery_is_this"
-	title: "General Magic and Spells"
+	group: "332CF3EA95B49108"
 	icon: {
-		id: "arcanus:adept_wand"
 		Count: 1b
+		id: "arcanus:adept_wand"
 		tag: {
 			arcanus: { }
 		}
 	}
-	subtitle: ["You're a Wizard, harry"]
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "131BA4C7CD773192"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Craft the Lexica Botania"
-			x: 12.5d
-			y: 3.5d
-			subtitle: "Botania is a unique magic mod that relies heavily on flowers that you can find in the overworld."
 			description: [
 				"This book will get you started with Botania, and how to progress."
 				""
 				"Consider it a tech-magic mod. You can automate tons of things, cast spells, and so much more. "
 			]
-			size: 1.5d
 			id: "7F71244399B77329"
-			tasks: [{
-				id: "29F116A77C4FE77D"
-				type: "item"
-				item: "botania:lexicon"
-			}]
 			rewards: [{
 				id: "7967B405A905F705"
-				type: "item"
 				item: "gofish:wooden_crate"
+				type: "item"
 			}]
+			size: 1.5d
+			subtitle: "Botania is a unique magic mod that relies heavily on flowers that you can find in the overworld."
+			tasks: [{
+				id: "29F116A77C4FE77D"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			title: "Craft the Lexica Botania"
+			x: 12.5d
+			y: 3.5d
 		}
 		{
-			title: "Starting Botania"
-			icon: "botania:apothecary_default"
-			x: 14.5d
-			y: 3.5d
-			subtitle: "Flowers are at the core of Botania."
+			dependencies: ["7F71244399B77329"]
 			description: [
 				"The Petal Apothecary is used to create Botania's flowers."
 				""
@@ -51,51 +46,51 @@
 				""
 				"Place logs on the ground around a pure daisy and wait for them to be transformed into livingwood. Repeat with stone to create livingrock."
 			]
-			dependencies: ["7F71244399B77329"]
+			icon: "botania:apothecary_default"
 			id: "50356BEB66BF238B"
+			rewards: [
+				{
+					count: 8
+					id: "5EF2B7C7D959FC3C"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "50B6498CA86C436B"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			subtitle: "Flowers are at the core of Botania."
 			tasks: [
 				{
 					id: "1478362D83E217B0"
-					type: "item"
 					item: "botania:apothecary_default"
+					type: "item"
 				}
 				{
 					id: "57F274BF87D1A8A3"
-					type: "item"
 					item: "botania:pure_daisy"
+					type: "item"
 				}
 				{
 					id: "7A304A9A257B97D0"
-					type: "item"
 					item: "botania:livingwood_log"
+					type: "item"
 				}
 				{
 					id: "31CACE0D91C210B0"
-					type: "item"
 					item: "botania:livingrock"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "5EF2B7C7D959FC3C"
-					type: "item"
-					item: "botania:livingwood_log"
-					count: 8
-				}
-				{
-					id: "50B6498CA86C436B"
-					type: "item"
-					item: "botania:livingrock"
-					count: 8
-				}
-			]
+			title: "Starting Botania"
+			x: 14.5d
+			y: 3.5d
 		}
 		{
-			title: "Your First Mana"
-			icon: "botania:mana_pool"
-			x: 16.5d
-			y: 3.5d
-			subtitle: "Mana is essential in Botania"
+			dependencies: ["50356BEB66BF238B"]
 			description: [
 				"Endoflames are the best way to get mana when you first start Botania. Simply throw some fuel on the ground near one and it will begin to create mana."
 				""
@@ -103,455 +98,456 @@
 				""
 				"Mana can be moved around with a mana spreader. Using a wand of the forest, shift click on the spreader and then on the mana pool to link them. The same can be done to link the Endoflames to the mana spreader."
 			]
-			dependencies: ["50356BEB66BF238B"]
+			icon: "botania:mana_pool"
 			id: "604D32742D49C830"
+			rewards: [
+				{
+					count: 3
+					id: "411F9CF4FC99C63C"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "290958D1A7206C19"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			subtitle: "Mana is essential in Botania"
 			tasks: [
 				{
 					id: "235EB14E17AAE30F"
-					type: "item"
 					item: "botania:endoflame"
+					type: "item"
 				}
 				{
 					id: "4B2ED6FB2E473DAA"
-					type: "item"
 					item: "botania:mana_spreader"
+					type: "item"
 				}
 				{
 					id: "2EDB3DA017D7A7FE"
-					type: "item"
 					item: {
-						id: "botania:twig_wand"
 						Count: 1b
+						id: "botania:twig_wand"
 						tag: {
-							color2: 0
 							color1: 0
+							color2: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0596C31D4ED7C619"
-					type: "item"
 					item: "botania:mana_pool"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "411F9CF4FC99C63C"
-					type: "item"
-					item: "botania:endoflame"
-					count: 3
-				}
-				{
-					id: "290958D1A7206C19"
-					type: "item"
-					item: "minecraft:coal_block"
-					count: 4
-				}
-			]
+			title: "Your First Mana"
+			x: 16.5d
+			y: 3.5d
 		}
 		{
-			title: "Infusion Catalysts"
-			icon: "botania:alchemy_catalyst"
-			x: 19.0d
-			y: 3.5d
-			subtitle: "Some infusions require a catalyst to be underneath the mana pool."
+			dependencies: ["604D32742D49C830"]
 			description: [
 				"You can get a Mana Pearl by throwing an Ender Pearl into a mana pool with mana."
 				""
 				""
 				"Some infusions require a catalyst. For these place the catalyst under the mana pool before thowing in the item."
 			]
-			dependencies: ["604D32742D49C830"]
+			icon: "botania:alchemy_catalyst"
 			id: "523C60C22F277DBE"
+			subtitle: "Some infusions require a catalyst to be underneath the mana pool."
 			tasks: [
 				{
 					id: "7BA0FF9E508FF3FB"
-					type: "item"
 					item: "botania:mana_pearl"
+					type: "item"
 				}
 				{
 					id: "25161386E7DB9CDF"
-					type: "item"
 					item: "botania:alchemy_catalyst"
+					type: "item"
 				}
 			]
+			title: "Infusion Catalysts"
+			x: 19.0d
+			y: 3.5d
 		}
 		{
-			title: "Craft AE2 Sky Stone"
-			x: 20.0d
-			y: 1.0d
-			subtitle: "We're different. We require Sky Blocks to be crafted using Botania's Mana Pool."
+			dependencies: ["523C60C22F277DBE"]
 			description: [
 				"Setup your mana pool with your Alchemy Catalyst underneath."
 				""
 				"Throw Crying Obsidian into the mana pool to get Sky Stone."
 			]
-			dependencies: ["523C60C22F277DBE"]
 			id: "5B1021E19054DB13"
+			rewards: [{
+				count: 2
+				id: "4AFF327A59C40CB1"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			subtitle: "We're different. We require Sky Blocks to be crafted using Botania's Mana Pool."
 			tasks: [{
 				id: "080CA87DF9CD05FC"
-				type: "item"
 				item: "ae2:sky_stone_block"
-			}]
-			rewards: [{
-				id: "4AFF327A59C40CB1"
 				type: "item"
-				item: "ae2:sky_stone_block"
-				count: 2
 			}]
+			title: "Craft AE2 Sky Stone"
+			x: 20.0d
+			y: 1.0d
 		}
 		{
-			title: "Craft Presses"
-			x: 21.0d
-			y: 2.0d
-			description: ["Use the same mana pool for all the AE2 required Presses. Find out the resources required using REI,"]
 			dependencies: ["523C60C22F277DBE"]
+			description: ["Use the same mana pool for all the AE2 required Presses. Find out the resources required using REI,"]
 			id: "03DC791EC5F5BEBA"
+			rewards: [{
+				id: "4548069A15B70B61"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "236C9A882BCA1EC2"
-					type: "item"
 					item: "ae2:calculation_processor_press"
+					type: "item"
 				}
 				{
 					id: "68C12E1D1FA840A6"
-					type: "item"
 					item: "ae2:engineering_processor_press"
+					type: "item"
 				}
 				{
 					id: "495E807103DD3DCF"
-					type: "item"
 					item: "ae2:logic_processor_press"
+					type: "item"
 				}
 				{
 					id: "5B34949530C8FB7F"
-					type: "item"
 					item: "ae2:silicon_press"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "4548069A15B70B61"
-				type: "item"
-				item: "ae2:certus_quartz_crystal"
-			}]
+			title: "Craft Presses"
+			x: 21.0d
+			y: 2.0d
 		}
 		{
-			title: "Craft an Arcanus Wand"
-			x: 8.509183673469394d
-			y: -7.995578231292541d
-			subtitle: "With this wand you can use spells."
 			description: [
 				"Search the world for lecterns or bookshelves in dungeons, villages, or strongholds and you might come across a spellbook that teaches you a new spell, which you use with your Arcanus Wand"
 				""
 				"You can type \"/spells list\" at any time to see all the spells, as well as their patterns, that you know."
 			]
-			size: 1.5d
 			id: "16FD41FA5777E8D2"
-			tasks: [{
-				id: "428B99B566B3A137"
-				type: "item"
-				item: {
-					id: "arcanus:initiate_wand"
-					Count: 1b
-					tag: {
-						arcanus: { }
-					}
-				}
-			}]
 			rewards: [{
 				id: "1D4A18F21823E017"
-				type: "item"
 				item: {
-					id: "arcanus:mana_flask"
 					Count: 1b
+					id: "arcanus:mana_flask"
 					tag: {
 						arcanus: {
 							Mana: 0
 						}
 					}
 				}
+				type: "item"
 			}]
+			size: 1.5d
+			subtitle: "With this wand you can use spells."
+			tasks: [{
+				id: "428B99B566B3A137"
+				item: {
+					Count: 1b
+					id: "arcanus:initiate_wand"
+					tag: {
+						arcanus: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Arcanus Wand"
+			x: 8.509183673469394d
+			y: -7.995578231292541d
 		}
 		{
-			x: 5.5d
-			y: 6.0d
-			subtitle: "Cast spells by Drawing!"
 			description: ["This mod is really challenging so I wish you the best"]
 			id: "73A7CDB6E789A107"
+			subtitle: "Cast spells by Drawing!"
 			tasks: [{
 				id: "18A1610341D2B5F6"
-				type: "item"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "hexcasting:thehexbook"
 					}
 				}
+				type: "item"
 			}]
+			x: 5.5d
+			y: 6.0d
 		}
 		{
-			title: "Mana P2P Tunnel for AE2 and Botania"
-			x: 16.5d
-			y: 6.0d
-			subtitle: "You read that right (More advanced path)"
+			dependencies: [
+				"7EF3EEE918C70377"
+				"604D32742D49C830"
+			]
 			description: [
 				"Mana P2P tunnels can be made by right clicking any Botania item on a P2P tunnel. Mana can then instantly travel through to any outputs, such as a Mana pool, Runic Altar, Terrasteel Agglomeration Plate or anything else!"
 				""
 				"A spark can also be placed on the input of a Mana P2P tunnel, allowing an insane amount of mana throughput with a dominant spark augment and multiple pools!"
 			]
-			dependencies: [
-				"7EF3EEE918C70377"
-				"604D32742D49C830"
-			]
 			id: "6D1DE8DCAD44CAFD"
+			subtitle: "You read that right (More advanced path)"
 			tasks: [{
 				id: "752810A5B97C1C38"
-				type: "item"
 				item: "appbot:mana_p2p_tunnel"
+				type: "item"
 			}]
+			title: "Mana P2P Tunnel for AE2 and Botania"
+			x: 16.5d
+			y: 6.0d
 		}
 		{
-			x: 8.5d
-			y: -10.5d
-			subtitle: "Found in strongholds and libraries"
 			dependencies: ["16FD41FA5777E8D2"]
 			id: "2905CEA7290C5FEE"
+			subtitle: "Found in strongholds and libraries"
 			tasks: [{
 				id: "3F3CEA48B389926B"
-				type: "item"
 				item: {
-					id: "minecraft:written_book"
 					Count: 1b
+					id: "minecraft:written_book"
 					tag: {
+						author: "book.arcanus.06.author"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-R\"}],\"translate\":\"book.arcanus.lunge.description\"}"]
 						spell: "arcanus:lunge"
 						title: "book.arcanus.lunge.title"
-						author: "book.arcanus.06.author"
 					}
 				}
+				type: "item"
 			}]
+			x: 8.5d
+			y: -10.5d
 		}
 		{
-			x: 11.5d
-			y: -10.0d
-			subtitle: "Found in strongholds and libraries"
 			dependencies: ["16FD41FA5777E8D2"]
 			id: "21E1A3027767C530"
+			subtitle: "Found in strongholds and libraries"
 			tasks: [{
 				id: "43EE4ED8F373E835"
-				type: "item"
 				item: {
-					id: "minecraft:written_book"
 					Count: 1b
+					id: "minecraft:written_book"
 					tag: {
+						author: "book.arcanus.19.author"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
 						spell: "arcanus:magic_missile"
 						title: "book.arcanus.magic_missile.title"
-						author: "book.arcanus.19.author"
 					}
 				}
+				type: "item"
 			}]
+			x: 11.5d
+			y: -10.0d
 		}
 		{
-			x: 6.0d
-			y: -8.0d
-			subtitle: "Found in strongholds and libraries"
 			dependencies: ["16FD41FA5777E8D2"]
 			id: "2B7C909A93EB4C99"
+			subtitle: "Found in strongholds and libraries"
 			tasks: [{
 				id: "38CE720F4CD98F1A"
-				type: "item"
 				item: {
-					id: "minecraft:written_book"
 					Count: 1b
+					id: "minecraft:written_book"
 					tag: {
+						author: "book.arcanus.01.author"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-L\"}],\"translate\":\"book.arcanus.telekinetic_shock.description\"}"]
 						spell: "arcanus:telekinetic_shock"
 						title: "book.arcanus.telekinetic_shock.title"
-						author: "book.arcanus.01.author"
 					}
 				}
+				type: "item"
 			}]
+			x: 6.0d
+			y: -8.0d
 		}
 		{
-			x: 10.0d
-			y: -6.0d
-			subtitle: "Found in strongholds and libraries"
 			dependencies: ["16FD41FA5777E8D2"]
 			id: "4F8640873C8E7823"
+			subtitle: "Found in strongholds and libraries"
 			tasks: [{
 				id: "3BC0EC7DC78C90A9"
-				type: "item"
 				item: {
-					id: "minecraft:written_book"
 					Count: 1b
+					id: "minecraft:written_book"
 					tag: {
+						author: "book.arcanus.17.author"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-R-R\"}],\"translate\":\"book.arcanus.discombobulate.description\"}"]
 						spell: "arcanus:discombobulate"
 						title: "book.arcanus.discombobulate.title"
-						author: "book.arcanus.17.author"
 					}
 				}
+				type: "item"
 			}]
+			x: 10.0d
+			y: -6.0d
 		}
 		{
-			x: 11.5d
-			y: -8.0d
-			subtitle: "Found in strongholds and libraries"
 			dependencies: ["16FD41FA5777E8D2"]
 			id: "46166AB6E813F4D5"
+			subtitle: "Found in strongholds and libraries"
 			tasks: [{
 				id: "6E65ECBEAEC61378"
-				type: "item"
 				item: {
-					id: "minecraft:written_book"
 					Count: 1b
+					id: "minecraft:written_book"
 					tag: {
+						author: "book.arcanus.05.author"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-L\"}],\"translate\":\"book.arcanus.heal.description\"}"]
 						spell: "arcanus:heal"
 						title: "book.arcanus.heal.title"
-						author: "book.arcanus.05.author"
 					}
 				}
+				type: "item"
 			}]
+			x: 11.5d
+			y: -8.0d
 		}
 		{
-			x: 7.0d
-			y: -6.0d
-			subtitle: "Found in strongholds and libraries"
 			dependencies: ["16FD41FA5777E8D2"]
 			id: "0B943DCB4A9A07B8"
+			subtitle: "Found in strongholds and libraries"
 			tasks: [{
 				id: "77E02CE372AB50F4"
-				type: "item"
 				item: {
-					id: "minecraft:written_book"
 					Count: 1b
+					id: "minecraft:written_book"
 					tag: {
+						author: "book.arcanus.14.author"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-R\"}],\"translate\":\"book.arcanus.solar_strike.description\"}"]
 						spell: "arcanus:solar_strike"
 						title: "book.arcanus.solar_strike.title"
-						author: "book.arcanus.14.author"
 					}
 				}
+				type: "item"
 			}]
+			x: 7.0d
+			y: -6.0d
 		}
 		{
-			x: 5.5d
-			y: -10.0d
-			subtitle: "Found in strongholds and libraries"
 			dependencies: ["16FD41FA5777E8D2"]
 			id: "5092FC1AE610B48B"
+			subtitle: "Found in strongholds and libraries"
 			tasks: [{
 				id: "05F6F4108EB0C688"
-				type: "item"
 				item: {
-					id: "minecraft:written_book"
 					Count: 1b
+					id: "minecraft:written_book"
 					tag: {
+						author: "book.arcanus.04.author"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
 						spell: "arcanus:arcane_barrier"
 						title: "book.arcanus.arcane_barrier.title"
-						author: "book.arcanus.04.author"
 					}
 				}
+				type: "item"
 			}]
+			x: 5.5d
+			y: -10.0d
 		}
 		{
-			x: 22.0d
-			y: -10.5d
-			subtitle: "Used to add spells to your staves"
-			description: [
-				"Treat like an enchantment table. Surround library books around it to increase spell power"
-				""
-			]
 			dependencies: [
 				"4D70F84E88E5624B"
 				"49F451A4282C64C1"
 				"7C30355BD3B112E4"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"Treat like an enchantment table. Surround library books around it to increase spell power"
+				""
+			]
 			id: "4DA3C5FD7FA31BC1"
-			tasks: [{
-				id: "76ABD2E091437B93"
-				type: "item"
-				item: "spell_engine:spell_binding"
-			}]
 			rewards: [
 				{
-					id: "3898041D54FCA001"
-					type: "item"
-					item: "aqm2:copper_coin"
 					count: 10
+					id: "3898041D54FCA001"
+					item: "aqm2:copper_coin"
+					type: "item"
 				}
 				{
 					id: "110072CDE3BC5FBC"
-					type: "item"
 					item: "runes:fire_stone"
+					type: "item"
 				}
 			]
+			subtitle: "Used to add spells to your staves"
+			tasks: [{
+				id: "76ABD2E091437B93"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -10.5d
 		}
 		{
-			title: "Wizard Robes"
-			x: 20.5d
-			y: -8.5d
-			subtitle: "Increases All Stat Powers by 1"
 			dependencies: ["0FCD7757E0E0A667"]
 			hide: true
-			optional: true
 			id: "2866225EE27DCBFC"
+			optional: true
+			subtitle: "Increases All Stat Powers by 1"
 			tasks: [
 				{
 					id: "75037DFFF9402D6A"
-					type: "item"
 					item: {
-						id: "wizards:wizard_robe_head"
 						Count: 1b
+						id: "wizards:wizard_robe_head"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0D154974007D5609"
-					type: "item"
 					item: {
-						id: "wizards:wizard_robe_chest"
 						Count: 1b
+						id: "wizards:wizard_robe_chest"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "39099425BF092BC9"
-					type: "item"
 					item: {
-						id: "wizards:wizard_robe_legs"
 						Count: 1b
+						id: "wizards:wizard_robe_legs"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3CD8C4E01A6ECF7F"
-					type: "item"
 					item: {
-						id: "wizards:wizard_robe_feet"
 						Count: 1b
+						id: "wizards:wizard_robe_feet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			title: "Wizard Robes"
+			x: 20.5d
+			y: -8.5d
 		}
 		{
-			x: 16.0d
-			y: -11.0d
-			subtitle: "Another optional mod for becoming a wizard"
 			description: [
 				"Wizards Mod"
 				""
@@ -559,75 +555,76 @@
 				""
 				"9 Spells for now (New Mod) which will extend by a lot more overtime including Lightning, Healing, and Soul spells coming soon"
 			]
-			size: 1.5d
 			id: "023BE86701F2A3AE"
+			size: 1.5d
+			subtitle: "Another optional mod for becoming a wizard"
 			tasks: [{
 				id: "377C88A110F405C5"
-				type: "item"
 				item: {
-					id: "wizards:wand_novice"
 					Count: 1b
+					id: "wizards:wand_novice"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 16.0d
+			y: -11.0d
 		}
 		{
-			x: 16.5d
-			y: -9.5d
 			dependencies: ["023BE86701F2A3AE"]
 			id: "36B496814FEB6309"
 			tasks: [{
 				id: "418B061AD25C93EE"
-				type: "item"
 				item: {
-					id: "wizards:wand_arcane"
 					Count: 1b
+					id: "wizards:wand_arcane"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 16.5d
+			y: -9.5d
 		}
 		{
-			x: 15.5d
-			y: -9.5d
 			dependencies: ["023BE86701F2A3AE"]
 			id: "50330CCADB4EC29B"
 			tasks: [{
 				id: "6577194EAA111F7D"
-				type: "item"
 				item: {
-					id: "wizards:wand_fire"
 					Count: 1b
+					id: "wizards:wand_fire"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 15.5d
+			y: -9.5d
 		}
 		{
-			x: 17.5d
-			y: -10.0d
 			dependencies: ["023BE86701F2A3AE"]
 			id: "5A5F193AC42EF98F"
 			tasks: [{
 				id: "79129FC04CC591E5"
-				type: "item"
 				item: {
-					id: "wizards:wand_frost"
 					Count: 1b
+					id: "wizards:wand_frost"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 17.5d
+			y: -10.0d
 		}
 		{
-			x: 20.0d
-			y: -10.5d
-			subtitle: "Arcane Spells! Hold up to 3 Spells"
+			dependencies: ["0FCD7757E0E0A667"]
 			description: [
 				"Holds 3 spells which can be added via the Spell Binding Table. Uses relative rune to cast."
 				""
@@ -635,24 +632,24 @@
 				""
 				"use 'z' to open Spell Selection menu and then you can use numpads 1-3 to select spell"
 			]
-			dependencies: ["0FCD7757E0E0A667"]
 			id: "49F451A4282C64C1"
+			subtitle: "Arcane Spells! Hold up to 3 Spells"
 			tasks: [{
 				id: "64DB38E6BE162388"
-				type: "item"
 				item: {
-					id: "wizards:staff_arcane"
 					Count: 1b
+					id: "wizards:staff_arcane"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 20.0d
+			y: -10.5d
 		}
 		{
-			x: 20.5d
-			y: -11.5d
-			subtitle: "Fire Spells! Hold up to 3 Spells"
+			dependencies: ["0FCD7757E0E0A667"]
 			description: [
 				"Holds 3 spells which can be added via the Spell Binding Table. Uses relative rune to cast."
 				""
@@ -660,24 +657,24 @@
 				""
 				"use 'z' to open Spell Selection menu and then you can use numpads 1-3 to select spell"
 			]
-			dependencies: ["0FCD7757E0E0A667"]
 			id: "7C30355BD3B112E4"
+			subtitle: "Fire Spells! Hold up to 3 Spells"
 			tasks: [{
 				id: "2209369E4103267D"
-				type: "item"
 				item: {
-					id: "wizards:staff_fire"
 					Count: 1b
+					id: "wizards:staff_fire"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 20.5d
+			y: -11.5d
 		}
 		{
-			x: 21.5d
-			y: -12.0d
-			subtitle: "Frost Spells! Hold up to 3 Spells"
+			dependencies: ["0FCD7757E0E0A667"]
 			description: [
 				"Holds 3 spells which can be added via the Spell Binding Table. Uses relative rune to cast."
 				""
@@ -685,378 +682,376 @@
 				""
 				"use 'z' to open Spell Selection menu and then you can use numpads 1-3 to select spell"
 			]
-			dependencies: ["0FCD7757E0E0A667"]
 			id: "4D70F84E88E5624B"
+			subtitle: "Frost Spells! Hold up to 3 Spells"
 			tasks: [{
 				id: "0A0E0FBDF7497201"
-				type: "item"
 				item: {
-					id: "wizards:staff_frost"
 					Count: 1b
+					id: "wizards:staff_frost"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 21.5d
+			y: -12.0d
 		}
 		{
-			x: 17.5d
-			y: -13.5d
-			subtitle: "Cobblestone + Coal"
 			dependencies: ["0FCD7757E0E0A667"]
 			id: "10E76BFA4A1ECC0F"
+			subtitle: "Cobblestone + Coal"
 			tasks: [{
 				id: "3343878B3DCF0F33"
-				type: "item"
 				item: "runes:fire_stone"
+				type: "item"
 			}]
+			x: 17.5d
+			y: -13.5d
 		}
 		{
-			x: 18.5d
-			y: -13.0d
-			subtitle: "Cobblestone + Snowball"
 			dependencies: ["0FCD7757E0E0A667"]
 			id: "49CFF1006E72A4F6"
+			subtitle: "Cobblestone + Snowball"
 			tasks: [{
 				id: "3489DC0B617753F3"
-				type: "item"
 				item: "runes:frost_stone"
+				type: "item"
 			}]
+			x: 18.5d
+			y: -13.0d
 		}
 		{
-			x: 17.5d
-			y: -16.5d
-			subtitle: "Still in development"
-			secret: true
 			id: "3C82BF96BD2E62C6"
+			secret: true
+			subtitle: "Still in development"
 			tasks: [{
 				id: "6CAA441A344EC991"
-				type: "item"
 				item: "runes:healing_stone"
+				type: "item"
 			}]
+			x: 17.5d
+			y: -16.5d
 		}
 		{
-			x: 16.5d
-			y: -16.5d
-			subtitle: "Still in development"
-			secret: true
 			id: "3CDC18A99CB77B26"
+			secret: true
+			subtitle: "Still in development"
 			tasks: [{
 				id: "1C3D9B0E851B1942"
-				type: "item"
 				item: "runes:lightning_stone"
+				type: "item"
 			}]
+			x: 16.5d
+			y: -16.5d
 		}
 		{
-			x: 18.5d
-			y: -16.5d
-			subtitle: "Still in development"
-			secret: true
 			id: "1ECABC8A71C678F3"
+			secret: true
+			subtitle: "Still in development"
 			tasks: [{
 				id: "21A0ED203E46422B"
-				type: "item"
 				item: "runes:soul_stone"
+				type: "item"
 			}]
+			x: 18.5d
+			y: -16.5d
 		}
 		{
-			x: 16.5d
-			y: -13.0d
-			subtitle: "Cobblestone + Amethyst"
 			dependencies: ["0FCD7757E0E0A667"]
 			id: "1A25B71BB2144F15"
+			subtitle: "Cobblestone + Amethyst"
 			tasks: [{
 				id: "210CA42C6D7E9CD8"
-				type: "item"
 				item: "runes:arcane_stone"
+				type: "item"
 			}]
+			x: 16.5d
+			y: -13.0d
 		}
 		{
-			x: 17.5d
-			y: -11.5d
+			dependencies: ["023BE86701F2A3AE"]
 			description: [
 				"Used to craft runes. Each rune is used as 'ammo' for that spell type. Ie; you need a fire rune to cast a firespell."
 				""
 				"There is no REI support on rune recipes so make sure to read each rune quest to see the correct ingredient."
 			]
-			dependencies: ["023BE86701F2A3AE"]
 			id: "0FCD7757E0E0A667"
-			tasks: [{
-				id: "359CABF48A606173"
-				type: "item"
-				item: "runes:crafting_altar"
-			}]
 			rewards: [{
 				id: "27C505215D0FC873"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "359CABF48A606173"
+				item: "runes:crafting_altar"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -11.5d
 		}
 		{
-			x: -4.5d
-			y: -4.0d
 			id: "78A2FE4CACE82824"
 			tasks: [{
 				id: "18653D8286A4315C"
-				type: "item"
 				item: "archon:grimoire"
+				type: "item"
 			}]
+			x: -4.5d
+			y: -4.0d
 		}
 		{
-			x: -12.75d
-			y: -3.0d
-			subtitle: "Lightning strike 4 block area, no damage to you"
-			size: 0.75d
-			optional: true
 			id: "59B9F880BC348021"
-			tasks: [{
-				id: "65C971894F2B2F07"
-				type: "item"
-				item: {
-					id: "archon:thunder_bolt"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
+			optional: true
 			rewards: [{
 				id: "2A7A6BD4FD70D92A"
-				type: "item"
 				item: "archon:mana_berries"
-			}]
-		}
-		{
-			x: -13.125d
-			y: -0.75d
-			subtitle: "Fling up and damage entities around you"
-			size: 0.75d
-			optional: true
-			id: "475C97AA5843CA65"
-			tasks: [{
-				id: "4B871BA5BB0F4BA9"
 				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Lightning strike 4 block area, no damage to you"
+			tasks: [{
+				id: "65C971894F2B2F07"
 				item: {
-					id: "archon:terrain_mace"
 					Count: 1b
+					id: "archon:thunder_bolt"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -12.75d
+			y: -3.0d
+		}
+		{
+			id: "475C97AA5843CA65"
+			optional: true
 			rewards: [{
 				id: "5448B13A60C31F17"
-				type: "item"
 				item: "archon:mana_berries"
-			}]
-		}
-		{
-			x: -12.375d
-			y: -1.125d
-			subtitle: "Shoots water"
-			size: 0.75d
-			optional: true
-			id: "32540E20ADB7F183"
-			tasks: [{
-				id: "4ABC8D82EBFF52B5"
 				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Fling up and damage entities around you"
+			tasks: [{
+				id: "4B871BA5BB0F4BA9"
 				item: {
-					id: "archon:water_staff"
 					Count: 1b
+					id: "archon:terrain_mace"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -13.125d
+			y: -0.75d
+		}
+		{
+			id: "32540E20ADB7F183"
+			optional: true
 			rewards: [{
 				id: "2CEA26D6172E3DB8"
-				type: "item"
 				item: "archon:mana_berries"
-			}]
-		}
-		{
-			x: -12.0d
-			y: -2.625d
-			subtitle: "Teleport 8 Blocks (Hard recipe)"
-			size: 0.75d
-			optional: true
-			id: "4BD3DF96075A87C8"
-			tasks: [{
-				id: "5FC92A2A0C9FE3AC"
 				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Shoots water"
+			tasks: [{
+				id: "4ABC8D82EBFF52B5"
 				item: {
-					id: "archon:ender_blade"
 					Count: 1b
+					id: "archon:water_staff"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -12.375d
+			y: -1.125d
+		}
+		{
+			id: "4BD3DF96075A87C8"
+			optional: true
 			rewards: [{
 				id: "21684992DBB02AB1"
-				type: "item"
 				item: "archon:mana_berries"
-			}]
-		}
-		{
-			x: -4.5d
-			y: -5.5d
-			subtitle: "Slay enemies for their souls"
-			description: ["You can then use these souls to further progress into the mod"]
-			dependencies: ["78A2FE4CACE82824"]
-			id: "621F77622629A5B6"
-			tasks: [{
-				id: "5A043B827E09E1FD"
 				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "Teleport 8 Blocks (Hard recipe)"
+			tasks: [{
+				id: "5FC92A2A0C9FE3AC"
 				item: {
-					id: "archon:soul_scythe"
 					Count: 1b
+					id: "archon:ender_blade"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -12.0d
+			y: -2.625d
 		}
 		{
-			x: -6.5d
-			y: -8.0d
-			subtitle: "Creature Soul"
-			description: ["Creature soul has a chance to drop from mobs. Used for advanced recipes"]
-			dependencies: ["621F77622629A5B6"]
-			id: "56ED7DDB9CE207FD"
+			dependencies: ["78A2FE4CACE82824"]
+			description: ["You can then use these souls to further progress into the mod"]
+			id: "621F77622629A5B6"
+			subtitle: "Slay enemies for their souls"
 			tasks: [{
-				id: "2137EA5D27EE097B"
+				id: "5A043B827E09E1FD"
+				item: {
+					Count: 1b
+					id: "archon:soul_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
-				item: "archon:creature_soul"
 			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["621F77622629A5B6"]
+			description: ["Creature soul has a chance to drop from mobs. Used for advanced recipes"]
+			id: "56ED7DDB9CE207FD"
 			rewards: [{
 				id: "1C4ED94112CF0C5B"
 				type: "xp"
 				xp: 50
 			}]
+			subtitle: "Creature Soul"
+			tasks: [{
+				id: "2137EA5D27EE097B"
+				item: "archon:creature_soul"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
 		}
 		{
-			x: -8.0d
-			y: -9.5d
-			subtitle: "Creature Soul Core"
 			dependencies: ["56ED7DDB9CE207FD"]
 			id: "645B7A5E09A53A48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "270687C60B041A5E"
+				table_id: 1140926682852401208L
+				type: "random"
+			}]
+			subtitle: "Creature Soul Core"
 			tasks: [{
 				id: "1501048EFACB7BBF"
-				type: "item"
 				item: "archon:soul_core_creature"
+				type: "item"
 			}]
-			rewards: [{
-				id: "270687C60B041A5E"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1140926682852401208L
-			}]
+			x: -8.0d
+			y: -9.5d
 		}
 		{
-			x: -4.5d
-			y: -11.0d
-			subtitle: "Player Soul Core"
 			dependencies: ["798A4EC0B11C8449"]
 			id: "76DD2FB9AB1FAD2B"
+			subtitle: "Player Soul Core"
 			tasks: [{
 				id: "654A97284DBF169B"
-				type: "item"
 				item: "archon:soul_core_player"
+				type: "item"
 			}]
+			x: -4.5d
+			y: -11.0d
 		}
 		{
-			x: -1.0d
-			y: -9.5d
-			subtitle: "Boss Soul Core"
 			dependencies: ["539E54144626964D"]
 			id: "2B3F9FAC3180A2A8"
+			subtitle: "Boss Soul Core"
 			tasks: [{
 				id: "520B4BCF24468A58"
-				type: "item"
 				item: "archon:soul_core_boss"
+				type: "item"
 			}]
+			x: -1.0d
+			y: -9.5d
 		}
 		{
-			x: -2.5d
-			y: -8.0d
-			subtitle: "Boss Soul"
-			description: ["Boss soul has a chance to drop from vanilla bosses. Used for advanced recipes"]
 			dependencies: ["621F77622629A5B6"]
+			description: ["Boss soul has a chance to drop from vanilla bosses. Used for advanced recipes"]
 			id: "539E54144626964D"
-			tasks: [{
-				id: "1AF838E3CEF6A5CE"
-				type: "item"
-				item: "archon:boss_soul"
-			}]
 			rewards: [{
 				id: "1971C44756907049"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "Boss Soul"
+			tasks: [{
+				id: "1AF838E3CEF6A5CE"
+				item: "archon:boss_soul"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
 		}
 		{
-			x: -4.5d
-			y: -9.5d
-			subtitle: "Player Soul"
-			description: ["Player soul has a chance to drop from player kills. Used for advanced recipes"]
 			dependencies: ["621F77622629A5B6"]
+			description: ["Player soul has a chance to drop from player kills. Used for advanced recipes"]
 			id: "798A4EC0B11C8449"
-			tasks: [{
-				id: "01A90A6624823269"
-				type: "item"
-				item: "archon:player_soul"
-			}]
 			rewards: [{
 				id: "10300C5FFCD42F32"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Player Soul"
+			tasks: [{
+				id: "01A90A6624823269"
+				item: "archon:player_soul"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
 		}
 		{
-			x: -8.0d
-			y: -3.0d
-			subtitle: "Transmute Items"
-			description: ["View recipes by right clicking the Channeler in REI"]
 			dependencies: ["621F77622629A5B6"]
+			description: ["View recipes by right clicking the Channeler in REI"]
 			id: "3BF1935C9BA06171"
+			rewards: [{
+				count: 2
+				id: "1EE615D80F86614C"
+				item: "minecraft:acacia_log"
+				type: "item"
+			}]
+			subtitle: "Transmute Items"
 			tasks: [{
 				id: "54F33F8FD10E62BF"
-				type: "item"
 				item: "archon:channeler"
-			}]
-			rewards: [{
-				id: "1EE615D80F86614C"
 				type: "item"
-				item: "minecraft:acacia_log"
-				count: 2
 			}]
+			x: -8.0d
+			y: -3.0d
 		}
 		{
-			x: -1.0d
-			y: -5.5d
-			subtitle: "Retrieve mana instead of souls"
-			description: ["Using this crusher, slay mobs to get mana instead of souls"]
 			dependencies: ["621F77622629A5B6"]
+			description: ["Using this crusher, slay mobs to get mana instead of souls"]
 			id: "6775AE684C944F0C"
+			subtitle: "Retrieve mana instead of souls"
 			tasks: [{
 				id: "22DB09EF2286FDB2"
-				type: "item"
 				item: {
-					id: "archon:soul_crusher"
 					Count: 1b
+					id: "archon:soul_crusher"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -1.0d
+			y: -5.5d
 		}
 		{
-			title: "The Mana System"
-			icon: "botania:mana_pearl"
-			x: -1.0d
-			y: -3.0d
-			subtitle: "How mana works"
+			dependencies: ["621F77622629A5B6"]
 			description: [
 				"You have a default mana cap at 100 which you will see when you equip an archon mana item."
 				""
@@ -1064,250 +1059,193 @@
 				""
 				"You can however only have one scroll equipped at a time"
 			]
-			dependencies: ["621F77622629A5B6"]
+			icon: "botania:mana_pearl"
 			id: "78DB3B0D08D6AF17"
+			subtitle: "How mana works"
 			tasks: [{
 				id: "4A8144AD522BEE98"
-				type: "checkmark"
 				title: "Understood"
+				type: "checkmark"
 			}]
+			title: "The Mana System"
+			x: -1.0d
+			y: -3.0d
 		}
 		{
-			x: 2.5d
-			y: -3.0d
-			subtitle: "Sets mana capacity to 200"
-			description: ["Can be purchased by Wizards or found in Spires structure"]
 			dependencies: ["78DB3B0D08D6AF17"]
+			description: ["Can be purchased by Wizards or found in Spires structure"]
 			id: "722F7F7A75F5110C"
+			subtitle: "Sets mana capacity to 200"
 			tasks: [{
 				id: "57BCD4AAC27908F6"
-				type: "item"
 				item: "archon:capacity_scroll"
+				type: "item"
 			}]
+			x: 2.5d
+			y: -3.0d
 		}
 		{
-			x: 1.5d
-			y: -3.5d
-			subtitle: "Regens mana at a rate of 2 per second"
-			description: ["Can be purchased by Wizards or found in Spires structure"]
 			dependencies: ["78DB3B0D08D6AF17"]
+			description: ["Can be purchased by Wizards or found in Spires structure"]
 			id: "0CF834D883E3618F"
+			subtitle: "Regens mana at a rate of 2 per second"
 			tasks: [{
 				id: "3DF1A917802D53DC"
-				type: "item"
 				item: "archon:accelerate_scroll"
+				type: "item"
 			}]
+			x: 1.5d
+			y: -3.5d
 		}
 		{
-			x: 0.5d
-			y: -4.0d
-			subtitle: "Removes an equipped scroll"
-			description: ["Can only be found at Spires"]
 			dependencies: ["78DB3B0D08D6AF17"]
+			description: ["Can only be found at Spires"]
 			id: "3E860CCF2C4C94BE"
+			subtitle: "Removes an equipped scroll"
 			tasks: [{
 				id: "10667CFED80B1F83"
-				type: "item"
 				item: "archon:removal_scroll"
+				type: "item"
 			}]
+			x: 0.5d
+			y: -4.0d
 		}
 		{
-			x: -1.0d
-			y: -1.5d
-			subtitle: "Increases mana in a 16 Block Range with 50 capacity Boost"
-			hide_dependency_lines: true
 			dependencies: [
 				"78DB3B0D08D6AF17"
 				"6103B37C56E0C87A"
 			]
 			hide: true
+			hide_dependency_lines: true
 			id: "1F1D79885C818878"
+			subtitle: "Increases mana in a 16 Block Range with 50 capacity Boost"
 			tasks: [{
 				id: "02876C8E135C68FB"
-				type: "item"
 				item: "archon:mana_catalyst"
+				type: "item"
 			}]
+			x: -1.0d
+			y: -1.5d
 		}
 		{
-			x: -1.5d
-			y: -0.5d
-			subtitle: "Increases mana in a 22 Block Range with 100 capacity Boost"
 			dependencies: ["1F1D79885C818878"]
 			hide: true
 			id: "0198DCF96A97DCA6"
+			subtitle: "Increases mana in a 22 Block Range with 100 capacity Boost"
 			tasks: [{
 				id: "0C0EC2D710CA84FF"
-				type: "item"
 				item: "archon:diamond_mana_catalyst"
+				type: "item"
 			}]
+			x: -1.5d
+			y: -0.5d
 		}
 		{
-			x: -1.0d
-			y: 0.5d
-			subtitle: "Increases mana in a 34 Block Range with 200 capacity Boost"
 			dependencies: ["0198DCF96A97DCA6"]
 			hide: true
 			id: "6A2DA8391A30F4AB"
+			rewards: [{
+				count: 2
+				id: "0A5EA8F387CD822F"
+				item: "archon:glisteel_ingot"
+				type: "item"
+			}]
+			subtitle: "Increases mana in a 34 Block Range with 200 capacity Boost"
 			tasks: [{
 				id: "003ED0355F664154"
-				type: "item"
 				item: "archon:netherite_mana_catalyst"
-			}]
-			rewards: [{
-				id: "0A5EA8F387CD822F"
 				type: "item"
-				item: "archon:glisteel_ingot"
-				count: 2
 			}]
+			x: -1.0d
+			y: 0.5d
 		}
 		{
-			x: -4.5d
-			y: -13.0d
-			subtitle: "Used to summon your own skeleton"
-			description: [
-				"There are three different levels of your necromantic skeleton depending on the soul core used"
-				""
-				"Prime Skeleton, based on boss core, is the strongest, largest, and best skeleton you can summon."
-			]
 			dependencies: [
 				"645B7A5E09A53A48"
 				"76DD2FB9AB1FAD2B"
 				"2B3F9FAC3180A2A8"
 			]
+			description: [
+				"There are three different levels of your necromantic skeleton depending on the soul core used"
+				""
+				"Prime Skeleton, based on boss core, is the strongest, largest, and best skeleton you can summon."
+			]
 			id: "19064D5F06459AD0"
-			tasks: [{
-				id: "5907524362D7AC2F"
-				type: "item"
-				item: "archon:undead_staff"
-			}]
 			rewards: [{
 				id: "24D57B101A54227D"
-				type: "item"
 				item: "archon:glisteel_ingot"
+				type: "item"
 			}]
+			subtitle: "Used to summon your own skeleton"
+			tasks: [{
+				id: "5907524362D7AC2F"
+				item: "archon:undead_staff"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -13.0d
 		}
 		{
-			x: -3.0d
-			y: -1.5d
-			subtitle: "Increase mana regen by 4"
 			dependencies: ["78DB3B0D08D6AF17"]
 			id: "5739AD654DBFF197"
+			subtitle: "Increase mana regen by 4"
 			tasks: [{
 				id: "2D9EBEF4C64F00A9"
-				type: "item"
 				item: {
-					id: "archon:mask_of_power"
 					Count: 1b
+					id: "archon:mask_of_power"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -3.0d
+			y: -1.5d
 		}
 		{
-			x: -16.0d
-			y: -4.0d
-			subtitle: "Used to summon bosses"
 			dependencies: [
 				"3A279EBCEFAAAF7C"
 				"6103B37C56E0C87A"
 			]
-			secret: true
 			id: "178E75ADCEAFF38C"
-			tasks: [{
-				id: "70D567A0817ECB00"
-				type: "item"
-				item: "archon:summoning_pedestal"
-			}]
 			rewards: [
 				{
 					id: "64C101E8C195B11F"
-					type: "item"
 					item: "minecraft:emerald"
+					type: "item"
 				}
 				{
 					id: "525054C096F7AD58"
-					type: "item"
 					item: "minecraft:feather"
+					type: "item"
 				}
 				{
 					id: "38042001060A98F4"
-					type: "item"
 					item: "minecraft:kelp"
+					type: "item"
 				}
 			]
+			secret: true
+			subtitle: "Used to summon bosses"
+			tasks: [{
+				id: "70D567A0817ECB00"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.0d
 		}
 		{
-			title: "Summon and Kill Tar"
-			x: -18.0d
-			y: -1.5d
-			subtitle: "Hold out required item and right click pedastal"
-			description: ["Shift + Right Click to clear pedastal"]
 			dependencies: ["178E75ADCEAFF38C"]
+			description: ["Shift + Right Click to clear pedastal"]
 			id: "26ED7823E994B2FE"
-			tasks: [
-				{
-					id: "7F1B7EB09A0547DC"
-					type: "questsadditions:use"
-					title: "Place Earth Gem"
-					icon: "archon:earth_gem"
-					block_type: 0
-					block: "archon:summoning_pedestal"
-					value: 1L
-					checkItem: true
-					isItemInteraction: false
-					item: "archon:earth_gem"
-				}
-				{
-					id: "2A9CCF3426080C49"
-					type: "questsadditions:use"
-					title: "Place Earth Essence"
-					icon: "archon:earth_essence"
-					block_type: 0
-					block: "archon:summoning_pedestal"
-					value: 1L
-					checkItem: true
-					isItemInteraction: false
-					item: "archon:earth_essence"
-				}
-				{
-					id: "6F1BB3AC45B52EFA"
-					type: "questsadditions:use"
-					title: "Place Emerald"
-					icon: "minecraft:emerald"
-					block_type: 0
-					block: "archon:summoning_pedestal"
-					value: 1L
-					checkItem: true
-					isItemInteraction: false
-					item: "minecraft:emerald"
-				}
-				{
-					id: "3038915D2443D108"
-					type: "questsadditions:use"
-					title: "Place Deepslate"
-					icon: "minecraft:deepslate"
-					block_type: 0
-					block: "archon:summoning_pedestal"
-					value: 1L
-					checkItem: true
-					isItemInteraction: false
-					item: "minecraft:deepslate"
-				}
-				{
-					id: "04F3D98B0FEAEEE0"
-					type: "kill"
-					icon: "ad_astra:star_crawler_spawn_egg"
-					entity: "archon:tar"
-					value: 1L
-				}
-			]
 			rewards: [
 				{
-					id: "4515640BC0BC5153"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "4515640BC0BC5153"
 					table_id: 1830006897849082013L
+					type: "random"
 				}
 				{
 					id: "07BB8761BE8C5E60"
@@ -1315,80 +1253,84 @@
 					xp_levels: 3
 				}
 				{
-					id: "17D8C420E39FD66A"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "17D8C420E39FD66A"
 					table_id: 573515503278690972L
+					type: "random"
 				}
 			]
-		}
-		{
-			title: "Summon and Kill Ayla"
-			x: -19.0d
-			y: -4.0d
-			subtitle: "Hold required item and right click pedastal"
-			description: ["Shift + Right Click to clear pedastal"]
-			dependencies: ["178E75ADCEAFF38C"]
-			id: "0708D159F5DCAC9D"
+			subtitle: "Hold out required item and right click pedastal"
 			tasks: [
 				{
-					id: "41065838ECF64FB3"
-					type: "questsadditions:use"
-					title: "Place Feather"
-					block_type: 0
 					block: "archon:summoning_pedestal"
-					value: 1L
+					block_type: 0
 					checkItem: true
+					icon: "archon:earth_gem"
+					id: "7F1B7EB09A0547DC"
 					isItemInteraction: false
-					item: "minecraft:feather"
+					item: "archon:earth_gem"
+					title: "Place Earth Gem"
+					type: "questsadditions:use"
+					value: 1L
 				}
 				{
-					id: "56BCF077E95F9C06"
-					type: "questsadditions:use"
-					title: "Place Gold Ingot"
-					block_type: 0
 					block: "archon:summoning_pedestal"
-					value: 1L
+					block_type: 0
 					checkItem: true
+					icon: "archon:earth_essence"
+					id: "2A9CCF3426080C49"
 					isItemInteraction: false
-					item: "minecraft:gold_ingot"
+					item: "archon:earth_essence"
+					title: "Place Earth Essence"
+					type: "questsadditions:use"
+					value: 1L
 				}
 				{
-					id: "2134264314E6DB14"
-					type: "questsadditions:use"
-					title: "Place Sky Essence"
-					block_type: 0
 					block: "archon:summoning_pedestal"
-					value: 1L
+					block_type: 0
 					checkItem: true
+					icon: "minecraft:emerald"
+					id: "6F1BB3AC45B52EFA"
 					isItemInteraction: false
-					item: "archon:sky_essence"
+					item: "minecraft:emerald"
+					title: "Place Emerald"
+					type: "questsadditions:use"
+					value: 1L
 				}
 				{
-					id: "31169646892000A0"
-					type: "questsadditions:use"
-					title: "Place Sky Gem"
-					block_type: 0
 					block: "archon:summoning_pedestal"
-					value: 1L
+					block_type: 0
 					checkItem: true
+					icon: "minecraft:deepslate"
+					id: "3038915D2443D108"
 					isItemInteraction: false
-					item: "archon:sky_gem"
+					item: "minecraft:deepslate"
+					title: "Place Deepslate"
+					type: "questsadditions:use"
+					value: 1L
 				}
 				{
-					id: "68A68B4C404E27A0"
+					entity: "archon:tar"
+					icon: "ad_astra:star_crawler_spawn_egg"
+					id: "04F3D98B0FEAEEE0"
 					type: "kill"
-					icon: "minecraft:chicken_spawn_egg"
-					entity: "archon:ayla"
 					value: 1L
 				}
 			]
+			title: "Summon and Kill Tar"
+			x: -18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["178E75ADCEAFF38C"]
+			description: ["Shift + Right Click to clear pedastal"]
+			id: "0708D159F5DCAC9D"
 			rewards: [
 				{
-					id: "60C3C34FA0AAFEE6"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "60C3C34FA0AAFEE6"
 					table_id: 1830006897849082013L
+					type: "random"
 				}
 				{
 					id: "472B87CBF79235A7"
@@ -1396,80 +1338,80 @@
 					xp_levels: 3
 				}
 				{
-					id: "226F1D9CDC26DE21"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "226F1D9CDC26DE21"
 					table_id: 573515503278690972L
+					type: "random"
 				}
 			]
-		}
-		{
-			title: "Summon and Kill Leven"
-			x: -18.0d
-			y: -6.5d
-			subtitle: "Hold out required item and right click pedastal"
-			description: ["Shift + Right Click to clear pedastal"]
-			dependencies: ["178E75ADCEAFF38C"]
-			id: "25663FB78882C5A6"
+			subtitle: "Hold required item and right click pedastal"
 			tasks: [
 				{
-					id: "52F3A0B9A8FCCDFB"
-					type: "questsadditions:use"
-					title: "Place Water Gem"
-					block_type: 0
 					block: "archon:summoning_pedestal"
-					value: 1L
+					block_type: 0
 					checkItem: true
+					id: "41065838ECF64FB3"
 					isItemInteraction: false
-					item: "archon:water_gem"
+					item: "minecraft:feather"
+					title: "Place Feather"
+					type: "questsadditions:use"
+					value: 1L
 				}
 				{
-					id: "2628DE811A5245DD"
-					type: "questsadditions:use"
-					title: "Place Water Essence"
-					block_type: 0
 					block: "archon:summoning_pedestal"
-					value: 1L
+					block_type: 0
 					checkItem: true
+					id: "56BCF077E95F9C06"
 					isItemInteraction: false
-					item: "archon:water_essence"
+					item: "minecraft:gold_ingot"
+					title: "Place Gold Ingot"
+					type: "questsadditions:use"
+					value: 1L
 				}
 				{
-					id: "44534C06D496F4CA"
-					type: "questsadditions:use"
-					title: "Place Kelp"
-					block_type: 0
 					block: "archon:summoning_pedestal"
-					value: 1L
+					block_type: 0
 					checkItem: true
+					id: "2134264314E6DB14"
 					isItemInteraction: false
-					item: "minecraft:kelp"
+					item: "archon:sky_essence"
+					title: "Place Sky Essence"
+					type: "questsadditions:use"
+					value: 1L
 				}
 				{
-					id: "44952F243FED8BFD"
-					type: "questsadditions:use"
-					title: "Place Pufferfish"
-					block_type: 0
 					block: "archon:summoning_pedestal"
-					value: 1L
+					block_type: 0
 					checkItem: true
+					id: "31169646892000A0"
 					isItemInteraction: false
-					item: "minecraft:pufferfish"
+					item: "archon:sky_gem"
+					title: "Place Sky Gem"
+					type: "questsadditions:use"
+					value: 1L
 				}
 				{
-					id: "28F416D5DFA940CD"
+					entity: "archon:ayla"
+					icon: "minecraft:chicken_spawn_egg"
+					id: "68A68B4C404E27A0"
 					type: "kill"
-					icon: "mobz:spawn_wasp"
-					entity: "archon:leven"
 					value: 1L
 				}
 			]
+			title: "Summon and Kill Ayla"
+			x: -19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["178E75ADCEAFF38C"]
+			description: ["Shift + Right Click to clear pedastal"]
+			id: "25663FB78882C5A6"
 			rewards: [
 				{
-					id: "25218D62230F4ACC"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "25218D62230F4ACC"
 					table_id: 8135751449899826488L
+					type: "random"
 				}
 				{
 					id: "1A3DEB21C81C5827"
@@ -1477,374 +1419,426 @@
 					xp_levels: 3
 				}
 				{
-					id: "7316C6341055700A"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "7316C6341055700A"
 					table_id: 573515503278690972L
+					type: "random"
 				}
 			]
+			subtitle: "Hold out required item and right click pedastal"
+			tasks: [
+				{
+					block: "archon:summoning_pedestal"
+					block_type: 0
+					checkItem: true
+					id: "52F3A0B9A8FCCDFB"
+					isItemInteraction: false
+					item: "archon:water_gem"
+					title: "Place Water Gem"
+					type: "questsadditions:use"
+					value: 1L
+				}
+				{
+					block: "archon:summoning_pedestal"
+					block_type: 0
+					checkItem: true
+					id: "2628DE811A5245DD"
+					isItemInteraction: false
+					item: "archon:water_essence"
+					title: "Place Water Essence"
+					type: "questsadditions:use"
+					value: 1L
+				}
+				{
+					block: "archon:summoning_pedestal"
+					block_type: 0
+					checkItem: true
+					id: "44534C06D496F4CA"
+					isItemInteraction: false
+					item: "minecraft:kelp"
+					title: "Place Kelp"
+					type: "questsadditions:use"
+					value: 1L
+				}
+				{
+					block: "archon:summoning_pedestal"
+					block_type: 0
+					checkItem: true
+					id: "44952F243FED8BFD"
+					isItemInteraction: false
+					item: "minecraft:pufferfish"
+					title: "Place Pufferfish"
+					type: "questsadditions:use"
+					value: 1L
+				}
+				{
+					entity: "archon:leven"
+					icon: "mobz:spawn_wasp"
+					id: "28F416D5DFA940CD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Summon and Kill Leven"
+			x: -18.0d
+			y: -6.5d
 		}
 		{
-			x: -13.0d
-			y: -5.5d
-			subtitle: "Craft Spell Tomes"
-			description: ["Tomes can be crafted or found. The spell you want to use must match the wand element you are using. "]
 			dependencies: ["6103B37C56E0C87A"]
+			description: ["Tomes can be crafted or found. The spell you want to use must match the wand element you are using. "]
 			id: "68C97114420F3592"
+			subtitle: "Craft Spell Tomes"
 			tasks: [{
 				id: "026AEFF100E155EC"
-				type: "item"
 				item: "archon:scripture_table"
+				type: "item"
 			}]
+			x: -13.0d
+			y: -5.5d
 		}
 		{
-			title: "Craft an Archon Wand for Spells"
-			x: -13.0d
-			y: -8.0d
-			subtitle: "Elemental Wands for Spells"
-			description: ["Remember, the spell (Tome) must match the wand type."]
 			dependencies: ["68C97114420F3592"]
+			description: ["Remember, the spell (Tome) must match the wand type."]
 			id: "125E993252A27DA3"
+			rewards: [{
+				id: "42A32212C2FB2EAA"
+				item: "archon:aqua_shield_tome"
+				type: "item"
+			}]
+			subtitle: "Elemental Wands for Spells"
 			tasks: [{
 				id: "32D61CD4A827F0B3"
-				type: "item"
-				title: "Any #archon:wands"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "archon:wands"
 					}
 				}
-			}]
-			rewards: [{
-				id: "42A32212C2FB2EAA"
+				title: "Any #archon:wands"
 				type: "item"
-				item: "archon:aqua_shield_tome"
 			}]
+			title: "Craft an Archon Wand for Spells"
+			x: -13.0d
+			y: -8.0d
 		}
 		{
-			x: -15.0d
-			y: -10.0d
-			subtitle: "Fire Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "347A740D55359879"
+			subtitle: "Fire Tome"
 			tasks: [{
 				id: "586029E069CFF8E6"
-				type: "item"
 				item: "archon:fireball_tome"
+				type: "item"
 			}]
+			x: -15.0d
+			y: -10.0d
 		}
 		{
-			x: -15.0d
-			y: -11.0d
-			subtitle: "Fire Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "596A01D24BE29730"
+			subtitle: "Fire Tome"
 			tasks: [{
 				id: "451715AF66D27602"
-				type: "item"
 				item: "archon:incombustible_tome"
+				type: "item"
 			}]
+			x: -15.0d
+			y: -11.0d
 		}
 		{
-			x: -15.0d
-			y: -12.0d
-			subtitle: "Fire Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "0C18589DEE2F668F"
+			subtitle: "Fire Tome"
 			tasks: [{
 				id: "4C2FD4522AE7B501"
-				type: "item"
 				item: "archon:scorch_tome"
+				type: "item"
 			}]
+			x: -15.0d
+			y: -12.0d
 		}
 		{
-			x: -15.0d
-			y: -13.0d
-			subtitle: "Fire Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "098524EEF9113BD7"
+			subtitle: "Fire Tome"
 			tasks: [{
 				id: "2EDA1EC940D8FB11"
-				type: "item"
 				item: "archon:hellbeam_tome"
+				type: "item"
 			}]
+			x: -15.0d
+			y: -13.0d
 		}
 		{
-			x: -14.0d
-			y: -10.0d
-			subtitle: "Water Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "741C16A5830A289A"
+			subtitle: "Water Tome"
 			tasks: [{
 				id: "268A09EC0DBFA611"
-				type: "item"
 				item: "archon:aqua_shield_tome"
+				type: "item"
 			}]
+			x: -14.0d
+			y: -10.0d
 		}
 		{
-			x: -14.0d
-			y: -11.0d
-			subtitle: "Water Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "354EAABF85B9F90D"
+			subtitle: "Water Tome"
 			tasks: [{
 				id: "441C87E496EBDA5D"
-				type: "item"
 				item: "archon:drown_tome"
+				type: "item"
 			}]
+			x: -14.0d
+			y: -11.0d
 		}
 		{
-			x: -14.0d
-			y: -12.0d
-			subtitle: "Water Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "5D230BA45EEA114D"
+			subtitle: "Water Tome"
 			tasks: [{
 				id: "17C8727D6820092C"
-				type: "item"
 				item: "archon:freeze_tome"
+				type: "item"
 			}]
+			x: -14.0d
+			y: -12.0d
 		}
 		{
-			x: -14.0d
-			y: -13.0d
-			subtitle: "Water Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "19AE6928A200E90E"
+			subtitle: "Water Tome"
 			tasks: [{
 				id: "55AA32C62CA415D3"
-				type: "item"
 				item: "archon:mend_tome"
+				type: "item"
 			}]
+			x: -14.0d
+			y: -13.0d
 		}
 		{
-			x: -13.0d
-			y: -10.0d
-			subtitle: "Sky Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "78241134CA5E5347"
+			subtitle: "Sky Tome"
 			tasks: [{
 				id: "4DC849AC77911463"
-				type: "item"
 				item: "archon:propel_tome"
+				type: "item"
 			}]
+			x: -13.0d
+			y: -10.0d
 		}
 		{
-			x: -13.0d
-			y: -11.0d
-			subtitle: "Sky Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "1F6C952F091E4003"
+			subtitle: "Sky Tome"
 			tasks: [{
 				id: "31307978616047B4"
-				type: "item"
 				item: "archon:gust_tome"
+				type: "item"
 			}]
+			x: -13.0d
+			y: -11.0d
 		}
 		{
-			x: -13.0d
-			y: -12.0d
-			subtitle: "Sky Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "29C0648FBED0B292"
+			subtitle: "Sky Tome"
 			tasks: [{
 				id: "24DD8AC9313E7D62"
-				type: "item"
 				item: "archon:thunder_strike_tome"
+				type: "item"
 			}]
+			x: -13.0d
+			y: -12.0d
 		}
 		{
-			x: -13.0d
-			y: -13.0d
-			subtitle: "Sky Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "38C48C7C3B6FAD80"
+			subtitle: "Sky Tome"
 			tasks: [{
 				id: "32D9AE25E8A1203B"
-				type: "item"
 				item: "archon:cloudshot_tome"
+				type: "item"
 			}]
+			x: -13.0d
+			y: -13.0d
 		}
 		{
-			x: -12.0d
-			y: -10.0d
-			subtitle: "Earth Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "1CF9FE08DAC5C625"
+			subtitle: "Earth Tome"
 			tasks: [{
 				id: "1F43CEB2586333AE"
-				type: "item"
 				item: "archon:rumble_tome"
+				type: "item"
 			}]
+			x: -12.0d
+			y: -10.0d
 		}
 		{
-			x: -12.0d
-			y: -11.0d
-			subtitle: "Earth Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "03E3315EE5293D8B"
+			subtitle: "Earth Tome"
 			tasks: [{
 				id: "1C5D4A9020CB857D"
-				type: "item"
 				item: "archon:crush_tome"
+				type: "item"
 			}]
+			x: -12.0d
+			y: -11.0d
 		}
 		{
-			x: -12.0d
-			y: -12.0d
-			subtitle: "Earth Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "6D72A77041AC169F"
+			subtitle: "Earth Tome"
 			tasks: [{
 				id: "0C254911FB444498"
-				type: "item"
 				item: "archon:spike_tome"
+				type: "item"
 			}]
+			x: -12.0d
+			y: -12.0d
 		}
 		{
-			x: -12.0d
-			y: -13.0d
-			subtitle: "Earth Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "004AD5C8895CDCFA"
+			subtitle: "Earth Tome"
 			tasks: [{
 				id: "4AAE6044ECD6082B"
-				type: "item"
 				item: "archon:terrain_toss_tome"
+				type: "item"
 			}]
+			x: -12.0d
+			y: -13.0d
 		}
 		{
-			x: -11.0d
-			y: -10.0d
-			subtitle: "End Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "4C1356CDC209226A"
+			subtitle: "End Tome"
 			tasks: [{
 				id: "113BF5225EEB4455"
-				type: "item"
 				item: "archon:darkball_tome"
+				type: "item"
 			}]
+			x: -11.0d
+			y: -10.0d
 		}
 		{
-			x: -11.0d
-			y: -11.0d
-			subtitle: "End Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "3773F42FA901E007"
+			subtitle: "End Tome"
 			tasks: [{
 				id: "1F99B7974F4E226B"
-				type: "item"
 				item: "archon:swap_tome"
+				type: "item"
 			}]
+			x: -11.0d
+			y: -11.0d
 		}
 		{
-			x: -11.0d
-			y: -12.0d
-			subtitle: "End Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "2D65796AC759E483"
+			subtitle: "End Tome"
 			tasks: [{
 				id: "00E68F1A422D97BC"
-				type: "item"
 				item: "archon:ender_tome"
+				type: "item"
 			}]
+			x: -11.0d
+			y: -12.0d
 		}
 		{
-			x: -11.0d
-			y: -13.0d
-			subtitle: "End Tome"
 			dependencies: ["125E993252A27DA3"]
 			id: "10E7F9D0D8D7A778"
+			subtitle: "End Tome"
 			tasks: [{
 				id: "042B9BE21E078DAB"
-				type: "item"
 				item: "archon:shadow_tome"
+				type: "item"
 			}]
+			x: -11.0d
+			y: -13.0d
 		}
 		{
+			dependencies: ["3BF1935C9BA06171"]
+			description: ["Place the block down and then holding your channeler, right click the block to convert to Glisteel Ingots"]
+			id: "699DFF81AB2C2B43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E31773C735F0305"
+				table_id: 1140926682852401208L
+				type: "random"
+			}]
+			subtitle: "Transmute Gold Block to Glisteel Ingots (9)"
+			tasks: [{
+				block: "minecraft:gold_block"
+				block_type: 0
+				checkItem: true
+				id: "3F00350EF9B61BC9"
+				isItemInteraction: true
+				item: "archon:channeler"
+				title: "Create Glistell Ingot"
+				type: "questsadditions:use"
+				value: 1L
+			}]
 			title: "Channel Glisteel Ingot"
 			x: -10.0d
 			y: -1.5d
-			subtitle: "Transmute Gold Block to Glisteel Ingots (9)"
-			description: ["Place the block down and then holding your channeler, right click the block to convert to Glisteel Ingots"]
-			dependencies: ["3BF1935C9BA06171"]
-			id: "699DFF81AB2C2B43"
-			tasks: [{
-				id: "3F00350EF9B61BC9"
-				type: "questsadditions:use"
-				title: "Create Glistell Ingot"
-				block_type: 0
-				block: "minecraft:gold_block"
-				value: 1L
-				checkItem: true
-				isItemInteraction: true
-				item: "archon:channeler"
-			}]
-			rewards: [{
-				id: "6E31773C735F0305"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1140926682852401208L
-			}]
 		}
 		{
+			dependencies: ["3BF1935C9BA06171"]
+			id: "7F986934BA4DC475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35D696EDDE2FA188"
+				table_id: 1140926682852401208L
+				type: "random"
+			}]
+			size: 0.5d
+			subtitle: "Transmute Leaves into Pixie Leaves"
+			tasks: [{
+				block: "minecraft:leaves"
+				block_type: 1
+				checkItem: true
+				id: "50E65D14DE0B8BC5"
+				isItemInteraction: true
+				item: "archon:channeler"
+				title: "Create Pixie Leaves"
+				type: "questsadditions:use"
+				value: 1L
+			}]
 			title: "Channel Pixie Leaves"
 			x: -8.25d
 			y: -4.25d
-			subtitle: "Transmute Leaves into Pixie Leaves"
-			dependencies: ["3BF1935C9BA06171"]
-			size: 0.5d
-			id: "7F986934BA4DC475"
-			tasks: [{
-				id: "50E65D14DE0B8BC5"
-				type: "questsadditions:use"
-				title: "Create Pixie Leaves"
-				block_type: 1
-				block: "minecraft:leaves"
-				value: 1L
-				checkItem: true
-				isItemInteraction: true
-				item: "archon:channeler"
-			}]
-			rewards: [{
-				id: "35D696EDDE2FA188"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1140926682852401208L
-			}]
 		}
 		{
-			x: -7.75d
-			y: -5.25d
-			subtitle: "Fertilize the floor as you walk"
 			dependencies: ["7F986934BA4DC475"]
-			size: 0.5d
 			id: "6F816E7B8B9EEE4C"
+			rewards: [{
+				id: "3DD558BBAB197EC7"
+				item: "archon:glisteel_ingot"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "Fertilize the floor as you walk"
 			tasks: [{
 				id: "5B1CFC8396E00A83"
-				type: "item"
 				item: {
-					id: "archon:druid_boots"
 					Count: 1b
+					id: "archon:druid_boots"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "3DD558BBAB197EC7"
 				type: "item"
-				item: "archon:glisteel_ingot"
 			}]
+			x: -7.75d
+			y: -5.25d
 		}
 		{
-			title: "Obtain any Archon Gem"
-			x: -13.0d
-			y: -2.0d
-			subtitle: "Go into the clouds and break the node ores!"
-			description: ["Some can be found in regular mining coordinates, others in the clouds, some in nether and end"]
 			dependencies: [
 				"475C97AA5843CA65"
 				"32540E20ADB7F183"
@@ -1852,220 +1846,226 @@
 				"59B9F880BC348021"
 				"699DFF81AB2C2B43"
 			]
+			description: ["Some can be found in regular mining coordinates, others in the clouds, some in nether and end"]
 			id: "3A279EBCEFAAAF7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D2A079A5058E51A"
+				table_id: 1140926682852401208L
+				type: "random"
+			}]
+			subtitle: "Go into the clouds and break the node ores!"
 			tasks: [{
 				id: "20647BAB99168731"
-				type: "item"
-				title: "Any #archon:gems"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "archon:gems"
 					}
 				}
+				title: "Any #archon:gems"
+				type: "item"
 			}]
-			rewards: [{
-				id: "2D2A079A5058E51A"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1140926682852401208L
-			}]
+			title: "Obtain any Archon Gem"
+			x: -13.0d
+			y: -2.0d
 		}
 		{
-			title: "Obtain any Archon Essence"
-			x: -14.5d
-			y: -3.0d
-			subtitle: "Create essences from gems"
 			dependencies: ["3A279EBCEFAAAF7C"]
 			id: "6103B37C56E0C87A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59991EC5E4662F52"
+				table_id: 8994734502158028496L
+				type: "choice"
+			}]
+			subtitle: "Create essences from gems"
 			tasks: [{
 				id: "051CFF8EC1D0D62C"
-				type: "item"
-				title: "Any #archon:essences"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "archon:essences"
 					}
 				}
+				title: "Any #archon:essences"
+				type: "item"
 			}]
-			rewards: [{
-				id: "59991EC5E4662F52"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 8994734502158028496L
-			}]
+			title: "Obtain any Archon Essence"
+			x: -14.5d
+			y: -3.0d
 		}
 		{
-			title: "Fire Robes"
-			x: 21.5d
-			y: -8.5d
-			subtitle: "Increases Fire Power"
 			dependencies: ["0FCD7757E0E0A667"]
 			hide: true
-			optional: true
 			id: "005F44ADF1F6E173"
+			optional: true
+			subtitle: "Increases Fire Power"
 			tasks: [
 				{
 					id: "1B6B39221A14F565"
-					type: "item"
 					item: {
-						id: "wizards:fire_robe_head"
 						Count: 1b
+						id: "wizards:fire_robe_head"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6CFA8586DE55116B"
-					type: "item"
 					item: {
-						id: "wizards:fire_robe_chest"
 						Count: 1b
+						id: "wizards:fire_robe_chest"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "369E0F3342C8FDC6"
-					type: "item"
 					item: {
-						id: "wizards:fire_robe_legs"
 						Count: 1b
+						id: "wizards:fire_robe_legs"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "168C332ED218B579"
-					type: "item"
 					item: {
-						id: "wizards:fire_robe_feet"
 						Count: 1b
+						id: "wizards:fire_robe_feet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			title: "Fire Robes"
+			x: 21.5d
+			y: -8.5d
 		}
 		{
-			title: "Arcane Robes"
-			x: 18.5d
-			y: -8.5d
-			subtitle: "Increases Arcane Power"
 			dependencies: ["0FCD7757E0E0A667"]
 			hide: true
-			optional: true
 			id: "4BBE16345CB24F0A"
+			optional: true
+			subtitle: "Increases Arcane Power"
 			tasks: [
 				{
 					id: "1EA2A7EFF9E332DF"
-					type: "item"
 					item: {
-						id: "wizards:arcane_robe_head"
 						Count: 1b
+						id: "wizards:arcane_robe_head"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "414F86D043F82E65"
-					type: "item"
 					item: {
-						id: "wizards:arcane_robe_chest"
 						Count: 1b
+						id: "wizards:arcane_robe_chest"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "7023976EE7AD7B92"
-					type: "item"
 					item: {
-						id: "wizards:arcane_robe_legs"
 						Count: 1b
+						id: "wizards:arcane_robe_legs"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "75DFA1529C8C10B6"
-					type: "item"
 					item: {
-						id: "wizards:arcane_robe_feet"
 						Count: 1b
+						id: "wizards:arcane_robe_feet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			title: "Arcane Robes"
+			x: 18.5d
+			y: -8.5d
 		}
 		{
-			title: "Frost Robes"
-			x: 19.5d
-			y: -8.5d
-			subtitle: "Increases Frost Power"
 			dependencies: ["0FCD7757E0E0A667"]
 			hide: true
-			optional: true
 			id: "7B258BB91145CC05"
+			optional: true
+			subtitle: "Increases Frost Power"
 			tasks: [
 				{
 					id: "4E566A84765F7FB2"
-					type: "item"
 					item: {
-						id: "wizards:frost_robe_head"
 						Count: 1b
+						id: "wizards:frost_robe_head"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "61272138D8764221"
-					type: "item"
 					item: {
-						id: "wizards:frost_robe_chest"
 						Count: 1b
+						id: "wizards:frost_robe_chest"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3AA4BEA58D8EF43D"
-					type: "item"
 					item: {
-						id: "wizards:frost_robe_legs"
 						Count: 1b
+						id: "wizards:frost_robe_legs"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "2A93B6EA9A31A50B"
-					type: "item"
 					item: {
-						id: "wizards:frost_robe_feet"
 						Count: 1b
+						id: "wizards:frost_robe_feet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			title: "Frost Robes"
+			x: 19.5d
+			y: -8.5d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["You're a Wizard, harry"]
+	title: "General Magic and Spells"
 }

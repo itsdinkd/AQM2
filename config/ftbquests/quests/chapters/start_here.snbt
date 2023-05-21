@@ -1,85 +1,73 @@
 {
-	id: "48AED9D0BCAFF527"
-	group: ""
-	order_index: 0
-	filename: "start_here"
-	title: "Start Here (FIRST DO THIS)"
-	icon: "minecraft:oak_log"
-	subtitle: ["Read the quests here to learn about the modpack, what it offers, and where to start."]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start_here"
+	group: ""
+	icon: "minecraft:oak_log"
+	id: "48AED9D0BCAFF527"
 	images: [{
+		click: "https://discord.gg/TmqVme7Pb5"
+		corner: false
+		dev: false
+		height: 4.0d
+		hover: ["Click here to join the AQM Discord"]
+		image: "kubejs:textures/gui/presets/aqm2.png"
+		rotation: 0.0d
+		width: 4.0d
 		x: 6.0d
 		y: -4.0d
-		width: 4.0d
-		height: 4.0d
-		rotation: 0.0d
-		image: "kubejs:textures/gui/presets/aqm2.png"
-		hover: ["Click here to join the AQM Discord"]
-		click: "https://discord.gg/TmqVme7Pb5"
-		dev: false
-		corner: false
 	}]
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
+			description: ["Want to find biomes fast? Then you'll need Nature's Compass! This handy necessity gives you the coordinates, and a compass to show you the direction you need to follow for your targeted biome."]
+			id: "0DFD9D948D188C8A"
+			rewards: [{
+				id: "77EE29556AEC37C8"
+				item: "gofish:wooden_crate"
+				type: "item"
+			}]
+			subtitle: "Nature's Compass... more like your best friend"
+			tasks: [{
+				id: "4A862D9C33B13F3E"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
 			title: "Locate Biomes"
 			x: -0.5d
 			y: -1.5d
-			subtitle: "Nature's Compass... more like your best friend"
-			description: ["Want to find biomes fast? Then you'll need Nature's Compass! This handy necessity gives you the coordinates, and a compass to show you the direction you need to follow for your targeted biome."]
-			id: "0DFD9D948D188C8A"
-			tasks: [{
-				id: "4A862D9C33B13F3E"
-				type: "item"
-				item: {
-					id: "naturescompass:naturescompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "77EE29556AEC37C8"
-				type: "item"
-				item: "gofish:wooden_crate"
-			}]
 		}
 		{
-			title: "Toggle Auto Run"
+			description: ["The way to auto run is as follows; Press 'ESC-> Go into Options--> Go into Controls---> Keybind for AutorunPress the key and you will run automatically. Click the checkmark once finished."]
 			icon: {
-				id: "ftbquests:custom_icon"
 				Count: 1b
+				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/info.png"
 				}
 			}
-			x: 3.5d
-			y: -1.0d
-			subtitle: "Press \"=\" to Auto Run"
-			description: ["The way to auto run is as follows; Press 'ESC-> Go into Options--> Go into Controls---> Keybind for AutorunPress the key and you will run automatically. Click the checkmark once finished."]
 			id: "385F49C2862DA2E7"
-			tasks: [{
-				id: "287885062F71D113"
-				type: "checkmark"
-				title: "Complete"
-			}]
 			rewards: [{
 				id: "714FCDAA38C58ED4"
 				type: "xp"
 				xp: 5
 			}]
+			subtitle: "Press \"=\" to Auto Run"
+			tasks: [{
+				id: "287885062F71D113"
+				title: "Complete"
+				type: "checkmark"
+			}]
+			title: "Toggle Auto Run"
+			x: 3.5d
+			y: -1.0d
 		}
 		{
-			title: "Claim Land"
-			icon: {
-				id: "minecraft:golden_hoe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 3.9750000000000014d
-			y: 3.4107142857142847d
-			subtitle: "Okay you're in a server or playing with randoms and want your land protected. We got you! "
 			description: [
 				"With land claims, you can use the command /flan"
 				"or you can use a golden hoe. "
@@ -91,73 +79,73 @@
 				"/help flan"
 				"will give you a list of available commands, like adding players to your claim, promoting them to do or not do certain things, and so much more. "
 			]
-			id: "071541909661ECA8"
-			tasks: [{
-				id: "462798E838C79DEF"
-				type: "checkmark"
-				title: "Claim Land"
-			}]
-			rewards: [
-				{
-					id: "44D3699AD14360A3"
-					type: "item"
-					item: "aqm2:aqm2"
-				}
-				{
-					id: "5304DDAC7BFDD6FC"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 2
-				}
-			]
-		}
-		{
-			title: "How to Zoom"
 			icon: {
-				id: "additionaladditions:crossbow_with_spyglass"
 				Count: 1b
+				id: "minecraft:golden_hoe"
 				tag: {
 					Damage: 0
 				}
 			}
-			x: 2.5d
-			y: -1.0d
-			subtitle: "Zoom with the \"V\" Key!"
+			id: "071541909661ECA8"
+			rewards: [
+				{
+					id: "44D3699AD14360A3"
+					item: "aqm2:aqm2"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5304DDAC7BFDD6FC"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Okay you're in a server or playing with randoms and want your land protected. We got you! "
+			tasks: [{
+				id: "462798E838C79DEF"
+				title: "Claim Land"
+				type: "checkmark"
+			}]
+			title: "Claim Land"
+			x: 3.9750000000000014d
+			y: 3.4107142857142847d
+		}
+		{
 			description: [
 				"Use the \"V\" key to Zoom"
 				""
 				"Also, take this crossbow with a spyglass just because you're awesome."
 			]
+			icon: {
+				Count: 1b
+				id: "additionaladditions:crossbow_with_spyglass"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7378A01FE062F915"
-			tasks: [{
-				id: "544CD933F5DB472E"
-				type: "checkmark"
-				title: "Zoom Zoom"
-			}]
 			rewards: [{
 				id: "245FBC9AF2E1FEC2"
-				type: "item"
 				item: {
-					id: "additionaladditions:crossbow_with_spyglass"
 					Count: 1b
+					id: "additionaladditions:crossbow_with_spyglass"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Zoom with the \"V\" Key!"
+			tasks: [{
+				id: "544CD933F5DB472E"
+				title: "Zoom Zoom"
+				type: "checkmark"
+			}]
+			title: "How to Zoom"
+			x: 2.5d
+			y: -1.0d
 		}
 		{
-			title: "How to Sort"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "ftblibrary:textures/icons/sort_az.png"
-				}
-			}
-			x: 8.5d
-			y: -1.0d
-			subtitle: "Press \"Middle Mouse Button\" on empty slot to Sort"
 			description: [
 				"- Middle Mouse button empty slot to sort"
 				"- Press the Move To or Sort buttons in UI"
@@ -166,54 +154,61 @@
 				"- I + C in game to open Item Scroller Menu (which shows all hotkeys for scroll sorting)"
 				"- R + C in game to open Inventory Profiles menu which also goes over hot keys + tweaks."
 			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/sort_az.png"
+				}
+			}
 			id: "294578C7D4072356"
+			subtitle: "Press \"Middle Mouse Button\" on empty slot to Sort"
 			tasks: [{
 				id: "1A0447F95F262A56"
-				type: "checkmark"
 				title: "Complete"
+				type: "checkmark"
 			}]
+			title: "How to Sort"
+			x: 8.5d
+			y: -1.0d
 		}
 		{
-			title: "How to Find Items in All Chests"
-			icon: "minecraft:chest"
-			x: 7.475000000000001d
-			y: 2.4107142857142847d
-			subtitle: "Misplaced something and have lots of chests early game?"
 			description: [
 				"Chest Tracker is the small icon in your inventory on the top right. Click it to see all the items you can find in your chests. It will highlight whatever chest has the item you selected, and it remembers every item you encountered in chests."
 				""
 				"{image:kubejs:textures/gui/presets/chest_tracker.png width:200 height:100 align:1 fit:true}"
 			]
+			icon: "minecraft:chest"
 			id: "416EBB7198D253DB"
+			subtitle: "Misplaced something and have lots of chests early game?"
 			tasks: [{
 				id: "0E04151EB0D6C23F"
-				type: "checkmark"
 				title: "Complete"
+				type: "checkmark"
 			}]
+			title: "How to Find Items in All Chests"
+			x: 7.475000000000001d
+			y: 2.4107142857142847d
 		}
 		{
+			description: ["Get Silk Touch enchantment and do your thing"]
+			id: "638C86BBE9B9FA6E"
+			rewards: [{
+				id: "24640D6FC9BD991B"
+				item: "minecraft:cat_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "Must have Silk Touch enchantment"
+			tasks: [{
+				id: "40B95D419E4E8091"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
 			title: "Silk Touch a Spawner"
 			x: -1.5d
 			y: -1.0d
-			subtitle: "Must have Silk Touch enchantment"
-			description: ["Get Silk Touch enchantment and do your thing"]
-			id: "638C86BBE9B9FA6E"
-			tasks: [{
-				id: "40B95D419E4E8091"
-				type: "item"
-				item: "minecraft:spawner"
-			}]
-			rewards: [{
-				id: "24640D6FC9BD991B"
-				type: "item"
-				item: "minecraft:cat_spawn_egg"
-			}]
 		}
 		{
-			title: "Change your skin"
-			icon: "botania:cosmetic_questgiver_mark"
-			x: 5.475000000000001d
-			y: 5.910714285714285d
 			description: [
 				"You can change your skin two different ways."
 				""
@@ -225,43 +220,43 @@
 				""
 				"The second way is by using the /skin   command. You can change skin by URL (get the image url), a file on your computer, or even another players name."
 			]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "52E5521AE0FB29EF"
 			tasks: [{
 				id: "79ED5703FA681700"
-				type: "checkmark"
 				title: "Complete"
+				type: "checkmark"
 			}]
+			title: "Change your skin"
+			x: 5.475000000000001d
+			y: 5.910714285714285d
 		}
 		{
-			title: "Carry Things"
+			description: ["There are many blocks and entities blacklisted, but their are also many that are whitelisted. Give it a try!"]
 			icon: {
-				id: "ftbquests:custom_icon"
 				Count: 1b
+				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/info.png"
 				}
 			}
-			x: 7.5d
-			y: -1.0d
-			subtitle: "Carry blocks and entities using Sneak + Right Click"
-			description: ["There are many blocks and entities blacklisted, but their are also many that are whitelisted. Give it a try!"]
-			invisible: true
 			id: "7F73193A153674A7"
+			invisible: true
+			rewards: [{
+				id: "4D282F6E83932E2B"
+				item: "gofish:wooden_crate"
+				type: "item"
+			}]
+			subtitle: "Carry blocks and entities using Sneak + Right Click"
 			tasks: [{
 				id: "2EBE0610F9FA1A21"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "4D282F6E83932E2B"
-				type: "item"
-				item: "gofish:wooden_crate"
-			}]
+			title: "Carry Things"
+			x: 7.5d
+			y: -1.0d
 		}
 		{
-			title: "Find Gobber Globettes"
-			x: 5.975000000000001d
-			y: 3.9107142857142847d
-			subtitle: "Gobber Gobber Gobber..."
 			description: [
 				"If this pack were a human body, Gobber would be the spine. Paxels, Tree Axes, 5x5 Hammers, Rings, Medallions, It's got it all, but very rare to find the ore. Go find some Gobber Ore and mine it with at least a diamond pick axe"
 				""
@@ -271,16 +266,28 @@
 				""
 				"Click On the Gobber above and click submit. This will consume 1 Gobber."
 			]
-			size: 3.0d
-			min_width: 400
 			id: "40AC615E022379B9"
+			min_width: 400
+			rewards: [
+				{
+					id: "29641C25A1C1C478"
+					item: "gobber2:gobber2_goo"
+					type: "item"
+				}
+				{
+					id: "2618066D90FFA64C"
+					item: "gobber2:gobber2_globette"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "Gobber Gobber Gobber..."
 			tasks: [{
+				consume_items: true
 				id: "7340447646BC18C6"
-				type: "item"
-				title: "Submit Gobber"
 				item: {
-					id: "itemfilters:or"
 					Count: 1b
+					id: "itemfilters:or"
 					tag: {
 						items: [
 							{
@@ -298,26 +305,14 @@
 						]
 					}
 				}
-				consume_items: true
+				title: "Submit Gobber"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "29641C25A1C1C478"
-					type: "item"
-					item: "gobber2:gobber2_goo"
-				}
-				{
-					id: "2618066D90FFA64C"
-					type: "item"
-					item: "gobber2:gobber2_globette"
-				}
-			]
+			title: "Find Gobber Globettes"
+			x: 5.975000000000001d
+			y: 3.9107142857142847d
 		}
 		{
-			title: "Waystones..."
-			x: 7.975000000000001d
-			y: 4.410714285714285d
-			subtitle: "Waystones are one of the more common ways to get around the world here in AQM"
 			description: [
 				"You can claim waystones that do not have a owner, and retrieve payments."
 				""
@@ -328,325 +323,333 @@
 				"You can break waystone but not with just any tool. You need a Level 4 Harvesting level tool to do this. (Diamond+)"
 			]
 			id: "4071CC2AEF557C8F"
+			subtitle: "Waystones are one of the more common ways to get around the world here in AQM"
 			tasks: [{
-				id: "0E941E17AC71C629"
-				type: "questsadditions:use"
-				title: "Interact with Waystone"
-				icon: "fwaystones:waystone"
-				block_type: 0
 				block: "fwaystones:waystone"
-				value: 1L
+				block_type: 0
 				checkItem: false
+				icon: "fwaystones:waystone"
+				id: "0E941E17AC71C629"
 				isItemInteraction: false
+				title: "Interact with Waystone"
+				type: "questsadditions:use"
+				value: 1L
 			}]
+			title: "Waystones..."
+			x: 7.975000000000001d
+			y: 4.410714285714285d
 		}
 		{
-			x: 7.975000000000001d
-			y: 3.4107142857142847d
-			subtitle: "Modded Minecraft 101... You need a backpack. Its essential."
 			description: ["So, Go ahead and craft a inmis Baby Backpack and turn it in for a better reward! After that, work on getting higher tiers of the backpacks as you get so much more storage space."]
 			id: "43E87948D1604211"
-			tasks: [{
-				id: "3939E3B0004E3AFE"
-				type: "item"
-				title: "Turn in your empty baby backpack"
-				item: {
-					id: "inmis:baby_backpack"
-					Count: 1b
-					tag: { }
-				}
-				consume_items: true
-			}]
 			rewards: [{
 				id: "75F74210F46C8EB5"
-				type: "item"
 				item: {
-					id: "inmis:frayed_backpack"
 					Count: 1b
+					id: "inmis:frayed_backpack"
 					tag: { }
 				}
+				type: "item"
 			}]
+			subtitle: "Modded Minecraft 101... You need a backpack. Its essential."
+			tasks: [{
+				consume_items: true
+				id: "3939E3B0004E3AFE"
+				item: {
+					Count: 1b
+					id: "inmis:baby_backpack"
+					tag: { }
+				}
+				title: "Turn in your empty baby backpack"
+				type: "item"
+			}]
+			x: 7.975000000000001d
+			y: 3.4107142857142847d
 		}
 		{
-			title: "Chisel This, Chisel That"
-			x: 7.475000000000001d
-			y: 5.410714285714285d
-			subtitle: "We got Chisels.... and its a wonderful tool for a inchling."
 			description: ["Bits n Chisels allows the player to chisel out ANY block in the world. Try it out!"]
 			id: "0C01DD5FD3795E65"
+			rewards: [{
+				id: "6D8CC593AA9330B5"
+				item: "additionaladditions:mysterious_bundle"
+				type: "item"
+			}]
+			subtitle: "We got Chisels.... and its a wonderful tool for a inchling."
 			tasks: [
 				{
 					id: "2773F5A9BADC3CB7"
-					type: "item"
 					item: {
-						id: "bitsandchisels:iron_chisel"
 						Count: 1b
+						id: "bitsandchisels:iron_chisel"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "70018E745E130D5B"
-					type: "item"
 					item: {
-						id: "bitsandchisels:smart_chisel"
 						Count: 1b
+						id: "bitsandchisels:smart_chisel"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "6D8CC593AA9330B5"
-				type: "item"
-				item: "additionaladditions:mysterious_bundle"
-			}]
+			title: "Chisel This, Chisel That"
+			x: 7.475000000000001d
+			y: 5.410714285714285d
 		}
 		{
-			title: "Reset Origins (Open for Free Orb of Reset)"
-			icon: "origins:orb_of_origin"
-			x: 4.475000000000001d
-			y: 5.410714285714285d
-			subtitle: "Learn how to reset your origin"
 			description: ["Craft a Orb of Origin to reset your origin. But look, i'm a nice guy. I'll give you one free reset because you're awesome."]
+			icon: "origins:orb_of_origin"
 			id: "19534F81193FF552"
-			tasks: [{
-				id: "2F701E70DBDA56F4"
-				type: "checkmark"
-				title: "Yay, one free reset"
-			}]
 			rewards: [{
 				id: "3A95EC1EBB4CBF72"
-				type: "item"
-				title: "Orb of Origin"
 				item: "origins:orb_of_origin"
+				title: "Orb of Origin"
+				type: "item"
 			}]
+			subtitle: "Learn how to reset your origin"
+			tasks: [{
+				id: "2F701E70DBDA56F4"
+				title: "Yay, one free reset"
+				type: "checkmark"
+			}]
+			title: "Reset Origins (Open for Free Orb of Reset)"
+			x: 4.475000000000001d
+			y: 5.410714285714285d
 		}
 		{
-			x: -0.5d
-			y: -0.5d
-			subtitle: "Find Structures with this guy"
 			dependencies: ["0DFD9D948D188C8A"]
 			hide: true
 			id: "37858C2342635F64"
-			tasks: [{
-				id: "266725330869C202"
-				type: "item"
-				item: {
-					id: "explorerscompass:explorerscompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [{
 				id: "19AFFE0A6973B745"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Find Structures with this guy"
+			tasks: [{
+				id: "266725330869C202"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
 		}
 		{
-			title: "Free House!"
-			icon: "prefab:item_house"
-			x: 5.979761904761908d
-			y: 7.160714285714285d
-			subtitle: "Introducing... Prefab Structures"
 			description: [
 				"Your first Prefab structure is on us. PS: Do yourself a favor and if youre in a server, do not build next to spawn :)"
 				""
 				"Be sure to view all the @prefab structures that are available, you can build an amazing base with two clicks."
 			]
-			size: 1.6d
-			secret: true
+			icon: "prefab:item_house"
 			id: "580922BEFEDA9C42"
-			tasks: [
-				{
-					id: "0F5C49C0AA3F013F"
-					type: "gamestage"
-					title: "Join Game"
-					icon: "prefab:item_house"
-					stage: "starting_items"
-				}
-				{
-					id: "0CA63F10DD79246D"
-					type: "questsadditions:time"
-					title: "Tick Tock"
-					elapsedTime: 360L
-				}
-			]
 			rewards: [{
 				id: "4A1B778F8F84688F"
-				type: "item"
 				item: "prefab:item_house"
+				type: "item"
 			}]
+			secret: true
+			size: 1.6d
+			subtitle: "Introducing... Prefab Structures"
+			tasks: [
+				{
+					icon: "prefab:item_house"
+					id: "0F5C49C0AA3F013F"
+					stage: "starting_items"
+					title: "Join Game"
+					type: "gamestage"
+				}
+				{
+					elapsedTime: 360L
+					id: "0CA63F10DD79246D"
+					title: "Tick Tock"
+					type: "questsadditions:time"
+				}
+			]
+			title: "Free House!"
+			x: 5.979761904761908d
+			y: 7.160714285714285d
 		}
 		{
-			title: "So you wanna be an Arcanite?"
+			description: ["Acolytes unlock the Fireball skill. Use your Primary origin key to cast"]
 			icon: {
-				id: "botania:twig_wand"
 				Count: 1b
+				id: "botania:twig_wand"
 				tag: {
-					color2: 3
 					color1: 3
+					color2: 3
 				}
 			}
-			x: -5.5d
-			y: 6.5d
-			subtitle: "You level via XP"
-			description: ["Acolytes unlock the Fireball skill. Use your Primary origin key to cast"]
 			id: "7F89FD818EBFB6C9"
-			tasks: [{
-				id: "238AC6907B05BE68"
-				type: "advancement"
-				title: "Unlock Acolyte"
-				icon: {
-					id: "botania:twig_wand"
-					Count: 1b
-					tag: {
-						color1: 0
-						color2: 0
-					}
-				}
-				advancement: "arcanite:acolyte"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "557F24BD35D4A901"
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "You level via XP"
+			tasks: [{
+				advancement: "arcanite:acolyte"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				id: "238AC6907B05BE68"
+				title: "Unlock Acolyte"
+				type: "advancement"
+			}]
+			title: "So you wanna be an Arcanite?"
+			x: -5.5d
+			y: 6.5d
 		}
 		{
-			icon: "dimdoors:mask_wand"
-			x: -4.5d
-			y: 8.0d
-			subtitle: "The power of Lightning"
-			description: ["To Cast Lightning: Use OFF-HAND Key, \"F\""]
 			dependencies: ["7F89FD818EBFB6C9"]
+			description: ["To Cast Lightning: Use OFF-HAND Key, \"F\""]
+			icon: "dimdoors:mask_wand"
 			id: "5F9A35A5D8196A7B"
-			tasks: [{
-				id: "3791291E41093A85"
-				type: "advancement"
-				title: "Unlock Adept"
-				icon: "dimdoors:mask_wand"
-				advancement: "arcanite:adept"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "78BA01924F9F499E"
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "The power of Lightning"
+			tasks: [{
+				advancement: "arcanite:adept"
+				criterion: ""
+				icon: "dimdoors:mask_wand"
+				id: "3791291E41093A85"
+				title: "Unlock Adept"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 8.0d
 		}
 		{
-			x: -3.5d
-			y: 6.5d
-			subtitle: "Cast Withercall"
-			description: ["To Cast Withercall: Use the Secondary origin key. Make sure you set it in your keybinds."]
 			dependencies: ["5F9A35A5D8196A7B"]
+			description: ["To Cast Withercall: Use the Secondary origin key. Make sure you set it in your keybinds."]
 			id: "4FDB3FE002A62B8C"
-			tasks: [{
-				id: "33B71091ACBA8E3E"
-				type: "advancement"
-				title: "Unlock Magus"
-				icon: {
-					id: "arcanus:initiate_wand"
-					Count: 1b
-					tag: {
-						arcanus: { }
-					}
-				}
-				advancement: "minecraft:story/root"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "7C114F6B18C88F47"
 				type: "xp"
 				xp: 30
 			}]
-		}
-		{
-			title: "Unlock Thaumaturge"
-			x: -2.5d
-			y: 7.5d
-			subtitle: "You're now immune to lightning"
-			dependencies: ["4FDB3FE002A62B8C"]
-			id: "31C4605E2A02A311"
+			subtitle: "Cast Withercall"
 			tasks: [{
-				id: "3D9C6D9622E406A1"
-				type: "advancement"
-				title: "Unlock Thaumaturge"
+				advancement: "minecraft:story/root"
+				criterion: ""
 				icon: {
-					id: "arcanus:adept_wand"
 					Count: 1b
+					id: "arcanus:initiate_wand"
 					tag: {
 						arcanus: { }
 					}
 				}
-				advancement: "arcanite:thaumaturge"
-				criterion: ""
+				id: "33B71091ACBA8E3E"
+				title: "Unlock Magus"
+				type: "advancement"
 			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4FDB3FE002A62B8C"]
+			id: "31C4605E2A02A311"
 			rewards: [{
 				id: "508EE25D7D7A3D77"
 				type: "xp"
 				xp: 40
 			}]
-		}
-		{
-			x: -1.0d
-			y: 6.5d
-			subtitle: "You can cast Elytra Flight"
-			dependencies: ["31C4605E2A02A311"]
-			size: 1.33d
-			id: "331F34CAE015D773"
+			subtitle: "You're now immune to lightning"
 			tasks: [{
-				id: "1EA750E2B59E5D10"
-				type: "advancement"
+				advancement: "arcanite:thaumaturge"
+				criterion: ""
 				icon: {
-					id: "arcanus:master_wand"
 					Count: 1b
+					id: "arcanus:adept_wand"
 					tag: {
 						arcanus: { }
 					}
 				}
-				advancement: "arcanite:master"
-				criterion: ""
+				id: "3D9C6D9622E406A1"
+				title: "Unlock Thaumaturge"
+				type: "advancement"
 			}]
+			title: "Unlock Thaumaturge"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31C4605E2A02A311"]
+			id: "331F34CAE015D773"
 			rewards: [{
 				id: "31E954436FEFA290"
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.33d
+			subtitle: "You can cast Elytra Flight"
+			tasks: [{
+				advancement: "arcanite:master"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "arcanus:master_wand"
+					tag: {
+						arcanus: { }
+					}
+				}
+				id: "1EA750E2B59E5D10"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 6.5d
 		}
 		{
-			title: "Wall Jumping"
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "ftblibrary:textures/icons/info.png"
-				}
-			}
-			x: 6.5d
-			y: -1.0d
-			subtitle: "Press \"Shift + Right Click\" when jumping next to wall"
 			description: [
 				"You can by default Wall Jump. keep or change your keybind (otherwise its \"SHIFT\" by default) "
 				""
 				"When you jump onto the wall, hold down your keybind. you will cling onto the wall. You can then hold space bar, and let go of the walljump keybind to jump from the wall. rinse and repeat."
 			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/info.png"
+				}
+			}
 			id: "5D57BC2A763753F5"
+			subtitle: "Press \"Shift + Right Click\" when jumping next to wall"
 			tasks: [{
 				id: "29C461F65FCD919B"
 				type: "checkmark"
 			}]
+			title: "Wall Jumping"
+			x: 6.5d
+			y: -1.0d
 		}
 		{
-			title: "Vein Mining"
+			description: [
+				"To vein mine, you need to add the enchantment to your pickaxe. It is a treasure enchantment, however, it can also be purchased using a Dark Enchanting Table for a lot of XP."
+				""
+				"Once you have the enchantment, hold down the ` key to vein mine while mining. You can change this keybind. "
+			]
 			icon: {
-				id: "minecraft:enchanted_book"
 				Count: 1b
+				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
 						id: "minecraft:feather_falling"
@@ -654,62 +657,54 @@
 					}]
 				}
 			}
-			x: 9.5d
-			y: -1.0d
-			subtitle: "Yes, you can vein mine with enchantment. Hold ` (Read me)"
-			description: [
-				"To vein mine, you need to add the enchantment to your pickaxe. It is a treasure enchantment, however, it can also be purchased using a Dark Enchanting Table for a lot of XP."
-				""
-				"Once you have the enchantment, hold down the ` key to vein mine while mining. You can change this keybind. "
-			]
 			id: "0096C7D2617A84C8"
+			subtitle: "Yes, you can vein mine with enchantment. Hold ` (Read me)"
 			tasks: [{
 				id: "15318E711802697E"
 				type: "checkmark"
 			}]
+			title: "Vein Mining"
+			x: 9.5d
+			y: -1.0d
 		}
 		{
-			title: "Why are Vanilla Mobs Hard?"
-			x: 16.625d
-			y: 1.75d
-			subtitle: "What's going on?"
 			description: [
 				"By now you realized vanilla zombies run faster, creepers are charged and do not stop, and also several vanilla mobs are attacking villagers.."
 				""
 				"This is due to Totally Enough Pain, a mod that vamps up difficulty. Zombies have a chance to break doors, Ghasts have a larger explosion, and more. Good luck!"
 			]
-			size: 1.75d
-			secret: true
 			id: "504D27355350A1E6"
-			tasks: [
-				{
-					id: "45D00E0C0A7CD31D"
-					type: "kill"
-					icon: "mobz:fasthead"
-					secret: true
-					entity: "minecraft:zombie"
-					value: 666L
-				}
-				{
-					id: "29BD4D497ABEF967"
-					type: "kill"
-					icon: "minecraft:creeper_head"
-					secret: true
-					entity: "minecraft:creeper"
-					value: 666L
-				}
-			]
 			rewards: [{
 				id: "5513F5C000CC1A64"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			secret: true
+			size: 1.75d
+			subtitle: "What's going on?"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "mobz:fasthead"
+					id: "45D00E0C0A7CD31D"
+					secret: true
+					type: "kill"
+					value: 666L
+				}
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "29BD4D497ABEF967"
+					secret: true
+					type: "kill"
+					value: 666L
+				}
+			]
+			title: "Why are Vanilla Mobs Hard?"
+			x: 16.625d
+			y: 1.75d
 		}
 		{
-			title: "Hookshots!"
-			x: 4.475000000000001d
-			y: 2.4107142857142847d
-			subtitle: "Netheressity"
 			description: [
 				"Stackable Upgrades using Smithing Table"
 				""
@@ -722,270 +717,273 @@
 				"- Bleed Upgrade (Arrow) causes bleeding on hooked entities"
 			]
 			id: "58FF21F45DC7C7AB"
+			rewards: [{
+				id: "2C7C8510B78C764C"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			subtitle: "Netheressity"
 			tasks: [{
 				id: "4D4BF695DD418A68"
-				type: "item"
-				title: "Any #hookshot:hookshots"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "hookshot:hookshots"
 					}
 				}
-			}]
-			rewards: [{
-				id: "2C7C8510B78C764C"
+				title: "Any #hookshot:hookshots"
 				type: "item"
-				item: "minecraft:oak_sapling"
 			}]
+			title: "Hookshots!"
+			x: 4.475000000000001d
+			y: 2.4107142857142847d
 		}
 		{
-			title: "Recipe Confliction?"
-			icon: "minecraft:stone"
-			disable_toast: true
-			x: 15.0d
-			y: 2.0d
-			subtitle: "Read Me!"
 			description: [
 				"If you are using a vanilla crafting table/furnace/or any other vanilla station, Polymorph will not take effect, which allows you to choose which output item in your recipe"
 				""
 				"Use \"Improved Stations\" stations for crafting as it works with Polymorph, and also holds items left in its screen."
 			]
-			size: 2.0d
+			disable_toast: true
+			icon: "minecraft:stone"
+			id: "2B70D65FA38D567F"
 			invisible: true
 			secret: true
-			id: "2B70D65FA38D567F"
+			size: 2.0d
+			subtitle: "Read Me!"
 			tasks: [
 				{
 					id: "0479D7C1254370A6"
-					type: "item"
 					item: "improved-stations:crafting_station"
+					type: "item"
 				}
 				{
 					id: "2003430231FEEE77"
-					type: "item"
 					item: "improved-stations:crafting_station_slab"
+					type: "item"
 				}
 				{
 					id: "0F3CF7AEFB82194F"
-					type: "item"
 					item: "improved-stations:furnace_slab"
+					type: "item"
 				}
 				{
 					id: "11EAE1A528D7427D"
-					type: "item"
 					item: "improved-stations:smoker_slab"
+					type: "item"
 				}
 				{
 					id: "09505F6CE83C4A7C"
-					type: "item"
 					item: "improved-stations:blast_furnace_slab"
+					type: "item"
 				}
 				{
 					id: "62E3582D70EEF1B7"
-					type: "item"
 					item: "improved-stations:jukebox_slab"
+					type: "item"
 				}
 				{
 					id: "4108D21F9E8B7A15"
-					type: "item"
 					item: "improved-stations:loom_slab"
+					type: "item"
 				}
 				{
 					id: "2CCDD673B11FA39B"
-					type: "item"
 					item: "improved-stations:cartography_table_slab"
+					type: "item"
 				}
 			]
+			title: "Recipe Confliction?"
+			x: 15.0d
+			y: 2.0d
 		}
 		{
+			id: "014910E4CBF7157C"
+			subtitle: "Using this gem on your pet will allow it to respawn"
+			tasks: [{
+				id: "4F7C0DF1727DA7AA"
+				item: "respawnablepets:etheric_gem"
+				type: "item"
+			}]
 			title: "Respawnable Pets"
 			x: 5.475000000000001d
 			y: 1.9107142857142847d
-			subtitle: "Using this gem on your pet will allow it to respawn"
-			id: "014910E4CBF7157C"
-			tasks: [{
-				id: "4F7C0DF1727DA7AA"
-				type: "item"
-				item: "respawnablepets:etheric_gem"
-			}]
 		}
 		{
-			x: 6.475000000000001d
-			y: 1.9107142857142847d
-			subtitle: "Funko Pops!"
 			description: ["Convert a villager into a Funko Pop villager that sells Mine Pops"]
 			id: "75974D9C410B0EED"
-			tasks: [{
-				id: "38F66AD175AECC97"
-				type: "item"
-				icon: "minepop:minepop_seller"
-				item: "minepop:minepop_seller"
-			}]
 			rewards: [
 				{
 					id: "3093E52821627EB2"
-					type: "item"
 					item: "minepop:minepop_luffy"
+					type: "item"
 				}
 				{
-					id: "3FBDBACBCCFD7C8A"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "3FBDBACBCCFD7C8A"
 					table_id: 5154822684591214429L
+					type: "random"
 				}
 			]
+			subtitle: "Funko Pops!"
+			tasks: [{
+				icon: "minepop:minepop_seller"
+				id: "38F66AD175AECC97"
+				item: "minepop:minepop_seller"
+				type: "item"
+			}]
+			x: 6.475000000000001d
+			y: 1.9107142857142847d
 		}
 		{
-			x: 9.725000000000001d
-			y: 3.9107142857142847d
-			subtitle: "See all villager trades in one menu"
 			description: [
 				"Place this where your villagers are and you will get all trades in one menu"
 				""
 				"The range is 24 blocks horizontally, 14 blocks vertically"
 			]
-			size: 1.5d
 			id: "7B9FF9B3955224DA"
+			rewards: [{
+				count: 2
+				id: "40982C5C6DF542AE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "See all villager trades in one menu"
 			tasks: [{
 				id: "774028ECB27A66E5"
-				type: "item"
 				item: "tradingpost:trading_post"
-			}]
-			rewards: [{
-				id: "40982C5C6DF542AE"
 				type: "item"
-				item: "minecraft:emerald"
-				count: 2
 			}]
+			x: 9.725000000000001d
+			y: 3.9107142857142847d
 		}
 		{
-			x: 3.9750000000000014d
-			y: 4.410714285714285d
-			subtitle: "Damage stats will appear when striking"
 			id: "36276AEB56B46325"
-			tasks: [{
-				id: "6DC71DD8FBD8748F"
-				type: "item"
-				item: "dummmmmmy:target_dummy"
-			}]
 			rewards: [{
 				id: "2964E37DB47DA5D6"
-				type: "item"
 				item: "minecraft:hay_block"
+				type: "item"
 			}]
+			subtitle: "Damage stats will appear when striking"
+			tasks: [{
+				id: "6DC71DD8FBD8748F"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 3.9750000000000014d
+			y: 4.410714285714285d
 		}
 		{
+			description: ["Place the armor stand, and then sneak + right click to open the modification screen"]
+			id: "2C9EAC8FF3841CB4"
+			rewards: [{
+				id: "1F6C66D69B8239CA"
+				item: "minecraft:wheat"
+				random_bonus: 5
+				type: "item"
+			}]
+			subtitle: "Change Pose, Size, and More"
+			tasks: [{
+				id: "14F793FDF8968F22"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
 			title: "Customize Your Armor Stand"
 			x: 6.475000000000001d
 			y: 5.910714285714285d
-			subtitle: "Change Pose, Size, and More"
-			description: ["Place the armor stand, and then sneak + right click to open the modification screen"]
-			id: "2C9EAC8FF3841CB4"
-			tasks: [{
-				id: "14F793FDF8968F22"
-				type: "item"
-				item: "minecraft:armor_stand"
-			}]
-			rewards: [{
-				id: "1F6C66D69B8239CA"
-				type: "item"
-				item: "minecraft:wheat"
-				random_bonus: 5
-			}]
 		}
 		{
+			description: ["There could very well be a key confliction"]
 			icon: {
-				id: "ftbquests:custom_icon"
 				Count: 1b
+				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/info.png"
 				}
 			}
-			x: 5.5d
-			y: -1.0d
-			subtitle: "Press \"Z\""
-			description: ["There could very well be a key confliction"]
 			id: "4DD6D40677B8F5AB"
-			tasks: [{
-				id: "7FA1917363EEB0B2"
-				type: "checkmark"
-				title: "How to Crawl"
-			}]
 			rewards: [{
 				id: "1DCE1337A3A64B87"
-				type: "item"
 				item: "minecraft:apple"
+				type: "item"
 			}]
+			subtitle: "Press \"Z\""
+			tasks: [{
+				id: "7FA1917363EEB0B2"
+				title: "How to Crawl"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.0d
 		}
 		{
-			title: "Anvil and Reforging"
-			x: 2.2250000000000014d
-			y: 3.9107142857142847d
-			subtitle: "How to reforge tiered equipment"
 			description: [
 				"If you'd like to reforge your tiered gear, place an anvil down. Open the Reforged tab."
 				""
 				"The right slot requires a NETHERITE SCRAP. Left slot requires the material needed to repair the item. If there isnt a repair material, you can use flint"
 			]
-			size: 1.5d
 			id: "407DFA1CB0DB5AF0"
-			tasks: [{
-				id: "6CA77D92B2E8D1F9"
-				type: "item"
-				title: "Place Anvil to Open Reforged Menu"
-				item: "minecraft:anvil"
-			}]
 			rewards: [{
 				id: "570C05517DA91E15"
 				type: "xp"
 				xp: 5
 			}]
+			size: 1.5d
+			subtitle: "How to reforge tiered equipment"
+			tasks: [{
+				id: "6CA77D92B2E8D1F9"
+				item: "minecraft:anvil"
+				title: "Place Anvil to Open Reforged Menu"
+				type: "item"
+			}]
+			title: "Anvil and Reforging"
+			x: 2.2250000000000014d
+			y: 3.9107142857142847d
 		}
 		{
-			title: "Start Dark Enchanting [Mid Game]"
-			x: 2.5d
-			y: 10.5d
-			subtitle: "Pick out Enchantments, Pay with XP"
 			description: [
 				"Use the Dark Enchanter Table to pick what enchantments you want. This will cost you XP, and most enchantments cost a lot."
 				""
 				"You will most likely benefit from a dark enchanter if you have a way to farm xp"
 			]
-			size: 2.0d
 			id: "3D146715B8B709EF"
-			tasks: [{
-				id: "50237CB72F66F83D"
-				type: "item"
-				item: "dark-enchanting:dark_enchanter"
-			}]
 			rewards: [{
 				id: "259EE9382A59FCBA"
-				type: "item"
 				item: "additionaladditions:mysterious_bundle"
+				type: "item"
 			}]
+			size: 2.0d
+			subtitle: "Pick out Enchantments, Pay with XP"
+			tasks: [{
+				id: "50237CB72F66F83D"
+				item: "dark-enchanting:dark_enchanter"
+				type: "item"
+			}]
+			title: "Start Dark Enchanting [Mid Game]"
+			x: 2.5d
+			y: 10.5d
 		}
 		{
-			title: "Dark Shrine: Reduce up to 40% XP costs"
-			x: 5.0d
-			y: 10.5d
-			subtitle: "Youll want this"
+			dependencies: ["3D146715B8B709EF"]
 			description: [
 				"Using dark conduits can reduce total xp cost down to 40%. It does require a multi block setup and 4 dark conduit blocks"
 				"{image:kubejs:textures/gui/presets/de_main.png width:100 height:100 align:1 fit:true}"
 			]
-			dependencies: ["3D146715B8B709EF"]
 			id: "62821BE59F5077EA"
+			subtitle: "Youll want this"
 			tasks: [{
 				id: "436DC71A84135F95"
-				type: "checkmark"
 				title: "Dark Conduit: Reduce XP Costs"
+				type: "checkmark"
 			}]
+			title: "Dark Shrine: Reduce up to 40% XP costs"
+			x: 5.0d
+			y: 10.5d
 		}
 		{
-			x: 6.5d
-			y: 10.5d
+			dependencies: ["62821BE59F5077EA"]
 			description: [
 				"- Place Dark Enchanter"
 				""
@@ -996,35 +994,33 @@
 				"(This will only give you 20% Discount. you can keep going to get more % discount or stop here)"
 				"{image:kubejs:textures/gui/presets/de_1.png width:100 height:100 align:1 fit:true}"
 			]
-			dependencies: ["62821BE59F5077EA"]
 			id: "2F4D54B4EB27132D"
 			tasks: [{
 				id: "22FB9021C5AD57D5"
-				type: "checkmark"
 				title: "The First Ring"
+				type: "checkmark"
 			}]
+			x: 6.5d
+			y: 10.5d
 		}
 		{
-			x: 8.0d
-			y: 10.5d
-			subtitle: "Begin with another ring of Crying Obsidian one block from the original one. "
+			dependencies: ["2F4D54B4EB27132D"]
 			description: [
 				"{image:kubejs:textures/gui/presets/de_2.png width:100 height:100 align:1 fit:true}"
 				"A second star should now appear in the GUI, telling you that this ring is now active."
 			]
-			dependencies: ["2F4D54B4EB27132D"]
 			id: "673213E8DFF18B05"
+			subtitle: "Begin with another ring of Crying Obsidian one block from the original one. "
 			tasks: [{
 				id: "37C114F8D4710ECC"
-				type: "checkmark"
 				title: "The Second Ring"
+				type: "checkmark"
 			}]
+			x: 8.0d
+			y: 10.5d
 		}
 		{
-			title: "Dark Conduit Towers"
-			x: 9.5d
-			y: 10.5d
-			subtitle: "The final step"
+			dependencies: ["673213E8DFF18B05"]
 			description: [
 				"- Build 5-block high obsidian towers at each corner of the second shrine"
 				""
@@ -1035,64 +1031,63 @@
 				"{image:kubejs:textures/gui/presets/de_4.png width:100 height:100 align:1 fit:true}"
 				"Youre done grats! open up your Dark Enchanter and look at the lovely XP discount"
 			]
-			dependencies: ["673213E8DFF18B05"]
 			id: "40551588963F3771"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7587000122055D42"
+				table_id: 172378784714914766L
+				type: "random"
+			}]
+			subtitle: "The final step"
 			tasks: [
 				{
-					id: "031A9A639A9BBF1C"
-					type: "item"
-					title: "Craft 4 Dark Conduits"
-					item: "dark-enchanting:dark_conduit"
 					count: 4L
+					id: "031A9A639A9BBF1C"
+					item: "dark-enchanting:dark_conduit"
+					title: "Craft 4 Dark Conduits"
+					type: "item"
 				}
 				{
-					id: "0DAEDFEFB69FB6CD"
-					type: "questsadditions:place"
-					title: "Place 4 Dark Conduits"
-					block_type: 0
 					block: "dark-enchanting:dark_conduit"
-					value: 4L
-					replaced: "minecraft:air"
+					block_type: 0
+					id: "0DAEDFEFB69FB6CD"
 					replace: false
+					replaced: "minecraft:air"
+					title: "Place 4 Dark Conduits"
+					type: "questsadditions:place"
+					value: 4L
 				}
 			]
-			rewards: [{
-				id: "7587000122055D42"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 172378784714914766L
-			}]
+			title: "Dark Conduit Towers"
+			x: 9.5d
+			y: 10.5d
 		}
 		{
-			title: "How to Combat Roll"
+			description: ["There could very well be a key confliction"]
 			icon: {
-				id: "ftbquests:custom_icon"
 				Count: 1b
+				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:textures/icons/info.png"
 				}
 			}
-			x: 4.5d
-			y: -1.0d
-			subtitle: "Press \"R\""
-			description: ["There could very well be a key confliction"]
 			id: "3F9656835BA29878"
-			tasks: [{
-				id: "451C0ACE47DA3487"
-				type: "checkmark"
-				title: "How to Crawl"
-			}]
 			rewards: [{
 				id: "7D2A2B266A403B48"
-				type: "item"
 				item: "minecraft:apple"
+				type: "item"
 			}]
+			subtitle: "Press \"R\""
+			tasks: [{
+				id: "451C0ACE47DA3487"
+				title: "How to Crawl"
+				type: "checkmark"
+			}]
+			title: "How to Combat Roll"
+			x: 4.5d
+			y: -1.0d
 		}
 		{
-			title: "Vanity Slots and Transparent Armor"
-			x: 11.5d
-			y: -1.0d
-			subtitle: "How to utilize Vanity Slots or show skin instead"
 			description: [
 				"When you hover over your armor slots you will see a Vanity Slot (it is the lighter colored slot on the right). "
 				""
@@ -1101,63 +1096,64 @@
 				"If you want to wear armor while only showing your skin, you can craft these Familiar armor pieces and place them in your vanity slot as they are transparent, so only your skin will show."
 			]
 			id: "24FF30A34AF02705"
+			rewards: [{
+				count: 3
+				id: "3D1EA0256A00F04B"
+				item: "aqm2:copper_coin"
+				type: "item"
+			}]
+			subtitle: "How to utilize Vanity Slots or show skin instead"
 			tasks: [
 				{
 					id: "0A6E5145C4879517"
-					type: "item"
 					item: {
-						id: "vanityslots:familiar_wig"
 						Count: 1b
+						id: "vanityslots:familiar_wig"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "6C72800B38457079"
-					type: "item"
 					item: {
-						id: "vanityslots:familiar_shirt"
 						Count: 1b
+						id: "vanityslots:familiar_shirt"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "18B3D96FA6C96BCE"
-					type: "item"
 					item: {
-						id: "vanityslots:familiar_pants"
 						Count: 1b
+						id: "vanityslots:familiar_pants"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "76215166464435A8"
-					type: "item"
 					item: {
-						id: "vanityslots:familiar_sneakers"
 						Count: 1b
+						id: "vanityslots:familiar_sneakers"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "3D1EA0256A00F04B"
-				type: "item"
-				item: "aqm2:copper_coin"
-				count: 3
-			}]
+			title: "Vanity Slots and Transparent Armor"
+			x: 11.5d
+			y: -1.0d
 		}
 		{
-			x: 6.0d
-			y: 0.5d
-			subtitle: "How to Disenchant"
 			description: [
 				" The Disenchanter is a deceptively simple device for recovering enchantments from items. Use it by itself, and the first enchantment will be returned and the item destroyed. Use one of the Catalysts however and you will get a different set of enchantments back. Some of them will even preserve the item in the process!"
 				" The rightmost slot takes books onto which the enchantments are transferred. The center slot is for the Catalysts"
@@ -1170,31 +1166,35 @@
 				" - Nether Star (16x): Recovers all enchantments and preserves the item"
 			]
 			id: "07D09F348C4A887E"
+			subtitle: "How to Disenchant"
 			tasks: [{
 				id: "7AF682B3FB7C9CEC"
-				type: "item"
 				item: "disenchanter:disenchanter"
+				type: "item"
 			}]
+			x: 6.0d
+			y: 0.5d
 		}
 		{
-			title: "Mining Dimension"
-			x: 2.25d
-			y: 2.25d
-			subtitle: "How to go to the Mining Dimension"
 			description: ["Build this portal block, place it, right click it. there will be one placed automatically in the mining dimension so you can return"]
-			size: 1.5d
 			id: "626B8957A3D2C5B1"
-			tasks: [{
-				id: "500468AE6424C9DC"
-				type: "item"
-				item: "jamd:mine_portal_block"
-			}]
 			rewards: [{
 				id: "4EE9571DD4C50D10"
 				type: "xp"
 				xp: 5
 			}]
+			size: 1.5d
+			subtitle: "How to go to the Mining Dimension"
+			tasks: [{
+				id: "500468AE6424C9DC"
+				item: "jamd:mine_portal_block"
+				type: "item"
+			}]
+			title: "Mining Dimension"
+			x: 2.25d
+			y: 2.25d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["Read the quests here to learn about the modpack, what it offers, and where to start."]
+	title: "Start Here (FIRST DO THIS)"
 }

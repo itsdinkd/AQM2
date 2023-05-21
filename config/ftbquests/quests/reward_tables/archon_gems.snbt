@@ -1,8 +1,7 @@
 {
 	id: "7CD3B75FA2144ED0"
-	order_index: 11
-	title: "archon_gems"
 	loot_size: 1
+	order_index: 11
 	rewards: [
 		{ item: "archon:fire_gem" }
 		{ item: "archon:water_gem" }
@@ -10,4 +9,5 @@
 		{ item: "archon:sky_gem" }
 		{ item: "archon:end_gem" }
 	]
+	title: "archon_gems"
 }

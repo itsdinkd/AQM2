@@ -1,9 +1,8 @@
 {
-	id: "32D5B1AF6FF59854"
-	order_index: 13
-	title: "Legendary"
-	loot_size: 1
 	hide_tooltip: true
+	id: "32D5B1AF6FF59854"
+	loot_size: 1
+	order_index: 13
 	rewards: [
 		{ item: "artifacts:whoopee_cushion" }
 		{ item: "artifacts:flippers" }
@@ -35,8 +34,8 @@
 		{ item: "artifacts:umbrella" }
 		{
 			item: {
+				Count: 1b
 				id: "mcdar:wind_horn"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -44,8 +43,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "mcdar:iron_hide_amulet"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -53,8 +52,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "mcdar:ghost_cloak"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -62,8 +61,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "mcdar:death_cap_mushroom"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -71,8 +70,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "mcdar:boots_of_swiftness"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -80,8 +79,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "mcdar:wonderful_wheat"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -89,8 +88,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "mcdar:tasty_bone"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -98,8 +97,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "mcdar:buzzy_nest"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -107,8 +106,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "mcdar:satchel_of_elements"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -116,8 +115,8 @@
 		}
 		{
 			item: {
-				id: "mcdar:updraft_tome"
 				Count: 1b
+				id: "mcdar:updraft_tome"
 				tag: {
 					Damage: 0
 				}
@@ -145,4 +144,5 @@
 		{ item: "givemehats:bunny_ears" }
 		{ item: "givemehats:bowler_hat" }
 	]
+	title: "Legendary"
 }

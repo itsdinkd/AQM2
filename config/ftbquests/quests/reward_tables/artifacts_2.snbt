@@ -1,9 +1,8 @@
 {
-	id: "00653AEB28891C07"
-	order_index: 7
-	title: "Artifacts"
-	loot_size: 1
 	hide_tooltip: true
+	id: "00653AEB28891C07"
+	loot_size: 1
+	order_index: 7
 	rewards: [
 		{ item: "artifacts:whoopee_cushion" }
 		{ item: "artifacts:flippers" }
@@ -34,4 +33,5 @@
 		{ item: "artifacts:plastic_drinking_hat" }
 		{ item: "artifacts:umbrella" }
 	]
+	title: "Artifacts"
 }

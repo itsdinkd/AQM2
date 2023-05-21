@@ -1,17 +1,16 @@
 {
 	id: "07F5894FC61B129C"
-	order_index: 12
-	title: "Survival Kit"
 	loot_size: 1
+	order_index: 12
 	rewards: [
 		{ item: "minecraft:torch", weight: 12.0f }
 		{ item: "kibe:big_torch", only_one: true }
 		{ item: "kibe:torch_sling" }
-		{ item: "minecraft:coal", count: 12, random_bonus: 4 }
+		{ count: 12, item: "minecraft:coal", random_bonus: 4 }
 		{
 			item: {
-				id: "kibe:slime_boots"
 				Count: 1b
+				id: "kibe:slime_boots"
 				tag: {
 					Damage: 0
 				}
@@ -19,16 +18,16 @@
 		}
 		{ item: "kibe:white_sleeping_bag" }
 		{ item: "coxinhautilities:wooden_hopper" }
-		{ item: "coxinhautilities:aquatic_torch", count: 6 }
+		{ count: 6, item: "coxinhautilities:aquatic_torch" }
 		{ item: "sandwichable:burnt_food" }
-		{ item: "betternether:herbal_medicine", count: 2, random_bonus: 1 }
+		{ count: 2, item: "betternether:herbal_medicine", random_bonus: 1 }
 		{ item: "byg:rainbow_eucalyptus_crafting_table" }
 		{ item: "fabric-furnaces:fabric_furnace" }
-		{ item: "minecraft:golden_apple", count: 2, random_bonus: 4 }
+		{ count: 2, item: "minecraft:golden_apple", random_bonus: 4 }
 		{
 			item: {
+				Count: 1b
 				id: "harvest_scythes:golden_scythe"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -36,25 +35,25 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "harvest_scythes:golden_machete"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
 		}
 		{
+			count: 6
 			item: {
-				id: "lavajava:lava_java"
 				Count: 1b
+				id: "lavajava:lava_java"
 				tag: { }
 			}
-			count: 6
 		}
 		{
 			item: {
+				Count: 1b
 				id: "lilwings:butterfly_net"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -62,8 +61,8 @@
 		}
 		{
 			item: {
+				Count: 1b
 				id: "simplyswords:iron_chakram"
-				Count: 1b
 				tag: {
 					Damage: 0
 				}
@@ -71,12 +70,13 @@
 		}
 		{
 			item: {
-				id: "simplyswords:iron_claymore"
 				Count: 1b
+				id: "simplyswords:iron_claymore"
 				tag: {
 					Damage: 0
 				}
 			}
 		}
 	]
+	title: "Survival Kit"
 }

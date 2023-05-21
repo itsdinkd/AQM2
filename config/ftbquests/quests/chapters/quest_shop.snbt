@@ -1,416 +1,416 @@
 {
-	id: "165083CE26A95070"
-	group: ""
-	order_index: 2
-	filename: "quest_shop"
-	title: "-QUEST SHOP-"
-	icon: "aqm2:gold_coin"
-	disable_toast: true
-	subtitle: ["Use those quest coins"]
-	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	disable_toast: true
+	filename: "quest_shop"
+	group: ""
+	icon: "aqm2:gold_coin"
+	id: "165083CE26A95070"
 	images: [
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: ["Copper Coin Shop"]
+			image: "aqm2:textures/item/copper_coin.png"
+			rotation: 0.0d
+			width: 3.0d
 			x: -12.5d
 			y: -3.0d
-			width: 3.0d
-			height: 3.0d
-			rotation: 0.0d
-			image: "aqm2:textures/item/copper_coin.png"
-			hover: ["Copper Coin Shop"]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: ["Silver Coin Shop"]
+			image: "aqm2:textures/item/silver_coin.png"
+			rotation: 0.0d
+			width: 3.0d
 			x: -0.5d
 			y: -3.0d
-			width: 3.0d
-			height: 3.0d
-			rotation: 0.0d
-			image: "aqm2:textures/item/silver_coin.png"
-			hover: ["Silver Coin Shop"]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: ["Gold Coin Shop"]
+			image: "aqm2:textures/item/gold_coin.png"
+			rotation: 0.0d
+			width: 3.0d
 			x: 11.5d
 			y: -3.0d
-			width: 3.0d
-			height: 3.0d
-			rotation: 0.0d
-			image: "aqm2:textures/item/gold_coin.png"
-			hover: ["Gold Coin Shop"]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "bewitchment:textures/block/salt_line_line0.png"
+			rotation: 90.0d
+			width: 1.0d
 			x: -6.5d
 			y: -3.0d
-			width: 1.0d
-			height: 5.0d
-			rotation: 90.0d
-			image: "bewitchment:textures/block/salt_line_line0.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "bewitchment:textures/block/salt_line_line0.png"
+			rotation: 90.0d
+			width: 1.0d
 			x: 5.5d
 			y: -3.0d
-			width: 1.0d
-			height: 5.0d
-			rotation: 90.0d
-			image: "bewitchment:textures/block/salt_line_line0.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
 		}
 		{
-			x: -3.5d
-			y: -13.0d
-			width: 3.0d
+			click: ""
+			corner: false
+			dev: false
 			height: 3.0d
-			rotation: 0.0d
-			image: "aqm2:textures/item/rare_gem.png"
 			hover: [
 				"Rare Gem Shop"
 				"Drops From; Ender Dragon, Warden"
 			]
-			click: ""
-			dev: false
-			corner: false
+			image: "aqm2:textures/item/rare_gem.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.5d
+			y: -13.0d
 		}
 		{
-			x: 2.0d
-			y: -13.0d
-			width: 3.0d
+			click: ""
+			corner: false
+			dev: false
 			height: 3.0d
-			rotation: 0.0d
-			image: "aqm2:textures/item/epic_gem.png"
 			hover: [
 				"Epic Gem Shop"
 				"Drops From; Doom, BOMD Bosses"
 			]
-			click: ""
-			dev: false
-			corner: false
+			image: "aqm2:textures/item/epic_gem.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: -13.0d
 		}
 		{
-			x: -9.0d
-			y: -13.0d
-			width: 3.0d
+			click: ""
+			corner: false
+			dev: false
 			height: 3.0d
-			rotation: 0.0d
-			image: "aqm2:textures/item/common_gem.png"
 			hover: [
 				"Common Gem Shop"
 				"Drops From; Wither, Elder Guardian"
 			]
-			click: ""
-			dev: false
-			corner: false
+			image: "aqm2:textures/item/common_gem.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -9.0d
+			y: -13.0d
 		}
 		{
-			x: 8.5d
-			y: -13.0d
-			width: 3.0d
+			click: ""
+			corner: false
+			dev: false
 			height: 3.0d
-			rotation: 0.0d
-			image: "aqm2:textures/item/legendary_gem.png"
 			hover: [
 				"Legendary Gem Shop"
 				"Drops from; All Soulslike Bosses"
 			]
-			click: ""
-			dev: false
-			corner: false
+			image: "aqm2:textures/item/legendary_gem.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.5d
+			y: -13.0d
 		}
 	]
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Orc Skin (2 Silver Coins)"
-			icon: "adventurez:orc_skin"
-			x: -1.5d
-			y: 0.5d
 			dependency_requirement: "one_completed"
-			repeatable: true
+			icon: "adventurez:orc_skin"
 			id: "565E474E41B29E57"
-			tasks: [{
-				id: "3F9C7FB086ACD181"
-				type: "item"
-				item: "aqm2:silver_coin"
-				count: 2L
-				consume_items: true
-			}]
+			repeatable: true
 			rewards: [{
 				id: "6ED10DB63D3AFCB7"
-				type: "item"
 				item: "adventurez:orc_skin"
+				type: "item"
 			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3F9C7FB086ACD181"
+				item: "aqm2:silver_coin"
+				type: "item"
+			}]
+			title: "Orc Skin (2 Silver Coins)"
+			x: -1.5d
+			y: 0.5d
 		}
 		{
-			title: "Heartstone (5 Silver Coins)"
-			icon: "heartstone:heartstone"
-			x: 0.5d
-			y: 0.5d
 			description: [
 				"Bind to another player to teleport to one another"
 				""
 				"&l&oSimilar to a &nTPA&r command&r&r"
 			]
-			repeatable: true
+			icon: "heartstone:heartstone"
 			id: "1C653C467308BE45"
-			tasks: [{
-				id: "5F5C745A30399AA9"
-				type: "item"
-				item: "aqm2:silver_coin"
-				count: 5L
-				consume_items: true
-			}]
+			repeatable: true
 			rewards: [{
-				id: "7991EA3F199E16C2"
-				type: "item"
-				item: "heartstone:heartstone"
 				count: 2
+				id: "7991EA3F199E16C2"
+				item: "heartstone:heartstone"
+				type: "item"
 			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "5F5C745A30399AA9"
+				item: "aqm2:silver_coin"
+				type: "item"
+			}]
+			title: "Heartstone (5 Silver Coins)"
+			x: 0.5d
+			y: 0.5d
 		}
 		{
-			title: "Oak Planks (20 Copper Coins)"
 			icon: "minecraft:oak_planks"
+			id: "1C0B56116BBDE06A"
+			repeatable: true
+			rewards: [{
+				count: 9
+				id: "24AF70E053D9D72C"
+				item: "minecraft:oak_planks"
+				random_bonus: 9
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "120F2F5A30408D78"
+				item: "aqm2:copper_coin"
+				type: "item"
+			}]
+			title: "Oak Planks (20 Copper Coins)"
 			x: -13.5d
 			y: 0.5d
-			repeatable: true
-			id: "1C0B56116BBDE06A"
-			tasks: [{
-				id: "120F2F5A30408D78"
-				type: "item"
-				item: "aqm2:copper_coin"
-				count: 20L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "24AF70E053D9D72C"
-				type: "item"
-				item: "minecraft:oak_planks"
-				count: 9
-				random_bonus: 9
-			}]
 		}
 		{
-			title: "Common Loot (50 Copper Coins)"
 			icon: "kibe:entangled_bag"
+			id: "1ADE6564D588B164"
+			repeatable: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13E78FB9C8A42983"
+				table_id: 1140926682852401208L
+				type: "random"
+			}]
+			subtitle: "Test your luck on the common loot table"
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "5C5D35256DFD6FA5"
+				item: "aqm2:copper_coin"
+				type: "item"
+			}]
+			title: "Common Loot (50 Copper Coins)"
 			x: -11.5d
 			y: 2.0d
-			subtitle: "Test your luck on the common loot table"
-			repeatable: true
-			id: "1ADE6564D588B164"
-			tasks: [{
-				id: "5C5D35256DFD6FA5"
-				type: "item"
-				item: "aqm2:copper_coin"
-				count: 50L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "13E78FB9C8A42983"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1140926682852401208L
-			}]
 		}
 		{
-			title: "5 Coal (7 Copper Coins)"
 			icon: "minecraft:coal"
+			id: "2B73160E8D8167C3"
+			repeatable: true
+			rewards: [{
+				count: 5
+				id: "15F0B729694271FA"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "65529F1BE1B89698"
+				item: "aqm2:copper_coin"
+				type: "item"
+			}]
+			title: "5 Coal (7 Copper Coins)"
 			x: -13.5d
 			y: 2.0d
-			repeatable: true
-			id: "2B73160E8D8167C3"
-			tasks: [{
-				id: "65529F1BE1B89698"
-				type: "item"
-				item: "aqm2:copper_coin"
-				count: 24L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "15F0B729694271FA"
-				type: "item"
-				item: "minecraft:coal"
-				count: 5
-			}]
 		}
 		{
-			title: "Dragon Loot (2 Epic Gems)"
 			icon: "dragonloot:dragon_scale"
-			x: 1.0d
-			y: -10.5d
-			repeatable: true
 			id: "25A5D81BCCA4A1A1"
-			tasks: [{
-				id: "5E8855B0DF12B4FF"
-				type: "item"
-				item: "aqm2:epic_gem"
-				count: 2L
-				consume_items: true
-			}]
+			repeatable: true
 			rewards: [{
 				id: "3EACDD106EB1421E"
-				type: "item"
-				title: "Dragon Scale"
 				item: "dragonloot:dragon_scale"
+				title: "Dragon Scale"
+				type: "item"
 			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5E8855B0DF12B4FF"
+				item: "aqm2:epic_gem"
+				type: "item"
+			}]
+			title: "Dragon Loot (2 Epic Gems)"
+			x: 1.0d
+			y: -10.5d
 		}
 		{
-			title: "Mineshaft Entrance (1 Epic Gem)"
 			icon: "prefab:item_mineshaft_entrance"
-			x: 3.0d
-			y: -10.5d
-			subtitle: "This will automatically dig a verticle tunnel to bottom floor and place ladders"
-			repeatable: true
 			id: "28F759A5005403EC"
-			tasks: [{
-				id: "7260E3CB0A0596EE"
-				type: "item"
-				item: "aqm2:epic_gem"
-				consume_items: true
-			}]
+			repeatable: true
 			rewards: [{
 				id: "01CF37E886E35E09"
-				type: "item"
 				item: "prefab:item_mineshaft_entrance"
+				type: "item"
 			}]
+			subtitle: "This will automatically dig a verticle tunnel to bottom floor and place ladders"
+			tasks: [{
+				consume_items: true
+				id: "7260E3CB0A0596EE"
+				item: "aqm2:epic_gem"
+				type: "item"
+			}]
+			title: "Mineshaft Entrance (1 Epic Gem)"
+			x: 3.0d
+			y: -10.5d
 		}
 		{
-			title: "Unique Weapons Loot (3 Epic Gems)"
 			icon: {
-				id: "simplyswords:soulstealer"
 				Count: 1b
+				id: "simplyswords:soulstealer"
 				tag: {
 					Damage: 0
 				}
 			}
+			id: "0751CCBB8BA4D1DA"
+			repeatable: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7063401A87EB342F"
+				table_id: 8135751449899826488L
+				type: "random"
+			}]
+			subtitle: "Test your luck on the unique weapon loot table"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5183989C0CD3EABB"
+				item: "aqm2:epic_gem"
+				type: "item"
+			}]
+			title: "Unique Weapons Loot (3 Epic Gems)"
 			x: 1.0d
 			y: -9.0d
-			subtitle: "Test your luck on the unique weapon loot table"
-			repeatable: true
-			id: "0751CCBB8BA4D1DA"
-			tasks: [{
-				id: "5183989C0CD3EABB"
-				type: "item"
-				item: "aqm2:epic_gem"
-				count: 3L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "7063401A87EB342F"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8135751449899826488L
-			}]
 		}
 		{
-			title: "Food Kit (50 Copper Coins)"
 			icon: "croptopia:anchovy_pizza"
+			id: "794FEF36AF7C9F5C"
+			repeatable: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59CA3CB55FB415BC"
+				table_id: 3993333828053565449L
+				type: "random"
+			}]
+			subtitle: "Obtain random groups of food with 50 copper coins"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "3A68BF8003B9D265"
+				item: "aqm2:copper_coin"
+				type: "item"
+			}]
+			title: "Food Kit (50 Copper Coins)"
 			x: -11.5d
 			y: 0.5d
-			subtitle: "Obtain random groups of food with 50 copper coins"
-			repeatable: true
-			id: "794FEF36AF7C9F5C"
-			tasks: [{
-				id: "3A68BF8003B9D265"
-				type: "item"
-				item: "aqm2:copper_coin"
-				count: 100L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "59CA3CB55FB415BC"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 3993333828053565449L
-			}]
 		}
 		{
-			title: "Torches (7 Copper Coins)"
 			icon: "minecraft:torch"
+			id: "386ECF56A672B896"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "43BBD785B0D9BBF5"
+				item: "minecraft:torch"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "006965765E872C07"
+				item: "aqm2:copper_coin"
+				type: "item"
+			}]
+			title: "Torches (7 Copper Coins)"
 			x: -13.5d
 			y: 3.5d
-			repeatable: true
-			id: "386ECF56A672B896"
-			tasks: [{
-				id: "006965765E872C07"
-				type: "item"
-				item: "aqm2:copper_coin"
-				count: 20L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "43BBD785B0D9BBF5"
-				type: "item"
-				item: "minecraft:torch"
-				count: 3
-				random_bonus: 1
-			}]
 		}
 		{
-			title: "Indrev Slaughter (2 Legendary Gems)"
 			icon: "indrev:slaughter_mk1"
-			x: 7.5d
-			y: -10.5d
-			subtitle: "Automate Mob Farm with this block that kills mobs in AoE"
-			repeatable: true
 			id: "60F89A55CC8CC9C3"
-			tasks: [{
-				id: "6A84FF2576A90E46"
-				type: "item"
-				item: "aqm2:legendary_gem"
-				count: 2L
-				consume_items: true
-			}]
+			repeatable: true
 			rewards: [{
 				id: "6F2F3A91ABA7FE7E"
-				type: "item"
 				item: "indrev:slaughter_mk1"
+				type: "item"
 			}]
+			subtitle: "Automate Mob Farm with this block that kills mobs in AoE"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6A84FF2576A90E46"
+				item: "aqm2:legendary_gem"
+				type: "item"
+			}]
+			title: "Indrev Slaughter (2 Legendary Gems)"
+			x: 7.5d
+			y: -10.5d
 		}
 		{
+			id: "526015D8EFC3E19B"
+			size: 3.0d
+			tasks: [{
+				id: "6E8F6AAA26856C35"
+				title: "This is a work in progress."
+				type: "checkmark"
+			}]
 			title: "The quest shop is a Work In Progress"
 			x: 0.0d
 			y: -20.0d
-			size: 3.0d
-			id: "526015D8EFC3E19B"
-			tasks: [{
-				id: "6E8F6AAA26856C35"
-				type: "checkmark"
-				title: "This is a work in progress."
-			}]
 		}
 		{
-			title: "Verglas (2 Legendary Gems)"
 			icon: "soulsweapons:verglas"
-			x: 9.5d
-			y: -10.5d
-			subtitle: "Automate Mob Farm with this block that kills mobs in AoE"
-			repeatable: true
 			id: "616759FE831DB84A"
-			tasks: [{
-				id: "15B74A4B67FE581B"
-				type: "item"
-				item: "aqm2:legendary_gem"
-				count: 2L
-				consume_items: true
-			}]
+			repeatable: true
 			rewards: [{
 				id: "64484C10568B6C06"
-				type: "item"
 				item: "soulsweapons:verglas"
+				type: "item"
 			}]
+			subtitle: "Automate Mob Farm with this block that kills mobs in AoE"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "15B74A4B67FE581B"
+				item: "aqm2:legendary_gem"
+				type: "item"
+			}]
+			title: "Verglas (2 Legendary Gems)"
+			x: 9.5d
+			y: -10.5d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["Use those quest coins"]
+	title: "-QUEST SHOP-"
 }

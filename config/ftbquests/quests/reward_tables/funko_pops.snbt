@@ -1,8 +1,7 @@
 {
 	id: "47899BEB932F4F5D"
-	order_index: 9
-	title: "Funko Pops"
 	loot_size: 1
+	order_index: 9
 	rewards: [
 		{ item: "minepop:minepop_steve" }
 		{ item: "minepop:minepop_alex" }
@@ -67,4 +66,5 @@
 		{ item: "minepop:minepop_cell" }
 		{ item: "minepop:minepop_deathgun" }
 	]
+	title: "Funko Pops"
 }

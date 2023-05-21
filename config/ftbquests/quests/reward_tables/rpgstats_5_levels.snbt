@@ -1,50 +1,50 @@
 {
 	id: "7889B3635534D4B8"
-	order_index: 14
-	title: "RPGStats (5 Levels)"
 	loot_size: 1
+	order_index: 14
 	rewards: [
 		{
-			title: "Defense 5"
 			command: "/rpgcheat @p rpgstats:defence add levels 5"
 			player_command: false
+			title: "Defense 5"
 			type: "command"
 		}
 		{
-			title: "Farming 5"
 			command: "/rpgcheat @p rpgstats:farming add levels 5"
 			player_command: false
+			title: "Farming 5"
 			type: "command"
 		}
 		{
-			title: "Fishing 5"
 			command: "/rpgcheat @p rpgstats:fishing add levels 5"
 			player_command: false
+			title: "Fishing 5"
 			type: "command"
 		}
 		{
-			title: "Magic 5"
 			command: "/rpgcheat @p rpgstats:magic add levels 5"
 			player_command: false
+			title: "Magic 5"
 			type: "command"
 		}
 		{
-			title: "Melee 5"
 			command: "/rpgcheat @p rpgstats:melee add levels 5"
 			player_command: false
+			title: "Melee 5"
 			type: "command"
 		}
 		{
-			title: "Mining 5"
 			command: "/rpgcheat @p rpgstats:mining add levels 5"
 			player_command: false
+			title: "Mining 5"
 			type: "command"
 		}
 		{
-			title: "Ranged 5"
 			command: "/rpgcheat @p rpgstats:ranged add levels 5"
 			player_command: false
+			title: "Ranged 5"
 			type: "command"
 		}
 	]
+	title: "RPGStats (5 Levels)"
 }

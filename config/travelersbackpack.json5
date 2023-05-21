@@ -1,5 +1,6 @@
 {
 	"backpackSettings": {
+		"enableTierUpgrades": false,
 		"disableCrafting": true,
 		// Enables wearing backpack directly from ground
 		"enableBackpackBlockQuickEquip": true,
@@ -35,6 +36,7 @@
 			"compact_storage:backpack_white",
 			"compact_storage:backpack_yellow"
 		],
+		"allowShulkerBoxes": false,
 		// Represents tanks capacity for each tier, from left: Leather, Iron, Gold, Diamond, Netherite, 81000 equals 1 Bucket
 		"tanksCapacity": [
 			162000,

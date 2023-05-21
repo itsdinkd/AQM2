@@ -1,405 +1,401 @@
 {
-	id: "4DD12AFABD21AAEE"
-	group: "2B2D8A5BD664DEFC"
-	order_index: 1
-	filename: "uhaul"
-	title: "Storage Options"
-	subtitle: ["Learn about chests and storage options like danks, backpacks, best chests, etc"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uhaul"
+	group: "2B2D8A5BD664DEFC"
+	id: "4DD12AFABD21AAEE"
+	order_index: 1
+	quest_links: [{
+		id: "1943B0B33A78B492"
+		linked_quest: "43E87948D1604211"
+		x: -11.5d
+		y: 6.5d
+	}]
 	quests: [
 		{
-			x: -1.0d
-			y: -1.0d
-			subtitle: "Storage Drawers (1 slot, hundreds of stacks)"
+			dependencies: ["4F9ED5C7F32D873C"]
 			description: [
 				"Allows you to put one item in with high stack amounts"
 				""
 				"After depositing an item in by holding and right clicking the block, you can keep tapping left click on the individual drawer to withdraw. 1 Click = 1 Withdraw, Sneak + Left Click takes stacks of 64"
 			]
-			dependencies: ["4F9ED5C7F32D873C"]
 			id: "453FA4328D144AFA"
-			tasks: [{
-				id: "21528316223443F3"
-				type: "item"
-				item: "extended_drawers:single_drawer"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "63A225259087335D"
-				type: "item"
 				item: "extended_drawers:single_drawer"
+				type: "item"
 			}]
+			subtitle: "Storage Drawers (1 slot, hundreds of stacks)"
+			tasks: [{
+				id: "21528316223443F3"
+				item: "extended_drawers:single_drawer"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
 		}
 		{
-			x: -1.0d
-			y: 0.0d
-			subtitle: "2 drawers for 2 items"
 			dependencies: ["453FA4328D144AFA"]
 			id: "16FF05E583BFFA38"
-			tasks: [{
-				id: "5FAD2DE4CFA2CD47"
-				type: "item"
-				item: "extended_drawers:double_drawer"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "0F3FF219A2CA78DD"
-				type: "item"
 				item: "extended_drawers:double_drawer"
+				type: "item"
 			}]
+			subtitle: "2 drawers for 2 items"
+			tasks: [{
+				id: "5FAD2DE4CFA2CD47"
+				item: "extended_drawers:double_drawer"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
 		}
 		{
-			x: -1.0d
-			y: 1.0d
-			subtitle: "4 drawers for 4 items"
 			dependencies: ["16FF05E583BFFA38"]
 			id: "5828340721EB75ED"
-			tasks: [{
-				id: "7351E4D21128321F"
-				type: "item"
-				item: "extended_drawers:quad_drawer"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "7813320FE3B571C9"
-				type: "item"
 				item: "extended_drawers:quad_drawer"
+				type: "item"
 			}]
+			subtitle: "4 drawers for 4 items"
+			tasks: [{
+				id: "7351E4D21128321F"
+				item: "extended_drawers:quad_drawer"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
 		}
 		{
-			x: 0.0d
-			y: -0.5d
-			subtitle: "Connect your drawers using this connector"
-			description: ["Think of these connectors as pipes. The drawer must be touching the connector that you want to connect"]
 			dependencies: ["453FA4328D144AFA"]
+			description: ["Think of these connectors as pipes. The drawer must be touching the connector that you want to connect"]
 			id: "0C5D2138D83B2B70"
+			rewards: [{
+				count: 3
+				id: "56F7EED693F8975C"
+				item: "extended_drawers:connector"
+				type: "item"
+			}]
+			subtitle: "Connect your drawers using this connector"
 			tasks: [{
 				id: "5371182E9473F833"
-				type: "item"
 				item: "extended_drawers:connector"
-			}]
-			rewards: [{
-				id: "56F7EED693F8975C"
 				type: "item"
-				item: "extended_drawers:connector"
-				count: 3
 			}]
+			x: 0.0d
+			y: -0.5d
 		}
 		{
-			x: -2.0d
-			y: -0.5d
-			subtitle: "Upgrade stack size  2x"
+			dependencies: ["453FA4328D144AFA"]
 			description: [
 				"To add to your drawer, hold the upgrade out and sneak + right click the drawer you want to add it to. You can add a upgrade to each drawer on the block (Example, Quad Drawers can have 4 upgrades)"
 				""
 				"You can take it off by pointing your mouse at the icon on the drawer and right clicking"
 			]
-			dependencies: ["453FA4328D144AFA"]
 			id: "2662C691C59CD704"
-			tasks: [{
-				id: "2730A8357E1DCBB4"
-				type: "item"
-				item: "extended_drawers:t1_upgrade"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "16EB127DE296FCC4"
-				type: "item"
 				item: "extended_drawers:upgrade_frame"
+				type: "item"
 			}]
+			subtitle: "Upgrade stack size  2x"
+			tasks: [{
+				id: "2730A8357E1DCBB4"
+				item: "extended_drawers:t1_upgrade"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
 		}
 		{
-			x: -2.0d
-			y: 0.5d
-			subtitle: "Upgrade stack size  4x"
 			dependencies: ["2662C691C59CD704"]
 			id: "227A7FE12FF85DDD"
-			tasks: [{
-				id: "52E309B8B8C36BDA"
-				type: "item"
-				item: "extended_drawers:t2_upgrade"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "4B84F1FE980E6FD4"
-				type: "item"
 				item: "extended_drawers:upgrade_frame"
+				type: "item"
 			}]
+			subtitle: "Upgrade stack size  4x"
+			tasks: [{
+				id: "52E309B8B8C36BDA"
+				item: "extended_drawers:t2_upgrade"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
 		}
 		{
-			x: -2.0d
-			y: 1.5d
-			subtitle: "Upgrade stack size  8x"
 			dependencies: ["227A7FE12FF85DDD"]
 			id: "61DAA534A8BD6A66"
-			tasks: [{
-				id: "24F24E4FE9A7C100"
-				type: "item"
-				item: "extended_drawers:t3_upgrade"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "7C2F7E10D17E8A2F"
-				type: "item"
 				item: "extended_drawers:t1_upgrade"
+				type: "item"
 			}]
+			subtitle: "Upgrade stack size  8x"
+			tasks: [{
+				id: "24F24E4FE9A7C100"
+				item: "extended_drawers:t3_upgrade"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
 		}
 		{
-			x: -2.0d
-			y: 2.5d
-			subtitle: "Upgrade stack size  16x"
 			dependencies: ["61DAA534A8BD6A66"]
 			id: "7293CAD58793DE17"
-			tasks: [{
-				id: "21919F989208DEE4"
-				type: "item"
-				item: "extended_drawers:t4_upgrade"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "5E73BE84320ABEBD"
-				type: "item"
 				item: "extended_drawers:t2_upgrade"
+				type: "item"
 			}]
+			subtitle: "Upgrade stack size  16x"
+			tasks: [{
+				id: "21919F989208DEE4"
+				item: "extended_drawers:t4_upgrade"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
 		}
 		{
-			x: -3.0d
-			y: 0.0d
-			subtitle: "Upgrade stack size"
 			dependencies: ["2662C691C59CD704"]
 			id: "2459485871DA4E04"
-			tasks: [{
-				id: "534A1DB82B15B76B"
-				type: "item"
-				item: "extended_drawers:downgrade"
-				only_from_crafting: true
-			}]
 			rewards: [{
 				id: "1FBAE75999223C56"
-				type: "item"
 				item: "extended_drawers:t3_upgrade"
+				type: "item"
 			}]
+			subtitle: "Upgrade stack size"
+			tasks: [{
+				id: "534A1DB82B15B76B"
+				item: "extended_drawers:downgrade"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			x: -3.0d
-			y: -1.0d
-			subtitle: "Name says it all"
 			dependencies: ["2662C691C59CD704"]
 			id: "2B289A0C025AC8F8"
-			tasks: [{
-				id: "33D7BF8B66BE5221"
-				type: "item"
-				item: "extended_drawers:lock"
-			}]
 			rewards: [{
 				id: "3A236F0B4E8E8F89"
-				type: "item"
 				item: "extended_drawers:upgrade_frame"
+				type: "item"
 			}]
+			subtitle: "Name says it all"
+			tasks: [{
+				id: "33D7BF8B66BE5221"
+				item: "extended_drawers:lock"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
 		}
 		{
-			x: 0.0d
-			y: 0.5d
-			subtitle: "The master controller. Use one of these with connectors touching it"
+			dependencies: ["0C5D2138D83B2B70"]
 			description: [
 				"This will allow you to deposit items on it and the item will go to the next available drawer if its a new item, or to the drawer that already contains said item"
 				""
 				"They only support insertion in world, but can be extracted from using pipes and hoppers. They can also be used to lock a large amount of drawers at the same time."
 			]
-			dependencies: ["0C5D2138D83B2B70"]
-			invisible: true
 			id: "15B23D1FCFED7F69"
-			tasks: [{
-				id: "3B890CC5B8CB4E7C"
-				type: "item"
-				item: "extended_drawers:controller"
-			}]
+			invisible: true
 			rewards: [{
 				id: "271865820326E11E"
-				type: "item"
 				item: "gofish:iron_crate"
+				type: "item"
 			}]
+			subtitle: "The master controller. Use one of these with connectors touching it"
+			tasks: [{
+				id: "3B890CC5B8CB4E7C"
+				item: "extended_drawers:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
 		}
 		{
-			x: 1.0d
-			y: -0.5d
-			subtitle: "Used to show amounts in networks, can be used for insert and extract"
-			description: ["Shadow drawers show the amount of a resource that is available in the whole network and allows for insertion and expansion of that resource, but they are only available in the 1 slot configuration."]
 			dependencies: ["0C5D2138D83B2B70"]
+			description: ["Shadow drawers show the amount of a resource that is available in the whole network and allows for insertion and expansion of that resource, but they are only available in the 1 slot configuration."]
 			id: "4CDF3157F7376080"
-			tasks: [{
-				id: "45F1C75BB460ED95"
-				type: "item"
-				item: "extended_drawers:shadow_drawer"
-			}]
 			rewards: [{
 				id: "5887EEFBF813948A"
-				type: "item"
 				item: "extended_drawers:upgrade_frame"
+				type: "item"
 			}]
+			subtitle: "Used to show amounts in networks, can be used for insert and extract"
+			tasks: [{
+				id: "45F1C75BB460ED95"
+				item: "extended_drawers:shadow_drawer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
 		}
 		{
-			title: "Toms Storage: Inventory Connector"
-			x: 6.0d
-			y: 2.0d
-			subtitle: "Poor mans AE2 - Rewards coming soon"
 			description: [
 				"This is basically Simple Storage Network. Use the Inventory Connector to connect to chests or to use it wirelessly by adding a storage or crafting terminal to it"
 				""
 				"Questline Rewards coming soon"
 			]
 			id: "1516CD4B2E6CCB74"
+			rewards: [{
+				count: 3
+				id: "7D64F578EBA6D290"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			subtitle: "Poor mans AE2 - Rewards coming soon"
 			tasks: [{
 				id: "31E60507907453BF"
-				type: "item"
 				item: "toms_storage:ts.inventory_connector"
-			}]
-			rewards: [{
-				id: "7D64F578EBA6D290"
 				type: "item"
-				item: "toms_storage:ts.inventory_cable"
-				count: 3
 			}]
+			title: "Toms Storage: Inventory Connector"
+			x: 6.0d
+			y: 2.0d
 		}
 		{
-			x: 4.5d
-			y: 3.5d
-			subtitle: "Place on a Inventory Connector"
 			dependencies: ["1516CD4B2E6CCB74"]
 			id: "3BC219B8883CB46E"
+			subtitle: "Place on a Inventory Connector"
 			tasks: [{
 				id: "17FB37166734C5E8"
-				type: "item"
 				item: "toms_storage:ts.storage_terminal"
+				type: "item"
 			}]
+			x: 4.5d
+			y: 3.5d
 		}
 		{
-			x: 4.5d
-			y: 5.0d
-			subtitle: "Storage Terminal but with crafting"
 			dependencies: ["3BC219B8883CB46E"]
 			id: "4668728F7E556923"
+			subtitle: "Storage Terminal but with crafting"
 			tasks: [{
 				id: "72527E3EC352C030"
-				type: "item"
 				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
 			}]
+			x: 4.5d
+			y: 5.0d
 		}
 		{
-			x: 6.0d
-			y: 3.5d
-			subtitle: "This is what moves the items"
-			description: ["Connect it to the cable connector, leading to your Storage/Crafting Terminal"]
 			dependencies: ["1516CD4B2E6CCB74"]
+			description: ["Connect it to the cable connector, leading to your Storage/Crafting Terminal"]
 			id: "00DC4503D8F34ED2"
+			subtitle: "This is what moves the items"
 			tasks: [{
 				id: "3146048898E4C626"
-				type: "item"
 				item: "toms_storage:ts.inventory_cable"
+				type: "item"
 			}]
+			x: 6.0d
+			y: 3.5d
 		}
 		{
-			x: 6.0d
-			y: 5.0d
-			subtitle: "Connects inbetween chest and cable"
 			dependencies: ["00DC4503D8F34ED2"]
 			id: "5A0F9067D6885BCD"
+			subtitle: "Connects inbetween chest and cable"
 			tasks: [{
 				id: "5E769E8B6110445C"
-				type: "item"
 				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
 			}]
+			x: 6.0d
+			y: 5.0d
 		}
 		{
-			x: 6.0d
-			y: 6.5d
-			subtitle: "Filter items using this, right click to set filter"
 			dependencies: ["00DC4503D8F34ED2"]
 			id: "529ADE638FEFCE92"
+			subtitle: "Filter items using this, right click to set filter"
 			tasks: [{
 				id: "15993556F3AF1BB9"
-				type: "item"
 				item: "toms_storage:ts.inventory_cable_connector_filtered"
+				type: "item"
 			}]
+			x: 6.0d
+			y: 6.5d
 		}
 		{
-			x: 7.5d
-			y: 3.5d
-			subtitle: "You can use this to push items into your network"
 			dependencies: [
 				"1516CD4B2E6CCB74"
 				"00DC4503D8F34ED2"
 			]
 			id: "234378CC7E850F61"
+			subtitle: "You can use this to push items into your network"
 			tasks: [{
 				id: "3C882D4492D65385"
-				type: "item"
 				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
 			}]
+			x: 7.5d
+			y: 3.5d
 		}
 		{
-			x: 3.0d
-			y: 6.5d
-			subtitle: "Wireless range increases"
-			description: ["Sneak + Right click the Storage/Crafting terminal to set to the network"]
 			dependencies: ["3023E1D876818ACE"]
+			description: ["Sneak + Right click the Storage/Crafting terminal to set to the network"]
 			id: "2DC80F325B12B118"
+			subtitle: "Wireless range increases"
 			tasks: [{
 				id: "1A8464792727B90E"
-				type: "item"
 				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
 			}]
+			x: 3.0d
+			y: 6.5d
 		}
 		{
-			x: 4.5d
-			y: 6.5d
-			subtitle: "Access storage wirelessly"
-			description: ["Sneak + Right click the Storage/Crafting terminal to set to the network"]
 			dependencies: ["3BC219B8883CB46E"]
+			description: ["Sneak + Right click the Storage/Crafting terminal to set to the network"]
 			id: "3023E1D876818ACE"
+			subtitle: "Access storage wirelessly"
 			tasks: [{
 				id: "77695F871FD4600C"
-				type: "item"
 				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
 			}]
+			x: 4.5d
+			y: 6.5d
 		}
 		{
-			x: -0.9903061224489917d
-			y: -2.1663265306122526d
-			subtitle: "The Guide Book (Similar to Storage Drawers)"
-			size: 1.25d
 			id: "4F9ED5C7F32D873C"
+			size: 1.25d
+			subtitle: "The Guide Book (Similar to Storage Drawers)"
 			tasks: [{
 				id: "2B6E2CF335F3C152"
-				type: "item"
 				item: {
-					id: "patchouli:guide_book"
 					Count: 1b
+					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "extended_drawers:guide"
 					}
 				}
 				only_from_crafting: true
+				type: "item"
 			}]
+			x: -0.9903061224489917d
+			y: -2.1663265306122526d
 		}
 		{
-			x: 6.0d
-			y: -2.0d
-			subtitle: "Ultimate Storage Tool"
+			dependencies: ["135CCA336BE0DDCF"]
 			description: [
 				"Holds X amount of items in limited slots. You can hold for example 512 Cobblestone in one slot. once crafted, hold in hand, and right click to open menu. "
 				""
 				"Place the item you want to automatically pick up in one of the slots. You can set to Void, Pickup, Place. If you set keybinds, you can place whatever is in slots down in the world"
 				""
 			]
-			dependencies: ["135CCA336BE0DDCF"]
 			id: "186209E3E9F3CADB"
-			tasks: [{
-				id: "71B565485697B6BB"
-				type: "item"
-				item: "dankstorage:dank_1"
-			}]
 			rewards: [
 				{
 					id: "3DE19D6990141AD3"
@@ -407,264 +403,268 @@
 					xp: 20
 				}
 				{
-					id: "76077AD751F780DE"
-					type: "item"
-					item: "minecraft:black_concrete"
 					count: 4
+					id: "76077AD751F780DE"
+					item: "minecraft:black_concrete"
+					type: "item"
 				}
 			]
+			subtitle: "Ultimate Storage Tool"
+			tasks: [{
+				id: "71B565485697B6BB"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
 		}
 		{
-			x: 6.0d
-			y: -3.0d
-			subtitle: "Go Bigger"
 			dependencies: ["186209E3E9F3CADB"]
 			id: "3D078876EAAB0542"
+			rewards: [{
+				count: 2
+				id: "5B774280A3A59DCE"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			subtitle: "Go Bigger"
 			tasks: [{
 				id: "1A67645FAFF2FE06"
-				type: "item"
 				item: "dankstorage:dank_2"
-			}]
-			rewards: [{
-				id: "5B774280A3A59DCE"
 				type: "item"
-				item: "minecraft:raw_iron"
-				count: 2
 			}]
+			x: 6.0d
+			y: -3.0d
 		}
 		{
-			x: 6.0d
-			y: -4.0d
-			subtitle: "Stack Size increased / Slots increased"
 			dependencies: ["3D078876EAAB0542"]
 			id: "44C62E09F4773DCE"
-			tasks: [{
-				id: "39E62C8BB4109CBE"
-				type: "item"
-				item: "dankstorage:dank_3"
-			}]
 			rewards: [{
 				id: "515C89AD22720F2C"
 				type: "xp"
 				xp: 33
 			}]
+			subtitle: "Stack Size increased / Slots increased"
+			tasks: [{
+				id: "39E62C8BB4109CBE"
+				item: "dankstorage:dank_3"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
 		}
 		{
-			x: 6.0d
-			y: -5.0d
 			dependencies: ["44C62E09F4773DCE"]
 			id: "553280D50AD9105B"
-			tasks: [{
-				id: "7CF76ABD546E3730"
-				type: "item"
-				item: "dankstorage:dank_4"
-			}]
 			rewards: [{
 				id: "346F91957F90C5D9"
-				type: "random"
 				table_id: 1140926682852401208L
+				type: "random"
 			}]
+			tasks: [{
+				id: "7CF76ABD546E3730"
+				item: "dankstorage:dank_4"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
 		}
 		{
-			x: 6.0d
-			y: -6.0d
 			dependencies: ["553280D50AD9105B"]
 			id: "3C16C20F3CBDF7BD"
-			tasks: [{
-				id: "1DE1FC164B6970F1"
-				type: "item"
-				item: "dankstorage:dank_5"
-			}]
 			rewards: [{
 				id: "1332B6347D690D27"
-				type: "random"
 				table_id: 1140926682852401208L
+				type: "random"
 			}]
+			tasks: [{
+				id: "1DE1FC164B6970F1"
+				item: "dankstorage:dank_5"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
 		}
 		{
-			x: 6.0d
-			y: -7.0d
 			dependencies: ["3C16C20F3CBDF7BD"]
 			id: "3554021E2D3428F3"
-			tasks: [{
-				id: "7E3CA161103C99A0"
-				type: "item"
-				item: "dankstorage:dank_6"
-			}]
 			rewards: [{
 				id: "06C87A0976667735"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
+			tasks: [{
+				id: "7E3CA161103C99A0"
+				item: "dankstorage:dank_6"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
 		}
 		{
-			x: 6.0d
-			y: -8.0d
 			dependencies: ["3554021E2D3428F3"]
 			id: "6603D116A8A48286"
-			tasks: [{
-				id: "669B4024F1FAC953"
-				type: "item"
-				item: "dankstorage:dank_7"
-			}]
 			rewards: [{
 				id: "605CE0888B8FE8E7"
-				type: "random"
 				table_id: 707184499980441339L
+				type: "random"
 			}]
+			tasks: [{
+				id: "669B4024F1FAC953"
+				item: "dankstorage:dank_7"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
 		}
 		{
-			x: 4.5d
-			y: -2.0d
-			subtitle: "The Dank Chest"
+			dependencies: ["186209E3E9F3CADB"]
 			description: [
 				"Place your dank in your dock to have it act as a chest storage"
 				""
 				"You can upgrade these as well using the Dank Upgrader. Place the dank in the dock, use the upgrader on the dank by looking at it"
 			]
-			dependencies: ["186209E3E9F3CADB"]
 			id: "2E971F267FFA3EAB"
-			tasks: [{
-				id: "239E30863B1601D5"
-				type: "item"
-				item: "dankstorage:dock"
-			}]
 			rewards: [{
 				id: "6EC3A4A11289FF7F"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "The Dank Chest"
+			tasks: [{
+				id: "239E30863B1601D5"
+				item: "dankstorage:dock"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
 		}
 		{
-			x: 4.5d
-			y: -3.0d
-			subtitle: "Upgrade Dank in Dock"
 			dependencies: ["2E971F267FFA3EAB"]
 			id: "5F3909664BA6EBFE"
-			tasks: [{
-				id: "33DA033452F8311B"
-				type: "item"
-				item: "dankstorage:1_to_2"
-			}]
 			rewards: [{
 				id: "415D62FADA3E9317"
-				type: "item"
 				item: "bewitchment:garlic_bread"
+				type: "item"
 			}]
+			subtitle: "Upgrade Dank in Dock"
+			tasks: [{
+				id: "33DA033452F8311B"
+				item: "dankstorage:1_to_2"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
 		}
 		{
-			x: 4.5d
-			y: -4.0d
 			dependencies: ["5F3909664BA6EBFE"]
 			id: "590AD41DC1A2AC54"
-			tasks: [{
-				id: "5C84BBD5F855276E"
-				type: "item"
-				item: "dankstorage:2_to_3"
-			}]
 			rewards: [{
 				id: "20F95FAF3B3358BD"
-				type: "item"
 				item: "minecraft:iron_ore"
+				type: "item"
 			}]
+			tasks: [{
+				id: "5C84BBD5F855276E"
+				item: "dankstorage:2_to_3"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
 		}
 		{
-			x: 4.5d
-			y: -5.0d
 			dependencies: ["590AD41DC1A2AC54"]
 			id: "642B86F018B6B1F6"
-			tasks: [{
-				id: "1B8B131155BED4A0"
-				type: "item"
-				item: "dankstorage:3_to_4"
-			}]
 			rewards: [{
 				id: "036F793129245A47"
-				type: "random"
 				table_id: 1140926682852401208L
+				type: "random"
 			}]
+			tasks: [{
+				id: "1B8B131155BED4A0"
+				item: "dankstorage:3_to_4"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
 		}
 		{
-			x: 4.5d
-			y: -6.0d
 			dependencies: ["642B86F018B6B1F6"]
 			id: "7907CD686C5A4D59"
-			tasks: [{
-				id: "6B92F04145BA5692"
-				type: "item"
-				item: "dankstorage:4_to_5"
-			}]
 			rewards: [{
 				id: "396C55643BD738EA"
 				type: "xp"
 				xp: 50
 			}]
+			tasks: [{
+				id: "6B92F04145BA5692"
+				item: "dankstorage:4_to_5"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
 		}
 		{
-			x: 4.5d
-			y: -7.0d
 			dependencies: ["7907CD686C5A4D59"]
 			id: "39CA4155BD211689"
-			tasks: [{
-				id: "40A2249FB877D28E"
-				type: "item"
-				item: "dankstorage:5_to_6"
-			}]
 			rewards: [{
 				id: "58C94B7645FA336F"
-				type: "random"
 				table_id: 1140926682852401208L
+				type: "random"
 			}]
+			tasks: [{
+				id: "40A2249FB877D28E"
+				item: "dankstorage:5_to_6"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
 		}
 		{
-			x: 4.5d
-			y: -8.0d
 			dependencies: ["39CA4155BD211689"]
 			id: "273F8B1ECECEBC1A"
-			tasks: [{
-				id: "53A8ECEFC1C1FA97"
-				type: "item"
-				item: "dankstorage:6_to_7"
-			}]
 			rewards: [{
 				id: "1659C7A3BC21DE39"
-				type: "random"
 				table_id: 28493754319576071L
+				type: "random"
 			}]
+			tasks: [{
+				id: "53A8ECEFC1C1FA97"
+				item: "dankstorage:6_to_7"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
 		}
 		{
-			title: "Moving Luggage"
-			x: 11.0d
-			y: -1.0d
-			subtitle: "The best companion one can have, the true UHaul"
 			description: [
 				"This guy here will follow you throughout the world and pick up any item that is near you. "
 				""
 				"Use Keybind: \" , \" to whistle for your luggage!"
 			]
-			size: 2.0d
 			id: "516BFF00696F10B3"
+			rewards: [{
+				count: 2
+				id: "35015819EDB2D391"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "The best companion one can have, the true UHaul"
 			tasks: [{
 				id: "4869B0AB08B12983"
-				type: "item"
 				item: {
-					id: "luggage:luggage"
 					Count: 1b
+					id: "luggage:luggage"
 					tag: { }
 				}
-			}]
-			rewards: [{
-				id: "35015819EDB2D391"
 				type: "item"
-				item: "minecraft:emerald"
-				count: 2
 			}]
+			title: "Moving Luggage"
+			x: 11.0d
+			y: -1.0d
 		}
 		{
-			title: "Storage Labels!"
-			x: 11.0d
-			y: 2.0d
-			subtitle: "Better than item frames"
 			description: [
 				"Labels functions similar to item frames but can adapt to all surfaces and be physically connected to any solid block no matter the shape"
 				"{image:kubejs:textures/gui/presets/storage_labels.png width:100 height:100 align:1}"
@@ -672,24 +672,25 @@
 				"- Can accept glow ink sacks to make then glow in the dark or be colored with any dye"
 				"- Using a feather on them will display the item name"
 			]
-			size: 2.0d
 			id: "5C5BBEBB64C24731"
+			rewards: [{
+				count: 2
+				id: "7708AE804B07293A"
+				item: "labels:label"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Better than item frames"
 			tasks: [{
 				id: "6B07006C5122FBF5"
-				type: "item"
 				item: "labels:label"
-			}]
-			rewards: [{
-				id: "7708AE804B07293A"
 				type: "item"
-				item: "labels:label"
-				count: 2
 			}]
+			title: "Storage Labels!"
+			x: 11.0d
+			y: 2.0d
 		}
 		{
-			title: "What is a Dank?"
-			x: 5.25d
-			y: -1.25d
 			description: [
 				"Danks are sort of like backpacks. They are limited in slots but they can hold thousands of the item that is in one of the slots up to tens of thousands."
 				""
@@ -697,19 +698,18 @@
 				""
 				"You can also 'select' slots in your dank to build with / use. In this mode, think of it as a building belt so you can stack tons of blocks to place"
 			]
-			size: 0.5d
 			id: "2E1D1A0F8E1B0D86"
+			size: 0.5d
 			tasks: [{
 				id: "7376C235F631A058"
-				type: "checkmark"
 				title: "Understand"
+				type: "checkmark"
 			}]
+			title: "What is a Dank?"
+			x: 5.25d
+			y: -1.25d
 		}
 		{
-			title: "Dank (Backpacks, null dev, more)"
-			x: 6.009693877551015d
-			y: -0.832993197278924d
-			subtitle: "With all the Mining you will be doing a dank is a great way to hold the blocks you mine."
 			description: [
 				"The Dank 1 Can hold 256 of 9 different items. "
 				""
@@ -717,24 +717,24 @@
 				""
 				"Later you can use the dock to be able to connect to your storage system"
 			]
-			size: 1.25d
 			id: "135CCA336BE0DDCF"
-			tasks: [{
-				id: "7F8FF314DE302FFF"
-				type: "item"
-				item: "dankstorage:dank_1"
-			}]
 			rewards: [{
 				id: "33B6A12454401D60"
 				type: "xp"
 				xp: 2
 			}]
+			size: 1.25d
+			subtitle: "With all the Mining you will be doing a dank is a great way to hold the blocks you mine."
+			tasks: [{
+				id: "7F8FF314DE302FFF"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			title: "Dank (Backpacks, null dev, more)"
+			x: 6.009693877551015d
+			y: -0.832993197278924d
 		}
 		{
-			title: "Craft a Wooden Expanded Chest"
-			x: -5.853401360544225d
-			y: -5.4639455782312965d
-			subtitle: "Main Chest Mod; First Tier"
 			description: [
 				"Expanded Storage is going to be the bread and butter chest mod in AQM2. Each upgraded tier unlocks more spaces. "
 				""
@@ -742,315 +742,311 @@
 				""
 				"You can also craft one of many upgrade items. Depending on your tier, you would craft that tier + the tier you want to go to, hold out the item, and right click your chest to upgrade. All items in chest stay in tact "
 			]
-			size: 1.45d
 			id: "1D56FB97FAFD6178"
+			rewards: [
+				{
+					id: "7B76B9D0E58C88D4"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "56A0206C8D412BF8"
+					item: "aqm2:copper_coin"
+					type: "item"
+				}
+			]
+			size: 1.45d
+			subtitle: "Main Chest Mod; First Tier"
 			tasks: [{
 				id: "33457BA849E12111"
-				type: "item"
-				title: "Craft Chest"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "expandedstorage:wooden_chests"
 					}
 				}
+				title: "Craft Chest"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "7B76B9D0E58C88D4"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					random_bonus: 2
-				}
-				{
-					id: "56A0206C8D412BF8"
-					type: "item"
-					item: "aqm2:copper_coin"
-					count: 5
-				}
-			]
+			title: "Craft a Wooden Expanded Chest"
+			x: -5.853401360544225d
+			y: -5.4639455782312965d
 		}
 		{
-			x: -4.5d
-			y: -5.5d
 			dependencies: ["1D56FB97FAFD6178"]
 			id: "2746953A5A24E57C"
+			rewards: [
+				{
+					count: 2
+					id: "69C4B627503562A3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "253849D0F0B08FC7"
+					item: "aqm2:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "18DF2BFC8BBE9420"
-				type: "item"
 				item: "expandedstorage:iron_chest"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "69C4B627503562A3"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 2
-				}
-				{
-					id: "253849D0F0B08FC7"
-					type: "item"
-					item: "aqm2:copper_coin"
-					count: 5
-				}
-			]
+			x: -4.5d
+			y: -5.5d
 		}
 		{
-			x: -3.0d
-			y: -5.5d
 			dependencies: ["2746953A5A24E57C"]
 			id: "4E64A5B657586253"
+			rewards: [
+				{
+					count: 6
+					id: "58B9007A5D7232FF"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "502AF96DF991C4A1"
+					item: "aqm2:copper_coin"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2165A02BB0B2B7BE"
-				type: "item"
 				item: "expandedstorage:gold_chest"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "58B9007A5D7232FF"
-					type: "item"
-					item: "minecraft:glass"
-					count: 6
-				}
-				{
-					id: "502AF96DF991C4A1"
-					type: "item"
-					item: "aqm2:copper_coin"
-					count: 5
-				}
-			]
+			x: -3.0d
+			y: -5.5d
 		}
 		{
-			x: -1.5d
-			y: -5.5d
 			dependencies: ["4E64A5B657586253"]
 			id: "395BD176F59D863C"
-			tasks: [{
-				id: "4D37B2D03812FCED"
-				type: "item"
-				item: "expandedstorage:diamond_chest"
-			}]
 			rewards: [
 				{
-					id: "456AA5C6B4435B39"
-					type: "item"
-					item: "minecraft:obsidian"
 					count: 3
+					id: "456AA5C6B4435B39"
+					item: "minecraft:obsidian"
 					random_bonus: 3
+					type: "item"
 				}
 				{
-					id: "09D29929F384641B"
-					type: "item"
-					item: "aqm2:copper_coin"
 					count: 15
+					id: "09D29929F384641B"
+					item: "aqm2:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "4D37B2D03812FCED"
+				item: "expandedstorage:diamond_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
 		}
 		{
-			x: 1.5d
-			y: -5.5d
 			dependencies: ["49B4D47B92E6AEAB"]
 			id: "6E3E69FA5E51040E"
+			rewards: [{
+				count: 25
+				id: "2A9E87CD9320B8B2"
+				item: "aqm2:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "47F390AAF614240D"
-				type: "item"
 				item: "expandedstorage:netherite_chest"
-			}]
-			rewards: [{
-				id: "2A9E87CD9320B8B2"
 				type: "item"
-				item: "aqm2:copper_coin"
-				count: 25
 			}]
+			x: 1.5d
+			y: -5.5d
 		}
 		{
-			x: -5.5d
-			y: -4.5d
 			dependencies: ["1D56FB97FAFD6178"]
 			hide: true
-			optional: true
 			id: "6959417A06BA809C"
-			tasks: [{
-				id: "2D8CE8F8ADFA81C4"
-				type: "item"
-				item: "expandedstorage:copper_barrel"
-			}]
+			optional: true
 			rewards: [{
 				id: "44B84ED713DB953C"
 				type: "xp"
 				xp: 10
 			}]
+			tasks: [{
+				id: "2D8CE8F8ADFA81C4"
+				item: "expandedstorage:copper_barrel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
 		}
 		{
-			x: -4.0d
-			y: -4.5d
 			dependencies: ["2746953A5A24E57C"]
 			hide: true
-			optional: true
 			id: "1BF7DF32E837D732"
-			tasks: [{
-				id: "0BF842D7C345F3A3"
-				type: "item"
-				item: "expandedstorage:iron_barrel"
-			}]
+			optional: true
 			rewards: [{
 				id: "0AB4B1936B33A345"
 				type: "xp"
 				xp: 20
 			}]
+			tasks: [{
+				id: "0BF842D7C345F3A3"
+				item: "expandedstorage:iron_barrel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
 		}
 		{
-			x: -1.0d
-			y: -4.5d
 			dependencies: ["395BD176F59D863C"]
 			hide: true
-			optional: true
 			id: "6C102C3843ACDE27"
-			tasks: [{
-				id: "03A96EA10A939D89"
-				type: "item"
-				item: "expandedstorage:diamond_barrel"
-			}]
+			optional: true
 			rewards: [{
 				id: "6015FF3053819063"
 				type: "xp"
 				xp: 20
 			}]
+			tasks: [{
+				id: "03A96EA10A939D89"
+				item: "expandedstorage:diamond_barrel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
 		}
 		{
-			x: -2.5d
-			y: -4.5d
 			dependencies: ["4E64A5B657586253"]
 			hide: true
-			optional: true
 			id: "7C2F38675FC51D2C"
-			tasks: [{
-				id: "4F70E9687BA26842"
-				type: "item"
-				item: "expandedstorage:gold_barrel"
-			}]
+			optional: true
 			rewards: [{
 				id: "596F421B3B31761C"
 				type: "xp"
 				xp: 20
 			}]
+			tasks: [{
+				id: "4F70E9687BA26842"
+				item: "expandedstorage:gold_barrel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
 		}
 		{
-			x: 2.0d
-			y: -4.5d
 			dependencies: ["6E3E69FA5E51040E"]
 			hide: true
-			optional: true
 			id: "09E289EBB4363330"
-			tasks: [{
-				id: "4E02A142EA95BBE1"
-				type: "item"
-				item: "expandedstorage:netherite_barrel"
-			}]
+			optional: true
 			rewards: [{
 				id: "01824E0A5BD1D2CD"
 				type: "xp"
 				xp: 20
 			}]
+			tasks: [{
+				id: "4E02A142EA95BBE1"
+				item: "expandedstorage:netherite_barrel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
 		}
 		{
-			x: 0.0d
-			y: -5.5d
 			dependencies: ["395BD176F59D863C"]
 			id: "49B4D47B92E6AEAB"
-			tasks: [{
-				id: "12425E9CA892DDB5"
-				type: "item"
-				item: "expandedstorage:obsidian_chest"
-			}]
 			rewards: [
 				{
 					id: "5584F232B6422E86"
-					type: "item"
 					item: "minecraft:smithing_table"
+					type: "item"
 				}
 				{
-					id: "0686F0EB33306670"
-					type: "item"
-					item: "aqm2:copper_coin"
 					count: 20
+					id: "0686F0EB33306670"
+					item: "aqm2:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "12425E9CA892DDB5"
+				item: "expandedstorage:obsidian_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
 		}
 		{
-			x: 0.5d
-			y: -4.5d
 			dependencies: ["49B4D47B92E6AEAB"]
 			id: "15C320DBBA18BB19"
-			tasks: [{
-				id: "723857A586F524E9"
-				type: "item"
-				item: "expandedstorage:obsidian_barrel"
-			}]
 			rewards: [{
 				id: "6BCDEC042D25731E"
 				type: "xp"
 				xp: 20
 			}]
+			tasks: [{
+				id: "723857A586F524E9"
+				item: "expandedstorage:obsidian_barrel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
 		}
 		{
-			x: 7.5d
-			y: 2.0d
-			subtitle: "Paint your storage blocks"
 			dependencies: ["1516CD4B2E6CCB74"]
-			optional: true
 			id: "62A2EB1CDEF4F554"
+			optional: true
+			subtitle: "Paint your storage blocks"
 			tasks: [{
 				id: "50422EB255366460"
-				type: "item"
 				item: {
-					id: "toms_storage:ts.paint_kit"
 					Count: 1b
+					id: "toms_storage:ts.paint_kit"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 7.5d
+			y: 2.0d
 		}
 		{
-			x: -10.5d
-			y: -1.0d
-			subtitle: "Largest Chest with 288 slots"
 			description: [
 				"Not at first though. You need to upgrade via Row and Column upgrades"
 				""
 				"You can get different colors by crafting the other colored variant. Look it up in REI @compactstorage"
 			]
-			optional: true
 			id: "46F94908D99B5384"
-			tasks: [{
-				id: "402E802691CC8D88"
-				type: "item"
-				item: "compact_storage:compact_chest_white"
-			}]
+			optional: true
 			rewards: [{
 				id: "17E4A241098B33C7"
 				type: "xp"
 				xp: 25
 			}]
+			subtitle: "Largest Chest with 288 slots"
+			tasks: [{
+				id: "402E802691CC8D88"
+				item: "compact_storage:compact_chest_white"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
 		}
 		{
-			x: -9.5d
-			y: -0.5d
-			subtitle: "Largest Backpack with 288 slots"
 			description: [
 				"Not at first though. You need to upgrade via Row and Column upgrades"
 				""
 				"You can get different colors by crafting the other colored variant. Look it up in REI @compactstorage"
 			]
-			optional: true
 			id: "3ACA9EF10A7682F1"
-			tasks: [{
-				id: "4B542BEC413117F1"
-				type: "item"
-				item: "compact_storage:backpack_white"
-			}]
+			optional: true
 			rewards: [
 				{
 					id: "6F74850E04F69E7A"
@@ -1058,91 +1054,92 @@
 					xp: 25
 				}
 				{
-					id: "554C42453E2F7E8C"
-					type: "item"
-					item: "aqm2:copper_coin"
 					count: 15
+					id: "554C42453E2F7E8C"
+					item: "aqm2:copper_coin"
+					type: "item"
 				}
 			]
+			subtitle: "Largest Backpack with 288 slots"
+			tasks: [{
+				id: "4B542BEC413117F1"
+				item: "compact_storage:backpack_white"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
 		}
 		{
-			x: -8.5d
-			y: -1.0d
-			subtitle: "Largest Barrel with 288 slots"
 			description: [
 				"Not at first though. You need to upgrade via Row and Column upgrades"
 				""
 				"You can get different colors by crafting the other colored variant. Look it up in REI @compactstorage"
 			]
-			optional: true
 			id: "4724A905A568FB13"
-			tasks: [{
-				id: "61294EA5214C1AB4"
-				type: "item"
-				item: "compact_storage:compact_barrel_white"
-			}]
+			optional: true
 			rewards: [{
 				id: "1293F85B2CCCA0D6"
 				type: "xp"
 				xp: 25
 			}]
+			subtitle: "Largest Barrel with 288 slots"
+			tasks: [{
+				id: "61294EA5214C1AB4"
+				item: "compact_storage:compact_barrel_white"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
 		}
 		{
-			x: -10.5d
-			y: 1.0d
-			subtitle: "Used to upgrade row (1 row per column)"
-			description: ["Put your (Chest/Backpack/Barrel) in off hand, hold this upgrade out and right click to upgrade."]
 			dependencies: [
 				"4724A905A568FB13"
 				"3ACA9EF10A7682F1"
 				"46F94908D99B5384"
 			]
+			description: ["Put your (Chest/Backpack/Barrel) in off hand, hold this upgrade out and right click to upgrade."]
 			id: "06EE18BE74B57BCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C0D4B17D96299E9"
+				table_id: 1140926682852401208L
+				type: "random"
+			}]
+			subtitle: "Used to upgrade row (1 row per column)"
 			tasks: [{
 				id: "27657E7C7A351C25"
-				type: "item"
 				item: "compact_storage:upgrade_row"
+				type: "item"
 			}]
-			rewards: [{
-				id: "6C0D4B17D96299E9"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1140926682852401208L
-			}]
+			x: -10.5d
+			y: 1.0d
 		}
 		{
-			x: -8.5d
-			y: 1.0d
-			subtitle: "Used to upgrade column (1 column per upgrade)"
-			description: ["Put your (Chest/Backpack/Barrel) in off hand, hold this upgrade out and right click to upgrade."]
 			dependencies: [
 				"4724A905A568FB13"
 				"3ACA9EF10A7682F1"
 				"46F94908D99B5384"
 			]
+			description: ["Put your (Chest/Backpack/Barrel) in off hand, hold this upgrade out and right click to upgrade."]
 			id: "56897300ACC2729D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CABD214A5F6CA20"
+				table_id: 1140926682852401208L
+				type: "random"
+			}]
+			subtitle: "Used to upgrade column (1 column per upgrade)"
 			tasks: [{
 				id: "1A0FFABBA3A18903"
-				type: "item"
 				item: "compact_storage:upgrade_column"
+				type: "item"
 			}]
-			rewards: [{
-				id: "5CABD214A5F6CA20"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1140926682852401208L
-			}]
+			x: -8.5d
+			y: 1.0d
 		}
 		{
-			x: -10.5d
-			y: 6.5d
 			dependencies: ["43E87948D1604211"]
 			id: "555E847F3B35D3F8"
-			tasks: [{
-				id: "3F9351045D1E5B5B"
-				type: "item"
-				item: "inmis:frayed_backpack"
-			}]
 			rewards: [
 				{
 					id: "18B10C8BF92F2BB7"
@@ -1150,23 +1147,23 @@
 					xp: 20
 				}
 				{
-					id: "504C442FC89503E6"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "504C442FC89503E6"
 					table_id: 573515503278690972L
+					type: "random"
 				}
 			]
+			tasks: [{
+				id: "3F9351045D1E5B5B"
+				item: "inmis:frayed_backpack"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
 		}
 		{
-			x: -9.5d
-			y: 6.5d
 			dependencies: ["555E847F3B35D3F8"]
 			id: "3CCE2CDC1122A5DA"
-			tasks: [{
-				id: "1BF4B3E346DD684F"
-				type: "item"
-				item: "inmis:plated_backpack"
-			}]
 			rewards: [
 				{
 					id: "4EDB0E164444D83A"
@@ -1174,23 +1171,23 @@
 					xp: 20
 				}
 				{
-					id: "61CA949A2FF21509"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "61CA949A2FF21509"
 					table_id: 1140926682852401208L
+					type: "random"
 				}
 			]
+			tasks: [{
+				id: "1BF4B3E346DD684F"
+				item: "inmis:plated_backpack"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.5d
 		}
 		{
-			x: -8.5d
-			y: 6.5d
 			dependencies: ["3CCE2CDC1122A5DA"]
 			id: "2965E4133C19DCEC"
-			tasks: [{
-				id: "59305D56C27869C3"
-				type: "item"
-				item: "inmis:gilded_backpack"
-			}]
 			rewards: [
 				{
 					id: "25A47E981E924C9B"
@@ -1198,55 +1195,55 @@
 					xp: 20
 				}
 				{
-					id: "4ACA73EEA1A92EB7"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "4ACA73EEA1A92EB7"
 					table_id: 1140926682852401208L
+					type: "random"
 				}
 			]
+			tasks: [{
+				id: "59305D56C27869C3"
+				item: "inmis:gilded_backpack"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
 		}
 		{
-			x: -7.5d
-			y: 6.5d
 			dependencies: ["2965E4133C19DCEC"]
 			id: "3D36F8ECAC617D8A"
-			tasks: [{
-				id: "2E79BD0D4DB2E5E3"
-				type: "item"
-				item: "inmis:bejeweled_backpack"
-			}]
 			rewards: [{
 				id: "478F6CF5D8B207E5"
 				type: "xp"
 				xp: 20
 			}]
+			tasks: [{
+				id: "2E79BD0D4DB2E5E3"
+				item: "inmis:bejeweled_backpack"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
 		}
 		{
-			x: -6.5d
-			y: 6.5d
 			dependencies: ["3D36F8ECAC617D8A"]
 			id: "54B37925A813DF2C"
-			tasks: [{
-				id: "5629EDA7B9FE75B5"
-				type: "item"
-				item: "inmis:blazing_backpack"
-			}]
 			rewards: [{
 				id: "0C76F23C7C52B3C8"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			tasks: [{
+				id: "5629EDA7B9FE75B5"
+				item: "inmis:blazing_backpack"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
 		}
 		{
-			x: -5.5d
-			y: 6.5d
 			dependencies: ["54B37925A813DF2C"]
 			id: "3E7764420B345A41"
-			tasks: [{
-				id: "2DB8958C483F3CAC"
-				type: "item"
-				item: "inmis:withered_backpack"
-			}]
 			rewards: [
 				{
 					id: "3E177668A7436DBF"
@@ -1254,23 +1251,23 @@
 					xp: 20
 				}
 				{
-					id: "6963921FD9863C4B"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "6963921FD9863C4B"
 					table_id: 1830006897849082013L
+					type: "random"
 				}
 			]
+			tasks: [{
+				id: "2DB8958C483F3CAC"
+				item: "inmis:withered_backpack"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
 		}
 		{
-			x: -4.5d
-			y: 6.5d
 			dependencies: ["3E7764420B345A41"]
 			id: "496C7AF7DC7D8686"
-			tasks: [{
-				id: "59096405C19C6FA6"
-				type: "item"
-				item: "inmis:endless_backpack"
-			}]
 			rewards: [
 				{
 					id: "46D0A6990868FED9"
@@ -1278,30 +1275,30 @@
 					xp: 20
 				}
 				{
-					id: "573608522EACC968"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "573608522EACC968"
 					table_id: 28493754319576071L
+					type: "random"
 				}
 			]
+			tasks: [{
+				id: "59096405C19C6FA6"
+				item: "inmis:endless_backpack"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
 		}
 		{
-			x: -11.0d
-			y: 5.5d
 			dependencies: ["43E87948D1604211"]
-			optional: true
 			id: "10AFBE86363F64A4"
-			tasks: [{
-				id: "510EED9B49A8C8F5"
-				type: "item"
-				item: "inmis:ender_pouch"
-			}]
+			optional: true
 			rewards: [
 				{
-					id: "1631F08F6B097354"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "1631F08F6B097354"
 					table_id: 1140926682852401208L
+					type: "random"
 				}
 				{
 					id: "1E8E80C5F68B88D8"
@@ -1309,12 +1306,15 @@
 					xp_levels: 1
 				}
 			]
+			tasks: [{
+				id: "510EED9B49A8C8F5"
+				item: "inmis:ender_pouch"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.5d
 		}
 	]
-	quest_links: [{
-		linked_quest: "43E87948D1604211"
-		x: -11.5d
-		y: 6.5d
-		id: "1943B0B33A78B492"
-	}]
+	subtitle: ["Learn about chests and storage options like danks, backpacks, best chests, etc"]
+	title: "Storage Options"
 }

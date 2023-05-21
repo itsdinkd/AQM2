@@ -1,29 +1,44 @@
 {
-	id: "68ECD186E99CFF60"
-	group: "50115579257378EC"
-	order_index: 2
-	filename: "bosses"
-	title: "Bosses"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "50115579257378EC"
+	id: "68ECD186E99CFF60"
 	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 25.0d
+		hover: [ ]
+		image: "kubejs:textures/gui/presets/scroll.png"
+		rotation: 0.0d
+		width: 35.0d
 		x: 0.0d
 		y: 0.0d
-		width: 35.0d
-		height: 25.0d
-		rotation: 0.0d
-		image: "kubejs:textures/gui/presets/scroll.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
 	}]
+	order_index: 2
+	quest_links: [
+		{
+			id: "474A32F2D1CA52E4"
+			linked_quest: "5DCBAD24802E5735"
+			x: 5.700000000000003d
+			y: -3.5d
+		}
+		{
+			id: "3AA9C41BD4966117"
+			linked_quest: "13426EC067660B5B"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "5AC593FE3740578A"
+			linked_quest: "54356D1908BAB423"
+			x: 7.5d
+			y: -3.5d
+		}
+	]
 	quests: [
 		{
-			title: "Moonstone and Verglas Drops"
-			x: -8.0d
-			y: 2.0d
-			subtitle: "Needed for end game weapon types"
 			description: [
 				" Drops from the following bosses"
 				" - Mother Demon (Doom)"
@@ -42,148 +57,142 @@
 				" - Obsidilith (BOMD)"
 			]
 			id: "4869EE208416BC5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F41B03B30AE3624"
+				table_id: 28493754319576071L
+				type: "random"
+			}]
+			subtitle: "Needed for end game weapon types"
 			tasks: [
 				{
 					id: "1B950583D81B0DC1"
-					type: "item"
 					item: "soulsweapons:moonstone"
+					type: "item"
 				}
 				{
 					id: "053623B849FCB518"
-					type: "item"
 					item: "soulsweapons:verglas"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "7F41B03B30AE3624"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 28493754319576071L
-			}]
+			title: "Moonstone and Verglas Drops"
+			x: -8.0d
+			y: 2.0d
 		}
 		{
-			x: -8.0d
-			y: 4.5d
-			subtitle: "The Monarch of Chaos quest"
-			description: ["This shard can be obtained by killing a Wither and is needed to summon the Monarch of Chaos"]
 			dependencies: ["4869EE208416BC5A"]
+			description: ["This shard can be obtained by killing a Wither and is needed to summon the Monarch of Chaos"]
 			id: "57948544319DEB74"
-			tasks: [{
-				id: "4AB1878650A28318"
-				type: "item"
-				item: "soulsweapons:shard_of_uncertainty"
-			}]
 			rewards: [
 				{
-					id: "6737ADB520C35F62"
-					type: "command"
-					title: "RpgStats (3 Melee Levels)"
 					command: "/rpgcheat @p rpgstats:melee add levels 3"
+					id: "6737ADB520C35F62"
 					player_command: false
+					title: "RpgStats (3 Melee Levels)"
+					type: "command"
 				}
 				{
 					id: "158051B4140A772D"
-					type: "item"
 					item: "aqm2:silver_coin"
+					type: "item"
 				}
 			]
+			subtitle: "The Monarch of Chaos quest"
+			tasks: [{
+				id: "4AB1878650A28318"
+				item: "soulsweapons:shard_of_uncertainty"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
 		}
 		{
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "supplementaries:textures/map_markers/generic_structure.png"
-				}
-			}
-			x: -7.0d
-			y: 3.5d
-			subtitle: "The Returning Knight quest"
 			description: [
 				"Spawning in the Savanna or Plains biome in the overworld, the structure spawns with an Old Moon Altar block, which you can right click with a Lost Soul to summon The Returning Knight. "
 				""
 				"Lost Souls are dropped from other Soul bosses"
 			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/generic_structure.png"
+				}
+			}
 			id: "16C49C626E4BB1B7"
-			tasks: [{
-				id: "7982E5069FE3D8DC"
-				type: "structure"
-				title: "Find the Corrupt Altar"
-				structure: "soulsweapons:corrupt_altar"
-			}]
 			rewards: [{
 				id: "415938BA88F5C60E"
 				type: "xp"
 				xp: 200
 			}]
+			subtitle: "The Returning Knight quest"
+			tasks: [{
+				id: "7982E5069FE3D8DC"
+				structure: "soulsweapons:corrupt_altar"
+				title: "Find the Corrupt Altar"
+				type: "structure"
+			}]
+			x: -7.0d
+			y: 3.5d
 		}
 		{
-			x: -6.0d
-			y: 2.5d
-			subtitle: "The Decaying King quest"
 			description: ["The only remains of a great kingdom that has sunken underneath the lava lakes, this structure spawns above the lava lakes in the nether (around Y level 32)."]
 			id: "1BEBE1E2D0B77D90"
-			tasks: [{
-				id: "0C32A14760236453"
-				type: "structure"
-				title: "Find the Decaying Kingdom in Nether"
-				icon: {
-					id: "ftbquests:custom_icon"
-					Count: 1b
-					tag: {
-						Icon: "supplementaries:textures/map_markers/generic_structure.png"
-					}
-				}
-				structure: "soulsweapons:decaying_kingdom"
-			}]
 			rewards: [{
 				id: "34698DFC2DD87BF0"
 				type: "xp"
 				xp: 200
 			}]
+			subtitle: "The Decaying King quest"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/map_markers/generic_structure.png"
+					}
+				}
+				id: "0C32A14760236453"
+				structure: "soulsweapons:decaying_kingdom"
+				title: "Find the Decaying Kingdom in Nether"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: 2.5d
 		}
 		{
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "supplementaries:textures/map_markers/generic_structure.png"
-				}
-			}
-			x: -5.0d
-			y: 1.5d
-			subtitle: "The Old Champion's Remains quest"
 			description: [
 				"Found in the Taiga or Snowy Taiga biome in the overworld. This structure contains the haunted Old Champion's Remains, and perhaps you could even find some treasure left behind here..."
 				""
 				"Can be re-summoned by using the Draugr sword on the Moonstone Altar. You must beat this boss to get the required item for moonstone altar"
 			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/map_markers/generic_structure.png"
+				}
+			}
 			id: "27BD20FB1D92143D"
-			tasks: [{
-				id: "420093C1E8B1D226"
-				type: "structure"
-				title: "Find the Champions Grave"
-				structure: "soulsweapons:champions_graves"
-			}]
 			rewards: [{
 				id: "70341C6D7BD022CB"
 				type: "xp"
 				xp: 200
 			}]
+			subtitle: "The Old Champion's Remains quest"
+			tasks: [{
+				id: "420093C1E8B1D226"
+				structure: "soulsweapons:champions_graves"
+				title: "Find the Champions Grave"
+				type: "structure"
+			}]
+			x: -5.0d
+			y: 1.5d
 		}
 		{
-			x: -4.0d
-			y: 2.0d
 			dependencies: ["27BD20FB1D92143D"]
 			id: "7AAE8ECBCF6F1A31"
-			tasks: [{
-				id: "6B4227DF2C841239"
-				type: "kill"
-				title: "Slay the Old Champions Remains"
-				icon: "soulsweapons:draugr_boss_spawn_egg"
-				entity: "soulsweapons:draugr_boss"
-				value: 1L
-			}]
 			rewards: [
 				{
 					id: "37D91F38573D4802"
@@ -191,28 +200,27 @@
 					xp: 200
 				}
 				{
-					id: "59DF4E583E46C916"
-					type: "item"
-					item: "aqm2:silver_coin"
 					count: 5
+					id: "59DF4E583E46C916"
+					item: "aqm2:silver_coin"
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Slay the Decaying King"
-			x: -5.0d
-			y: 3.0d
-			description: ["Can be re-summoned by using the Withered Demon Heart on a Blackstone Pedestal"]
-			dependencies: ["1BEBE1E2D0B77D90"]
-			id: "705B0C194509CC87"
 			tasks: [{
-				id: "2DDBB8AD86E5E1EB"
+				entity: "soulsweapons:draugr_boss"
+				icon: "soulsweapons:draugr_boss_spawn_egg"
+				id: "6B4227DF2C841239"
+				title: "Slay the Old Champions Remains"
 				type: "kill"
-				title: "Slay the Decaying King"
-				icon: "soulsweapons:accursed_lord_boss_spawn_egg"
-				entity: "soulsweapons:accursed_lord_boss"
 				value: 1L
 			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BEBE1E2D0B77D90"]
+			description: ["Can be re-summoned by using the Withered Demon Heart on a Blackstone Pedestal"]
+			id: "705B0C194509CC87"
 			rewards: [
 				{
 					id: "6C3F9E14CBD6B12A"
@@ -220,75 +228,76 @@
 					xp: 200
 				}
 				{
-					id: "2E27B430C4BCFA74"
-					type: "item"
-					item: "aqm2:silver_coin"
 					count: 10
+					id: "2E27B430C4BCFA74"
+					item: "aqm2:silver_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				icon: "soulsweapons:accursed_lord_boss_spawn_egg"
+				id: "2DDBB8AD86E5E1EB"
+				title: "Slay the Decaying King"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Decaying King"
+			x: -5.0d
+			y: 3.0d
 		}
 		{
-			title: "Loot the Darkin Blade"
-			disable_toast: true
-			x: -4.75d
-			y: 3.75d
 			dependencies: ["705B0C194509CC87"]
-			size: 0.5d
+			disable_toast: true
 			id: "39907B7BAECA01BA"
+			size: 0.5d
 			tasks: [{
 				id: "303578A72208E117"
-				type: "item"
 				item: {
-					id: "soulsweapons:darkin_blade"
 					Count: 1b
+					id: "soulsweapons:darkin_blade"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			title: "Loot the Darkin Blade"
+			x: -4.75d
+			y: 3.75d
 		}
 		{
-			title: "Loot the Withered Demon Heart"
-			disable_toast: true
-			x: -4.25d
-			y: 3.5d
 			dependencies: ["705B0C194509CC87"]
-			size: 0.5d
+			disable_toast: true
 			id: "4EE0F91C5895BAD0"
+			size: 0.5d
 			tasks: [{
 				id: "13FFC36DE7856201"
-				type: "item"
 				item: "soulsweapons:withered_demon_heart"
+				type: "item"
 			}]
+			title: "Loot the Withered Demon Heart"
+			x: -4.25d
+			y: 3.5d
 		}
 		{
-			title: "Loot a Lord Soul"
-			disable_toast: true
-			x: -4.25d
-			y: 3.0d
 			dependencies: ["705B0C194509CC87"]
-			size: 0.5d
+			disable_toast: true
 			id: "66BA93367AD9AC23"
+			size: 0.5d
 			tasks: [{
 				id: "3D55D880FCDA002B"
-				type: "item"
 				item: "soulsweapons:lord_soul_red"
+				type: "item"
 			}]
+			title: "Loot a Lord Soul"
+			x: -4.25d
+			y: 3.0d
 		}
 		{
-			x: -3.0d
-			y: 2.5d
-			description: ["The shade will leave the champion once killed. Be aware that this shade is quick and can phase through walls"]
 			dependencies: ["7AAE8ECBCF6F1A31"]
+			description: ["The shade will leave the champion once killed. Be aware that this shade is quick and can phase through walls"]
 			id: "3A6C80FBA80B2B1C"
-			tasks: [{
-				id: "5933EC80BD3B190C"
-				type: "kill"
-				title: "Slay the Frenzied Shade"
-				icon: "soulsweapons:night_shade_spawn_egg"
-				entity: "soulsweapons:night_shade"
-				value: 1L
-			}]
 			rewards: [
 				{
 					id: "677E51E0A569F7B7"
@@ -297,94 +306,93 @@
 				}
 				{
 					id: "6532B09C63168BD4"
-					type: "item"
 					item: "aqm2:silver_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "soulsweapons:night_shade"
+				icon: "soulsweapons:night_shade_spawn_egg"
+				id: "5933EC80BD3B190C"
+				title: "Slay the Frenzied Shade"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 2.5d
 		}
 		{
-			title: "Loot a Draugr Sword"
-			disable_toast: true
-			x: -3.25d
-			y: 1.75d
 			dependencies: ["7AAE8ECBCF6F1A31"]
-			size: 0.5d
+			disable_toast: true
 			id: "535F1E601D0C82E0"
+			size: 0.5d
 			tasks: [{
 				id: "01525A3ACFD49525"
-				type: "item"
 				item: {
-					id: "soulsweapons:draugr"
 					Count: 1b
+					id: "soulsweapons:draugr"
 					tag: {
 						Damage: 0
 						night: 0b
 						swa3: { }
 					}
 				}
+				type: "item"
 			}]
+			title: "Loot a Draugr Sword"
+			x: -3.25d
+			y: 1.75d
 		}
 		{
-			title: "Loot a Lord Soul"
-			disable_toast: true
-			x: -2.5d
-			y: 3.25d
 			dependencies: ["3A6C80FBA80B2B1C"]
-			size: 0.5d
+			disable_toast: true
 			id: "222614927D8DD1A8"
+			size: 0.5d
 			tasks: [{
 				id: "1520DB8B95D4271F"
-				type: "item"
 				item: "soulsweapons:lord_soul_dark"
+				type: "item"
 			}]
+			title: "Loot a Lord Soul"
+			x: -2.5d
+			y: 3.25d
 		}
 		{
-			disable_toast: true
-			x: -2.0d
-			y: 2.75d
 			dependencies: ["3A6C80FBA80B2B1C"]
-			size: 0.5d
+			disable_toast: true
 			id: "772599CC63D2D36B"
+			size: 0.5d
 			tasks: [{
 				id: "41F5C363619FD257"
-				type: "item"
 				item: "soulsweapons:essence_of_eventide"
+				type: "item"
 			}]
+			x: -2.0d
+			y: 2.75d
 		}
 		{
-			title: "Loot the Darkin Blade"
-			disable_toast: true
-			x: -5.25d
-			y: 4.0d
 			dependencies: ["74AAAABA9BF68BC0"]
-			size: 0.5d
+			disable_toast: true
 			id: "2CA0F2CE2D9F2460"
+			size: 0.5d
 			tasks: [{
 				id: "0E9705735688DA64"
-				type: "item"
 				item: {
-					id: "soulsweapons:nightfall"
 					Count: 1b
+					id: "soulsweapons:nightfall"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			title: "Loot the Darkin Blade"
+			x: -5.25d
+			y: 4.0d
 		}
 		{
-			title: "Slay the Returning Knight"
-			x: -6.0d
-			y: 4.0d
 			dependencies: ["16C49C626E4BB1B7"]
 			id: "74AAAABA9BF68BC0"
-			tasks: [{
-				id: "1E68DAD70611EDE3"
-				type: "kill"
-				title: "Slay the Returning Knight"
-				icon: "soulsweapons:returning_knight_spawn_egg"
-				entity: "soulsweapons:returning_knight"
-				value: 1L
-			}]
 			rewards: [
 				{
 					id: "4C1A0487144BB313"
@@ -392,55 +400,56 @@
 					xp: 200
 				}
 				{
-					id: "366C1F814469751C"
-					type: "item"
-					item: "aqm2:silver_coin"
 					count: 10
+					id: "366C1F814469751C"
+					item: "aqm2:silver_coin"
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Loot the Arkenstone"
-			disable_toast: true
-			x: -5.75d
-			y: 4.75d
-			dependencies: ["74AAAABA9BF68BC0"]
-			size: 0.5d
-			id: "56AFACC5C8321B8F"
 			tasks: [{
-				id: "1B16810B70E9B24A"
-				type: "item"
-				item: "soulsweapons:arkenstone"
-			}]
-		}
-		{
-			title: "Loot a Lord Soul"
-			disable_toast: true
-			x: -5.25d
-			y: 4.5d
-			dependencies: ["74AAAABA9BF68BC0"]
-			size: 0.5d
-			id: "4F5CCB0758E4C8B5"
-			tasks: [{
-				id: "3525E5C73F84BF21"
-				type: "item"
-				item: "soulsweapons:lord_soul_rose"
-			}]
-		}
-		{
-			x: -6.0d
-			y: 5.5d
-			description: ["Summoned by using a Blackstone Pedastal block. You must use a Shard of Uncertainty which can be obtained from defeating a Wither"]
-			dependencies: ["55E8E9703F773E89"]
-			id: "6B5D58C33F636E2B"
-			tasks: [{
-				id: "31CDD425086F9D3A"
+				entity: "soulsweapons:returning_knight"
+				icon: "soulsweapons:returning_knight_spawn_egg"
+				id: "1E68DAD70611EDE3"
+				title: "Slay the Returning Knight"
 				type: "kill"
-				title: "Slay the Monarch of Chaos"
-				icon: "soulsweapons:chaos_monarch_spawn_egg"
-				entity: "soulsweapons:chaos_monarch"
 				value: 1L
 			}]
+			title: "Slay the Returning Knight"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74AAAABA9BF68BC0"]
+			disable_toast: true
+			id: "56AFACC5C8321B8F"
+			size: 0.5d
+			tasks: [{
+				id: "1B16810B70E9B24A"
+				item: "soulsweapons:arkenstone"
+				type: "item"
+			}]
+			title: "Loot the Arkenstone"
+			x: -5.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["74AAAABA9BF68BC0"]
+			disable_toast: true
+			id: "4F5CCB0758E4C8B5"
+			size: 0.5d
+			tasks: [{
+				id: "3525E5C73F84BF21"
+				item: "soulsweapons:lord_soul_rose"
+				type: "item"
+			}]
+			title: "Loot a Lord Soul"
+			x: -5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55E8E9703F773E89"]
+			description: ["Summoned by using a Blackstone Pedastal block. You must use a Shard of Uncertainty which can be obtained from defeating a Wither"]
+			id: "6B5D58C33F636E2B"
 			rewards: [
 				{
 					id: "38169E47F011F69A"
@@ -448,24 +457,26 @@
 					xp: 200
 				}
 				{
-					id: "23647077C8FC861B"
-					type: "item"
-					item: "aqm2:silver_coin"
 					count: 15
+					id: "23647077C8FC861B"
+					item: "aqm2:silver_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				entity: "soulsweapons:chaos_monarch"
+				icon: "soulsweapons:chaos_monarch_spawn_egg"
+				id: "31CDD425086F9D3A"
+				title: "Slay the Monarch of Chaos"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 5.5d
 		}
 		{
-			x: -7.0d
-			y: 5.0d
-			subtitle: "This boss must be killed after obtaining Moonstones"
 			dependencies: ["57948544319DEB74"]
 			id: "55E8E9703F773E89"
-			tasks: [{
-				id: "51B243CDA448186E"
-				type: "item"
-				item: "soulsweapons:blackstone_pedestal"
-			}]
 			rewards: [
 				{
 					id: "3B161E732F90C4A8"
@@ -474,492 +485,491 @@
 				}
 				{
 					id: "0701AED106D1754B"
-					type: "item"
 					item: "aqm2:silver_coin"
+					type: "item"
 				}
 			]
+			subtitle: "This boss must be killed after obtaining Moonstones"
+			tasks: [{
+				id: "51B243CDA448186E"
+				item: "soulsweapons:blackstone_pedestal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
 		}
 		{
-			title: "Loot a Lord Soul"
-			disable_toast: true
-			x: -5.75d
-			y: 6.25d
 			dependencies: ["6B5D58C33F636E2B"]
-			size: 0.5d
+			disable_toast: true
 			id: "062E47113AD6C63E"
+			size: 0.5d
 			tasks: [{
 				id: "50DFCD22EC9A28FA"
-				type: "item"
 				item: "soulsweapons:lord_soul_void"
+				type: "item"
 			}]
+			title: "Loot a Lord Soul"
+			x: -5.75d
+			y: 6.25d
 		}
 		{
-			disable_toast: true
-			x: -5.25d
-			y: 6.0d
 			dependencies: ["6B5D58C33F636E2B"]
-			size: 0.5d
+			disable_toast: true
 			id: "416CC730303C47B5"
+			size: 0.5d
 			tasks: [{
 				id: "217C259E14CA05A5"
-				type: "item"
 				item: {
-					id: "soulsweapons:chaos_robes"
 					Count: 1b
+					id: "soulsweapons:chaos_robes"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -5.25d
+			y: 6.0d
 		}
 		{
-			disable_toast: true
-			x: -5.0d
-			y: 5.5d
 			dependencies: ["6B5D58C33F636E2B"]
-			size: 0.5d
+			disable_toast: true
 			id: "1098C829B4790FE0"
+			size: 0.5d
 			tasks: [{
 				id: "7D2C357596E8DB4B"
-				type: "item"
 				item: {
-					id: "soulsweapons:chaos_crown"
 					Count: 1b
+					id: "soulsweapons:chaos_crown"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -5.0d
+			y: 5.5d
 		}
 		{
-			x: 3.0d
-			y: 0.0d
-			subtitle: "Easy Choice"
-			description: ["Keep the material for another end game item, or use them to create a staff that suppresses mob spawn in 64 block range (You can kill the boss again)"]
 			dependencies: [
 				"66F4F9428D96C99A"
 				"5DC586689DB6CA8C"
 			]
+			description: ["Keep the material for another end game item, or use them to create a staff that suppresses mob spawn in 64 block range (You can kill the boss again)"]
 			id: "6A63CB1BC51C23FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CE2D58387D864B8"
+				table_id: 8685670595573372088L
+				type: "random"
+			}]
+			subtitle: "Easy Choice"
 			tasks: [{
 				id: "56F0F1B3AE0A40BD"
-				type: "item"
 				item: "bosses_of_mass_destruction:mob_ward"
+				type: "item"
 			}]
-			rewards: [{
-				id: "7CE2D58387D864B8"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8685670595573372088L
-			}]
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			x: 2.0d
-			y: 0.9562500000000114d
-			subtitle: "Good luck"
 			description: [
 				"You'll want the Lich's drop                                 "
 				"Found in Cold Biomes, follow the Soul Stars that lead the path"
 			]
 			id: "66F4F9428D96C99A"
-			tasks: [{
-				id: "008598C4124763B2"
-				type: "kill"
-				icon: "bosses_of_mass_destruction:ancient_anima"
-				entity: "bosses_of_mass_destruction:lich"
-				value: 1L
-			}]
 			rewards: [{
 				id: "7F5290D8BEAC5606"
-				type: "random"
 				table_id: 1830006897849082013L
+				type: "random"
 			}]
+			subtitle: "Good luck"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "008598C4124763B2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.9562500000000114d
 		}
 		{
-			icon: "bosses_of_mass_destruction:blazing_eye"
-			x: 3.0d
-			y: 0.9562500000000114d
-			subtitle: "Tough one"
 			description: [
 				"You'll want the Gauntlet's drop"
 				""
 				"Can be found in a rare nether structure"
 			]
+			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "3E2FB2359874D3FD"
-			tasks: [{
-				id: "3F378224F7E0ABCC"
-				type: "kill"
-				icon: "bosses_of_mass_destruction:gauntlet_blackstone"
-				entity: "bosses_of_mass_destruction:gauntlet"
-				value: 1L
-			}]
 			rewards: [
 				{
-					id: "1BFD16F52140EFA9"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "1BFD16F52140EFA9"
 					table_id: 3648661763718734484L
+					type: "random"
 				}
 				{
-					id: "3FF7F31E5AD7012C"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "3FF7F31E5AD7012C"
 					table_id: 3648661763718734484L
+					type: "random"
 				}
 			]
+			subtitle: "Tough one"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:gauntlet_blackstone"
+				id: "3F378224F7E0ABCC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.9562500000000114d
 		}
 		{
-			x: 4.0d
-			y: 0.9562500000000114d
-			subtitle: "Can you stop it?!"
 			description: [
 				"You'll want the Obsidilith's drop"
 				""
 				"Found in a rare structure in the end islands"
 			]
 			id: "5DC586689DB6CA8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07B16697D8E947E9"
+				table_id: 8135751449899826488L
+				type: "random"
+			}]
+			subtitle: "Can you stop it?!"
 			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
 				id: "3D8EF7CB681E0876"
 				type: "kill"
-				icon: "bosses_of_mass_destruction:obsidian_heart"
-				entity: "bosses_of_mass_destruction:obsidilith"
 				value: 1L
 			}]
-			rewards: [{
-				id: "07B16697D8E947E9"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8135751449899826488L
-			}]
+			x: 4.0d
+			y: 0.9562500000000114d
 		}
 		{
-			x: 5.0d
-			y: 0.0d
-			subtitle: "You saw the Void Blossom, a end game boss. Run if you can."
 			description: ["Using the lily it will lead you to a Void Blossom"]
-			secret: true
 			id: "59F44A867E77E0D9"
+			rewards: [
+				{
+					count: 6
+					id: "22DDA1467059F409"
+					item: "gobber2:gobber2_gooey_bread_nether"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "50A06B9526CB1768"
+					item: "gobber2:gobber2_gooey_beefstew_nether"
+					type: "item"
+				}
+			]
+			secret: true
+			subtitle: "You saw the Void Blossom, a end game boss. Run if you can."
 			tasks: [
 				{
-					id: "67CB0FC33EB453CE"
-					type: "observation"
-					title: "Nearing End Game Boss"
 					icon: "bosses_of_mass_destruction:void_blossom"
-					timer: 0L
+					id: "67CB0FC33EB453CE"
 					observe_type: 5
+					timer: 0L
+					title: "Nearing End Game Boss"
 					to_observe: "bosses_of_mass_destruction:void_blossom"
+					type: "observation"
 				}
 				{
 					id: "74AED8F407A9002E"
-					type: "item"
 					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
 				}
 			]
-			rewards: [
-				{
-					id: "22DDA1467059F409"
-					type: "item"
-					item: "gobber2:gobber2_gooey_bread_nether"
-					count: 6
-				}
-				{
-					id: "50A06B9526CB1768"
-					type: "item"
-					item: "gobber2:gobber2_gooey_beefstew_nether"
-					count: 3
-				}
-			]
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			x: 5.0d
-			y: 1.0d
-			subtitle: "Another one bites the dust ;)"
+			dependencies: ["59F44A867E77E0D9"]
 			description: [
 				"You'll want the Void Blossom's drop"
 				""
 				"Appears in rare caves at the bottom of the world. Void lilies will point the way"
 			]
-			dependencies: ["59F44A867E77E0D9"]
 			id: "6B62B3C86EDFCD2A"
-			tasks: [{
-				id: "463AAB4EE73688DB"
-				type: "kill"
-				title: "Kill Void Blossom"
-				icon: "bosses_of_mass_destruction:void_thorn"
-				entity: "bosses_of_mass_destruction:void_blossom"
-				value: 1L
-			}]
 			rewards: [{
 				id: "0259B060F54C9958"
-				type: "random"
 				table_id: 28493754319576071L
+				type: "random"
 			}]
+			subtitle: "Another one bites the dust ;)"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "463AAB4EE73688DB"
+				title: "Kill Void Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 1.0d
 		}
 		{
-			x: 4.0d
-			y: 2.0d
-			subtitle: "Really Tough Choice"
-			description: ["Keep the material for another end game item, or use them to blink through walls. (You can kill the boss again)"]
 			dependencies: [
 				"5DC586689DB6CA8C"
 				"6B62B3C86EDFCD2A"
 			]
+			description: ["Keep the material for another end game item, or use them to blink through walls. (You can kill the boss again)"]
 			id: "58D2B7A125EC181F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53C9F37ACDD6684F"
+				table_id: 28493754319576071L
+				type: "random"
+			}]
+			subtitle: "Really Tough Choice"
 			tasks: [{
 				id: "68E1D635035B7317"
-				type: "item"
 				item: {
-					id: "bosses_of_mass_destruction:earthdive_spear"
 					Count: 1b
+					id: "bosses_of_mass_destruction:earthdive_spear"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
-			rewards: [{
-				id: "53C9F37ACDD6684F"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 28493754319576071L
-			}]
+			x: 4.0d
+			y: 2.0d
 		}
 		{
-			x: 3.0d
-			y: 2.0d
-			subtitle: "Easy Choice"
-			description: ["Keep the material for another end game item, or use them to increase blast radius by 33% in 64 block range. (You can kill the boss again)"]
 			dependencies: [
 				"3E2FB2359874D3FD"
 				"5DC586689DB6CA8C"
 			]
+			description: ["Keep the material for another end game item, or use them to increase blast radius by 33% in 64 block range. (You can kill the boss again)"]
 			id: "1E099201D86D6A61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1670CC7ECE82AEAC"
+				table_id: 8135751449899826488L
+				type: "random"
+			}]
+			subtitle: "Easy Choice"
 			tasks: [{
 				id: "2E3D7B839A0D1454"
-				type: "item"
 				item: "bosses_of_mass_destruction:monolith_block"
+				type: "item"
 			}]
-			rewards: [{
-				id: "1670CC7ECE82AEAC"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8135751449899826488L
-			}]
+			x: 3.0d
+			y: 2.0d
 		}
 		{
-			x: 2.0d
-			y: 2.0d
-			subtitle: "Tough Choice"
-			description: ["Keep the material for another end game item, or use them to give creative flight in a small area (You can kill the boss again)"]
 			dependencies: [
 				"66F4F9428D96C99A"
 				"3E2FB2359874D3FD"
 			]
+			description: ["Keep the material for another end game item, or use them to give creative flight in a small area (You can kill the boss again)"]
 			id: "6CF78C3526B1E591"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E122178FF4779B7"
+				table_id: 8135751449899826488L
+				type: "random"
+			}]
+			subtitle: "Tough Choice"
 			tasks: [{
 				id: "5AC080533AEDCF71"
-				type: "item"
 				item: "bosses_of_mass_destruction:levitation_block"
+				type: "item"
 			}]
-			rewards: [{
-				id: "6E122178FF4779B7"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8135751449899826488L
-			}]
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			x: 3.0d
-			y: -4.918749999999989d
-			subtitle: "Found in the nether at the Gladiator Arena"
 			description: [
 				"This guy will respawn several times, beware."
 				""
 				"This unlocks a part of the End Game questline"
 			]
 			hide_dependency_lines: true
-			size: 1.25d
 			id: "3D8C6E7D44891F51"
+			size: 1.25d
+			subtitle: "Found in the nether at the Gladiator Arena"
 			tasks: [{
-				id: "5248D61485902420"
-				type: "kill"
-				title: "Kill Gladiator [DIFFICULT]"
 				entity: "doom:gladiator"
+				id: "5248D61485902420"
+				title: "Kill Gladiator [DIFFICULT]"
+				type: "kill"
 				value: 1L
 			}]
+			x: 3.0d
+			y: -4.918749999999989d
 		}
 		{
-			title: "Kill Arch Maykr"
-			x: 4.234693877551024d
-			y: -4.948979591836739d
-			subtitle: "Clear out those evil doom mobs in the end"
 			description: [
 				"Visit the End, Find the Arch Maykr, and Slay this special mini bosss. This will stop Doom Mobs from spawning in the End"
 				""
 				"This is a really difficult battle and the Arch Maykr has 6 lives."
 			]
-			size: 1.25d
 			id: "4FDF85B3FD6D691B"
-			tasks: [{
-				id: "56B533D691636624"
-				type: "kill"
-				title: "Kill Arch Makyr"
-				entity: "doom:arch_maykr"
-				value: 1L
-			}]
 			rewards: [
 				{
-					id: "055291452BBF348D"
-					type: "item"
-					item: "doom:argent_energy"
 					count: 16
+					id: "055291452BBF348D"
+					item: "doom:argent_energy"
+					type: "item"
 				}
 				{
 					id: "238F38632A4D07E0"
-					type: "item"
 					item: "doom:jump_pad"
+					type: "item"
 				}
 			]
-		}
-		{
-			title: "Kill Mother Demon [END GAME]"
-			x: 5.68571428571429d
-			y: -4.900892857142843d
-			subtitle: "Found in a structure in The Nether"
-			description: ["This unlocks a part of the End Game questline"]
-			hide: false
-			size: 1.75d
-			id: "5C3324C5094EA33B"
+			size: 1.25d
+			subtitle: "Clear out those evil doom mobs in the end"
 			tasks: [{
-				id: "4026F62E588A5ED1"
+				entity: "doom:arch_maykr"
+				id: "56B533D691636624"
+				title: "Kill Arch Makyr"
 				type: "kill"
-				title: "Kill the Mother Demon"
-				entity: "doom:motherdemon"
 				value: 1L
 			}]
+			title: "Kill Arch Maykr"
+			x: 4.234693877551024d
+			y: -4.948979591836739d
+		}
+		{
+			description: ["This unlocks a part of the End Game questline"]
+			hide: false
+			id: "5C3324C5094EA33B"
 			rewards: [
 				{
 					id: "4645DBCAF93979C0"
-					type: "item"
 					item: "doom:jump_pad"
+					type: "item"
 				}
 				{
 					id: "6A4B13AB31CEAFB7"
-					type: "item"
 					item: {
-						id: "doom:shotgun"
 						Count: 1b
+						id: "doom:shotgun"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "228B0D4B53CEEA56"
-					type: "item"
-					item: "doom:shotgun_shells"
 					count: 10
+					id: "228B0D4B53CEEA56"
+					item: "doom:shotgun_shells"
+					type: "item"
 				}
 			]
+			size: 1.75d
+			subtitle: "Found in a structure in The Nether"
+			tasks: [{
+				entity: "doom:motherdemon"
+				id: "4026F62E588A5ED1"
+				title: "Kill the Mother Demon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Mother Demon [END GAME]"
+			x: 5.68571428571429d
+			y: -4.900892857142843d
 		}
 		{
-			title: "Kill Icon Of Sin [END GAME]"
-			x: 7.570238095238096d
-			y: -5.0d
-			subtitle: "The last Doom Boss... you cant do it!"
 			description: [
 				"Found in a structure in The Nether"
 				""
 				"This unlocks a part of the End Game questline"
 			]
-			size: 2.5d
 			id: "075E9ED31928FCFA"
-			tasks: [{
-				id: "6CAA179F4E796CB6"
-				type: "kill"
-				title: "Kill Icon of Sin"
-				entity: "doom:iconofsin"
-				value: 1L
-			}]
 			rewards: [{
 				id: "69B21F0636273AFB"
-				type: "item"
 				item: {
-					id: "soulsweapons:freyr_sword"
 					Count: 1b
+					id: "soulsweapons:freyr_sword"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			size: 2.5d
+			subtitle: "The last Doom Boss... you cant do it!"
+			tasks: [{
+				entity: "doom:iconofsin"
+				id: "6CAA179F4E796CB6"
+				title: "Kill Icon of Sin"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Icon Of Sin [END GAME]"
+			x: 7.570238095238096d
+			y: -5.0d
 		}
 		{
+			id: "18292C57BF7FE1EC"
+			size: 1.5d
+			subtitle: "Needed for multi block structures for boss summons"
+			tasks: [{
+				id: "1381EA2F25E77219"
+				item: "adventurez:handbook"
+				type: "item"
+			}]
 			title: "Adventurez Book"
 			x: -7.0d
 			y: -5.0d
-			subtitle: "Needed for multi block structures for boss summons"
-			size: 1.5d
-			id: "18292C57BF7FE1EC"
-			tasks: [{
-				id: "1381EA2F25E77219"
-				type: "item"
-				item: "adventurez:handbook"
-			}]
 		}
 		{
-			x: -5.5d
-			y: -4.5d
-			subtitle: "Read The Eye Shrine entry in the book to build the Multi-block shrine"
+			dependencies: ["18292C57BF7FE1EC"]
 			description: [
 				""
 				"In the center of the shrine you built, place the egg for it to drain its energy to summon The Eye"
 			]
-			dependencies: ["18292C57BF7FE1EC"]
 			id: "7A9508A3B1160F4E"
+			subtitle: "Read The Eye Shrine entry in the book to build the Multi-block shrine"
 			tasks: [
 				{
 					id: "49EAA8460385522E"
-					type: "checkmark"
 					title: "The Eye"
+					type: "checkmark"
 				}
 				{
 					id: "2CB2EC4D3F2A2638"
-					type: "item"
 					item: "minecraft:dragon_egg"
+					type: "item"
 				}
 			]
+			x: -5.5d
+			y: -4.5d
 		}
 		{
-			x: -5.5d
-			y: -3.5d
 			dependencies: ["7A9508A3B1160F4E"]
 			id: "1EFDE6A21B18C1DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A35EC458EC991E9"
+				table_id: 573515503278690972L
+				type: "random"
+			}]
 			tasks: [{
-				id: "107CF36DDC3012D3"
-				type: "kill"
-				title: "Kill The Eye"
 				entity: "adventurez:the_eye"
+				id: "107CF36DDC3012D3"
+				title: "Kill The Eye"
+				type: "kill"
 				value: 1L
 			}]
-			rewards: [{
-				id: "2A35EC458EC991E9"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 573515503278690972L
-			}]
+			x: -5.5d
+			y: -3.5d
 		}
 		{
-			x: -5.5d
-			y: -2.5d
-			description: ["After killing The Eye a portal to the Void will appear. Enter it to fight the Void Shadow"]
 			dependencies: ["1EFDE6A21B18C1DD"]
+			description: ["After killing The Eye a portal to the Void will appear. Enter it to fight the Void Shadow"]
 			id: "3A20EDABCBB075DB"
-			tasks: [{
-				id: "7AD890D88ED95FCE"
-				type: "kill"
-				title: "Kill the Void Shadow"
-				entity: "adventurez:void_shadow"
-				value: 1L
-			}]
 			rewards: [
 				{
 					id: "3FAFE9CEF53B12BF"
@@ -967,83 +977,90 @@
 					xp_levels: 5
 				}
 				{
-					id: "69EB43A879E0E8FD"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "69EB43A879E0E8FD"
 					table_id: 8135751449899826488L
+					type: "random"
 				}
 			]
+			tasks: [{
+				entity: "adventurez:void_shadow"
+				id: "7AD890D88ED95FCE"
+				title: "Kill the Void Shadow"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -2.5d
 		}
 		{
-			title: "Get the Fame Effect for Dragon Egg"
-			icon: "plushies:dragon_plushie"
-			x: -4.5d
-			y: -2.5d
-			subtitle: "This will help you tame your own ender dragon"
+			dependencies: ["3A20EDABCBB075DB"]
 			description: [
 				"After killing The Void, you will get the Fame effect. Go to your dragon egg, put it in a nest, and eventually it will hatch if you have the fame effect."
 				""
 				"It likes Raw Meat and Orc Skin. Place a dragon saddle on your dragon"
 			]
-			dependencies: ["3A20EDABCBB075DB"]
+			icon: "plushies:dragon_plushie"
 			id: "4B03EDC8AF9B758F"
+			subtitle: "This will help you tame your own ender dragon"
 			tasks: [{
 				id: "67741A30CE50F04A"
-				type: "checkmark"
 				title: "Fame Effect"
+				type: "checkmark"
 			}]
+			title: "Get the Fame Effect for Dragon Egg"
+			x: -4.5d
+			y: -2.5d
 		}
 		{
-			title: "Hatch your Dragon Egg"
-			x: -3.5d
-			y: -2.5d
+			dependencies: ["4B03EDC8AF9B758F"]
 			description: [
 				"After killing The Void, you will get the Fame effect. Go to your dragon egg, put it in a nest, and eventually it will hatch if you have the fame effect."
 				""
 				"It likes Raw Meat and Orc Skin. Place a dragon saddle on your dragon"
 			]
-			dependencies: ["4B03EDC8AF9B758F"]
 			id: "5E84067CF9883FE5"
 			tasks: [
 				{
-					id: "71A68CF9ED243674"
-					type: "observation"
-					title: "Get and Look at a Dragon Egg"
 					icon: "minecraft:dragon_egg"
-					timer: 100L
+					id: "71A68CF9ED243674"
 					observe_type: 0
+					timer: 100L
+					title: "Get and Look at a Dragon Egg"
 					to_observe: "minecraft:dragon_egg"
+					type: "observation"
 				}
 				{
 					id: "2B87FA511DF57273"
-					type: "item"
 					item: "adventurez:dragon_saddle"
+					type: "item"
 				}
 				{
-					id: "11DF3D065D9BF762"
-					type: "questsadditions:interaction"
-					title: "Interact with your Dragon"
-					entity: "adventurez:dragon"
-					nbt: { }
-					value: 1L
 					checkItem: false
+					entity: "adventurez:dragon"
+					id: "11DF3D065D9BF762"
+					nbt: { }
+					title: "Interact with your Dragon"
+					type: "questsadditions:interaction"
+					value: 1L
 				}
 			]
+			title: "Hatch your Dragon Egg"
+			x: -3.5d
+			y: -2.5d
 		}
 		{
-			x: 4.0d
-			y: 0.0d
-			subtitle: "Reset Bosses of Mass Destruction Structures near you"
 			id: "65A0FBBAAE6CA116"
+			subtitle: "Reset Bosses of Mass Destruction Structures near you"
 			tasks: [{
 				id: "5A0B7A8766ADF817"
-				type: "item"
 				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
 			}]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			x: 5.0d
-			y: 2.0d
 			dependencies: [
 				"6B62B3C86EDFCD2A"
 				"66F4F9428D96C99A"
@@ -1051,26 +1068,20 @@
 			id: "0A5AEA3C67FF7C23"
 			tasks: [{
 				id: "45AAC8D8F1AB283A"
-				type: "item"
 				item: "bosses_of_mass_destruction:charged_ender_pearl"
+				type: "item"
 			}]
+			x: 5.0d
+			y: 2.0d
 		}
 		{
-			x: -1.5d
-			y: 3.5d
-			subtitle: "Used to summon The Fallen Knight"
+			dependencies: ["772599CC63D2D36B"]
 			description: [
 				"Place your altar down and use your essence on it to summon this beast"
 				""
 				"Beware, there are two phases."
 			]
-			dependencies: ["772599CC63D2D36B"]
 			id: "13B58FFCDB9B2EFE"
-			tasks: [{
-				id: "2729AAB4F92597C3"
-				type: "item"
-				item: "soulsweapons:altar_block"
-			}]
 			rewards: [
 				{
 					id: "2F418BAA84B01981"
@@ -1079,76 +1090,65 @@
 				}
 				{
 					id: "01FEBFC3B82D79E2"
-					type: "item"
 					item: "aqm2:silver_coin"
+					type: "item"
 				}
 			]
+			subtitle: "Used to summon The Fallen Knight"
+			tasks: [{
+				id: "2729AAB4F92597C3"
+				item: "soulsweapons:altar_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
 		}
 		{
-			title: "Loot a Lord Soul"
-			disable_toast: true
-			x: -1.5d
-			y: 4.25d
 			dependencies: ["13B58FFCDB9B2EFE"]
-			size: 0.5d
+			disable_toast: true
 			id: "2139520AA913B3AD"
+			size: 0.5d
 			tasks: [{
 				id: "26109B7F99A54F13"
-				type: "item"
 				item: "soulsweapons:lord_soul_white"
+				type: "item"
 			}]
+			title: "Loot a Lord Soul"
+			x: -1.5d
+			y: 4.25d
 		}
 		{
-			title: "Loot a Lord Soul"
-			disable_toast: true
-			x: -0.75d
-			y: 3.75d
 			dependencies: ["13B58FFCDB9B2EFE"]
-			size: 0.5d
+			disable_toast: true
 			id: "7517BCA40986386C"
+			size: 0.5d
 			tasks: [{
 				id: "0009E22D45DD286C"
-				type: "item"
 				item: "soulsweapons:essence_of_luminescence"
+				type: "item"
 			}]
+			title: "Loot a Lord Soul"
+			x: -0.75d
+			y: 3.75d
 		}
 		{
-			x: 0.0d
-			y: 4.524d
 			dependencies: ["7517BCA40986386C"]
-			size: 0.754d
 			id: "56C793E9028F65A6"
+			size: 0.754d
 			tasks: [{
 				id: "22C3ED93BD4B700B"
-				type: "item"
 				item: {
-					id: "soulsweapons:pure_moonlight_greatsword"
 					Count: 1b
+					id: "soulsweapons:pure_moonlight_greatsword"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: 0.0d
+			y: 4.524d
 		}
 	]
-	quest_links: [
-		{
-			linked_quest: "5DCBAD24802E5735"
-			x: 5.700000000000003d
-			y: -3.5d
-			id: "474A32F2D1CA52E4"
-		}
-		{
-			linked_quest: "13426EC067660B5B"
-			x: 3.0d
-			y: -3.5d
-			id: "3AA9C41BD4966117"
-		}
-		{
-			linked_quest: "54356D1908BAB423"
-			x: 7.5d
-			y: -3.5d
-			id: "5AC593FE3740578A"
-		}
-	]
+	title: "Bosses"
 }

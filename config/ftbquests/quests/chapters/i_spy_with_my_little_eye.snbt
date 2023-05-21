@@ -1,109 +1,103 @@
 {
-	id: "351023B042C700E9"
-	group: "7DDA60A5DB5F9F6C"
-	order_index: 0
-	filename: "i_spy_with_my_little_eye"
-	title: "I Spy with my Little Eye"
-	icon: "minecraft:spyglass"
-	subtitle: ["All about Exploring"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "i_spy_with_my_little_eye"
+	group: "7DDA60A5DB5F9F6C"
+	icon: "minecraft:spyglass"
+	id: "351023B042C700E9"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Visit The Better Stronghold"
-			x: 1.0d
-			y: 2.5d
-			subtitle: "It's Better"
 			description: ["You can find lots here, including Arcanus spell books in the libraries"]
 			id: "21789090F6D9D027"
+			rewards: [{
+				id: "5F5E6E269AEB71D6"
+				item: "gofish:golden_crate"
+				type: "item"
+			}]
+			subtitle: "It's Better"
 			tasks: [{
-				id: "57420B926B45C780"
-				type: "structure"
 				icon: {
-					id: "mythicmetals:midas_gold_helmet"
 					Count: 1b
+					id: "mythicmetals:midas_gold_helmet"
 					tag: {
 						Damage: 0
 					}
 				}
+				id: "57420B926B45C780"
 				structure: "betterstrongholds:stronghold"
+				type: "structure"
 			}]
-			rewards: [{
-				id: "5F5E6E269AEB71D6"
-				type: "item"
-				item: "gofish:golden_crate"
-			}]
+			title: "Visit The Better Stronghold"
+			x: 1.0d
+			y: 2.5d
 		}
 		{
-			title: "Visit Forgotten Forest"
-			x: -0.5d
-			y: 0.5d
-			subtitle: "It's beautiful at night"
 			id: "6DA08A9E3135D056"
-			tasks: [{
-				id: "4CE2F4F1A310D4FF"
-				type: "biome"
-				icon: "byg:green_enchanted_leaves"
-				biome: "byg:forgotten_forest"
-			}]
 			rewards: [
 				{
 					id: "3D13A29DAD0DD607"
-					type: "item"
 					item: "byg:pink_cherry_sapling"
+					type: "item"
 				}
 				{
 					id: "697EAF2EE13DB926"
-					type: "item"
 					item: "byg:blue_enchanted_sapling"
+					type: "item"
 				}
 				{
 					id: "41E3FF201C1D9438"
-					type: "item"
 					item: "byg:green_enchanted_sapling"
+					type: "item"
 				}
 			]
+			subtitle: "It's beautiful at night"
+			tasks: [{
+				biome: "byg:forgotten_forest"
+				icon: "byg:green_enchanted_leaves"
+				id: "4CE2F4F1A310D4FF"
+				type: "biome"
+			}]
+			title: "Visit Forgotten Forest"
+			x: -0.5d
+			y: 0.5d
 		}
 		{
-			x: -0.5d
-			y: 2.5d
-			subtitle: "An improved desert temple thanks to Better Desert Temples"
 			description: ["This gigantic new structure has traps, loots, and scary mobs. Can you loot it all?"]
 			id: "2B4A869598C3C703"
-			tasks: [{
-				id: "13B875DFDC0817BE"
-				type: "structure"
-				title: "Find Desert Temple"
-				icon: "prefab:item_magic_temple"
-				structure: "betterdeserttemples:desert_temple"
-			}]
 			rewards: [{
-				id: "672CCDBC107B9B83"
-				type: "random"
 				exclude_from_claim_all: true
+				id: "672CCDBC107B9B83"
 				table_id: 1140926682852401208L
+				type: "random"
 			}]
+			subtitle: "An improved desert temple thanks to Better Desert Temples"
+			tasks: [{
+				icon: "prefab:item_magic_temple"
+				id: "13B875DFDC0817BE"
+				structure: "betterdeserttemples:desert_temple"
+				title: "Find Desert Temple"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 2.5d
 		}
 		{
-			title: "You visited a Dim Door! Now read me!"
-			icon: "dimdoors:monolith_spawner"
-			x: -7.0d
-			y: 2.5d
-			subtitle: "You visited a dimensional door... now read me"
 			description: [
 				"You may ask yourself how you exit..."
 				""
 				"Beat a monolith or find the liquid and jump in it"
 			]
 			hide: true
-			secret: true
+			icon: "dimdoors:monolith_spawner"
 			id: "239ECC2B7F3A3AD8"
+			secret: true
+			subtitle: "You visited a dimensional door... now read me"
 			tasks: [
 				{
-					id: "09A17ED7E4D26B41"
-					type: "location"
-					title: "Some Dimension"
 					dimension: "dimdoors:limbo"
+					id: "09A17ED7E4D26B41"
 					ignore_dimension: false
 					position: [I;
 						0
@@ -115,86 +109,92 @@
 						1
 						1
 					]
+					title: "Some Dimension"
+					type: "location"
 				}
 				{
-					id: "7A628DBE88D2A415"
-					type: "observation"
-					title: "You saw fabric of reality"
 					icon: "botania:cosmetic_questgiver_mark"
-					timer: 1L
+					id: "7A628DBE88D2A415"
 					observe_type: 0
+					timer: 1L
+					title: "You saw fabric of reality"
 					to_observe: "dimdoors:black_fabric"
+					type: "observation"
 				}
 			]
+			title: "You visited a Dim Door! Now read me!"
+			x: -7.0d
+			y: 2.5d
 		}
 		{
-			x: -7.0d
-			y: 3.5d
-			subtitle: "Stop that Rift!"
-			description: ["When you see a rift, you can use the rift remover to close it. Closing a rift is a smart as it will stop the spread of unstable fabric"]
 			dependencies: ["239ECC2B7F3A3AD8"]
+			description: ["When you see a rift, you can use the rift remover to close it. Closing a rift is a smart as it will stop the spread of unstable fabric"]
 			hide: true
 			id: "1CBAE85D6CEDCC7C"
+			rewards: [{
+				id: "021CC1628C40AD3B"
+				item: "dimdoors:white_void_record"
+				type: "item"
+			}]
+			subtitle: "Stop that Rift!"
 			tasks: [{
 				id: "670D1873F6D801A0"
-				type: "item"
 				item: {
-					id: "dimdoors:rift_remover"
 					Count: 1b
+					id: "dimdoors:rift_remover"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "021CC1628C40AD3B"
 				type: "item"
-				item: "dimdoors:white_void_record"
 			}]
+			x: -7.0d
+			y: 3.5d
 		}
 		{
-			x: -5.5d
-			y: 2.5d
-			subtitle: "Your own pocket dimension"
-			description: ["Hint: Build a base inside of it, or a storage, or a farm. the options are limitless"]
 			dependencies: ["239ECC2B7F3A3AD8"]
+			description: ["Hint: Build a base inside of it, or a storage, or a farm. the options are limitless"]
 			hide: true
 			id: "1CA75D7D445EFFDF"
-			tasks: [{
-				id: "1AB79CF8FFAE99AD"
-				type: "item"
-				item: "dimdoors:iron_dimensional_door"
-			}]
 			rewards: [{
 				id: "4574051BB3C80D75"
-				type: "item"
 				item: "dimdoors:oak_dimensional_door"
+				type: "item"
 			}]
+			subtitle: "Your own pocket dimension"
+			tasks: [{
+				id: "1AB79CF8FFAE99AD"
+				item: "dimdoors:iron_dimensional_door"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
 		}
 		{
-			x: -4.0d
-			y: 2.5d
-			subtitle: "A better portable pocket dimension"
 			dependencies: ["1CA75D7D445EFFDF"]
 			hide: true
 			id: "25C2ECB313ABAA62"
-			tasks: [{
-				id: "0E16C0892C6BA174"
-				type: "item"
-				item: "dimdoors:quartz_dimensional_door"
-			}]
 			rewards: [{
 				id: "11BD98BCCE00FF3B"
-				type: "item"
 				item: {
-					id: "dimdoors:rift_remover"
 					Count: 1b
+					id: "dimdoors:rift_remover"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "A better portable pocket dimension"
+			tasks: [{
+				id: "0E16C0892C6BA174"
+				item: "dimdoors:quartz_dimensional_door"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["All about Exploring"]
+	title: "I Spy with my Little Eye"
 }

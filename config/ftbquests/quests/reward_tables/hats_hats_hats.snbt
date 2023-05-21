@@ -1,8 +1,7 @@
 {
 	id: "19657D93EACF209D"
-	order_index: 4
-	title: "Hats Hats Hats"
 	loot_size: 1
+	order_index: 4
 	rewards: [
 		{ item: "givemehats:woolrus_hat" }
 		{ item: "givemehats:wolf_ears" }
@@ -24,4 +23,5 @@
 		{ item: "givemehats:cat_ears" }
 		{ item: "givemehats:bunny_ears" }
 	]
+	title: "Hats Hats Hats"
 }

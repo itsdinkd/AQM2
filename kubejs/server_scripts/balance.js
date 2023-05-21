@@ -1060,7 +1060,7 @@ event.custom({
       "item": "adventurez:stone_golem_heart"
     },
     {
-      "item": "aqm2:demon_pearl"
+      "item": "aqm2:cursed_gem"
     },
     {
       "item": "gobber2:gobber2_rod_end"

@@ -1,131 +1,131 @@
 {
-	id: "7189D2731FC1B342"
-	group: "7DDA60A5DB5F9F6C"
-	order_index: 5
-	filename: "dead_cells_what"
-	title: "Dead Cells, What?"
-	subtitle: ["A difficult content mod with its own dimensional dungeons"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dead_cells_what"
+	group: "7DDA60A5DB5F9F6C"
+	id: "7189D2731FC1B342"
+	order_index: 5
+	quest_links: [ ]
 	quests: [
 		{
-			title: "Find a Mine Cells Portal"
-			x: 0.0d
-			y: 0.0d
-			subtitle: "You must have acquired a diamond for the portal to activate"
 			description: [
 				"Once you acquired diamonds, the portal will be active. Step inside if you dare"
 				""
 				"More will be added to the questline as soon as the developer adds in Mine Cell drops"
 			]
 			id: "2716031A85838BF2"
-			tasks: [{
-				id: "532C08B6A815CB0D"
-				type: "structure"
-				icon: {
-					id: "minecells:tentacle"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				structure: "minecells:portal"
-			}]
 			rewards: [{
 				id: "60D689ACEE33C984"
-				type: "item"
 				item: {
-					id: "minecraft:wooden_sword"
 					Count: 1b
+					id: "minecraft:wooden_sword"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "You must have acquired a diamond for the portal to activate"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "532C08B6A815CB0D"
+				structure: "minecells:portal"
+				type: "structure"
+			}]
+			title: "Find a Mine Cells Portal"
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["2716031A85838BF2"]
+			id: "760B5E063030439B"
+			rewards: [{
+				count: 3
+				id: "04BCBA8E54994F7B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "You need at least... Nether Gobber to survive"
+			tasks: [{
+				dimension: "minecells:prison"
+				id: "536A86A469A36D6E"
+				title: "Enter Minecells Prison"
+				type: "dimension"
+			}]
 			x: 0.0d
 			y: -2.0d
-			subtitle: "You need at least... Nether Gobber to survive"
-			dependencies: ["2716031A85838BF2"]
-			size: 2.0d
-			id: "760B5E063030439B"
-			tasks: [{
-				id: "536A86A469A36D6E"
-				type: "dimension"
-				title: "Enter Minecells Prison"
-				dimension: "minecells:prison"
-			}]
-			rewards: [{
-				id: "04BCBA8E54994F7B"
-				type: "item"
-				item: "minecraft:diamond"
-				count: 3
-			}]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
-			subtitle: "Oof"
 			dependencies: ["760B5E063030439B"]
 			id: "2402324C0B3C335E"
-			tasks: [{
-				id: "5C382B0BCFA7A605"
-				type: "kill"
-				title: "Kill the Boss, Conjunctivius"
-				icon: "minecells:corpse"
-				entity: "minecells:conjunctivius"
-				value: 1L
-			}]
 			rewards: [
 				{
-					id: "62A76F27AA9582D0"
-					type: "random"
 					exclude_from_claim_all: true
+					id: "62A76F27AA9582D0"
 					table_id: 172378784714914766L
+					type: "random"
 				}
 				{
 					id: "4B22C81CFA90EB16"
-					type: "item"
 					item: "soulsweapons:moonstone"
 					random_bonus: 2
+					type: "item"
 				}
 				{
 					id: "0CABF3D81A0A954D"
-					type: "item"
 					item: "soulsweapons:verglas"
 					random_bonus: 2
+					type: "item"
 				}
 			]
+			subtitle: "Oof"
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: "minecells:corpse"
+				id: "5C382B0BCFA7A605"
+				title: "Kill the Boss, Conjunctivius"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
 		}
 		{
-			x: 0.0d
-			y: -6.0d
-			subtitle: "Kill the boss and enter this new dimension from inside the prison"
 			dependencies: ["2402324C0B3C335E"]
-			size: 2.0d
 			id: "7352D51842A54563"
-			tasks: [{
-				id: "60D74882FD8DEAAC"
-				type: "dimension"
-				title: "Enter Insufferable Crypt"
-				dimension: "minecells:insufferable_crypt"
-			}]
 			rewards: [
 				{
-					id: "52A61B89FB22D8A4"
-					type: "item"
-					item: "aqm2:silver_coin"
 					count: 3
+					id: "52A61B89FB22D8A4"
+					item: "aqm2:silver_coin"
+					type: "item"
 				}
 				{
-					id: "1C2AEFCB811E3810"
-					type: "item"
-					item: "gobber2:gobber2_glob_nether"
 					count: 5
+					id: "1C2AEFCB811E3810"
+					item: "gobber2:gobber2_glob_nether"
+					type: "item"
 				}
 			]
+			size: 2.0d
+			subtitle: "Kill the boss and enter this new dimension from inside the prison"
+			tasks: [{
+				dimension: "minecells:insufferable_crypt"
+				id: "60D74882FD8DEAAC"
+				title: "Enter Insufferable Crypt"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -6.0d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["A difficult content mod with its own dimensional dungeons"]
+	title: "Dead Cells, What?"
 }

@@ -1,352 +1,357 @@
 {
-	id: "76E30DE0B75DE42C"
-	group: "7DDA60A5DB5F9F6C"
-	order_index: 3
-	filename: "chef_boyardee"
-	title: "Chef Boyardee"
-	icon: "croptopia:cooking_pot"
-	subtitle: ["Cooking Foods, duh"]
-	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "chef_boyardee"
+	group: "7DDA60A5DB5F9F6C"
+	icon: "croptopia:cooking_pot"
+	id: "76E30DE0B75DE42C"
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
-			x: 5.5d
-			y: -1.0d
-			subtitle: "Congrats! You sliced bread"
 			dependencies: ["185FAAA271C6EBB8"]
 			id: "35293E47ABF69AA7"
+			rewards: [{
+				id: "43F0BAEB4EED69A7"
+				item: "sandwichable:bread_slice"
+				type: "item"
+			}]
+			subtitle: "Congrats! You sliced bread"
 			tasks: [{
-				id: "30EA1AF3FC4406AA"
-				type: "questsadditions:use"
-				title: "Place Bread on Board and Slice"
-				block_type: 0
 				block: "sandwichable:birch_cutting_board"
-				value: 1L
+				block_type: 0
 				checkItem: true
+				id: "30EA1AF3FC4406AA"
 				isItemInteraction: false
 				item: {
-					id: "itemfilters:or"
 					Count: 1b
+					id: "itemfilters:or"
 					tag: {
 						items: [
 							{
+								Count: 1b
 								id: "sandwichable:stone_kitchen_knife"
 								tag: {
 									KnifeData: {
-										sharpness: 132
 										maxSharpness: 132
+										sharpness: 132
 									}
 								}
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "sandwichable:kitchen_knife"
 								tag: {
 									KnifeData: {
-										sharpness: 850
 										maxSharpness: 850
+										sharpness: 850
 									}
 								}
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "sandwichable:golden_kitchen_knife"
 								tag: {
 									KnifeData: {
-										sharpness: 225
 										maxSharpness: 225
+										sharpness: 225
 									}
 								}
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "sandwichable:diamond_kitchen_knife"
 								tag: {
 									KnifeData: {
-										sharpness: 1025
 										maxSharpness: 1025
+										sharpness: 1025
 									}
 								}
-								Count: 1b
 							}
 							{
+								Count: 1b
 								id: "sandwichable:netherite_kitchen_knife"
 								tag: {
 									KnifeData: {
-										sharpness: 1984
 										maxSharpness: 1984
+										sharpness: 1984
 									}
 								}
-								Count: 1b
 							}
 							{
-								id: "sandwichable:glass_kitchen_knife"
 								Count: 1b
+								id: "sandwichable:glass_kitchen_knife"
 							}
 						]
 					}
 				}
+				title: "Place Bread on Board and Slice"
+				type: "questsadditions:use"
+				value: 1L
 			}]
-			rewards: [{
-				id: "43F0BAEB4EED69A7"
-				type: "item"
-				item: "sandwichable:bread_slice"
-			}]
+			x: 5.5d
+			y: -1.0d
 		}
 		{
+			description: ["Sandwichable allows you to create custom sandwiches using any food in the game, stacking its food and saturation levels"]
+			id: "7D6A248CFD79203C"
+			rewards: [{
+				id: "12364C1F44033322"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "Time to slice some bread for your custom sandwiches"
+			tasks: [{
+				disable_toast: true
+				id: "09B9F58C96B62832"
+				item: "sandwichable:birch_cutting_board"
+				title: "Craft Birch Cutting Board"
+				type: "item"
+			}]
 			title: "Become Subway"
 			x: 4.0d
 			y: -1.5d
-			subtitle: "Time to slice some bread for your custom sandwiches"
-			description: ["Sandwichable allows you to create custom sandwiches using any food in the game, stacking its food and saturation levels"]
-			id: "7D6A248CFD79203C"
-			tasks: [{
-				id: "09B9F58C96B62832"
-				type: "item"
-				title: "Craft Birch Cutting Board"
-				disable_toast: true
-				item: "sandwichable:birch_cutting_board"
-			}]
-			rewards: [{
-				id: "12364C1F44033322"
-				type: "item"
-				item: "minecraft:bread"
-			}]
 		}
 		{
+			dependencies: ["69EBFCBEF907744E"]
+			description: ["While holding your bread, right click the cutting board"]
+			id: "0A3C9C3570180532"
+			rewards: [{
+				id: "3F4DA8044C170DF7"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "After obtaining bread, use your bread and place it on the cutting board"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3F4DD1D00762B72F"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					block: "sandwichable:birch_cutting_board"
+					block_type: 0
+					checkItem: true
+					icon: "sandwichable:birch_cutting_board"
+					id: "0F0B0B42562F5DAB"
+					isItemInteraction: false
+					item: "minecraft:bread"
+					type: "questsadditions:use"
+					value: 1L
+				}
+			]
 			title: "Prepare the Bread"
 			x: 7.0d
 			y: -1.5d
-			subtitle: "After obtaining bread, use your bread and place it on the cutting board"
-			description: ["While holding your bread, right click the cutting board"]
-			dependencies: ["69EBFCBEF907744E"]
-			id: "0A3C9C3570180532"
-			tasks: [
-				{
-					id: "3F4DD1D00762B72F"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:bread"
-				}
-				{
-					id: "0F0B0B42562F5DAB"
-					type: "questsadditions:use"
-					icon: "sandwichable:birch_cutting_board"
-					block_type: 0
-					block: "sandwichable:birch_cutting_board"
-					value: 1L
-					checkItem: true
-					isItemInteraction: false
-					item: "minecraft:bread"
-				}
-			]
-			rewards: [{
-				id: "3F4DA8044C170DF7"
-				type: "item"
-				item: "minecraft:bread"
-			}]
 		}
 		{
+			dependencies: ["7D6A248CFD79203C"]
+			id: "69EBFCBEF907744E"
+			rewards: [{
+				id: "3D7D7DCA465C5FCA"
+				item: "sandwichable:cucumber"
+				type: "item"
+			}]
+			subtitle: "This is how you will slice bread"
+			tasks: [{
+				block: "sandwichable:birch_cutting_board"
+				block_type: 0
+				disable_toast: true
+				id: "75A314CCF1A3517B"
+				replace: false
+				replaced: "minecraft:air"
+				type: "questsadditions:place"
+				value: 1L
+			}]
 			title: "Place the cutting board down"
 			x: 5.5d
 			y: -2.5d
-			subtitle: "This is how you will slice bread"
-			dependencies: ["7D6A248CFD79203C"]
-			id: "69EBFCBEF907744E"
-			tasks: [{
-				id: "75A314CCF1A3517B"
-				type: "questsadditions:place"
-				disable_toast: true
-				block_type: 0
-				block: "sandwichable:birch_cutting_board"
-				value: 1L
-				replaced: "minecraft:air"
-				replace: false
-			}]
-			rewards: [{
-				id: "3D7D7DCA465C5FCA"
-				type: "item"
-				item: "sandwichable:cucumber"
-			}]
 		}
 		{
-			x: 7.0d
-			y: 0.0d
-			subtitle: "Using your newly crafted Sandwichable knife, Slice the bread."
-			description: ["While holding your knife, right click the bread on the cutting board to slice it up"]
 			dependencies: ["0A3C9C3570180532"]
+			description: ["While holding your knife, right click the bread on the cutting board to slice it up"]
 			id: "185FAAA271C6EBB8"
+			rewards: [
+				{
+					id: "5BCEEE56EA3E7C6F"
+					item: "sandwichable:toaster"
+					type: "item"
+				}
+				{
+					id: "4FF1FB1F3D649276"
+					table_id: 3109619717195752206L
+					type: "choice"
+				}
+			]
+			subtitle: "Using your newly crafted Sandwichable knife, Slice the bread."
 			tasks: [{
 				id: "1C634B8028A4835D"
-				type: "item"
-				title: "Craft Sandwichable Knife"
 				item: {
-					id: "itemfilters:or"
 					Count: 1b
+					id: "itemfilters:or"
 					tag: {
 						items: [
 							{
+								Count: 1b
 								id: "sandwichable:stone_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
-										sharpness: 132
 										maxSharpness: 132
+										sharpness: 132
 									}
 								}
 							}
 							{
+								Count: 1b
 								id: "sandwichable:kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
-										sharpness: 850
 										maxSharpness: 850
+										sharpness: 850
 									}
 								}
 							}
 							{
+								Count: 1b
 								id: "sandwichable:golden_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
-										sharpness: 225
 										maxSharpness: 225
+										sharpness: 225
 									}
 								}
 							}
 							{
+								Count: 1b
 								id: "sandwichable:diamond_kitchen_knife"
-								Count: 1b
 								tag: {
 									KnifeData: {
-										sharpness: 1025
 										maxSharpness: 1025
+										sharpness: 1025
 									}
 								}
 							}
 							{
-								id: "sandwichable:netherite_kitchen_knife"
 								Count: 1b
+								id: "sandwichable:netherite_kitchen_knife"
 								tag: {
 									KnifeData: {
-										sharpness: 1984
 										maxSharpness: 1984
+										sharpness: 1984
 									}
 								}
 							}
 							{
-								id: "sandwichable:glass_kitchen_knife"
 								Count: 1b
+								id: "sandwichable:glass_kitchen_knife"
 							}
 						]
 					}
 				}
+				title: "Craft Sandwichable Knife"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "5BCEEE56EA3E7C6F"
-					type: "item"
-					item: "sandwichable:toaster"
-				}
-				{
-					id: "4FF1FB1F3D649276"
-					type: "choice"
-					table_id: 3109619717195752206L
-				}
-			]
+			x: 7.0d
+			y: 0.0d
 		}
 		{
-			x: 4.0d
-			y: 0.0d
-			subtitle: "Your personal sandwich station! Regular bread slice or Toasted bread slice goes here"
+			dependencies: ["35293E47ABF69AA7"]
 			description: [
 				"Once placed, you can place your bread slice on top, then put as many food items on top of the bread as you will. When you're finished, put the top bread slice down. Sneak right click the bread with a empty hand to take your finished sandwich"
 				""
 				""
 				"If you want to remove any item, with a empty hand simply right click it and it will give you one item back in your sandwich at a time, while the sandwich is on the station of course."
 			]
-			dependencies: ["35293E47ABF69AA7"]
-			size: 1.5d
 			id: "416CB18E33C58F2F"
-			tasks: [{
-				id: "6DED7ED3446AFE04"
-				type: "questsadditions:place"
-				icon: "sandwichable:sandwich_table"
-				block_type: 0
-				block: "sandwichable:sandwich_table"
-				value: 1L
-				replaced: "minecraft:air"
-				replace: false
-			}]
 			rewards: [{
 				id: "4AA6F5E80E11CF85"
-				type: "item"
 				item: "sandwichable:shrub"
+				type: "item"
 			}]
+			size: 1.5d
+			subtitle: "Your personal sandwich station! Regular bread slice or Toasted bread slice goes here"
+			tasks: [{
+				block: "sandwichable:sandwich_table"
+				block_type: 0
+				icon: "sandwichable:sandwich_table"
+				id: "6DED7ED3446AFE04"
+				replace: false
+				replaced: "minecraft:air"
+				type: "questsadditions:place"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			x: 11.0d
-			y: 5.5d
-			subtitle: "Slice some 'matos"
-			hide_dependency_lines: true
 			dependencies: [
 				"185FAAA271C6EBB8"
 				"35293E47ABF69AA7"
 			]
+			hide_dependency_lines: true
 			id: "41E9FB069551E03E"
-			tasks: [{
-				id: "5B85FA2A7CFD4D33"
-				type: "item"
-				item: "sandwichable:tomato_slice"
-			}]
 			rewards: [
 				{
 					id: "37BB5BAA2084A4CE"
-					type: "item"
 					item: "sandwichable:tomato_seeds"
+					type: "item"
 				}
 				{
 					id: "0EEBB5A54498C9C1"
-					type: "item"
 					item: "sandwichable:tomato_slice"
+					type: "item"
 				}
 			]
+			subtitle: "Slice some 'matos"
+			tasks: [{
+				id: "5B85FA2A7CFD4D33"
+				item: "sandwichable:tomato_slice"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
 		}
 		{
-			x: 9.0d
-			y: 1.5d
-			subtitle: "Slice Lettuce"
-			hide_dependency_lines: true
 			dependencies: [
 				"185FAAA271C6EBB8"
 				"35293E47ABF69AA7"
 			]
+			hide_dependency_lines: true
 			id: "50009CA20B2FE008"
-			tasks: [{
-				id: "1E06DF017D65A3CA"
-				type: "item"
-				item: "sandwichable:lettuce_leaf"
-			}]
 			rewards: [{
 				id: "5C3340635C1C1778"
-				type: "item"
 				item: "sandwichable:lettuce_seeds"
+				type: "item"
 			}]
+			subtitle: "Slice Lettuce"
+			tasks: [{
+				id: "1E06DF017D65A3CA"
+				item: "sandwichable:lettuce_leaf"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
 		}
 		{
-			x: 4.0d
-			y: 1.5d
-			subtitle: "You now have your first sandwich, time to open up a Subway!"
 			dependencies: ["416CB18E33C58F2F"]
 			id: "0B1FD34907A3CD7A"
-			tasks: [{
-				id: "4DE46F5DA2EC053E"
-				type: "item"
-				icon: "sandwichable:toasted_bread_slice"
+			rewards: [{
+				id: "3994DE37892672F3"
 				item: {
-					id: "sandwichable:sandwich"
 					Count: 1b
+					id: "sandwichable:spread"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "You now have your first sandwich, time to open up a Subway!"
+			tasks: [{
+				icon: "sandwichable:toasted_bread_slice"
+				id: "4DE46F5DA2EC053E"
+				item: {
+					Count: 1b
+					id: "sandwichable:sandwich"
 					tag: {
 						BlockEntityTag: {
 							DisplayValues: {
@@ -356,683 +361,673 @@
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "3994DE37892672F3"
 				type: "item"
-				item: {
-					id: "sandwichable:spread"
-					Count: 1b
-					tag: { }
-				}
 			}]
+			x: 4.0d
+			y: 1.5d
 		}
 		{
-			x: 8.0d
-			y: 1.5d
-			subtitle: "Slice up some Salmon"
-			hide_dependency_lines: true
 			dependencies: [
 				"185FAAA271C6EBB8"
 				"35293E47ABF69AA7"
 			]
+			hide_dependency_lines: true
 			id: "64E9095B531FEC5D"
-			tasks: [{
-				id: "349EF786D8FEECF6"
-				type: "item"
-				item: "sandwichable:salmon_filet"
-			}]
 			rewards: [{
 				id: "19249478E3E8C562"
-				type: "item"
 				item: "sandwichable:salmon_filet"
+				type: "item"
 			}]
+			subtitle: "Slice up some Salmon"
+			tasks: [{
+				id: "349EF786D8FEECF6"
+				item: "sandwichable:salmon_filet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
 		}
 		{
-			x: 8.0d
-			y: 2.5d
-			subtitle: "Don't cry"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "30E4EDEEDFEB1231"
-			tasks: [{
-				id: "2DB456329876D6A2"
-				type: "item"
-				item: "sandwichable:chopped_onion"
-			}]
 			rewards: [{
 				id: "3C0E744744DCC7C3"
-				type: "item"
 				item: "sandwichable:chopped_onion"
+				type: "item"
 			}]
+			subtitle: "Don't cry"
+			tasks: [{
+				id: "2DB456329876D6A2"
+				item: "sandwichable:chopped_onion"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
 		}
 		{
-			x: 10.0d
-			y: 5.5d
-			subtitle: "Chop the carrots"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "6992E3785DAB0BDD"
-			tasks: [{
-				id: "4A6CE51451C79CA2"
-				type: "item"
-				item: "sandwichable:chopped_carrot"
-			}]
 			rewards: [{
 				id: "1CF0C2F40C55BBE7"
-				type: "item"
 				item: "sandwichable:chopped_carrot"
+				type: "item"
 			}]
+			subtitle: "Chop the carrots"
+			tasks: [{
+				id: "4A6CE51451C79CA2"
+				item: "sandwichable:chopped_carrot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
 		}
 		{
-			x: 11.0d
-			y: 1.5d
-			subtitle: "This is nice"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "23C3B4C1C78006DF"
-			tasks: [{
-				id: "7A8FB4AE0647A553"
-				type: "item"
-				item: "sandwichable:chopped_golden_carrot"
-			}]
 			rewards: [{
 				id: "07B810A00D900148"
-				type: "item"
 				item: "sandwichable:chopped_golden_carrot"
+				type: "item"
 			}]
+			subtitle: "This is nice"
+			tasks: [{
+				id: "7A8FB4AE0647A553"
+				item: "sandwichable:chopped_golden_carrot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
 		}
 		{
-			x: 8.0d
-			y: 3.5d
-			subtitle: "Why?"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "628B826E74191CF1"
-			tasks: [{
-				id: "3435D8EB7743FFC0"
-				type: "item"
-				item: "sandwichable:chopped_beetroot"
-			}]
 			rewards: [{
 				id: "7BBC3BABA3C1AB8D"
-				type: "item"
 				item: "sandwichable:chopped_beetroot"
+				type: "item"
 			}]
+			subtitle: "Why?"
+			tasks: [{
+				id: "3435D8EB7743FFC0"
+				item: "sandwichable:chopped_beetroot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
 		}
 		{
-			x: 11.0d
-			y: 4.5d
-			subtitle: "Basic"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "6276202DD53D6BA7"
-			tasks: [{
-				id: "7E5A6A973F1EEA39"
-				type: "item"
-				item: "sandwichable:apple_slices"
-			}]
 			rewards: [{
 				id: "30793D715E51CC7B"
-				type: "item"
 				item: "sandwichable:apple_slices"
+				type: "item"
 			}]
+			subtitle: "Basic"
+			tasks: [{
+				id: "7E5A6A973F1EEA39"
+				item: "sandwichable:apple_slices"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
 		}
 		{
-			x: 11.0d
-			y: 3.5d
-			subtitle: "California made"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "29530D47139378AF"
-			tasks: [{
-				id: "4E67DD6E0A275EFC"
-				type: "item"
-				item: "sandwichable:golden_apple_slices"
-			}]
 			rewards: [{
 				id: "4B42E0DE6ADB76B8"
-				type: "item"
 				item: "sandwichable:golden_apple_slices"
+				type: "item"
 			}]
+			subtitle: "California made"
+			tasks: [{
+				id: "4E67DD6E0A275EFC"
+				item: "sandwichable:golden_apple_slices"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
 		}
 		{
-			x: 11.0d
-			y: 2.5d
-			subtitle: "This is even better"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "16B80D209B6F3D80"
-			tasks: [{
-				id: "15DEA0E858922234"
-				type: "item"
-				item: "sandwichable:enchanted_golden_apple_slices"
-			}]
 			rewards: [{
 				id: "371124DBD9FD970D"
-				type: "item"
 				item: "sandwichable:enchanted_golden_apple_slices"
+				type: "item"
 			}]
+			subtitle: "This is even better"
+			tasks: [{
+				id: "15DEA0E858922234"
+				item: "sandwichable:enchanted_golden_apple_slices"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
 		}
 		{
-			x: 8.0d
-			y: 5.5d
-			subtitle: "Yuck"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "24434DDD160FE9C9"
-			tasks: [{
-				id: "5541C90D9CBA8838"
-				type: "item"
-				item: "sandwichable:pork_cuts"
-			}]
 			rewards: [{
 				id: "1D8A90B97521AFB4"
-				type: "item"
 				item: "sandwichable:pork_cuts"
+				type: "item"
 			}]
+			subtitle: "Yuck"
+			tasks: [{
+				id: "5541C90D9CBA8838"
+				item: "sandwichable:pork_cuts"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
 		}
 		{
-			x: 9.0d
-			y: 5.5d
-			subtitle: "Chicken nuggies?"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "016A9FDEADFAED2B"
-			tasks: [{
-				id: "275CBE31829D8567"
-				type: "item"
-				item: "sandwichable:chicken_filet"
-			}]
 			rewards: [{
 				id: "6DE2233E7FB96311"
-				type: "item"
 				item: "farmersdelight:chicken_cuts"
+				type: "item"
 			}]
+			subtitle: "Chicken nuggies?"
+			tasks: [{
+				id: "275CBE31829D8567"
+				item: "sandwichable:chicken_filet"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
 		}
 		{
-			x: 8.0d
-			y: 4.5d
-			subtitle: "Sliced Cod"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "52F14BA56E10760F"
-			tasks: [{
-				id: "67EFC0995137FA60"
-				type: "item"
-				item: "sandwichable:cod_filet"
-			}]
 			rewards: [{
 				id: "7931CFAF28E25F97"
-				type: "item"
 				item: "farmersdelight:cod_slice"
+				type: "item"
 			}]
+			subtitle: "Sliced Cod"
+			tasks: [{
+				id: "67EFC0995137FA60"
+				item: "sandwichable:cod_filet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
 		}
 		{
-			x: 10.0d
-			y: 1.5d
-			subtitle: "Chop a Pickled Cucumber"
-			hide_dependency_lines: true
 			dependencies: [
 				"35293E47ABF69AA7"
 				"185FAAA271C6EBB8"
 			]
+			hide_dependency_lines: true
 			id: "7D7DB49C539E70F6"
-			tasks: [{
-				id: "4FDB236693E5F7D4"
-				type: "item"
-				item: "sandwichable:pickle_chips"
-			}]
 			rewards: [{
 				id: "01DB627308B77899"
-				type: "item"
 				item: "sandwichable:pickle_chips"
+				type: "item"
 			}]
+			subtitle: "Chop a Pickled Cucumber"
+			tasks: [{
+				id: "4FDB236693E5F7D4"
+				item: "sandwichable:pickle_chips"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
 		}
 		{
-			x: 7.0d
-			y: 4.5d
-			subtitle: "Toast it!"
-			hide_dependency_lines: true
 			dependencies: [
 				"52F14BA56E10760F"
 				"652E5C7F5378E892"
 				"3CDCE443196B3AE3"
 			]
+			hide_dependency_lines: true
 			id: "2AF2275D490F6AED"
-			tasks: [{
-				id: "4AC72D1129F23D58"
-				type: "item"
-				item: "sandwichable:cooked_cod_filet"
-			}]
 			rewards: [{
 				id: "1E4E0BD62F13E113"
-				type: "item"
 				item: "sandwichable:cooked_cod_filet"
+				type: "item"
 			}]
+			subtitle: "Toast it!"
+			tasks: [{
+				id: "4AC72D1129F23D58"
+				item: "sandwichable:cooked_cod_filet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
 		}
 		{
-			x: 7.0d
-			y: 2.5d
-			subtitle: "Toast it!"
-			hide_dependency_lines: true
 			dependencies: [
 				"30E4EDEEDFEB1231"
 				"652E5C7F5378E892"
 				"3CDCE443196B3AE3"
 			]
+			hide_dependency_lines: true
 			id: "005F089D5AF2446B"
-			tasks: [{
-				id: "390FAAA9B2E60A3D"
-				type: "item"
-				item: "sandwichable:cooked_chopped_onion"
-			}]
 			rewards: [{
 				id: "23D76D334F0F5F7C"
-				type: "item"
 				item: "sandwichable:cooked_chopped_onion"
+				type: "item"
 			}]
+			subtitle: "Toast it!"
+			tasks: [{
+				id: "390FAAA9B2E60A3D"
+				item: "sandwichable:cooked_chopped_onion"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
 		}
 		{
-			x: 7.0d
-			y: 3.5d
-			subtitle: "Toast it!"
-			hide_dependency_lines: true
 			dependencies: [
 				"628B826E74191CF1"
 				"652E5C7F5378E892"
 				"3CDCE443196B3AE3"
 			]
+			hide_dependency_lines: true
 			id: "227F00D5B39A2ABB"
-			tasks: [{
-				id: "62125F5F445A7CF4"
-				type: "item"
-				item: "sandwichable:cooked_chopped_beetroot"
-			}]
 			rewards: [{
 				id: "6724494CCF3A6B38"
-				type: "item"
 				item: "sandwichable:cooked_chopped_beetroot"
+				type: "item"
 			}]
+			subtitle: "Toast it!"
+			tasks: [{
+				id: "62125F5F445A7CF4"
+				item: "sandwichable:cooked_chopped_beetroot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
 		}
 		{
-			x: 7.0d
-			y: 1.5d
-			subtitle: "Toast it!"
-			hide_dependency_lines: true
 			dependencies: [
 				"64E9095B531FEC5D"
 				"652E5C7F5378E892"
 				"3CDCE443196B3AE3"
 			]
+			hide_dependency_lines: true
 			id: "1BECA763DA824571"
-			tasks: [{
-				id: "36791B3D7E092FDE"
-				type: "item"
-				item: "sandwichable:cooked_salmon_filet"
-			}]
 			rewards: [{
 				id: "7912D0FB132FCFAD"
-				type: "item"
 				item: "sandwichable:cooked_salmon_filet"
+				type: "item"
 			}]
+			subtitle: "Toast it!"
+			tasks: [{
+				id: "36791B3D7E092FDE"
+				item: "sandwichable:cooked_salmon_filet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
 		}
 		{
-			x: 11.0d
-			y: 6.5d
-			subtitle: "Toast it!"
-			hide_dependency_lines: true
 			dependencies: [
 				"41E9FB069551E03E"
 				"652E5C7F5378E892"
 				"3CDCE443196B3AE3"
 			]
+			hide_dependency_lines: true
 			id: "62BD2E85D97BC0B2"
-			tasks: [{
-				id: "35B7406919D97882"
-				type: "item"
-				item: "sandwichable:cooked_tomato_slice"
-			}]
 			rewards: [{
 				id: "0D641D05079E1864"
-				type: "item"
 				item: "sandwichable:cooked_tomato_slice"
+				type: "item"
 			}]
+			subtitle: "Toast it!"
+			tasks: [{
+				id: "35B7406919D97882"
+				item: "sandwichable:cooked_tomato_slice"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
 		}
 		{
-			x: 9.0d
-			y: 6.5d
-			subtitle: "Toast it!"
-			hide_dependency_lines: true
 			dependencies: [
 				"016A9FDEADFAED2B"
 				"652E5C7F5378E892"
 				"3CDCE443196B3AE3"
 			]
+			hide_dependency_lines: true
 			id: "13E6B1CD19E573A7"
-			tasks: [{
-				id: "081B7B5D36295C94"
-				type: "item"
-				item: "sandwichable:cooked_chicken_filet"
-			}]
 			rewards: [{
 				id: "5B9DF91F7170DC32"
-				type: "item"
 				item: "sandwichable:cooked_chicken_filet"
+				type: "item"
 			}]
+			subtitle: "Toast it!"
+			tasks: [{
+				id: "081B7B5D36295C94"
+				item: "sandwichable:cooked_chicken_filet"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
 		}
 		{
-			x: 7.0d
-			y: 5.5d
-			subtitle: "Toast it!"
-			hide_dependency_lines: true
 			dependencies: [
 				"24434DDD160FE9C9"
 				"652E5C7F5378E892"
 				"3CDCE443196B3AE3"
 			]
+			hide_dependency_lines: true
 			id: "6B8286B8B2835161"
-			tasks: [{
-				id: "23FD143A60F3B11F"
-				type: "item"
-				item: "sandwichable:cooked_pork_cuts"
-			}]
 			rewards: [{
 				id: "19AB4516324E0AE8"
-				type: "item"
 				item: "sandwichable:cooked_pork_cuts"
+				type: "item"
 			}]
+			subtitle: "Toast it!"
+			tasks: [{
+				id: "23FD143A60F3B11F"
+				item: "sandwichable:cooked_pork_cuts"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
 		}
 		{
-			x: 8.0d
-			y: 6.5d
-			subtitle: "Toast it!"
-			hide_dependency_lines: true
 			dependencies: [
 				"24434DDD160FE9C9"
 				"652E5C7F5378E892"
 				"3CDCE443196B3AE3"
 			]
+			hide_dependency_lines: true
 			id: "3C5EC84568539BFE"
-			tasks: [{
-				id: "6A08AEA9F7CD8210"
-				type: "item"
-				item: "sandwichable:bacon_strips"
-			}]
 			rewards: [{
 				id: "33B58B62F8413679"
-				type: "item"
 				item: "sandwichable:bacon_strips"
+				type: "item"
 			}]
+			subtitle: "Toast it!"
+			tasks: [{
+				id: "6A08AEA9F7CD8210"
+				item: "sandwichable:bacon_strips"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
 		}
 		{
-			x: 10.0d
-			y: 6.5d
-			subtitle: "Toast it!"
-			hide_dependency_lines: true
 			dependencies: [
 				"6992E3785DAB0BDD"
 				"652E5C7F5378E892"
 				"3CDCE443196B3AE3"
 			]
+			hide_dependency_lines: true
 			id: "1CF3182C3CEF03A0"
-			tasks: [{
-				id: "1A74F6561E32CDAE"
-				type: "item"
-				item: "sandwichable:cooked_chopped_carrot"
-			}]
 			rewards: [{
 				id: "7F3F38F878ADADB7"
-				type: "item"
 				item: "sandwichable:cooked_chopped_carrot"
+				type: "item"
 			}]
+			subtitle: "Toast it!"
+			tasks: [{
+				id: "1A74F6561E32CDAE"
+				item: "sandwichable:cooked_chopped_carrot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
 		}
 		{
-			x: 5.5d
-			y: 0.5d
-			subtitle: "Heat up them slices or chopped foods"
+			dependencies: ["416CB18E33C58F2F"]
 			description: [
 				"Controlled by Redstone, you can sneak + right click the toaster to turn it on. Prior to doing this, make sure you put the food item you want to cook in first. "
 				""
 				"Sliced foods go well in the toaster :)"
 			]
-			dependencies: ["416CB18E33C58F2F"]
 			id: "652E5C7F5378E892"
-			tasks: [{
-				id: "6BF16F780FF37AB4"
-				type: "item"
-				item: "sandwichable:desalinator"
-			}]
 			rewards: [{
 				id: "3C4391C07BC037B7"
-				type: "item"
 				item: "minecraft:crimson_fungus"
+				type: "item"
 			}]
+			subtitle: "Heat up them slices or chopped foods"
+			tasks: [{
+				id: "6BF16F780FF37AB4"
+				item: "sandwichable:desalinator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
 		}
 		{
-			x: 5.5d
-			y: 2.0d
-			subtitle: "Toast your bread slice"
 			dependencies: ["652E5C7F5378E892"]
 			id: "3CDCE443196B3AE3"
-			tasks: [{
-				id: "08A12FFB3BD29D9D"
-				type: "item"
-				item: "sandwichable:toasted_bread_slice"
-			}]
 			rewards: [{
 				id: "0D532704D9718042"
-				type: "item"
 				item: "sandwichable:toasted_bread_slice"
+				type: "item"
 			}]
+			subtitle: "Toast your bread slice"
+			tasks: [{
+				id: "08A12FFB3BD29D9D"
+				item: "sandwichable:toasted_bread_slice"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
 		}
 		{
-			title: "Craft a Basin to make Cheese"
-			x: 2.0d
-			y: 0.0d
-			subtitle: "You're going to use this to store milk for yummy cheese"
+			dependencies: ["416CB18E33C58F2F"]
 			description: [
 				"Once crafted, place your basin down and empty your milk bucket into it."
 				""
 				"You can also craft other Basin's after this quest line to match your decor!"
 			]
-			dependencies: ["416CB18E33C58F2F"]
 			id: "04BDF2C48B02C292"
-			tasks: [{
-				id: "1B33985B155F6DFF"
-				type: "item"
-				item: "sandwichable:copper_basin"
-			}]
 			rewards: [
 				{
 					id: "0F7AFC2359EE4B02"
-					type: "item"
 					item: "minecraft:milk_bucket"
+					type: "item"
 				}
 				{
 					id: "6635511E3F776868"
-					type: "item"
 					item: "minecraft:brown_mushroom"
+					type: "item"
 				}
 			]
+			subtitle: "You're going to use this to store milk for yummy cheese"
+			tasks: [{
+				id: "1B33985B155F6DFF"
+				item: "sandwichable:copper_basin"
+				type: "item"
+			}]
+			title: "Craft a Basin to make Cheese"
+			x: 2.0d
+			y: 0.0d
 		}
 		{
-			x: 2.0d
-			y: -3.0d
-			subtitle: "The basic cheese culture. Right click the bottle into your Basin with the Milk"
+			dependencies: ["04BDF2C48B02C292"]
 			description: [
 				"There's over 6 different cheese you can make, which each cheese has its own curated bottle. For starters we'll just use the normal cheese culture."
 				""
 				"Wait Three Minutes after interacting your Culture with the Milk-filled Basin. Once there are particles, you can Interact with the basin to collect your cheese, or use a Bucket to collect Fermenting Milk"
 			]
-			dependencies: ["04BDF2C48B02C292"]
 			id: "3920C2E3CEBC4DEB"
+			rewards: [{
+				id: "50B2FFDBB4848E4C"
+				item: "sandwichable:shrub"
+				type: "item"
+			}]
+			subtitle: "The basic cheese culture. Right click the bottle into your Basin with the Milk"
 			tasks: [
 				{
 					id: "07096C9865D8197F"
-					type: "item"
 					item: {
-						id: "sandwichable:regular_cheese_culture_bottle"
 						Count: 1b
+						id: "sandwichable:regular_cheese_culture_bottle"
 						tag: {
 							UsageData: {
 								uses: 10
 							}
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "573B6C6C4E9D1388"
-					type: "observation"
-					title: "Place Basin, Pour Milk, Pour Culture"
 					icon: "sandwichable:copper_basin"
-					timer: 0L
+					id: "573B6C6C4E9D1388"
 					observe_type: 0
+					timer: 0L
+					title: "Place Basin, Pour Milk, Pour Culture"
 					to_observe: "sandwichable:copper_basin"
+					type: "observation"
 				}
 			]
-			rewards: [{
-				id: "50B2FFDBB4848E4C"
-				type: "item"
-				item: "sandwichable:shrub"
-			}]
+			x: 2.0d
+			y: -3.0d
 		}
 		{
-			x: 2.0d
-			y: -4.5d
-			subtitle: "You saw the particles from the basin and right clicked it to grab your cheese"
 			dependencies: ["3920C2E3CEBC4DEB"]
 			id: "14E7CFAB1F66D70B"
-			tasks: [{
-				id: "1D38D75512BDDECF"
-				type: "item"
-				item: "sandwichable:cheese_wheel"
-			}]
 			rewards: [{
 				id: "365C73778080AE97"
-				type: "item"
 				item: "sandwichable:shrub"
+				type: "item"
 			}]
+			subtitle: "You saw the particles from the basin and right clicked it to grab your cheese"
+			tasks: [{
+				id: "1D38D75512BDDECF"
+				item: "sandwichable:cheese_wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
 		}
 		{
-			x: 0.5d
-			y: -3.0d
-			subtitle: "Store your Cultured Milk here to increase uses"
-			description: ["This is a storage for your Cultured Milk bottles. The milk will slowly grow over time if you leave the cultured bottles inside!"]
 			dependencies: ["3920C2E3CEBC4DEB"]
+			description: ["This is a storage for your Cultured Milk bottles. The milk will slowly grow over time if you leave the cultured bottles inside!"]
 			id: "537EB8FA1ED7CAB4"
+			rewards: [{
+				count: 2
+				id: "2CA60866E1CF4639"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			subtitle: "Store your Cultured Milk here to increase uses"
 			tasks: [{
 				id: "744D169E502D8E71"
-				type: "item"
 				item: "sandwichable:bottle_crate"
-			}]
-			rewards: [{
-				id: "2CA60866E1CF4639"
 				type: "item"
-				item: "minecraft:glass_bottle"
-				count: 2
 			}]
+			x: 0.5d
+			y: -3.0d
 		}
 		{
-			x: 3.5d
-			y: -3.0d
-			subtitle: "Use a bucket on fermenting cheese inside a basin to collect and store"
 			dependencies: [
 				"04BDF2C48B02C292"
 				"3920C2E3CEBC4DEB"
 			]
 			id: "38FE9664FB857FA1"
-			tasks: [{
-				id: "24D94D525256CA8B"
-				type: "item"
-				item: "sandwichable:fermenting_milk_bucket"
-			}]
 			rewards: [{
 				id: "0B7E545EFCEF4016"
-				type: "item"
 				item: "minecraft:bucket"
+				type: "item"
 			}]
+			subtitle: "Use a bucket on fermenting cheese inside a basin to collect and store"
+			tasks: [{
+				id: "24D94D525256CA8B"
+				item: "sandwichable:fermenting_milk_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
 		}
 		{
-			x: 3.5d
-			y: -4.5d
-			subtitle: "Slice up that cheese"
 			dependencies: ["14E7CFAB1F66D70B"]
 			id: "6952243787B711F6"
-			tasks: [{
-				id: "0A9E25F99261936B"
-				type: "item"
-				item: "sandwichable:cheese_slice"
-			}]
 			rewards: [{
 				id: "2FF9EB7BB5B78494"
-				type: "item"
 				item: {
-					id: "sandwichable:creamy_cheese_culture_bottle"
 					Count: 1b
+					id: "sandwichable:creamy_cheese_culture_bottle"
 					tag: {
 						UsageData: {
 							uses: 10
 						}
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "Slice up that cheese"
+			tasks: [{
+				id: "0A9E25F99261936B"
+				item: "sandwichable:cheese_slice"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["41E39371AD53171E"]
+			id: "701D1396B67827CA"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "0F23F91E145BD5D2"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "Show all Food Recipes"
+			tasks: [{
+				id: "0FAE76907D14A2B2"
+				item: "cookingforblockheads:no_filter_edition"
+				type: "item"
+			}]
 			title: "Cooking For Blockheads"
 			x: -5.0d
 			y: 4.0d
-			subtitle: "Show all Food Recipes"
-			dependencies: ["41E39371AD53171E"]
-			optional: true
-			id: "701D1396B67827CA"
-			tasks: [{
-				id: "0FAE76907D14A2B2"
-				type: "item"
-				item: "cookingforblockheads:no_filter_edition"
-			}]
-			rewards: [{
-				id: "0F23F91E145BD5D2"
-				type: "item"
-				item: "minecraft:bread"
-				count: 3
-			}]
 		}
 		{
-			title: "Cooking for Blockheads Quest Line"
-			x: -4.0d
-			y: 5.0d
-			subtitle: "Food crafting made easy!"
 			description: [
 				"These books are very important if you want to easily craft food"
 				""
@@ -1042,92 +1037,94 @@
 				""
 				"Right-clicking the cooking table with a #NoFilter edition will turn it into a #NoFilter Cooking Table, making it so it always shows all recipes rather than just the ones you can cook right now"
 			]
-			size: 1.5d
 			id: "41E39371AD53171E"
-			tasks: [{
-				id: "5DCAD5D97E682B1E"
-				type: "item"
-				item: "cookingforblockheads:recipe_book"
-			}]
 			rewards: [
 				{
-					id: "3D2CA2537968F7B8"
-					type: "item"
-					item: "minecraft:wheat"
 					count: 2
+					id: "3D2CA2537968F7B8"
+					item: "minecraft:wheat"
+					type: "item"
 				}
 				{
 					id: "6FED2BCAA8DC79C4"
-					type: "item"
 					item: "minecraft:egg"
+					type: "item"
 				}
 			]
+			size: 1.5d
+			subtitle: "Food crafting made easy!"
+			tasks: [{
+				id: "5DCAD5D97E682B1E"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			title: "Cooking for Blockheads Quest Line"
+			x: -4.0d
+			y: 5.0d
 		}
 		{
-			x: -4.0d
-			y: 3.0d
-			subtitle: "Crafts foods with whats in your inventory"
 			dependencies: ["41E39371AD53171E"]
 			id: "1D6CEA0845DECC92"
-			tasks: [{
-				id: "62A24E18DBA14E7A"
-				type: "item"
-				item: "cookingforblockheads:crafting_book"
-			}]
 			rewards: [{
 				id: "7DA4F230EFE137D3"
-				type: "item"
 				item: "minecraft:enchanted_golden_apple"
+				type: "item"
 			}]
+			subtitle: "Crafts foods with whats in your inventory"
+			tasks: [{
+				id: "62A24E18DBA14E7A"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
 		}
 		{
-			title: "Cooking Table (Core Block for Mod)"
-			x: -4.0d
-			y: 1.0d
-			subtitle: "Place the cooking table down and connect it with other kitchen blocks, such as the Fridge or Kitchen Counters."
+			dependencies: ["1D6CEA0845DECC92"]
 			description: [
 				"The Cooking Table is the core of a multiblock kitchen. Right-clicking it will bring up the interface of the recipe book, in which you can quickly craft items using the ingredients in your kitchen."
 				""
 				"In order for a kitchen to count as connected, blocks must be touching each other. The Kitchen Floor can be used to connect blocks that are further apart."
 			]
-			dependencies: ["1D6CEA0845DECC92"]
 			id: "36D6DAD12ECE69C0"
+			rewards: [{
+				count: 3
+				id: "40F527EDA2BE543E"
+				item: "cookingforblockheads:white_kitchen_floor"
+				type: "item"
+			}]
+			subtitle: "Place the cooking table down and connect it with other kitchen blocks, such as the Fridge or Kitchen Counters."
 			tasks: [{
 				id: "035C141BB4748F46"
-				type: "item"
 				item: "cookingforblockheads:cooking_table"
-			}]
-			rewards: [{
-				id: "40F527EDA2BE543E"
 				type: "item"
-				item: "cookingforblockheads:white_kitchen_floor"
-				count: 3
 			}]
+			title: "Cooking Table (Core Block for Mod)"
+			x: -4.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["36D6DAD12ECE69C0"]
+			description: ["The kitchen floor can be used to connect kitchen blocks to each other even when they're not directly touching."]
+			id: "73A48269636AF27E"
+			rewards: [{
+				count: 4
+				id: "3EE710E897F97E60"
+				item: "minecraft:black_concrete"
+				type: "item"
+			}]
+			subtitle: "Kitchen Floors are used to connect other CFBH Blocks"
+			tasks: [{
+				id: "79B95402E4D3C3E1"
+				item: "cookingforblockheads:white_kitchen_floor"
+				type: "item"
+			}]
 			title: "Kitchen Floor (Connect Blocks)"
 			x: -5.0d
 			y: 0.0d
-			subtitle: "Kitchen Floors are used to connect other CFBH Blocks"
-			description: ["The kitchen floor can be used to connect kitchen blocks to each other even when they're not directly touching."]
-			dependencies: ["36D6DAD12ECE69C0"]
-			id: "73A48269636AF27E"
-			tasks: [{
-				id: "79B95402E4D3C3E1"
-				type: "item"
-				item: "cookingforblockheads:white_kitchen_floor"
-			}]
-			rewards: [{
-				id: "3EE710E897F97E60"
-				type: "item"
-				item: "minecraft:black_concrete"
-				count: 4
-			}]
 		}
 		{
-			x: -4.0d
-			y: -1.0d
-			subtitle: "Ingredients within the fridge will be made available for recipes in the Cooking Table"
+			dependencies: ["36D6DAD12ECE69C0"]
 			description: [
 				"Right-click to open the fridge's interface. It's basically like a chest."
 				""
@@ -1135,24 +1132,24 @@
 				""
 				"Place your ingredients into the Fridge (or another kitchen block) and right-click the cooking table. The Cooking Table will also consider ingredients that you have in your inventory right now."
 			]
-			dependencies: ["36D6DAD12ECE69C0"]
 			id: "1D8E8F60359023F0"
+			rewards: [{
+				count: 5
+				id: "5FC55524D65160A9"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			subtitle: "Ingredients within the fridge will be made available for recipes in the Cooking Table"
 			tasks: [{
 				id: "6E971E512473145C"
-				type: "item"
 				item: "cookingforblockheads:fridge"
-			}]
-			rewards: [{
-				id: "5FC55524D65160A9"
 				type: "item"
-				item: "minecraft:terracotta"
-				count: 5
 			}]
+			x: -4.0d
+			y: -1.0d
 		}
 		{
-			x: -4.0d
-			y: -3.0d
-			subtitle: "Ingredients within the counter will be made available for recipes in the Cooking Table."
+			dependencies: ["1D8E8F60359023F0"]
 			description: [
 				"Right-click to open the kitchen counter's interface. It's basically like a chest."
 				""
@@ -1160,88 +1157,88 @@
 				""
 				"The Kitchen Counter, like many kitchen blocks, can be dyed by right-clicking it with a dye."
 			]
-			dependencies: ["1D8E8F60359023F0"]
 			id: "306415086D016BA5"
+			rewards: [{
+				count: 5
+				id: "07E579D8891D3972"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			subtitle: "Ingredients within the counter will be made available for recipes in the Cooking Table."
 			tasks: [{
 				id: "49AE19A00BC011DB"
-				type: "item"
 				item: "cookingforblockheads:counter"
-			}]
-			rewards: [{
-				id: "07E579D8891D3972"
 				type: "item"
-				item: "minecraft:terracotta"
-				count: 5
 			}]
+			x: -4.0d
+			y: -3.0d
 		}
 		{
-			x: -2.0d
-			y: -3.0d
-			subtitle: "Pump water into this bad boy for recipes to have water or to use it for water buckets"
+			dependencies: ["306415086D016BA5"]
 			description: [
 				"The Sink comes with two functions: by itself, it can be right-clicked to fill buckets with water, clean dyed wool or armor, or just make fun water splashes. When it is used as part of a multiblock kitchen, recipes that require water buckets will automatically use water from the sink (some may still require a bucket though)."
 				""
 				"Right-click with a bucket to fill the bucket with water. Right-click with dyed wool or armor to clean the color off."
 			]
-			dependencies: ["306415086D016BA5"]
 			id: "55ABD8CAB40F2AE3"
+			rewards: [{
+				count: 3
+				id: "1EC939FCDD272BC2"
+				item: "minecraft:black_stained_glass"
+				type: "item"
+			}]
+			subtitle: "Pump water into this bad boy for recipes to have water or to use it for water buckets"
 			tasks: [{
 				id: "07F7F4A4ED7323FB"
-				type: "item"
 				item: "cookingforblockheads:sink"
-			}]
-			rewards: [{
-				id: "1EC939FCDD272BC2"
 				type: "item"
-				item: "minecraft:black_stained_glass"
-				count: 3
 			}]
+			x: -2.0d
+			y: -3.0d
 		}
 		{
-			x: -5.0d
-			y: -4.0d
-			subtitle: "Used for cornering your multi-block so it doesnt look odd"
 			dependencies: ["306415086D016BA5"]
 			id: "08522A9B957F00C5"
+			rewards: [{
+				count: 9
+				id: "6A9CD34DBEDCCC69"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			subtitle: "Used for cornering your multi-block so it doesnt look odd"
 			tasks: [{
 				id: "1A875920499D92A4"
-				type: "item"
 				item: "cookingforblockheads:corner"
-			}]
-			rewards: [{
-				id: "6A9CD34DBEDCCC69"
 				type: "item"
-				item: "minecraft:oak_planks"
-				count: 9
 			}]
+			x: -5.0d
+			y: -4.0d
 		}
 		{
-			x: -2.0d
-			y: 1.0d
-			subtitle: "The Spice Rack holds up to nine ingredients that will be made available to your multiblock kitchen."
+			dependencies: ["7B2148D1860FB977"]
 			description: [
 				"Right-click the spice rack with an item in your hand to put the item on the spice rack. Right-clicking the spice rack when it already has an item in that spot will retrieve or swap the item out."
 				""
 				"You can also open the interface of the spice rack by right-clicking it with an empty hand and manage its content that way."
 			]
-			dependencies: ["7B2148D1860FB977"]
 			id: "1F39963B52A803FE"
+			rewards: [{
+				count: 2
+				id: "472AB5DAFE286343"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			subtitle: "The Spice Rack holds up to nine ingredients that will be made available to your multiblock kitchen."
 			tasks: [{
 				id: "5CEE770154A772C4"
-				type: "item"
 				item: "cookingforblockheads:spice_rack"
-			}]
-			rewards: [{
-				id: "472AB5DAFE286343"
 				type: "item"
-				item: "minecraft:iron_nugget"
-				count: 2
 			}]
+			x: -2.0d
+			y: 1.0d
 		}
 		{
-			x: -1.0d
-			y: 0.0d
-			subtitle: "The Toaster possesses magical heating powers to convert Untoasted Toast to Toast."
+			dependencies: ["1F39963B52A803FE"]
 			description: [
 				"It acts as a standalone block and does not provide any further functionality to a Multiblock Kitchen."
 				""
@@ -1249,139 +1246,142 @@
 				""
 				"Right-clicking the toaster again when it's full (or with an empty hand) will start the toasting process. After a little time has passed, the finished toast will pop out at the top."
 			]
-			dependencies: ["1F39963B52A803FE"]
 			id: "2F1B85B169DEA436"
-			tasks: [{
-				id: "1E62EB9C62D84C6D"
-				type: "item"
-				item: "cookingforblockheads:toaster"
-			}]
 			rewards: [{
 				id: "7523DF25AD75EEEC"
-				type: "item"
 				item: "minecraft:bread"
+				type: "item"
 			}]
+			subtitle: "The Toaster possesses magical heating powers to convert Untoasted Toast to Toast."
+			tasks: [{
+				id: "1E62EB9C62D84C6D"
+				item: "cookingforblockheads:toaster"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
 		}
 		{
-			x: -2.0d
-			y: 3.0d
-			subtitle: "The Tool Rack holds up to two tools that will be made available to your multiblock kitchen. You can also just use it by itself as a ... well, tool rack."
-			description: ["Right-click the tool rack with an item in your hand to put the item on the tool rack. Right-clicking the tool rack when it already has an item in that spot will retrieve or swap the item out."]
 			dependencies: ["1F39963B52A803FE"]
+			description: ["Right-click the tool rack with an item in your hand to put the item on the tool rack. Right-clicking the tool rack when it already has an item in that spot will retrieve or swap the item out."]
 			id: "176A2B5439AFC1C0"
+			rewards: [{
+				count: 7
+				id: "7CC318CEAAACFC76"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			subtitle: "The Tool Rack holds up to two tools that will be made available to your multiblock kitchen. You can also just use it by itself as a ... well, tool rack."
 			tasks: [{
 				id: "402546A551D5B93D"
-				type: "item"
 				item: "cookingforblockheads:tool_rack"
-			}]
-			rewards: [{
-				id: "7CC318CEAAACFC76"
 				type: "item"
-				item: "minecraft:glass"
-				count: 7
 			}]
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			x: -2.0d
-			y: -1.0d
-			subtitle: "The Oven can cook large amounts of food efficiently and fast. When used as part of a Multiblock Kitchen, it will unlock smelting recipes in the Cooking Table."
+			dependencies: ["55ABD8CAB40F2AE3"]
 			description: [
 				"Place coal in the fuel slot on the left. Place uncooked food in the three slots at the top. The oven will automatically pull nine items into its internal buffer, cook them, and them move them over to the output slots on the right."
 				""
 				"If you shift-right-click the door it will open the oven without opening the interface, allowing you to put items in by simply right-clicking them into the front side."
 			]
-			dependencies: ["55ABD8CAB40F2AE3"]
 			id: "7B2148D1860FB977"
-			tasks: [{
-				id: "4BE244330E7B80C3"
-				type: "item"
-				item: "cookingforblockheads:oven"
-			}]
 			rewards: [{
 				id: "5C1F68C851BA5B7F"
-				type: "item"
 				item: "minecraft:oak_slab"
+				type: "item"
 			}]
+			subtitle: "The Oven can cook large amounts of food efficiently and fast. When used as part of a Multiblock Kitchen, it will unlock smelting recipes in the Cooking Table."
+			tasks: [{
+				id: "4BE244330E7B80C3"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
 		}
 		{
-			x: -2.0d
-			y: 5.0d
-			subtitle: "The Milk Jar is a small container able to hold eight buckets of milk. If used as part of a multiblock kitchen, it will provide its milk to recipes that need it."
-			description: ["Right-click with a bucket of milk to put milk into the milk jar. Right-click with an empty bucket to take it back out."]
 			dependencies: ["176A2B5439AFC1C0"]
+			description: ["Right-click with a bucket of milk to put milk into the milk jar. Right-click with an empty bucket to take it back out."]
 			id: "06F8A73446A62424"
+			subtitle: "The Milk Jar is a small container able to hold eight buckets of milk. If used as part of a multiblock kitchen, it will provide its milk to recipes that need it."
 			tasks: [{
 				id: "730F7446E55E2D65"
-				type: "item"
 				item: "cookingforblockheads:milk_jar"
+				type: "item"
 			}]
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			x: -1.0d
-			y: 4.0d
-			subtitle: "This cow jar of milk will continously produce milk"
+			dependencies: ["06F8A73446A62424"]
 			description: [
 				"{image:kubejs:textures/gui/presets/cow_jar.png width:200 height:200 align:1}"
 				"Follow the image above to a cow milk jar using an anvil, a cow, and a milk jar. Smash the cow down into the jar using an anvil (Anvil should be above 1 empty block above cow)"
 				""
 				"Right-click with a bucket of milk to put milk into the milk jar. Right-click with an empty bucket to take it back out"
 			]
-			dependencies: ["06F8A73446A62424"]
 			id: "148CD79857AA05E3"
-			tasks: [{
-				id: "18D4D7BDB4AD3289"
-				type: "item"
-				item: "cookingforblockheads:cow_jar"
-			}]
 			rewards: [
 				{
 					id: "37567669B413B16F"
-					type: "item"
 					item: "plushies:cow_plushie"
+					type: "item"
 				}
 				{
-					id: "3F250568467D38D1"
-					type: "item"
-					item: "minecraft:enchanted_golden_apple"
 					count: 2
+					id: "3F250568467D38D1"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
 				}
 			]
+			subtitle: "This cow jar of milk will continously produce milk"
+			tasks: [{
+				id: "18D4D7BDB4AD3289"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
 		}
 		{
-			x: -3.0d
-			y: -4.0d
-			subtitle: "This is just like a kitchen counter however its a cabinet. Has the same multi-block usage"
 			dependencies: ["306415086D016BA5"]
 			id: "358C2AB8B756DA30"
-			tasks: [{
-				id: "75E7B2FA06A2BB20"
-				type: "item"
-				item: "cookingforblockheads:cabinet"
-			}]
 			rewards: [{
 				id: "4E22BBC1348891BD"
-				type: "item"
 				item: "croptopia:raisin_oatmeal_cookie"
+				type: "item"
 			}]
+			subtitle: "This is just like a kitchen counter however its a cabinet. Has the same multi-block usage"
+			tasks: [{
+				id: "75E7B2FA06A2BB20"
+				item: "cookingforblockheads:cabinet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
 		}
 		{
-			x: -1.0d
-			y: 2.0d
-			subtitle: "The Fruit Basket is a multi-block part of the kitchen that will store fruits for recipes"
 			dependencies: ["176A2B5439AFC1C0"]
 			id: "05813BEB39BC7FC2"
-			tasks: [{
-				id: "3E8D963C932069F1"
-				type: "item"
-				item: "cookingforblockheads:fruit_basket"
-			}]
 			rewards: [{
 				id: "067DE5A1FFEEAEBE"
-				type: "item"
 				item: "croptopia:banana"
 				random_bonus: 3
+				type: "item"
 			}]
+			subtitle: "The Fruit Basket is a multi-block part of the kitchen that will store fruits for recipes"
+			tasks: [{
+				id: "3E8D963C932069F1"
+				item: "cookingforblockheads:fruit_basket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["Cooking Foods, duh"]
+	title: "Chef Boyardee"
 }

@@ -1,300 +1,300 @@
 {
-	id: "08E933695057E910"
-	group: "529B8499DEC935D4"
-	order_index: 0
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "were_in_the_endgame_now"
-	title: "The End Game"
+	group: "529B8499DEC935D4"
 	icon: {
-		id: "kibe:angel_ring"
 		Count: 1b
+		id: "kibe:angel_ring"
 		tag: { }
 	}
-	subtitle: ["Grinding for End Game Items"]
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "08E933695057E910"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			x: -0.5d
-			y: -1.5d
-			subtitle: "You have won"
-			description: ["Congrats you have made the hardest item in the game."]
 			dependencies: ["6912B0F3A6A06069"]
+			description: ["Congrats you have made the hardest item in the game."]
 			id: "641B13F19713CF5F"
-			tasks: [{
-				id: "4DBFD52D29222381"
-				type: "item"
-				item: "techreborn:quantum_chestplate"
-			}]
 			rewards: [{
 				id: "2073F5928A88220B"
-				type: "item"
 				item: {
-					id: "minecraft:elytra"
 					Count: 1b
+					id: "minecraft:elytra"
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			subtitle: "You have won"
+			tasks: [{
+				id: "4DBFD52D29222381"
+				item: "techreborn:quantum_chestplate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
 		}
 		{
-			x: -0.5d
-			y: -2.5d
-			subtitle: "Under water breathing"
 			dependencies: ["6912B0F3A6A06069"]
 			id: "0FE2BFCCBAAC9C29"
-			tasks: [{
-				id: "22170D95778B1719"
-				type: "item"
-				item: "techreborn:quantum_helmet"
-			}]
 			rewards: [{
 				id: "5807473B11FF2996"
-				type: "item"
 				item: "minecraft:firework_rocket"
+				type: "item"
 			}]
+			subtitle: "Under water breathing"
+			tasks: [{
+				id: "22170D95778B1719"
+				item: "techreborn:quantum_helmet"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
 		}
 		{
-			x: -0.5d
-			y: -0.5d
-			subtitle: "Run Fast"
 			dependencies: ["6912B0F3A6A06069"]
 			id: "7DAA6E68A1184E08"
-			tasks: [{
-				id: "0A4D72B4940E60DF"
-				type: "item"
-				item: "techreborn:quantum_leggings"
-			}]
 			rewards: [{
 				id: "4D7A3CDE3272550B"
-				type: "item"
 				item: "techreborn:industrial_solar_panel"
+				type: "item"
 			}]
+			subtitle: "Run Fast"
+			tasks: [{
+				id: "0A4D72B4940E60DF"
+				item: "techreborn:quantum_leggings"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
 		}
 		{
-			x: -0.5d
-			y: 0.5d
-			subtitle: "Jump High"
 			dependencies: ["6912B0F3A6A06069"]
 			id: "1B7C883BBC2962E3"
-			tasks: [{
-				id: "5087D37572FBB21C"
-				type: "item"
-				item: "techreborn:quantum_boots"
-			}]
 			rewards: [{
 				id: "3C452C0F5E43F1B5"
-				type: "item"
 				item: "gofish:wooden_crate"
+				type: "item"
 			}]
+			subtitle: "Jump High"
+			tasks: [{
+				id: "5087D37572FBB21C"
+				item: "techreborn:quantum_boots"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
 		}
 		{
-			x: -1.5d
-			y: -1.5d
-			subtitle: "Good luck"
-			description: ["Creative Flight"]
 			dependencies: ["01804CA59BAD3478"]
+			description: ["Creative Flight"]
 			id: "6912B0F3A6A06069"
-			tasks: [{
-				id: "554BA9EC7E9B5F7A"
-				type: "item"
-				item: {
-					id: "kibe:angel_ring"
-					Count: 1b
-					tag: { }
-				}
-			}]
 			rewards: [{
-				id: "2FD44064BA1F78AB"
-				type: "toast"
-				icon: "minecraft:cookie"
 				auto: "enabled"
 				description: "Do you want a cookie?"
+				icon: "minecraft:cookie"
+				id: "2FD44064BA1F78AB"
+				type: "toast"
 			}]
+			subtitle: "Good luck"
+			tasks: [{
+				id: "554BA9EC7E9B5F7A"
+				item: {
+					Count: 1b
+					id: "kibe:angel_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
 		}
 		{
-			x: -3.0d
-			y: -1.5d
-			subtitle: "Spooky"
-			description: ["Use an Assembler with some UU Matter to craft the Cursed Gem."]
 			dependencies: [
 				"13426EC067660B5B"
 				"5DCBAD24802E5735"
 				"54356D1908BAB423"
 			]
+			description: ["Use an Assembler with some UU Matter to craft the Cursed Gem."]
 			id: "01804CA59BAD3478"
-			tasks: [{
-				id: "68ECA269A4570723"
-				type: "item"
-				item: "aqm2:cursed_gem"
-			}]
 			rewards: [{
 				id: "6789B02AC607F16C"
-				type: "random"
 				table_id: 28493754319576071L
+				type: "random"
 			}]
+			subtitle: "Spooky"
+			tasks: [{
+				id: "68ECA269A4570723"
+				item: "aqm2:cursed_gem"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
 		}
 		{
-			x: -4.0d
-			y: -2.5d
-			subtitle: "Mother Demon drop"
 			description: [
 				"Kill the Arch Makyr to obtain a Corupted Emerald."
 				""
 			]
 			id: "5DCBAD24802E5735"
+			subtitle: "Mother Demon drop"
 			tasks: [{
 				id: "4FBDD2D101709C3D"
-				type: "item"
 				item: "aqm2:corrupted_emerald"
+				type: "item"
 			}]
+			x: -4.0d
+			y: -2.5d
 		}
 		{
-			x: -4.0d
-			y: -0.5d
-			subtitle: "Gladiator drop"
 			description: ["Kill the Gladiator to obtain a Demon Pearl."]
 			id: "13426EC067660B5B"
-			tasks: [{
-				id: "378C30CAED064F38"
-				type: "item"
-				item: "aqm2:demon_pearl"
-			}]
 			rewards: [{
 				id: "44E808AFDCC02EC4"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
+			subtitle: "Gladiator drop"
+			tasks: [{
+				id: "378C30CAED064F38"
+				item: "aqm2:demon_pearl"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
 		}
 		{
-			x: -4.5d
-			y: -1.5d
-			subtitle: "Icon of Sin drop"
 			description: ["Get a Star Of Icon by killing the Icon of Sin."]
 			id: "54356D1908BAB423"
-			tasks: [{
-				id: "54CF1CFE643B05AA"
-				type: "item"
-				item: "aqm2:star_of_icon"
-			}]
 			rewards: [{
 				id: "6B2E3849276731BD"
-				type: "item"
 				item: "expandedstorage:obsidian_to_netherite_conversion_kit"
+				type: "item"
 			}]
+			subtitle: "Icon of Sin drop"
+			tasks: [{
+				id: "54CF1CFE643B05AA"
+				item: "aqm2:star_of_icon"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
 		}
 		{
-			x: -2.0d
-			y: 1.5d
-			subtitle: "Become Loki"
+			dependencies: [
+				"01804CA59BAD3478"
+				"56DCB71E3FF4699C"
+			]
 			description: [
 				"Save locations to teleport to using a Warp Portal. There is a 30 second delay after opening a portal to open another. Unlimited Uses, Unlimited Saved Locations"
 				""
 				"Better than the Displacement Tome"
 			]
-			dependencies: [
-				"01804CA59BAD3478"
-				"56DCB71E3FF4699C"
-			]
-			optional: true
 			id: "4532E363054902AB"
-			tasks: [{
-				id: "1ABF9FF8A4340B1E"
-				type: "item"
-				item: "tempad:tempad"
-			}]
+			optional: true
 			rewards: [
 				{
 					id: "525668A315DBB2C8"
-					type: "item"
 					item: "aqm2:aqm2"
+					type: "item"
 				}
 				{
 					id: "26C57E6206318C7B"
-					type: "choice"
 					table_id: 1830006897849082013L
+					type: "choice"
 				}
 			]
+			subtitle: "Become Loki"
+			tasks: [{
+				id: "1ABF9FF8A4340B1E"
+				item: "tempad:tempad"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
 		}
 		{
-			x: -3.5d
-			y: 1.5d
-			subtitle: "A book to save teleport locations"
-			description: ["You need a displacement page to save a location, and each teleport requires 5 Ender Pearls"]
 			dependencies: ["01804CA59BAD3478"]
-			optional: true
+			description: ["You need a displacement page to save a location, and each teleport requires 5 Ender Pearls"]
 			id: "56DCB71E3FF4699C"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "576143D66340E7C4"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "A book to save teleport locations"
 			tasks: [
 				{
 					id: "159AD9421EF47BC4"
-					type: "item"
 					item: {
-						id: "things:displacement_tome"
 						Count: 1b
+						id: "things:displacement_tome"
 						tag: {
 							Targets: { }
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "71D10ADA9E6BD43D"
-					type: "item"
 					item: "things:displacement_page"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "576143D66340E7C4"
-				type: "item"
-				item: "minecraft:ender_pearl"
-				count: 5
-			}]
+			x: -3.5d
+			y: 1.5d
 		}
 		{
-			title: "Earn the Heart of the Sky"
-			x: 0.5d
-			y: -1.5d
-			subtitle: "Permanent. Creative. Fly."
-			description: ["Have Fun!"]
 			dependencies: [
 				"0FE2BFCCBAAC9C29"
 				"641B13F19713CF5F"
 				"7DAA6E68A1184E08"
 				"1B7C883BBC2962E3"
 			]
+			description: ["Have Fun!"]
 			id: "41C462C47A245184"
+			rewards: [{
+				command: "/give @p winged:heart_of_the_sky 1"
+				id: "40FEE64E8DCF5987"
+				player_command: false
+				type: "command"
+			}]
+			subtitle: "Permanent. Creative. Fly."
 			tasks: [
 				{
+					entity: "minecraft:panda"
 					id: "6A056F04ADE71C00"
 					type: "kill"
-					entity: "minecraft:panda"
 					value: 10L
 				}
 				{
+					entity: "creeperoverhaul:jungle_creeper"
 					id: "6A66F44DBF23E243"
 					type: "kill"
-					entity: "creeperoverhaul:jungle_creeper"
 					value: 5L
 				}
 				{
+					entity: "sprout:elephant"
 					id: "3A46D69A58DAFF36"
 					type: "kill"
-					entity: "sprout:elephant"
 					value: 5L
 				}
 				{
+					entity: "mobz:crip"
 					id: "64283EC520864312"
 					type: "kill"
-					entity: "mobz:crip"
 					value: 5L
 				}
 			]
-			rewards: [{
-				id: "40FEE64E8DCF5987"
-				type: "command"
-				command: "/give @p winged:heart_of_the_sky 1"
-				player_command: false
-			}]
+			title: "Earn the Heart of the Sky"
+			x: 0.5d
+			y: -1.5d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["Grinding for End Game Items"]
+	title: "The End Game"
 }

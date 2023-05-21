@@ -1,151 +1,145 @@
 {
-	id: "2362B0F4C9709913"
-	group: "7DDA60A5DB5F9F6C"
-	order_index: 1
-	filename: "finders_keepers"
-	title: "Finders Keepers"
-	icon: "minecraft:filled_map"
-	subtitle: ["Loot?"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "finders_keepers"
+	group: "7DDA60A5DB5F9F6C"
+	icon: "minecraft:filled_map"
+	id: "2362B0F4C9709913"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			x: 3.5d
-			y: -1.5d
-			subtitle: "Component for a certain winged item"
 			id: "41C779652CECD439"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "72A72F74AC4CAA1C"
-				type: "item"
 				item: "winged:bat_wing"
+				type: "item"
 			}]
+			x: 3.5d
+			y: -1.5d
 		}
 		{
-			x: 1.0d
-			y: 1.0d
-			subtitle: "Component for a certain winged item"
 			id: "5E70930F95FF4E68"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "1B0A3CE785FA3534"
-				type: "item"
 				item: "winged:black_feather"
+				type: "item"
 			}]
+			x: 1.0d
+			y: 1.0d
 		}
 		{
-			x: -0.5d
-			y: 0.0d
-			subtitle: "Component for a certain winged item"
 			id: "50E5C73FA3FA16D7"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "65AE8C0F24136B6A"
-				type: "item"
 				item: "winged:angel_feather"
+				type: "item"
 			}]
+			x: -0.5d
+			y: 0.0d
 		}
 		{
-			x: 3.5d
-			y: -3.0d
-			subtitle: "Component for a certain winged item"
 			id: "3D4DBB72D75FC561"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "0CDAF8BBEFF00FA6"
-				type: "item"
 				item: "winged:fried_chicken"
+				type: "item"
 			}]
+			x: 3.5d
+			y: -3.0d
 		}
 		{
-			x: -1.5d
-			y: -3.0d
-			subtitle: "Component for a certain winged item"
 			id: "0D16133F80007BD0"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "46090C0619238565"
-				type: "item"
 				item: "winged:irreality_crystal"
+				type: "item"
 			}]
+			x: -1.5d
+			y: -3.0d
 		}
 		{
-			x: 1.0d
-			y: -5.5d
-			subtitle: "Component for a certain winged item"
 			id: "59EDCF374BC6505D"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "6662D05378FDB471"
-				type: "item"
 				item: "winged:demonic_flesh"
+				type: "item"
 			}]
+			x: 1.0d
+			y: -5.5d
 		}
 		{
-			x: -0.5d
-			y: -4.5d
-			subtitle: "Component for a certain winged item"
 			id: "6A46DD87DE00EFEB"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "255DA422D3C39535"
-				type: "item"
 				item: "winged:vex_essence"
+				type: "item"
 			}]
+			x: -0.5d
+			y: -4.5d
 		}
 		{
-			x: 2.5d
-			y: -4.5d
-			subtitle: "Component for a certain winged item"
 			id: "3806577CCE352CB6"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "6A2B99A10437252A"
-				type: "item"
 				item: "winged:phoenix_feather"
+				type: "item"
 			}]
+			x: 2.5d
+			y: -4.5d
 		}
 		{
-			x: -1.5d
-			y: -1.5d
-			subtitle: "Component for a certain winged item"
 			id: "07ADBC88B1CC0C99"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "5034C505F22F788A"
-				type: "item"
 				item: "winged:bowl_of_dyes"
+				type: "item"
 			}]
+			x: -1.5d
+			y: -1.5d
 		}
 		{
-			x: 2.5d
-			y: 0.0d
-			subtitle: "Component for a certain winged item"
 			id: "7C7BC4EA5064A19D"
+			subtitle: "Component for a certain winged item"
 			tasks: [{
 				id: "09C0462C9D8A7828"
-				type: "item"
 				item: "winged:attendee_ticket"
+				type: "item"
 			}]
+			x: 2.5d
+			y: 0.0d
 		}
 		{
-			x: 1.0d
-			y: -0.5d
-			subtitle: "Your Winged workbench"
 			description: [
 				"Winged items are basically an Elytra with a Wing model. There are over 20 different wings you can craft"
 				""
 				"They are permanent. Once you equip it (hold in hand and right click) they will stay on you forever, even after death. You will need to use a dipped Ceremonial Knife to take it off (Which is in the quest line)"
 			]
 			id: "52672F107E92E67A"
-			tasks: [{
-				id: "788143ED378A59E1"
-				type: "item"
-				item: "winged:wingbench"
-			}]
 			rewards: [{
 				id: "191250907463EC27"
-				type: "item"
 				item: "winged:ceremonial_knife"
+				type: "item"
 			}]
+			subtitle: "Your Winged workbench"
+			tasks: [{
+				id: "788143ED378A59E1"
+				item: "winged:wingbench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
 		}
 		{
-			x: 1.0d
-			y: -4.0d
-			subtitle: "Found in End treasure chests"
-			description: [""]
-			hide_dependency_lines: true
 			dependencies: [
 				"59EDCF374BC6505D"
 				"6A46DD87DE00EFEB"
@@ -159,103 +153,102 @@
 				"3806577CCE352CB6"
 			]
 			dependency_requirement: "one_started"
+			description: [""]
+			hide_dependency_lines: true
 			id: "64EB13D8CCE9806E"
+			subtitle: "Found in End treasure chests"
 			tasks: [{
 				id: "05AEA14800009B92"
-				type: "item"
 				item: "winged:broken_core_of_flight_75"
+				type: "item"
 			}]
+			x: 1.0d
+			y: -4.0d
 		}
 		{
-			x: 0.0d
-			y: -3.0d
 			dependencies: ["64EB13D8CCE9806E"]
 			id: "1165709603F090AF"
 			tasks: [{
 				id: "5373B21C2D5B26C3"
-				type: "item"
 				item: "winged:shard_of_zephyr"
+				type: "item"
 			}]
+			x: 0.0d
+			y: -3.0d
 		}
 		{
-			x: 1.0d
-			y: -3.0d
 			dependencies: ["1165709603F090AF"]
 			id: "3F426E5546F1DCB2"
 			tasks: [{
 				id: "541AAF408F73A1E6"
-				type: "item"
 				item: "winged:broken_core_of_flight_50"
+				type: "item"
 			}]
+			x: 1.0d
+			y: -3.0d
 		}
 		{
-			x: 2.0d
-			y: -3.0d
 			dependencies: ["3F426E5546F1DCB2"]
 			id: "31E010E353E6D9E3"
 			tasks: [{
 				id: "6B5B99AD1804AD7F"
-				type: "item"
 				item: "winged:broken_core_of_flight_25"
+				type: "item"
 			}]
+			x: 2.0d
+			y: -3.0d
 		}
 		{
-			x: 1.0d
-			y: -2.0d
 			dependencies: ["31E010E353E6D9E3"]
 			id: "37E0E531E8D9E7B5"
-			tasks: [{
-				id: "709358C2CB0DC77C"
-				type: "item"
-				item: "winged:core_of_flight"
-			}]
 			rewards: [{
 				id: "39E3817BB2778E7B"
-				type: "random"
 				table_id: 28493754319576071L
+				type: "random"
 			}]
+			tasks: [{
+				id: "709358C2CB0DC77C"
+				item: "winged:core_of_flight"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
 		}
 		{
-			x: 2.0d
-			y: -1.5d
-			subtitle: "You got the knife, grats!"
 			dependencies: ["52672F107E92E67A"]
 			id: "5BECD6C59E537D4F"
-			tasks: [{
-				id: "094A714570BFE949"
-				type: "item"
-				item: "winged:ceremonial_knife"
-			}]
 			rewards: [{
 				id: "66BCBF4FC0B1A157"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "You got the knife, grats!"
+			tasks: [{
+				id: "094A714570BFE949"
+				item: "winged:ceremonial_knife"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
 		}
 		{
-			x: 0.0d
-			y: -1.5d
-			subtitle: "Now you can clip your wings, child."
 			dependencies: ["5BECD6C59E537D4F"]
 			id: "4199961687696291"
-			tasks: [{
-				id: "45A0931A7956FC3D"
-				type: "item"
-				item: "winged:dipped_ceremonial_knife"
-			}]
 			rewards: [{
 				id: "688729044306A9FA"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "Now you can clip your wings, child."
+			tasks: [{
+				id: "45A0931A7956FC3D"
+				item: "winged:dipped_ceremonial_knife"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
 		}
 		{
-			icon: "winged:wing_random"
-			x: 1.0d
-			y: 2.5d
-			subtitle: "Take a free wing"
-			description: ["Once received, right click while holding in hand to open."]
-			hide_dependency_lines: true
 			dependencies: [
 				"5E70930F95FF4E68"
 				"50E5C73FA3FA16D7"
@@ -268,48 +261,50 @@
 				"41C779652CECD439"
 				"7C7BC4EA5064A19D"
 			]
-			secret: true
+			description: ["Once received, right click while holding in hand to open."]
+			hide_dependency_lines: true
+			icon: "winged:wing_random"
 			id: "6792627CC301D588"
-			tasks: [{
-				id: "78E33EBF45979113"
-				type: "checkmark"
-				title: "You.. got all the winged components!"
-			}]
 			rewards: [{
 				id: "509AE711C4BB98FB"
-				type: "item"
 				item: "winged:wing_random"
+				type: "item"
 			}]
+			secret: true
+			subtitle: "Take a free wing"
+			tasks: [{
+				id: "78E33EBF45979113"
+				title: "You.. got all the winged components!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
 		}
 		{
-			x: -5.0d
-			y: -3.0d
-			subtitle: "Find them throughout the world in chests"
 			description: ["They grant you abilities while equipped"]
 			id: "5D16AA79E6DD1302"
-			tasks: [{
-				id: "6F5D75069CBA0975"
-				type: "item"
-				title: "The Artifacts"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "artifacts:artifacts"
-					}
-				}
-			}]
 			rewards: [{
 				id: "11BF3D57FACD3CBF"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
+			subtitle: "Find them throughout the world in chests"
+			tasks: [{
+				id: "6F5D75069CBA0975"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "artifacts:artifacts"
+					}
+				}
+				title: "The Artifacts"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
 		}
 		{
-			title: "Unique SimplySwords"
-			x: -5.0d
-			y: -1.5d
-			subtitle: "Congrats you found a Unique SimplySword"
 			description: [
 				"Each one of these weapons have special abilities. "
 				""
@@ -318,25 +313,30 @@
 				"These weapons drop from bosses"
 			]
 			id: "2436430F36C026E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CCC819D1890300B"
+				table_id: 1830006897849082013L
+				type: "choice"
+			}]
+			subtitle: "Congrats you found a Unique SimplySword"
 			tasks: [{
 				id: "468F60B8FDE1337C"
-				type: "item"
-				title: "Any #aqm2:weapons/rare"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "aqm2:weapons/rare"
 					}
 				}
+				title: "Any #aqm2:weapons/rare"
+				type: "item"
 			}]
-			rewards: [{
-				id: "3CCC819D1890300B"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 1830006897849082013L
-			}]
+			title: "Unique SimplySwords"
+			x: -5.0d
+			y: -1.5d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["Loot?"]
+	title: "Finders Keepers"
 }

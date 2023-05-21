@@ -1,1099 +1,1099 @@
 {
-	id: "4D51D68B3DCDAA0B"
-	group: "7DDA60A5DB5F9F6C"
-	order_index: 2
-	filename: "tato_farmer"
-	title: "Tato Farmer"
-	icon: "minecraft:potato"
-	subtitle: ["Farming and stuff"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tato_farmer"
+	group: "7DDA60A5DB5F9F6C"
+	icon: "minecraft:potato"
+	id: "4D51D68B3DCDAA0B"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			x: -10.0d
-			y: -1.0d
-			subtitle: "Buy Most Modded Seeds, Saplings, and Other Goodies"
 			description: ["Get this Market, Place it, and then interact with it to have your own personal farming shop"]
-			size: 2.5d
 			id: "1F2BCB39AA537AD1"
-			tasks: [{
-				id: "6E67C23357940874"
-				type: "item"
-				item: "farmingforblockheads:market"
-				only_from_crafting: true
-			}]
 			rewards: [
 				{
-					id: "7D8FAD4051E1A142"
-					type: "item"
-					item: "minecraft:emerald"
 					count: 3
+					id: "7D8FAD4051E1A142"
+					item: "minecraft:emerald"
+					type: "item"
 				}
 				{
-					id: "3D2A675D58E30CA2"
-					type: "item"
-					item: "minecraft:diamond"
 					count: 3
+					id: "3D2A675D58E30CA2"
+					item: "minecraft:diamond"
+					type: "item"
 				}
 			]
+			size: 2.5d
+			subtitle: "Buy Most Modded Seeds, Saplings, and Other Goodies"
+			tasks: [{
+				id: "6E67C23357940874"
+				item: "farmingforblockheads:market"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
 		}
 		{
-			x: -6.0d
-			y: 3.5d
 			dependencies: ["1C72D8F994EB404A"]
 			id: "3022D0646E4AB65E"
-			tasks: [{
-				id: "3601FA3933090639"
-				type: "item"
-				item: "croparia:croparia4"
-			}]
 			rewards: [{
 				id: "685C9BFA469AB048"
-				type: "item"
 				item: "croparia:croparia4"
+				type: "item"
 			}]
+			tasks: [{
+				id: "3601FA3933090639"
+				item: "croparia:croparia4"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
 		}
 		{
-			x: -6.0d
-			y: 1.0d
 			dependencies: ["3CD2A3AD3473836D"]
 			id: "1C72D8F994EB404A"
-			tasks: [{
-				id: "479DA2E369C330E3"
-				type: "item"
-				item: "croparia:croparia3"
-			}]
 			rewards: [{
 				id: "3B042487FBBE27A4"
-				type: "item"
 				item: "croparia:croparia3"
+				type: "item"
 			}]
+			tasks: [{
+				id: "479DA2E369C330E3"
+				item: "croparia:croparia3"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
 		}
 		{
-			x: -6.0d
-			y: -1.5d
 			dependencies: ["716354CF0D89DD59"]
 			id: "3CD2A3AD3473836D"
-			tasks: [{
-				id: "7D05A293D2853CB3"
-				type: "item"
-				item: "croparia:croparia2"
-			}]
 			rewards: [{
 				id: "01C830F77E54D20A"
-				type: "item"
 				item: "croparia:croparia2"
+				type: "item"
 			}]
+			tasks: [{
+				id: "7D05A293D2853CB3"
+				item: "croparia:croparia2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
 		}
 		{
-			x: -6.0d
-			y: -4.0d
 			dependencies: ["5684AECD7B8F217A"]
 			id: "716354CF0D89DD59"
-			tasks: [{
-				id: "402F0FA45A03E41D"
-				type: "item"
-				item: "croparia:croparia"
-			}]
 			rewards: [{
 				id: "6E80A843842D594A"
-				type: "item"
 				item: "croparia:croparia"
+				type: "item"
 			}]
+			tasks: [{
+				id: "402F0FA45A03E41D"
+				item: "croparia:croparia"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
 		}
 		{
-			title: "Dye Seeds"
-			x: -7.0d
-			y: -4.0d
-			description: ["Grow those dyes instead of searching for flowers in the world."]
 			dependencies: ["716354CF0D89DD59"]
+			description: ["Grow those dyes instead of searching for flowers in the world."]
 			id: "0AF96F1F81C17484"
+			rewards: [{
+				count: 16
+				id: "58D19ED803D770EB"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "224258FA663014B1"
-					type: "item"
 					item: "croparia:seed_crop_orange"
+					type: "item"
 				}
 				{
 					id: "3A952A247621ACCC"
-					type: "item"
 					item: "croparia:seed_crop_magenta"
+					type: "item"
 				}
 				{
 					id: "0BCE6DDA87D28174"
-					type: "item"
 					item: "croparia:seed_crop_lightblue"
+					type: "item"
 				}
 				{
 					id: "31F00785513E841F"
-					type: "item"
 					item: "croparia:seed_crop_yellow"
+					type: "item"
 				}
 				{
 					id: "7308531F4AF50187"
-					type: "item"
 					item: "croparia:seed_crop_lime"
+					type: "item"
 				}
 				{
 					id: "2B2A39F6A73E8294"
-					type: "item"
 					item: "croparia:seed_crop_pink"
+					type: "item"
 				}
 				{
 					id: "1911F0EFFC0B86B2"
-					type: "item"
 					item: "croparia:seed_crop_gray"
+					type: "item"
 				}
 				{
 					id: "6184E1348F8D278E"
-					type: "item"
 					item: "croparia:seed_crop_silver"
+					type: "item"
 				}
 				{
 					id: "37A1CF3D2A5B4B67"
-					type: "item"
 					item: "croparia:seed_crop_cyan"
+					type: "item"
 				}
 				{
 					id: "04DC1B48C101C752"
-					type: "item"
 					item: "croparia:seed_crop_purple"
+					type: "item"
 				}
 				{
 					id: "1639B19CB4D8AC1F"
-					type: "item"
 					item: "croparia:seed_crop_brown"
+					type: "item"
 				}
 				{
 					id: "79281F25AC56609B"
-					type: "item"
 					item: "croparia:seed_crop_green"
+					type: "item"
 				}
 				{
 					id: "0B124F67AC5B4104"
-					type: "item"
 					item: "croparia:seed_crop_red"
+					type: "item"
 				}
 				{
 					id: "0DFADA38E09154A3"
-					type: "item"
 					item: "croparia:seed_crop_black"
+					type: "item"
 				}
 				{
 					id: "071F22E2F784C236"
-					type: "item"
 					item: "croparia:seed_crop_blue"
+					type: "item"
 				}
 				{
 					id: "334206D6EB3D48E1"
-					type: "item"
 					item: "croparia:seed_crop_white"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "58D19ED803D770EB"
-				type: "item"
-				item: "croparia:elematilius"
-				count: 16
-			}]
+			title: "Dye Seeds"
+			x: -7.0d
+			y: -4.0d
 		}
 		{
-			x: -6.0d
-			y: -6.5d
 			id: "5684AECD7B8F217A"
 			tasks: [{
 				id: "4B8863718D9D67BE"
-				type: "item"
 				item: "croparia:elematilius"
+				type: "item"
 			}]
+			x: -6.0d
+			y: -6.5d
 		}
 		{
-			title: "Wood without trees"
-			x: -6.5d
-			y: -5.0d
 			dependencies: ["716354CF0D89DD59"]
 			id: "49C005DBA501446E"
+			rewards: [{
+				count: 6
+				id: "2A8D96888C826990"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4DA56B8A19B09468"
-					type: "item"
 					item: "croparia:seed_crop_darkoak"
+					type: "item"
 				}
 				{
 					id: "3A2789AB4916F8F7"
-					type: "item"
 					item: "croparia:seed_crop_spruce"
+					type: "item"
 				}
 				{
 					id: "63F6717A8BAC68EC"
-					type: "item"
 					item: "croparia:seed_crop_darkoak"
+					type: "item"
 				}
 				{
 					id: "747B916791F03591"
-					type: "item"
 					item: "croparia:seed_crop_birch"
+					type: "item"
 				}
 				{
 					id: "4C90F2D49C9DF712"
-					type: "item"
 					item: "croparia:seed_crop_acacia"
+					type: "item"
 				}
 				{
 					id: "64D63B295889833E"
-					type: "item"
 					item: "croparia:seed_crop_jungle"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "2A8D96888C826990"
-				type: "item"
-				item: "croparia:elematilius"
-				count: 6
-			}]
+			title: "Wood without trees"
+			x: -6.5d
+			y: -5.0d
 		}
 		{
-			x: -6.0d
-			y: 4.5d
-			description: ["Grow Elemantilus to save some diamonds."]
 			dependencies: ["3022D0646E4AB65E"]
+			description: ["Grow Elemantilus to save some diamonds."]
 			id: "2807A99DF13291C5"
-			tasks: [{
-				id: "71063183AAF35B07"
-				type: "item"
-				item: "croparia:seed_crop_elemental"
-			}]
 			rewards: [{
 				id: "4A5718C4EAE9C460"
-				type: "item"
 				item: "croparia:fruit_elemental"
+				type: "item"
 			}]
+			tasks: [{
+				id: "71063183AAF35B07"
+				item: "croparia:seed_crop_elemental"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
 		}
 		{
-			x: -7.0d
-			y: 0.5d
 			dependencies: ["1C72D8F994EB404A"]
 			id: "57A10A6BCC415040"
-			tasks: [{
-				id: "2C47FBE49A8A8082"
-				type: "item"
-				item: "croparia:seed_crop_nether"
-			}]
 			rewards: [{
 				id: "5E79AC1A361C64EA"
-				type: "item"
 				item: "croparia:croparia2"
+				type: "item"
 			}]
+			tasks: [{
+				id: "2C47FBE49A8A8082"
+				item: "croparia:seed_crop_nether"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
 		}
 		{
-			x: -7.0d
-			y: 1.5d
 			dependencies: ["1C72D8F994EB404A"]
 			id: "4D45BBC31C468899"
-			tasks: [{
-				id: "6D7D13BAA6CEB8C3"
-				type: "item"
-				item: "croparia:seed_crop_glowstone"
-			}]
 			rewards: [{
 				id: "4080C0018F74F23E"
-				type: "item"
 				item: "croparia:croparia2"
+				type: "item"
 			}]
+			tasks: [{
+				id: "6D7D13BAA6CEB8C3"
+				item: "croparia:seed_crop_glowstone"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
 		}
 		{
-			x: -5.0d
-			y: 0.5d
 			dependencies: ["1C72D8F994EB404A"]
 			id: "61A332ECC27B1008"
-			tasks: [{
-				id: "2D4C4A4188E660DF"
-				type: "item"
-				item: "croparia:seed_crop_lapis"
-			}]
 			rewards: [{
 				id: "017F4552ED6C9ADA"
-				type: "item"
 				item: "croparia:croparia2"
+				type: "item"
 			}]
+			tasks: [{
+				id: "2D4C4A4188E660DF"
+				item: "croparia:seed_crop_lapis"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
 		}
 		{
-			x: -5.0d
-			y: 1.5d
 			dependencies: ["1C72D8F994EB404A"]
 			id: "5A57E39257359360"
-			tasks: [{
-				id: "185922912EED0A6C"
-				type: "item"
-				item: "croparia:seed_crop_chorus"
-			}]
 			rewards: [{
 				id: "4B8F998C96B7AB91"
-				type: "item"
 				item: "croparia:croparia2"
+				type: "item"
 			}]
+			tasks: [{
+				id: "185922912EED0A6C"
+				item: "croparia:seed_crop_chorus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
 		}
 		{
-			title: "Grow Mobs"
-			x: -7.0d
-			y: -1.5d
 			dependencies: ["3CD2A3AD3473836D"]
 			id: "41A51CECB0556C53"
+			rewards: [{
+				count: 5
+				id: "3FEDF845C5DEFE56"
+				item: "croparia:croparia"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "60EA590F7F04720A"
-					type: "item"
 					item: "croparia:seed_crop_slime"
+					type: "item"
 				}
 				{
 					id: "0470E0BA89FC8149"
-					type: "item"
 					item: "croparia:seed_crop_zombie"
+					type: "item"
 				}
 				{
 					id: "6B10B8CF0AD8BF06"
-					type: "item"
 					item: "croparia:seed_crop_string"
+					type: "item"
 				}
 				{
 					id: "6F78E87E1676B173"
-					type: "item"
 					item: "croparia:seed_crop_powder"
+					type: "item"
 				}
 				{
 					id: "0D0C1435636B2284"
-					type: "item"
 					item: "croparia:seed_crop_bone"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "3FEDF845C5DEFE56"
-				type: "item"
-				item: "croparia:croparia"
-				count: 5
-			}]
+			title: "Grow Mobs"
+			x: -7.0d
+			y: -1.5d
 		}
 		{
-			title: "T2 Resource Seeds"
-			x: -5.0d
-			y: -1.5d
-			description: [""]
 			dependencies: ["3CD2A3AD3473836D"]
+			description: [""]
 			id: "471A37A94D6721AD"
+			rewards: [{
+				count: 3
+				id: "04A8CD9EB5660F58"
+				item: "croparia:croparia"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3B3E3EFBB6E7F06B"
-					type: "item"
 					item: "croparia:seed_crop_gold"
+					type: "item"
 				}
 				{
 					id: "13BBFD4B4D24DE02"
-					type: "item"
 					item: "croparia:seed_crop_iron"
+					type: "item"
 				}
 				{
 					id: "66DA62624C692FDA"
-					type: "item"
 					item: "croparia:seed_crop_copper"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "04A8CD9EB5660F58"
-				type: "item"
-				item: "croparia:croparia"
-				count: 3
-			}]
+			title: "T2 Resource Seeds"
+			x: -5.0d
+			y: -1.5d
 		}
 		{
-			title: "Fish Seeds"
-			x: -5.5d
-			y: -5.0d
 			dependencies: ["716354CF0D89DD59"]
 			id: "2804E50019304C6A"
+			rewards: [{
+				count: 4
+				id: "721C67B7452C6763"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "32ABB9CFFEA1052D"
-					type: "item"
 					item: "croparia:seed_crop_salmon"
+					type: "item"
 				}
 				{
 					id: "7AA042B0381F8F97"
-					type: "item"
 					item: "croparia:seed_crop_pufferfish"
+					type: "item"
 				}
 				{
 					id: "2DA355065C99A845"
-					type: "item"
 					item: "croparia:seed_crop_fish"
+					type: "item"
 				}
 				{
 					id: "4657055643BEDD49"
-					type: "item"
 					item: "croparia:seed_crop_clownfish"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "721C67B7452C6763"
-				type: "item"
-				item: "croparia:elematilius"
-				count: 4
-			}]
+			title: "Fish Seeds"
+			x: -5.5d
+			y: -5.0d
 		}
 		{
-			title: "Plant Seeds"
-			x: -5.0d
-			y: -4.0d
 			dependencies: ["716354CF0D89DD59"]
 			id: "3244D18D95146CAC"
+			rewards: [{
+				count: 7
+				id: "52C63A68F883914F"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3833B6F5584A389F"
-					type: "item"
 					item: "croparia:seed_crop_vine"
+					type: "item"
 				}
 				{
 					id: "44C82D482A953303"
-					type: "item"
 					item: "croparia:seed_crop_tallgrass"
+					type: "item"
 				}
 				{
 					id: "2A04FD15B6DB8FC0"
-					type: "item"
 					item: "croparia:seed_crop_lilypad"
+					type: "item"
 				}
 				{
 					id: "6D9E053BA4295E47"
-					type: "item"
 					item: "croparia:seed_crop_largefern"
+					type: "item"
 				}
 				{
 					id: "1A20EBC5026F4CCE"
-					type: "item"
 					item: "croparia:seed_crop_grass"
+					type: "item"
 				}
 				{
 					id: "1E44F7548495B350"
-					type: "item"
 					item: "croparia:seed_crop_fern"
+					type: "item"
 				}
 				{
 					id: "2271F52AF274F8E3"
-					type: "item"
 					item: "croparia:seed_crop_bush"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "52C63A68F883914F"
-				type: "item"
-				item: "croparia:elematilius"
-				count: 7
-			}]
+			title: "Plant Seeds"
+			x: -5.0d
+			y: -4.0d
 		}
 		{
-			title: "Paper and Sugar"
-			x: -5.5d
-			y: -3.0d
-			description: ["Sugarcane but not"]
 			dependencies: ["716354CF0D89DD59"]
+			description: ["Sugarcane but not"]
 			id: "1B67AA8F880A3224"
+			rewards: [{
+				count: 2
+				id: "787C062F3D03CBA9"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2F7BE7C53922617E"
-					type: "item"
 					item: "croparia:seed_crop_sugar"
+					type: "item"
 				}
 				{
 					id: "1B26AA36BDA1C85C"
-					type: "item"
 					item: "croparia:seed_crop_paper"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "787C062F3D03CBA9"
-				type: "item"
-				item: "croparia:elematilius"
-				count: 2
-			}]
+			title: "Paper and Sugar"
+			x: -5.5d
+			y: -3.0d
 		}
 		{
-			x: -6.5d
-			y: -3.0d
 			dependencies: ["716354CF0D89DD59"]
 			id: "5EF85C84BD4EA417"
-			tasks: [{
-				id: "2FCBCF2DB983B3FA"
-				type: "item"
-				item: "croparia:seed_crop_snowball"
-			}]
 			rewards: [{
 				id: "31659CF32CCAB04C"
-				type: "item"
 				item: "croparia:elematilius"
+				type: "item"
 			}]
+			tasks: [{
+				id: "2FCBCF2DB983B3FA"
+				item: "croparia:seed_crop_snowball"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
 		}
 		{
-			title: "Friendly Mob Seeds"
-			x: -4.5d
-			y: -5.0d
 			dependencies: ["716354CF0D89DD59"]
 			id: "0FCD37EB30B419CE"
+			rewards: [{
+				count: 12
+				id: "502A720C1714A18D"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "70686D577270DE51"
-					type: "item"
 					item: "croparia:seed_crop_hide"
+					type: "item"
 				}
 				{
 					id: "322DCF42E1070506"
-					type: "item"
 					item: "croparia:seed_crop_rawrabbit"
+					type: "item"
 				}
 				{
 					id: "43016561A6884D19"
-					type: "item"
 					item: "croparia:seed_crop_rawporc"
+					type: "item"
 				}
 				{
 					id: "088974045959245A"
-					type: "item"
 					item: "croparia:seed_crop_rawmutton"
+					type: "item"
 				}
 				{
 					id: "06AC7A5753C908E8"
-					type: "item"
 					item: "croparia:seed_crop_rawchicken"
+					type: "item"
 				}
 				{
 					id: "7771B6A2CC561A78"
-					type: "item"
 					item: "croparia:seed_crop_rawbeef"
+					type: "item"
 				}
 				{
 					id: "2B37FD303704D7B9"
-					type: "item"
 					item: "croparia:seed_crop_leather"
+					type: "item"
 				}
 				{
 					id: "0E33784BB1D94555"
-					type: "item"
 					item: "croparia:seed_crop_ink"
+					type: "item"
 				}
 				{
 					id: "4944FF525EAD96B5"
-					type: "item"
 					item: "croparia:seed_crop_glowink"
+					type: "item"
 				}
 				{
 					id: "2CED8590D27EBACB"
-					type: "item"
 					item: "croparia:seed_crop_feather"
+					type: "item"
 				}
 				{
 					id: "3F832FE91FFDACF6"
-					type: "item"
 					item: "croparia:seed_crop_egg"
+					type: "item"
 				}
 				{
 					id: "6A0B27A07A118B59"
-					type: "item"
 					item: "croparia:seed_crop_honeycomb"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "502A720C1714A18D"
-				type: "item"
-				item: "croparia:elematilius"
-				count: 12
-			}]
+			title: "Friendly Mob Seeds"
+			x: -4.5d
+			y: -5.0d
 		}
 		{
-			title: "Misc Item Seeds"
-			x: -7.5d
-			y: -5.0d
 			dependencies: ["716354CF0D89DD59"]
 			id: "23B0B766E2C480B9"
+			rewards: [{
+				count: 3
+				id: "35187E85B2943BFA"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "40408FB2AC3EC0F0"
-					type: "item"
 					item: "croparia:seed_crop_nametag"
+					type: "item"
 				}
 				{
 					id: "56469032904F856C"
-					type: "item"
 					item: "croparia:seed_crop_bottle"
+					type: "item"
 				}
 				{
 					id: "504A6F4084DFBC58"
-					type: "item"
 					item: "croparia:seed_crop_firework"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "35187E85B2943BFA"
-				type: "item"
-				item: "croparia:elematilius"
-				count: 3
-			}]
+			title: "Misc Item Seeds"
+			x: -7.5d
+			y: -5.0d
 		}
 		{
-			title: "T1 Resource Seeds"
-			x: -7.5d
-			y: -3.0d
 			dependencies: ["716354CF0D89DD59"]
 			id: "38FC5C270F34BC1E"
+			rewards: [{
+				count: 4
+				id: "6E59B98151A6CF30"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6141FCE8DCADDEB6"
-					type: "item"
 					item: "croparia:seed_crop_flint"
+					type: "item"
 				}
 				{
 					id: "4728CD5C207E62DB"
-					type: "item"
 					item: "croparia:seed_crop_charcoal"
+					type: "item"
 				}
 				{
 					id: "13A9AA4A0D058FAD"
-					type: "item"
 					item: "croparia:seed_crop_coal"
+					type: "item"
 				}
 				{
 					id: "792671A315F68DBA"
-					type: "item"
 					item: "croparia:seed_crop_amethyst"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "6E59B98151A6CF30"
-				type: "item"
-				item: "croparia:elematilius"
-				count: 4
-			}]
+			title: "T1 Resource Seeds"
+			x: -7.5d
+			y: -3.0d
 		}
 		{
-			title: "Food Seeds"
-			x: -4.5d
-			y: -3.0d
 			dependencies: ["716354CF0D89DD59"]
 			id: "6C97888D069611A8"
+			rewards: [{
+				count: 3
+				id: "5236516B9E8FB8F9"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5B5C9B53FD3D2FB6"
-					type: "item"
 					item: "croparia:seed_crop_cookie"
+					type: "item"
 				}
 				{
 					id: "3F9B6B28EBD63E12"
-					type: "item"
 					item: "croparia:seed_crop_bread"
+					type: "item"
 				}
 				{
 					id: "0F64B98EA251DEF9"
-					type: "item"
 					item: "croparia:seed_crop_apple"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "5236516B9E8FB8F9"
-				type: "item"
-				item: "croparia:elematilius"
-				count: 3
-			}]
+			title: "Food Seeds"
+			x: -4.5d
+			y: -3.0d
 		}
 		{
-			x: -4.0d
-			y: -4.0d
 			dependencies: ["716354CF0D89DD59"]
 			id: "137655E826E2EF3D"
 			tasks: [{
 				id: "24027257B774A070"
-				type: "item"
 				item: "croparia:seed_crop_clay"
+				type: "item"
 			}]
+			x: -4.0d
+			y: -4.0d
 		}
 		{
+			id: "2C906AE9AA613E06"
+			rewards: [{
+				count: 2
+				id: "3CE1C4B384EDBE51"
+				item: "croptosis:potash_pieces"
+				type: "item"
+			}]
+			subtitle: "Super fast crop growth? Yes please"
+			tasks: [{
+				block: "croptosis:potash_ore"
+				block_type: 0
+				checkItem: false
+				id: "05DC0E36AE87E0BF"
+				title: "Fast Farming: Mine Potash Ore"
+				type: "questsadditions:break"
+				value: 1L
+			}]
 			x: -6.0d
 			y: 6.5d
-			subtitle: "Super fast crop growth? Yes please"
-			id: "2C906AE9AA613E06"
-			tasks: [{
-				id: "05DC0E36AE87E0BF"
-				type: "questsadditions:break"
-				title: "Fast Farming: Mine Potash Ore"
-				block_type: 0
-				block: "croptosis:potash_ore"
-				value: 1L
-				checkItem: false
-			}]
-			rewards: [{
-				id: "3CE1C4B384EDBE51"
-				type: "item"
-				item: "croptosis:potash_pieces"
-				count: 2
-			}]
 		}
 		{
-			x: -4.0d
-			y: 6.5d
-			subtitle: "Use Potash on your farmland"
+			dependencies: ["2C906AE9AA613E06"]
 			description: [
 				"After using Potash, you can then place your seeds and use as normal. You can also convert regular farmland that already has seeds if you use Potash on the block and not the crop"
 				""
 				"Note: Potash also acts as Bonemeal!"
 			]
-			dependencies: ["2C906AE9AA613E06"]
 			id: "2B305F04917A6DB7"
-			tasks: [{
-				id: "04826E2DC254E252"
-				type: "item"
-				item: "croptosis:potash"
-			}]
 			rewards: [
 				{
-					id: "106B46D06E0FAB6B"
-					type: "item"
-					item: "minecraft:beetroot_seeds"
 					count: 12
+					id: "106B46D06E0FAB6B"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
 				}
 				{
 					id: "63BF094F709F37F8"
-					type: "item"
 					item: "croptosis:potash"
+					type: "item"
 				}
 			]
+			subtitle: "Use Potash on your farmland"
+			tasks: [{
+				id: "04826E2DC254E252"
+				item: "croptosis:potash"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
 		}
 		{
-			x: -6.0d
-			y: 8.0d
 			dependencies: ["2C906AE9AA613E06"]
 			id: "6B0E762795A96096"
 			tasks: [{
-				id: "68992226992C7485"
-				type: "questsadditions:break"
-				title: "Apatite does the same!"
-				block_type: 0
 				block: "croptosis:apatite_ore"
-				value: 1L
+				block_type: 0
 				checkItem: false
+				id: "68992226992C7485"
+				title: "Apatite does the same!"
+				type: "questsadditions:break"
+				value: 1L
 			}]
+			x: -6.0d
+			y: 8.0d
 		}
 		{
-			x: -4.0d
-			y: 8.0d
-			subtitle: "Does the same as Potash"
-			description: ["Just a little less powerful"]
 			dependencies: ["6B0E762795A96096"]
+			description: ["Just a little less powerful"]
 			id: "621DE270B228F448"
-			tasks: [{
-				id: "53F05A859446F63A"
-				type: "item"
-				item: "croptosis:apatite"
-			}]
 			rewards: [
 				{
-					id: "7E746368B48AD587"
-					type: "item"
-					item: "croptopia:olive_seed"
 					count: 6
+					id: "7E746368B48AD587"
+					item: "croptopia:olive_seed"
+					type: "item"
 				}
 				{
 					id: "13C260681CBA9A6A"
-					type: "item"
 					item: "croptosis:apatite"
+					type: "item"
 				}
 			]
+			subtitle: "Does the same as Potash"
+			tasks: [{
+				id: "53F05A859446F63A"
+				item: "croptosis:apatite"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
 		}
 		{
-			x: -2.5d
-			y: 7.0d
-			subtitle: "Holds 12 buckets, Range of 2"
 			description: ["Great tool for farmers. Fill it up and wet your land with a radius. Each can tier has a higher range and bucket hold"]
 			id: "4AEBB233B2A5F685"
-			tasks: [{
-				id: "61FBBB85205A1B87"
-				type: "item"
-				item: "croptosis:iron_watering_can"
-			}]
 			rewards: [{
 				id: "6484E2B2C340E619"
-				type: "item"
 				item: "minecraft:water_bucket"
+				type: "item"
 			}]
+			subtitle: "Holds 12 buckets, Range of 2"
+			tasks: [{
+				id: "61FBBB85205A1B87"
+				item: "croptosis:iron_watering_can"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
 		}
 		{
-			x: -1.0d
-			y: 7.0d
-			subtitle: "Holds 6 buckets, Range of 5"
 			dependencies: ["4AEBB233B2A5F685"]
 			id: "25642C57D76E6F25"
-			tasks: [{
-				id: "0AD7445E2DD0B453"
-				type: "item"
-				item: "croptosis:gold_watering_can"
-			}]
 			rewards: [{
 				id: "00BFFDBECE7F2ADC"
-				type: "item"
 				item: "croptosis:potash"
+				type: "item"
 			}]
+			subtitle: "Holds 6 buckets, Range of 5"
+			tasks: [{
+				id: "0AD7445E2DD0B453"
+				item: "croptosis:gold_watering_can"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
 		}
 		{
-			x: 0.5d
-			y: 7.0d
-			subtitle: "Holds 16 buckets, Range of 3"
 			dependencies: ["25642C57D76E6F25"]
 			id: "3BBD27594A88B894"
-			tasks: [{
-				id: "370F054AAC00930E"
-				type: "item"
-				item: "croptosis:diamond_watering_can"
-			}]
 			rewards: [{
 				id: "7936414E024B6D14"
-				type: "item"
 				item: "croptosis:apatite"
+				type: "item"
 			}]
+			subtitle: "Holds 16 buckets, Range of 3"
+			tasks: [{
+				id: "370F054AAC00930E"
+				item: "croptosis:diamond_watering_can"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
 		}
 		{
-			x: 2.0d
-			y: 7.0d
-			subtitle: "Holds 20 buckets, Range of 4"
 			dependencies: ["3BBD27594A88B894"]
 			id: "3884802866765AB7"
-			tasks: [{
-				id: "335C0CFBC7F1511C"
-				type: "item"
-				item: "croptosis:netherite_watering_can"
-			}]
 			rewards: [
 				{
 					id: "5926CE5D6E13A127"
-					type: "item"
 					item: "croptosis:apatite"
+					type: "item"
 				}
 				{
 					id: "45EF255BC1EDF065"
-					type: "item"
 					item: "croptosis:potash"
+					type: "item"
 				}
 			]
+			subtitle: "Holds 20 buckets, Range of 4"
+			tasks: [{
+				id: "335C0CFBC7F1511C"
+				item: "croptosis:netherite_watering_can"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
 		}
 		{
-			title: "Crops and Saplings Automated Harvesting"
-			x: 0.0d
-			y: 2.5d
-			subtitle: "Place it above a chest and watch it grow (takes 2 minutes per drop)"
+			dependencies: ["2B305F04917A6DB7"]
 			description: [
 				"This plant in a jar will automate sapling growth and place the logs and leaves in a chest that is underneath the block. "
 				""
 				"It also works with crops!"
 			]
-			dependencies: ["2B305F04917A6DB7"]
-			size: 2.5d
 			id: "25FD6F0F8BD22566"
-			tasks: [{
-				id: "4EAD11987372178E"
-				type: "item"
-				item: "plantinajar:plant_jar"
-			}]
 			rewards: [{
 				id: "192BA3F27E0E2C39"
-				type: "item"
 				item: "byg:pink_cherry_sapling"
+				type: "item"
 			}]
+			size: 2.5d
+			subtitle: "Place it above a chest and watch it grow (takes 2 minutes per drop)"
+			tasks: [{
+				id: "4EAD11987372178E"
+				item: "plantinajar:plant_jar"
+				type: "item"
+			}]
+			title: "Crops and Saplings Automated Harvesting"
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			x: -10.0d
-			y: 1.0d
-			subtitle: "Increase Crop Output"
 			id: "77ECBFE7DA5AF915"
-			tasks: [{
-				id: "2C20D914E2048A0A"
-				type: "item"
-				item: "farmingforblockheads:green_fertilizer"
-			}]
 			rewards: [{
 				id: "0A76F142F848499A"
-				type: "item"
 				item: "minecraft:green_dye"
 				random_bonus: 2
+				type: "item"
 			}]
+			subtitle: "Increase Crop Output"
+			tasks: [{
+				id: "2C20D914E2048A0A"
+				item: "farmingforblockheads:green_fertilizer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
 		}
 		{
-			x: -10.0d
-			y: 2.0d
-			subtitle: "Speed up Growth"
 			id: "374EFB3EBC33A78F"
-			tasks: [{
-				id: "496FE90778CB9D8E"
-				type: "item"
-				item: "farmingforblockheads:red_fertilizer"
-			}]
 			rewards: [{
 				id: "55D2FED223F03B56"
-				type: "item"
 				item: "minecraft:red_dye"
 				random_bonus: 2
+				type: "item"
 			}]
+			subtitle: "Speed up Growth"
+			tasks: [{
+				id: "496FE90778CB9D8E"
+				item: "farmingforblockheads:red_fertilizer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
 		}
 		{
-			x: -10.0d
-			y: 3.0d
-			subtitle: "Prevents Trampling"
 			id: "5A6E720F8437B80C"
-			tasks: [{
-				id: "7543E65F7280777C"
-				type: "item"
-				item: "farmingforblockheads:yellow_fertilizer"
-			}]
 			rewards: [{
 				id: "1D00E620056C849D"
-				type: "item"
 				item: "minecraft:yellow_dye"
 				random_bonus: 2
+				type: "item"
 			}]
+			subtitle: "Prevents Trampling"
+			tasks: [{
+				id: "7543E65F7280777C"
+				item: "farmingforblockheads:yellow_fertilizer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
 		}
 		{
-			x: -11.0d
-			y: 1.5d
 			id: "505C8E7C67981109"
+			rewards: [{
+				count: 8
+				id: "5EED5734B3664B02"
+				item: "minecraft:egg"
+				random_bonus: 8
+				type: "item"
+			}]
 			tasks: [{
 				id: "677F2C1E0BC4FC1B"
-				type: "item"
 				item: "farmingforblockheads:chicken_nest"
-			}]
-			rewards: [{
-				id: "5EED5734B3664B02"
 				type: "item"
-				item: "minecraft:egg"
-				count: 8
-				random_bonus: 8
 			}]
+			x: -11.0d
+			y: 1.5d
 		}
 		{
-			x: -11.0d
-			y: 2.5d
-			subtitle: "Auto Feed Nearby Animals"
 			id: "791FAB55AB7D9F90"
+			rewards: [{
+				count: 6
+				id: "6B102B81FD11E00D"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			subtitle: "Auto Feed Nearby Animals"
 			tasks: [{
 				id: "5E87F9876A11A095"
-				type: "item"
 				item: "farmingforblockheads:feeding_trough"
-			}]
-			rewards: [{
-				id: "6B102B81FD11E00D"
 				type: "item"
-				item: "minecraft:hay_block"
-				count: 6
 			}]
+			x: -11.0d
+			y: 2.5d
 		}
 		{
-			x: -2.0d
-			y: 4.5d
-			subtitle: "Slay Zombies for a chance to drop this"
 			id: "14D5E4B897511077"
-			tasks: [{
-				id: "446CE1BA9D9C5BEA"
-				type: "item"
-				item: "mobz:hardenedmetal_ingot"
-			}]
 			rewards: [{
 				id: "4A5A057D39522F4B"
-				type: "item"
 				item: "mobz:hardenedmetal_ingot"
+				type: "item"
 			}]
+			subtitle: "Slay Zombies for a chance to drop this"
+			tasks: [{
+				id: "446CE1BA9D9C5BEA"
+				item: "mobz:hardenedmetal_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
 		}
 		{
-			x: -12.5d
-			y: 5.5d
-			subtitle: "Farm Automation"
 			id: "6B881EA72C3B1236"
-			tasks: [{
-				id: "5447F644EE078200"
-				type: "item"
-				item: "indrev:farmer_mk1"
-			}]
 			rewards: [
 				{
-					id: "028FC4F85BA07AFA"
-					type: "item"
-					item: "aqm2:copper_coin"
 					count: 5
+					id: "028FC4F85BA07AFA"
+					item: "aqm2:copper_coin"
+					type: "item"
 				}
 				{
 					id: "70C3C80DBDD69744"
-					type: "item"
 					item: {
-						id: "indrev:battery"
 						Count: 1b
+						id: "indrev:battery"
 						tag: {
 							energy: 4096L
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Farm Automation"
+			tasks: [{
+				id: "5447F644EE078200"
+				item: "indrev:farmer_mk1"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
 		}
 		{
-			x: -11.0d
-			y: 6.0d
 			dependencies: ["6B881EA72C3B1236"]
 			id: "4F24E70A81E5770B"
-			tasks: [{
-				id: "6BE35FBE0D1FF0F0"
-				type: "item"
-				item: "indrev:farmer_mk2"
-			}]
 			rewards: [
 				{
-					id: "47C8B50277D06112"
-					type: "item"
-					item: "aqm2:copper_coin"
 					count: 25
+					id: "47C8B50277D06112"
+					item: "aqm2:copper_coin"
+					type: "item"
 				}
 				{
-					id: "6D670E9A80EF3432"
-					type: "item"
-					item: "techreborn:silver_plate"
 					count: 2
+					id: "6D670E9A80EF3432"
+					item: "techreborn:silver_plate"
 					random_bonus: 2
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "6BE35FBE0D1FF0F0"
+				item: "indrev:farmer_mk2"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 6.0d
 		}
 		{
-			x: -12.0d
-			y: 6.5d
 			dependencies: ["4F24E70A81E5770B"]
 			id: "445C8CE74372B78E"
+			rewards: [{
+				count: 50
+				id: "2E1A96499B2AB40C"
+				item: "aqm2:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C64ED933447490E"
-				type: "item"
 				item: "indrev:farmer_mk3"
-			}]
-			rewards: [{
-				id: "2E1A96499B2AB40C"
 				type: "item"
-				item: "aqm2:copper_coin"
-				count: 50
 			}]
+			x: -12.0d
+			y: 6.5d
 		}
 		{
-			x: -11.0d
-			y: 7.5d
 			dependencies: ["445C8CE74372B78E"]
 			id: "01EBEB6E3829EBD4"
+			rewards: [{
+				count: 80
+				id: "633E53C8D5F1AA46"
+				item: "aqm2:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "468AD25A7EFAD99B"
-				type: "item"
 				item: "indrev:farmer_mk4"
-			}]
-			rewards: [{
-				id: "633E53C8D5F1AA46"
 				type: "item"
-				item: "aqm2:copper_coin"
-				count: 80
 			}]
+			x: -11.0d
+			y: 7.5d
 		}
 	]
-	quest_links: [ ]
+	subtitle: ["Farming and stuff"]
+	title: "Tato Farmer"
 }

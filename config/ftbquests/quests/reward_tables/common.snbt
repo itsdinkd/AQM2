@@ -1,16 +1,15 @@
 {
 	id: "0FD562C5EE2EA038"
-	order_index: 8
-	title: "Common"
 	loot_size: 1
+	order_index: 8
 	rewards: [
-		{ item: "minecraft:iron_ingot", count: 2, random_bonus: 2, weight: 2.0f }
-		{ item: "minecraft:gold_ingot", count: 2, random_bonus: 1, weight: 2.0f }
+		{ count: 2, item: "minecraft:iron_ingot", random_bonus: 2, weight: 2.0f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 1, weight: 2.0f }
 		{ item: "minecraft:diamond", random_bonus: 3 }
 		{
 			item: {
-				id: "minecraft:lingering_potion"
 				Count: 1b
+				id: "minecraft:lingering_potion"
 				tag: {
 					Potion: "minecraft:long_fire_resistance"
 				}
@@ -18,8 +17,8 @@
 		}
 		{
 			item: {
-				id: "minecraft:potion"
 				Count: 1b
+				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:strong_strength"
 				}
@@ -28,16 +27,16 @@
 		}
 		{
 			item: {
-				id: "minecraft:potion"
 				Count: 1b
+				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:night_vision"
 				}
 			}
 			weight: 2.0f
 		}
-		{ item: "gobber2:gobber2_gooey_bread", count: 2 }
-		{ item: "minecraft:bread", count: 9, weight: 4.0f }
+		{ count: 2, item: "gobber2:gobber2_gooey_bread" }
+		{ count: 9, item: "minecraft:bread", weight: 4.0f }
 		{ item: "farmersdelight:roasted_mutton_chops", random_bonus: 1, weight: 2.0f }
 		{ item: "croparia:croparia" }
 		{ item: "botania:mana_diamond", random_bonus: 1, weight: 2.0f }
@@ -46,11 +45,12 @@
 		{ item: "betternether:agave_medicine", random_bonus: 2, weight: 2.0f }
 		{ item: "cacao:white_chocolate", weight: 2.0f }
 		{ item: "minecraft:enchanted_golden_apple", weight: 2.0f }
-		{ item: "minecraft:oak_planks", count: 18, weight: 2.0f }
-		{ item: "minecraft:cobblestone", count: 16, weight: 2.0f }
+		{ count: 18, item: "minecraft:oak_planks", weight: 2.0f }
+		{ count: 16, item: "minecraft:cobblestone", weight: 2.0f }
 		{ item: "minecraft:sunflower", weight: 2.0f }
-		{ item: "minecraft:torch", count: 6, weight: 2.0f }
-		{ item: "teenycoal:teeny_torch", count: 12, weight: 2.0f }
-		{ item: "teenycoal:teeny_coal", count: 18, weight: 2.0f }
+		{ count: 6, item: "minecraft:torch", weight: 2.0f }
+		{ count: 12, item: "teenycoal:teeny_torch", weight: 2.0f }
+		{ count: 18, item: "teenycoal:teeny_coal", weight: 2.0f }
 	]
+	title: "Common"
 }
