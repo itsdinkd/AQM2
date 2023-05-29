@@ -287,6 +287,9 @@
       "axe_strip": true,
       "shoot_ender_pearls": true
     },
+    "dye_blocks": {
+      "enabled": false
+    },
     "cake_tweaks": {
       "double_cake": true,
       "directional_cake": true

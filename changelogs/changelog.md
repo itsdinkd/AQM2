@@ -1,3 +1,29 @@
+### Another Quality Modpack v1.5.8
+
+
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.7.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.7.md)_
+
+## FIXED
+- FTB Quests update fixes the building terrain screen, and also fixes player lag when joining servers due to structure tasks, and also client <-> server desyncs
+- Vinery update fixes several crashes
+- Several fixes for Modern Industrialization, along with other features. check notes at https://github.com/AztechMC/Modern-Industrialization/releases
+- Terralith Update fixes biome tags
+- Spells Engine conflict with Whoopie Cushion
+- REI fixes several minor bugs
+
+## CHANGED
+- Earth2Java supports biome tags now instead of biome names, so there should be more earth2java mobs throughout your worlds
+- WTHIT changes the way it sends data from server and client which improves performances 
+- Vanity Slots removes trinket tooltip
+
+## ADDED
+- Architects Palette adds 10+ Block Sets, and several individual blocks
+- Structures Essentials improves crash prevention
+- Lots of botania additions. check out their change log at https://botaniamod.net/changelog.html#1-19-2-440-fake
+
+---
+
+
 ### Another Quality Modpack v1.5.7
 
 

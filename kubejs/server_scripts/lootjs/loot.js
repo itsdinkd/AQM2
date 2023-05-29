@@ -114,6 +114,7 @@ LootJS.modifiers((event) => {
         });    
 
     event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY).removeLoot("minecraft:map");
+    event.addLootTypeModifier(LootType.CHEST, LootType.ENTITY).removeLoot("minecraft:filled_map");
 
 
     // Loot Types

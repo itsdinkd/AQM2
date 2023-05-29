@@ -1,8 +1,4 @@
 {
-  "mudLakeConfig": {
-    "canGenerate": true,
-    "mudLakeFrequency": 25
-  },
   "albinoCow": {
     "spawn": true,
     "weight": 8,

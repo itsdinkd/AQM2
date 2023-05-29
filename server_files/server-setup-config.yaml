@@ -8,7 +8,7 @@ install:
   mcVersion: 1.19.2
   loaderVersion: 0.14.19
   
-  modpackUrl: https://media.forgecdn.net/files/4545/668/AQM2-1.19.2-1.5.7.zip
+  modpackUrl: https://media.forgecdn.net/files/4557/983/AQM2-1.19.2-1.5.8.zip
   installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.jar
   
   ignoreFiles:
@@ -52,6 +52,7 @@ install:
       - 262366 #KEyboardWizard+
       - 271492 #IKWID
       - 277668 #Armor Sound Tweak
+      - 667464 #BetterStats
       - 278476 #CustomCursor
       - 279429 #Autorun
       - 291480 #BiomeInfo

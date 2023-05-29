@@ -19,6 +19,8 @@
 	"add_spell_casting_to_swords": false,
 	// Apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
 	"add_spell_casting_regex": "",
+	// Do not apply `Spell Casting from Spell Book` capability to any item matching this regex. (Not applied of empty)
+	"blacklist_spell_casting_regex": "",
 	/* Allow actions based on relations:
 	   +----------------+-----------+---------------+----------+----------+--------+
 	   |                | FRIENDLY  | SEMI_FRIENDLY | NEUTRAL  | HOSTILE  | MIXED  |
