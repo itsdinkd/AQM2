@@ -48,10 +48,11 @@ _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - Busy Bee Enchantment not working
 - Mechanised Sawblade not chopping wood
 - Swift Striker enchantment upgrade issues
+- Traveler backpack crash
 
 ## REMOVED
 - Duckling Mod (waste of spawning pool resources)
-- Roughly Enough Resources from SERVER pack (Server owners can add this mod back if they'd like. its still in client pack however!)
+- Roughly Enough Resources from SERVER pack (Server owners can add this mod back if they'd like. its still in client pack however!) RER caused lag when players joined servers
 - Better Stats from SERVER PACK only (Caused issues, such as a NPE error when logging into a server due to a packet being sent. This was fixed in a newer version but i prefer just removing it completely from servers as there might be other issues)
 ---
 
