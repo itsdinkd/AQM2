@@ -7,7 +7,6 @@
 
 ### Removed
 
-  * [BlameLog](https://www.curseforge.com/minecraft/mc-mods/blame-log) (by [melontini](https://www.curseforge.com/members/melontini/projects))
   * [Entangled](https://www.curseforge.com/minecraft/mc-mods/entangled) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
   * [SuperMartijn642's Config Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))
   * [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) (by [SuperMartijn642](https://www.curseforge.com/members/SuperMartijn642/projects))

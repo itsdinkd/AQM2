@@ -67,14 +67,11 @@
 			size: 0.5d
 			subtitle: "Rocks generate on the ground throughout dimensions"
 			tasks: [{
-				block: "aqm2:material/rocks"
-				block_type: 0
-				checkItem: false
-				icon: "twigs:pebble"
 				id: "05F09FACB6DA2BB1"
 				title: "Destroy Rocks for Stone"
-				type: "questsadditions:break"
-				value: 3L
+				item: "aqm2:material/rocks"
+				icon: "twigs:pebble"
+				type: "item"
 			}]
 			x: -24.5d
 			y: -2.5d

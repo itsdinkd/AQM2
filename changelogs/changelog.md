@@ -1,3 +1,45 @@
+### Another Quality Modpack v1.5.9
+
+
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.8.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.8.md)_
+
+There has been no mods from the compromised Luna Studios that were updated in this update. 
+
+WARNING - LOOT CHEST BREAKING WORLD UPDATE: This update replaces MyLoot with Lootr. If you update to this version, all MyLoot chests will vanish, with no replacement. Any chest not generated yet will become a Lootr chest. 
+If you do not mind this, go ahead and update. Otherwise, i would recommend creating a new world and moving your PlayerData folder (found in world/playerdata) into the new, world folder that is created from your new world. This will keep your player data meaning anything on your character in its inventory will be saved.
+
+If you do not want to create a new world, do not update anymore moving forward until you are ready to create a new world or have no chests that were once myloot chests.
+
+## FIXED
+- Vinery; Apple Saplings causing game crashes
+- Expanded Storage; Fix a major issue where client classes were being accessed earlier than they should have been leading to some issues with other mods e.g. missing banner patters, issues with some modded signs ect.
+- Waystone Crash when placing
+- MEGA Pattern Provider not being able to accept crafting providers
+- Supplementaries server issues
+- Megane config screen crash
+- Round Robin from modern dynamics not working with block paths
+- Simply Swords; Loot injection updated to exclude Spectrum chests (was multiplying rolls on rare items)
+- Simply Swords; bug that caused the Imbued runic effect to not deal damage
+- Simply Swords; bug that caused Prometheum weapons to not autorepair 
+- Simply Swords; bug that allowed socketing gems into weapons with non-matching sockets under specific circumstances
+- REI Performance Issues
+- Extended Drawer compacting drawers not voiding items, and breaking in some edge cases
+- Right Click Harvest not being compat with certain RPG Stats version. (Console spam is gone)
+- Data Attribute bug fixes and performance improvements
+- Rock quest attempt to fix
+- AE2 Wireless Terminals; restock moving unstackable items in the terminal
+
+## CHANGED
+- MyLoot replaced with Lootr. This is a huge change and will impact worlds. create a new world and transfer playerdata folder into your new world (to keep inventory and player data), otherwise, all the myloot chests in your world that you generated will vanish. you can also delete Lootr, and add back MyLoot if you do not want to create a new world
+
+## ADDED
+- Mega Cells: Added MEGA Decompression Module - Accompanies bulk cells with compression enabled - Automatically supplies networks with auto-crafting patterns for compressed item variants - Handles on-the-fly decompression of stored compressed items within auto-crafting jobs - Only one module required per network for any number of bulk cells
+- Modern Indus;  Large Tank Hatch to access the large tank from multiple blocks.
+
+## REMOVED
+- Creatures from the Snow has been removed due to the mod being removed from curseforge and not being on modrinth as well
+---
+
 ### Another Quality Modpack v1.5.8
 
 

@@ -5,7 +5,7 @@
   "hideYellowChatIndicators": true,
   "hideGrayChatIndicators": true,
   "hideWarningToast": true,
-  "alwaysHideReportButton": false,
+  "alwaysHideReportButton": true,
   "disableTelemetry": true,
   "showReloadButton": true,
   "whitelistAllServers": false,

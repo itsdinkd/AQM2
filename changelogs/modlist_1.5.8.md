@@ -53,6 +53,7 @@
   * [bewitchment-1.19-7.jar](https://www.curseforge.com/minecraft/mc-mods/bewitchment/files/4530660) (by [MoriyaShiine](https://www.curseforge.com/members/MoriyaShiine/projects))
   * [BHMenu-Fabric-1.19.2-2.3.1.jar](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-fabric/files/4528923) (by [BisectHosting](https://www.curseforge.com/members/BisectHosting/projects))
   * [bitsandchisels-2.7.0.jar](https://www.curseforge.com/minecraft/mc-mods/bits-and-chisels/files/3841599) (by [cool_mineman](https://www.curseforge.com/members/cool_mineman/projects))
+  * [blame-log-0.2.2-1.18.jar](https://www.curseforge.com/minecraft/mc-mods/blame-log/files/4514227) (by [melontini](https://www.curseforge.com/members/melontini/projects))
   * [blockus-2.5.9+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/blockus/files/4458022) (by [Brandcraft_](https://www.curseforge.com/members/Brandcraft_/projects))
   * [boatcontainer-1.2.4-1.19.jar](https://www.curseforge.com/minecraft/mc-mods/boat-container/files/3984803) (by [KxmischesDomi](https://www.curseforge.com/members/KxmischesDomi/projects))
   * [Bookshelf-Fabric-1.19.2-16.2.18.jar](https://www.curseforge.com/minecraft/mc-mods/bookshelf/files/4426590) (by [DarkhaxDev](https://www.curseforge.com/members/DarkhaxDev/projects))
