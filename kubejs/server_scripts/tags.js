@@ -276,8 +276,9 @@ ServerEvents.tags('item', event => {
 	// soulsweaponsMatBosses.forEach(item => {
 	// 	event.add('aqm:bosses/soulweapoons', item)
 	// })
-	"soulsweapons:dar"
+	//"soulsweapons:dar"
 // Misc
+	// event.add('c:rods/iron', 'c:iron_rods') Removed until we use Create Additions again
 	event.add('c:wrenches', 'advanced_reborn:config_wrench')
 	event.add('c:wrenches','techreborn:wrench')
 	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')

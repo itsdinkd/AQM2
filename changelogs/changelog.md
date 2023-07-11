@@ -1,5 +1,52 @@
-### Another Quality Modpack v1.5.9
+## **Another Quality Modpack v1.6.0**
 
+
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.9.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.9.md)_
+
+### **This update removes Create Additions as this mod does not support the newest Create version. Also removed is Create ComputerCraft bridged mod as this as well does not support the newest create version. I will add both of these mods back as soon as they update to support the latest create**
+
+
+### ADDED
+- Blockus update adds chocolate blocks
+- Large content update to galosphere. Adds new blocks, world gen features, a new mob, items, and more. (including new block called Sound Waves Obfuscation which filters adjacent sound by 90%)
+- New ship added to Immersive Aircrafts! Welcome the Cargo Ship! Also this update comes along with fall damage when you crash your plane, as well as the ability to kick out passengers using shift + right click
+- Better Statistics now adds "Player Badges" to the statistics screen of players who earn special achievements. Mods can also assign badges in game
+- Two new structures added into Dungeons Arise
+- Redirectionor Mod to improve performance on; Particle, Model, Render, Entity, Structure, Block, Item
+- You can now obtain a gold chocobo since there was a way added to disable chocobo flight into the configs
+
+### CHANGED
+- Companion Bats now blacklisted from carry on to prevent crashes (stop doing weird things)
+- Hex Rebalancing; changed max circle length from 1026 to 768, Reduced mana worths from dusts and charged amethyst, Fixed the incorrectly set blacklist for actions in the config
+- Vinery Update removes all of its food mods and cooking pot as it wants to focus on being a vinery and not having foods. Quest line will be re-done.
+- Updated Lithium back to its latest since using the older version brought back old watchdog crashes, re-enabled previously disabled lithium mixins that were disabled when last using the latest version
+- Giant Mushrooms structure from Dungeons Arise has beeen removed from the mod itself
+- CarryOn fixed FLAN protection issues
+- Replaced Phosphor mod with Starlight for Light Engine Optimizations
+- Removed Prime Eye from angel ring recipe and replaced with Tier 4 rocket from ad astra
+- Modloader updated to 0.14.21 from 0.14.19
+
+### FIXED
+- Broken iron rod required recipes in create addition
+- Piping into coxina utilities trash can
+- Gyashl Green block causing a crash when placing
+- Chocobo saddle being lost when reloading world
+- Eldritch Mob caused crash when attempting to add effects to a mob that already have effects
+- Extended Drawers client breakage
+- Polymorph not showing its button for other variations of recipes
+- Spectrum compatibility fix with mods doing weird things causing crashes
+- Supplementaries server issues, and dye block crashes
+- Travelers backpack dupe bugs, data intilization failure when upgrading backpacks, performance, and more.
+- Archon reversed quest dependencies 
+- Incorrect croparia seed in dye seed quest
+- Fixed mjolnir recipe in runic altar
+- Incorrect description of the Heartstone in Quest shop
+
+### REMOVED
+- Computer Craft Create Bridge (removed until this mod updates to work with latest create version, 0.5.1b)
+- Create Additions (Removed until this mod updates to work with latest create version, 0.5.1b) sorry for any inconvience caused as this create update is really needed to fix certain issues
+- Model Gap Fix Mod (Compatibility issues)
+---
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.8.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.8.md)_
 

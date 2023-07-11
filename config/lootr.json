@@ -1,20 +1,20 @@
 {
   "debug": {
-    "debugMode": false,
-    "report_unresolved_tables": false
+    "report_invalid_tables": true
   },
   "seed": {
     "randomize_seed": true
   },
   "conversion": {
-    "skip_unloaded": false,
-    "maximum_age": 3600,
-    "convert_mineshafts": true
+    "maximum_entry_age": 1800
   },
   "breaking": {
+    "enable_break": false,
+    "enable_fake_player_break": false,
     "disable_break": true,
     "power_comparators": true,
-    "blast_resistant": true
+    "blast_resistant": true,
+    "blast_immune": true
   },
   "lists": {
     "dimension_whitelist": [],
@@ -34,24 +34,25 @@
       "bosses_of_mass_destruction:chests/lich_tower",
       "bosses_of_mass_destruction:chests/void_blossom"
     ],
-    "loot_modid_blacklist": [],
-    "loot_structure_blacklist": []
+    "loot_modid_blacklist": []
   },
   "decay": {
     "decay_value": 6000,
     "decay_all": false,
     "decay_modids": [],
     "decay_loot_tables": [],
-    "decay_dimensions": [],
-    "decay_structures": []
+    "decay_dimensions": []
   },
   "refresh": {
     "refresh_value": 24000,
     "refresh_all": false,
     "refresh_modids": [],
     "refresh_loot_tables": [],
-    "refresh_dimensions": [],
-    "refresh_structures": []
+    "refresh_dimensions": []
+  },
+  "notifications": {
+    "notification_delay": 600,
+    "disable_notifications": false
   },
   "vanilla": {
     "vanilla_textures": false

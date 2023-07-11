@@ -1,6 +1,6 @@
 {
-	"dustMediaAmount": 10000,
-	"shardMediaAmount": 50000,
-	"chargedCrystalMediaAmount": 100000,
-	"mediaToHealthRate": 10000.0
+	"dustMediaAmount": 5000,
+	"shardMediaAmount": 25000,
+	"chargedCrystalMediaAmount": 37500,
+	"mediaToHealthRate": 3333.0
 }

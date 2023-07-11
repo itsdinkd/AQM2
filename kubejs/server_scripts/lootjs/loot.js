@@ -163,11 +163,8 @@ LootJS.modifiers((event) => {
 
     event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:soul_ingot")
 
-    event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("chococraft:gold_gysahl")
     event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("skylorlib:golden_wheat_item")
     event.addLootTypeModifier(LootType.BLOCK, LootType.CHEST).removeLoot("skylorlib:golden_seeds_item")
-
-    event.addLootTableModifier('chococraft:blocks/gysahl_green').removeLoot("chococraft:gold_gysahl")
 
     // event.addLootTypeModifier(LootType.CHEST)
     // .pool((pool) => {

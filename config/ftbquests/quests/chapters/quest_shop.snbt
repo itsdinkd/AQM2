@@ -154,9 +154,7 @@
 		}
 		{
 			description: [
-				"Bind to another player to teleport to one another"
-				""
-				"&l&oSimilar to a &nTPA&r command&r&r"
+				"Bind to another player to track their location"
 			]
 			icon: "heartstone:heartstone"
 			id: "1C653C467308BE45"

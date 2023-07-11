@@ -10,9 +10,6 @@
   },
   "customEntries": [
     {
-      "output": "vinery:cherry_sapling"
-    },
-    {
       "output": "vinery:old_cherry_sapling"
     }
   ]

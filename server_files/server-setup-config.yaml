@@ -6,9 +6,9 @@ modpack:
   
 install:
   mcVersion: 1.19.2
-  loaderVersion: 0.14.19
+  loaderVersion: 0.14.21
   
-  modpackUrl: https://media.forgecdn.net/files/4572/461/AQM2-1.19.2-1.5.9.zip
+  modpackUrl: https://media.forgecdn.net/files/4637/643/AQM2-1.19.2-1.6.0.zip
   installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.jar
   
   ignoreFiles:
@@ -26,7 +26,7 @@ install:
     - openloader/resources
     - config/fancymenu
     - servers.dat
-    - mods/iris-mc1.19.2-1.6.2.jar
+    - mods/iris-mc1.19.2-1.6.4.jar
 
   additionalFiles:
   localFiles:
@@ -39,7 +39,7 @@ install:
     - "-mcversion"
     - "1.19.2"
     - "-loader"
-    - "0.14.19"
+    - "0.14.21"
 
   modpackFormat: curse
   

@@ -802,6 +802,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["3A279EBCEFAAAF7C"]
 			id: "59B9F880BC348021"
 			optional: true
 			rewards: [{
@@ -826,6 +827,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["3A279EBCEFAAAF7C"]
 			id: "475C97AA5843CA65"
 			optional: true
 			rewards: [{
@@ -850,6 +852,7 @@
 			y: -0.75d
 		}
 		{
+			dependencies: ["3A279EBCEFAAAF7C"]
 			id: "32540E20ADB7F183"
 			optional: true
 			rewards: [{
@@ -874,6 +877,7 @@
 			y: -1.125d
 		}
 		{
+			dependencies: ["3A279EBCEFAAAF7C"]
 			id: "4BD3DF96075A87C8"
 			optional: true
 			rewards: [{
@@ -1839,13 +1843,7 @@
 			y: -5.25d
 		}
 		{
-			dependencies: [
-				"475C97AA5843CA65"
-				"32540E20ADB7F183"
-				"4BD3DF96075A87C8"
-				"59B9F880BC348021"
-				"699DFF81AB2C2B43"
-			]
+			dependencies: ["699DFF81AB2C2B43"]
 			description: ["Some can be found in regular mining coordinates, others in the clouds, some in nether and end"]
 			id: "3A279EBCEFAAAF7C"
 			rewards: [{

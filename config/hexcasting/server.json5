@@ -1,7 +1,7 @@
 {
-	"opBreakHarvestLevel": 3,
-	"maxRecurseDepth": 512,
-	"maxSpellCircleLength": 1024,
+	"opBreakHarvestLevel": 2,
+	"maxRecurseDepth": 64,
+	"maxSpellCircleLength": 768,
 	"actionDenyList": [],
 	"circleActionDenyList": [],
 	"villagersOffendedByMindMurder": true,

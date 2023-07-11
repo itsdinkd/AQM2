@@ -270,8 +270,6 @@ const arrRemove = [
 "soulsweapons:lost_soul",
 "soulsweapons:draugr",
 "galosphere:silver_ore",
-"chococraft:pink_gysahl",
-"chococraft:red_gysahl",
 "things:recall_potion",
 "fluidtank:fluid_source",
 "galosphere:deepslate_silver_ore",

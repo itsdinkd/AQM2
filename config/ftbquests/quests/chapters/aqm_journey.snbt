@@ -67,10 +67,10 @@
 			size: 0.5d
 			subtitle: "Rocks generate on the ground throughout dimensions"
 			tasks: [{
-				id: "05F09FACB6DA2BB1"
-				title: "Destroy Rocks for Stone"
-				item: "aqm2:material/rocks"
 				icon: "twigs:pebble"
+				id: "05F09FACB6DA2BB1"
+				item: "aqm2:material/rocks"
+				title: "Destroy Rocks for Stone"
 				type: "item"
 			}]
 			x: -24.5d

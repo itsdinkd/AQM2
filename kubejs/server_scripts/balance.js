@@ -291,7 +291,7 @@ event.custom({
        "item": "adventurez:stone_golem_heart"
      },
      "E": {
-       "item": "adventurez:prime_eye"
+       "item": "ad_astra:tier_4_rocket"
      },
      "I": {
        "item": "techreborn:interdimensional_su"
@@ -974,7 +974,7 @@ event.remove({output: "soulsweapons:freyr_sword"})
           "item": "soulsweapons:verglas",
         },
         {
-          "tag": "soulsweapons:chaos_orb"
+          "item": "soulsweapons:chaos_orb"
         },
         {
           "item": "aqm2:cursed_gem"

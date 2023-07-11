@@ -147,11 +147,6 @@
 					type: "item"
 				}
 				{
-					id: "6184E1348F8D278E"
-					item: "croparia:seed_crop_silver"
-					type: "item"
-				}
-				{
 					id: "37A1CF3D2A5B4B67"
 					item: "croparia:seed_crop_cyan"
 					type: "item"
