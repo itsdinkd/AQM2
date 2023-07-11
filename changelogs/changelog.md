@@ -4,7 +4,7 @@
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.9.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.9.md)_
 
 ### **This update removes Create Additions as this mod does not support the newest Create version. Also removed is Create ComputerCraft bridged mod as this as well does not support the newest create version. I will add both of these mods back as soon as they update to support the latest create**
-
+## Also remember; This uses LOOTR and not MYLOOT and will stay like this. You are more than welcome to remove Lootr and replace with MyLoot if you want to keep MyLoot for your world
 
 ### ADDED
 - Blockus update adds chocolate blocks
