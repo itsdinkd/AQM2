@@ -30,7 +30,7 @@ $MODPACK_NAME = "another-quality-modpack-2"
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.6.0"
+$MODPACK_VERSION = "1.6.0hf"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
