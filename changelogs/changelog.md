@@ -8,6 +8,7 @@ _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 
 ### HOTFIX Change
 - Removed Brewin and Chewin
+- Changed chunk loader recipe due to removing the above mod
 
 ### ADDED
 - Blockus update adds chocolate blocks

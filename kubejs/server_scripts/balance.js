@@ -176,7 +176,7 @@ event.custom({
       "item": "techreborn:red_garnet_plate"
     },
     "R": {
-      "item": "brewinandchewin:pickled_pickles"
+      "item": "farmersdelight:bacon_and_eggs"
     },
     "A": {
       "item": "lightestlamp:lanthanum_ingot"
