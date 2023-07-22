@@ -2,12 +2,13 @@
   "type": "spectrum:pedestal",
   "time": 1200,
   "tier": "advanced",
-  "cyan": 0,
-  "magenta": 0,
-  "yellow": 0,
+  "cyan": 4,
+  "magenta": 4,
+  "yellow": 4,
   "black": 4,
   "white": 0,
   "experience": 2.0,
+  "skip_recipe_remainders": true,
   "pattern": [
     "FAF",
     "PBP",
@@ -21,7 +22,7 @@
       "item": "minecraft:fermented_spider_eye"
     },
     "P": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "spectrum:midnight_chip"
     },
     "B": {
       "item": "bosses_of_mass_destruction:obsidian_heart"
@@ -31,5 +32,5 @@
     "item": "spectrum:bottle_of_ruin",
     "count": 1
   },
-  "required_advancements": ["spectrum:progression/unlock_bottle_of_ruin"]
+  "required_advancements": "spectrum:progression/unlock_bottle_of_ruin"
 }

@@ -324,7 +324,8 @@ var idRemove = [
   "indrev:pulverizer/sulfur_dust",
   "soulsweapons:bewitchment_molten_demon_heart",
   "soulsweapons:moonstone_ring_2",
-  "byg:brown_dye"
+  "byg:brown_dye",
+  "simplyswords:unique_melting"
 ]
 
 ServerEvents.recipes( event => {

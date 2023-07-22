@@ -31,38 +31,38 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
   x = 60
   action = movebutton
-  y = 1
+  y = -27
 }
 
 customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   width = 246
   action = resizebutton
   height = 25
 }
 
 customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\bhammodshover.png
-  backgroundnormal = config\fancymenu\assets\bhammods.png
+  backgroundhovered = config\fancymenu\assets\bhammultiplayerhover.png
+  backgroundnormal = config\fancymenu\assets\bhammultiplayer.png
 }
 
 customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  seconds = 0.7
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 0.5
   onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
@@ -70,18 +70,13 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   path = config/fancymenu/assets/sounds/menuclick.wav
   action = setbuttonclicksound
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
@@ -131,43 +126,38 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-left
   x = 60
   action = movebutton
-  y = -27
+  y = 57
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   width = 246
   action = resizebutton
   height = 25
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\bhammultiplayerhover.png
-  backgroundnormal = config\fancymenu\assets\bhammultiplayer.png
+  backgroundhovered = config\fancymenu\assets\bhamquitgamehover.png
+  backgroundnormal = config\fancymenu\assets\bhamquitgame.png
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  seconds = 0.5
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 1.1
   onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
@@ -175,9 +165,14 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   path = config/fancymenu/assets/sounds/menuclick.wav
   action = setbuttonclicksound
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
 }
 
 customization {
@@ -226,38 +221,38 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   orientation = mid-left
   x = 60
   action = movebutton
-  y = 57
+  y = 1
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   width = 246
   action = resizebutton
   height = 25
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   action = setbuttonlabel
   value = 
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\bhamquitgamehover.png
-  backgroundnormal = config\fancymenu\assets\bhamquitgame.png
+  backgroundhovered = config\fancymenu\assets\bhammodshover.png
+  backgroundnormal = config\fancymenu\assets\bhammods.png
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  seconds = 1.1
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  seconds = 0.7
   onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
@@ -265,7 +260,7 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   path = config/fancymenu/assets/sounds/menuclick.wav
   action = setbuttonclicksound
 }
@@ -335,17 +330,16 @@ customization {
 customization {
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://discord.gg/TmqVme7Pb5%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\assets\bhamdiscordhover.png
   label = 
   loopbackgroundanimations = true
   x = 18
   width = 89
-  actionid = 09d6594c-3df4-46d8-8989-b2cadad8ea401635367614229
   action = addbutton
+  actionid = 09d6594c-3df4-46d8-8989-b2cadad8ea401635367614229
   y = -35
   backgroundnormal = config\fancymenu\assets\bhamdiscord.png
-  value = https://discord.gg/TmqVme7Pb5
   height = 21
 }
 
@@ -363,34 +357,32 @@ customization {
 customization {
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.bisecthosting.com/clients/aff.php?aff=3817%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\assets\bhamrentaserverhover.png
   label = 
   loopbackgroundanimations = true
   x = 225
   width = 89
-  actionid = 09d6594c-3df4-46d8-8989-b2cadad8ea401635367614229
   action = addbutton
+  actionid = 09d6594c-3df4-46d8-8989-b2cadad8ea401635367614229
   y = -35
   backgroundnormal = config\fancymenu\assets\bhamrentaserver.png
-  value = https://www.bisecthosting.com/clients/aff.php?aff=3817
   height = 21
 }
 
 customization {
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = joinserver
+  buttonaction = joinserver;23.185.16.45:25565%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\assets\bhamofficialserverhover.png
   label = 
   loopbackgroundanimations = true
   x = 122
   width = 89
-  actionid = 09d6594c-3df4-46d8-8989-b2cadad8ea401635367614229
   action = addbutton
+  actionid = 09d6594c-3df4-46d8-8989-b2cadad8ea401635367614229
   y = -35
   backgroundnormal = config\fancymenu\assets\bhamofficialserver.png
-  value = 23.185.16.45:25565
   height = 21
 }
 

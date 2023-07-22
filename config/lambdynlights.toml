@@ -227,6 +227,9 @@
 				skeleton_creeper = false
 				nightmare = false
 				lich = true
+				acolyte = true
+				corrupted_vindicator = true
+				corrupted_pillager = true
 
 			[light_sources.settings.entities.earth]
 				rubro = true
@@ -937,4 +940,7 @@
 
 			[light_sources.settings.entities.vinery]
 				mule = true
+
+			[light_sources.settings.entities.valkyrienskies]
+				ship_mounting_entity = true
 

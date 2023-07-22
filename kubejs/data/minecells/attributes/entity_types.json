@@ -28,12 +28,12 @@
             "minecraft:generic.attack_damage": 17.36
         },
         "minecells:inquisitor": {
-            "minecraft:generic.max_health": 40.0,
+            "minecraft:generic.max_health": 60.0,
             "minecraft:generic.armor": 7.0,
             "minecraft:generic.attack_damage": 17.0
         },
         "minecells:runner": {
-            "minecraft:generic.max_health": 12.0,
+            "minecraft:generic.max_health": 15.0,
             "minecraft:generic.armor": 3.0,
             "minecraft:generic.attack_damage": 17.0
         },
@@ -56,6 +56,11 @@
             "minecraft:generic.max_health": 14.0,
             "minecraft:generic.armor": 1.0,
             "minecraft:generic.attack_damage": 9.85
+        },
+        "minecells:sewers_tentacle": {
+            "minecraft:generic.max_health": 20.0,
+            "minecraft:generic.armor": 2.0,
+            "minecraft:generic.attack_damage": 11.5
         }
     }
 }

@@ -42,7 +42,7 @@ EntityEvents.spawned(event => {
 
      const {entity} = event
      eldritchMobsHealth.forEach(mob => {
-        let nbt = event.entity.fullNBT
+        let nbt = event.entity.nbt
         if (event.entity.type == mob && nbt.cardinal_components && nbt.cardinal_components['eldritch_mobs:eldritch_modifiers']?.numMaxAbilities > 0) {
             entity.setMaxHealth(entity.getAttributeBaseValue('generic.max_health'))
         }

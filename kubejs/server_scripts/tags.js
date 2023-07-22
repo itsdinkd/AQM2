@@ -59,7 +59,7 @@ priority: 100
 		"soulsweapons:night_shade",
 		"bosses_of_mass_destruction:void_blossom",
 		"bosses_of_mass_destruction:lich",
-	]
+	];
 
 	const SimplyRareSwords = [
 		"simplyswords:watcher_claymore",
@@ -92,37 +92,7 @@ priority: 100
 		"simplyswords:righteous_relic",
 		"simplyswords:sunfire",
 		"simplyswords:harbinger"
-	]
-
-// Fish
-
-	const originFish =[
-	"#minecraft:fishes",
-	"#c:cooked_fish",
-	"#fabric:raw_fishes",
-	"#fabric:raw_fish"
-	]
-
-
-// Berries
-
-	const originBerries = [
-	"#c:fruits/blackberries",
-	"#c:fruits/blueberries",
-	"#c:fruits/cranberries",
-	"#c:fruits/dragonfruits",
-	"#c:fruits/elderberries",
-	"#c:fruits/pineapples",
-	"#c:fruits/raspberries",
-	"#c:fruits/strawberries"
-]
-
-// Meats
-
-	const originMeats =[
-	"#forge:raw_meats",
-	"#c:cooked_meat"
-	]
+	];
 
 // TieredZ Blacklist
 
@@ -157,7 +127,14 @@ priority: 100
 	'bewitchment:curse_poppet',
 	'bewitchment:vampiric_poppet',
 	'bewitchment:judgment_poppet',
-	'bewitchment:fatigue_poppet'
+	'bewitchment:fatigue_poppet',
+	'#modern_industrialization:replicator_blacklist',
+	'#aqm2:weapons/rare'
+	];
+
+	const nonMoveable = [
+		"bosses_of_mass_destruction:void_blossom_block",
+		"minecraft:spawner"
 	]
 
 	const BlacklistTravelersBackpack = [
@@ -172,35 +149,7 @@ priority: 100
 		"inmis:plated_backpack",
 		"inmis:blazing_backpack",
 		"inmis:withered_backpack"
-	]
-
-	const missingFishes = [
-		"wildlife:raw_bettafish",
-		"wildlife:raw_bluegill",
-		"wildlife:raw_catfish",
-		"wildlife:raw_anglerfish",
-		"wildlife:raw_stingray",
-		"wildlife:raw_koi",
-		"wildlife:raw_rainbow_trout",
-		"wildlife:raw_goldfish",
-		"wildlife:raw_shrimp",
-		"wildlife:raw_prawn",
-		"wildlife:raw_clam",
-		"wildlife:raw_mantaray",
-		"wildlife:rainbow_trout",
-		"wildlife:cooked_catfish",
-		"wildlife:cooked_rainbow_trout",
-		"wildlife:cooked_shrimp",
-		"wildlife:cooked_bettafish",
-		"wildlife:cooked_prawn",
-		"wildlife:cooked_stingray",
-		"wildlife:cooked_mantaray",
-		"wildlife:cooked_anglerfish",
-		"wildlife:cooked_bluegill",
-		"wildlife:cooked_goldfish",
-		"wildlife:cooked_clam",
-		"wildlife:cooked_koi"
-	]
+	];
 
 	const Twigs = [
 		"rocks:oak_stick",
@@ -212,7 +161,7 @@ priority: 100
 		"rocks:crimson_stick",
 		"rocks:dark_oak_stick",
 		"twigs:twig"
-	]
+	];
 
 	const Rocks = [
 		"rocks:rock",
@@ -226,36 +175,22 @@ priority: 100
 		"rocks:soul_soil_rock",
 		"rocks:netherrack_rock",
 		"twigs:pebble"
-	]
+	];
 
 // Item Tags
 ServerEvents.tags('item', event => {
 
 	SimplyRareSwords.forEach(function (item, index) {
 		event.add('aqm2:weapons/rare', item)
-	})
-	originFish.forEach(function (item, index) {
-		event.add('grounded_origins:penguin/seafood', item)
-		event.add('origins:meat', item)
-		event.add('libra:meat', item)
-	})
-
-	originBerries.forEach(function (item, index) {
-		event.add('grounded_origins:deer/berry_foods', item)
-	})
-
-	originMeats.forEach(function (item, index) {
-		event.add('libra:meat', item)
-		event.add('origins:meat', item)
-	})
+	});
 
 	Rocks.forEach(function (item, index) {
 		event.add('aqm2:material/rocks', item)
-	})
+	});
 	
 	Twigs.forEach(function (item, index) {
 		event.add('aqm2:material/twigs', item)
-	})
+	});
 
 	catalystBlacklist.forEach(function(item) { 
 		event.add('things:hardening_catalyst_blacklist', item)
@@ -263,15 +198,11 @@ ServerEvents.tags('item', event => {
 
 	blacklistTrader.forEach(function (item,index) {
 		event.add('wandering_collector:deny', item)
-	})
+	});
 
 	BlacklistTravelersBackpack.forEach(function (item,i) {
 		event.add("travelersbackpack:blacklisted_items", item)
-	})
-
-	// missingFishes.forEach(function (item, index) {
-	// 	event.add('minecraft:fishes', item)
-	// })
+	});
 
 	// soulsweaponsMatBosses.forEach(item => {
 	// 	event.add('aqm:bosses/soulweapoons', item)
@@ -279,35 +210,29 @@ ServerEvents.tags('item', event => {
 	//"soulsweapons:dar"
 // Misc
 	// event.add('c:rods/iron', 'c:iron_rods') Removed until we use Create Additions again
-	event.add('c:wrenches', 'advanced_reborn:config_wrench')
-	event.add('c:wrenches','techreborn:wrench')
-	event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
-	event.add("yigd:soulbound_blacklist", /^travelersbackpack:.*/)
+	event.add('c:wrenches', 'advanced_reborn:config_wrench');
+	event.add('c:wrenches','techreborn:wrench');
+	event.add('minecraft:coals', 'modern_industrialization:lignite_coal');
+	event.add("yigd:soulbound_blacklist", /^travelersbackpack:.*/);
 	// event.add("aqm2:butterflies/cotton_balls", /^lilwings:.*_cotton_ball/)
 	// event.add("aqm2:butterflies/elytra", /^lilwings:.*_elytra/)
 	// event.add("aqm2:butterflies/wings", /^lilwings:.*_wings/)
-	event.add('things:hardening_catalyst_blacklist', /^spectrum:.*/)
-	event.add('things:hardening_catalyst_blacklist', /^artifacts:.*/)
-	event.add('things:hardening_catalyst_blacklist', /^kibe:.*/)
-	event.add('things:hardening_catalyst_blacklist', /^conjuring:.*/)
-	event.add('things:hardening_catalyst_blacklist', /^soulweapons:.*/)
-	event.add('c:rubies', 'betternether:nether_ruby')
-	event.add('c:silver_ingots', 'galosphere:silver_ingot')
-	event.add('c:silver_nuggets', 'galosphere:silver_nugget')
-	event.add('c:silver_blocks', 'galosphere:silver_block')
-	event.add('c:raw_silver_blocks', 'galosphere:raw_silver_block')
-	event.add('c:silver_ores', 'galosphere:silver_ore')
-	event.add('c:raw_silver_ores', 'galosphere:raw_silver')
-	event.add('c:silver_ores', 'galosphere:deepslate_silver_ore')
-	event.add('c:ruby_ores', 'betternether:nether_ruby_ore')
-
-	// event.add('grounded_origins:moth/fibrous_foods', '#fabric:grain')
-	// event.add('grounded_origins:moth/fibrous_foods', '#minecraft:fox_food')
-	// event.add('grounded_origins:moth/fibrous_foods', '#c:fruits')
+	event.add('things:hardening_catalyst_blacklist', /^spectrum:.*/);
+	event.add('things:hardening_catalyst_blacklist', /^artifacts:.*/);
+	event.add('things:hardening_catalyst_blacklist', /^kibe:.*/);
+	event.add('things:hardening_catalyst_blacklist', /^conjuring:.*/);
+	event.add('things:hardening_catalyst_blacklist', /^soulweapons:.*/);
+	event.add('c:rubies', 'betternether:nether_ruby');
+	event.add('c:silver_ingots', 'galosphere:silver_ingot');
+	event.add('c:silver_nuggets', 'galosphere:silver_nugget');
+	event.add('c:silver_blocks', 'galosphere:silver_block');
+	event.add('c:raw_silver_blocks', 'galosphere:raw_silver_block');
+	event.add('c:silver_ores', 'galosphere:silver_ore');
+	event.add('c:raw_silver_ores', 'galosphere:raw_silver');
+	event.add('c:silver_ores', 'galosphere:deepslate_silver_ore');
+	event.add('c:ruby_ores', 'betternether:nether_ruby_ore');
 	
 // Remove
-	event.remove('nourish:vegetables', "croptopia:beef_stew")
-	event.remove('nourish:vegetables', "croptopia:beef_stir_fry")
 	// event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
 	
 
@@ -322,10 +247,14 @@ ServerEvents.tags('block', event => {
 	event.add('c:diamond_ores','minecraft:diamond_ore')
 	event.add('c:diamond_ores','minecraft:deepslate_diamond_ore')
 	event.add('c:ruby_ores', 'betternether:nether_ruby_ore')
+	
 	Twigs.forEach(function (item, index) {
 		event.add('aqm2:material/twigs', item)
 	})
 
+	nonMoveable.forEach(function (item, i) {
+		event.add("create:non_movable", item)
+	})
 	// alwaysSoulbound.forEach((item,index) => {
 	// 	event.add('yigd:soulbound_item', item)
 	// })

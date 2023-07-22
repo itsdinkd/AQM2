@@ -3,6 +3,9 @@
         "highlight_foused_items": {
             "value": false
         },
+        "enable_auto_refill": {
+            "value": false
+        },
         "highlight_foused_items_foreground": false,
         "enable_updates_check": false,
         "add_interval_between_clicks": {

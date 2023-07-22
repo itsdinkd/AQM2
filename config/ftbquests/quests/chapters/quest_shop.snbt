@@ -153,9 +153,7 @@
 			y: 0.5d
 		}
 		{
-			description: [
-				"Bind to another player to track their location"
-			]
+			description: ["Bind to another player to track their location"]
 			icon: "heartstone:heartstone"
 			id: "1C653C467308BE45"
 			repeatable: true

@@ -87,7 +87,7 @@ ItemEvents.tooltip(tooltip => {
   tooltip.addAdvanced('soulsweapons:verglas', (item, advanced, text) => {
     text.add(1, Text.darkGray('Drops from all Souls Weapons Bosses'))
    })
-s
+
    tooltip.addAdvanced('soulsweapons:moonstone', (item, advanced, text) => {
     text.add(1, Text.darkGray('Drops from BOMD, Souls, Doom bosses'))
    })

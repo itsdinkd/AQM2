@@ -1,3 +1,58 @@
+## **Another Quality Modpack v1.6.1**
+
+
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.1.md)_
+
+Make sure to reset the dimensions of Mine Cells as there is a new minecells major update! Follow the guide at https://mim1q.dev/minecells/updating/
+
+## FIXED
+- Chocobo Flight not being disabled on servers
+- REI Client script for custom REI Information and Tooltips (Darn typos)
+- Chocobo Saddles disappearing
+- Ad Astra bug fixes such as mount issues, crushing recipe issues, and other small things
+- Resource reloading fix
+- AE2 quartz fiber performance issues
+- Wine bottle dupe
+- Friend and Foe crashes involving Wildfire and Wild Pumpkin
+- Kibe Big Torch, Kibe heater desyncs, igniter not correctly working, Entangled Bucket not waterlogging, Kibe Rings not being able to toggle consistently
+- Spell Engine UI crashes
+- Toms Storage dupe bug
+- MI cable crash
+- Nuclear Reactor performance. Testing shows at least a 4x improvement.
+- Fix remaining cases of MI pipe intersections
+- Fixed REI compatibility not working properly with Travelers Backpack
+- Broken disabled spectrum recipe datapacks
+
+## ADDED
+- Spectrum Jetpacks mod added. Uses spectrum ink to fly around
+- CC:Bridge added back as its now compatible with create 0.5.1
+- Overweight Farming makes a return to AQM2. Giant crops, say no more.
+- Create Slice and Dice mod creates compatibility between Farmers Delight (and any other food mod) and Create by using the new **Slicer** machine which is similar to the Mechanical Press/Mixer. This mod is used for automating food creation
+- Brewin and Chewin mod has been added back (Farmers Delight addon)
+- Large content updates from hexal 
+- Added Most food tags to proper Origin diets (all Farmers delight, spectrum, rusticated, (most) croptopia, culture delights, all gofish, and other mods added)
+- Kibe adds Measuring Tape
+- New minecell blocks have been added
+- Minecell elevators can be powered by hidden redstone
+- Nnew Overworld Portal structure that takes you to the Prisoners' Quarters! Has a chance to spawn an enemy not seen before in survival - the Inquisitor
+- Capacity preview in Large Tank shape selector for MI
+- Added inventory preview in tooltip Travelers Backpacks
+
+## CHANGED
+- Lava Javas now ignore dietary restrictions from origins, because even ghouls should be allowed to enjoy a cup.
+- Eradicated Spectrums Gobber integration for whenever its ready for survival. just.. no.
+- Blocked spawners from being moved by create. use silk touch
+- Reduced spectrum ruin decay tick rate
+- KubeJS has a large update and fixes several issues such as performance, world loading, reloading, recipe parsing. All in all - this will improve performance of your games.
+- Insufferable Crypt now leads back to the Overworld. The arena is also closed off by two doors that are locked until you kill the boss.
+- MineCells new update now removes dimension portals in the world and replaces them with a Door to teleport you. You can craft these, break these, and place any where in overworld only. If you break a doorway, the area it was placed will be remembered. The old teleporters are now craftable. A new tooltip has been added to tell you if youve visited prisoners quarters in the area you are in.
+- A compass now guided you to the entry of your current dimension and area (Minecells)
+- Added new minecell mobs to have modified attributes, and also buffed runner hp by 2
+
+## REMOVED
+- YDM Allay.. its just pointless to have
+---
+
 ## **Another Quality Modpack v1.6.0**
 
 
@@ -51,6 +106,8 @@ _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - Create Additions (Removed until this mod updates to work with latest create version, 0.5.1b) sorry for any inconvience caused as this create update is really needed to fix certain issues
 - Model Gap Fix Mod (Compatibility issues)
 ---
+
+## **Another Quality Modpack v1.5.9**
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.8.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.8.md)_
 
