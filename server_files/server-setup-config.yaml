@@ -8,7 +8,7 @@ install:
   mcVersion: 1.19.2
   loaderVersion: 0.14.21
   
-  modpackUrl: https://media.forgecdn.net/files/4658/658/AQM2-1.19.2-1.6.1.zip
+  modpackUrl: https://media.forgecdn.net/files/4660/396/AQM2-1.19.2-1.6.1hf.zip
   installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.jar
   
   ignoreFiles:
