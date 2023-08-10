@@ -42,7 +42,7 @@ displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:1
 biomeBlending:true
-pacPlayers:true
+trackedPlayers:true
 displayClaims:true
 claimsFillOpacity:46
 claimsBorderOpacity:80

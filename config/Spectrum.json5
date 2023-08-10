@@ -63,7 +63,7 @@
 	*/
 	"FadingDecayTickRate": 0.4000000059604645,
 	"FailingDecayTickRate": 0.4000000059604645,
-	"RuinDecayTickRate": 0.12500000298023224,
+	"RuinDecayTickRate": 0.125,
 	"TerrorDecayTickRate": 1.0,
 	// The audio volume for Spectrums crafting blocks. Set to 0.0 to turn those sounds off completely.
 	"BlockSoundVolume": 0.4000000059604645,

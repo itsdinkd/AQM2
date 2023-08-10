@@ -1,0 +1,12 @@
+{
+  "spawn_data": [
+    {
+      "biomes": [
+        "minecraft:river"
+      ],
+      "weight": 2,
+      "minGroup": 3,
+      "maxGroup": 5
+    }
+  ]
+}

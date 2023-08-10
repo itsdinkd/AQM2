@@ -40,8 +40,6 @@ key_modifiers_Reload Menu | CTRL + ALT + :0,0,0
 key_modifiers_Toggle Customization Overlay | CTRL + ALT + :0,0,0
 key_modifiers_key.ftbquests.quests:0,0,0
 key_modifiers_key.ftbteams.open_gui:0,0,0
-key_modifiers_key.valkyrienskies.ship_down:0,0,0
-key_modifiers_key.valkyrienskies.ship_cruise:0,0,0
 key_modifiers_key.wi_zoom.zoom:0,0,0
 key_modifiers_key.adventurez.dragonflydown:0,0,0
 key_modifiers_key.adventurez.dragonfirebreath:0,0,0
@@ -214,7 +212,7 @@ key_modifiers_gui.xaero_toggle_entity_radar:0,0,0
 key_modifiers_gui.xaero_reverse_entity_radar:0,0,0
 key_modifiers_gui.xaero_toggle_manual_cave_mode:0,0,0
 key_modifiers_gui.xaero_alternative_list_players:0,0,0
-key_modifiers_gui.xaero_toggle_pac_players:0,0,0
+key_modifiers_gui.xaero_toggle_tracked_players:0,0,0
 key_modifiers_gui.xaero_toggle_pac_chunk_claims:0,0,0
 key_modifiers_gui.xaero_minimap_settings:0,0,0
 key_modifiers_gui.xaero_open_map:0,0,0

@@ -30,7 +30,7 @@ $MODPACK_NAME = "another-quality-modpack-2"
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.6.1hf"
+$MODPACK_VERSION = "1.6.2"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
@@ -94,7 +94,7 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "resources",
     "servers.dat",
     "mods/Crafty-Crashes-1.0.jar",
-    "mods/iris-mc1.19.2-1.6.4.jar"
+    "mods/iris-mc1.19.2-1.6.5.jar"
 )
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems", "PaginatedAdvancements.json5", "xaerominimap.txt", "xaeroworldmap.json", "iris.properties", "sodium-options.json", "sodium-mixins.json", "sodium-extra-options.json", "sodium-extra.json")

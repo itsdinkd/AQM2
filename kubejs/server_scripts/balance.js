@@ -348,7 +348,7 @@ event.custom({
   ],
   "key": {
     "T": {
-      "item": "spectrum:blacker_lotus"
+      "item": "botania:blacker_lotus"
     },
     "E": {
       "item": "botania:ender_air_bottle"

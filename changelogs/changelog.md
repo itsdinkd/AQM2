@@ -1,21 +1,34 @@
-## **Another Quality Modpack v1.6.1hf**
-
-
-_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.1hf.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.1hf.md)_
-
-Make sure to reset the dimensions of Mine Cells as there is a new minecells major update! Follow the guide at https://mim1q.dev/minecells/updating/
-
-## Hotfix Change
-- Removed Lib39 which was preventing servers from starting up
-
----
-
-## **Another Quality Modpack v1.6.1**
+## **Another Quality Modpack v1.6.2**
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.1.md)_
 
 Make sure to reset the dimensions of Mine Cells as there is a new minecells major update! Follow the guide at https://mim1q.dev/minecells/updating/
+
+Please read v1.6.1 change log (large update) since 1.6.1 was never released publicly due to an issue that has since been fixed in 1.6.2. 
+## ADDED
+- CreateFabric&REI
+
+## CHANGED
+- Removed Create: Slice and Dice from 1.6.1 update
+- Removed Brewin and Chewin from 1.6.1 Update
+- Removed CC:Bridge from 1.6.1 update
+- Iris updated to 1.6.5
+
+## FIXED
+- REI not working in v1.6.1 (Due to a few mods that i added in 1.6.1 conflicting with the pack)
+- Rare crash involving GUI and Vinery (vinery update)
+- Modern Industrialization GUI NPE crashes (Modern Industrialization update)
+- FTB Quests NPE crashes (FTB Quests update)
+- Broken balance.js file due to having invalid item name in a recipe change
+- Bulk Megacell dempression crash (Mega Cells update)
+- Create REI issues thanks to CreateFabric&REI Mod
+- Fix mobs being unintentionally revived in some circumstances (Max Health Fix update)
+
+## **Another Quality Modpack v1.6.1**
+
+
+_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.1.md)_
 
 ## FIXED
 - Chocobo Flight not being disabled on servers

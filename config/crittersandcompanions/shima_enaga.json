@@ -1,0 +1,12 @@
+{
+  "spawn_data": [
+    {
+      "biomes": [
+        "minecraft:snowy_plains"
+      ],
+      "weight": 3,
+      "minGroup": 2,
+      "maxGroup": 3
+    }
+  ]
+}

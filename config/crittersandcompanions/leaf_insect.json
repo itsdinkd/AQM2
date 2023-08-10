@@ -1,0 +1,13 @@
+{
+  "spawn_data": [
+    {
+      "biomes": [
+        "#minecraft:is_forest",
+        "#minecraft:is_jungle"
+      ],
+      "weight": 12,
+      "minGroup": 1,
+      "maxGroup": 1
+    }
+  ]
+}

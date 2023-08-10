@@ -1,0 +1,30 @@
+{
+  "spawn_data": [
+    {
+      "biomes": [
+        "minecraft:ocean",
+        "minecraft:deep_ocean"
+      ],
+      "weight": 32,
+      "minGroup": 1,
+      "maxGroup": 2
+    },
+    {
+      "biomes": [
+        "minecraft:lukewarm_ocean",
+        "minecraft:deep_lukewarm_ocean"
+      ],
+      "weight": 32,
+      "minGroup": 1,
+      "maxGroup": 3
+    },
+    {
+      "biomes": [
+        "minecraft:warm_ocean"
+      ],
+      "weight": 64,
+      "minGroup": 1,
+      "maxGroup": 4
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "spawn_data": [
+    {
+      "biomes": [
+        "#minecraft:is_forest"
+      ],
+      "weight": 3,
+      "minGroup": 2,
+      "maxGroup": 3
+    },
+    {
+      "biomes": [
+        "minecraft:plains",
+        "minecraft:sunflower_plains"
+      ],
+      "weight": 4,
+      "minGroup": 2,
+      "maxGroup": 3
+    }
+  ]
+}
