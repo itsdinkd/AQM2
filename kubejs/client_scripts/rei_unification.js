@@ -18,6 +18,7 @@ const DELETED_ITEMS = [
  "bewitchment:silver_ore",
  "bnno:raw_tin",
  "bno:aluminum_block",
+ "croptopia:garlic",
  "bno:aluminum_ingot",
  "bno:aluminum_nugget",
  "bno:lead_block",

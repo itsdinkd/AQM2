@@ -214,6 +214,7 @@
 				screeper = true
 				spismall = true
 				wasp = true
+				mage = true
 
 			[light_sources.settings.entities.whisperwoods]
 				moth = true
@@ -495,6 +496,7 @@
 				tropical_slime = true
 				albino_cow = true
 				spotted_pig = true
+				bone_spider = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
@@ -943,4 +945,9 @@
 
 			[light_sources.settings.entities.valkyrienskies]
 				ship_mounting_entity = true
+
+			[light_sources.settings.entities.hexal]
+
+				[light_sources.settings.entities.hexal.wisp]
+					wandering = true
 

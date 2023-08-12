@@ -26,8 +26,6 @@
     "disabledPlanets": "",
     // Prevents stuff like gravity and oxygen checks in the overworld as that's normally not used in Ad Astra. enable if you're making an addon or something that transforms the overworld into some sort of planet.
     "avoidOverworldChecks": true,
-    // Enable/Disable lunarian and lunarian wandering trader's default trades. Apply to lunarian spawned after this value changed.
-    "enabledLunarianDefaultTrades": true,
     "spawning": {
         "spawnCorruptedLunarians": true,
         "spawnStarCrawlers": true,
@@ -50,9 +48,7 @@
         "enableJetSuitFlight": true,
         "jetSuitProtectionMultiplier": 1,
         "jetSuitArmorToughness": 5,
-        "spawnJetSuitParticles": true,
-        // Custom hand rendering may interfere with Shaders
-        "renderCustomFirstPersonHand": true
+        "spawnJetSuitParticles": true
     },
     "vehicles": {
         // The velocity to trigger a vehicle explosion while falling.

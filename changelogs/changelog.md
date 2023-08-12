@@ -1,11 +1,38 @@
+## **Another Quality Modpack v1.6.2.1**
+
+
+_Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.2.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.2.1.md)_
+
+If you are updating from 1.6.0 to 1.6.3, make sure to reset the dimensions of Mine Cells as there is a new minecells major update! Follow the guide at https://mim1q.dev/minecells/updating/
+
+
+## FIXED
+- REI should now be working in servers
+- Modern Industrialization update fixes issues with Forge Hammer
+
+## ADDED
+- ModernFix
+- FTB XMod Compatibility (Adds back REI compatibility with FTB Quests)
+
+## REMOVED
+- Redirector
+
+## DOWNGRADED
+- Kibe (A little loss but was apart of REI issue)
+- Ad Astra (No real loss)
+- Calibrated (No real loss)
+- Cultural Delight (No real loss)
+---
+
 ## **Another Quality Modpack v1.6.2**
 
 
-_Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.1.md)_
+_Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.2.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.2.md)_
 
 Make sure to reset the dimensions of Mine Cells as there is a new minecells major update! Follow the guide at https://mim1q.dev/minecells/updating/
 
 Please read v1.6.1 change log (large update) since 1.6.1 was never released publicly due to an issue that has since been fixed in 1.6.2. 
+
 ## ADDED
 - CreateFabric&REI
 
@@ -13,7 +40,6 @@ Please read v1.6.1 change log (large update) since 1.6.1 was never released publ
 - Removed Create: Slice and Dice from 1.6.1 update
 - Removed Brewin and Chewin from 1.6.1 Update
 - Removed CC:Bridge from 1.6.1 update
-- Iris updated to 1.6.5
 
 ## FIXED
 - REI not working in v1.6.1 (Due to a few mods that i added in 1.6.1 conflicting with the pack)
@@ -24,6 +50,7 @@ Please read v1.6.1 change log (large update) since 1.6.1 was never released publ
 - Bulk Megacell dempression crash (Mega Cells update)
 - Create REI issues thanks to CreateFabric&REI Mod
 - Fix mobs being unintentionally revived in some circumstances (Max Health Fix update)
+---
 
 ## **Another Quality Modpack v1.6.1**
 
