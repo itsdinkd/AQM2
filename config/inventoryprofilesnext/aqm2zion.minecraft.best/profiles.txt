@@ -1,0 +1,14 @@
+
+
+
+
+profile Saved activate HOT1
+	HOT1
+		"ad_astra:steel_plate"
+	HOT2
+		"ad_astra:steel_ingot"
+	HOT3
+		"techreborn:ruby_gem"
+	HOT4
+		"betternether:nether_ruby"
+

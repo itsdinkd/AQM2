@@ -49,14 +49,14 @@
     "note_block.note": "SHARP",
     "note_block.int_value": false
   },
-  "horseinfo": {
-    "enabled": true,
-    "ignore_mount": false
-  },
   "fluidtank": {
     "fluidtank.tank_info": true,
     "fluidtank.short_info": true,
     "fluidtank.compact_number": false
+  },
+  "horseinfo": {
+    "enabled": true,
+    "ignore_mount": false
   },
   "wailax": {
     "energy.enabled_block": true,

@@ -134,8 +134,8 @@ priority: 100
 
 	const nonMoveable = [
 		"bosses_of_mass_destruction:void_blossom_block",
-		"minecraft:spawner"
-	]
+	 	"minecraft:spawner"
+	 ]
 
 	const BlacklistTravelersBackpack = [
 		"inmis:baby_backpack",
@@ -235,7 +235,7 @@ ServerEvents.tags('item', event => {
 	
 // Remove
 	// event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
-	
+		
 
 });
 
@@ -253,9 +253,13 @@ ServerEvents.tags('block', event => {
 		event.add('aqm2:material/twigs', item)
 	})
 
-	nonMoveable.forEach(function (item, i) {
-		event.add("create:non_movable", item)
-	})
+	Rocks.forEach(function (item, index) {
+		event.add('aqm2:material/rocks', item)
+	});
+
+	 nonMoveable.forEach(function (item, i) {
+	 	event.add("create:non_movable", item)
+	 })
 	// alwaysSoulbound.forEach((item,index) => {
 	// 	event.add('yigd:soulbound_item', item)
 	// })

@@ -77,5 +77,12 @@
   },
   "catchServerErrors": true,
   "spawnEgg": true,
-  "playerHead": true
+  "playerHead": true,
+  "pluginConfigMigrated": true,
+  "migratedBlacklist": [
+    "waila:extra/fluid_blacklist",
+    "waila:extra/item_blacklist",
+    "waila:extra/energy_blacklist",
+    "waila:extra/progress_blacklist"
+  ]
 }

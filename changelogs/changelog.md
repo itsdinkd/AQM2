@@ -1,3 +1,28 @@
+## **Another Quality Modpack v1.6.3**
+
+
+_Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.3.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.3.md)_
+
+Highly recommended updating to this version
+
+## FIXED
+- Tags being broken on start up which affected Forge Hammer (Caused by Create trying to load tags before recipes loaded)
+- Packet Sizes too large breaking sync between client and server which affected REI (Caused by Extra Thicc Packets not working, switched mods)
+- Sodium Options search bar not working
+- Added Rocks to block tags to fix rock quests
+- Duplicate spectrum jetpack recipes
+- Minor bug fixes from several mod updates
+
+## ADDED
+- New Blockus Blocks
+- Brewin and Chewin Mod (Farmers Delight addon)
+- Create Slice and Dice
+  - Adds compatibility between most foods and create. Made for farmers delight but you can automate most food crafting using the slicer block with create
+- Overweight Farming
+  - Grow yuge crops and get yuge returns
+- Iris is added back
+---
+
 ## **Another Quality Modpack v1.6.2.1**
 
 
