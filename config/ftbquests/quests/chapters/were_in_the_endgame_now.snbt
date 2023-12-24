@@ -260,7 +260,6 @@
 			rewards: [{
 				command: "/give @p winged:heart_of_the_sky 1"
 				id: "40FEE64E8DCF5987"
-				player_command: false
 				type: "command"
 			}]
 			subtitle: "Permanent. Creative. Fly."

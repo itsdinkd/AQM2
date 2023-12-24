@@ -291,7 +291,8 @@
       "conjuring:soul_funnel",
       "spelunkery:*",
       "dimdoors:*",
-      "bitsandchisels:*"
+      "bitsandchisels:*",
+      "soulsweapons::*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -299,7 +300,7 @@
       "minecraft:ender_dragon",
       "minecraft:ghast",
       "minecraft:shulker",
-      "companion_bats",
+      "friendsandfoes:*",
       "minecraft:leash_knot",
       "minecraft:armor_stand",
       "minecraft:item_frame",

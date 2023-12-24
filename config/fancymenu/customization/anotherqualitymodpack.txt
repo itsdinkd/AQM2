@@ -3,9 +3,9 @@ type = menu
 customization-meta {
   identifier = net.minecraft.class_442
   randomgroup = 1
-  biggerthanwidth = 2559
   renderorder = foreground
   randommode = false
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:5a67129e-5819-4dd3-b488-be2b2bd77b831703393496077] = 2558
   randomonlyfirsttime = false
 }
 
@@ -317,7 +317,7 @@ customization {
   path = config/fancymenu/assets/bhamlogo.png
   fadein = true
   fadeinspeed = 0.8
-  x = 53
+  x = 59
   width = 261
   action = addtexture
   actionid = 3867f88a-041b-404f-843e-57b8a67f1dbf1635366552124

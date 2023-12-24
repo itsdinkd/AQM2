@@ -1,3 +1,79 @@
+## **Another Quality Modpack v1.7**
+
+
+_Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.7.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.7.md)_
+
+There will be another version shortly here that includes the latest Spectrum and Marium Soulslike. Both mods have major content changes and will require dedicated time to go through them all to make sure everything is in alignment with the pack.
+
+## HIGHLIGHTS
+- Deeper and Darker
+  - Adds boss bars, tons of bug fixes including chunk loading problems, adds more sounds for attacks and mobs, and more
+- Friends and Foes
+  - Adds Rascal
+  - Fixes several crashes, adds support for slim skins for totem of illusion, reworked animations and mobs, 
+- Macaws Windows
+  - Adds hot keys to lock windows or open and close, removed waterlogging, window sounds, several fixes
+- Doom
+  - Fixes Archmaykr Structures spawning incorrectly
+- Minecells
+  - Spawner runes will now spawn as block entities. You are able to place blocks "on top of them", which will turn them into entities. No more 2000+ spawner rune entities in the world!
+- Modern Industrialization
+  - Adds Hammer Sounds
+  - Fixes non-animating sprites in gui
+  - Crash fixes and several other bug fixes
+  - Redstone control of machines
+  - and more
+- Travelers Backpack
+  - Adds tool slots (moved from inventory space to their own space)
+  - Increase backpack capacity on all tiers, each tier adds 1 tool slot
+  - Shift + Right Click with Empty Hand allows to place backpack on the ground directly from bac
+  - Sleeping bag can be used without the backpack
+  - Several bug fixes
+
+
+## CHANGES/FIXES
+- Companion Bats not being blacklisted by carry on, also blacklisted souls weapon tiles and friends and foes entities 
+- Disabled Adventure maps from supplementaries as this causes lag issues (maps in general while using terralith)
+- AE2 Dupe glitch and performance hit involving ME Controllers
+- Vinery various bug fixes and rare crashes
+- Alloy Forgery fix tick related lag when idle or crafting, fixes various compatibility recipes
+- Applied Botanics fixes crash with spark and integer overflow bugs
+- Appleskin fixes crash with large health values
+- Bed Benefits Fix sleeping benefits applying when the player leaves the bed early
+- Disabled Modern Industrialization FTBQ Integration setting (prevents lag in enormous bases)
+- Besirchment 2 fixed book and lich pass through blocks
+- Carry On fixes memory leak, and placement issues
+- Cooking for Blockheads fixes several bugs and crashes
+- Create fixes several bugs
+- Dank Storage fixes a huge dupe issue
+- Eldritch Mob fixes broken custom abilities and abilities not randomizing after reloads
+- Extender Drawers fixes items being deleted
+- Farmers Delight fixes crash with eating certain items and crops breaking on non watered farmland
+- Mobz fixes Pillager Boss
+- BYG fixes sapling crash, Hypogeal Imperium crash, client crash, and a couple others. Also fixes a dupe bug, broken recipes, makes several logs flammable
+- Powah fixes infinite recursion with energy networks and energy proxies.
+- Terralith fixes missing/broken feature cycles
+- Toolstats improves accuracy of the digging speed stack. Also factor the efficiency enchantment into the digging stat
+- Veinmining fixes blocks being destroyed that shouldnt be destroyed
+- Yung Better Mineshaft surface entraces not respawning
+- Macaw Paintings adds 10 additional paintings
+- Powah adds energizing recipe for charged certus quartz
+- Red bits adds two new gates, and particle effects
+- Supplementaries backported 1 additional feature/item. Altimeter
+- Trash Slot adds a key bind to now lock trash slot in position, adds a client config blacklist, added hints to for when trash slot is first toggled off or when it can be toggled on, fixes trash slot from showing in spectator mode
+
+
+
+## ADDED
+- Show Me Your Skin (New Mod Added)
+  - Show Me Your Skin  enables extensive customization of armor rendering. Every feature is toggleable and designed to be as flexible as possible
+- Paladins and Priests
+  - Made with the same premise as the Wizards mod, become a Paladin or Priest. Heal or protect your allies. 
+  - This mod utilizes the same spell binding table that wizards uses. To unlock paladin spells, create a Paladin Libram on the table, or a Holy Book to unlock priest spells.
+  - Loot for the two classes can be found in dungeons, new structures will spawn in villages where you can buy magical equipment for the two
+  - Craftable equipment to give bonus spell damage and healing
+---
+
 ## **Another Quality Modpack v1.6.3**
 
 

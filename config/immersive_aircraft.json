@@ -1,4 +1,9 @@
 {
+  "enableDropsForNonPlayer": true,
+  "enableCrashExplosion": false,
+  "enableCrashBlockDestruction": true,
+  "enableCrashFire": true,
+  "crashExplosionRadius": 2.0,
   "separateCamera": true,
   "useThirdPersonByDefault": true,
   "enableTrails": true,
@@ -20,6 +25,11 @@
     "gobber2:gobber2_foo": 2500,
     "gobber2:gobber2_foo_nether": 5000,
     "gobber2:gobber2_foo_end": 8000
+  },
+  "validDimensions": {
+    "minecraft:overworld": true,
+    "minecraft:the_end": false,
+    "minecraft:the_nether": false
   },
   "version": 1
 }

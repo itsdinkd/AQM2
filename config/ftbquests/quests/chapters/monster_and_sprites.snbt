@@ -327,7 +327,6 @@
 				{
 					command: "/rpgcheat @p rpgstats:melee add levels 2"
 					id: "55EA4B6E37DE5EC6"
-					player_command: false
 					title: "RPGStats Combat +2 Levels"
 					type: "command"
 				}
@@ -407,7 +406,6 @@
 			rewards: [{
 				command: "/rpgcheat @p rpgstats:melee add levels 2"
 				id: "25C05D456DDA2514"
-				player_command: false
 				title: "RPGStats Combat +2 Levels"
 				type: "command"
 			}]

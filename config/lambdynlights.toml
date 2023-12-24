@@ -668,6 +668,7 @@
 
 			[light_sources.settings.entities.spectrum]
 				invisible_item_frame = true
+				shooting_star = true
 
 			[light_sources.settings.entities.wildlife]
 				bluegill = true
@@ -770,6 +771,7 @@
 				copper_golem = true
 				moobloom = true
 				iceologer = true
+				rascal = true
 
 			[light_sources.settings.entities.chubbystuff]
 				quagsire = true

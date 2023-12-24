@@ -5,43 +5,36 @@
 	rewards: [
 		{
 			command: "/rpgcheat @p rpgstats:defence add levels 5"
-			player_command: false
 			title: "Defense 5"
 			type: "command"
 		}
 		{
 			command: "/rpgcheat @p rpgstats:farming add levels 5"
-			player_command: false
 			title: "Farming 5"
 			type: "command"
 		}
 		{
 			command: "/rpgcheat @p rpgstats:fishing add levels 5"
-			player_command: false
 			title: "Fishing 5"
 			type: "command"
 		}
 		{
 			command: "/rpgcheat @p rpgstats:magic add levels 5"
-			player_command: false
 			title: "Magic 5"
 			type: "command"
 		}
 		{
 			command: "/rpgcheat @p rpgstats:melee add levels 5"
-			player_command: false
 			title: "Melee 5"
 			type: "command"
 		}
 		{
 			command: "/rpgcheat @p rpgstats:mining add levels 5"
-			player_command: false
 			title: "Mining 5"
 			type: "command"
 		}
 		{
 			command: "/rpgcheat @p rpgstats:ranged add levels 5"
-			player_command: false
 			title: "Ranged 5"
 			type: "command"
 		}

@@ -5,6 +5,7 @@
   "alwaysShowRepairCost": true,
   "showHarvestLevel": true,
   "showEfficiency": true,
+  "factorEfficiencyEnchantment": true,
   "showDurability": true,
   "alwaysShowDurability": true
 }

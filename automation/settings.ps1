@@ -30,12 +30,12 @@ $MODPACK_NAME = "another-quality-modpack-2"
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.6.3"
+$MODPACK_VERSION = "1.7"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "1.6.2.1"
+$LAST_MODPACK_VERSION = "1.6.3"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -72,10 +72,10 @@ $CLIENT_RELEASE_TYPE = "release"
 #=====================================================================//
 
 # File name of the latest https://github.com/ModdingX/ModListCreator/releases
-$CHANGELOG_GENERATOR_JAR = "ModListCreator-4.0.3-fatjar.jar"
+$CHANGELOG_GENERATOR_JAR = "ModListCreator-4.1.0-fatjar.jar"
 
 # File name of the latest https://github.com/ModdingX/ModListCreator/releases
-$MODLIST_CREATOR_JAR = "ModListCreator-4.0.3-fatjar.jar"
+$MODLIST_CREATOR_JAR = "ModListCreator-4.1.0-fatjar.jar"
 
 #=====================================================================//
 #  CLIENT FILE SETTINGS
@@ -94,7 +94,8 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "resources",
     "servers.dat",
     "mods/Crafty-Crashes-1.0.jar",
-    "mods/iris-mc1.19.2-1.6.6.jar"
+    "mods/iris-mc1.19.2-1.6.11.jar",
+    "mods/expandedstorage-8.3.4+1.19.2-fabric.jar"
 )
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems", "PaginatedAdvancements.json5", "xaerominimap.txt", "xaeroworldmap.json", "iris.properties", "sodium-options.json", "sodium-mixins.json", "sodium-extra-options.json", "sodium-extra.json")

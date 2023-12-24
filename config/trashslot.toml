@@ -1,2 +1,5 @@
 instantDeletion = false
 enableDeleteKeysInCreative = true
+enableHints = true
+allowDeletionWhileTrashSlotIsInvisible = false
+deletionDenyList = []

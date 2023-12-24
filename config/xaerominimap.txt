@@ -6,6 +6,7 @@ differentiateByServerAddress:true
 debugEntityIcons:false
 debugEntityVariantIds:false
 radarHideInvisibleEntities:true
+allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:false
 minimap:true
@@ -105,6 +106,7 @@ caveModeToggleTimer:1000
 legibleCaveMaps:false
 biomeBlending:true
 displayTrackedPlayers:true
+dimensionScaledMaxWaypointDistance:true
 displayClaims:true
 displayCurrentClaim:true
 claimsFillOpacity:46

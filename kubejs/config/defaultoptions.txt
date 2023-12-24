@@ -53,6 +53,7 @@ key_key.mtmechs.primary:key.keyboard.v
 key_key.nyfsquiver.open_quiver:key.keyboard.p
 key_key.nyfsquiver.increase_slot:key.keyboard.right.bracket
 key_key.nyfsquiver.decrease_slot:key.keyboard.left.bracket
+key_key.showmeyourskin.open_settings:key.keyboard.v
 key_key.origins.primary_active:key.keyboard.g
 key_key.origins.secondary_active:key.keyboard.c
 key_key.origins.view_origin:key.keyboard.o

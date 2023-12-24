@@ -1299,6 +1299,10 @@
     "vinery:apple_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "rusticated:grape_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

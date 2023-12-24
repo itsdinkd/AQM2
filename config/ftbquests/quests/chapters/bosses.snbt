@@ -88,7 +88,6 @@
 				{
 					command: "/rpgcheat @p rpgstats:melee add levels 3"
 					id: "6737ADB520C35F62"
-					player_command: false
 					title: "RpgStats (3 Melee Levels)"
 					type: "command"
 				}

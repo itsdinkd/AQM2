@@ -20,15 +20,28 @@
         "y": "TOP"
       },
       "x": 0,
-      "y": 0,
+      "y": 2,
       "bossBarsOverlap": false
     },
     "color": {
       "backgroundAlpha": 204,
-      "themes": [],
-      "activeTheme": "waila:dark"
+      "themes": [
+        {
+          "id": "custom:aqm2",
+          "type": "waila:gradient",
+          "backgroundColor": 1381653,
+          "gradientStart": 15357372,
+          "gradientEnd": 1381653,
+          "borderSize": 1,
+          "borderOffset": 0,
+          "drawCorner": false,
+          "fontColor": 9604245
+        }
+      ],
+      "activeTheme": "custom:aqm2"
     },
-    "scale": 1.0
+    "scale": 1.0,
+    "fps": 0
   },
   "formatter": {
     "modName": "§9§o%s",
