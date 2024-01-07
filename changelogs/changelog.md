@@ -1,4 +1,36 @@
-## **Another Quality Modpack v1.7**
+## **Another Quality Modpack 2 v1.8**
+
+
+_Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.7.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.7.md)_
+
+
+## ADDED
+- VillagersPlus
+  - adds new villagers, trades and unique and beautiful workstations
+- Better Nether Fortresses
+  - Improves nether fortress just like better strongholds improves stronghold
+- Etched
+  - Create custom records with full customization with the new Etching Table, Etched also provides new ways to play all discs. The new Album Jukebox lets you store up to 9 records which will play in order and on repeat unless powered by redstone, which then it'll pause and reset to the first disc
+  - Adds a Bard villager for musical trades
+  - Insert records into jukeboxes with hoppers
+  - Create your own record with etching table using Soundcloud URLs, a blank disc, and a label
+- Repurposed Structure Resource Packs
+  - Adds specific mods with compatibility packs to RS Villages, or other RS Structures, and includes some of that mods features and items
+  - Fixed the ones we had added but never loaded
+    - Better stronghold, Better desert temples, Chefs delight, Farmers Delight compatibility packs 
+  - Added the following compatibility packs
+    - Paladins and Priests, Wizards, Friends and Foes, Oh The Biomes You'll Go, Better Nether Fortresses, Better Dungeons
+
+
+## CHANGES/FIXES
+- Fixed lank's fairy origin that had the incorrect reach and attack range attributes in its file due to developer missing the dashes required in attribute name. This finally now nerfs fairy to have less reach, and attack range due to being small, as intended
+- Fixed a broken loot table in farm structory tower
+- Fixed other misc loot tables that were not implemented by mods to clean up errors in logs
+
+
+---
+
+## **Another Quality Modpack 2 v1.7**
 
 
 _Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.7.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.7.md)_
@@ -67,14 +99,14 @@ There will be another version shortly here that includes the latest Spectrum and
 ## ADDED
 - Show Me Your Skin (New Mod Added)
   - Show Me Your Skin  enables extensive customization of armor rendering. Every feature is toggleable and designed to be as flexible as possible
-- Paladins and Priests
+- Paladins and Priests (New Mod Added)
   - Made with the same premise as the Wizards mod, become a Paladin or Priest. Heal or protect your allies. 
   - This mod utilizes the same spell binding table that wizards uses. To unlock paladin spells, create a Paladin Libram on the table, or a Holy Book to unlock priest spells.
   - Loot for the two classes can be found in dungeons, new structures will spawn in villages where you can buy magical equipment for the two
   - Craftable equipment to give bonus spell damage and healing
 ---
 
-## **Another Quality Modpack v1.6.3**
+## **Another Quality Modpack 2 v1.6.3**
 
 
 _Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.3.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.3.md)_
@@ -99,7 +131,7 @@ Highly recommended updating to this version
 - Iris is added back
 ---
 
-## **Another Quality Modpack v1.6.2.1**
+## **Another Quality Modpack 2 v1.6.2.1**
 
 
 _Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.2.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.2.1.md)_
@@ -125,7 +157,7 @@ If you are updating from 1.6.0 to 1.6.3, make sure to reset the dimensions of Mi
 - Cultural Delight (No real loss)
 ---
 
-## **Another Quality Modpack v1.6.2**
+## **Another Quality Modpack 2 v1.6.2**
 
 
 _Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.2.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.2.md)_
@@ -153,7 +185,7 @@ Please read v1.6.1 change log (large update) since 1.6.1 was never released publ
 - Fix mobs being unintentionally revived in some circumstances (Max Health Fix update)
 ---
 
-## **Another Quality Modpack v1.6.1**
+## **Another Quality Modpack 2 v1.6.1**
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.1.md)_
@@ -206,7 +238,7 @@ _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - YDM Allay.. its just pointless to have
 ---
 
-## **Another Quality Modpack v1.6.0**
+## **Another Quality Modpack 2 v1.6.0**
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.6.0hf.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.6.0hf.md)_
@@ -260,7 +292,7 @@ _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - Model Gap Fix Mod (Compatibility issues)
 ---
 
-## **Another Quality Modpack v1.5.9**
+## **Another Quality Modpack 2 v1.5.9**
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.8.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.8.md)_
 
@@ -301,7 +333,7 @@ If you do not want to create a new world, do not update anymore moving forward u
 - Creatures from the Snow has been removed due to the mod being removed from curseforge and not being on modrinth as well
 ---
 
-### Another Quality Modpack v1.5.8
+### Another Quality Modpack 2 v1.5.8
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.7.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.7.md)_
@@ -327,7 +359,7 @@ _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 ---
 
 
-### Another Quality Modpack v1.5.7
+### Another Quality Modpack2  v1.5.7
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.6.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.6.1.md)_
@@ -359,7 +391,7 @@ _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - Better Stats from SERVER PACK only (Caused issues, such as a NPE error when logging into a server due to a packet being sent. This was fixed in a newer version but i prefer just removing it completely from servers as there might be other issues)
 ---
 
-### Another Quality Modpack v1.5.6.1
+### Another Quality Modpack 2 v1.5.6.1
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.6.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.6.md)_
@@ -373,7 +405,7 @@ In 1.5.5 and 1.5.6 i reverted all previously disabled lithium mixins (Due to the
 ---
 
 
-### Another Quality Modpack v1.5.6 and v1.5.5
+### Another Quality Modpack 2 v1.5.6 and v1.5.5
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.5.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.5.md)_
@@ -410,7 +442,7 @@ I downgraded Lithium here to where i believe it was in a better state from there
 - Storage labels can be placed on ceilings and floors
 ---
 
-### Another Quality Modpack v1.5.4
+### Another Quality Modpack 2 v1.5.4
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.4.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.4.md)_
@@ -426,7 +458,7 @@ _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 ---
 
 
-### Another Quality Modpack v1.5.3
+### Another Quality Modpack 2 v1.5.3
 
 
 _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.3.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.3.md)_
@@ -462,7 +494,7 @@ _Fabric Loader 0.14.19_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 
 ---
 
-### Another Quality Modpack v1.5.2
+### Another Quality Modpack 2 v1.5.2
 
 
 _Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.2.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.2.md)_
@@ -521,7 +553,7 @@ _Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 ---
 
 
-### Another Quality Modpack v1.5.1
+### Another Quality Modpack 2 v1.5.1
 
 
 _Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.1.md)_
@@ -578,7 +610,7 @@ metal like. (Trick Weapons work great here to swiftly change between weapons to 
 ---
 
 
-### Another Quality Modpack v1.5
+### Another Quality Modpack 2 v1.5
 
 
 _Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.5.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.5.md)_
@@ -614,7 +646,7 @@ _Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 ---
 
 
-### Another Quality Modpack v1.4.4hf
+### Another Quality Modpack 2 v1.4.4hf
 
 
 _Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.4.4hf.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.4.4hf.md)_
@@ -629,7 +661,7 @@ _Fabric Loader 0.14.18_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 
 
 
-### Another Quality Modpack v1.4.4
+### Another Quality Modpack 2 v1.4.4
 
 
 _Fabric Loader 0.14.18_  _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.4.4.md)_

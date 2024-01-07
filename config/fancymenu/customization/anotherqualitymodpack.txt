@@ -357,7 +357,7 @@ customization {
 customization {
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink;https://www.bisecthosting.com/clients/aff.php?aff=3817%btnaction_splitter_fm%
+  buttonaction = openlink;https://www.bisecthosting.com/itsDinkd?r=fancy+menu+large%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\assets\bhamrentaserverhover.png
   label = 
   loopbackgroundanimations = true

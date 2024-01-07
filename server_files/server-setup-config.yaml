@@ -29,7 +29,6 @@ install:
     - mods/iris-mc1.19.2-1.6.6.jar
 
   additionalFiles:
-    - mods/expandedstorage-8.3.4+1.19.2-fabric.jar
   localFiles:
 #    - from: server_overrides/
 #      to: /
