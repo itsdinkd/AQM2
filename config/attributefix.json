@@ -297,6 +297,17 @@
         "value": 10000000
       }
     },
+    "estrogen:boob_growing_start_time": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 9007199254740992,
+        "value": 9007199254740992
+      }
+    },
     "dml-refabricated:fall_immunity": {
       "enabled": false,
       "min": {
@@ -792,6 +803,17 @@
         "value": 10000000
       }
     },
+    "estrogen:boob_initial_size": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
@@ -845,6 +867,17 @@
       "max": {
         "default": 20,
         "value": 10000000
+      }
+    },
+    "estrogen:dash_level": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "additionalentityattributes:bonus_rare_loot_rolls": {

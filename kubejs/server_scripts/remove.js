@@ -344,6 +344,7 @@ ServerEvents.recipes( event => {
   });
 
   event.remove({id: "veggie_way:blaze_rod"})
+  event.remove({id: /spectrum:.*globette.*/})
   event.remove({id: "resourceful_tools:blaze_rod"})
   // event.remove({input: "valley:tomato_crate"})
   // Remove Create XP Recipe and Zinc workaround

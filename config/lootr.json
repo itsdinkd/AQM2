@@ -6,7 +6,8 @@
     "randomize_seed": true
   },
   "conversion": {
-    "maximum_entry_age": 1800
+    "max_entry_age": 12000,
+    "disable": false
   },
   "breaking": {
     "enable_break": false,
@@ -14,7 +15,8 @@
     "disable_break": true,
     "power_comparators": true,
     "blast_resistant": true,
-    "blast_immune": true
+    "blast_immune": true,
+    "trapped_custom": false
   },
   "lists": {
     "dimension_whitelist": [],
@@ -28,6 +30,8 @@
       "aqm2:mining_dimension",
       "minecells:insufferable_crypt"
     ],
+    "dimension_modid_blacklist": [],
+    "dimension_modid_whitelist": [],
     "loot_table_blacklist": [
       "bosses_of_mass_destruction:chests/gauntlet",
       "bosses_of_mass_destruction:chests/obsidilith",

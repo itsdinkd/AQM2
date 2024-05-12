@@ -83,7 +83,7 @@
 	"staffFarmerIntervalExtra": 20,
 	"staffFarmerExtraCrops": false,
 	"staffFarmerReplant": true,
-	"staffEnsnarementHotileMobs": false,
+	"staffEnsnarementHostileMobs": false,
 	/* 
 	   
 	   ***********************

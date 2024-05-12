@@ -336,7 +336,12 @@ var k_g = ['mk1','mk2','mk3','mk4','mk5',];var kcg = 'kibe:cobblestone_generator
     event.hide('bewitchment:' + item + '_boat')
   })
 
-
+  event.hide('spectrum:small_globette_bud')
+  event.hide('spectrum:large_globette_bud')
+  event.hide('spectrum:large_globette_end_bud')
+  event.hide('spectrum:small_globette_end_bud')
+  event.hide("spectrum:small_globette_nether_bud")
+  event.hide("spectrum:large_globette_nether_bud")
   // Reduce gliders, leaving 1 blue one.
   var kibeGliders = [
     'white',
@@ -355,7 +360,7 @@ var k_g = ['mk1','mk2','mk3','mk4','mk5',];var kcg = 'kibe:cobblestone_generator
     'red',
     'black'
   ];
-
+  
   kibeGliders.forEach(function(item, index) {
     event.hide('kibe:' + item + '_glider')
     event.hide('kibe:' + item + '_sleeping_bag');

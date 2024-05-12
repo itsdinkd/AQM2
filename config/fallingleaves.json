@@ -1303,6 +1303,10 @@
     "rusticated:grape_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "spectrum:nephrite_blossom_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],

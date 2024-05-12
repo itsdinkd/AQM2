@@ -1129,7 +1129,10 @@
       "origins:fresh_air": true,
       "origins:extra_reach": true,
       "origins:carnivore": true,
-      "cham:cham_natarmor": true
+      "cham:cham_natarmor": true,
+      "cham:cham_climb": true,
+      "cham:cham_speed": true,
+      "cham:cham_reach": true
     },
     "monke:monkey": {
       "enabled": true,

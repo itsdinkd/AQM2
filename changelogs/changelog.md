@@ -1,8 +1,11 @@
 ## **Another Quality Modpack 2 v1.8**
 
 
-_Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.7.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.7.md)_
+_Fabric Loader 0.15.10_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.8.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.8.md)_
 
+## HIGHLIGHTS
+- Spectrum updated to latest version
+- Create updated to latest version
 
 ## ADDED
 - VillagersPlus
@@ -19,14 +22,21 @@ _Fabric Loader 0.14.21_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
   - Fixed the ones we had added but never loaded
     - Better stronghold, Better desert temples, Chefs delight, Farmers Delight compatibility packs 
   - Added the following compatibility packs
-    - Paladins and Priests, Wizards, Friends and Foes, Oh The Biomes You'll Go, Better Nether Fortresses, Better Dungeons
+    - Paladins and Priests, Wizards, Friends and Foes, Oh The Biomes You'll Go, Better Dungeons, Etched
+- Create: Estrogen
+  - Create Addon Based around expressing yourself, fluid handling and expanding your factory. This mod add a lot of new Items, Blocks, Mechanics and more!
+  - The main feature of the mod is the Estrogen Pill (And its effect)! Automated through a process of fluid handling and item processing. This might be pretty tough to get to, but the reward is great! The Estrogen Effect gives you an effect allowing you to Dash (With some hidden abilities too)!
 
+## MINOR UPDATES
+- Several performance mods updated to latest version
+- Dupes, Bugs, and Crashes from outdated mods fixed
+- For full list of all mods updated, check Mod Changes link above
 
 ## CHANGES/FIXES
 - Fixed lank's fairy origin that had the incorrect reach and attack range attributes in its file due to developer missing the dashes required in attribute name. This finally now nerfs fairy to have less reach, and attack range due to being small, as intended
 - Fixed a broken loot table in farm structory tower
 - Fixed other misc loot tables that were not implemented by mods to clean up errors in logs
-
+- Removed broken Boss Bar for ender dragon
 
 ---
 

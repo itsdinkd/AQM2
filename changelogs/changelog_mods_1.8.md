@@ -1,0 +1,71 @@
+## another-quality-modpack-2 - 1.7 -> 1.8
+
+### fabric - 0.14.25 -> 0.15.10
+
+### Added
+
+  * [Create: Estrogen](https://www.curseforge.com/minecraft/mc-mods/estrogen) (by [Mayaqq](https://www.curseforge.com/members/Mayaqq/projects))
+  * [Etched](https://www.curseforge.com/minecraft/mc-mods/etched) (by [jackson](https://www.curseforge.com/members/jackson/projects))
+  * [Expanded Storage](https://www.curseforge.com/minecraft/mc-mods/expanded-storage) (by [QuinnSemele](https://www.curseforge.com/members/QuinnSemele/projects))
+  * [Overflowing Bars [Forge & Fabric]](https://www.curseforge.com/minecraft/mc-mods/overflowing-bars) (by [Fuzs](https://www.curseforge.com/members/Fuzs/projects))
+  * [Pollen](https://www.curseforge.com/minecraft/mc-mods/pollen) (by [moonflowerteam](https://www.curseforge.com/members/moonflowerteam/projects))
+  * [VillagersPlus (FABRIC)](https://www.curseforge.com/minecraft/mc-mods/villagersplus-fabric) (by [finallion_13](https://www.curseforge.com/members/finallion_13/projects))
+  * [YUNG's Better Nether Fortresses (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-fabric) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
+
+### Removed
+
+  * [Armor Points ++](https://www.curseforge.com/minecraft/mc-mods/armorpoints) (by [CheosTwitch](https://www.curseforge.com/members/CheosTwitch/projects))
+
+### Changed
+
+  * [AdvancedReborn-1.19.2-1.1.9.jar](https://www.curseforge.com/minecraft/mc-mods/advancedreborn/files/4466922) -> [AdvancedReborn-1.19.2-1.2.8.jar](https://www.curseforge.com/minecraft/mc-mods/advancedreborn/files/5212043)
+  * [Animal_Origins_v1.9_FABRIC_1.19.jar](https://www.curseforge.com/minecraft/mc-mods/infinite-origins-animals/files/3830262) -> [Animal Origins 2.3.0 1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/infinite-origins-animals/files/5248756)
+  * [appliedenergistics2-fabric-12.9.8.jar](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/4733125) -> [appliedenergistics2-fabric-12.9.9.jar](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/5014666)
+  * [architectury-6.5.85-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/architectury-api/files/4555748) -> [architectury-6.6.92-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/architectury-api/files/5137941)
+  * [AttributeFix-Fabric-1.19.2-17.2.7.jar](https://www.curseforge.com/minecraft/mc-mods/attributefix/files/4635475) -> [AttributeFix-Fabric-1.19.2-17.2.8.jar](https://www.curseforge.com/minecraft/mc-mods/attributefix/files/5126455)
+  * [azurelib-fabric-1.19.2-1.0.39.jar](https://www.curseforge.com/minecraft/mc-mods/azurelib/files/4968633) -> [azurelib-fabric-1.19.2-1.0.41.jar](https://www.curseforge.com/minecraft/mc-mods/azurelib/files/5069925)
+  * [betterfpsdist-fabric-1.19.2-3.7.jar](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance-fabric/files/4878313) -> [betterfpsdist-fabric-1.19.2-4.2.jar](https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance-fabric/files/5100241)
+  * [blame-log-0.3.2-1.18.jar](https://www.curseforge.com/minecraft/mc-mods/blame-log/files/4707518) -> [blame-log-0.4.0-1.18.jar](https://www.curseforge.com/minecraft/mc-mods/blame-log/files/4960728)
+  * [BOMD-1.4.7-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction/files/4915179) -> [BOMD-1.4.8-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction/files/5026844)
+  * [botarium-fabric-1.19.2-1.8.2.jar](https://www.curseforge.com/minecraft/mc-mods/botarium/files/4306550) -> [botarium-fabric-1.19.2-1.9.2.jar](https://www.curseforge.com/minecraft/mc-mods/botarium/files/5118247)
+  * [carryon-fabric-1.19.2-2.1.1.22.jar](https://www.curseforge.com/minecraft/mc-mods/carry-on/files/4882495) -> [carryon-fabric-1.19.2-2.1.2.23.jar](https://www.curseforge.com/minecraft/mc-mods/carry-on/files/5141760)
+  * [chat_heads-0.10.23-fabric-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/chat-heads/files/4854888) -> [chat_heads-0.10.32-fabric-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/chat-heads/files/5186924)
+  * [create-fabric-0.5.1-c-build.1160+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/create-fabric/files/4721055) -> [create-fabric-0.5.1-f-build.1416+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/create-fabric/files/5245232)
+  * [sliceanddice-fabric-2.3.2.jar](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice/files/4741034) -> [sliceanddice-fabric-2.3.3.jar](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice/files/5269351)
+  * [cupboard-fabric-1.19.2-2.1.jar](https://www.curseforge.com/minecraft/mc-mods/cupboard/files/4795342) -> [cupboard-fabric-1.19.2-2.6.jar](https://www.curseforge.com/minecraft/mc-mods/cupboard/files/5170316)
+  * [dynamic-fps-2.2.0.jar](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps/files/3829250) -> [dynamic-fps-3.4.3+minecraft-1.19.0-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/dynamic-fps/files/5285863)
+  * [EnchantmentDescriptions-Fabric-1.19.2-13.0.18.jar](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions/files/4975197) -> [EnchantmentDescriptions-Fabric-1.19.2-13.0.20.jar](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions/files/5015021)
+  * [friendsandfoes-fabric-mc1.19.2-2.0.6.jar](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes/files/4968848) -> [friendsandfoes-fabric-mc1.19.2-2.0.10.jar](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes/files/5184423)
+  * [ftb-quests-fabric-1902.5.7-build.326.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric/files/4911647) -> [ftb-quests-fabric-1902.5.8-build.345.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric/files/5060505)
+  * [ftb-xmod-compat-fabric-1.2.3.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat/files/4857340) -> [ftb-xmod-compat-fabric-1.2.4.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat/files/5327223)
+  * [Gobber2-Fabric-1.19.2-2.6.61.jar](https://www.curseforge.com/minecraft/mc-mods/gobber-fabric/files/4086199) -> [Gobber2-Fabric-1.19.2-2.6.62.jar](https://www.curseforge.com/minecraft/mc-mods/gobber-fabric/files/5105029)
+  * [guardvillagers-2.0.6-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/4683192) -> [guardvillagers-2.0.7-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/guard-villagers-fabric/files/5069643)
+  * [hexal-fabric-1.19.2-0.2.18.jar](https://www.curseforge.com/minecraft/mc-mods/hexal/files/4631350) -> [hexal-fabric-1.19.2-0.2.19.jar](https://www.curseforge.com/minecraft/mc-mods/hexal/files/5099159)
+  * [ImmediatelyFast-1.2.7+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast/files/4855531) -> [ImmediatelyFast-Fabric-1.2.14+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast/files/5317927)
+  * [immersive_aircraft-0.6.2+1.19.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft/files/4750634) -> [immersive_aircraft-0.7.9+1.19.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft/files/5323433)
+  * [kubejs-fabric-1902.6.2-build.45.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/4931519) -> [kubejs-fabric-1902.6.2-build.69.jar](https://www.curseforge.com/minecraft/mc-mods/kubejs/files/5268390)
+  * [lootr-1.19-0.4.27.67.jar](https://www.curseforge.com/minecraft/mc-mods/lootr-fabric/files/4596349) -> [lootr-fabric-1.19-0.4.28.69.jar](https://www.curseforge.com/minecraft/mc-mods/lootr-fabric/files/5311841)
+  * [mcw-bridges-2.1.0-mc1.19.2fabric.jar](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges/files/4599786) -> [mcw-bridges-3.0.0-mc1.19.2fabric.jar](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges/files/5240491)
+  * [macawsbridgesbyg-fabric-1.19.2-1.3.jar](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-oh-the-biomes-youll-go/files/4607820) -> [macawsbridgesbyg-fabric-1.19.2-1.4.jar](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-oh-the-biomes-youll-go/files/5256971)
+  * [mcw-fences-1.0.7-mc1.19.2fabric.jar](https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls/files/4203533) -> [mcw-fences-1.1.1-mc1.19.2fabric.jar](https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls/files/5121430)
+  * [mcpitanlibarch-1.8.4-1.19.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/mcpitanlibarch/files/4905802) -> [mcpitanlib-2.2.4-1.19.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/mcpitanlibarch/files/5239970)
+  * [megane-8.6.0.jar](https://www.curseforge.com/minecraft/mc-mods/megane/files/4739552) -> [megane-fabric-19.2.2.jar](https://www.curseforge.com/minecraft/mc-mods/megane/files/5174180)
+  * [modernfix-fabric-5.11.1+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/modernfix/files/4980937) -> [modernfix-fabric-5.17.0+mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/modernfix/files/5288167)
+  * [moonlight-1.19.2-2.3.5-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/4843865) -> [moonlight-1.19.2-2.3.6-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/selene/files/4983975)
+  * [Oh_The_Biomes_You'll_Go-fabric-1.19.2-2.0.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-fabric/files/4841634) -> [Oh_The_Biomes_You'll_Go-fabric-1.19.2-2.0.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-fabric/files/5116295)
+  * [Pehkui-3.7.12+1.14.4-1.20.4.jar](https://www.curseforge.com/minecraft/mc-mods/pehkui/files/4974838) -> [Pehkui-3.8.0+1.14.4-1.20.4.jar](https://www.curseforge.com/minecraft/mc-mods/pehkui/files/5208259)
+  * [polymorph-fabric-0.46.4+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/polymorph-fabric/files/4629007) -> [polymorph-fabric-0.46.6+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/polymorph-fabric/files/5222153)
+  * [RoughlyEnoughItems-9.1.682-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items/files/4951125) -> [RoughlyEnoughItems-9.2.724-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items/files/5301351)
+  * [ShoulderSurfing-Fabric-1.19.2-2.8.1.jar](https://www.curseforge.com/minecraft/mc-mods/shoulder-surfing-reloaded/files/4876022) -> [ShoulderSurfing-Fabric-1.19.2-2.5.jar](https://www.curseforge.com/minecraft/mc-mods/shoulder-surfing-reloaded/files/4745837)
+  * [3dskinlayers-fabric-1.5.2-mc1.19.1.jar](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d/files/4001981) -> [skinlayers3d-fabric-1.6.4-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d/files/5305274)
+  * [spectrum-1.6.12-1.19.2-leisure_time.jar](https://www.curseforge.com/minecraft/mc-mods/spectrum/files/4636802) -> [spectrum-1.7.6-deeper-down.jar](https://www.curseforge.com/minecraft/mc-mods/spectrum/files/5083057)
+  * [spectrum-jetpacks-1.0.2.jar](https://www.curseforge.com/minecraft/mc-mods/spectrum-jetpacks/files/4649466) -> [spectrum-jetpacks-1.0.3-alpha.jar](https://www.curseforge.com/minecraft/mc-mods/spectrum-jetpacks/files/4876085)
+  * [supplementaries-1.19.2-2.4.14-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/4965255) -> [supplementaries-1.19.2-2.4.21-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/supplementaries/files/5226669)
+  * [toms_storage_fabric-1.19-1.5.9.jar](https://www.curseforge.com/minecraft/mc-mods/toms-storage-fabric/files/4649851) -> [toms_storage_fabric-1.19-1.5.10.jar](https://www.curseforge.com/minecraft/mc-mods/toms-storage-fabric/files/5211215)
+  * [ToolStats-Fabric-1.19.2-12.1.5.jar](https://www.curseforge.com/minecraft/mc-mods/tool-stats/files/4957683) -> [ToolStats-Fabric-1.19.2-12.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/tool-stats/files/5136246)
+  * [travelers-backpack-1.19.2-8.2.32.jar](https://www.curseforge.com/minecraft/mc-mods/travelers-backpack-fabric/files/4836259) -> [travelers-backpack-1.19.2-8.2.33.jar](https://www.curseforge.com/minecraft/mc-mods/travelers-backpack-fabric/files/4989859)
+  * [waveycapes-fabric-1.3.2-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/waveycapes/files/4391904) -> [waveycapes-fabric-1.4.6-mc1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/waveycapes/files/5307042)
+  * [wthit-fabric-5.19.3.jar](https://www.curseforge.com/minecraft/mc-mods/wthit/files/4889860) -> [wthit-fabric-5.25.0.jar](https://www.curseforge.com/minecraft/mc-mods/wthit/files/5285378)
+  * [Xaeros_Minimap_23.9.3_Fabric_1.19.1.jar](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/files/4933797) -> [Xaeros_Minimap_24.1.1_Fabric_1.19.1.jar](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/files/5262358)
+  * [XaerosWorldMap_1.37.2_Fabric_1.19.1.jar](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/files/4929766) -> [XaerosWorldMap_1.38.4_Fabric_1.19.1.jar](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/files/5262415)
+

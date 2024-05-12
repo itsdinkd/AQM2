@@ -39,3 +39,4 @@ WorldgenEvents.remove(event => {
   // })
   
 });
+"winged:wing_random"

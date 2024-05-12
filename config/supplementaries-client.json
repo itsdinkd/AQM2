@@ -101,8 +101,11 @@
     "banner_pattern_tooltip": true,
     "paintings_tooltip": true,
     "mob_head_shaders": true,
-    "tinted_blocks_on_maps": true,
-    "tall_grass_color": true
+    "tinted_maps": {
+      "enabled": true,
+      "tall_grass_color": true,
+      "accurate_colors": false
+    }
   },
   "items": {
     "altimeter": {

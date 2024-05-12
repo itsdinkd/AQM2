@@ -25,11 +25,16 @@
     },
     "turn_table": {
       "enabled": true,
+      "shuffle_inventories": true,
       "rotate_entities": true
     },
     "pulley_block": {
       "enabled": true,
       "mineshaft_elevator": 0.02
+    },
+    "crystal_display": {
+      "enabled": true,
+      "display_carry_over": true
     },
     "wind_vane": true,
     "clock_block": true,
@@ -41,7 +46,6 @@
     "gold_trapdoor": true,
     "lock_block": true,
     "dispenser_minecart": true,
-    "crystal_display": true,
     "relayer": true
   },
   "functional": {
