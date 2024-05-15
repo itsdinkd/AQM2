@@ -9,12 +9,15 @@
   * [Expanded Storage](https://www.curseforge.com/minecraft/mc-mods/expanded-storage) (by [QuinnSemele](https://www.curseforge.com/members/QuinnSemele/projects))
   * [Overflowing Bars [Forge & Fabric]](https://www.curseforge.com/minecraft/mc-mods/overflowing-bars) (by [Fuzs](https://www.curseforge.com/members/Fuzs/projects))
   * [Pollen](https://www.curseforge.com/minecraft/mc-mods/pollen) (by [moonflowerteam](https://www.curseforge.com/members/moonflowerteam/projects))
+  * [Polymorphic Energistics](https://www.curseforge.com/minecraft/mc-mods/polymorphic-energistics) (by [ninety](https://www.curseforge.com/members/ninety/projects))
   * [VillagersPlus (FABRIC)](https://www.curseforge.com/minecraft/mc-mods/villagersplus-fabric) (by [finallion_13](https://www.curseforge.com/members/finallion_13/projects))
   * [YUNG's Better Nether Fortresses (Fabric)](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-fabric) (by [YUNGNICKYOUNG](https://www.curseforge.com/members/YUNGNICKYOUNG/projects))
 
 ### Removed
 
   * [Armor Points ++](https://www.curseforge.com/minecraft/mc-mods/armorpoints) (by [CheosTwitch](https://www.curseforge.com/members/CheosTwitch/projects))
+  * [Magitek Mechs](https://www.curseforge.com/minecraft/mc-mods/magitek-mechs) (by [DigiDigi_](https://www.curseforge.com/members/DigiDigi_/projects))
+  * [project-621280](https://www.curseforge.com/minecraft/mc-mods/project-621280) (by [MCLegoMan](https://www.curseforge.com/members/MCLegoMan/projects))
 
 ### Changed
 

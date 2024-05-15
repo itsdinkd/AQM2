@@ -6,7 +6,9 @@
 	// The reverb density for sound effects in Spectrum's dimension
 	"DimensionReverbDensity": 0.5,
 	// Mod Integration Packs to not load (in case of mod compat errors)
-	"IntegrationPacksToSkipLoading": ["gobber2"],
+	"IntegrationPacksToSkipLoading": [
+		"gobber2"
+	],
 	// Add some advanced tooltips to items, like if Sculk Shriekers are able to summon the Warden
 	"AddItemTooltips": true,
 	/* The vanilla anvil caps enchantment levels at the max level for the enchantment

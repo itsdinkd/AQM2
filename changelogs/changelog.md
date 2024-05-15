@@ -1,3 +1,21 @@
+## **Another Quality Modpack 2 v1.8.2**
+
+
+_Fabric Loader 0.15.10_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.8.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.8.1.md)_
+
+Due to 10+ mods not supporting Fabric Loader v15, and servers crashing when using v1.8 of aqm2 which requires v15, I am forced to revert several mods back to when they used Fabric Loader v14 (Fabric Loader had a breaking change in v15)
+
+The major mod affected here would be Create going back to its version that AQM2 v1.7 used.  If you are a single player only, feel free to continue using AQM2 v1.8 as this version works only with Single Player and you will get to play with the latest Create. 
+
+## Reverted Mods
+- Create ( Sad. )
+- Create Estrogen
+- Pehkui
+- Macaw Bridges
+- Blame Log
+
+---
+
 ## **Another Quality Modpack 2 v1.8**
 
 
@@ -17,7 +35,7 @@ _Fabric Loader 0.15.10_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
   - Adds a Bard villager for musical trades
   - Insert records into jukeboxes with hoppers
   - Create your own record with etching table using Soundcloud URLs, a blank disc, and a label
-- Repurposed Structure Resource Packs
+- Repurposed Structure Data Packs for Mod Compat
   - Adds specific mods with compatibility packs to RS Villages, or other RS Structures, and includes some of that mods features and items
   - Fixed the ones we had added but never loaded
     - Better stronghold, Better desert temples, Chefs delight, Farmers Delight compatibility packs 
@@ -26,6 +44,8 @@ _Fabric Loader 0.15.10_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - Create: Estrogen
   - Create Addon Based around expressing yourself, fluid handling and expanding your factory. This mod add a lot of new Items, Blocks, Mechanics and more!
   - The main feature of the mod is the Estrogen Pill (And its effect)! Automated through a process of fluid handling and item processing. This might be pretty tough to get to, but the reward is great! The Estrogen Effect gives you an effect allowing you to Dash (With some hidden abilities too)!
+- Polymorph AE2 Integration
+  - Adds Polymorph support to Crafting Terminals and Pattern Encoding Terminal
 
 ## MINOR UPDATES
 - Several performance mods updated to latest version
@@ -37,6 +57,7 @@ _Fabric Loader 0.15.10_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - Fixed a broken loot table in farm structory tower
 - Fixed other misc loot tables that were not implemented by mods to clean up errors in logs
 - Removed broken Boss Bar for ender dragon
+- Changed XP from Spawner Block to give 0 XP if you have silk touch, this way there is no more infinite xp farms
 
 ---
 

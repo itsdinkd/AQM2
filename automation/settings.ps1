@@ -30,12 +30,12 @@ $MODPACK_NAME = "another-quality-modpack-2"
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.8"
+$MODPACK_VERSION = "1.8.2"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "1.7"
+$LAST_MODPACK_VERSION = "1.8"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -95,7 +95,8 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "servers.dat",
     "mods/Crafty-Crashes-1.0.jar",
     "mods/iris-mc1.19.2-1.6.11.jar",
-    "mods/expandedstorage-8.3.4+1.19.2-fabric.jar"
+    "mods/voyager-2.1.0-1.19-1.19.x.jar",
+    "mods/magitekmechs-fabric-MC1.19.2-1.0.16.jar"
 )
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems", "PaginatedAdvancements.json5", "xaerominimap.txt", "xaeroworldmap.json", "iris.properties", "sodium-options.json", "sodium-mixins.json", "sodium-extra-options.json", "sodium-extra.json")
