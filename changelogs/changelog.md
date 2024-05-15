@@ -1,7 +1,7 @@
 ## **Another Quality Modpack 2 v1.8.2**
 
 
-_Fabric Loader 0.15.10_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.8.2.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.8.2.md)_
+_Fabric Loader 0.14.25_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.8.2.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.8.2.md)_
 
 Due to 10+ mods not supporting Fabric Loader v15, and servers crashing when using v1.8 of aqm2 which requires v15, I am forced to revert several mods back to when they used Fabric Loader v14 (Fabric Loader had a breaking change in v15)
 
