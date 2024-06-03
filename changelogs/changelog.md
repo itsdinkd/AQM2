@@ -1,3 +1,26 @@
+## **Another Quality Modpack 2 v1.8.3**
+
+
+_Fabric Loader 0.14.25_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.8.3.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.8.3.md)_
+
+## Fixes
+- Game crashing when opening World Map
+  - Downgrading Xaero to 1.37.8 fixes this 
+- Last update not downgrading fabric loader to 0.14.25
+
+---
+
+## **Another Quality Modpack 2 v1.8.2-hotfix**
+
+
+_Fabric Loader 0.14.25_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.8.2.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.8.2.md)_
+
+No need to update unless you are having issues launching the modpack on 1.8.2 due to being on a newer fabric loader version
+
+This changes fabric loader to run 0.14.25, rather than 0.15.10, thats all.
+
+---
+
 ## **Another Quality Modpack 2 v1.8.2**
 
 

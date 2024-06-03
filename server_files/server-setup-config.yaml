@@ -6,9 +6,9 @@ modpack:
   
 install:
   mcVersion: 1.19.2
-  loaderVersion: 0.15.10
+  loaderVersion: 0.14.25
   
-  modpackUrl: https://media.forgecdn.net/files/5346/411/AQM2-1.19.2-1.8.2.zip
+  modpackUrl: https://media.forgecdn.net/files/5396/62/AQM2-1.19.2-1.8.3.zip
   installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.jar
   
   ignoreFiles:
@@ -39,7 +39,7 @@ install:
     - "-mcversion"
     - "1.19.2"
     - "-loader"
-    - "0.15.10"
+    - "0.14.25"
 
   modpackFormat: curse
   
