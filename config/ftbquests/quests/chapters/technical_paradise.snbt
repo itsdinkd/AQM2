@@ -1381,9 +1381,9 @@
 		}
 		{
 			description: [
-				"highly augmentable. In REI, look at Used Recipes for either of the three items received from this quest. You can use add these augments to increase speed, max slots, transfer rates of fluids, and more."
+				"highly augmentable. In &lREI&r, &9look at Used Recipes for either of the three items received from this quest&r. You can use add these augments to increase speed, max slots, transfer rates of fluids, and more."
 				""
-				"Use a Wrench to Configure Pipes"
+				"&lUse a Wrench to Configure Pipes&r"
 			]
 			id: "31FEC2EC81A2D729"
 			rewards: [
@@ -1403,6 +1403,7 @@
 					type: "item"
 				}
 			]
+			size: 3.0d
 			subtitle: "Fluid and Item Pipes by Modern Dynamics (Similar to Thermal Dynamics)"
 			tasks: [
 				{
@@ -1417,8 +1418,8 @@
 				}
 			]
 			title: "Fast Augment Pipes"
-			x: -8.5d
-			y: 11.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			description: ["You can view usage of recipe to see all items this generator accepts for fuel using REI"]
@@ -1727,33 +1728,6 @@
 			title: "Grind Certus Dust"
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			description: ["Once you open this item it is &c&lHIGHLY RECOMMENDED&r to open the guide on the &cbottom right corner&r of the GUI"]
-			id: "71C3A8827747EFD7"
-			size: 2.0d
-			subtitle: "&bCalculates recipe material costs"
-			tasks: [{
-				id: "26752FEAFB937E1B"
-				item: "jecalculation:item_calculator_craft"
-				type: "item"
-			}]
-			title: "&9Crafting Calculators"
-			x: 0.0d
-			y: 9.0d
-		}
-		{
-			id: "7FBAA67B510209C4"
-			size: 2.0d
-			subtitle: "&bStandard calculator"
-			tasks: [{
-				id: "3E1418E150211CE1"
-				item: "jecalculation:item_calculator_math"
-				type: "item"
-			}]
-			title: "&9Math Calculator"
-			x: 2.0d
-			y: 9.0d
 		}
 		{
 			dependencies: ["714B49697C8BFCD1"]

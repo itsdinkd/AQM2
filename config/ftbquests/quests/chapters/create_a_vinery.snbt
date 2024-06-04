@@ -332,7 +332,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6C6BB05E865835EB"]
+			dependencies: ["6DF4CA576368F188"]
 			description: [
 				"With the full armor equipped, you will not lose any bone meal and your efficiency will be reward higher return rates"
 				""
@@ -406,8 +406,8 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: 2.5d
+			x: -9.690476190476197d
+			y: 2.577380952380956d
 		}
 		{
 			dependencies: ["53526AA74B8A2364"]
@@ -427,25 +427,6 @@
 			title: "You made Red Grape Juice!"
 			x: -12.75d
 			y: -7.0d
-		}
-		{
-			dependencies: ["6DF4CA576368F188"]
-			description: ["Gloves are found with a small chance from chests, otherwise sold by the Winemaker"]
-			id: "6C6BB05E865835EB"
-			rewards: [{
-				count: 10
-				id: "2413D515F4F9D79D"
-				item: "aqm2:copper_coin"
-				type: "item"
-			}]
-			subtitle: "Needed for Winemaker gear for full set bonuses"
-			tasks: [{
-				id: "36110D3BE0E6168C"
-				item: "vinery:gloves"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 1.25d
 		}
 		{
 			dependencies: ["5CD91363F5D625C2"]

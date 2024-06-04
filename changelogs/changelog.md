@@ -1,3 +1,24 @@
+## **Another Quality Modpack 2 v1.8.4**
+
+
+_Fabric Loader 0.14.25_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.8.4.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.8.4.md)_
+
+## HIGHLIGHTS
+- Again fixes issues with launching, this time working as it should
+  - Downgrading Chat Heads and Dynamic FPS to a version that supports 0.14.25 fabric loader 
+- Updated Spectrum to include new improvements and bug fixes
+- New Mod!
+- Fixed missing icons in quests
+
+## ADDED
+- Spellblades and Such
+  - Addon to Wizards & Priests and Paladins
+  - Adds entirely new content to the game with Spellblades, Claymores, new spells, new mobs and summonable bosses, magic armor sets, legendary weapons, and dynamic magic attributes that roll upon obtaining item. Visit its modpage for more information https://www.curseforge.com/minecraft/mc-mods/spellblade-next
+  - To craft Spellbooks, put a book in a Spell Binding table surrounded by Bookshelves. Certain weapons can have spells directly bound to them. Others have spells already bound.
+  - In AQM fashion, this boss has been altered from default to make it more challenging
+
+---
+
 ## **Another Quality Modpack 2 v1.8.3**
 
 

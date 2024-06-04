@@ -231,6 +231,17 @@
         "value": 10000000
       }
     },
+    "minecraft:estrogen.boob_growing_start_time": {
+      "enabled": true,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 9007199254740992,
+        "value": 9007199254740992
+      }
+    },
     "porting_lib:entity_gravity": {
       "enabled": false,
       "min": {
@@ -561,6 +572,17 @@
         "value": 10000000
       }
     },
+    "minecraft:estrogen.boob_initial_size": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "additionalentityattributes:water_speed": {
       "enabled": false,
       "min": {
@@ -592,6 +614,17 @@
       "max": {
         "default": 1024,
         "value": 10000000
+      }
+    },
+    "spellbladenext:hex": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 9999,
+        "value": 9999
       }
     },
     "minecraft:generic.attack_speed": {
@@ -869,17 +902,6 @@
         "value": 10000000
       }
     },
-    "estrogen:dash_level": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 10,
-        "value": 10
-      }
-    },
     "additionalentityattributes:bonus_rare_loot_rolls": {
       "enabled": false,
       "min": {
@@ -889,6 +911,17 @@
       "max": {
         "default": 128,
         "value": 10000000
+      }
+    },
+    "estrogen:dash_level": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "minecraft:horse.jump_strength": {

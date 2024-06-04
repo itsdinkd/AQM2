@@ -404,7 +404,7 @@
   * [wizards-fabric-0.9.17+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/wizards/files/4559755) (by [daedelus_dev](https://www.curseforge.com/members/daedelus_dev/projects))
   * [wmitaf-fabric-mc1.19-3.1.1.jar](https://www.curseforge.com/minecraft/mc-mods/wmitaf/files/4049590) (by [ShaksterNano](https://www.curseforge.com/members/ShaksterNano/projects))
   * [wthit-fabric-5.25.0.jar](https://www.curseforge.com/minecraft/mc-mods/wthit/files/5285378) (by [badasintended](https://www.curseforge.com/members/badasintended/projects))
-  * [Xaeros_Minimap_24.0.1_Fabric_1.19.1.jar](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/files/5190145) (by [xaero96](https://www.curseforge.com/members/xaero96/projects))
+  * [Xaeros_Minimap_23.9.7_Fabric_1.19.1.jar](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap/files/5060703) (by [xaero96](https://www.curseforge.com/members/xaero96/projects))
   * [XaerosWorldMap_1.37.8_Fabric_1.19.1.jar](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/files/5073785) (by [xaero96](https://www.curseforge.com/members/xaero96/projects))
   * [xlpackets-1.19.2-4.jar](https://www.curseforge.com/minecraft/mc-mods/xl-packets-fabric/files/4110462) (by [tfarecnim](https://www.curseforge.com/members/tfarecnim/projects))
   * [xp_obelisk-0.4.9-r+1.19.2-Fabric.jar](https://www.curseforge.com/minecraft/mc-mods/xp-obelisk/files/4476849) (by [Meridanus](https://www.curseforge.com/members/Meridanus/projects))

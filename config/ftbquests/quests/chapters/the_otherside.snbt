@@ -234,6 +234,7 @@
 		{
 			dependencies: ["1F4065E9618508B3"]
 			description: ["The first biome is called Otherside Deeplands. The Deeplands are made up of mostly Sculk and Sculk Stone. Large groups of Phantoms can be seen flying around the caverns of this biome, along with hordes of Sculk Snappers. Sculk Jaws and Infested Sculk are very common in the Deeplands, making it more difficult to navigate."]
+			icon: "deeperdarker:echo_sapling"
 			id: "4D6200DCCCB8B8C9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -274,6 +275,7 @@
 		{
 			dependencies: ["1F4065E9618508B3"]
 			description: ["The third biome is called Overcast Columns. It is composed of multiple amber columns, which have a biome-exclusive Crystallized Amber block in each of them. Overcast Columns also have multiple Geysers scattered throughout the terrain, which is composed of Gloomslate and Gloom Sculk."]
+			icon: "deeperdarker:gloomy_grass"
 			id: "605A22ABA0BF6E1F"
 			rewards: [{
 				exclude_from_claim_all: true

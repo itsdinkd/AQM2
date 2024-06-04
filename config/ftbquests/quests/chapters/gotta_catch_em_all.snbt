@@ -584,7 +584,7 @@
 			size: 1.33d
 			subtitle: "These bugs can be captured and used to help grow nether warts and mushrooms"
 			tasks: [{
-				icon: "wildlife:stickbug"
+				icon: "sprout:bouncebug_spawn_egg"
 				id: "5FBACF2A4D88EF09"
 				observe_type: 5
 				timer: 20L

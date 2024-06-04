@@ -953,3 +953,10 @@
 				[light_sources.settings.entities.hexal.wisp]
 					wandering = true
 
+			[light_sources.settings.entities.spellbladenext]
+				archmagus = true
+				magus = true
+				monkeyclone = true
+				reaver = true
+				gaze = true
+
