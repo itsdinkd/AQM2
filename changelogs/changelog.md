@@ -1,6 +1,5 @@
 ## **Another Quality Modpack 2 v1.9**
 
-REMOVE IRIS FROM MANIFEST, REMOVE the magitek one
 _Fabric Loader 0.16.9_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.9.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.9.md)_
 
 ## HIGHLIGHTS
