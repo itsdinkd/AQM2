@@ -1,6 +1,4 @@
 {
-  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
   "_schemaVersion": 6,
   "_lastMCVersionId": 760,
   "generalSettings": {
@@ -9,13 +7,13 @@
     "detectMultiMCManifest": true,
     "detectMCUpdaterInstance": true,
     "detectTechnicPack": true,
+    "detectModrinthPack": true,
     "detectBiomeData": false,
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "450485984333660181",
     "defaultIcon": "grass",
     "enableJoinRequests": false,
-    "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
     "autoRegister": false
@@ -28,6 +26,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -54,6 +55,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -82,6 +86,9 @@
         "data": {
           "enabled": true,
           "useAsMain": false,
+          "isInstance": false,
+          "activityType": 0,
+          "partyPrivacy": 1,
           "details": "",
           "gameState": "",
           "largeImageKey": "",
@@ -98,7 +105,9 @@
           }
         }
       }
-    }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
   },
   "statusMessages": {
     "mainMenuData": {
@@ -106,6 +115,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -127,6 +139,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -148,6 +163,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -169,6 +187,9 @@
       "data": {
         "enabled": true,
         "useAsMain": false,
+        "isInstance": false,
+        "activityType": 0,
+        "partyPrivacy": 1,
         "details": "",
         "gameState": "",
         "largeImageKey": "",
@@ -184,6 +205,9 @@
           }
         }
       }
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
     }
   },
   "advancedSettings": {
@@ -203,6 +227,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -232,6 +259,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -255,6 +285,9 @@
           "data": {
             "enabled": true,
             "useAsMain": false,
+            "isInstance": false,
+            "activityType": 0,
+            "partyPrivacy": 1,
             "details": "",
             "gameState": "",
             "largeImageKey": "",
@@ -277,74 +310,24 @@
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address != null ? server.address : server.address.raw}",
     "playerSkinEndpoint": "https://minotar.net/cube/%1$s/100",
     "allowDuplicatePackets": false,
-    "maxConnectionAttempts": 10
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false,
+    "useClassLoader": false
   },
   "accessibilitySettings": {
-    "tooltipBackground": {
-      "start": {
-        "red": 16,
-        "green": 0,
-        "blue": 16,
-        "alpha": 240
-      }
-    },
-    "tooltipBorder": {
-      "start": {
-        "red": 80,
-        "green": 0,
-        "blue": 255,
-        "alpha": 80
-      },
-      "end": {
-        "red": 40,
-        "green": 0,
-        "blue": 127,
-        "alpha": 80
-      }
-    },
-    "guiBackground": {
-      "start": {
-        "red": 64,
-        "green": 64,
-        "blue": 64,
-        "alpha": 255
-      },
-      "texLocation": "minecraft:textures/gui/options_background.png"
-    },
-    "worldGuiBackground": {
-      "start": {
-        "red": 16,
-        "green": 16,
-        "blue": 16,
-        "alpha": 192
-      },
-      "end": {
-        "red": 16,
-        "green": 16,
-        "blue": 16,
-        "alpha": 208
-      }
-    },
-    "buttonBackground": {
-      "start": {
-        "red": 255,
-        "green": 255,
-        "blue": 255,
-        "alpha": 255
-      },
-      "texLocation": "minecraft:textures/gui/widgets.png"
-    },
     "languageId": "en_us",
     "stripTranslationColors": false,
-    "showLoggingInChat": false,
+    "stripTranslationFormatting": false,
     "stripExtraGuiElements": false,
-    "renderTooltips": true,
     "configKeyCode": 331
   },
   "displaySettings": {
     "presenceData": {
       "enabled": true,
       "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "partyPrivacy": 1,
       "details": "{menu.message}{dimension.message}",
       "gameState": "{server.message} {custom.pack}",
       "largeImageKey": "{menu.icon}{dimension.icon}",

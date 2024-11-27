@@ -32,8 +32,8 @@ key_modifiers_key.hotbar.6:0,0,0
 key_modifiers_key.hotbar.7:0,0,0
 key_modifiers_key.hotbar.8:0,0,0
 key_modifiers_key.hotbar.9:0,0,0
-key_modifiers_key.dynamicfps.toggle_forced:0,0,0
-key_modifiers_key.dynamicfps.toggle_disabled:0,0,0
+key_modifiers_key.dynamic_fps.toggle_forced:0,0,0
+key_modifiers_key.dynamic_fps.toggle_disabled:0,0,0
 key_modifiers_key.emotecraft.fastchoose:0,0,1
 key_modifiers_key.emotecraft.stop:0,0,0
 key_modifiers_Reload Menu | CTRL + ALT + :0,0,0
@@ -112,7 +112,7 @@ key_modifiers_key.doom.yeethook:0,0,0
 key_modifiers_key.entityculling.toggle:0,0,0
 key_modifiers_equipmentcompare.key.showTooltips:0,0,0
 key_modifiers_key.estrogen.dash:0,0,0
-key_modifiers_key.ellemes_container_lib.config:0,0,1
+key_modifiers_key.expandedstorage.open_config_screen:0,0,1
 key_modifiers_key.origins.ternary_active:0,0,0
 key_modifiers_key.origins.quaternary_active:0,0,0
 key_modifiers_key.origins.quinary_active:0,0,0
@@ -161,22 +161,30 @@ key_modifiers_key.origins.view_origin:0,0,0
 key_modifiers_Build Current Structure:0,0,0
 key_modifiers_key.presencefootsteps.settings:0,0,0
 key_modifiers_key.quickshulker.config.keybinding:0,0,0
+key_modifiers_railways.keyinfo.bogey_menu:0,0,0
+key_modifiers_railways.keyinfo.cycle_menu:0,0,0
+key_modifiers_reacharound.keybinding.toggle:0,0,0
 key_modifiers_key.rpgstats.open_gui:0,1,0
-key_modifiers_Camera left:0,0,0
-key_modifiers_Camera right:0,0,0
-key_modifiers_Camera closer:0,0,0
-key_modifiers_Camera farther:0,0,0
-key_modifiers_Camera up:0,0,0
-key_modifiers_Camera down:0,0,0
-key_modifiers_Swap shoulder:0,0,0
-key_modifiers_Toggle perspective:0,0,0
+key_modifiers_key.shouldersurfing.adjust_camera_left:0,0,0
+key_modifiers_key.shouldersurfing.adjust_camera_right:0,0,0
+key_modifiers_key.shouldersurfing.adjust_camera_in:0,0,0
+key_modifiers_key.shouldersurfing.adjust_camera_out:0,0,0
+key_modifiers_key.shouldersurfing.adjust_camera_up:0,0,0
+key_modifiers_key.shouldersurfing.adjust_camera_down:0,0,0
+key_modifiers_key.shouldersurfing.swap_shoulder:0,0,0
+key_modifiers_key.shouldersurfing.toggle_perspective:0,0,0
+key_modifiers_key.shouldersurfing.free_look:0,0,0
+key_modifiers_key.shouldersurfing.toggle_camera_coupling:0,0,0
 key_modifiers_key.showmeyourskin.open_settings:0,0,1
 key_modifiers_key.showmeyourskin.global_toggle:0,0,0
 key_modifiers_key.soulsweapons.return_freyr_sword:0,0,0
 key_modifiers_key.soulsweapons.freyr_sword_stationary:0,0,0
 key_modifiers_key.soulsweapons.collect_summons_soul_reaper:0,0,0
 key_modifiers_key.soulsweapons.switch_weapon:0,0,0
-key_modifiers_key.soulsweapons.detonate_draupnir_spears:0,0,0
+key_modifiers_key.soulsweapons.keybind_ability:0,0,0
+key_modifiers_key.soulsweapons.parry:0,0,0
+key_modifiers_key.soulsweapons.effect_shoot_moonlight:0,0,0
+key_modifiers_key.soulsweapons.return_thrown_weapon:0,0,0
 key_modifiers_key.spectrumjetpacks.toggle:0,0,0
 key_modifiers_key.spectrumjetpacks.hover:0,0,0
 key_modifiers_keybindings.spell_engine.hotbar_modifier:0,0,0
@@ -217,7 +225,8 @@ key_modifiers_gui.xaero_toggle_entity_radar:0,0,0
 key_modifiers_gui.xaero_reverse_entity_radar:0,0,0
 key_modifiers_gui.xaero_toggle_manual_cave_mode:0,0,0
 key_modifiers_gui.xaero_alternative_list_players:0,0,0
-key_modifiers_gui.xaero_toggle_tracked_players:0,0,0
+key_modifiers_gui.xaero_toggle_tracked_players_on_map:0,0,0
+key_modifiers_gui.xaero_toggle_tracked_players_in_world:0,0,0
 key_modifiers_gui.xaero_toggle_pac_chunk_claims:0,0,0
 key_modifiers_gui.xaero_minimap_settings:0,0,0
 key_modifiers_gui.xaero_open_map:0,0,0

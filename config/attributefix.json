@@ -605,6 +605,17 @@
         "value": 10000000
       }
     },
+    "projectile_damage:generic": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "arcanus:casting_multiplier": {
       "enabled": false,
       "min": {
@@ -902,17 +913,6 @@
         "value": 10000000
       }
     },
-    "additionalentityattributes:bonus_rare_loot_rolls": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 128,
-        "value": 10000000
-      }
-    },
     "estrogen:dash_level": {
       "enabled": false,
       "min": {
@@ -922,6 +922,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "additionalentityattributes:bonus_rare_loot_rolls": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 128,
+        "value": 10000000
       }
     },
     "minecraft:horse.jump_strength": {

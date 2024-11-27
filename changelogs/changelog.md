@@ -1,3 +1,60 @@
+## **Another Quality Modpack 2 v1.9**
+
+REMOVE IRIS FROM MANIFEST, REMOVE the magitek one
+_Fabric Loader 0.16.9_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.9.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.9.md)_
+
+## HIGHLIGHTS
+- First and foremost, updated dozens of mods providing better performance overall, and bug fixes
+- Soulslike Weapons (I have finally updated and balanced)
+  - Includes new bosses, new legendary and end game weapons, new effects, new potions, new armor sets, new mobs, new weapon abilities, and more.
+  - Fixes many bugs, and issues with current weapon abilities that either didnt work or needed overall improvements
+  - This updated version is a major change from the version AQM2 1.8.4 used, highly recommended to play through this mod
+- Holding a Floral Obedience Stick while placing a special flower prevents it from automatically binding to a spreader or pool, and using the stick on a special flower unbinds it from its spreader or pool
+- Create Slicers can now continuously craft recipes in a basin, similar to the mixer
+- Shaders: Updated Complementary Unbound, and added Complementary Reimagined, and Bliss
+  - If you use any type of complementary shaders, check out the Euphoria Patches mod to enhance these two shaders https://www.curseforge.com/minecraft/mc-mods/euphoria-patches
+- Dimensional Doors has been updated, fixing rift blade teleportation, rifts breaking when block under it is broken, stonebrick gateways not leading to dungeons, and more.
+- Friends and Foes
+  - Adds Crab, and a crab claw item
+  - Adds potion of reaching, long reaching, and strong reaching
+- Better loot from Loot Integrations
+- Create updated
+
+## ADDED
+- fix gpu memory leak 
+  - Mod that does what its name says
+- Packet Fixer (Swapped with XL packets to fix any other potential packet errors)
+- Echo Chest (Basically a vacuum but also collects xp orbs that you can convert into bottles o enchanting)
+- Highlight (Better block highlighting)
+- Oceans Delight
+  - Farmer Delight addon for the great seas. Using your culinary skills, you can prepare a myriad of hearty meals made with creatures of the ocean!
+- Create: Steam n Rails
+  - Expands Create's railway system because why not?
+- Load my F***ing Tags
+  - Prevents mods from breaking an entire tag would cause in turn cause broken recipes, for example.
+- Macaws Paths and Pavings
+  - Who doesn't want neat roads?
+- Enderman Overhaul
+  - Enderman Overhaul adds over 20 new endermen variants, each with their own sounds, models, and animations! Made by the same people who made Creeper Overhaul
+  - Certain enderman drop unique ender pearls that have special effects when thrown
+- Extended AE (AE2 Addon)
+  - ExtendedAE brings some 1.7.10/1.12.2 AE features back to modern AE (36 slots pattern provider, 36 slots interface, better pattern access terminal, and more)
+- Immersive Melodies 
+  - Whether you want to create a band, annoy your friends or just want Skeletons playing Megalovania while storming your base, this mod has it all. 
+  - Play 25 bundled songs (plus 21 extra songs I added for aqm2) that are included on 7 instruments
+
+
+## FIXES
+- Rare crash and potential toast issues with Advancement Plaques
+- Memory leak with Botania and JEI/REI, Akashic Tome crash, and some minor issues
+- Create Slice and Dice crashes
+- Friends and foes Fixed trinkets and curios compat, and other bugs
+- Modern Industrialization fixes Steam Drill mining on highlighting blocks that it shouldn't & improve direction accuracy
+- Lootr ticking data optimization; basically better performance
+- Fixed dupe bug with a certain item
+- Spectrum update provides bug fixes via 1.20.1 backport
+---
+
 ## **Another Quality Modpack 2 v1.8.4**
 
 

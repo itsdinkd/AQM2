@@ -32,11 +32,5 @@ WorldgenEvents.remove(event => {
       "rocks:seashell"
       ]
   })
-
-  // event.removeOres(ores => {
-  //   ores.blocks = [ 'minecraft:coal_ore', 'minecraft:iron_ore' ] // Removes coal and iron ore
-  //   ores.biomes.values = [ 'pureminingdimension:mining_dimension_biome' ] // Removes it only from plains biomes
-  // })
   
 });
-"winged:wing_random"

@@ -22,6 +22,7 @@ chesttracker/*
 config - copy/*
 modernfix
 config/byg/backups
+/xaero/
 config/chisel
 config/iris.properties
 config/polymer/client.json

@@ -8,7 +8,7 @@ install:
   mcVersion: 1.19.2
   loaderVersion: 0.14.25
   
-  modpackUrl: https://media.forgecdn.net/files/5398/768/AQM2-1.19.2-1.8.4.zip
+  modpackUrl: https://media.forgecdn.net/files/5942/311/AQM2-1.19.2-1.9.zip
   installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.jar
   
   ignoreFiles:
@@ -47,6 +47,7 @@ install:
     ignoreProject: 
       - 242064 #Item Scroller
       - 245733 #torohealth
+      - 882495 #fix gpu memory leak
       - 250419 #enct descriptions
       - 254284 #AmbientSounds
       - 262366 #KEyboardWizard+

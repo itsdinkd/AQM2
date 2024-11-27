@@ -92,6 +92,8 @@
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
 		"allowInventoryHighlighting": true,
+		"inventoryHighlightingDarkenOpacity": 0.85,
+		"inventoryHighlightingOpacity": 1.0,
 		"itemCheatingMode": "REI_LIKE"
 	},
 	"advanced": {
@@ -434,8 +436,7 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}",
-				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}"
 			]
 		}
 	}

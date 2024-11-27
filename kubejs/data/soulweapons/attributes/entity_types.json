@@ -1,26 +1,29 @@
 {
     "values": {
         "soulsweapons:big_chungus": {
-            "minecraft:generic.max_health": 25.0
+            "minecraft:generic.max_health": 40.0
         },
-        "soulsweapons:soulmass": {
-            "minecraft:generic.max_health": 90.0,
-            "minecraft:generic.armor": 8.0,
-            "minecraft:generic.attack_damage": 11.5
+        "soulsweapons:frost_giant": {
+            "minecraft:generic.max_health": 90.0
         },
         "soulsweapons:night_shade": {
             "minecraft:generic.max_health": 500.0,
             "minecraft:generic.armor": 15.0
         },
+        "soulsweapons:soulmass": {
+            "minecraft:generic.max_health": 70.0,
+            "minecraft:generic.armor": 5.0,
+            "minecraft:generic.attack_damage": 9.05
+        },
         "soulsweapons:dark_sorcerer": {
-            "minecraft:generic.max_health": 20.0,
+            "minecraft:generic.max_health": 60.0,
             "minecraft:generic.armor": 12.0,
-            "minecraft:generic.attack_damage": 4.55
+            "minecraft:generic.attack_damage": 9.88
         },
         "soulsweapons:withered_demon": {
-            "minecraft:generic.max_health": 150.0,
-            "minecraft:generic.armor": 10.0,
-            "minecraft:generic.attack_damage": 17.0
+            "minecraft:generic.max_health": 170.0,
+            "minecraft:generic.armor": 15.0,
+            "minecraft:generic.attack_damage": 18.0
         },
         "soulsweapons:forlorn": {
             "minecraft:generic.max_health": 20.0,
@@ -31,10 +34,26 @@
             "minecraft:generic.attack_damage": 12.0
         },
         "soulsweapons:remnant": {
-            "minecraft:generic.attack_damage": 4.2
+            "minecraft:generic.attack_damage": 10.62,
+            "minecraft:generic.max_health": 100.0
         },
         "soulsweapons:returning_knight": {
-            "minecraft:generic.armor": 18.0
+            "minecraft:generic.armor": 20.5
+        },
+        "soulsweapons:chaos_monarch": {
+            "minecraft:generic.armor": 20.5
+        },
+        "soulsweapons:moonknight": {
+            "minecraft:generic.armor": 19.5
+        },
+        "soulsweapons:accursed_lord_boss": {
+            "minecraft:generic.armor": 24.5
+        },
+        "soulsweapons:day_stalker": {
+            "minecraft:generic.armor": 17.0
+        },
+        "soulsweapons:night_prowler": {
+            "minecraft:generic.armor": 22.0
         }
     }
     

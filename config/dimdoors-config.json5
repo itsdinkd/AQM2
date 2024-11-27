@@ -1,0 +1,79 @@
+{
+	"general": {
+		"teleportOffset": 0.0,
+		"riftBoundingBoxInCreative": false,
+		"riftCloseSpeed": 0.1,
+		"riftGrowthSpeed": 1.0,
+		"enableRiftDecay": false,
+		"depthSpreadFactor": 20,
+		"endermanSpawnChance": 5.0E-5,
+		"endermanAggressiveChance": 0.5,
+		"enableDebugMessages": false
+	},
+	"pockets": {
+		"pocketGridSize": 32,
+		"maxPocketSize": 15,
+		"privatePocketSize": 2,
+		"publicPocketSize": 1,
+		"defaultWeightEquation": "5",
+		"fallbackWeight": 5,
+		"asyncWorldEditPocketLoading": true,
+		"canUseRiftSignatureInPrivatePockets": true
+	},
+	"world": {
+		"clusterGenChance": 20000.0,
+		"clusterDimBlacklist": [
+			"spectrum:deeper_down_dimension"
+		],
+		"gatewayDimBlacklist": [
+			"spectrum:deeper_down_dimension"
+		]
+	},
+	"dungeons": {
+		"maxDungeonDepth": 50
+	},
+	"monoliths": {
+		"dangerousLimboMonoliths": false,
+		"monolithTeleportation": true
+	},
+	"limbo": {
+		"hardcoreLimbo": false,
+		"limboReturnDistance": 5000,
+		"limboBlocksCorruptingExitWorldAmount": 5.0,
+		"escapeTargetWorld": {
+			"field_25137": {
+				"field_13353": "minecraft",
+				"field_13355": "dimension"
+			},
+			"field_25138": {
+				"field_13353": "minecraft",
+				"field_13355": "overworld"
+			}
+		},
+		"escapeTargetWorldYSpawn": 64,
+		"escapeToWorldSpawn": false,
+		"worldsLeadingToLimbo": {
+			"list": [],
+			"blacklist": false
+		}
+	},
+	"graphics": {
+		"showRiftCore": false,
+		"highlightRiftCoreFor": 15000,
+		"riftSize": 1.0,
+		"riftJitter": 1.0
+	},
+	"doors": {
+		"closeDoorBehind": true,
+		"doorList": {
+			"mode": "DISABLE",
+			"doors": []
+		},
+		"placeRiftsInCreativeMode": true
+	},
+	"decay": {
+		"decaySpreadChance": 1.0,
+		"decayDelay": 40,
+		"decaysIntoAir": true
+	}
+}

@@ -76,7 +76,8 @@ const TYPE_DISABLED_ITEMS = [
     "mcda:blue_mystery_armor_leggings",
     "mcda:blue_mystery_armor_boots",
     "mcda:blue_mystery_armor_chestplate",
-    "farmersdelight:rope"
+    "farmersdelight:rope",
+    "endermanoverhaul:summoner_pearl",
 ]
 
 const EndGameBosses = [
@@ -85,13 +86,18 @@ const EndGameBosses = [
     'doom:iconofsin',
     'doom:arch_maykr', 
     "adventurez:void_shadow", 
-    "soulsweapons:returning_knight", 
-    "soulsweapons:accursed_lord_boss", 
-    "soulsweapons:chaos_monarch", 
+    "soulsweapons:accursed_lord_boss",
+    "soulsweapons:draugr_boss",
     "soulsweapons:night_shade",
+    "soulsweapons:returning_knight",
+    "soulsweapons:chaos_monarch",
     "soulsweapons:moonknight",
+    "soulsweapons:day_stalker",
+    "soulsweapons:night_prowler",
     "bosses_of_mass_destruction:void_blossom",
-    "bosses_of_mass_destruction:lich"
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:obsidilith"
     ];
 
 
@@ -153,9 +159,11 @@ LootJS.modifiers((event) => {
     event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_rose")
     event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_void")
     event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_purple")
+    event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_day_stalker")
+    event.addEntityLootModifier("minecraft:ender_dragon", "minecraft:warden", "minecraft:wither", "minecraft:elder_guardian").removeLoot("soulsweapons:lord_soul_night_prowler")
 
     // gems
-    event.addEntityLootModifier("soulsweapons:returning_knight", "soulsweapons:accursed_lord_boss", "soulsweapons:chaos_monarch", "soulsweapons:night_shade", "soulsweapons:moonknight").addLoot("aqm2:legendary_gem")
+    event.addEntityLootModifier("soulsweapons:returning_knight", "soulsweapons:accursed_lord_boss", "soulsweapons:chaos_monarch", "soulsweapons:night_shade", "soulsweapons:moonknight", "soulsweapons:day_stalker", "soulsweapons:night_prowler").addLoot("aqm2:legendary_gem")
     event.addLootTableModifier("bosses_of_mass_destruction:chests/gauntlet", "bosses_of_mass_destruction:chests/obsidilith").addLoot("aqm2:epic_gem")
     event.addEntityLootModifier("doom:motherdemon","doom:gladiator","doom:iconofsin","doom:arch_maykr","bosses_of_mass_destruction:void_blossom","bosses_of_mass_destruction:lich").addLoot("aqm2:epic_gem")
     event.addEntityLootModifier("minecraft:warden", "minecraft:ender_dragon","minecells:constructor","adventurez:void_shadow","adventurez:stone_golem").addLoot("aqm2:rare_gem")

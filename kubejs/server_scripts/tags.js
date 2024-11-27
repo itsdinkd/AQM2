@@ -15,12 +15,14 @@ priority: 100
 		"aqm2:demon_pearl",
 		"aqm2:lord_soul_ultimate",
 		"kibe:angel_ring",
-		"soulsweapons:lord_soul_white",
-		"soulsweapons:lord_soul_red",
-		"soulsweapons:lord_soul_dark",
-		"soulsweapons:lord_soul_rose",
-		"soulsweapons:lord_soul_purple",
 		"soulsweapons:lord_soul_void",
+		"soulsweapons:lord_soul_red",
+		"soulsweapons:lord_soul_purple",
+		"soulsweapons:lord_soul_day_stalker",
+		"soulsweapons:lord_soul_rose",
+		"soulsweapons:lord_soul_white",
+		"soulsweapons:lord_soul_night_prowler",
+		"soulsweapons:lord_soul_dark",
 		"gobber2:dragon_star",
 		"gobber2:gobber2_ingot",
 		"gobber2:gobber2_ingot_nether",
@@ -177,6 +179,11 @@ priority: 100
 		"twigs:pebble"
 	];
 
+// Entity Tags
+ServerEvents.tags('entity_type', event => {
+	event.add('c:skeletons', /^mobz:skeli.*/);
+})
+
 // Item Tags
 ServerEvents.tags('item', event => {
 
@@ -209,7 +216,6 @@ ServerEvents.tags('item', event => {
 	// })
 	//"soulsweapons:dar"
 // Misc
-
 	// event.add('c:rods/iron', 'c:iron_rods') Removed until we use Create Additions again
 	event.add('c:wrenches', 'advanced_reborn:config_wrench');
 	event.add('c:wrenches','techreborn:wrench');
@@ -232,7 +238,7 @@ ServerEvents.tags('item', event => {
 	event.add('c:raw_silver_ores', 'galosphere:raw_silver');
 	event.add('c:silver_ores', 'galosphere:deepslate_silver_ore');
 	event.add('c:ruby_ores', 'betternether:nether_ruby_ore');
-	
+
 // Remove
 	// event.remove('c:aluminum_dusts', 'agape_space:aluminum_ingot');
 		

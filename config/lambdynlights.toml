@@ -960,3 +960,6 @@
 				reaver = true
 				gaze = true
 
+			[light_sources.settings.entities.endermanoverhaul]
+				cave_enderman = true
+

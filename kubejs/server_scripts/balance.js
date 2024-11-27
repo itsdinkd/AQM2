@@ -854,7 +854,7 @@ event.shaped("soulsweapons:bloodthirster", ["121", "121", " s "],
     2: "soulsweapons:crimson_ingot",
     s: "minecraft:stick"
   })
-event.replaceInput({output: "soulsweapons:soul_ingot"}, "minecraft:iron_ingot", "gobber2:gobber2_ingot_end")
+event.replaceInput({output: "soulsweapons:soul_ingot"}, "#c:iron_ingots", "gobber2:gobber2_ingot_end")
 event.remove({output: "soulsweapons:leviathan_axe"})
 event.shaped("soulsweapons:leviathan_axe", ["21 ", "s1 ", "1  "],
   {
@@ -862,7 +862,7 @@ event.shaped("soulsweapons:leviathan_axe", ["21 ", "s1 ", "1  "],
     2: "soulsweapons:lord_soul_purple",
     s: "minecraft:stick"
   })
-  event.remove({output: "soulsweapons:lich_bane"})
+event.remove({output: "soulsweapons:lich_bane"})
 event.shaped("soulsweapons:lich_bane", ["  r", "12 ", "i1 "],
   {
     1: "botania:mana_diamond",

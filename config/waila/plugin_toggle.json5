@@ -23,15 +23,16 @@
   "waila:fabric": true,
   "waila:team_reborn_energy": true,
   "waila:test": false,
+  "betternether:global": true,
   "wmitaf:wthit_plugin": true,
-  "cimtb:cimtb_plugin": true,
-  "fluidtank:wthit_plugin": true,
-  "cookingforblockheads:wthit": true,
-  "ae2:wthit": true,
-  "quarryplus:wthit_plugin": true,
   "polymer:main": true,
   "minecraft:horseinfo": true,
+  "cookingforblockheads:wthit": true,
+  "quarryplus:wthit_plugin": true,
   "shouldersurfing:waila_plugin": true,
+  "fluidtank:wthit_plugin": true,
+  "dimdoors:wthit_plugin": true,
   "megane:plugin": true,
-  "betternether:global": true
+  "cimtb:cimtb_plugin": true,
+  "ae2:wthit": true
 }
