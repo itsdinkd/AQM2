@@ -96,6 +96,11 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "mods/Crafty-Crashes-1.0.jar",
     "mods/iris-mc1.19.2-1.6.11.jar",
     "mods/voyager-2.1.0-1.19-1.19.x.jar",
+    "mods/LibGui-6.4.0-fab15hotfix+1.19.jar",
+    "mods/besmirchment-1.19.2-11-hotfix.jar",
+    "mods/stacc-1.3.4-fab15hotfix.jar",
+    "mods/ExtraOriginsCompatibilityFix-1.0.0_1.16.5-1.20.1.jar",
+    "indrev-1.15.2-BETA-fab15hotfix2.jar",
     "mods/magitekmechs-fabric-MC1.19.2-1.0.16.jar"
 )
 

@@ -1,15 +1,15 @@
 {
     "baseModLoader": {
-        "forgeVersion": "0.16.9",
-        "name": "fabric-0.16.9-1.19.2",
+        "forgeVersion": "0.15.11",
+        "name": "fabric-0.15.11-1.19.2",
         "type": 4,
-        "downloadUrl": "https://fabricmc.forgecdn.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar",
-        "filename": "fabric-loader-0.16.9.jar",
+        "downloadUrl": "https://fabricmc.forgecdn.net/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar",
+        "filename": "fabric-loader-0.15.11.jar",
         "installMethod": 4,
-        "latest": true,
-        "recommended": true,
-        "versionJson": "{\"assetIndex\":null,\"id\":\"fabric-loader-0.16.9-1.19.2\",\"time\":\"2024-10-30T08:39:27-07:00\",\"releaseTime\":\"2024-10-30T08:39:27-07:00\",\"type\":\"release\",\"minecraftArguments\":null,\"minimumLauncherVersion\":0,\"assets\":null,\"inheritsFrom\":\"1.19.2\",\"jar\":null,\"logging\":{\"client\":null},\"libraries\":[{\"name\":\"org.ow2.asm:asm:9.7.1\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"org.ow2.asm:asm-analysis:9.7.1\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"org.ow2.asm:asm-commons:9.7.1\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"org.ow2.asm:asm-tree:9.7.1\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"org.ow2.asm:asm-util:9.7.1\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"net.fabricmc:intermediary:1.19.2\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"net.fabricmc:fabric-loader:0.16.9\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null}],\"mainClass\":\"net.fabricmc.loader.impl.launch.knot.KnotClient\",\"arguments\":{\"game\":[],\"jvm\":[\"-DFabricMcEmu= net.minecraft.client.main.Main \"]}}",
-        "librariesInstallLocation": "{0}libraries/net/fabricmc/fabric-loader/0.16.9",
+        "latest": false,
+        "recommended": false,
+        "versionJson": "{\"assetIndex\":null,\"id\":\"fabric-loader-0.15.11-1.19.2\",\"time\":\"2024-05-03T06:41:31-07:00\",\"releaseTime\":\"2024-05-03T06:41:31-07:00\",\"type\":\"release\",\"minecraftArguments\":null,\"minimumLauncherVersion\":0,\"assets\":null,\"inheritsFrom\":\"1.19.2\",\"jar\":null,\"logging\":{\"client\":null},\"libraries\":[{\"name\":\"org.ow2.asm:asm:9.6\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"org.ow2.asm:asm-analysis:9.6\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"org.ow2.asm:asm-commons:9.6\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"org.ow2.asm:asm-tree:9.6\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"org.ow2.asm:asm-util:9.6\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"net.fabricmc:intermediary:1.19.2\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null},{\"name\":\"net.fabricmc:fabric-loader:0.15.11\",\"url\":\"https://fabricmc.forgecdn.net/\",\"serverreq\":null,\"clientreq\":null,\"natives\":null,\"extract\":null,\"rules\":null}],\"mainClass\":\"net.fabricmc.loader.impl.launch.knot.KnotClient\",\"arguments\":{\"game\":[],\"jvm\":[\"-DFabricMcEmu= net.minecraft.client.main.Main \"]}}",
+        "librariesInstallLocation": "{0}libraries/net/fabricmc/fabric-loader/0.15.11",
         "minecraftVersion": "1.19.2"
     },
     "isUnlocked": true,
@@ -33,8 +33,8 @@
     "name": "AQM2 1.19.2",
     "cachedScans": [],
     "isValid": true,
-    "lastPreviousMatchUpdate": "2024-11-27T07:31:32.9698844Z",
-    "lastRefreshAttempt": "2024-11-26T23:31:37.2525784-08:00",
+    "lastPreviousMatchUpdate": "2024-11-27T21:15:08.3119359Z",
+    "lastRefreshAttempt": "2024-11-27T13:15:51.6380401-08:00",
     "isEnabled": true,
     "gameVersion": "1.19.2",
     "gameVersionFlavor": null,
@@ -10870,13 +10870,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/204/755/256/256/636943069655588975.png",
             "tags": [],
             "installedFile": {
-                "id": 4392367,
-                "fileName": "BSL_v8.2.02.zip",
-                "fileDate": "2023-02-12T00:57:44.313Z",
-                "fileLength": 928246,
+                "id": 5412364,
+                "fileName": "BSL_v8.2.09.zip",
+                "fileDate": "2024-06-09T14:22:04.453Z",
+                "fileLength": 954784,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4392/367/BSL_v8.2.02.zip",
+                "downloadUrl": "https://edge.forgecdn.net/files/5412/364/BSL_v8.2.09.zip",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "serverPackFileId": 0,
@@ -10885,27 +10885,74 @@
                 "modules": [
                     {
                         "foldername": "shaders",
-                        "fingerprint": 3620050470,
+                        "fingerprint": 2546821691,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2228314031,
+                "packageFingerprint": 3042225731,
                 "gameVersion": [
                     "1.17.1",
+                    "1.9.1",
+                    "1.16.3",
+                    "1.13.1",
+                    "1.9.3",
+                    "1.8.7",
                     "1.19.3",
+                    "1.20.2",
+                    "1.21",
+                    "1.16.1",
+                    "1.18.1",
+                    "1.20.5",
                     "1.9.4",
+                    "1.9.2",
+                    "1.8.4",
                     "1.14.4",
+                    "1.14.1",
+                    "1.12.1",
+                    "1.17",
+                    "1.12",
+                    "1.14.3",
+                    "1.15",
+                    "1.16",
+                    "1.13",
+                    "1.19.4",
+                    "1.8.8",
                     "1.16.5",
                     "1.10.2",
+                    "1.8.3",
+                    "1.11",
                     "1.18.2",
+                    "1.19.2",
+                    "1.20.3",
+                    "1.8.6",
                     "1.15.2",
+                    "1.14",
+                    "1.20.1",
+                    "1.20",
                     "OptiFine",
+                    "1.20.6",
+                    "1.10",
+                    "1.10.1",
+                    "1.19.1",
+                    "1.20.4",
                     "1.7.10",
+                    "1.8",
+                    "1.18",
+                    "1.8.2",
+                    "1.16.4",
+                    "1.14.2",
+                    "1.11.1",
+                    "1.16.2",
                     "1.11.2",
                     "Iris",
+                    "1.9",
+                    "1.8.5",
                     "1.12.2",
+                    "1.19",
                     "1.8.9",
-                    "1.13.2"
+                    "1.8.1",
+                    "1.13.2",
+                    "1.15.1"
                 ],
                 "sortableGameVersion": [
                     {
@@ -10914,9 +10961,59 @@
                         "gameVersionTypeId": 73242
                     },
                     {
+                        "gameVersion": "1.9.1",
+                        "gameVersionName": "1.9.1",
+                        "gameVersionTypeId": 552
+                    },
+                    {
+                        "gameVersion": "1.16.3",
+                        "gameVersionName": "1.16.3",
+                        "gameVersionTypeId": 70886
+                    },
+                    {
+                        "gameVersion": "1.13.1",
+                        "gameVersionName": "1.13.1",
+                        "gameVersionTypeId": 55023
+                    },
+                    {
+                        "gameVersion": "1.9.3",
+                        "gameVersionName": "1.9.3",
+                        "gameVersionTypeId": 552
+                    },
+                    {
+                        "gameVersion": "1.8.7",
+                        "gameVersionName": "1.8.7",
+                        "gameVersionTypeId": 4
+                    },
+                    {
                         "gameVersion": "1.19.3",
                         "gameVersionName": "1.19.3",
                         "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.20.2",
+                        "gameVersionName": "1.20.2",
+                        "gameVersionTypeId": 75125
+                    },
+                    {
+                        "gameVersion": "1.21",
+                        "gameVersionName": "1.21",
+                        "gameVersionTypeId": 77784
+                    },
+                    {
+                        "gameVersion": "1.16.1",
+                        "gameVersionName": "1.16.1",
+                        "gameVersionTypeId": 70886
+                    },
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.20.5",
+                        "gameVersionName": "1.20.5",
+                        "gameVersionTypeId": 75125
                     },
                     {
                         "gameVersion": "1.9.4",
@@ -10924,9 +11021,69 @@
                         "gameVersionTypeId": 552
                     },
                     {
+                        "gameVersion": "1.9.2",
+                        "gameVersionName": "1.9.2",
+                        "gameVersionTypeId": 552
+                    },
+                    {
+                        "gameVersion": "1.8.4",
+                        "gameVersionName": "1.8.4",
+                        "gameVersionTypeId": 4
+                    },
+                    {
                         "gameVersion": "1.14.4",
                         "gameVersionName": "1.14.4",
                         "gameVersionTypeId": 64806
+                    },
+                    {
+                        "gameVersion": "1.14.1",
+                        "gameVersionName": "1.14.1",
+                        "gameVersionTypeId": 64806
+                    },
+                    {
+                        "gameVersion": "1.12.1",
+                        "gameVersionName": "1.12.1",
+                        "gameVersionTypeId": 628
+                    },
+                    {
+                        "gameVersion": "1.17",
+                        "gameVersionName": "1.17",
+                        "gameVersionTypeId": 73242
+                    },
+                    {
+                        "gameVersion": "1.12",
+                        "gameVersionName": "1.12",
+                        "gameVersionTypeId": 628
+                    },
+                    {
+                        "gameVersion": "1.14.3",
+                        "gameVersionName": "1.14.3",
+                        "gameVersionTypeId": 64806
+                    },
+                    {
+                        "gameVersion": "1.15",
+                        "gameVersionName": "1.15",
+                        "gameVersionTypeId": 68722
+                    },
+                    {
+                        "gameVersion": "1.16",
+                        "gameVersionName": "1.16",
+                        "gameVersionTypeId": 70886
+                    },
+                    {
+                        "gameVersion": "1.13",
+                        "gameVersionName": "1.13",
+                        "gameVersionTypeId": 55023
+                    },
+                    {
+                        "gameVersion": "1.19.4",
+                        "gameVersionName": "1.19.4",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.8.8",
+                        "gameVersionName": "1.8.8",
+                        "gameVersionTypeId": 4
                     },
                     {
                         "gameVersion": "1.16.5",
@@ -10939,9 +11096,34 @@
                         "gameVersionTypeId": 572
                     },
                     {
+                        "gameVersion": "1.8.3",
+                        "gameVersionName": "1.8.3",
+                        "gameVersionTypeId": 4
+                    },
+                    {
+                        "gameVersion": "1.11",
+                        "gameVersionName": "1.11",
+                        "gameVersionTypeId": 599
+                    },
+                    {
                         "gameVersion": "1.18.2",
                         "gameVersionName": "1.18.2",
                         "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.19.2",
+                        "gameVersionName": "1.19.2",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.20.3",
+                        "gameVersionName": "1.20.3",
+                        "gameVersionTypeId": 75125
+                    },
+                    {
+                        "gameVersion": "1.8.6",
+                        "gameVersionName": "1.8.6",
+                        "gameVersionTypeId": 4
                     },
                     {
                         "gameVersion": "1.15.2",
@@ -10949,14 +11131,89 @@
                         "gameVersionTypeId": 68722
                     },
                     {
+                        "gameVersion": "1.14",
+                        "gameVersionName": "1.14",
+                        "gameVersionTypeId": 64806
+                    },
+                    {
+                        "gameVersion": "1.20.1",
+                        "gameVersionName": "1.20.1",
+                        "gameVersionTypeId": 75125
+                    },
+                    {
+                        "gameVersion": "1.20",
+                        "gameVersionName": "1.20",
+                        "gameVersionTypeId": 75125
+                    },
+                    {
                         "gameVersion": "",
                         "gameVersionName": "OptiFine",
                         "gameVersionTypeId": 76871
                     },
                     {
+                        "gameVersion": "1.20.6",
+                        "gameVersionName": "1.20.6",
+                        "gameVersionTypeId": 75125
+                    },
+                    {
+                        "gameVersion": "1.10",
+                        "gameVersionName": "1.10",
+                        "gameVersionTypeId": 572
+                    },
+                    {
+                        "gameVersion": "1.10.1",
+                        "gameVersionName": "1.10.1",
+                        "gameVersionTypeId": 572
+                    },
+                    {
+                        "gameVersion": "1.19.1",
+                        "gameVersionName": "1.19.1",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.20.4",
+                        "gameVersionName": "1.20.4",
+                        "gameVersionTypeId": 75125
+                    },
+                    {
                         "gameVersion": "1.7.10",
                         "gameVersionName": "1.7.10",
                         "gameVersionTypeId": 5
+                    },
+                    {
+                        "gameVersion": "1.8",
+                        "gameVersionName": "1.8",
+                        "gameVersionTypeId": 4
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.8.2",
+                        "gameVersionName": "1.8.2",
+                        "gameVersionTypeId": 4
+                    },
+                    {
+                        "gameVersion": "1.16.4",
+                        "gameVersionName": "1.16.4",
+                        "gameVersionTypeId": 70886
+                    },
+                    {
+                        "gameVersion": "1.14.2",
+                        "gameVersionName": "1.14.2",
+                        "gameVersionTypeId": 64806
+                    },
+                    {
+                        "gameVersion": "1.11.1",
+                        "gameVersionName": "1.11.1",
+                        "gameVersionTypeId": 599
+                    },
+                    {
+                        "gameVersion": "1.16.2",
+                        "gameVersionName": "1.16.2",
+                        "gameVersionTypeId": 70886
                     },
                     {
                         "gameVersion": "1.11.2",
@@ -10969,9 +11226,24 @@
                         "gameVersionTypeId": 76871
                     },
                     {
+                        "gameVersion": "1.9",
+                        "gameVersionName": "1.9",
+                        "gameVersionTypeId": 552
+                    },
+                    {
+                        "gameVersion": "1.8.5",
+                        "gameVersionName": "1.8.5",
+                        "gameVersionTypeId": 4
+                    },
+                    {
                         "gameVersion": "1.12.2",
                         "gameVersionName": "1.12.2",
                         "gameVersionTypeId": 628
+                    },
+                    {
+                        "gameVersion": "1.19",
+                        "gameVersionName": "1.19",
+                        "gameVersionTypeId": 73407
                     },
                     {
                         "gameVersion": "1.8.9",
@@ -10979,9 +11251,19 @@
                         "gameVersionTypeId": 4
                     },
                     {
+                        "gameVersion": "1.8.1",
+                        "gameVersionName": "1.8.1",
+                        "gameVersionTypeId": 4
+                    },
+                    {
                         "gameVersion": "1.13.2",
                         "gameVersionName": "1.13.2",
                         "gameVersionTypeId": 55023
+                    },
+                    {
+                        "gameVersion": "1.15.1",
+                        "gameVersionName": "1.15.1",
+                        "gameVersionTypeId": 68722
                     }
                 ],
                 "hasInstallScript": false,
@@ -10990,21 +11272,21 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 322506,
-                "fileNameOnDisk": "BSL_v8.2.02.zip",
+                "fileNameOnDisk": "BSL_v8.2.09.zip",
                 "hashes": [
                     {
                         "type": 1,
-                        "value": "4463faa8252453635ed6a12f5d09f67819bf1704"
+                        "value": "cd92bf706a1347a2d2943b14391ffbe1233415bc"
                     },
                     {
                         "type": 2,
-                        "value": "563f28f22c8843e5671525e5e855953b"
+                        "value": "4443556b4e0d63394f0df1297e484454"
                     }
                 ]
             },
-            "dateInstalled": "2024-11-27T07:31:35.2043268Z",
-            "dateUpdated": "2024-11-27T07:31:35.2043268Z",
-            "status": 3,
+            "dateInstalled": "2024-11-27T21:14:55.1519257Z",
+            "dateUpdated": "2024-11-27T21:14:55.1529255Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": null,
@@ -20260,7 +20542,7 @@
             "gameInstanceID": "7d55115f-e05d-4aab-822e-f5733f96f0d7",
             "name": "BetterNether",
             "modFolderPath": "G:\\mc\\Instances\\AQM2 1.19.2\\mods",
-            "fileNameOnDisk": "better-nether-7.1.4.jar",
+            "fileNameOnDisk": "better-nether-7.1.5.jar",
             "authors": [
                 {
                     "Id": 102334983,
@@ -20274,23 +20556,23 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/471/574/256/256/637760293478357857.png",
             "tags": [],
             "installedFile": {
-                "id": 4572724,
-                "fileName": "better-nether-7.1.4.jar",
-                "fileDate": "2023-06-07T23:15:31.117Z",
-                "fileLength": 21952400,
+                "id": 4986817,
+                "fileName": "better-nether-7.1.5.jar",
+                "fileDate": "2023-12-27T13:02:19.323Z",
+                "fileLength": 21953199,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4572/724/better-nether-7.1.4.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4986/817/better-nether-7.1.5.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "serverPackFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 306612,
-                        "type": 3
+                        "addonId": 580555,
+                        "type": 2
                     },
                     {
-                        "addonId": 495191,
+                        "addonId": 306612,
                         "type": 3
                     },
                     {
@@ -20298,8 +20580,8 @@
                         "type": 2
                     },
                     {
-                        "addonId": 580555,
-                        "type": 2
+                        "addonId": 495191,
+                        "type": 3
                     },
                     {
                         "addonId": 310111,
@@ -20310,7 +20592,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2412847792,
+                        "fingerprint": 2266449563,
                         "invalidFingerprint": false
                     },
                     {
@@ -20330,7 +20612,7 @@
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 1510756163,
+                        "fingerprint": 1721871687,
                         "invalidFingerprint": false
                     },
                     {
@@ -20345,7 +20627,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2451817311,
+                        "fingerprint": 3076916131,
                         "invalidFingerprint": false
                     },
                     {
@@ -20370,11 +20652,11 @@
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 3415744622,
+                        "fingerprint": 2616132278,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 4014621910,
+                "packageFingerprint": 2840373889,
                 "gameVersion": [
                     "Fabric",
                     "1.19.2",
@@ -20409,28 +20691,28 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 311377,
-                "fileNameOnDisk": "better-nether-7.1.4.jar",
+                "fileNameOnDisk": "better-nether-7.1.5.jar",
                 "hashes": [
                     {
                         "type": 1,
-                        "value": "c4e29c470695096939f64c1f0e3d0e3e817b8d71"
+                        "value": "bf5e526acc6cea7d668c4310c1898263b0fcc0d0"
                     },
                     {
                         "type": 2,
-                        "value": "ca524cc8897c4dc0a141f487bb0f9949"
+                        "value": "7c4e20f9b5652da1183a11750bcd45bf"
                     }
                 ]
             },
-            "dateInstalled": "2024-05-15T18:24:58.6520389Z",
-            "dateUpdated": "2024-05-15T18:24:58.6588749Z",
-            "status": 3,
+            "dateInstalled": "2024-11-27T21:10:44.5902704Z",
+            "dateUpdated": "2024-11-27T21:10:44.5972616Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": null,
             "preferenceAlternateFile": false,
             "isEnabled": true,
             "filePaths": [
-                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\better-nether-7.1.4.jar"
+                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\better-nether-7.1.5.jar"
             ],
             "preferenceIsIgnored": false,
             "isModified": false,
@@ -20451,7 +20733,7 @@
                 "serverPackFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 440979,
+                        "addonId": 580555,
                         "type": 2
                     },
                     {
@@ -20459,7 +20741,7 @@
                         "type": 3
                     },
                     {
-                        "addonId": 580555,
+                        "addonId": 440979,
                         "type": 2
                     },
                     {
@@ -37307,7 +37589,7 @@
             "gameInstanceID": "7d55115f-e05d-4aab-822e-f5733f96f0d7",
             "name": "BCLib",
             "modFolderPath": "G:\\mc\\Instances\\AQM2 1.19.2\\mods",
-            "fileNameOnDisk": "bclib-2.1.7.jar",
+            "fileNameOnDisk": "bclib-2.1.8.jar",
             "authors": [
                 {
                     "Id": 102334983,
@@ -37321,13 +37603,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/396/271/256/256/637595638220205053.png",
             "tags": [],
             "installedFile": {
-                "id": 4572719,
-                "fileName": "bclib-2.1.7.jar",
-                "fileDate": "2023-06-07T23:11:50.7Z",
-                "fileLength": 1893094,
+                "id": 4986808,
+                "fileName": "bclib-2.1.8.jar",
+                "fileDate": "2023-12-27T12:57:15.617Z",
+                "fileLength": 1898095,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4572/719/bclib-2.1.7.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4986/808/bclib-2.1.8.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "serverPackFileId": 0,
@@ -37338,8 +37620,74 @@
                     }
                 ],
                 "isAvailable": true,
-                "modules": [],
-                "packageFingerprint": 0,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2266449563,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE.ASSETS",
+                        "fingerprint": 2699797518,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE",
+                        "fingerprint": 2618663911,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 4031349063,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "bclib.mixins.common.json",
+                        "fingerprint": 639383340,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ui.mixins.client.json",
+                        "fingerprint": 1258625961,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "bclib.accesswidener",
+                        "fingerprint": 1167406999,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "together.mixins.client.json",
+                        "fingerprint": 955525103,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "bclib.mixins.client.json",
+                        "fingerprint": 1212410714,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1145488439,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "together.mixins.common.json",
+                        "fingerprint": 2391654838,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "bclib-refmap.json",
+                        "fingerprint": 976224388,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 924496592,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1907088329,
                 "gameVersion": [
                     "Fabric",
                     "1.19.2",
@@ -37374,31 +37722,31 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 495191,
-                "fileNameOnDisk": "bclib-2.1.7.jar",
+                "fileNameOnDisk": "bclib-2.1.8.jar",
                 "hashes": [
                     {
                         "type": 1,
-                        "value": "eb3e73541598d74504178556f20b61d278092809"
+                        "value": "9db942613212bc5dcd5d7bde47cf5780c7f859f9"
                     },
                     {
                         "type": 2,
-                        "value": "28dffc5e677755c4e533c54aa2895836"
+                        "value": "52effbdb5d50cbdbc848764ce18f9195"
                     }
                 ]
             },
-            "dateInstalled": "2024-05-15T18:25:04.4097391Z",
-            "dateUpdated": "2024-05-15T18:25:04.4107397Z",
-            "status": 3,
+            "dateInstalled": "2024-11-27T21:10:33.4767909Z",
+            "dateUpdated": "2024-11-27T21:10:33.4787909Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": null,
             "preferenceAlternateFile": false,
             "isEnabled": true,
             "filePaths": [
-                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\bclib-2.1.7.jar"
+                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\bclib-2.1.8.jar"
             ],
             "preferenceIsIgnored": false,
-            "isModified": true,
+            "isModified": false,
             "isWorkingCopy": false,
             "isFuzzyMatch": false,
             "manifestName": null,
@@ -49263,7 +49611,7 @@
             "gameInstanceID": "7d55115f-e05d-4aab-822e-f5733f96f0d7",
             "name": "BlameLog",
             "modFolderPath": "G:\\mc\\Instances\\AQM2 1.19.2\\mods",
-            "fileNameOnDisk": "blame-log-0.5.0-1.18.2-build.14.jar",
+            "fileNameOnDisk": "blame-log-0.4.0-1.18.jar",
             "authors": [
                 {
                     "Id": 103319669,
@@ -49277,13 +49625,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/1097/204/256/256/638643125276753722.jpg",
             "tags": [],
             "installedFile": {
-                "id": 5589975,
-                "fileName": "blame-log-0.5.0-1.18.2-build.14.jar",
-                "fileDate": "2024-08-02T16:25:48.187Z",
-                "fileLength": 131443,
-                "releaseType": 2,
+                "id": 4960728,
+                "fileName": "blame-log-0.4.0-1.18.jar",
+                "fileDate": "2023-12-16T13:13:17.683Z",
+                "fileLength": 159223,
+                "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/5589/975/blame-log-0.5.0-1.18.2-build.14.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4960/728/blame-log-0.4.0-1.18.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "serverPackFileId": 0,
@@ -49297,7 +49645,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 1292122751,
+                        "fingerprint": 1646119257,
                         "invalidFingerprint": false
                     },
                     {
@@ -49306,33 +49654,31 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "blame-log.mixins.json",
-                        "fingerprint": 1071914150,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2077832082,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "icon.png",
                         "fingerprint": 2269150682,
                         "invalidFingerprint": false
                     },
                     {
+                        "foldername": "blame-log.mixins.json",
+                        "fingerprint": 3728894521,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3037248462,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "me",
-                        "fingerprint": 2260694422,
+                        "fingerprint": 2690991451,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 501401990,
+                "packageFingerprint": 1046700339,
                 "gameVersion": [
                     "1.19.3",
                     "1.20.2",
-                    "1.21",
                     "1.18.1",
-                    "1.20.5",
                     "1.19.4",
                     "Fabric",
                     "1.18.2",
@@ -49340,8 +49686,6 @@
                     "1.20.3",
                     "1.20.1",
                     "1.20",
-                    "1.20.6",
-                    "1.19.1",
                     "1.20.4",
                     "1.18",
                     "1.19"
@@ -49358,19 +49702,9 @@
                         "gameVersionTypeId": 75125
                     },
                     {
-                        "gameVersion": "1.21",
-                        "gameVersionName": "1.21",
-                        "gameVersionTypeId": 77784
-                    },
-                    {
                         "gameVersion": "1.18.1",
                         "gameVersionName": "1.18.1",
                         "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.20.5",
-                        "gameVersionName": "1.20.5",
-                        "gameVersionTypeId": 75125
                     },
                     {
                         "gameVersion": "1.19.4",
@@ -49408,16 +49742,6 @@
                         "gameVersionTypeId": 75125
                     },
                     {
-                        "gameVersion": "1.20.6",
-                        "gameVersionName": "1.20.6",
-                        "gameVersionTypeId": 75125
-                    },
-                    {
-                        "gameVersion": "1.19.1",
-                        "gameVersionName": "1.19.1",
-                        "gameVersionTypeId": 73407
-                    },
-                    {
                         "gameVersion": "1.20.4",
                         "gameVersionName": "1.20.4",
                         "gameVersionTypeId": 75125
@@ -49439,28 +49763,28 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 850931,
-                "fileNameOnDisk": "blame-log-0.5.0-1.18.2-build.14.jar",
+                "fileNameOnDisk": "blame-log-0.4.0-1.18.jar",
                 "hashes": [
                     {
                         "type": 1,
-                        "value": "884b68d64317d53178fc59595b11c76da07c2ae6"
+                        "value": "83142eb203d069b17378b1b3106a8d5823354e84"
                     },
                     {
                         "type": 2,
-                        "value": "7f28a704531771a2ee2c96ed74804d51"
+                        "value": "4dfd6c3c4a838c637886852f636e6bad"
                     }
                 ]
             },
-            "dateInstalled": "2024-11-27T06:45:23.6607828Z",
-            "dateUpdated": "2024-11-27T06:45:23.6607828Z",
-            "status": 4,
+            "dateInstalled": "2024-11-27T19:57:24.4281643Z",
+            "dateUpdated": "2024-11-27T19:57:24.4311611Z",
+            "status": 3,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": null,
             "preferenceAlternateFile": false,
             "isEnabled": true,
             "filePaths": [
-                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\blame-log-0.5.0-1.18.2-build.14.jar"
+                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\blame-log-0.4.0-1.18.jar"
             ],
             "preferenceIsIgnored": false,
             "isModified": false,
@@ -82536,269 +82860,6 @@
             "allowModDistribution": true
         },
         {
-            "instanceID": "62dd6f6e-c1c4-4f44-9141-b3f3ca8a9506",
-            "modSource": 0,
-            "addonID": 542196,
-            "gameID": 432,
-            "categoryClassID": 6,
-            "gameInstanceID": "7d55115f-e05d-4aab-822e-f5733f96f0d7",
-            "name": "Besmirchment 2",
-            "modFolderPath": "G:\\mc\\Instances\\AQM2 1.19.2\\mods",
-            "fileNameOnDisk": "besmirchment-1.19.2-11.jar",
-            "authors": [
-                {
-                    "Id": 101694375,
-                    "Name": "MrSterner_"
-                }
-            ],
-            "primaryAuthor": "MrSterner_",
-            "primaryCategoryId": 424,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/besmirchment-2",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/450/97/256/256/637710521103877993.png",
-            "tags": [],
-            "installedFile": {
-                "id": 4744022,
-                "fileName": "besmirchment-1.19.2-11.jar",
-                "fileDate": "2023-09-08T16:29:40.483Z",
-                "fileLength": 457705,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4744/22/besmirchment-1.19.2-11.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "serverPackFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 394915,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 315034401,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "besmirchment.accesswidener",
-                        "fingerprint": 1673185071,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 3241761408,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 184667001,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1854682358,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "besmirchment.mixins.json",
-                        "fingerprint": 1475004771,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2961954609,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "besmirchment-refmap.json",
-                        "fingerprint": 2575183447,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dev",
-                        "fingerprint": 2521488633,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3638370091,
-                "gameVersion": [
-                    "Fabric",
-                    "1.19.2",
-                    "Quilt"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.19.2",
-                        "gameVersionName": "1.19.2",
-                        "gameVersionTypeId": 73407
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Quilt",
-                        "gameVersionTypeId": 68441
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "isEarlyAccessContent": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 542196,
-                "fileNameOnDisk": "besmirchment-1.19.2-11.jar",
-                "hashes": [
-                    {
-                        "type": 1,
-                        "value": "208d9885344dc8f9bc083fa6a323edd94bfd8f3d"
-                    },
-                    {
-                        "type": 2,
-                        "value": "4a8be86758e636657e5d41361aa11d46"
-                    }
-                ]
-            },
-            "dateInstalled": "2023-12-24T01:22:21.5129061Z",
-            "dateUpdated": "2023-12-24T01:22:21.5139095Z",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": null,
-            "preferenceAlternateFile": false,
-            "isEnabled": true,
-            "filePaths": [
-                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\besmirchment-1.19.2-11.jar"
-            ],
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 4744022,
-                "fileName": "besmirchment-1.19.2-11.jar",
-                "fileDate": "2023-09-08T16:29:40.483Z",
-                "fileLength": 457705,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4744/22/besmirchment-1.19.2-11.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "serverPackFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 394915,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 315034401,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "besmirchment.accesswidener",
-                        "fingerprint": 1673185071,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 3241761408,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 184667001,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1854682358,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "besmirchment.mixins.json",
-                        "fingerprint": 1475004771,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2961954609,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "besmirchment-refmap.json",
-                        "fingerprint": 2575183447,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dev",
-                        "fingerprint": 2521488633,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3638370091,
-                "gameVersion": [
-                    "Fabric",
-                    "1.19.2",
-                    "Quilt"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.19.2",
-                        "gameVersionName": "1.19.2",
-                        "gameVersionTypeId": 73407
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Quilt",
-                        "gameVersionTypeId": 68441
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "isEarlyAccessContent": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 542196,
-                "fileNameOnDisk": "besmirchment-1.19.2-11.jar",
-                "hashes": [
-                    {
-                        "type": 1,
-                        "value": "208d9885344dc8f9bc083fa6a323edd94bfd8f3d"
-                    },
-                    {
-                        "type": 2,
-                        "value": "4a8be86758e636657e5d41361aa11d46"
-                    }
-                ]
-            },
-            "allowModDistribution": true
-        },
-        {
             "instanceID": "46b2352a-8222-4155-950a-6ac16d78e72a",
             "modSource": 0,
             "addonID": 413596,
@@ -82807,7 +82868,7 @@
             "gameInstanceID": "7d55115f-e05d-4aab-822e-f5733f96f0d7",
             "name": "BetterEnd",
             "modFolderPath": "G:\\mc\\Instances\\AQM2 1.19.2\\mods",
-            "fileNameOnDisk": "better-end-2.1.6.jar",
+            "fileNameOnDisk": "better-end-2.1.7.jar",
             "authors": [
                 {
                     "Id": 102334983,
@@ -82821,31 +82882,19 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/471/575/256/256/637760294980874674.png",
             "tags": [],
             "installedFile": {
-                "id": 4572737,
-                "fileName": "better-end-2.1.6.jar",
-                "fileDate": "2023-06-07T23:22:25.527Z",
-                "fileLength": 80543855,
+                "id": 4986810,
+                "fileName": "better-end-2.1.7.jar",
+                "fileDate": "2023-12-27T12:59:29.133Z",
+                "fileLength": 80531377,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4572/737/better-end-2.1.6.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4986/810/better-end-2.1.7.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "serverPackFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
                         "addonId": 310111,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306770,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 580555,
                         "type": 2
                     },
                     {
@@ -82853,15 +82902,27 @@
                         "type": 2
                     },
                     {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306770,
+                        "type": 2
+                    },
+                    {
                         "addonId": 495191,
                         "type": 3
+                    },
+                    {
+                        "addonId": 580555,
+                        "type": 2
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3753640848,
+                        "fingerprint": 2381789587,
                         "invalidFingerprint": false
                     },
                     {
@@ -82875,13 +82936,8 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "betterend.mixins.shadow.json",
-                        "fingerprint": 3016778446,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "assets",
-                        "fingerprint": 2998414526,
+                        "fingerprint": 3677795051,
                         "invalidFingerprint": false
                     },
                     {
@@ -82906,26 +82962,21 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1966365697,
+                        "fingerprint": 3719484221,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "better-end-refmap.json",
-                        "fingerprint": 2849666942,
+                        "fingerprint": 79918688,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 196804417,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "shadow",
-                        "fingerprint": 1955960556,
+                        "fingerprint": 1285233986,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3149858860,
+                "packageFingerprint": 152405777,
                 "gameVersion": [
                     "Fabric",
                     "1.19.2",
@@ -82960,28 +83011,28 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 413596,
-                "fileNameOnDisk": "better-end-2.1.6.jar",
+                "fileNameOnDisk": "better-end-2.1.7.jar",
                 "hashes": [
                     {
                         "type": 1,
-                        "value": "c4df03477ca5df28a0822e6aeff73efd8fccd50a"
+                        "value": "fdaa9d5988361ac81e3201ea6a4801357d398e68"
                     },
                     {
                         "type": 2,
-                        "value": "479591c8d6793b482dccb00dbc6ec107"
+                        "value": "aa65d6292be2124431f650f9943cf223"
                     }
                 ]
             },
-            "dateInstalled": "2024-05-15T18:24:46.8130694Z",
-            "dateUpdated": "2024-05-15T18:24:46.8305774Z",
-            "status": 3,
+            "dateInstalled": "2024-11-27T21:10:39.5465299Z",
+            "dateUpdated": "2024-11-27T21:10:39.5697759Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": null,
             "preferenceAlternateFile": false,
             "isEnabled": true,
             "filePaths": [
-                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\better-end-2.1.6.jar"
+                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\better-end-2.1.7.jar"
             ],
             "preferenceIsIgnored": false,
             "isModified": false,
@@ -83002,19 +83053,7 @@
                 "serverPackFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 495191,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 580555,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306770,
+                        "addonId": 310111,
                         "type": 2
                     },
                     {
@@ -83022,7 +83061,19 @@
                         "type": 2
                     },
                     {
-                        "addonId": 310111,
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306770,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 495191,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 580555,
                         "type": 2
                     }
                 ],
@@ -101792,7 +101843,7 @@
             "gameInstanceID": "7d55115f-e05d-4aab-822e-f5733f96f0d7",
             "name": "Complementary Shaders - Unbound",
             "modFolderPath": "G:\\mc\\Instances\\AQM2 1.19.2\\shaderpacks",
-            "fileNameOnDisk": "ComplementaryUnbound_r5.3.zip",
+            "fileNameOnDisk": "ComplementaryShaders.zip",
             "authors": [
                 {
                     "Id": 100618333,
@@ -101806,13 +101857,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/875/480/256/256/638298072228596362.png",
             "tags": [],
             "installedFile": {
-                "id": 5874235,
-                "fileName": "ComplementaryUnbound_r5.3.zip",
-                "fileDate": "2024-11-04T10:14:52.43Z",
-                "fileLength": 446661,
+                "id": 4367398,
+                "fileName": "ComplementaryShaders_v4.7.1.zip",
+                "fileDate": "2023-01-27T08:41:59.613Z",
+                "fileLength": 3456096,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/5874/235/ComplementaryUnbound_r5.3.zip",
+                "downloadUrl": "https://edge.forgecdn.net/files/4367/398/ComplementaryShaders_v4.7.1.zip",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "serverPackFileId": 0,
@@ -101820,118 +101871,87 @@
                 "isAvailable": true,
                 "modules": [
                     {
-                        "foldername": ".gitignore",
-                        "fingerprint": 616155307,
+                        "foldername": "shaders",
+                        "fingerprint": 1160615112,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "HOW TO INSTALL.txt",
-                        "fingerprint": 3932948327,
+                        "foldername": "Information.txt",
+                        "fingerprint": 1754471869,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "License.txt",
-                        "fingerprint": 348468745,
+                        "fingerprint": 160181697,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "shaderFile_A_BSL.placebo",
+                        "fingerprint": 2702737872,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "shaderFile_B_Compatibility.placebo",
+                        "fingerprint": 2702737872,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "shaderFile_C_Extended.placebo",
+                        "fingerprint": 2702737872,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "shaderFile_D_Improved.placebo",
+                        "fingerprint": 2702737872,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "shaderFile_E_Utility.placebo",
+                        "fingerprint": 2702737872,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "shaderFile_F_Versatile.placebo",
+                        "fingerprint": 2702737872,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "shaderFile_G_Visibility.placebo",
+                        "fingerprint": 2702737872,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "shaderFile_1",
-                        "fingerprint": 1565179202,
+                        "fingerprint": 1152118311,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "shaderFile_2",
-                        "fingerprint": 2702737872,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "shaderFile_A.placebo",
-                        "fingerprint": 2702737872,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "shaderFile_B.placebo",
-                        "fingerprint": 2702737872,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "shaderFile_C.placebo",
-                        "fingerprint": 2702737872,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "shaderFile_D.placebo",
-                        "fingerprint": 2702737872,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "shaderFile_Versions.txt",
-                        "fingerprint": 2717924694,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "shaders",
-                        "fingerprint": 3154135046,
+                        "fingerprint": 2035300806,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 345988719,
+                "packageFingerprint": 3881792196,
                 "gameVersion": [
                     "1.17.1",
-                    "1.19.3",
-                    "1.20.2",
-                    "1.21",
-                    "1.20.5",
                     "1.9.4",
                     "1.14.4",
                     "1.19.4",
                     "1.16.5",
                     "1.10.2",
                     "1.18.2",
-                    "1.19.2",
-                    "1.20.3",
                     "1.15.2",
-                    "1.20.1",
-                    "1.20",
-                    "OptiFine",
-                    "1.20.6",
-                    "1.19.1",
-                    "1.20.4",
-                    "1.21.3",
-                    "1.21.1",
+                    "1.7.10",
                     "1.11.2",
-                    "Iris",
                     "1.12.2",
-                    "1.19",
                     "1.8.9",
-                    "1.13.2",
-                    "1.21.2"
+                    "1.13.2"
                 ],
                 "sortableGameVersion": [
                     {
                         "gameVersion": "1.17.1",
                         "gameVersionName": "1.17.1",
                         "gameVersionTypeId": 73242
-                    },
-                    {
-                        "gameVersion": "1.19.3",
-                        "gameVersionName": "1.19.3",
-                        "gameVersionTypeId": 73407
-                    },
-                    {
-                        "gameVersion": "1.20.2",
-                        "gameVersionName": "1.20.2",
-                        "gameVersionTypeId": 75125
-                    },
-                    {
-                        "gameVersion": "1.21",
-                        "gameVersionName": "1.21",
-                        "gameVersionTypeId": 77784
-                    },
-                    {
-                        "gameVersion": "1.20.5",
-                        "gameVersionName": "1.20.5",
-                        "gameVersionTypeId": 75125
                     },
                     {
                         "gameVersion": "1.9.4",
@@ -101964,59 +101984,14 @@
                         "gameVersionTypeId": 73250
                     },
                     {
-                        "gameVersion": "1.19.2",
-                        "gameVersionName": "1.19.2",
-                        "gameVersionTypeId": 73407
-                    },
-                    {
-                        "gameVersion": "1.20.3",
-                        "gameVersionName": "1.20.3",
-                        "gameVersionTypeId": 75125
-                    },
-                    {
                         "gameVersion": "1.15.2",
                         "gameVersionName": "1.15.2",
                         "gameVersionTypeId": 68722
                     },
                     {
-                        "gameVersion": "1.20.1",
-                        "gameVersionName": "1.20.1",
-                        "gameVersionTypeId": 75125
-                    },
-                    {
-                        "gameVersion": "1.20",
-                        "gameVersionName": "1.20",
-                        "gameVersionTypeId": 75125
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "OptiFine",
-                        "gameVersionTypeId": 76871
-                    },
-                    {
-                        "gameVersion": "1.20.6",
-                        "gameVersionName": "1.20.6",
-                        "gameVersionTypeId": 75125
-                    },
-                    {
-                        "gameVersion": "1.19.1",
-                        "gameVersionName": "1.19.1",
-                        "gameVersionTypeId": 73407
-                    },
-                    {
-                        "gameVersion": "1.20.4",
-                        "gameVersionName": "1.20.4",
-                        "gameVersionTypeId": 75125
-                    },
-                    {
-                        "gameVersion": "1.21.3",
-                        "gameVersionName": "1.21.3",
-                        "gameVersionTypeId": 77784
-                    },
-                    {
-                        "gameVersion": "1.21.1",
-                        "gameVersionName": "1.21.1",
-                        "gameVersionTypeId": 77784
+                        "gameVersion": "1.7.10",
+                        "gameVersionName": "1.7.10",
+                        "gameVersionTypeId": 5
                     },
                     {
                         "gameVersion": "1.11.2",
@@ -102024,19 +101999,9 @@
                         "gameVersionTypeId": 599
                     },
                     {
-                        "gameVersion": "",
-                        "gameVersionName": "Iris",
-                        "gameVersionTypeId": 76871
-                    },
-                    {
                         "gameVersion": "1.12.2",
                         "gameVersionName": "1.12.2",
                         "gameVersionTypeId": 628
-                    },
-                    {
-                        "gameVersion": "1.19",
-                        "gameVersionName": "1.19",
-                        "gameVersionTypeId": 73407
                     },
                     {
                         "gameVersion": "1.8.9",
@@ -102047,11 +102012,6 @@
                         "gameVersion": "1.13.2",
                         "gameVersionName": "1.13.2",
                         "gameVersionTypeId": 55023
-                    },
-                    {
-                        "gameVersion": "1.21.2",
-                        "gameVersionName": "1.21.2",
-                        "gameVersionTypeId": 77784
                     }
                 ],
                 "hasInstallScript": false,
@@ -102060,28 +102020,28 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 385587,
-                "fileNameOnDisk": "ComplementaryUnbound_r5.3.zip",
+                "fileNameOnDisk": "ComplementaryShaders_v4.7.1.zip",
                 "hashes": [
                     {
                         "type": 1,
-                        "value": "9474a8bc55e4f37786568ae532e4336aab72ba42"
+                        "value": "ace224078b04b7eea7541cde4f7630a89b4831cc"
                     },
                     {
                         "type": 2,
-                        "value": "50893f00c06b63dfd140dbcac22cc69f"
+                        "value": "8715784436e158bd0fc5321cca73eb92"
                     }
                 ]
             },
-            "dateInstalled": "2024-11-27T07:31:35.3168391Z",
-            "dateUpdated": "2024-11-27T07:31:35.3168391Z",
-            "status": 4,
+            "dateInstalled": "2024-11-27T21:15:50.2875455Z",
+            "dateUpdated": "2024-11-27T21:15:50.2875455Z",
+            "status": 3,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": null,
             "preferenceAlternateFile": false,
             "isEnabled": true,
             "filePaths": [
-                "G:\\mc\\Instances\\AQM2 1.19.2\\shaderpacks\\ComplementaryUnbound_r5.3.zip"
+                "G:\\mc\\Instances\\AQM2 1.19.2\\shaderpacks\\ComplementaryShaders.zip"
             ],
             "preferenceIsIgnored": false,
             "isModified": false,
@@ -103369,7 +103329,7 @@
             "gameInstanceID": "7d55115f-e05d-4aab-822e-f5733f96f0d7",
             "name": "Gobber [FABRIC]",
             "modFolderPath": "G:\\mc\\Instances\\AQM2 1.19.2\\mods",
-            "fileNameOnDisk": "Gobber2-Fabric-1.19.2-2.6.62.jar",
+            "fileNameOnDisk": "Gobber2-Fabric-1.19.2-2.6.63.jar",
             "authors": [
                 {
                     "Id": 12170282,
@@ -103383,13 +103343,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/321/630/256/256/637431628944800992.png",
             "tags": [],
             "installedFile": {
-                "id": 5105029,
-                "fileName": "Gobber2-Fabric-1.19.2-2.6.62.jar",
-                "fileDate": "2024-02-13T15:27:18.517Z",
-                "fileLength": 723946,
+                "id": 5346381,
+                "fileName": "Gobber2-Fabric-1.19.2-2.6.63.jar",
+                "fileDate": "2024-05-15T18:33:43.287Z",
+                "fileLength": 724009,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/5105/29/Gobber2-Fabric-1.19.2-2.6.62.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/5346/381/Gobber2-Fabric-1.19.2-2.6.63.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "serverPackFileId": 0,
@@ -103398,7 +103358,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 592360473,
+                        "fingerprint": 640655079,
                         "invalidFingerprint": false
                     },
                     {
@@ -103428,12 +103388,12 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1205910690,
+                        "fingerprint": 4236590781,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "Gobber2-Fabric-1.19.2-refmap.json",
-                        "fingerprint": 4117258053,
+                        "fingerprint": 3992030750,
                         "invalidFingerprint": false
                     },
                     {
@@ -103442,7 +103402,7 @@
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 173433659,
+                "packageFingerprint": 1416096306,
                 "gameVersion": [
                     "Fabric",
                     "Client",
@@ -103477,28 +103437,28 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 427177,
-                "fileNameOnDisk": "Gobber2-Fabric-1.19.2-2.6.62.jar",
+                "fileNameOnDisk": "Gobber2-Fabric-1.19.2-2.6.63.jar",
                 "hashes": [
                     {
                         "type": 1,
-                        "value": "31c3228c37eccfd245ded444f0bfe9da2e58a994"
+                        "value": "2a6aa9b1657f7189cc7e207e5f4f821f16cf7ce7"
                     },
                     {
                         "type": 2,
-                        "value": "8552b21218f30fcbf215610a0859326c"
+                        "value": "c6f0690f574f45791a22d652719d2331"
                     }
                 ]
             },
-            "dateInstalled": "2024-05-12T19:02:13.6169067Z",
-            "dateUpdated": "2024-05-12T19:02:13.6179068Z",
-            "status": 3,
+            "dateInstalled": "2024-11-27T19:47:17.3928512Z",
+            "dateUpdated": "2024-11-27T19:47:17.3953578Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": null,
             "preferenceAlternateFile": false,
             "isEnabled": true,
             "filePaths": [
-                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\\Gobber2-Fabric-1.19.2-2.6.62.jar"
+                "G:\\mc\\Instances\\AQM2 1.19.2\\mods\\Gobber2-Fabric-1.19.2-2.6.63.jar"
             ],
             "preferenceIsIgnored": false,
             "isModified": false,

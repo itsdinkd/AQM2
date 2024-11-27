@@ -1,6 +1,6 @@
 ## **Another Quality Modpack 2 v1.9**
 
-_Fabric Loader 0.16.9_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.9.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.9.md)_
+_Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.9.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.9.md)_
 
 ## HIGHLIGHTS
 - First and foremost, updated dozens of mods providing better performance overall, and bug fixes
@@ -19,20 +19,20 @@ _Fabric Loader 0.16.9_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.1
   - and more
 - Better loot from **Loot Integrations**
 - **Create** updated
+- Several mod hotfixes had to be uploaded due to these mods not being compatible with 0.15.x fabric loader
 
 ## ADDED
 - **fix gpu memory leak**
   - Mod that does what its name says
-- **Packet Fixer** (Swapped with XL packets to fix any other potential packet errors)
-- **Echo Chest** (Basically a vacuum but also collects xp orbs that you can convert into bottles o enchanting)
-- **Highlight** (Better block highlighting)
+- **Packet Fixer** Swapped with XL packets to fix any other potential packet errors
+- **Echo Chest** Basically a vacuum but also collects xp orbs that you can convert into bottles o enchanting
+- **Highlight** Better block highlighting
 - **Oceans Delight**
-  - Farmer Delight addon for the great seas. Using your culinary skills, you can prepare a myriad of hearty meals made with creatures of the ocean!
+  - Farmer Delight addon for the great seas. Using your culinary skills, you can prepare a myriad of hearty meals made with creatures of the ocean
 - **Create: Steam n Rails**
-  - Expands Create's railway system because why not?
+  - Expands Create's railway system because why not
 - **Load my Fing Tags**
-  - Prevents mods from breaking an entire tag would cause in turn cause broken recipes, for example.
-  - I forgot to disable the in game error warning, ignore this warning, its a message basically for pack creators and developers.
+  - Prevents mods from breaking an entire tag would cause in turn cause broken recipes, for example
 - **Macaws Paths and Pavings**
   - Who doesn't want neat roads?
 - **Enderman Overhaul**
@@ -41,11 +41,11 @@ _Fabric Loader 0.16.9_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.1
 - **Extended AE (AE2 Addon)**
   - ExtendedAE brings some 1.7.10/1.12.2 AE features back to modern AE (36 slots pattern provider, 36 slots interface, better pattern access terminal, and more)
 - **Immersive Melodies** 
-  - Whether you want to create a band, annoy your friends or just want Skeletons playing Megalovania while storming your base, this mod has it all. 
+  - Whether you want to create a band, annoy your friends or just want Skeletons playing Megalovania while storming your base, this mod has it all
   - Play 25 bundled songs (plus 21 extra songs I added for aqm2) that are included on 7 instruments
 
 
-## FIXES
+## FIXED
 - Rare crash and potential toast issues with Advancement Plaques
 - Memory leak with Botania and JEI/REI, Akashic Tome crash, and some minor issues
 - Create Slice and Dice crashes

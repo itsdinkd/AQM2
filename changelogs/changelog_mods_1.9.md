@@ -1,6 +1,6 @@
 ## another-quality-modpack-2 - 1.8.4 -> 1.9
 
-### fabric - 0.14.25 -> 0.16.9
+### fabric - 0.14.25 -> 0.15.11
 
 ### Added
 
@@ -25,6 +25,7 @@
 
 ### Removed
 
+  * [Besmirchment 2](https://www.curseforge.com/minecraft/mc-mods/besmirchment-2) (by [MrSterner_](https://www.curseforge.com/members/MrSterner_/projects))
   * [XL Packets Fabric](https://www.curseforge.com/minecraft/mc-mods/xl-packets-fabric) (by [tfarecnim](https://www.curseforge.com/members/tfarecnim/projects))
 
 ### Changed
@@ -32,7 +33,10 @@
   * [AdditionalEnchantedMiner-1.19-fabric-19.1.753.jar](https://www.curseforge.com/minecraft/mc-mods/additional-enchanted-miner/files/4454873) -> [AdditionalEnchantedMiner-1.19-fabric-19.2.1157.jar](https://www.curseforge.com/minecraft/mc-mods/additional-enchanted-miner/files/5123069)
   * [AdvancementPlaques-1.19.2-fabric-1.4.6.jar](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric/files/3949457) -> [AdvancementPlaques-1.19.2-fabric-1.6.6.jar](https://www.curseforge.com/minecraft/mc-mods/advancement-plaques-fabric/files/5612299)
   * [azurelib-fabric-1.19.2-1.0.41.jar](https://www.curseforge.com/minecraft/mc-mods/azurelib/files/5069925) -> [azurelib-fabric-1.19.2-1.0.54.jar](https://www.curseforge.com/minecraft/mc-mods/azurelib/files/5782746)
-  * [blame-log-0.3.2-1.18.jar](https://www.curseforge.com/minecraft/mc-mods/blame-log/files/4707518) -> [blame-log-0.5.0-1.18.2-build.14.jar](https://www.curseforge.com/minecraft/mc-mods/blame-log/files/5589975)
+  * [bclib-2.1.7.jar](https://www.curseforge.com/minecraft/mc-mods/bclib/files/4572719) -> [bclib-2.1.8.jar](https://www.curseforge.com/minecraft/mc-mods/bclib/files/4986808)
+  * [better-end-2.1.6.jar](https://www.curseforge.com/minecraft/mc-mods/betterend/files/4572737) -> [better-end-2.1.7.jar](https://www.curseforge.com/minecraft/mc-mods/betterend/files/4986810)
+  * [better-nether-7.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/betternether/files/4572724) -> [better-nether-7.1.5.jar](https://www.curseforge.com/minecraft/mc-mods/betternether/files/4986817)
+  * [blame-log-0.3.2-1.18.jar](https://www.curseforge.com/minecraft/mc-mods/blame-log/files/4707518) -> [blame-log-0.4.0-1.18.jar](https://www.curseforge.com/minecraft/mc-mods/blame-log/files/4960728)
   * [Botania-1.19.2-440-FABRIC.jar](https://www.curseforge.com/minecraft/mc-mods/botania-fabric/files/4557910) -> [Botania-1.19.2-440.2-FABRIC.jar](https://www.curseforge.com/minecraft/mc-mods/botania-fabric/files/5608809)
   * [chat_heads-0.10.23-fabric-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/chat-heads/files/4854888) -> [chat_heads-0.13.7-fabric-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/chat-heads/files/5936587)
   * [CraftPresence-2.1.2+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/craftpresence/files/4632190) -> [CraftPresence-2.5.1+1.19.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/craftpresence/files/5798218)
@@ -44,6 +48,7 @@
   * [expandedstorage-8.3.4+1.19.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/expanded-storage/files/5136590) -> [expandedstorage-8.4.0-beta.1+1.19.2-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/expanded-storage/files/5288077)
   * [friendsandfoes-fabric-mc1.19.2-2.0.10.jar](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes/files/5184423) -> [friendsandfoes-fabric-mc1.19.2-3.0.6.jar](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes/files/5904785)
   * [ftb-quests-fabric-1902.5.8-build.345.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric/files/5060505) -> [ftb-quests-fabric-1902.5.9-build.399.jar](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric/files/5417955)
+  * [Gobber2-Fabric-1.19.2-2.6.62.jar](https://www.curseforge.com/minecraft/mc-mods/gobber-fabric/files/5105029) -> [Gobber2-Fabric-1.19.2-2.6.63.jar](https://www.curseforge.com/minecraft/mc-mods/gobber-fabric/files/5346381)
   * [ImmediatelyFast-Fabric-1.2.14+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast/files/5317927) -> [ImmediatelyFast-Fabric-1.3.2+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast/files/5894638)
   * [LargeFluidTank-19.1.596-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/largefluidtank-fabric/files/4066168) -> [LargeFluidTank-19.1.640-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/largefluidtank-fabric/files/5745593)
   * [LegendaryTooltips-1.19.2-fabric-1.3.3.jar](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips-fabric/files/3998293) -> [LegendaryTooltips-1.19.2-fabric-1.3.4.jar](https://www.curseforge.com/minecraft/mc-mods/legendary-tooltips-fabric/files/5659462)

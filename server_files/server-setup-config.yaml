@@ -6,10 +6,10 @@ modpack:
   
 install:
   mcVersion: 1.19.2
-  loaderVersion: 0.14.25
+  loaderVersion: 0.15.11
   
-  modpackUrl: https://media.forgecdn.net/files/5942/311/AQM2-1.19.2-1.9.zip
-  installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.1/fabric-installer-0.11.1.jar
+  modpackUrl: https://media.forgecdn.net/files/5942/720/AQM2-1.19.2-1.9.zip
+  installerUrl: https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar
   
   ignoreFiles:
     - mods/optifine*.jar
@@ -39,13 +39,18 @@ install:
     - "-mcversion"
     - "1.19.2"
     - "-loader"
-    - "0.14.25"
+    - "0.15.11"
 
   modpackFormat: curse
   
   formatSpecific:
     ignoreProject: 
       - 242064 #Item Scroller
+      - 385587 #Comp Shader
+      - 610844 #Bliss Shader
+      - 322506 #BSL Shader
+      - 627557 #Comp Shader 2
+      - 678384 #Solas Shader
       - 245733 #torohealth
       - 882495 #fix gpu memory leak
       - 250419 #enct descriptions
