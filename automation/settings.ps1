@@ -30,12 +30,12 @@ $MODPACK_NAME = "another-quality-modpack-2"
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.9"
+$MODPACK_VERSION = "1.9.1-hotfix"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "1.8.4"
+$LAST_MODPACK_VERSION = "1.9.1"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -100,7 +100,7 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "mods/besmirchment-1.19.2-11-hotfix.jar",
     "mods/stacc-1.3.4-fab15hotfix.jar",
     "mods/ExtraOriginsCompatibilityFix-1.0.0_1.16.5-1.20.1.jar",
-    "indrev-1.15.2-BETA-fab15hotfix2.jar",
+    "mods/indrev-1.15.2-BETA-fab15hotfix2.jar",
     "mods/magitekmechs-fabric-MC1.19.2-1.0.16.jar"
 )
 

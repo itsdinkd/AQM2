@@ -1,4 +1,4 @@
-## another-quality-modpack-2 - 1.9.1-hotfix
+## another-quality-modpack-2 - 1.9.1
 
   * [ad_astra-fabric-1.19.2-1.12.7.jar](https://www.curseforge.com/minecraft/mc-mods/ad-astra/files/4643667) (by [AlexNijjar](https://www.curseforge.com/members/AlexNijjar/projects))
   * [AdaptiveTooltips-1.0.1-fabric-1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/adaptive-tooltips/files/4115793) (by [isXander](https://www.curseforge.com/members/isXander/projects))

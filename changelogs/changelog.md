@@ -1,7 +1,23 @@
-## **Another Quality Modpack 2 v1.9**
+## **Another Quality Modpack 2 v1.9.1-hotfix**
 
-_Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.9.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.9.md)_
 
+_Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.9.1-hotfix.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.9.1-hotfix.md)_
+
+## FIXES
+- Added missing industrial revolution hotfix
+
+---
+
+## **Another Quality Modpack 2 v1.9.1**
+
+_Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_1.9.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_1.9.1.md)_
+
+*Changelog for both 1.9 and 1.9.1*
+
+**v1.9.1**
+- Forgot to add the two new soulslike bosses to eldritch tier
+
+**v1.9**
 ## HIGHLIGHTS
 - First and foremost, updated dozens of mods providing better performance overall, and bug fixes
 - **Soulslike Weapons** (I have finally updated and balanced)
@@ -54,6 +70,7 @@ _Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - Lootr ticking data optimization; basically better performance
 - Fixed dupe bug with a certain item
 - Spectrum update provides bug fixes via 1.20.1 backport
+
 ---
 
 ## **Another Quality Modpack 2 v1.8.4**
