@@ -2063,6 +2063,24 @@
 			x: 19.5d
 			y: -8.5d
 		}
+		{
+			description: [
+				"Convert a Villager into a Jeweler and buy some Jewelery."
+				""
+				"These special necklaces and rings will buff your Spells (From Wizards, Paladins, and any mod using Spell Engine)"
+				""
+				"You will also find Jewelery Ores that you can use to craft when you mine"
+			]
+			id: "4B259CB65A359DB4"
+			subtitle: "Jewelery Spell Integration"
+			tasks: [{
+				id: "179D6EA567C4D403"
+				item: "jewelry:jewelers_kit"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -12.5d
+		}
 	]
 	subtitle: ["You're a Wizard, harry"]
 	title: "General Magic and Spells"

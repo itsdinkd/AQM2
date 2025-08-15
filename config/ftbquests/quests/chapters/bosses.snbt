@@ -793,6 +793,12 @@
 			]
 			hide_dependency_lines: true
 			id: "3D8C6E7D44891F51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B1CCB30E301E891"
+				table_id: 8685670595573372088L
+				type: "random"
+			}]
 			size: 1.25d
 			subtitle: "Found in the nether at the Gladiator Arena"
 			tasks: [{
@@ -1065,11 +1071,19 @@
 				"66F4F9428D96C99A"
 			]
 			id: "0A5AEA3C67FF7C23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "125A142612B6C35E"
+				table_id: 1830006897849082013L
+				type: "random"
+			}]
+			subtitle: "Repeatable &l&cTeleportation"
 			tasks: [{
 				id: "45AAC8D8F1AB283A"
 				item: "bosses_of_mass_destruction:charged_ender_pearl"
 				type: "item"
 			}]
+			title: "Obtain Charged Ender Pearl"
 			x: 5.0d
 			y: 2.0d
 		}

@@ -1,0 +1,38 @@
+#Range: -12 ~ 12
+instrument_pitch = 0
+#Range: 0.0 ~ 1.0
+instrument_volume = 1.0
+#Allowed Values: KEYBOARD_LAYOUT, QWERTY, NOTE_NAME, DO_RE_MI, ABC, NONE
+label_type = "KEYBOARD_LAYOUT"
+#Allowed Values: MONO, MIXED, STEREO
+channel_type = "MIXED"
+#Stops all background music when you or someone else within 10.0 blocks of range plays an instrument
+stop_music_on_play = true
+#Defines whether you will see others playing on your instrument's screen
+display_other_players = true
+render_background = true
+accurate_notes = true
+normalize_vintage_lyre = true
+accepted_genshin_consent = true
+#Allowed Values: OLD, NEW
+zither_sound_type = "NEW"
+#Allowed Values: KEYBOARD_LAYOUT, QWERTY, DON_KA, NOTE_NAME, DO_RE_MI, NONE
+drum_label_type = "KEYBOARD_LAYOUT"
+midi_enabled = false
+#Range: > -1
+midi_device_index = -1
+#Range: 0.0 ~ 1.0
+midi_in_sensitivity = 0.5
+#When a note that is higher/lower than the usual octave range is played, will automatically adjust the pitch to match your playings. Can only extend up to 1 octave per side: high and low C.
+extend_octaves = true
+#Defines whether the velocity of a note press will not affect the instrument's volume
+fixed_touch = false
+accept_all_channels = true
+#Range: -5 ~ 5
+midi_octave_shift = 0
+#Range: 0 ~ 15
+midi_channel = 0
+#Defines the MIDI split behaviour of the Arataki's Great and Glorious Drum
+#Allowed Values: DON, KA, BOTH
+dominant_drum_type = "BOTH"
+

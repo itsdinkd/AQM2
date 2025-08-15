@@ -256,7 +256,7 @@
 				item: "aqm2:epic_gem"
 				type: "item"
 			}]
-			title: "Dragon Loot (2 Epic Gems)"
+			title: "Dragon Loot &c(&l&b2 &r&cEpic Gems)"
 			x: 1.0d
 			y: -10.5d
 		}
@@ -276,7 +276,7 @@
 				item: "aqm2:epic_gem"
 				type: "item"
 			}]
-			title: "Mineshaft Entrance (1 Epic Gem)"
+			title: "Mineshaft Entrance &c(&l&b1 &r&cEpic Gem)"
 			x: 3.0d
 			y: -10.5d
 		}
@@ -304,7 +304,7 @@
 				item: "aqm2:epic_gem"
 				type: "item"
 			}]
-			title: "Unique Weapons Loot (3 Epic Gems)"
+			title: "Unique Weapons Loot &c(&l&b3&r&c Epic Gems)"
 			x: 1.0d
 			y: -9.0d
 		}
@@ -369,7 +369,7 @@
 				item: "aqm2:legendary_gem"
 				type: "item"
 			}]
-			title: "Indrev Slaughter (2 Legendary Gems)"
+			title: "Indrev Slaughter &c(&b&l2&r &cLegendary Gems)"
 			x: 7.5d
 			y: -10.5d
 		}
@@ -402,9 +402,99 @@
 				item: "aqm2:legendary_gem"
 				type: "item"
 			}]
-			title: "Verglas (2 Legendary Gems)"
+			title: "Verglas &c(&l&b2&r &cLegendary Gems)"
 			x: 9.5d
 			y: -10.5d
+		}
+		{
+			icon: "minepop:minepop_sanji"
+			id: "385C530435A6E26D"
+			repeatable: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A0EF60AE374FF45"
+				table_id: 5154822684591214429L
+				type: "random"
+			}]
+			subtitle: "Random Funko Pop"
+			tasks: [{
+				consume_items: true
+				count: 7L
+				id: "6AEECA8C39C18702"
+				item: "aqm2:silver_coin"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Gacha Funko Pops (7 Silver Coins)"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			icon: "winged:wing_random"
+			id: "58497191CDFEABED"
+			repeatable: true
+			rewards: [{
+				id: "5BF13223665EF488"
+				item: "winged:wing_random"
+				type: "item"
+			}]
+			subtitle: "Random Wing (Elytra Skin)"
+			tasks: [{
+				consume_items: true
+				count: 500L
+				id: "27D4E0EEFFF43897"
+				item: "aqm2:gold_coin"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Gacha Winged (500 Gold Coins)"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			icon: "givemehats:topest_hat"
+			id: "0FDA8E5843597ACC"
+			repeatable: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C859A755EC34BB4"
+				table_id: 1830006897849082013L
+				type: "random"
+			}]
+			subtitle: "Random Hat"
+			tasks: [{
+				consume_items: true
+				count: 250L
+				id: "05662B69AB09A1F8"
+				item: "aqm2:gold_coin"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Gacha Hats (250 Gold Coins)"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			description: ["&lUnlimited Usage&r"]
+			icon: "mobz:orb2"
+			id: "0061614593D8CD86"
+			repeatable: true
+			rewards: [{
+				id: "104F3E2CA2945C20"
+				item: "mobz:orb2"
+				type: "item"
+			}]
+			subtitle: "Levitate for 10 Seconds, Higher and Higher"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "32C774C63BBCFBC2"
+				item: "aqm2:legendary_gem"
+				type: "item"
+			}]
+			title: "Orb of Levitation &c(&b&l3&r &cLegendary Gems)"
+			x: 7.5d
+			y: -9.0d
 		}
 	]
 	subtitle: ["Use those quest coins"]

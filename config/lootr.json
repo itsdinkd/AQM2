@@ -59,6 +59,7 @@
     "disable_notifications": false
   },
   "vanilla": {
-    "vanilla_textures": false
+    "vanilla_textures": false,
+    "old_textures": false
   }
 }

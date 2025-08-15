@@ -3,10 +3,10 @@
         "highlight_foused_items": {
             "value": false
         },
+        "highlight_foused_items_foreground": false,
         "enable_auto_refill": {
             "value": false
         },
-        "highlight_foused_items_foreground": false,
         "enable_updates_check": false,
         "add_interval_between_clicks": {
             "value": true
@@ -22,11 +22,6 @@
             "value": false
         },
         "enable_inventory_buttons": {
-            "value": false
-        }
-    },
-    "LockedSlotsSettings": {
-        "locked_slots_empty_hotbar_as_semi_locked": {
             "value": false
         }
     },

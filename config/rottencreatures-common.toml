@@ -1,0 +1,19 @@
+#determine how often will Burneds spawn
+burnedWeight = 20
+#determine how often will Frostbittens spawn
+frostbittenWeight = 80
+#determine how often will Glacial Hunters spawn
+glacialHunterWeight = 20
+#determine how often will Swampies spawn
+swampyWeight = 80
+#determine how often will Undead Miners spawn
+undeadMinerWeight = 20
+#determine the max y height where Undead Miners can spawn
+undeadMinerDepth = 63
+#determine how often will Mummies spawn
+mummyWeight = 20
+#determine how often will Dead Beard spawn
+deadBeardWeight = 1
+#determine the chance of spawning for Immortals
+immortalChance = 0.025
+

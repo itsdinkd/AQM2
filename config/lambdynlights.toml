@@ -962,4 +962,8 @@
 
 			[light_sources.settings.entities.endermanoverhaul]
 				cave_enderman = true
+				snowy_enderman = true
+
+			[light_sources.settings.entities.smallships]
+				brigg = true
 

@@ -1,6 +1,13 @@
 {
     "name": "Vampirism",
-    "description": "You cannot heal normally, instead suck blood from your enemies to heal yourelf. Excess blood goos to the BLOOD METER",
+    "description": "You cannot heal normally, instead suck blood from your enemies to heal yourelf. Excess blood goos to the blood meter",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "text": "Blood meter stores up to 100 blood",
+            "sprite": "origins:textures/gui/badge/info.png"
+        }
+    ],
     "type": "origins:multiple",
     "weak": {
         "condition": {

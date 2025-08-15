@@ -740,65 +740,6 @@
 			y: 2.4107142857142847d
 		}
 		{
-			description: [
-				"If you are using a vanilla crafting table/furnace/or any other vanilla station, Polymorph will not take effect, which allows you to choose which output item in your recipe"
-				""
-				"Use \"Improved Stations\" stations for crafting as it works with Polymorph, and also holds items left in its screen."
-			]
-			disable_toast: true
-			icon: "minecraft:stone"
-			id: "2B70D65FA38D567F"
-			invisible: true
-			secret: true
-			size: 2.0d
-			subtitle: "Read Me!"
-			tasks: [
-				{
-					id: "0479D7C1254370A6"
-					item: "improved-stations:crafting_station"
-					type: "item"
-				}
-				{
-					id: "2003430231FEEE77"
-					item: "improved-stations:crafting_station_slab"
-					type: "item"
-				}
-				{
-					id: "0F3CF7AEFB82194F"
-					item: "improved-stations:furnace_slab"
-					type: "item"
-				}
-				{
-					id: "11EAE1A528D7427D"
-					item: "improved-stations:smoker_slab"
-					type: "item"
-				}
-				{
-					id: "09505F6CE83C4A7C"
-					item: "improved-stations:blast_furnace_slab"
-					type: "item"
-				}
-				{
-					id: "62E3582D70EEF1B7"
-					item: "improved-stations:jukebox_slab"
-					type: "item"
-				}
-				{
-					id: "4108D21F9E8B7A15"
-					item: "improved-stations:loom_slab"
-					type: "item"
-				}
-				{
-					id: "2CCDD673B11FA39B"
-					item: "improved-stations:cartography_table_slab"
-					type: "item"
-				}
-			]
-			title: "Recipe Confliction?"
-			x: 15.0d
-			y: 2.0d
-		}
-		{
 			id: "014910E4CBF7157C"
 			subtitle: "Using this gem on your pet will allow it to respawn"
 			tasks: [{
@@ -1155,15 +1096,16 @@
 		}
 		{
 			description: [
-				" The Disenchanter is a deceptively simple device for recovering enchantments from items. Use it by itself, and the first enchantment will be returned and the item destroyed. Use one of the Catalysts however and you will get a different set of enchantments back. Some of them will even preserve the item in the process!"
-				" The rightmost slot takes books onto which the enchantments are transferred. The center slot is for the Catalysts"
+				"The Disenchanter is a deceptively simple device for recovering enchantments from items. Use it by itself, and the first enchantment will be returned and the item destroyed. Use one of the Catalysts however and you will get a different set of enchantments back. Some of them will even preserve the item in the process!"
 				""
-				" - Amethyst Shard (9x): Recovers the first enchantment and preserves the item"
-				" - Diamond (4x): Recovers two random enchantments and the first one "
-				" - Emerald (2x): Recovers two random enchantments"
-				" - Ender Pearl (4x): Recovers one random enchantment. Here, the item is also preserved but will take 500 durability damage"
-				" - Heart Of The Sea (4x): Recovers all enchantments but reduces them by one level"
-				" - Nether Star (16x): Recovers all enchantments and preserves the item"
+				"The rightmost slot takes books onto which the enchantments are transferred. The center slot is for the Catalysts"
+				""
+				" &l- &dAmethyst Shard (9x): &rRecovers the first enchantment and preserves the item"
+				" &l- &bDiamond (4x): &rRecovers two random enchantments and the first one "
+				" &l- &2Emerald (2x): &rRecovers two random enchantments"
+				" &l- &8Ender Pearl (4x): &rRecovers one random enchantment. Here, the item is also preserved but will take 500 durability damage"
+				" &l- &9Heart Of The Sea (4x): &rRecovers all enchantments but reduces them by one level"
+				" &l- &4Nether Star (16x): &rRecovers all enchantments and preserves the item"
 			]
 			id: "07D09F348C4A887E"
 			subtitle: "How to Disenchant"
@@ -1193,6 +1135,115 @@
 			title: "Mining Dimension"
 			x: 2.25d
 			y: 2.25d
+		}
+		{
+			description: [
+				"Using a Saw, you can easily craft recipes that involve wood from various mods in AQM2. This building is highly recommended to craft and place."
+				""
+				"You can also convert villagers into Carpenters using the Saw block and they will operate the Saw"
+			]
+			id: "179F1A6D13A18E5E"
+			rewards: [{
+				count: 2
+				id: "29B74A884F8A3624"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "1 Stop Shop for your Planks"
+			tasks: [{
+				id: "27B480C50A28FBC0"
+				item: "sawmill:sawmill"
+				type: "item"
+			}]
+			title: "Saw Wood Recipes"
+			x: 9.69285714285715d
+			y: 2.3214285714285765d
+		}
+		{
+			description: [
+				"Craft a Small Ship and sail the seas with yee crew. "
+				""
+				"Build a cannon and place it on your ship to fire balls at the combatant sailors."
+			]
+			id: "676BC569A2731E49"
+			rewards: [{
+				id: "5C16ECB673BF171F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Sail the Seas"
+			tasks: [{
+				id: "75C5E883F10E4033"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "smallships:oak_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:oak_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:acacia_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:acacia_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:spruce_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:oak_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:mangrove_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:mangrove_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:jungle_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:jungle_galley"
+							}
+							{
+								Count: 1b
+								id: "smallships:jungle_drakkar"
+							}
+							{
+								Count: 1b
+								id: "smallships:birch_brigg"
+							}
+							{
+								Count: 1b
+								id: "smallships:birch_cog"
+							}
+							{
+								Count: 1b
+								id: "smallships:birch_drakkar"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Small Ships!"
+			x: 10.5d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Read the quests here to learn about the modpack, what it offers, and where to start."]

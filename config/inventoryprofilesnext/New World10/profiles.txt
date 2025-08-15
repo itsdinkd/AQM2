@@ -1,0 +1,24 @@
+
+
+
+
+profile Saved activate HOT2
+	HOT1
+		"genshinstrument:vintage_lyre"
+	HOT2
+		"genshinstrument:windsong_lyre"
+	HOT3
+		"genshinstrument:floral_zither"
+	HOT4
+		"genshinstrument:glorious_drum"
+	HOT5
+		"jewelry:topaz"
+	HOT6
+		"jewelry:citrine"
+	HOT7
+		"jewelry:jade"
+	HOT8
+		"jewelry:tanzanite"
+	HOT9
+		"jewelry:copper_ring"
+

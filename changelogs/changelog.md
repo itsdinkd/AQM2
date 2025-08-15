@@ -1,3 +1,38 @@
+## **Another Quality Modpack 2 v2.0**
+
+## ADDED
+- Mr. Crayfish Furniture Mod Refurbished
+- Create: Copycats+
+- Create: New Age (Adds Electricity and more to Create)
+- Iris/Oculus & GeckoLib Compat (Better compatibility with mods that utilize GeckoLib animations)
+- Sawmill
+  - Compatible with every mod for crafting anything that involves wood in its simple interface
+  - Creates a Carpenter Villager that will operate the Sawmill, also generating 1 of 5 unique house at villages
+- Small Ships (Boats, boats, and more boats in the sea)
+- Genshin Instruments (Adds Instruments from Genshin Impact)
+- Medieval Origins Revival (Adds in 18 new origins that are all compatible with specific mods that are in AQM2 (like Spells Engine, Irons Spells and Spellsbook, Simply Swords, MC Dungeon Weapons, and more), offering unique spells as abilities. )
+- Jewels (RPG Series)
+  - Collect a total of 25+ new, different pieces of jewelry items! 
+  - Each piece of jewelry grants different combat related bonus.
+  - From early-game to end-game materials, there is always a relevant piece to obtain from mining the ores to crafting recipes and trading villagers for pieces and materials
+- Mermod (Adds a craftable necklace that allows you to grow a mermaid tail when equipped, and compatible with the new medieval origins mod)
+- BadOptimizations (Collection of mostly micro optimizations that add up to something bigger!)
+- Icterine (Reduces advancement toasts being called on the back end when not necessary, getting rid of unnecessary lag)
+
+## CHANGES
+- Inventory Profile Next update adds new feature that allows bookmarking villager trades globally to allow you to complete those trades in one click
+  - I left this enabled by default but if you'd like to disable it (it adds a few buttons on the villager trade screen, not too invasive) you can go into the IPN menu when you are on your inventory screen (top left)
+- I added a couple new redeemables to the Quest Shop (nothing major), and created a few new quests to introduce the new mods
+- Added missing rewards to a few quests
+
+
+_Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_2.0.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_2.0.md)_
+
+## FIXES
+- Added missing industrial revolution hotfix
+
+---
+
 ## **Another Quality Modpack 2 v1.9.1-hotfix**
 
 

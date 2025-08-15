@@ -16,6 +16,13 @@
 	dynamically_adjust_offsets = true
 	#Whether or not to decouple the camera rotation from the player rotation.
 	decoupled_camera = true
+	#Whether or not to orient the camera rotation when the player is teleported. This includes passenger (dis-)mounting and traveling through portals.
+	orient_camera_on_teleport = true
+	#Whether or not to apply the FOV override when in shoulder surfing perspective.
+	fov_override_enabled = false
+	#The camera FOV when in shoulder surfing perspective. Depends on config option 'fov_override_enabled'.
+	#Range: 30.0 ~ 110.0
+	fov_override = 70.0
 
 	[camera.offset]
 		#Third person camera x-offset.
@@ -172,16 +179,53 @@
 				#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 				modifier_offset_z = 0.0
 
+		[camera.offset.presets]
+			#A list of x-offset presets that can be toggled via the 'Toggle X-Offset Presets' keybind. WARNING: Duplicate entries can result in undefined behavior!
+			presets_offset_x = []
+			#A list of y-offset presets that can be toggled via the 'Toggle Y-Offset Presets' keybind. WARNING: Duplicate entries can result in undefined behavior!
+			presets_offset_y = []
+			#A list of z-offset presets that can be toggled via the 'Toggle Z-Offset Presets' keybind. WARNING: Duplicate entries can result in undefined behavior!
+			presets_offset_z = []
+
+	[camera.camera_drag]
+		#x-axis multiplier for camera drag.
+		#Range: 0.0 ~ 5.0
+		multiplier_axis_x = 0.0
+		#y-axis multiplier for camera drag.
+		#Range: 0.0 ~ 5.0
+		multiplier_axis_y = 0.0
+		#z-axis multiplier for camera drag.
+		#Range: 0.0 ~ 5.0
+		multiplier_axis_z = 0.0
+
+	[camera.camera_sway]
+		#The maximum x-axis angle in degrees. Set to 0 to disable.
+		#Range: -30.0 ~ 30.0
+		max_angle_axis_x = 0.0
+		#The maximum x-axis angle in degrees. Set to 0 to disable.
+		#Range: -30.0 ~ 30.0
+		max_angle_axis_z = 0.0
+		#The velocity of the player in blocks per second, where the maximum camera x-axis sway is applied.
+		#Range: 0.05 ~ 1000.0
+		max_velocity_axis_x = 5.0
+		#The velocity of the player in blocks per second, where the maximum camera z-axis sway is applied.
+		#Range: 0.05 ~ 1000.0
+		max_velocity_axis_z = 5.0
+
 [perspective]
 	#The default perspective when you load the game.
 	#Allowed Values: FIRST_PERSON, THIRD_PERSON_BACK, THIRD_PERSON_FRONT, SHOULDER_SURFING
-	default_perspective = "SHOULDER_SURFING"
+	default_perspective = "FIRST_PERSON"
 	#Whether or not to remember the last perspective used.
 	remember_last_perspective = true
 	#Whether or not to replace the default third person perspective.
 	replace_default_perspective = false
-	#Whether or not to skip the third person front perspective.
-	skip_third_person_front_perspective = false
+	#Whether or not the first person perspective is enabled.
+	first_person_enabled = true
+	#Whether or not the third person front perspective is enabled.
+	third_person_front_enabled = true
+	#Whether or not the third person back perspective is enabled.
+	third_person_back_enabled = true
 
 [player]
 	#Whether or not to adjust the player model transparency when view is obstructed. Changing this value may require a game restart to take full effect.
@@ -196,6 +240,8 @@
 	#The maximum angle to which the player y-rot follows the camera y-rot. This config option only applies when player y-rot follows camera option is enabled.
 	#Range: 0.0 ~ 180.0
 	player_y_rot_follow_angle_limit = 90.0
+	#Whether or not to turn the player model transparent when aiming. This config option only applies when adjust player transparency is enabled.
+	turn_player_transparent_when_aiming = false
 
 	[player.turning]
 		#Whether to turn the player when using an item. This config option only applies when camera is decoupled.
@@ -276,4 +322,16 @@
 [audio]
 	#Whether to center sounds made by the player.
 	center_player_sounds = false
+
+[integrations]
+
+	[integrations.curios]
+		#Items that when equipped in a curios slot, trigger the dynamic crosshair in adaptive mode. This config option supports regular expressions. The curios slot must be specified before the expression and is separated by an '@' character. Example: 'ring@angelring:.*_ring' matches 'angelring:diamond_ring' and 'angelring:angel_ring' when equipped in the 'ring' slot.
+		adaptive_crosshair_items = []
+		#Item properties of an item, that when equipped in a curios slot, trigger the dynamic crosshair in adaptive mode. Example: 'necklace@charged'
+		adaptive_crosshair_item_properties = []
+
+	[integrations.epicfight]
+		#Whether to allow target lock-on when camera is decoupled.
+		decoupled_camera_lock_on = false
 

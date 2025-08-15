@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 760,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -37,12 +37,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     }
@@ -66,12 +61,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     }
@@ -97,12 +87,7 @@
           "smallImageText": "",
           "startTimestamp": "",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     },
@@ -126,12 +111,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "loadingData": {
@@ -150,12 +130,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "lanData": {
@@ -174,12 +149,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "singleplayerData": {
@@ -198,12 +168,7 @@
         "smallImageText": "",
         "startTimestamp": "",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "realmData": {
@@ -238,12 +203,7 @@
             "smallImageText": "",
             "startTimestamp": "",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       }
@@ -270,12 +230,7 @@
             "smallImageText": "",
             "startTimestamp": "",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       },
@@ -296,12 +251,7 @@
             "smallImageText": "",
             "startTimestamp": "",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       }
@@ -311,8 +261,7 @@
     "playerSkinEndpoint": "https://minotar.net/cube/%1$s/100",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false,
-    "useClassLoader": false
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "languageId": "en_us",
@@ -336,15 +285,9 @@
       "smallImageText": "{server.message} {custom.pack}",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
-      "default": "https://media.discordapp.net/attachments/933583171725951056/1062211235153711154/pack.png",
       "DaddyDanked": "https://minotar.net/cube/f2ff48109a324e04ac5ca25e3ebf916c/100",
       "aqm21182.minecraft.best": "https://api.mcsrvstat.us/icon/aqm21182.minecraft.best",
       "BbyDanked": "https://minotar.net/cube/bdf209bfacd341168f07caf14928db7c/100",
@@ -354,7 +297,6 @@
       "aqm2bouji.minecraft.best": "https://api.mcsrvstat.us/icon/<map>"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",

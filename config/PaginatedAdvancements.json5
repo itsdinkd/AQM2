@@ -3,7 +3,8 @@
 	"FadeOutBackgroundOnAdvancementHover": true,
 	// List of pinned Tabs (root advancement identifier)
 	"PinnedTabs": [
-		"spectrum:spectrum"
+		"spectrum:spectrum",
+		"repurposed_structures:root"
 	],
 	// Save and restore the last selected tab
 	"SaveLastSelectedTab": true,
