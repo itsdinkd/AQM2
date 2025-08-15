@@ -236,7 +236,7 @@
   * [labels-1.19.2-1.10-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/labels/files/4709788) (by [MehVahdJukaar](https://www.curseforge.com/members/MehVahdJukaar/projects))
   * [lambdabettergrass-1.3.0+1.19.jar](https://www.curseforge.com/minecraft/mc-mods/lambdabettergrass/files/3834055) (by [LambdAurora](https://www.curseforge.com/members/LambdAurora/projects))
   * [lambdynamiclights-2.2.0+1.19.2.jar](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights/files/4257321) (by [LambdAurora](https://www.curseforge.com/members/LambdAurora/projects))
-  * [Lankasters-Origins-1.5.6-1.19.jar](https://www.curseforge.com/minecraft/mc-mods/lankaster-origins/files/4624276) (by [lankasteria](https://www.curseforge.com/members/lankasteria/projects))
+  * [Lankasters Origins.jar](https://www.curseforge.com/minecraft/mc-mods/lankaster-origins/files/4406106) (by [lankasteria](https://www.curseforge.com/members/lankasteria/projects))
   * [LargeFluidTank-19.1.640-fabric.jar](https://www.curseforge.com/minecraft/mc-mods/largefluidtank-fabric/files/5745593) (by [Kotori316](https://www.curseforge.com/members/Kotori316/projects))
   * [lava-java-0.4.3.jar](https://www.curseforge.com/minecraft/mc-mods/lava-java/files/4639801) (by [TigerOfTroy](https://www.curseforge.com/members/TigerOfTroy/projects))
   * [lazydfu-0.1.3.jar](https://www.curseforge.com/minecraft/mc-mods/lazydfu/files/3821870) (by [tuxed](https://www.curseforge.com/members/tuxed/projects))

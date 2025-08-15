@@ -101,7 +101,8 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "mods/stacc-1.3.4-fab15hotfix.jar",
     "mods/ExtraOriginsCompatibilityFix-1.0.0_1.16.5-1.20.1.jar",
     "mods/indrev-1.15.2-BETA-fab15hotfix2.jar",
-    "mods/magitekmechs-fabric-MC1.19.2-1.0.16.jar"
+    "mods/magitekmechs-fabric-MC1.19.2-1.0.16.jar",
+    "mods/BewitchmentCompatibilityFix-1.0.0_1.17.1-1.20.1.jar"
 )
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems", "PaginatedAdvancements.json5", "xaerominimap.txt", "xaeroworldmap.json", "iris.properties", "sodium-options.json", "sodium-mixins.json", "sodium-extra-options.json", "sodium-extra.json")

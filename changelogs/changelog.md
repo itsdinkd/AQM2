@@ -1,6 +1,7 @@
 ## **Another Quality Modpack 2 v2.0**
 
 ## ADDED
+- Bewitchment Compatibility Fix (Fixes issues with bewitchment in servers like poppets crashing the game)
 - Mr. Crayfish Furniture Mod Refurbished
 - Create: Copycats+
 - Create: New Age (Adds Electricity and more to Create)
