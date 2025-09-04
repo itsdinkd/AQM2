@@ -10,6 +10,6 @@
     "special_recipe_costs": {
       "stairs": 1.0
     },
-    "max_discount": 0.40
+    "max_discount": 0.4
   }
 }

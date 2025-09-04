@@ -82,7 +82,6 @@ key_modifiers_key.clienttweaks.disableStepAssist:0,0,0
 key_modifiers_key.clienttweaks.disableLogStripping:0,0,0
 key_modifiers_keybinds.combatroll.roll:0,0,0
 key_modifiers_key.conjuring.toggle_tool_mode:0,0,0
-key_modifiers_keyinfo.copycats.fill_copycat:0,0,0
 key_modifiers_key.craftingtweaks.rotate:0,0,0
 key_modifiers_key.craftingtweaks.rotate_counter_clockwise:0,0,0
 key_modifiers_key.craftingtweaks.balance:0,0,0
@@ -125,8 +124,6 @@ key_modifiers_key.origins.denary_active:0,0,0
 key_modifiers_key.fabrictailor.toggle_skin_gui:0,0,0
 key_modifiers_key.gearreborn.toggle_nv:0,0,0
 key_modifiers_key.origins.arcanite_toggle:0,0,0
-key_modifiers_genshinstrument.keymaps.transpose_up_modifier:0,0,0
-key_modifiers_genshinstrument.keymaps.transpose_down_modifier:0,0,0
 key_modifiers_key.halfdoors.door_flip:0,0,0
 key_modifiers_key.immersive_aircraft.multi_control_left:0,0,0
 key_modifiers_key.immersive_aircraft.multi_control_right:0,0,0
@@ -148,6 +145,11 @@ key_modifiers_key.inventoryhud.openconfig:1,0,0
 key_modifiers_key.inventoryhud.togglepot:0,0,0
 key_modifiers_key.inventoryhud.togglearm:0,0,0
 key_modifiers_key.inventoryhud.toggleall:0,0,0
+key_modifiers_key.jade.config:0,0,0
+key_modifiers_key.jade.show_overlay:0,0,0
+key_modifiers_key.jade.toggle_liquid:0,0,0
+key_modifiers_key.jade.narrate:0,0,0
+key_modifiers_key.jade.show_details_alternative:0,0,0
 key_modifiers_key.keywizard.openKeyWizard:0,0,1
 key_modifiers_key.lightoverlay.enable_overlay:0,0,0
 key_modifiers_keybind.luggage.call:0,0,0
@@ -185,7 +187,6 @@ key_modifiers_key.shouldersurfing.toggle_y_offset_presets:0,0,0
 key_modifiers_key.shouldersurfing.toggle_z_offset_presets:0,0,0
 key_modifiers_key.showmeyourskin.open_settings:0,0,1
 key_modifiers_key.showmeyourskin.global_toggle:0,0,0
-key_modifiers_key.smallships.ship_sail:0,0,0
 key_modifiers_key.soulsweapons.return_freyr_sword:0,0,0
 key_modifiers_key.soulsweapons.freyr_sword_stationary:0,0,0
 key_modifiers_key.soulsweapons.collect_summons_soul_reaper:0,0,0
@@ -211,11 +212,6 @@ key_modifiers_key.travelersbackpack.cycle_tool:0,0,0
 key_modifiers_key.veinmining.activate.desc:0,0,0
 key_modifiers_key.walljump.walljump:0,0,0
 key_modifiers_key.whereisit.finditem:0,0,0
-key_modifiers_key.waila.config:0,0,0
-key_modifiers_key.waila.show_overlay:0,0,0
-key_modifiers_key.waila.toggle_liquid:0,0,0
-key_modifiers_key.waila.show_recipe_input:0,0,0
-key_modifiers_key.waila.show_recipe_output:0,0,0
 key_modifiers_gui.xaero_minimap_settings:0,0,0
 key_modifiers_gui.xaero_zoom_in:0,0,0
 key_modifiers_gui.xaero_zoom_out:0,0,0

@@ -1,4 +1,22 @@
+## **Another Quality Modpack 2 v2.0.1**
+
+_Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_2.0.1.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_2.0.1.md)_
+
+## CHANGES
+- Fixed Server Join Disconnect issue by removing the mod Sawmill. This mod sent a packet larger than the max packet size when joining a server (most likely due to having tons of wood recipes from other mods)
+- Removed Chatheads
+- Replaced WTHIT with Jade due to Megane no longer supported with latest WTHIT version
+- Added Jade Addons mod
+- Removed Icterine as it caused longer load times
+- For full changelog from v1.9 see v2.0
+
+
+---
+
+
 ## **Another Quality Modpack 2 v2.0**
+
+_Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_2.0.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_2.0.md)_
 
 ## ADDED
 - Bewitchment Compatibility Fix (Fixes issues with bewitchment in servers like poppets crashing the game)
@@ -25,12 +43,6 @@
   - I left this enabled by default but if you'd like to disable it (it adds a few buttons on the villager trade screen, not too invasive) you can go into the IPN menu when you are on your inventory screen (top left)
 - I added a couple new redeemables to the Quest Shop (nothing major), and created a few new quests to introduce the new mods
 - Added missing rewards to a few quests
-
-
-_Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/changelog_mods_2.0.md)_ | _[Modlist](https://github.com/itsdinkd/AQM2/blob/1.19.2/changelogs/modlist_2.0.md)_
-
-## FIXES
-- Added missing industrial revolution hotfix
 
 ---
 

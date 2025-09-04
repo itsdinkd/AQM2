@@ -30,12 +30,12 @@ $MODPACK_NAME = "another-quality-modpack-2"
 $CLIENT_NAME = "AQM2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "2.0"
+$MODPACK_VERSION = "2.0.1"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
 # Should be "$null" if this is the first release
-$LAST_MODPACK_VERSION = "1.9.1-hotfix"
+$LAST_MODPACK_VERSION = "2.0"
 
 # Which modloader the modpack uses
 # Can be "forge" or "fabric"
@@ -102,12 +102,13 @@ $FOLDERS_TO_INCLUDE_IN_CLIENT_FILES = @(
     "mods/ExtraOriginsCompatibilityFix-1.0.0_1.16.5-1.20.1.jar",
     "mods/indrev-1.15.2-BETA-fab15hotfix2.jar",
     "mods/magitekmechs-fabric-MC1.19.2-1.0.16.jar",
-    "mods/BewitchmentCompatibilityFix-1.0.0_1.17.1-1.20.1.jar"
+    "mods/BewitchmentCompatibilityFix-1.0.0_1.17.1-1.20.1.jar",
+    "mods/expandedstorage-8.4.0-beta.1+1.19.2-fabric.jar"
 )
 
 $CONFIGS_TO_REMOVE_FROM_CLIENT_FILES = @("roughlyenoughitems", "PaginatedAdvancements.json5", "xaerominimap.txt", "xaeroworldmap.json", "iris.properties", "sodium-options.json", "sodium-mixins.json", "sodium-extra-options.json", "sodium-extra.json")
 
-$FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities")
+$FOLDERS_TO_REMOVE_FROM_CLIENT_FILES = @("local/ftbutilities", "kubejs/probe/cache")
 
 #=====================================================================//
 #  SERVER FILE SETTINGS

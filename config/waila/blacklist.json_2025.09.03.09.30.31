@@ -1,6 +1,7 @@
 {
   "_comment": [
-    "The game needs to be restarted for the changes to apply.",
+    "Run /waila reload to apply changes server-wide.",
+    "Run /wailac reload to apply changes to only your client.",
     "",
     "Operators:",
     "@namespace - include objects based on their namespace location",
@@ -19,21 +20,28 @@
     "minecraft:iron_block - include only the iron block",
     "!/.*:oak_.*$/        - exclude all blocks that its path start with \"oak_\"",
     "",
-    "The #waila:extra/fluid_blacklist tag rule can not be removed"
+    "The #waila:blacklist tag rule can not be removed"
   ],
   "blocks": [
-    "#waila:extra/fluid_blacklist",
-    "minecraft:water",
-    "minecraft:lava",
-    "minecraft:flowing_lava",
-    "minecraft:flowing_water"
+    "#waila:blacklist",
+    "minecraft:barrier",
+    "minecraft:structure_void"
   ],
   "blockEntityTypes": [
-    "#waila:extra/fluid_blacklist",
-    "minecraft:water"
+    "#waila:blacklist"
   ],
   "entityTypes": [
-    "#waila:extra/fluid_blacklist",
-    "minecraft:water"
+    "#waila:blacklist",
+    "minecraft:area_effect_cloud",
+    "minecraft:experience_orb",
+    "minecraft:fireball",
+    "minecraft:firework_rocket",
+    "minecraft:snowball"
+  ],
+  "configVersion": 0,
+  "pluginHash": [
+    981800043,
+    1449661236,
+    1049483431
   ]
 }

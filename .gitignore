@@ -21,6 +21,7 @@ bg/load-wave-purple.png
 chesttracker/*
 config - copy/*
 modernfix
+automation/before-updating.txt
 config/byg/backups
 /xaero/
 config/chisel

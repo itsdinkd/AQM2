@@ -772,6 +772,7 @@
 				moobloom = true
 				iceologer = true
 				rascal = true
+				crab = true
 
 			[light_sources.settings.entities.chubbystuff]
 				quagsire = true
@@ -963,6 +964,8 @@
 			[light_sources.settings.entities.endermanoverhaul]
 				cave_enderman = true
 				snowy_enderman = true
+				flower_fields_enderman = true
+				dark_oak_enderman = true
 
 			[light_sources.settings.entities.smallships]
 				brigg = true
