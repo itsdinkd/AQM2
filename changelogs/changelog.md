@@ -8,7 +8,7 @@ _Fabric Loader 0.15.11_  _[Mod Changes](https://github.com/itsdinkd/AQM2/blob/1.
 - Replaced WTHIT with Jade due to Megane no longer supported with latest WTHIT version
 - Added Jade Addons mod
 - Removed Icterine as it caused longer load times
-- For full changelog from v1.9 see v2.0
+- For full changelog see v2.0
 
 
 ---
